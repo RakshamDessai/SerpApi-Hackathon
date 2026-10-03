@@ -1,0 +1,41 @@
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+*.env
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Node / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Sensitive keys and data
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/
+*.log
+
+# Codebase memory index
+.codebase-memory/
