@@ -1,0 +1,51 @@
+UNIVERSITY OF DELHI
+B.A. (Hons.) Sociology - Semester II
+Paper SOC 202: Methods of Sociological Enquiry
+Credits: 6 (Lectures 5, Tutorial 1)
+
+Course Objectives: To introduce students to the logic of social research and to
+build practical competence in designing studies, collecting data and analysing
+it responsibly.
+
+Unit I: The Logic of Social Research
+Philosophy of social science. Positivism and interpretivism. Objectivity,
+reflexivity and value neutrality. The relationship between theory and method.
+Formulating a research question and a researchable problem. Literature review
+and conceptual framework. Hypothesis, variables and operationalisation.
+
+Unit II: Qualitative Research Methods
+Ethnography and participant observation. Field notes and thick description.
+Semi-structured and in-depth interviewing: designing an interview guide,
+probing, rapport. Focus group discussions: moderation and composition. Case
+study method. Oral histories and life histories. Thematic analysis: open coding,
+axial coding, building a qualitative codebook and identifying themes.
+
+Unit III: Quantitative Research Methods and Survey Design
+Survey research design. Sampling: probability and non-probability methods,
+simple random, stratified, cluster, purposive and snowball sampling. Sample
+size and sampling error. Questionnaire construction: question wording, avoiding
+leading and double-barrelled questions, Likert scales, pre-testing and piloting.
+Coding and data entry. Descriptive statistics: measures of central tendency and
+dispersion. Cross-tabulation and chi-square. Interpreting correlation.
+
+Unit IV: Data Collection, Fieldwork and Ethics
+Primary and secondary sources. Use of census data, NSSO and NFHS datasets.
+Content analysis of documents and media. Research ethics: informed consent,
+anonymity, confidentiality, and research with vulnerable groups. Institutional
+review and ethical clearance. Plagiarism and research integrity.
+
+Unit V: Analysis, Writing and Dissemination
+Triangulation and mixed methods. Writing a research report: structure,
+referencing and citation conventions. Presenting findings through tables and
+charts. Writing a policy brief for a non-academic audience. Community needs
+assessment and stakeholder mapping.
+
+Practical Component: Students will design and pilot a short questionnaire on a
+contemporary social issue, conduct five semi-structured interviews, code the
+transcripts, and submit a 2000-word analytical report with a one-page policy
+brief.
+
+Suggested Readings:
+1. C.R. Kothari, Research Methodology: Methods and Techniques.
+2. Earl Babbie, The Practice of Social Research.
+3. Alan Bryman, Social Research Methods.

@@ -3,7 +3,7 @@ SerpApi Quickstart & Health Check Script
 Run this script to verify your SerpApi setup and API key.
 
 Usage:
-    python test_serpapi.py
+    python check_serpapi.py
 """
 
 import os

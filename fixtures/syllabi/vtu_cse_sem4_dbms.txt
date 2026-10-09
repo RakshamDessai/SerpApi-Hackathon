@@ -1,0 +1,53 @@
+VISVESVARAYA TECHNOLOGICAL UNIVERSITY
+B.E. Computer Science and Engineering - Semester IV
+Subject Code 21CS42: Database Management Systems
+Credits: 4 (L:T:P = 3:0:2)
+
+Course Outcomes: Design relational schemas, write and optimise SQL, reason about
+normal forms, and understand transaction and indexing internals.
+
+Module 1: Introduction and Conceptual Modelling
+Database system concepts and architecture. Data models, schemas and instances.
+Three-schema architecture and data independence. Entity-Relationship model:
+entities, attributes, keys, relationship types, cardinality ratios and
+participation constraints. Weak entity types. Extended ER features:
+specialisation, generalisation and aggregation. Converting an ER diagram to a
+relational schema.
+
+Module 2: The Relational Model and SQL
+Relational model concepts, constraints and relational algebra: selection,
+projection, join, division and set operations. SQL data definition and data
+types. SQL queries: joins, nested queries, correlated subqueries, aggregation
+with GROUP BY and HAVING, set operations. Views, assertions and triggers.
+Writing complex analytical queries.
+
+Module 3: Normalisation and Schema Design
+Functional dependencies, inference rules, closure and minimal cover. Candidate
+keys. Normal forms: 1NF, 2NF, 3NF, Boyce-Codd Normal Form. Multivalued
+dependencies and 4NF. Lossless join and dependency-preserving decomposition.
+Denormalisation trade-offs in practice.
+
+Module 4: Indexing, Storage and Query Optimisation
+File organisation and record storage. Single-level and multi-level indexes.
+B-Trees and B+ Trees: structure, search, insertion and deletion. Hash indexes.
+Composite and covering indexes. Query execution plans. Reading EXPLAIN ANALYZE
+output. Cost estimation, join algorithms (nested loop, hash join, sort-merge)
+and query tuning. Identifying and fixing slow queries.
+
+Module 5: Transactions and Concurrency Control
+Transaction concepts and ACID properties. Schedules and serialisability.
+Two-phase locking, deadlock detection and prevention. Timestamp ordering.
+Multiversion concurrency control. Recovery: write-ahead logging, checkpoints,
+ARIES. Isolation levels in PostgreSQL and MySQL.
+
+Laboratory Component:
+1. Design an ER diagram for a given case study and map it to a relational schema.
+2. Create tables with constraints and populate them.
+3. Write nested and correlated SQL queries.
+4. Create indexes and compare query plans using EXPLAIN ANALYZE.
+5. Implement triggers and stored procedures.
+6. Build a small front end connected to the database.
+
+Suggested Readings:
+1. Elmasri and Navathe, Fundamentals of Database Systems.
+2. Silberschatz, Korth and Sudarshan, Database System Concepts.
