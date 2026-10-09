@@ -3,20 +3,23 @@ SerpApi Service Wrapper
 Provides structured, resilient access to multiple SerpApi search engines.
 """
 
-from typing import Dict, Any, List, Optional
-from serpapi import GoogleSearch
-from src.config import SERPAPI_API_KEY, is_serpapi_configured
+from typing import Dict, Any, Optional
+import serpapi
+from src.config import SERPAPI_API_KEY
 
 
 class SerpApiService:
     def __init__(self, api_key: Optional[str] = None):
         self.api_key = api_key or SERPAPI_API_KEY
+        self.client = serpapi.Client(api_key=self.api_key) if self.api_key else None
 
     def _ensure_api_key(self):
         if not self.api_key or self.api_key == "your_serpapi_api_key_here":
             raise ValueError(
                 "SERPAPI_API_KEY is not configured. Please set it in your .env file."
             )
+        if not self.client:
+            self.client = serpapi.Client(api_key=self.api_key)
 
     def search_web(self, query: str, location: str = "India", num: int = 5) -> Dict[str, Any]:
         """Perform standard Google Web search."""
@@ -28,10 +31,8 @@ class SerpApiService:
             "hl": "en",
             "gl": "in",
             "num": num,
-            "api_key": self.api_key,
         }
-        search = GoogleSearch(params)
-        return search.get_dict()
+        return self.client.search(params)
 
     def search_news(self, query: str, location: str = "India", num: int = 5) -> Dict[str, Any]:
         """Fetch real-time news articles via Google News engine."""
@@ -41,10 +42,8 @@ class SerpApiService:
             "q": query,
             "gl": "in",
             "hl": "en",
-            "api_key": self.api_key,
         }
-        search = GoogleSearch(params)
-        return search.get_dict()
+        return self.client.search(params)
 
     def search_shopping(self, query: str, location: str = "India", num: int = 5) -> Dict[str, Any]:
         """Search products and prices via Google Shopping engine."""
@@ -55,10 +54,8 @@ class SerpApiService:
             "location": location,
             "gl": "in",
             "hl": "en",
-            "api_key": self.api_key,
         }
-        search = GoogleSearch(params)
-        return search.get_dict()
+        return self.client.search(params)
 
     def search_scholar(self, query: str, num: int = 5) -> Dict[str, Any]:
         """Search academic papers, citations, and patents via Google Scholar."""
@@ -67,10 +64,8 @@ class SerpApiService:
             "engine": "google_scholar",
             "q": query,
             "hl": "en",
-            "api_key": self.api_key,
         }
-        search = GoogleSearch(params)
-        return search.get_dict()
+        return self.client.search(params)
 
     def search_maps(self, query: str, location: str = "India") -> Dict[str, Any]:
         """Search places, businesses, ratings, and coordinates via Google Maps."""
@@ -78,10 +73,8 @@ class SerpApiService:
         params = {
             "engine": "google_maps",
             "q": query,
-            "api_key": self.api_key,
         }
-        search = GoogleSearch(params)
-        return search.get_dict()
+        return self.client.search(params)
 
     def search_jobs(self, query: str, location: str = "India") -> Dict[str, Any]:
         """Search active job openings via Google Jobs."""
@@ -91,7 +84,5 @@ class SerpApiService:
             "q": query,
             "location": location,
             "hl": "en",
-            "api_key": self.api_key,
         }
-        search = GoogleSearch(params)
-        return search.get_dict()
+        return self.client.search(params)

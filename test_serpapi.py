@@ -34,19 +34,19 @@ def check_environment():
         return True
 
 def test_search():
-    from serpapi import GoogleSearch
+    import serpapi
     print("\n[i] Testing connection to SerpApi with a sample Google Search query...")
     try:
+        client = serpapi.Client(api_key=SERPAPI_API_KEY)
         params = {
+            "engine": "google",
             "q": "SerpApi India Hackathon 2026",
             "location": "India",
             "hl": "en",
             "gl": "in",
-            "api_key": SERPAPI_API_KEY,
             "num": 3
         }
-        search = GoogleSearch(params)
-        results = search.get_dict()
+        results = client.search(params)
 
         if "error" in results:
             print(f"[ERROR] SerpApi returned error: {results['error']}")
