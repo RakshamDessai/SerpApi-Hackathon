@@ -162,6 +162,7 @@ def build_opportunities(
                 band=signals.infer_band(result),
                 est_hours=signals.estimate_hours(result),
                 scam_flag=scammy,
+                provenance=result.provenance,
             )
         )
 

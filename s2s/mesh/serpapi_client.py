@@ -135,6 +135,9 @@ class SerpApiClient:
     def _parse(self, response: dict, dork: Dork) -> list[RawResult]:
         field = RESULT_FIELD.get(dork.engine, "organic_results")
         items = response.get(field) or []
+        # Fixtures harvested straight from a platform carry this stamp so the
+        # UI can never present them as SerpApi output.
+        provenance = response.get("s2s_source") or "serpapi"
         out: list[RawResult] = []
 
         for item in items:
@@ -143,6 +146,7 @@ class SerpApiClient:
             else:
                 parsed = self._parse_organic(item, dork)
             if parsed is not None:
+                parsed.provenance = provenance
                 out.append(parsed)
         return out
 

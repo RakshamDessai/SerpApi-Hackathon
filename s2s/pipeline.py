@@ -56,6 +56,16 @@ class PipelineResult:
     gap_report: "gaps_module.GapReport | None" = None
 
     @property
+    def provenances(self) -> set[str]:
+        """Distinct data sources behind this run's results."""
+        return {o.provenance for o in self.opportunities}
+
+    @property
+    def has_harvested(self) -> bool:
+        """True if any result came from a direct harvest rather than SerpApi."""
+        return "public-api-harvest" in self.provenances
+
+    @property
     def searched(self) -> bool:
         """Did any search actually execute? Gap findings are meaningless if not."""
         return (self.ledger.live_calls + self.ledger.cache_hits) > 0

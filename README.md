@@ -49,7 +49,7 @@ scoring and ranking are all deterministic code below it. That is what gives one
 codebase for every academic stream — and what makes a no-LLM fallback possible.
 
 **2. Platforms are declarative data, not code.**
-Each of the **17 platforms** is one `PlatformAdapter` entry holding its domain,
+Each of the **16 platforms** is one `PlatformAdapter` entry holding its domain,
 URL regex, SerpApi engine, dork template, ecosystem badge, trust tier and
 liveness strategy. Adding an eighteenth is one registry entry.
 
@@ -96,8 +96,16 @@ two external APIs has two single points of failure.
 ### Demo mode (0 credits, no network)
 
 ```bash
+# With a key - real SerpApi responses, ~40 credits:
 .venv/bin/python scripts/record_fixtures.py --dry-run   # shows the cost first
-.venv/bin/python scripts/record_fixtures.py             # ~40 credits, all 4 presets
+.venv/bin/python scripts/record_fixtures.py
+
+# Without a key - real listings harvested from the platforms' own public
+# endpoints. Clearly labelled in the UI as "not SerpApi". Covers the CS preset.
+.venv/bin/python scripts/harvest_demo_fixtures.py
+
+# Verify url_pattern and gate_markers against live pages (no credits):
+.venv/bin/python scripts/verify_adapters.py
 ```
 
 Then set `S2S_DEMO_MODE=true`. The cache becomes read-only with no expiry, so the
@@ -197,7 +205,7 @@ an API without change.
 ## Tests
 
 ```bash
-.venv/bin/python -m pytest        # 278 passed, 2 skipped
+.venv/bin/python -m pytest        # 279 passed, 2 skipped
 ```
 
 Covering registry integrity, the budget cap as a safety property, every scoring

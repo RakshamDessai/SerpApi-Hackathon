@@ -1,0 +1,76 @@
+{
+  "fetched_at": 1791535872.645445,
+  "engine": "google",
+  "params": {
+    "engine": "google",
+    "q": "site:github.com inurl:issues (\"good first issue\" OR \"help wanted\") (\"concurrency\" OR \"transaction handling\" OR \"database schema\" OR \"schema design\")",
+    "hl": "en",
+    "gl": "in",
+    "num": 10
+  },
+  "response": {
+    "s2s_source": "public-api-harvest",
+    "s2s_adapter": "github",
+    "s2s_query": "site:github.com inurl:issues (\"good first issue\" OR \"help wanted\") (\"concurrency\" OR \"transaction handling\" OR \"database schema\" OR \"schema design\")",
+    "search_metadata": {
+      "status": "Success",
+      "s2s_synthetic": true
+    },
+    "organic_results": [
+      {
+        "title": "[Feat]: Duplicate editor tab from the tab context menu",
+        "link": "https://github.com/TabularisDB/tabularis/issues/857",
+        "snippet": "good first issue in TabularisDB/tabularis. ### \ud83d\ude80 Feature Proposal  Add **Duplicate tab** to the editor tab context menu. It opens a new tab right after the source one with the same SQL and query parameters.  ### Motivation  When tweaking a query it is handy to fork it and try a variation without losing the original.  ### Where to start  - `src/pages/Editor.tsx`: the tab context menu. Add an item t",
+        "date": "2026-10-06"
+      },
+      {
+        "title": "[BUG]: LRUCache.Capacity reads the capacity without the lock Resize writes it under",
+        "link": "https://github.com/FraiseHQ/fraise/issues/449",
+        "snippet": "good first issue in FraiseHQ/fraise. **Describe the bug** `Capacity` returns `c.capacity` without taking `c.mu`, while `Resize` writes it under the lock, so concurrent calls race. The `Cache` interface promises concurrency safety. Nothing outside tests calls `Capacity` today, so the race is latent.  **To Reproduce** ```go c, _ := cache.NewLRUCache[int, int](10) go func() { for i := 0; i < 1000; i+",
+        "date": "2026-10-04"
+      },
+      {
+        "title": "sqlc: support the `/* name: X :many */` block-comment form for query names",
+        "link": "https://github.com/yukikotani231/sqlsift/issues/127",
+        "snippet": "good first issue in yukikotani231/sqlsift. Welcome! This is a small parsing change in one short file. Found in the second usage simulation.  ## What's wrong  sqlsift shows which sqlc query a diagnostic belongs to (`note: in query 'ListPosts'`) by finding `-- name: <Name> :<command>` comments. sqlc also accepts the block-comment form `/* name: <Name> :<command> */`, but sqlsift ignores it, so diagn",
+        "date": "2026-10-09"
+      },
+      {
+        "title": "[FT] LiteLLM concurrency parameters hard-coded",
+        "link": "https://github.com/huggingface/lighteval/issues/567",
+        "snippet": "good first issue in huggingface/lighteval. I noticed that for LiteLLM the concurrency is hard-coded for an arbitrary number (20). Well, a lot of the request behavior is hard coded, but the concurrency is the one that is probably least likely to work well as a one size fits all.  If everything is going through the YAML file, maybe it can be expanded, although the YAML file is another ball of wax (m",
+        "date": "2025-02-16"
+      },
+      {
+        "title": "[CI] Cancel outdated CI runs when a PR gets a new push",
+        "link": "https://github.com/prakhar1605/Opencollab-mcp/issues/116",
+        "snippet": "good first issue in prakhar1605/Opencollab-mcp. ## Background  When a contributor pushes several commits to a PR in quick succession, which happens a lot here, CI runs the full matrix for every push, even though only the latest result matters. Old runs keep going and use up runner minutes.  ## What to do  Add a `concurrency` block at the top level of `.github/workflows/ci.yml`:  ```yaml concurrenc",
+        "date": "2026-10-08"
+      },
+      {
+        "title": "Hackathon [Feature]: Add BigQuery data-source connector",
+        "link": "https://github.com/topoteretes/cognee/issues/4767",
+        "snippet": "good first issue in topoteretes/cognee. ### Problem Statement  cognee has **five** data-source connectors today (`confluence`, `gmail`, `google-drive`, `notion`, `slack`) against roughly 120 planned. Data sources are the thinnest surface in the project.  **BigQuery** is on the roadmap and has no connector.  ### Proposed Solution  Add a `bigquery` connector under `packages/connector/bigquery/` in [",
+        "date": "2026-08-28"
+      },
+      {
+        "title": "[Docs] Add Drizzle ORM relational queries recipe to docs/guides/database/03_DRIZZLE_ORM.md",
+        "link": "https://github.com/hoslift/ranu.js/issues/195",
+        "snippet": "good first issue in hoslift/ranu.js. ### Background & Motivation \\docs/guides/database/03_DRIZZLE_ORM.md\\ illustrates core SQL query building with Drizzle. Drizzle ORM also offers a powerful Relational Query API (\\db.query.*\\) providing intuitive nested querying akin to GraphQL or Prisma without requiring manual SQL joins.  ### Proposed Recipe Add a practical recipe section demonstrating: 1. Defin",
+        "date": "2026-10-08"
+      },
+      {
+        "title": "Attach\u00a0`Diagnostic`\u00a0to \"duplicate table name\" error",
+        "link": "https://github.com/apache/datafusion/issues/14436",
+        "snippet": "good first issue in apache/datafusion. ### Is your feature request related to a problem or challenge?  For a query like:  ```sql SELECT * FROM users a, users a ```  The only message that the end user of an application built atop of DataFusion sees is:  ``` Schema error: Schema contains duplicate qualified field name a.id ```  Similarly, for:  ```sql WITH cte AS (SELECT 1 AS col), cte AS (SELECT 2 ",
+        "date": "2025-02-03"
+      },
+      {
+        "title": "Add agent: Database Query Optimizer",
+        "link": "https://github.com/AditthyaSS/iloveAgents/issues/52",
+        "snippet": "good first issue in AditthyaSS/iloveAgents. **low SQL queries are one of the most common performance problems in production apps. This agent takes a SQL query and optional schema context as input and returns an optimized version with an explanation of what changed, what indexes to add, and why the original was slow. Real world use case: a backend developer pastes a query taking 4 seconds and gets ",
+        "date": "2026-05-14"
+      }
+    ]
+  }
+}

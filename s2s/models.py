@@ -167,6 +167,17 @@ VERDICT_LABEL: dict[str, str] = {
 }
 
 
+#: Where a result's underlying data came from. "serpapi" is the real thing;
+#: "public-api-harvest" means it was fetched directly from the platform so the
+#: demo has something real to show without a key. Never conflate the two.
+Provenance = Literal["serpapi", "public-api-harvest"]
+
+PROVENANCE_LABEL: dict[str, str] = {
+    "serpapi": "SerpApi",
+    "public-api-harvest": "Harvested directly (not SerpApi)",
+}
+
+
 @dataclass
 class RawResult:
     """A single SerpApi organic/jobs result, before grounding and scoring."""
@@ -178,6 +189,7 @@ class RawResult:
     organization: str | None = None
     posted_at: datetime | None = None
     raw: dict = field(default_factory=dict)
+    provenance: Provenance = "serpapi"
 
 
 @dataclass
@@ -240,6 +252,7 @@ class Opportunity:
     band: Band = "intermediate"
     est_hours: tuple[int, int] | None = None
     scam_flag: bool = False
+    provenance: Provenance = "serpapi"
     bridge: str | None = None
     blueprint: ShipBlueprint | None = None
     star_bullet: str | None = None

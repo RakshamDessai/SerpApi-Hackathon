@@ -200,19 +200,14 @@ _register(PlatformAdapter(
     gate_markers=("this listing has expired", "no longer available"),
 ))
 
-_register(PlatformAdapter(
-    key="volunteermatch",
-    label="VolunteerMatch",
-    engine="google",
-    site="volunteermatch.org",
-    url_pattern=r"^https?://(www\.)?volunteermatch\.org/search/opp\d+",
-    dork='site:volunteermatch.org ({terms})',
-    ecosystem="ngo_impact",
-    compensation="volunteer",
-    trust="B",
-    liveness="http_probe",
-    gate_markers=("opportunity is no longer", "this opportunity has expired"),
-))
+# VolunteerMatch was REMOVED on 2026-10-09 after live verification.
+# volunteermatch.org now 302s to idealist.org/volunteermatch - including deep
+# /search/oppNNNN.jsp links - so the site no longer serves opportunity pages at
+# all. Tier 0 still ACCEPTED those Google-indexed URLs (spending a credit), but
+# tier 2 then rejected every one as `archived` because the post-redirect host
+# no longer matches url_pattern. The adapter was therefore guaranteed to burn a
+# search and return nothing. Idealist, which absorbed it, is already in the
+# registry and covers the same ecosystem.
 
 _register(PlatformAdapter(
     key="zooniverse",

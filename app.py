@@ -184,6 +184,15 @@ def screen_results() -> None:
 
     st.caption(f"Budget ledger: {result.ledger.summary()}")
 
+    if result.has_harvested:
+        st.info(
+            "**Data provenance: harvested, not SerpApi.** These are real, "
+            "currently-open listings pulled straight from the platforms' own "
+            "public endpoints so the demo has something real to show without a "
+            "key. They are NOT SerpApi results. Add a SerpApi key and run "
+            "`scripts/record_fixtures.py` to replace them."
+        )
+
     for warning in result.warnings:
         st.warning(warning)
 

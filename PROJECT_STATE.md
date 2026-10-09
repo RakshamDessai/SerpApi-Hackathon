@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — living status
 
-**Last updated:** 2026-10-09, after the adversarial audit round.
+**Last updated:** 2026-10-09, after the improvement round.
 **Update rule:** rewrite sections 1, 2 and 6 at the end of every phase. A cold
 session must be able to resume from this file alone.
 
@@ -17,7 +17,7 @@ session must be able to resume from this file alone.
 | **Phase 4** | Syllabus Gap Report | ✅ done |
 | **Phase 5** | **Demo hardening + live validation** | 🔶 **blocked on a SerpApi key** |
 
-**Test suite: 278 passed, 2 skipped, ~1.8s.** App serves HTTP 200, no tracebacks, pyflakes clean. The UI is now driven end-to-end by `tests/test_ui.py` (Streamlit `AppTest`), which clicks the button and asserts cards, ship assets and the gap tab actually render.
+**Test suite: 279 passed, 2 skipped, ~1.8s.** App serves HTTP 200, no tracebacks, pyflakes clean. The UI is now driven end-to-end by `tests/test_ui.py` (Streamlit `AppTest`), which clicks the button and asserts cards, ship assets and the gap tab actually render.
 
 ### What is genuinely finished
 
@@ -33,6 +33,42 @@ Everything that can be built and verified **without API keys**:
 - 278 tests, including a full pipeline acceptance run against cache-seeded
   SerpApi-shaped payloads, and a Streamlit `AppTest` suite that clicks through
   the real UI.
+
+### Improvement round, 2026-10-09 (multi-agent survey + live verification)
+
+A 5-lens survey agreed with an independent finding: **there was no demo at all.**
+`fixtures/serpapi/` was empty, so with no key the results tab rendered blank.
+
+Added, all keyless and verified against live sites:
+
+| Addition | What it does |
+|---|---|
+| `scripts/harvest_demo_fixtures.py` | Pulls REAL currently-open listings from platforms' own public endpoints (Devpost JSON, GitHub search API, DrivenData, Zooniverse), normalises them into SerpApi response shape and writes them through the same cache. Demo mode now renders. |
+| `scripts/verify_adapters.py` | Checks `url_pattern` and `gate_markers` against live pages. **6 adapters verified** (devfolio, devpost, drivendata, github, taproot, zooniverse): pattern matched 3/3 real URLs, tier 2 returned `live`. |
+| Provenance plumbing | `RawResult`/`Opportunity` carry `provenance`; the UI banners harvested runs as **"not SerpApi"**. Harvested data can never be mistaken for SerpApi output. |
+
+**VolunteerMatch adapter REMOVED.** Live check: `volunteermatch.org` now 302s to
+`idealist.org/volunteermatch`, including deep `/search/oppNNNN.jsp` links. Tier 0
+accepted those URLs (spending a credit); tier 2 then archived every one because
+the post-redirect host no longer matches. Guaranteed to burn a search and return
+nothing. Registry is now 16 adapters.
+
+**First real-data quality measurement.** Running the CS preset on harvested
+listings exposed a bug introduced the same day: the fixture filter re-extracted
+phrases from the *rendered dork*, which carries adapter boilerplate
+(`"good first issue"`). Every harvested issue contains that by construction, so
+everything passed the filter while matching zero competency terms -
+`semantic` scored **0.000 on all 22 results**. Fixed by filtering on
+`dork.covers` competency phrases and querying GitHub for the student's actual
+skills. Result: semantic **0.000 -> 0.110 mean** (top results 0.32 and 0.70),
+top score **38% -> 52%**, and the best real match is
+*"Profiling - find and fix slow database queries"* against
+*"Indexing, Storage and Query Optimisation"*.
+
+Known limitation: only the **CS/Engineering preset** has harvestable oracles.
+Commerce, Design and Sociology target Catchafire / Taproot / UNV / Unstop /
+Idealist, none of which publish a free API - and UNV sits behind an Imperva WAF
+that rejects our TLS fingerprint entirely. Those three streams still need the key.
 
 ### The one blocker: no key has ever been used
 

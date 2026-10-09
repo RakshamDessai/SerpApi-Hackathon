@@ -111,3 +111,10 @@ def test_gate_markers_are_lowercase(adapter):
     """`tier2_probe` lowercases the body, so an upper-case marker never fires."""
     for marker in adapter.gate_markers:
         assert marker == marker.lower(), f"{adapter.key}: {marker!r} must be lowercase"
+
+
+def test_affinity_matrix_has_no_orphan_rows():
+    """A row for a removed adapter is dead config that silently drifts."""
+    from s2s.mesh import affinity
+    orphans = set(affinity.AFFINITY) - {a.key for a in ALL}
+    assert not orphans, f"affinity rows for adapters that no longer exist: {orphans}"

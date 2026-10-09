@@ -12,7 +12,12 @@ from __future__ import annotations
 import streamlit as st
 
 from s2s.mesh import adapters as adapter_registry
-from s2s.models import COMPENSATION_LABEL, ECOSYSTEM_LABEL, Opportunity, RawResult
+from s2s.models import (
+    COMPENSATION_LABEL,
+    ECOSYSTEM_LABEL,
+    Opportunity,
+    RawResult,
+)
 from s2s.score import signals
 from s2s.ship import export, prepare
 
@@ -61,6 +66,8 @@ def _header(opportunity: Opportunity) -> None:
         st.metric("Match", f"{opportunity.score.total}%")
 
     line = f"{icon} {verdict_text}"
+    if opportunity.provenance != "serpapi":
+        line += " · ⚠︎ harvested, not SerpApi"
     if opportunity.verified_at:
         line += f" · checked {opportunity.verified_at:%H:%M}"
     if opportunity.organization:
