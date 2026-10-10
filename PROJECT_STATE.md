@@ -17,14 +17,14 @@ session must be able to resume from this file alone.
 | **Phase 4** | Syllabus Gap Report | ✅ done |
 | **Phase 5** | Demo hardening + live validation | ✅ **done** (2026-10-10) |
 
-**Test suite: 329 passed, 4 skipped, ~2.3s.** Tests are isolated from `.env`
+**Test suite: 370 passed, 4 skipped, ~2.2s.** Tests are isolated from `.env`
 (autouse fixture in `tests/conftest.py`) and never make a network call.
 
 ### Phase 5: the first real SerpApi run, 2026-10-10
 
-A SerpApi key went into `.env` (git-ignored). About 100 of the free tier's 250
-monthly credits were used for diagnosis and recording, leaving **~150** at the end
-of the session. Check with `account.json` (free) before recording again.
+A SerpApi key went into `.env` (git-ignored). About 110 of the free tier's 250
+monthly credits were used for diagnosis and recording, leaving **~140** at the end
+of the session. Check with `python check_serpapi.py` (free) before recording again.
 
 **What real data showed, and what changed:**
 
@@ -44,21 +44,37 @@ of the session. Check with `account.json` (free) before recording again.
 | 15 Scholar papers buried every Sociology volunteer role. | `scorer.diversify`: ≤3 per platform in the top 10, within a 15-point margin. |
 | Unstop titles carry the edition year ("… – 2020"). | Tier 1 archives titles whose newest year is in the past. |
 
-**Result**, demo mode with the live probe on (live / unverified / archived):
+### Round 2, same day: job links and the Science preset
+
+| Finding (measured) | Change |
+|---|---|
+| Job cards linked Google's share URL, which cannot be probed. | `serpapi_client.job_link` uses `apply_options`, preferring the original board over re-posting aggregators. 34/38 recorded jobs verify live; Indeed/Jooble block checkers → unverified. |
+| BeBee pages embed every error string ("no longer accepting applications") in a script bundle; raw matching archived week-old jobs. | `gate.dead_marker_in`: English markers match visible text only; `"json":tokens` match the raw body; `re:` markers are regexes. |
+| GitHub's page embeds linked PRs' states: open apache/doris#48203 read as closed. | GitHub liveness comes from the REST API (`StatusApi`). |
+| Kaggle, DrivenData and Zooniverse had no data: no preset selected them. | New preset `sppu_bsc_stats_sem5_biostatistics` (Science); ecology / ML aliases added; 9 searches recorded. |
+| Kaggle pages are JS shells; the API needs login and answers our verifier with a reCAPTCHA. | Kaggle is `snippet_only` — never page-probed, cards stay unverified. **We do not bypass bot checks.** `tier2_probe` itself now refuses non-`http_probe` adapters. |
+| Zooniverse pages hide "paused" / "not launched". | Zooniverse `StatusApi` (`state`, `launch_approved`). |
+| DrivenData finished competitions say "Completed Sep 2026". | Regex marker; subdomain and group competition URLs accepted. |
+| Subpages (`/titanic/data`, `/project/about/team`) became separate cards. | `PlatformAdapter.canonical` collapses them at parse time. |
+| Verified job cards filled the Science top 12, burying every unverifiable Kaggle competition. | Diversity may now promote an unverified card over a capped live one (never an archived one). |
+| Verification scripts posed as Chrome, so they could pass checks the product fails. | Both use `gate.USER_AGENT`. |
+
+**Result**, demo mode with the live probe on:
 
 | Preset | Searches (naive) | Saving | Live | Unverified | Archived |
 |---|---|---|---|---|---|
-| CS (VTU DBMS) | 10 (44) | 77% | 10 | 1 | 23 |
-| Commerce (DU B.Com) | 8 (55) | 85% | 11 | 5 | 18 |
-| Design (B.Des) | 8 (55) | 85% | 14 | 9 | 21 |
-| Sociology (DU) | 10 (44) | 77% | 22 | 28 | 19 |
+| CS (VTU DBMS) | 10 (44) | 77% | 12 | 0 | 22 |
+| Commerce (DU B.Com) | 8 (55) | 85% | 16 | 0 | 18 |
+| Design (B.Des) | 8 (55) | 85% | 21 | 3 | 20 |
+| Sociology (DU) | 10 (44) | 77% | 29 | 23 | 17 |
+| Science (SPPU B.Sc. Stats) | 10 (55) | 82% | 11 | 29 | 11 |
 
 The app was driven in a browser in demo mode: 0 live searches, 10 cache hits, and
 cards render with a verified verdict, verbatim syllabus quote and score breakdown.
 
-`scripts/verify_adapters.py`: **8 of 9** adapters verify against live pages. It
-now falls back to recorded SerpApi URLs for client-rendered listing pages.
-Kaggle has no samples because no preset uses it.
+`scripts/verify_adapters.py`: 7 of 9 OK; Kaggle reports NOT-PROBED by design and
+Unstop's newest samples are all finished events (1 of 25 live in a wider sample).
+It falls back to recorded SerpApi URLs for client-rendered listing pages.
 
 ## 2. What exists, file by file
 
@@ -98,9 +114,9 @@ Kaggle has no samples because no preset uses it.
 | `app.py` | Streamlit UI. Sidebar budget controls, 3 result tabs, dev tab. |
 | `scripts/record_fixtures.py` | Records real SerpApi responses. `--dry-run` prints cost first. Replaces harvested stand-ins. |
 | `check_serpapi.py` | Key + quota check via the free account endpoint (renamed from `test_serpapi.py`). |
-| `fixtures/syllabi/` | 4 presets in real Indian university formats. |
-| `fixtures/serpapi/` | **36 real SerpApi responses** (DuckDuckGo, Google Jobs, Scholar) for all 4 presets, recorded 2026-10-10. |
-| `tests/` | 329 tests. |
+| `fixtures/syllabi/` | 5 presets in real Indian university formats (Commerce, Design, CS, Sociology, Science). |
+| `fixtures/serpapi/` | **45 real SerpApi responses** (DuckDuckGo, Google Jobs, Scholar) for all 5 presets, recorded 2026-10-10. |
+| `tests/` | 370 tests. |
 
 ### Deleted
 
@@ -112,7 +128,7 @@ Kaggle has no samples because no preset uses it.
 
 ```bash
 cd "/Users/saisalelkar/Desktop/serp hack"
-.venv/bin/python -m pytest          # 329 passed, 4 skipped
+.venv/bin/python -m pytest          # 370 passed, 4 skipped
 .venv/bin/streamlit run app.py
 ```
 
@@ -207,6 +223,12 @@ cd "/Users/saisalelkar/Desktop/serp hack"
 33. `origin/main` gained a teammate commit moving to the new `serpapi` SDK, which
     our `from serpapi import GoogleSearch` cannot run on. Both SDKs dropped in
     favour of plain HTTPS; `check_serpapi.py` now uses the free account endpoint.
+34. Job cards were unverifiable (Google share links).
+35. BeBee's script bundle archived open jobs (raw-body marker matching).
+36. GitHub's `"state":"closed"` marker fired on linked PRs, archiving open issues.
+37. Kaggle 200-shell pages read as "live"; `tier2_probe` ignored `liveness`.
+38. Verification scripts used a browser user agent the product never sends.
+39. PhD-level roles reached undergraduate cards.
 
 ---
 
@@ -216,16 +238,16 @@ Nothing blocks a demo. These are the known limits, in priority order.
 
 | # | Item | Owner | Notes |
 |---|---|---|---|
-| 1 | **Catchafire liveness is unverified.** Pages return 200 with no observed "closed" wording; its `gate_markers` are still guesses. | dev | Find a closed Catchafire listing and record the real marker. |
-| 2 | **Many open events are not syllabus-specific.** The SQL-themed Unstop events had all ended, so CS's live top 10 is mostly general hackathons. This reflects the market, not a bug. | — | An Anthropic key would improve extraction phrasing. |
-| 3 | Google Jobs links are google.com share links; they cannot be probed and stay `unverified`. | — | Honest as labelled. |
-| 4 | Kaggle, DrivenData and Zooniverse have no recorded fixtures because no preset selects them. | dev | Add a Data Science preset to exercise them. |
-| 5 | `scripts/harvest_demo_fixtures.py` is superseded by real fixtures. | dev | Keep for keyless forks, or delete. |
-| 6 | *(optional)* Anthropic key | user | Upgrades extraction and bridge prose. |
-| 7 | Time the 4-stream demo end to end. A run takes ~15 s, mostly the liveness probe. | user | |
+| 1 | **Catchafire liveness is unverified wording.** Pages return 200 with no observed "closed" text; its `gate_markers` are still guesses. | dev | Find a closed Catchafire listing and record the real marker. |
+| 2 | **Kaggle can never be verified** without a Kaggle login (API) — and we will not bypass its CAPTCHA. | user | Optional: a Kaggle API token would allow an authenticated status check. |
+| 3 | **Search engines index mostly past events.** 58/67 Unstop and every recorded DrivenData competition had finished. The gate archives them correctly, but live supply per run is thinner than the raw counts suggest. | — | Market reality. |
+| 4 | Many open events are not syllabus-specific (e.g. general hackathons for CS). | — | An Anthropic key would improve extraction phrasing. |
+| 5 | Indeed and Jooble job links block automated checks → unverified. | — | Honest as labelled. |
+| 6 | `scripts/harvest_demo_fixtures.py` is superseded by real fixtures. | dev | Keep for keyless forks, or delete. |
+| 7 | Time the 5-stream demo end to end (~15 s per run, mostly link checks). | user | |
 
-Credit budget: recording all presets again costs ~36 credits. Check
-`https://serpapi.com/account.json?api_key=…` first; it is free.
+Credit budget: recording all presets again costs ~45 credits. `check_serpapi.py`
+shows the remaining quota for free.
 
 ---
 

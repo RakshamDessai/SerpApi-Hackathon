@@ -48,10 +48,9 @@ from s2s.mesh.cache import ResponseCache  # noqa: E402
 from s2s.mesh.ledger import BudgetLedger  # noqa: E402
 from s2s.mesh.serpapi_client import SerpApiClient  # noqa: E402
 
-UA = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-)
+# The product's own identity. Verifying with a different user agent made a
+# Kaggle check pass here that the product could never pass (it gets a CAPTCHA).
+from s2s.ground.gate import USER_AGENT as UA  # noqa: E402
 HEADERS = {"User-Agent": UA, "Accept-Language": "en"}
 
 PRESETS = {

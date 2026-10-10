@@ -16,7 +16,9 @@ from __future__ import annotations
 import logging
 import re
 from datetime import datetime, timedelta
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
+from s2s.mesh import adapters as adapter_registry
 from s2s.mesh.cache import ResponseCache
 from s2s.mesh.ledger import BudgetLedger
 from s2s.models import Dork, RawResult
@@ -192,6 +194,7 @@ class SerpApiClient:
         title = item.get("title")
         if not url or not title:
             return None
+        url = canonical_url(dork.adapter_key, url)
 
         snippet = item.get("snippet") or ""
         rich = item.get("rich_snippet") or {}
@@ -216,21 +219,57 @@ class SerpApiClient:
         if not title:
             return None
 
-        url = item.get("share_link")
-        if not url:
-            options = item.get("apply_options") or item.get("related_links") or []
-            if options:
-                url = options[0].get("link")
+        url = job_link(item)
         if not url:
             return None
 
         detected = item.get("detected_extensions") or {}
+        posted = detected.get("posted_at") or " ".join(item.get("extensions") or [])
         return RawResult(
             title=title,
             url=url,
             snippet=(item.get("description") or "")[:600],
             adapter_key=dork.adapter_key,
             organization=item.get("company_name"),
-            posted_at=parse_posted_at(detected.get("posted_at")),
+            posted_at=parse_posted_at(posted),
             raw=item,
         )
+
+
+def canonical_url(adapter_key: str, url: str) -> str:
+    """Map a listing's subpage onto its main page, per the adapter's rule."""
+    adapter = adapter_registry.ADAPTERS.get(adapter_key)
+    if adapter is None or adapter.canonical is None:
+        return url
+    pattern, replacement = adapter.canonical
+    return re.sub(pattern, replacement, url, count=1, flags=re.IGNORECASE)
+
+
+#: Re-posting aggregators. Their copy of a listing is a step removed from the
+#: employer and goes stale first, so the original board is preferred.
+JOB_AGGREGATORS = (
+    "jobrapido.", "bebee.", "jooble.", "trabajo.", "kitjob.", "expertini.",
+    "talentd.", "theelitejob.", "niyukjobs.", "simplyhired.", "getmereferred.",
+)
+
+
+def _strip_tracking(url: str) -> str:
+    parts = urlsplit(url)
+    query = [(k, v) for k, v in parse_qsl(parts.query) if not k.lower().startswith("utm_")]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), ""))
+
+
+def job_link(item: dict) -> str | None:
+    """The posting itself, not Google's share link.
+
+    `share_link` is a google.com search URL: it cannot be probed, so every job
+    card used to stay "unverified". Every recorded job carries `apply_options`
+    pointing at the real board (Unstop, Internshala, LinkedIn, ...); the first
+    one that is not a re-poster wins, then `source_link`, then any option.
+    """
+    options = [o.get("link") for o in item.get("apply_options") or [] if o.get("link")]
+    direct = [u for u in options if not any(a in urlsplit(u).netloc for a in JOB_AGGREGATORS)]
+    for candidate in (*direct, item.get("source_link"), *options, item.get("share_link")):
+        if candidate:
+            return _strip_tracking(candidate) if "google." not in urlsplit(candidate).netloc else candidate
+    return None

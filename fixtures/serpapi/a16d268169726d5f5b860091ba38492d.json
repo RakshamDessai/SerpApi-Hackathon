@@ -1,0 +1,155 @@
+{
+  "fetched_at": 1791603974.264104,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:kaggle.com competitions data analysis",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b50035db2ba7c1447ef7",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/uHGyQvCiDxk4FAWEagV_VCUDzrYCp9uk8591DolbFmc/6ac9b50035db2ba7c1447ef7.json",
+      "markdown_endpoint": "https://serpapi.com/searches/uHGyQvCiDxk4FAWEagV_VCUDzrYCp9uk8591DolbFmc/6ac9b50035db2ba7c1447ef7.md",
+      "created_at": "2026-10-10 03:46:08 UTC",
+      "processed_at": "2026-10-10 03:46:08 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Akaggle.com+competitions+data+analysis&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/uHGyQvCiDxk4FAWEagV_VCUDzrYCp9uk8591DolbFmc/6ac9b50035db2ba7c1447ef7.html",
+      "prettify_html_file": "https://serpapi.com/searches/uHGyQvCiDxk4FAWEagV_VCUDzrYCp9uk8591DolbFmc/6ac9b50035db2ba7c1447ef7.prettify",
+      "total_time_taken": 5.24
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:kaggle.com competitions data analysis",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Kaggle Competitions",
+        "link": "https://www.kaggle.com/competitions",
+        "snippet": "Compete in AI competitions and hackathons. Win prizes, build your portfolio, and discover the boundaries of what's possible.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Data Analysis ENGIE 2026 - Kaggle",
+        "link": "https://www.kaggle.com/competitions/data-analysis-engie-2026/overview",
+        "snippet": "Welcome to the Kaggle competition ENGIE 2026 (predict sales prices of houses), which constitutes an important part of the module \"Data Analysis\". The purpose of this competition is to expose you to typical problems associated with data preparation, data analysis, and the search for a \"good\" prediction model.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "DAV_WORKSHOP_EXAM | Kaggle",
+        "link": "https://www.kaggle.com/competitions/nri-data-analysis-contest-2024",
+        "snippet": "\ud83c\udfc6 Data Analytics & Machine Learning Challenge - IIT Bhilai Workshop Welcome to the capstone challenge of the Data Analytics, Visualization, and Machine Learning workshop conducted at IIT Bhilai. This competition is designed to assess your practical skills in data preprocessing, exploratory analysis, and predictive modeling.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Data Analysis and Algorithm - Kaggle",
+        "link": "https://www.kaggle.com/competitions/dataanalysisalgorithm/overview",
+        "snippet": "In data preparation, their skills in feature selection, transformation, and data integration will be considered. The evaluation will also focus on their expertise in data preprocessing, including normalization, encoding categorical variables, and handling imbalanced data.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Statistella: Data Analytics Competition - Kaggle",
+        "link": "https://www.kaggle.com/competitions/statistella",
+        "snippet": "Statistella, part of B.A.S.H 7.0 the flagship event of The Business Club, IIT (BHU) is an exciting Data Science and Analytics competition designed to challenge your analytical skills through a series of fun and stimulating rounds. This competition offers a unique platform to put your problem-solving abilities to the test and showcase your ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "Find Open Datasets and Machine Learning Projects | Kaggle",
+        "link": "https://www.kaggle.com/datasets",
+        "snippet": "Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis. Join a community of millions of researchers, developers, and builders to share and collaborate on Kaggle.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Winning solutions of kaggle competitions",
+        "link": "https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions",
+        "snippet": "Winning solutions of kaggle competitions: \u00b6 Generally at the end of every Kaggle competition, winners and other toppers used to share their solutions in the discussion forums. But it is a tedious task to search for the competitions and then for the solutions of these competitions when we need them.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Orientation automatique de cas d'endettement - Kaggle",
+        "link": "https://www.kaggle.com/competitions/nri-data-analysis-contest-2025/overview",
+        "snippet": "L'association CRESUS conseille et accompagne des personnes qui sont en situation de surendettement ou rencontrent des difficult\u00e9s dans la gestion de leur budget. \u00c0 partir d'un historique de situations et d'un ensemble de variables explicatives, le projet consiste \u00e0 proposer une orientation automatique des cas vers le traitement le plus adapt\u00e9. Au passage, ceci devrait permettre de d\u00e9terminer quelles sont les strat\u00e9gies apparentes et les variables importantes dans les choix d ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Kaggle: The World's AI Proving Ground",
+        "link": "https://www.kaggle.com/",
+        "snippet": "The World's AI Proving Ground Discover what actually works in AI. Join 33 M+ builders, researchers, and labs evaluating agents, models, and frontier technology through crowdsourced benchmarks, competitions, and hackathons.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Stack Overflow Data Analysis (ML-LHC) ICT 2025 | Kaggle",
+        "link": "https://www.kaggle.com/competitions/stack-overflow-data-analysis-ml-lhc-ict-2025/overview",
+        "snippet": "This is a part of learning activity dealt with intra-class competition as a part of ML subject",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "Titanic - Machine Learning from Disaster | Kaggle",
+        "link": "https://www.kaggle.com/competitions/titanic/data",
+        "snippet": "Overview The data has been split into two groups: training set (train.csv) test set (test.csv) The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the \"ground truth\") for each passenger. Your model will be based on \"features\" like passengers' gender and class. You can also use feature engineering to create new features. The test set should be used to see how well your model performs on unseen data. For ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.kaggle.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "data visualization competitions",
+        "link": "https://duckduckgo.com/?q=data%20visualization%20competitions&origin=related"
+      },
+      {
+        "query": "data analysis competitions",
+        "link": "https://duckduckgo.com/?q=data%20analysis%20competitions&origin=related"
+      },
+      {
+        "query": "big data competition",
+        "link": "https://duckduckgo.com/?q=big%20data%20competition&origin=related"
+      },
+      {
+        "query": "data analytics competitions",
+        "link": "https://duckduckgo.com/?q=data%20analytics%20competitions&origin=related"
+      },
+      {
+        "query": "competition data base",
+        "link": "https://duckduckgo.com/?q=competition%20data%20base&origin=related"
+      },
+      {
+        "query": "data mining competition",
+        "link": "https://duckduckgo.com/?q=data%20mining%20competition&origin=related"
+      },
+      {
+        "query": "data competitors",
+        "link": "https://duckduckgo.com/?q=data%20competitors&origin=related"
+      },
+      {
+        "query": "data science competition",
+        "link": "https://duckduckgo.com/?q=data%20science%20competition&origin=related"
+      },
+      {
+        "query": "analytics competitions",
+        "link": "https://duckduckgo.com/?q=analytics%20competitions&origin=related"
+      },
+      {
+        "query": "data analysis contest",
+        "link": "https://duckduckgo.com/?q=data%20analysis%20contest&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Akaggle.com+competitions+data+analysis&start=11"
+    }
+  }
+}

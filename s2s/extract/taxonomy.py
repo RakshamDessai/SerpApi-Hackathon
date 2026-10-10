@@ -65,6 +65,7 @@ DISCIPLINE_KEYWORDS: dict[Discipline, set[str]] = {
         "clinical", "dna", "ecology", "enzyme", "epidemiology", "fasta",
         "genetics", "genome", "microbiology", "molecular", "pathology",
         "pharmacology", "physiology", "protein", "sequence alignment", "rna",
+        "biodiversity", "wildlife", "species",
     },
     Discipline.LAW_POLICY: {
         "arbitration", "constitution", "contract", "copyright",
@@ -178,10 +179,15 @@ MARKET_ALIASES: dict[str, list[str]] = {
     "descriptive statistics": ["data analysis", "data cleaning", "exploratory analysis"],
     "hypothesis testing": ["statistical analysis", "A/B test analysis"],
     "data visualisation": ["data visualisation", "dashboard", "chart design"],
+    "machine learning": ["machine learning", "classification model", "predictive model"],
     # life sciences
     "sequence alignment": ["bioinformatics", "sequence analysis", "genomics"],
     "epidemiology": ["epidemiological analysis", "public health data"],
     "genetics": ["genomics", "bioinformatics"],
+    # Zooniverse-style citizen science: listings say "wildlife", "species".
+    "ecology": ["wildlife monitoring", "species identification", "biodiversity data"],
+    "biodiversity": ["biodiversity data", "species identification", "citizen science"],
+    "camera trap": ["camera trap", "wildlife monitoring"],
     # law
     "contract law": ["contract review", "contract drafting", "agreement review"],
     "intellectual property": ["IP licensing", "copyright review", "licence compliance"],

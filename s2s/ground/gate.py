@@ -18,9 +18,10 @@ import logging
 import re
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from urllib.parse import urlsplit
 
 from s2s.mesh import adapters as adapter_registry
-from s2s.models import RawResult, Verdict
+from s2s.models import RawResult, StatusApi, Verdict
 
 log = logging.getLogger(__name__)
 
@@ -82,29 +83,52 @@ def tier1_snippet(result: RawResult, now: datetime | None = None) -> Verdict | N
     if stale_by_title_year(result.title, now):
         return "archived"
 
-    for marker in markers + GENERIC_DEAD_MARKERS:
-        if marker and marker.lower() in haystack:
-            return "archived"
+    if dead_marker_in(haystack, markers + GENERIC_DEAD_MARKERS):
+        return "archived"
     return None
 
 
-def status_api_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
-    """Ask the platform's own status endpoint. Costs no SerpApi credit."""
+def status_api_for(result: RawResult) -> StatusApi | None:
+    """The status endpoint that can speak for this URL, if any.
+
+    Usually the result's own adapter. A Google Jobs card links to the posting
+    on its home board, so a job hosted on Unstop is checked with Unstop's API -
+    its page is the same empty shell as an Unstop competition.
+    """
     adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
-    api = adapter.status_api if adapter else None
+    if adapter is not None and adapter.status_api is not None:
+        return adapter.status_api
+    host = urlsplit(result.url or "").netloc.lower()
+    for other in adapter_registry.ADAPTERS.values():
+        if other.status_api and other.site and (
+            host == other.site or host.endswith("." + other.site)
+        ):
+            return other.status_api
+    return None
+
+
+def _fetch_status(api: StatusApi, ident: str, timeout: float):
+    import requests
+
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json", **api.headers}
+    return requests.get(api.url.format(id=ident), headers=headers, timeout=timeout)
+
+
+def status_api_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
+    """Ask the platform's own status endpoint. Costs no SerpApi credit.
+
+    Archived if the status is a dead value, the deadline has passed, or a
+    required field fails. Live only if at least one signal was actually read;
+    anything unreadable (rate limit, changed schema) fails soft to unverified.
+    """
+    api = status_api_for(result)
     if api is None:
         return "unverified"
     match = re.search(api.id_re, result.url or "")
     if not match:
         return "unverified"
     try:
-        import requests
-
-        response = requests.get(
-            api.url.format(id=match.group(1)),
-            timeout=timeout,
-            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
-        )
+        response = _fetch_status(api, match.group(1), timeout)
         node = response.json()
     except Exception as exc:
         log.debug("status api failed for %s: %s", result.url, exc)
@@ -112,28 +136,47 @@ def status_api_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
 
     if response.status_code == 404:
         return "archived"
-    status = _dig(node, api.path)
-    if not isinstance(status, str) or not status:
-        return "unverified"
-    if status.upper() in api.dead:
-        return "archived"
 
-    closes = _dig(node, api.deadline) if api.deadline else None
-    if isinstance(closes, str):
-        try:
-            closing = datetime.fromisoformat(closes)
-            if closing < datetime.now(closing.tzinfo):
+    read_something = False
+    if api.path:
+        status = _dig(node, api.path)
+        if isinstance(status, str) and status:
+            read_something = True
+            if status.upper() in api.dead:
                 return "archived"
-        except ValueError:
-            pass
-    return "live"
+
+    if api.deadline:
+        closes = _dig(node, api.deadline)
+        if isinstance(closes, str) and closes:
+            try:
+                closing = datetime.fromisoformat(closes.replace("Z", "+00:00"))
+                read_something = True
+                if closing < datetime.now(closing.tzinfo):
+                    return "archived"
+            except ValueError:
+                pass
+
+    if api.require is not None:
+        path, wanted = api.require
+        actual = _dig(node, path)
+        if actual is not None:
+            read_something = True
+            if actual != wanted:
+                return "archived"
+
+    return "live" if read_something else "unverified"
 
 
-def _dig(node, path: tuple[str, ...]):
+def _dig(node, path: tuple[str | int, ...]):
     for key in path:
-        if not isinstance(node, dict):
-            return None
-        node = node.get(key)
+        if isinstance(key, int):
+            if not isinstance(node, list) or len(node) <= key:
+                return None
+            node = node[key]
+        else:
+            if not isinstance(node, dict):
+                return None
+            node = node.get(key)
     return node
 
 
@@ -142,8 +185,11 @@ def tier2_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
     adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
     if adapter is None:
         return "unverified"
-    if adapter.status_api is not None:
+    if status_api_for(result) is not None:
         return status_api_probe(result, timeout=timeout)
+    if adapter.liveness != "http_probe":
+        # e.g. Kaggle: its page is a shell, so a 200 would be read as "live".
+        return "unverified"
 
     try:
         import requests
@@ -169,11 +215,54 @@ def tier2_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
         return "archived"
 
     body = (response.text or "")[:MAX_BODY_CHARS].lower()
-    for marker in tuple(adapter.gate_markers) + GENERIC_DEAD_MARKERS:
-        if marker and marker.lower() in body:
-            return "archived"
+    if dead_marker_in(body, tuple(adapter.gate_markers) + GENERIC_DEAD_MARKERS):
+        return "archived"
 
     return "live"
+
+
+_HIDDEN_RE = re.compile(r"<(script|style|template)\b.*?</\1\s*>", re.IGNORECASE | re.DOTALL)
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def visible_text(html: str) -> str:
+    """Page text a reader would see: scripts, styles and tags removed."""
+    return re.sub(r"\s+", " ", _TAG_RE.sub(" ", _HIDDEN_RE.sub(" ", html)))
+
+
+def dead_marker_in(body: str, markers: tuple[str, ...]) -> bool:
+    """Does any closed-listing marker appear where it actually means closed?
+
+    Plain-English markers are matched against VISIBLE text only. Observed
+    2026-10-10: every BeBee job page ships an i18n bundle containing "this job
+    is no longer accepting applications" and "this request has expired", so a
+    raw-body match archived open jobs posted that week. Markers written as JSON
+    tokens (starting with a quote, e.g. WorkIndia's `"is_expired":true`) live in
+    embedded data by design and are matched against the raw body. Markers
+    starting with "re:" are regexes over visible text, for wording that is only
+    specific with its context ("completed sep 2026").
+    """
+    lowered = body.lower()
+    visible: str | None = None
+    for marker in markers:
+        if not marker:
+            continue
+        needle = marker.lower()
+        if needle.startswith("re:"):
+            if visible is None:
+                visible = visible_text(lowered)
+            if re.search(needle[3:], visible):
+                return True
+            continue
+        if needle.startswith('"'):
+            if needle in lowered:
+                return True
+            continue
+        if visible is None:
+            visible = visible_text(lowered)
+        if needle in visible:
+            return True
+    return False
 
 
 def verify(

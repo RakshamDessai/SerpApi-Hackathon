@@ -35,6 +35,7 @@ PRESETS = {
     "bdes_sem1_typography_visual_communication": 1,
     "vtu_cse_sem4_dbms": 4,
     "du_sociology_sem2_research_methods": 2,
+    "sppu_bsc_stats_sem5_biostatistics": 5,
 }
 
 

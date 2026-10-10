@@ -1,0 +1,129 @@
+{
+  "fetched_at": 1791603962.443746,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:drivendata.org competitions machine learning",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b4f87d6e70135c8782f2",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/cBZGAtF4jXk_Leyql3XWu0Bq5l0jUZwOmQ-rj8QQdA8/6ac9b4f87d6e70135c8782f2.json",
+      "markdown_endpoint": "https://serpapi.com/searches/cBZGAtF4jXk_Leyql3XWu0Bq5l0jUZwOmQ-rj8QQdA8/6ac9b4f87d6e70135c8782f2.md",
+      "created_at": "2026-10-10 03:46:00 UTC",
+      "processed_at": "2026-10-10 03:46:00 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Adrivendata.org+competitions+machine+learning&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/cBZGAtF4jXk_Leyql3XWu0Bq5l0jUZwOmQ-rj8QQdA8/6ac9b4f87d6e70135c8782f2.html",
+      "prettify_html_file": "https://serpapi.com/searches/cBZGAtF4jXk_Leyql3XWu0Bq5l0jUZwOmQ-rj8QQdA8/6ac9b4f87d6e70135c8782f2.prettify",
+      "total_time_taken": 1.69
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:drivendata.org competitions machine learning",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "DrivenData Competitions",
+        "link": "https://www.drivendata.org/",
+        "snippet": "DrivenData works at the intersection of data science and social impact, in areas like international development, health, education, research and conservation, and public services. We want to give more organizations access to the capabilities of data science, and engage more data scientists with social challenges where their skills can make a difference. To pursue these goals, we run online machine learning competitions with social impact and work directly with mission-driven organizations to ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Competitions - DrivenData",
+        "link": "https://www.drivendata.org/competitions/",
+        "snippet": "78 joined advanced practice dec 2020 health Warm Up: Machine Learning with a Heart Can you predict the presence or absence of heart disease in patients given basic medical information? This is the smallest, least complex dataset on DrivenData, and a great place to dive into the world of data science competitions. #health",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Competitions - com.auwww.drivendata.org",
+        "link": "https://www.com.auwww.drivendata.org/competitions/",
+        "snippet": "Use unsupervised machine learning approaches to extract insights from emergency department narratives about how, when, and why older adults (age 65+) fall. #health",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.com.auwww.drivendata.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Competition posts - DrivenData",
+        "link": "https://blog.drivendata.org/tag/competition/",
+        "date_raw": "2026-06-16T00:00:00.0000000",
+        "date": "Jun 16, 2026",
+        "snippet": "Teaching with DrivenData Competitions Inspiration and resources for teaching students data science, machine learning, and AI skills with DrivenData competitions.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.drivendata.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Teaching with DrivenData Competitions - DrivenData",
+        "link": "https://blog.drivendata.org/blog/teaching-with-drivendata",
+        "snippet": "Machine learning competitions offer rich opportunities for learning and teaching. Competitions provide an experiential learning environment, featuring a motivating problem, a clear objective, access to all necessary materials and tools, and iterative feedback.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.drivendata.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Sign up - deon.drivendata.org",
+        "link": "https://www.deon.drivendata.org/accounts/signup/?next=/competitions/54/machine-learning-with-a-heart/leaderboard/",
+        "snippet": "DrivenData hosts data science competitions to build a better world, bringing cutting-edge predictive models to organizations tackling the world's toughest problems.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.deon.drivendata.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Competition: Hakuna Ma-data: Identify Wildlife on the Serengeti with AI ...",
+        "link": "https://aiforearth.drivendata.org/",
+        "snippet": "The Solution Microsoft and DrivenData put together a machine learning competition to build the best computer vision models for tagging species from a new trove of camera trap imagery.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/aiforearth.drivendata.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Competition: Warm Up: Machine Learning with a Heart",
+        "link": "https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/",
+        "snippet": "This competition is for learning and exploring, so the deadline may be extended in the future. Data is provided courtesy of the Cleveland Heart Disease Database via the UCI Machine Learning repository. Aha, D., and Dennis Kibler. \"Instance-based prediction of heart-disease presence with the Cleveland database.\" University of California 3.1 ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "DrivenData Competitions",
+        "link": "https://www.drivendata.org/competitors/",
+        "snippet": "DrivenData competitions are a great way to hone your skills, prove your abilities, build real-world experience, and use your knowledge to make a difference. Some competitions are for just for bragging rights, while many others are for cash and other prizes.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "On Top of Pasketti: Children's Speech Recognition Challenge",
+        "link": "https://www.drivendata.org/competitions/group/childrens-asr-competition/",
+        "snippet": "The On Top of Pasketti: Children's Speech Recognition Challenge brought together a global community of machine learning practitioners to develop open ASR models tailored to early education with an assembled, newly labelled dataset of 560k child utterances representing over 515 hours of read, prompted, and spontaneous speech collected in a range ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Competition: DaT Parkinson's Challenge - drivendata.org",
+        "link": "https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/?ref=mlcontests",
+        "snippet": "Task In this challenge, we invite data scientists, machine learning engineers, medical imaging researchers, and nuclear medicine specialists to advance AI tools for DaT scan interpretation.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "machine learning competition website",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20competition%20website&origin=related"
+      },
+      {
+        "query": "deep learning competitions",
+        "link": "https://duckduckgo.com/?q=deep%20learning%20competitions&origin=related"
+      },
+      {
+        "query": "machine learning contests",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20contests&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Adrivendata.org+competitions+machine+learning&start=11"
+    }
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "fetched_at": 1791603980.291615,
+  "engine": "google_scholar",
+  "params": {
+    "engine": "google_scholar",
+    "q": "\"data analysis\" OR \"data cleaning\" OR \"time series forecasting\" OR \"demand forecasting\"",
+    "hl": "en",
+    "as_ylo": 2025
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b50bb24c5d414e16db8f",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/Glq4YG6ZXkoOCP18vNJ6RgLYlLAZ1FcAYjFilr2wD30/6ac9b50bb24c5d414e16db8f.json",
+      "markdown_endpoint": "https://serpapi.com/searches/Glq4YG6ZXkoOCP18vNJ6RgLYlLAZ1FcAYjFilr2wD30/6ac9b50bb24c5d414e16db8f.md",
+      "created_at": "2026-10-10 03:46:19 UTC",
+      "processed_at": "2026-10-10 03:46:19 UTC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_ylo=2025",
+      "raw_html_file": "https://serpapi.com/searches/Glq4YG6ZXkoOCP18vNJ6RgLYlLAZ1FcAYjFilr2wD30/6ac9b50bb24c5d414e16db8f.html",
+      "total_time_taken": 0.76
+    },
+    "search_parameters": {
+      "engine": "google_scholar",
+      "q": "\"data analysis\" OR \"data cleaning\" OR \"time series forecasting\" OR \"demand forecasting\"",
+      "hl": "en",
+      "as_ylo": "2025"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling",
+      "total_results": 16400,
+      "time_taken_displayed": 0.13,
+      "query_displayed": "\"data analysis\" OR \"data cleaning\" OR \"time series forecasting\" OR \"demand forecasting\""
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Electricity demand forecasting methodologies and applications: a review",
+        "result_id": "yI82Op2_yogJ",
+        "link": "https://link.springer.com/article/10.1186/s40807-025-00149-z",
+        "snippet": "\u2026 Electricity demand forecasting has emerged as a critical area \u2026 in electricity demand forecasting methodologies through a \u2026 more in electricity demand forecasting as compared with \u2026",
+        "publication_info": {
+          "summary": "PO Ugbehe, OE Diemuodeke, DO Aikhuele - Sustainable Energy \u2026, 2025 - Springer",
+          "authors": [
+            {
+              "name": "PO Ugbehe"
+            },
+            {
+              "name": "OE Diemuodeke",
+              "link": "https://scholar.google.com/citations?user=SNxiu08AAAAJ&hl=en&oi=sra",
+              "author_id": "SNxiu08AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=SNxiu08AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "DO Aikhuele",
+              "link": "https://scholar.google.com/citations?user=5no2WykAAAAJ&hl=en&oi=sra",
+              "author_id": "5no2WykAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5no2WykAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1186/s40807-025-00149-z.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=yI82Op2_yogJ",
+          "cited_by": {
+            "total": 69,
+            "link": "https://scholar.google.com/scholar?cites=9856901416461176776&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "9856901416461176776",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=9856901416461176776&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:yI82Op2_yogJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AyI82Op2_yogJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 5,
+            "link": "https://scholar.google.com/scholar?cluster=9856901416461176776&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "9856901416461176776",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=9856901416461176776&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "title": "Predictive analytics in supply chain management: The role of AI and machine learning in demand forecasting",
+        "result_id": "8iVNg6hci6gJ",
+        "type": "Html",
+        "link": "https://acr-journal.com/article/predictive-analytics-in-supply-chain-management-the-role-of-ai-and-machine-learning-in-demand-forecasting-886/",
+        "snippet": "\u2026 chain management (SCM) has revolutionized demand forecasting by enhancing accuracy, efficiency, \u2026 This paper explores the transformative impact of AI and ML in demand forecasting, \u2026",
+        "publication_info": {
+          "summary": "H Kagalwala, GV Radhakrishnan\u2026 - Advances in \u2026, 2025 - acr-journal.com",
+          "authors": [
+            {
+              "name": "H Kagalwala"
+            },
+            {
+              "name": "GV Radhakrishnan",
+              "link": "https://scholar.google.com/citations?user=UK8J-L8AAAAJ&hl=en&oi=sra",
+              "author_id": "UK8J-L8AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UK8J-L8AAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "acr-journal.com",
+            "file_format": "HTML",
+            "link": "https://acr-journal.com/article/predictive-analytics-in-supply-chain-management-the-role-of-ai-and-machine-learning-in-demand-forecasting-886/"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=8iVNg6hci6gJ",
+          "html_version": "https://acr-journal.com/article/predictive-analytics-in-supply-chain-management-the-role-of-ai-and-machine-learning-in-demand-forecasting-886/",
+          "cited_by": {
+            "total": 130,
+            "link": "https://scholar.google.com/scholar?cites=12144902698961806834&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "12144902698961806834",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=12144902698961806834&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:8iVNg6hci6gJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3A8iVNg6hci6gJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 5,
+            "link": "https://scholar.google.com/scholar?cluster=12144902698961806834&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "12144902698961806834",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=12144902698961806834&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "title": "Sustainable data analysis with Snakemake",
+        "result_id": "Ky0y8wBq1U8J",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8114187/",
+        "snippet": "Data analysis often entails a multitude of heterogeneous \u2026 Here, we analyze the properties needed for data analysis to \u2026 of all steps involved in data analysis, ranging from raw data \u2026",
+        "publication_info": {
+          "summary": "F M\u00f6lder, KP Jablonski, B Letcher, MB Hall\u2026 - \u2026, 2025 - pmc.ncbi.nlm.nih.gov",
+          "authors": [
+            {
+              "name": "F M\u00f6lder",
+              "link": "https://scholar.google.com/citations?user=BfBulw0AAAAJ&hl=en&oi=sra",
+              "author_id": "BfBulw0AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BfBulw0AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "KP Jablonski",
+              "link": "https://scholar.google.com/citations?user=yjPFt58AAAAJ&hl=en&oi=sra",
+              "author_id": "yjPFt58AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=yjPFt58AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "B Letcher",
+              "link": "https://scholar.google.com/citations?user=4KXvLoIAAAAJ&hl=en&oi=sra",
+              "author_id": "4KXvLoIAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=4KXvLoIAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MB Hall",
+              "link": "https://scholar.google.com/citations?user=UPv5JGEAAAAJ&hl=en&oi=sra",
+              "author_id": "UPv5JGEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UPv5JGEAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "nih.gov",
+            "file_format": "PDF",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8114187/pdf/f1000research-10-173023.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Ky0y8wBq1U8J",
+          "cited_by": {
+            "total": 2412,
+            "link": "https://scholar.google.com/scholar?cites=5752620651348372779&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "5752620651348372779",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5752620651348372779&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:Ky0y8wBq1U8J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AKy0y8wBq1U8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 18,
+            "link": "https://scholar.google.com/scholar?cluster=5752620651348372779&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "5752620651348372779",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=5752620651348372779&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "title": "LSTM vs. Prophet: achieving superior accuracy in dynamic electricity demand forecasting",
+        "result_id": "peh_djDWAc8J",
+        "type": "Html",
+        "link": "https://www.mdpi.com/1996-1073/18/2/278",
+        "snippet": "Accurate electricity demand forecasting is critical for improving energy efficiency, maintaining grid stability, reducing operational costs, and promoting sustainability. This study presents \u2026",
+        "publication_info": {
+          "summary": "S Albahli - Energies, 2025 - mdpi.com",
+          "authors": [
+            {
+              "name": "S Albahli",
+              "link": "https://scholar.google.com/citations?user=bzypF0QAAAAJ&hl=en&oi=sra",
+              "author_id": "bzypF0QAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=bzypF0QAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "mdpi.com",
+            "file_format": "HTML",
+            "link": "https://www.mdpi.com/1996-1073/18/2/278"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=peh_djDWAc8J",
+          "html_version": "https://www.mdpi.com/1996-1073/18/2/278",
+          "cited_by": {
+            "total": 46,
+            "link": "https://scholar.google.com/scholar?cites=14916438944462661797&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "14916438944462661797",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14916438944462661797&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:peh_djDWAc8J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3Apeh_djDWAc8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cluster=14916438944462661797&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "14916438944462661797",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=14916438944462661797&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:peh_djDWAc8J:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 5,
+        "title": "A hybrid machine learning framework for supply chain demand forecasting: Integrating historical data and market intelligence",
+        "result_id": "DoEEsEWfh0QJ",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5621332",
+        "snippet": "Accurate demand forecasting is critical for enhancing supply chain resilience, reducing operational costs, and maintaining national economic competitiveness. Traditional forecasting \u2026",
+        "publication_info": {
+          "summary": "A Sheikh, TM Rinvee, MS Sheikh - Available at SSRN 5621332, 2025 - papers.ssrn.com",
+          "authors": [
+            {
+              "name": "A Sheikh",
+              "link": "https://scholar.google.com/citations?user=Att1xhQAAAAJ&hl=en&oi=sra",
+              "author_id": "Att1xhQAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Att1xhQAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "TM Rinvee",
+              "link": "https://scholar.google.com/citations?user=G9enwwQAAAAJ&hl=en&oi=sra",
+              "author_id": "G9enwwQAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=G9enwwQAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MS Sheikh",
+              "link": "https://scholar.google.com/citations?user=G7WXH3EAAAAJ&hl=en&oi=sra",
+              "author_id": "G7WXH3EAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=G7WXH3EAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "ssrn.com",
+            "file_format": "PDF",
+            "link": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5621332"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=DoEEsEWfh0QJ",
+          "cited_by": {
+            "total": 55,
+            "link": "https://scholar.google.com/scholar?cites=4938090638089683214&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "4938090638089683214",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4938090638089683214&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:DoEEsEWfh0QJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ADoEEsEWfh0QJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=4938090638089683214&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "4938090638089683214",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=4938090638089683214&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:DoEEsEWfh0QJ:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 6,
+        "title": "Short and long-term renewable electricity demand forecasting based on CNN-Bi-GRU model",
+        "result_id": "6Kml-It4oYcJ",
+        "link": "https://www.icck.org/article/tetai/193/143",
+        "snippet": "With the increasing global focus on renewable energy and the growing proportion of renewable power in the energy mix, accurate forecasting of renewable power demand has become \u2026",
+        "publication_info": {
+          "summary": "S Zhao, Z Xu, Z Zhu, X Liang, Z Zhang\u2026 - ICCK Transactions on \u2026, 2025 - icck.org",
+          "authors": [
+            {
+              "name": "S Zhao",
+              "link": "https://scholar.google.com/citations?user=aoM02HUAAAAJ&hl=en&oi=sra",
+              "author_id": "aoM02HUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aoM02HUAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "Z Xu",
+              "link": "https://scholar.google.com/citations?user=Qe9J8BUAAAAJ&hl=en&oi=sra",
+              "author_id": "Qe9J8BUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Qe9J8BUAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "Z Zhu"
+            },
+            {
+              "name": "X Liang",
+              "link": "https://scholar.google.com/citations?user=0LLJCsgAAAAJ&hl=en&oi=sra",
+              "author_id": "0LLJCsgAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0LLJCsgAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "Z Zhang"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "icck.org",
+            "file_format": "PDF",
+            "link": "https://www.icck.org/filebob/uploads/storage/TETAI_6fK2mlPW4ZdM59A.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=6Kml-It4oYcJ",
+          "cited_by": {
+            "total": 65,
+            "link": "https://scholar.google.com/scholar?cites=9773225208938080744&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "9773225208938080744",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=9773225208938080744&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:6Kml-It4oYcJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3A6Kml-It4oYcJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=9773225208938080744&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "9773225208938080744",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=9773225208938080744&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:6Kml-It4oYcJ:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 7,
+        "title": "Enhanced N-BEATS for mid-term electricity demand forecasting",
+        "result_id": "rFR9CkXWi-AJ",
+        "type": "Html",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1568494625008865",
+        "snippet": "This paper presents an enhanced N-BEATS model, N-BEATS*, for improved mid-term electricity load forecasting (MTLF). Building on the strengths of the original N-BEATS architecture, \u2026",
+        "publication_info": {
+          "summary": "M Kasprzyk, P Pe\u0142ka, BN Oreshkin, G Dudek - Applied Soft Computing, 2025 - Elsevier",
+          "authors": [
+            {
+              "name": "M Kasprzyk",
+              "link": "https://scholar.google.com/citations?user=7QxrduEAAAAJ&hl=en&oi=sra",
+              "author_id": "7QxrduEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=7QxrduEAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "P Pe\u0142ka",
+              "link": "https://scholar.google.com/citations?user=ftIeva0AAAAJ&hl=en&oi=sra",
+              "author_id": "ftIeva0AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ftIeva0AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "BN Oreshkin",
+              "link": "https://scholar.google.com/citations?user=48MBCeIAAAAJ&hl=en&oi=sra",
+              "author_id": "48MBCeIAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=48MBCeIAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "G Dudek",
+              "link": "https://scholar.google.com/citations?user=zQhgbaUAAAAJ&hl=en&oi=sra",
+              "author_id": "zQhgbaUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=zQhgbaUAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "sciencedirect.com",
+            "file_format": "HTML",
+            "link": "https://www.sciencedirect.com/science/article/pii/S1568494625008865"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=rFR9CkXWi-AJ",
+          "html_version": "https://www.sciencedirect.com/science/article/pii/S1568494625008865",
+          "cited_by": {
+            "total": 38,
+            "link": "https://scholar.google.com/scholar?cites=16180261678275712172&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "16180261678275712172",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16180261678275712172&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:rFR9CkXWi-AJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ArFR9CkXWi-AJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=16180261678275712172&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "16180261678275712172",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=16180261678275712172&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 8,
+        "title": "An ensemble deep learning framework for energy demand forecasting using genetic algorithm-based feature selection",
+        "result_id": "IBTfCTYiY6AJ",
+        "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310465",
+        "snippet": "Accurate energy demand forecasting is critical for efficient energy management and planning. Recent advancements in computing power and the availability of large datasets have \u2026",
+        "publication_info": {
+          "summary": "M Sakib, T Siddiqui, S Mustajab, RM Alotaibi\u2026 - PloS one, 2025 - journals.plos.org",
+          "authors": [
+            {
+              "name": "M Sakib",
+              "link": "https://scholar.google.com/citations?user=MvU637IAAAAJ&hl=en&oi=sra",
+              "author_id": "MvU637IAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=MvU637IAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "T Siddiqui",
+              "link": "https://scholar.google.com/citations?user=eAtpFYYAAAAJ&hl=en&oi=sra",
+              "author_id": "eAtpFYYAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=eAtpFYYAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "S Mustajab",
+              "link": "https://scholar.google.com/citations?user=O3Xq3CoAAAAJ&hl=en&oi=sra",
+              "author_id": "O3Xq3CoAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=O3Xq3CoAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "RM Alotaibi",
+              "link": "https://scholar.google.com/citations?user=MZSxVQcAAAAJ&hl=en&oi=sra",
+              "author_id": "MZSxVQcAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=MZSxVQcAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "plos.org",
+            "file_format": "PDF",
+            "link": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0310465&type=printable"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=IBTfCTYiY6AJ",
+          "cited_by": {
+            "total": 43,
+            "link": "https://scholar.google.com/scholar?cites=11557118684252017696&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "11557118684252017696",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11557118684252017696&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:IBTfCTYiY6AJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AIBTfCTYiY6AJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 12,
+            "link": "https://scholar.google.com/scholar?cluster=11557118684252017696&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "11557118684252017696",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=11557118684252017696&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:IBTfCTYiY6AJ:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 9,
+        "title": "Developing and implementing AI-driven models for demand forecasting in US supply chains: A comprehensive approach to enhancing predictive accuracy",
+        "result_id": "LD9g2f1L0SsJ",
+        "link": "https://ideas.repec.org/a/ajp/edwast/v9y2025i1p1045-1068id4308.html",
+        "snippet": "\u2026 learning techniques to demand forecasting, particularly in \u2026 was used to train five traditional demand forecasting methods: Linear \u2026 on AI applications in demand forecasting, highlights the \u2026",
+        "publication_info": {
+          "summary": "MDR Hasan, MR Islam, MA Rahman - Edelweiss applied science \u2026, 2025 - ideas.repec.org",
+          "authors": [
+            {
+              "name": "MDR Hasan",
+              "link": "https://scholar.google.com/citations?user=jic1XEcAAAAJ&hl=en&oi=sra",
+              "author_id": "jic1XEcAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jic1XEcAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MR Islam",
+              "link": "https://scholar.google.com/citations?user=fSIACH4AAAAJ&hl=en&oi=sra",
+              "author_id": "fSIACH4AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fSIACH4AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MA Rahman",
+              "link": "https://scholar.google.com/citations?user=5d0dIkMAAAAJ&hl=en&oi=sra",
+              "author_id": "5d0dIkMAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5d0dIkMAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=LD9g2f1L0SsJ",
+          "cited_by": {
+            "total": 39,
+            "link": "https://scholar.google.com/scholar?cites=3157388367409200940&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "3157388367409200940",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=3157388367409200940&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:LD9g2f1L0SsJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ALD9g2f1L0SsJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=3157388367409200940&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "3157388367409200940",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=3157388367409200940&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:LD9g2f1L0SsJ:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 10,
+        "title": "Qualitative data analysis: reflections, procedures, and some points for consideration",
+        "result_id": "IVGaW-NSKtcJ",
+        "link": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2025.1669578/full",
+        "snippet": "\u2026 and reviewer to demystify qualitative data analysis (QDA), this \u2026 The procedures of data analysis and/or writing as a process \u2026 guide for scholars on data analysis, incorporating reflections, \u2026",
+        "publication_info": {
+          "summary": "N Dahal - Frontiers in Research Metrics and Analytics, 2025 - frontiersin.org",
+          "authors": [
+            {
+              "name": "N Dahal",
+              "link": "https://scholar.google.com/citations?user=BzcPJKEAAAAJ&hl=en&oi=sra",
+              "author_id": "BzcPJKEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BzcPJKEAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "frontiersin.org",
+            "file_format": "PDF",
+            "link": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2025.1669578/pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=IVGaW-NSKtcJ",
+          "cited_by": {
+            "total": 130,
+            "link": "https://scholar.google.com/scholar?cites=15504295803624247585&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "15504295803624247585",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15504295803624247585&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:IVGaW-NSKtcJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AIVGaW-NSKtcJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=15504295803624247585&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "15504295803624247585",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=15504295803624247585&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:IVGaW-NSKtcJ:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://scholar.google.com/scholar?start=10&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+      "other_pages": {
+        "2": "https://scholar.google.com/scholar?start=10&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "3": "https://scholar.google.com/scholar?start=20&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "4": "https://scholar.google.com/scholar?start=30&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "5": "https://scholar.google.com/scholar?start=40&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "6": "https://scholar.google.com/scholar?start=50&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "7": "https://scholar.google.com/scholar?start=60&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "8": "https://scholar.google.com/scholar?start=70&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "9": "https://scholar.google.com/scholar?start=80&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "10": "https://scholar.google.com/scholar?start=90&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&hl=en&as_sdt=0,5&as_ylo=2025"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=10",
+      "next": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=10",
+        "3": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=20",
+        "4": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=30",
+        "5": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=40",
+        "6": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=50",
+        "7": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=60",
+        "8": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=70",
+        "9": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=80",
+        "10": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22time+series+forecasting%22+OR+%22demand+forecasting%22&start=90"
+      }
+    }
+  }
+}

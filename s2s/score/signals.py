@@ -164,6 +164,8 @@ def exclusion_reason(result: RawResult) -> str | None:
     title = result.title.lower()
     if any(re.search(p, title) for p in SENIOR_TITLE_PATTERNS):
         return "senior role"
+    if re.search(r"\bph\.?\s?d\b|\bdoctoral\b|\bpostdoc", title):
+        return "needs a PhD"
     if EXPERIENCE_RE.search(_text(result)):
         return "needs years of experience"
     if any(re.search(p, _text(result)) for p in NOT_A_LISTING_PATTERNS):

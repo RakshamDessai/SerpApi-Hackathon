@@ -132,9 +132,13 @@ class StatusApi:
 
     url: str                        # template containing {id}
     id_re: str                      # one capture group: the id in a listing URL
-    path: tuple[str, ...]           # JSON keys down to the status string
-    dead: tuple[str, ...]           # status values meaning closed or finished
-    deadline: tuple[str, ...] = ()  # JSON keys down to an ISO-8601 closing time
+    path: tuple[str | int, ...] = ()        # JSON keys/indexes to a status string
+    dead: tuple[str, ...] = ()              # status values meaning closed or finished
+    deadline: tuple[str | int, ...] = ()    # JSON keys/indexes to an ISO-8601 closing time
+    #: (path, value) that must hold, else archived - e.g. Zooniverse projects
+    #: that were never launched to the public.
+    require: tuple[tuple[str | int, ...], object] | None = None
+    headers: dict = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -160,6 +164,9 @@ class PlatformAdapter:
     enabled_by_default: bool = True
     query_style: QueryStyle = "or_group"
     status_api: StatusApi | None = None
+    #: (regex, replacement) mapping a listing's subpages onto its main page, so
+    #: /competitions/titanic/data and /c/titanic dedupe to one card.
+    canonical: tuple[str, str] | None = None
 
 
 # ------------------------------------------------------------------ dork ----

@@ -1,0 +1,157 @@
+{
+  "fetched_at": 1791603979.1552498,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:drivendata.org competitions data analysis",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b506b24c5d369424c5ef",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/_QqM5mSGmvlDacK4odWhQZtcJGI4Eo7EDibrglHf6uU/6ac9b506b24c5d369424c5ef.json",
+      "markdown_endpoint": "https://serpapi.com/searches/_QqM5mSGmvlDacK4odWhQZtcJGI4Eo7EDibrglHf6uU/6ac9b506b24c5d369424c5ef.md",
+      "created_at": "2026-10-10 03:46:14 UTC",
+      "processed_at": "2026-10-10 03:46:14 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Adrivendata.org+competitions+data+analysis&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/_QqM5mSGmvlDacK4odWhQZtcJGI4Eo7EDibrglHf6uU/6ac9b506b24c5d369424c5ef.html",
+      "prettify_html_file": "https://serpapi.com/searches/_QqM5mSGmvlDacK4odWhQZtcJGI4Eo7EDibrglHf6uU/6ac9b506b24c5d369424c5ef.prettify",
+      "total_time_taken": 4.53
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:drivendata.org competitions data analysis",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "DrivenData Competitions",
+        "link": "https://www.drivendata.org/",
+        "snippet": "We find real world questions where data science can have positive social impact, then run online modeling competitions for data scientists to develop the best models to solve them. To see what this looks like in action, read more about our process or check out our competitions!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Competitions - DrivenData",
+        "link": "https://www.drivendata.org/competitions/",
+        "snippet": "DrivenData hosts data science competitions to build a better world, bringing cutting-edge predictive models to organizations tackling the world's toughest problems.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.drivendata.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Competition posts - DrivenData",
+        "link": "https://blog.drivendata.org/tag/competition/",
+        "date_raw": "2026-06-16T00:00:00.0000000",
+        "date": "Jun 16, 2026",
+        "snippet": "Teaching with DrivenData Competitions Inspiration and resources for teaching students data science, machine learning, and AI skills with DrivenData competitions.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.drivendata.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Real world problems, real world impact - comwww.drivendata.org",
+        "link": "https://www.comwww.drivendata.org/competitors/",
+        "snippet": "DrivenData hosts online data science competitions where the data and problem are posed by a socially-minded organization. You get to put your analytic skills to the test in order to tackle real-world problems with real-world impact.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.comwww.drivendata.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Teaching with DrivenData Competitions - DrivenData",
+        "link": "https://blog.drivendata.org/blog/teaching-with-drivendata",
+        "snippet": "These competitions include a variety of data types and problem complexity, making them appropriate for a range of courses and instruction levels. In the next section we share some examples of different ways instructors can draw on these resources to support learners.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.drivendata.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Competitions - com.auwww.drivendata.org",
+        "link": "https://www.com.auwww.drivendata.org/competitions/",
+        "snippet": "DrivenData hosts data science competitions to build a better world, bringing cutting-edge predictive models to organizations tackling the world's toughest problems.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.com.auwww.drivendata.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Pump it Up: Data Mining the Water Table - DrivenData Community",
+        "link": "https://community.drivendata.org/c/pump-it-up-data-mining-the-water-table/11",
+        "snippet": "This category is for posts about the Pump it Up: Data Mining the Water Table competition. Please keep all posts here specific to the competition.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/community.drivendata.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "PDF IMPACT REPORT - assets.drivendata.org",
+        "link": "https://assets.drivendata.org/drivendata-10-year-impact-report.pdf",
+        "snippet": "We ran two research competitions focused on building models to automatically analyze mass spectrometry data for Mars exploration. The first challenge used data collected by evolved gas analysis, and the second used gas chromatography data from soil and rock samples.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/assets.drivendata.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "U.S. PETs Prize Challenge",
+        "link": "https://petsprizechallenge.drivendata.org/",
+        "snippet": "In particular, this challenge will tackle two critical problems via separate data tracks: Data Track A will help with the identification of financial crime, while Data Track B will bolster pandemic responses.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/petsprizechallenge.drivendata.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "DengAI Competition - DrivenData Community",
+        "link": "https://community.drivendata.org/c/dengue-competition/18",
+        "snippet": "This category is for posts about the DengAI: Predicting Disease Spread competition. Please keep all posts here specific to the competition.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/community.drivendata.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Competition: Power Laws: Detecting Anomalies in Usage",
+        "link": "https://concepttoclinic.drivendata.org/competitions/52/anomaly-detection-electricity/rules/",
+        "snippet": "Data science competition for social good: Power Laws: Detecting Anomalies in Usage. Join now and compete!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/concepttoclinic.drivendata.org.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "data visualization competitions",
+        "link": "https://duckduckgo.com/?q=data%20visualization%20competitions&origin=related"
+      },
+      {
+        "query": "data analysis competitions",
+        "link": "https://duckduckgo.com/?q=data%20analysis%20competitions&origin=related"
+      },
+      {
+        "query": "big data competition",
+        "link": "https://duckduckgo.com/?q=big%20data%20competition&origin=related"
+      },
+      {
+        "query": "data analytics competitions",
+        "link": "https://duckduckgo.com/?q=data%20analytics%20competitions&origin=related"
+      },
+      {
+        "query": "competition data base",
+        "link": "https://duckduckgo.com/?q=competition%20data%20base&origin=related"
+      },
+      {
+        "query": "data mining competition",
+        "link": "https://duckduckgo.com/?q=data%20mining%20competition&origin=related"
+      },
+      {
+        "query": "data competitors",
+        "link": "https://duckduckgo.com/?q=data%20competitors&origin=related"
+      },
+      {
+        "query": "data science competition",
+        "link": "https://duckduckgo.com/?q=data%20science%20competition&origin=related"
+      },
+      {
+        "query": "analytics competitions",
+        "link": "https://duckduckgo.com/?q=analytics%20competitions&origin=related"
+      },
+      {
+        "query": "data analysis contest",
+        "link": "https://duckduckgo.com/?q=data%20analysis%20contest&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Adrivendata.org+competitions+data+analysis&start=11"
+    }
+  }
+}

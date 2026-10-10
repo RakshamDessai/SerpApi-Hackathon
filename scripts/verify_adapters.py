@@ -49,10 +49,9 @@ from s2s.ground import gate  # noqa: E402
 from s2s.mesh.adapters import ADAPTERS  # noqa: E402
 from s2s.models import RawResult  # noqa: E402
 
-UA = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-)
+# The product's own identity. Verifying with a different user agent made a
+# Kaggle check pass here that the product could never pass (it gets a CAPTCHA).
+from s2s.ground.gate import USER_AGENT as UA  # noqa: E402
 HEADERS = {"User-Agent": UA, "Accept-Language": "en"}
 
 
@@ -147,6 +146,7 @@ class AdapterReport:
     verdicts: dict[str, int] = field(default_factory=dict)
     markers_fired: dict[str, int] = field(default_factory=dict)
     note: str = ""
+    not_probed: bool = False        # liveness is snippet-only by design
 
     @property
     def pattern_ok(self) -> bool:
@@ -160,6 +160,8 @@ class AdapterReport:
             return "NO-URLS"
         if not self.pattern_ok:
             return "PATTERN-FAIL"
+        if self.not_probed:
+            return "NOT-PROBED"
         if self.probed and self.verdicts.get("live", 0) == 0:
             return "NEVER-LIVE"
         return "OK"
@@ -258,6 +260,12 @@ def verify_one(key: str, samples: int, timeout: float) -> AdapterReport:
             report.pattern_matches += 1
         elif len(report.pattern_failures) < 3:
             report.pattern_failures.append(url)
+
+    if adapter.liveness != "http_probe" and adapter.status_api is None:
+        report.not_probed = True
+        report.note = (report.note + "; " if report.note else "") + \
+            f"liveness={adapter.liveness}: not page-probed by design"
+        return report
 
     # 2. what does tier 2 actually say about them?
     def probe(url: str) -> tuple[str, list[str]]:

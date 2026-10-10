@@ -244,11 +244,14 @@ def diversify(
 
     Fills `window` slots one at a time. Each slot takes the best remaining card
     whose platform is under `cap` - unless that card trails the overall best
-    remaining card by more than `margin`, or sits in a worse verdict bucket, in
-    which case the overall best wins anyway. Nothing is dropped, and the tail
-    after the window keeps its ranked order.
+    remaining card by more than `margin`, or is archived while the best is not,
+    in which case the overall best wins anyway. Nothing is dropped, and the
+    tail after the window keeps its ranked order.
+
+    An unverified card may displace a capped live one. Some platforms can never
+    be verified (Kaggle answers our checker with a CAPTCHA); without this, the
+    Science preset's top 12 held 11 Google Jobs cards and no competition.
     """
-    order = {"live": 0, "unverified": 1, "archived": 2}
     remaining = list(ranked)
     head: list[Opportunity] = []
     counts: dict[str, int] = {}
@@ -259,7 +262,7 @@ def diversify(
             (o for o in remaining if counts.get(o.adapter_key, 0) < cap),
             best,
         )
-        if (order[pick.verdict] > order[best.verdict]
+        if ((pick.verdict == "archived" and best.verdict != "archived")
                 or pick.score.total < best.score.total - margin):
             pick = best
         remaining.remove(pick)

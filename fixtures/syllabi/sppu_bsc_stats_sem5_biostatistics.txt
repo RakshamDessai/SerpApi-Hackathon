@@ -1,0 +1,42 @@
+SAVITRIBAI PHULE PUNE UNIVERSITY
+T.Y. B.Sc. Statistics - Semester V
+Paper ST-353: Biostatistics and Data Analysis
+Credits: 4 (Theory 3 + Practical 1)
+
+Course Outcomes: On completion the student will be able to summarise and
+visualise real datasets, fit and validate predictive models, analyse time
+series, and apply statistical methods to epidemiology and ecology data.
+
+Unit I: Descriptive Statistics and Exploratory Data Analysis
+Types of data and measurement scales. Measures of central tendency, dispersion,
+skewness and kurtosis. Exploratory data analysis of a real dataset: data
+cleaning, missing values and outliers. Data visualisation with histograms, box
+plots and scatter plots using Python (pandas, matplotlib).
+
+Unit II: Regression and Machine Learning
+Simple and multiple linear regression, least squares estimation and residual
+analysis. Logistic regression for binary outcomes. Introduction to machine
+learning: training and test sets, cross-validation, overfitting. Classification
+with decision trees and k-nearest neighbours. Model evaluation using accuracy,
+precision, recall and ROC curves.
+
+Unit III: Time Series and Forecasting
+Components of a time series: trend, seasonality and noise. Moving averages and
+exponential smoothing. Autocorrelation. Forecasting with ARIMA models and
+evaluating forecast error on held-out data.
+
+Unit IV: Epidemiology and Public Health Data
+Measures of disease frequency: incidence and prevalence. Relative risk and odds
+ratio. Cohort and case-control study designs. Analysing public health datasets
+and disease surveillance data.
+
+Unit V: Ecology and Biodiversity Data
+Estimating population size: capture-recapture methods. Species abundance and
+diversity indices. Field data from wildlife surveys and camera traps. Image
+classification of species for biodiversity monitoring.
+
+Practicals: Ten practicals in Python covering Units I to V using open datasets.
+
+Suggested Reading:
+1. Daniel, W. W. Biostatistics: A Foundation for Analysis in the Health Sciences.
+2. James, Witten, Hastie and Tibshirani. An Introduction to Statistical Learning.

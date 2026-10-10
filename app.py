@@ -35,6 +35,8 @@ PRESETS = {
         ("vtu_cse_sem4_dbms", 4),
     "Social Sciences - DU Sociology, Research Methods (Sem 2)":
         ("du_sociology_sem2_research_methods", 2),
+    "Science - SPPU B.Sc. Statistics, Biostatistics & Data Analysis (Sem 5)":
+        ("sppu_bsc_stats_sem5_biostatistics", 5),
 }
 
 

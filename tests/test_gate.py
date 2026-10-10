@@ -145,3 +145,118 @@ def test_stale_title_is_archived_by_tier1():
     result = _result("https://unstop.com/competitions/x-1", title="Budget Analysis - 2023",
                      adapter_key="unstop")
     assert gate.tier1_snippet(result, now=datetime(2026, 10, 10)) == "archived"
+
+
+# --------------------------- tier 2 against real page shapes (2026-10-10) --
+
+class _FakeResponse:
+    def __init__(self, status=200, text="", url="", payload=None):
+        self.status_code, self.text, self.url, self._payload = status, text, url, payload
+
+    def json(self):
+        if self._payload is None:
+            raise ValueError("no json")
+        return self._payload
+
+
+def _fake_get(monkeypatch, response):
+    import requests
+    monkeypatch.setattr(requests, "get", lambda *a, **k: response)
+
+
+#: Shape of a real BeBee job page: an i18n bundle holding every error string.
+BEBEE_PAGE = (
+    '<html><body><h1>Brand Development Intern</h1><button>Apply now</button>'
+    '<script>window.i18n={"applyErrorJobExpired":"This job is no longer accepting '
+    'applications.","request_expired":"This request has expired."}</script></body></html>'
+)
+
+
+def test_marker_inside_a_script_bundle_does_not_archive():
+    assert not gate.dead_marker_in(BEBEE_PAGE.lower(), gate.GENERIC_DEAD_MARKERS
+                                   + ("no longer accepting applications",))
+
+
+def test_marker_in_visible_text_archives():
+    page = "<html><body><p>No longer accepting applications</p></body></html>"
+    assert gate.dead_marker_in(page.lower(), ("no longer accepting applications",))
+
+
+def test_json_token_marker_matches_embedded_data():
+    page = '<script>var job={"is_expired":true}</script>'
+    assert gate.dead_marker_in(page.lower(), ('"is_expired":true',))
+
+
+def test_open_bebee_job_is_live(monkeypatch):
+    url = "https://bebee.com/in/jobs/brand-development-outreach-intern-pacee--fj-2401568370"
+    _fake_get(monkeypatch, _FakeResponse(text=BEBEE_PAGE, url=url))
+    assert gate.tier2_probe(_result(url, adapter_key="gjobs")) == "live"
+
+
+@pytest.mark.parametrize("state,verdict", [("open", "live"), ("closed", "archived")])
+def test_github_state_comes_from_the_api_not_the_page(monkeypatch, state, verdict):
+    """The page embeds linked PRs' states: open apache/doris#48203 read as closed."""
+    _fake_get(monkeypatch, _FakeResponse(payload={"state": state}))
+    url = "https://github.com/apache/doris/issues/48203"
+    assert gate.tier2_probe(_result(url, adapter_key="github")) == verdict
+
+
+def test_github_rate_limit_fails_soft(monkeypatch):
+    _fake_get(monkeypatch, _FakeResponse(status=403, payload={"message": "API rate limit exceeded"}))
+    url = "https://github.com/apache/doris/issues/48203"
+    assert gate.tier2_probe(_result(url, adapter_key="github")) == "unverified"
+
+
+def test_job_hosted_on_unstop_uses_unstops_status_api():
+    url = "https://unstop.com/internships/creative-branding-internship-pehchan-1766642"
+    api = gate.status_api_for(_result(url, adapter_key="gjobs"))
+    assert api is not None and "unstop.com/api" in api.url
+
+
+def test_job_on_an_ordinary_board_has_no_status_api():
+    url = "https://internshala.com/internship/detail/graphic-design-internship-123"
+    assert gate.status_api_for(_result(url, adapter_key="gjobs")) is None
+
+
+# ------------------------------ Kaggle / DrivenData / Zooniverse (2026-10-10) --
+
+@pytest.mark.parametrize("payload,verdict", [
+    ({"projects": [{"state": "live", "launch_approved": True}]}, "live"),
+    ({"projects": [{"state": "paused", "launch_approved": True}]}, "archived"),   # We Cam Coexist
+    ({"projects": [{"state": "live", "launch_approved": False}]}, "archived"),   # Parkside Asylum
+    ({"projects": []}, "unverified"),
+])
+def test_zooniverse_state_comes_from_its_api(monkeypatch, payload, verdict):
+    _fake_get(monkeypatch, _FakeResponse(payload=payload))
+    url = "https://www.zooniverse.org/projects/tkillestein/kilonova-seekers"
+    assert gate.tier2_probe(_result(url, adapter_key="zooniverse")) == verdict
+
+
+def test_finished_drivendata_competition_is_archived(monkeypatch):
+    url = "https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/"
+    page = ('<div><strong>Completed</strong> <span class="end-date text-capitalize">'
+            'sep 2026</span></div>')
+    _fake_get(monkeypatch, _FakeResponse(text=page, url=url))
+    assert gate.tier2_probe(_result(url, adapter_key="drivendata")) == "archived"
+
+
+def test_open_drivendata_competition_is_live(monkeypatch):
+    url = "https://www.drivendata.org/competitions/320/open-challenge/"
+    page = "<div><strong>Ends</strong> <span>dec 2026</span> completed submissions: 12</div>"
+    _fake_get(monkeypatch, _FakeResponse(text=page, url=url))
+    assert gate.tier2_probe(_result(url, adapter_key="drivendata")) == "live"
+
+
+def test_kaggle_is_never_page_probed():
+    """The page is a shell and the API answers our verifier with a CAPTCHA."""
+    from s2s.mesh import adapters
+    assert adapters.get("kaggle").liveness == "snippet_only"
+    results = [_result("https://www.kaggle.com/competitions/titanic", adapter_key="kaggle")]
+    assert [v for _, v, _ in gate.verify(results)] == ["unverified"]
+
+
+def test_tier2_refuses_platforms_that_are_not_page_probed(monkeypatch):
+    _fake_get(monkeypatch, _FakeResponse(text="<html>shell</html>",
+                                         url="https://www.kaggle.com/competitions/titanic"))
+    result = _result("https://www.kaggle.com/competitions/titanic", adapter_key="kaggle")
+    assert gate.tier2_probe(result) == "unverified"

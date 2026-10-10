@@ -109,7 +109,13 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
   API (`StatusApi` on the adapter), never from the page.
 - **Tests must not read `.env`.** `tests/conftest.py` isolates every test and
   sets `S2S_PROBE_TOP_N=0`. Never spend credits from a test.
-- **Check credits before recording:** `serpapi.com/account.json?api_key=…` is free.
+- **Check credits before recording:** `python check_serpapi.py` is free.
+- **Never get round a bot check.** The link checker identifies itself as
+  `S2S-LinkVerifier` (`gate.USER_AGENT`) and scripts use the same identity. A site
+  that answers with a CAPTCHA (Kaggle) is `liveness="snippet_only"`: unverified.
+- **Closed-listing markers:** plain English matches *visible* text only (BeBee
+  ships every error string in a script bundle); `"json":tokens` match the raw
+  page; `re:` markers are regexes. Prefer a `StatusApi` whenever one exists.
 
 ## Code conventions
 
@@ -121,10 +127,10 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
 
 ## Current status
 
-Phases 0–5 are complete: 329 tests passing, app serving, full pipeline wired,
+Phases 0–5 are complete: 370 tests passing, app serving, full pipeline wired,
 and **validated against real SerpApi results** on 2026-10-10. Real responses for
-all four presets are committed in `fixtures/serpapi/`, so demo mode is offline and
-free. The SerpApi key lives in `.env` (git-ignored).
+all five presets are committed in `fixtures/serpapi/`, so demo mode spends no
+credits. The SerpApi key lives in `.env` (git-ignored).
 
-See `PROJECT_STATE.md` for what real data changed, the 33 fixed bugs, and the
+See `PROJECT_STATE.md` for what real data changed, the 39 fixed bugs, and the
 remaining known limits. It is the authoritative answer to "where are we".

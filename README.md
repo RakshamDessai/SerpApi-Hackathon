@@ -25,9 +25,10 @@ looking for a volunteer to build a 12-month cash flow forecast.
 Those two facts never meet. S2S is the bridge.
 
 It works the same way for a Design student (brand identity volunteer roles on
-Idealist), a Sociology student (data-analysis projects on Catchafire), and a CS
-student (open hackathons on Devpost and Devfolio) — **one engine, one codebase,
-every stream**.
+Idealist), a Sociology student (data-analysis projects on Catchafire), a CS
+student (open hackathons on Devpost and Devfolio), and a Statistics student
+(Kaggle competitions and Zooniverse citizen science) — **one engine, one
+codebase, every stream**.
 
 ---
 
@@ -56,7 +57,7 @@ and liveness strategy. Adding another is one registry entry.
 
 **3. SerpApi credits are a budget to allocate.**
 A naive search is every competency × every active platform — 44 to 55 calls per
-click on the four presets, a fifth of a free tier's month. Discipline-affinity
+click on the five presets, a fifth of a free tier's month. Discipline-affinity
 platform selection plus competency grouping delivers it in **8–10 calls (77–85%
 saved)**, and the UI shows the ledger for every run. Empty searches are billed
 too, so they are counted and cached rather than silently retried.
@@ -97,8 +98,9 @@ two external APIs has two single points of failure.
 
 ### Demo mode (0 credits)
 
-Real SerpApi responses for all four presets are committed in `fixtures/serpapi/`
-(36 searches, recorded 2026-10-10). Set `S2S_DEMO_MODE=true` or flip the sidebar
+Real SerpApi responses for all five presets — Commerce, Design, Engineering,
+Social Sciences and Science — are committed in `fixtures/serpapi/` (45 searches,
+recorded 2026-10-10). Set `S2S_DEMO_MODE=true` or flip the sidebar
 toggle: the cache becomes read-only with no expiry, so the demo provably cannot
 spend a credit.
 
@@ -107,7 +109,7 @@ so a competition that has closed since recording shows as **Archived**, not live
 With the conference wifi down it fails soft to **Unverified**.
 
 ```bash
-# Re-record (about 36 credits; prints the cost first):
+# Re-record (about 45 credits; prints the cost first):
 .venv/bin/python scripts/record_fixtures.py --dry-run
 .venv/bin/python scripts/record_fixtures.py
 
@@ -129,6 +131,12 @@ end up demoing 404s.
 | **B** | Catchafire, Idealist, Zooniverse | Indexed but partly gated. Included, labelled honestly. |
 | **C** | Upwork, Freelancer, Contra | Login-gated and routinely stale. **Opt-in only.** |
 | **D** | Google Jobs (India), Google Scholar | A different SerpApi engine, not a `site:` query. |
+
+Google Jobs cards link to the posting on its own board (Unstop, Internshala,
+LinkedIn…), taken from `apply_options` and preferring the original board over
+re-posting aggregators. Google's share link cannot be checked, so job cards used
+to stay unverified; now 34 of 38 recorded jobs verify live. Indeed and Jooble
+block automated checks, so their cards honestly stay **Unverified**.
 | off | UN Online Volunteering | Registered but disabled: 0 results on 6 of 6 real searches. |
 
 Removed after live checks: **VolunteerMatch** and **Taproot Plus** — both now
@@ -169,7 +177,7 @@ request and costs **no SerpApi credit**.
 |---|---|---|
 | 0 | URL shape vs the adapter's regex, checked against real URLs | Homepages, profiles, past project pages |
 | 1 | Snippet markers, and a past edition year in the title (`"… – 2023"`) | Expired listings |
-| 2 | HTTP probe + **post-redirect URL check**, or the platform's own status API | 404s, login walls, ended events |
+| 2 | HTTP probe + **post-redirect URL check**, or the platform's own status API | 404s, login walls, ended or paused projects |
 
 Checking the URL *after* redirects catches the sign-in-wall case: HTTP 200, but
 the final page is a login form.
@@ -179,6 +187,20 @@ The status API exists because of Unstop. Every Unstop listing serves the same
 real data, **58 of 67** recorded Unstop competitions had already finished, and the
 #1 CS card ("SQL Mania") had ended six months earlier. Unstop's public JSON
 endpoint reports `reg_status: FINISHED`, so the gate asks it instead.
+
+| Platform | Liveness source | Why |
+|---|---|---|
+| Unstop | public status API (`reg_status`, `end_regn_dt`) | Every page is the same JS shell |
+| GitHub | REST API (`state`) | The page embeds linked PRs' states: an open issue with closed PRs read as closed |
+| Zooniverse | public API (`state`, `launch_approved`) | Paused and never-launched projects look normal on the page |
+| DrivenData | page text "Completed Sep 2026" | Precise once month and year are attached |
+| Kaggle | **not probed** — snippet wording and title year only | Page is a JS shell; the API needs a login and answers our checker with a CAPTCHA. We do not get round bot checks, so Kaggle cards show **Unverified**. |
+
+Plain-English "closed" phrases are matched against **visible text only**. BeBee
+ships every error string in a script bundle on every job page, so a raw-page
+match archived jobs posted that week. The link checker always identifies itself
+as `S2S-LinkVerifier`, and the verification script uses the same identity, so it
+can never pass a check the product would fail.
 
 ---
 
@@ -200,12 +222,15 @@ Every card shows the arithmetic. A transparent score beats an opaque
 
 Two rules sit on top of the score:
 
-- **Out-of-reach listings are removed, not ranked low:** senior or C-suite titles,
-  "5–15 years" experience, employer-facing recruiter ads, and non-English listings.
+- **Out-of-reach listings are removed, not ranked low:** senior, C-suite or PhD
+  titles, "5–15 years" experience, employer-facing recruiter ads, and non-English
+  listings.
   All four appeared in the first real Google Jobs results.
-- **Platform diversity:** no platform takes more than 3 of the top 10 while a
-  comparable alternative exists. Otherwise 15 Google Scholar papers buried every
-  real research role for a Sociology student.
+- **Platform diversity:** no platform takes more than 3 of the top 10 while an
+  alternative within 15 points exists. Otherwise 15 Google Scholar papers buried
+  every real research role for a Sociology student, and verified job cards buried
+  every (unverifiable) Kaggle competition for a Statistics student. Archived
+  cards are never promoted.
 
 ---
 
@@ -248,7 +273,7 @@ an API without change.
 ## Tests
 
 ```bash
-.venv/bin/python -m pytest        # 329 passed, 4 skipped
+.venv/bin/python -m pytest        # 370 passed, 4 skipped
 ```
 
 Covering registry integrity, the budget cap as a safety property, every scoring

@@ -1,0 +1,498 @@
+{
+  "fetched_at": 1791603968.643272,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "machine learning intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b4ff68ebed51892ec51e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/E3BTGViwrG9I0G6rEtb_xPwXYHWFQTCduVC6ijavGFg/6ac9b4ff68ebed51892ec51e.json",
+      "markdown_endpoint": "https://serpapi.com/searches/E3BTGViwrG9I0G6rEtb_xPwXYHWFQTCduVC6ijavGFg/6ac9b4ff68ebed51892ec51e.md",
+      "created_at": "2026-10-10 03:46:07 UTC",
+      "processed_at": "2026-10-10 03:46:07 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=machine+learning+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/E3BTGViwrG9I0G6rEtb_xPwXYHWFQTCduVC6ijavGFg/6ac9b4ff68ebed51892ec51e.html",
+      "total_time_taken": 0.75
+    },
+    "search_parameters": {
+      "q": "machine learning intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r21-Rdu7tO0gifSkViQvk4LkwwsxDP7YVZlK-Y9HPydEL_4CtKtBWf2Xx8MBHSMLFvDqwGTOPS2ZGq3GwjFU9vj6TQ-0ZGp0HWADbNiwnQJgD8UZuMoOkQNFUpB9QyNB_WU2wVxC8otlHbyvLyhO9rUp54_Go0jUSsVvdLav6rsV5PEvPjwTSxTGjwHYpE1KuDTl4KQ",
+          "q": "machine learning intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r21-Rdu7tO0gifSkViQvk4LkwwsxDP7YVZlK-Y9HPydEL_4CtKtBWf2Xx8MBHSMLFvDqwGTOPS2ZGq3GwjFU9vj6TQ-0ZGp0HWADbNiwnQJgD8UZuMoOkQNFUpB9QyNB_WU2wVxC8otlHbyvLyhO9rUp54_Go0jUSsVvdLav6rsV5PEvPjwTSxTGjwHYpE1KuDTl4KQ&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQxKsJKAB6BAgZEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r21-Rdu7tO0gifSkViQvk4LkwwsxDP7YVZlK-Y9HPydEL_4CtKtBWf2Xx8MBHSMLFvDqwGTOPS2ZGq3GwjFU9vj6TQ-0ZGp0HWADbNiwnQJgD8UZuMoOkQNFUpB9QyNB_WU2wVxC8otlHbyvLyhO9rUp54_Go0jUSsVvdLav6rsV5PEvPjwTSxTGjwHYpE1KuDTl4KQ"
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU605bYwPjwcDiVGYwUT8sr8JWwNcIjQbxeM6t5o8_-LqAL6x0YNon0nfeI3u-Nf07fpLlRchalm-d2kSzSC_lBq_6oAp_CxAs0JovgnWg2ZdkgNmfE2KVxOOJnltC5pipFCRqsE3xhDU3rri8zpyCXo3y7RQrzHIVKjiSX8qZCk5VTii9kcWxfpcdnWkc_R2FBbPxdjZJKShjb--XVQEivPYDKJXjBiE6RrfUlPc94eOhkuW0cky9RwAk1TewBb5MA-djziIIePaa4mtaQ9vlLn0PISBrCY-zsC9J4XoccJEgN6-P-V-MXEsFJjfAQjRaJIdX-Dt_I_kZMkKTwuyT-nhd77D",
+              "q": "machine learning intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU605bYwPjwcDiVGYwUT8sr8JWwNcIjQbxeM6t5o8_-LqAL6x0YNon0nfeI3u-Nf07fpLlRchalm-d2kSzSC_lBq_6oAp_CxAs0JovgnWg2ZdkgNmfE2KVxOOJnltC5pipFCRqsE3xhDU3rri8zpyCXo3y7RQrzHIVKjiSX8qZCk5VTii9kcWxfpcdnWkc_R2FBbPxdjZJKShjb--XVQEivPYDKJXjBiE6RrfUlPc94eOhkuW0cky9RwAk1TewBb5MA-djziIIePaa4mtaQ9vlLn0PISBrCY-zsC9J4XoccJEgN6-P-V-MXEsFJjfAQjRaJIdX-Dt_I_kZMkKTwuyT-nhd77D&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU605bYwPjwcDiVGYwUT8sr8JWwNcIjQbxeM6t5o8_-LqAL6x0YNon0nfeI3u-Nf07fpLlRchalm-d2kSzSC_lBq_6oAp_CxAs0JovgnWg2ZdkgNmfE2KVxOOJnltC5pipFCRqsE3xhDU3rri8zpyCXo3y7RQrzHIVKjiSX8qZCk5VTii9kcWxfpcdnWkc_R2FBbPxdjZJKShjb--XVQEivPYDKJXjBiE6RrfUlPc94eOhkuW0cky9RwAk1TewBb5MA-djziIIePaa4mtaQ9vlLn0PISBrCY-zsC9J4XoccJEgN6-P-V-MXEsFJjfAQjRaJIdX-Dt_I_kZMkKTwuyT-nhd77D"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJ7C_oDwvFglOqm_ceaPuiQWi2tEXH_lWsk5IV7DRMfePlprHwxBhGA_RSnAKRLBkB2NdWhSgK73cM6RUs1I-Cp4UvZzR1dSR7GTW-xgXhv_0P525E6BL6R9lGFra4yKreMwkZ1e7Y6Oik9ex_ydSoFEaNlOdJfjwxxTbsS1CSDDWJc7LBm4bk7A1zBjwLJQ_5igKdkv92r4gNDH3vjRE-d3G0-miebQQzucPrcrjJDQenuWVJaf79LrbVMqO8iw3f9CigrNaN1OkZj6L6govf4QD9IYJqwXAmSpM79T2zd5FHS_7ogoUB9MiKWWu55HTTGbxTaS4Ewo0Jnq5YkyEtWQQR4VvKB8DHPWiIB6mwWps4BD4",
+              "q": "machine learning intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJ7C_oDwvFglOqm_ceaPuiQWi2tEXH_lWsk5IV7DRMfePlprHwxBhGA_RSnAKRLBkB2NdWhSgK73cM6RUs1I-Cp4UvZzR1dSR7GTW-xgXhv_0P525E6BL6R9lGFra4yKreMwkZ1e7Y6Oik9ex_ydSoFEaNlOdJfjwxxTbsS1CSDDWJc7LBm4bk7A1zBjwLJQ_5igKdkv92r4gNDH3vjRE-d3G0-miebQQzucPrcrjJDQenuWVJaf79LrbVMqO8iw3f9CigrNaN1OkZj6L6govf4QD9IYJqwXAmSpM79T2zd5FHS_7ogoUB9MiKWWu55HTTGbxTaS4Ewo0Jnq5YkyEtWQQR4VvKB8DHPWiIB6mwWps4BD4&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJ7C_oDwvFglOqm_ceaPuiQWi2tEXH_lWsk5IV7DRMfePlprHwxBhGA_RSnAKRLBkB2NdWhSgK73cM6RUs1I-Cp4UvZzR1dSR7GTW-xgXhv_0P525E6BL6R9lGFra4yKreMwkZ1e7Y6Oik9ex_ydSoFEaNlOdJfjwxxTbsS1CSDDWJc7LBm4bk7A1zBjwLJQ_5igKdkv92r4gNDH3vjRE-d3G0-miebQQzucPrcrjJDQenuWVJaf79LrbVMqO8iw3f9CigrNaN1OkZj6L6govf4QD9IYJqwXAmSpM79T2zd5FHS_7ogoUB9MiKWWu55HTTGbxTaS4Ewo0Jnq5YkyEtWQQR4VvKB8DHPWiIB6mwWps4BD4"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsIrUljaPH9okET3XT5Wp29PkxPUBcpuT_iqZADbdvU5NDFR12-myYuKRpjFpjDERCTPbTHyTB0aozQoOvoy_At8wG3GwzPbn6Hebeb7VhidGeItlcv7uil4H-E9Hacy2FXp64lzUc0iH2Pa9GrYWp1vl25usrBAdUlrA0zlHG2vw137q6WbXOcTj-1BpLMmDlLjjbPCpsQeS24JiKJfd1RI8wYB0yl9nPQhwHq--bBUHqk-u0saQjwB-fFhO6-ON8Zg5G66Ik7cIeSHInoNAHCD6X0umpCo4o7QLENZlzvGk1PRc9LtoUWSSwzDES_qm4kPMNdCskJj2MwzdkIHxWrhH6T-QjDJGZ65XJ6qG7g2-zcUP",
+              "q": "machine learning intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsIrUljaPH9okET3XT5Wp29PkxPUBcpuT_iqZADbdvU5NDFR12-myYuKRpjFpjDERCTPbTHyTB0aozQoOvoy_At8wG3GwzPbn6Hebeb7VhidGeItlcv7uil4H-E9Hacy2FXp64lzUc0iH2Pa9GrYWp1vl25usrBAdUlrA0zlHG2vw137q6WbXOcTj-1BpLMmDlLjjbPCpsQeS24JiKJfd1RI8wYB0yl9nPQhwHq--bBUHqk-u0saQjwB-fFhO6-ON8Zg5G66Ik7cIeSHInoNAHCD6X0umpCo4o7QLENZlzvGk1PRc9LtoUWSSwzDES_qm4kPMNdCskJj2MwzdkIHxWrhH6T-QjDJGZ65XJ6qG7g2-zcUP&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsIrUljaPH9okET3XT5Wp29PkxPUBcpuT_iqZADbdvU5NDFR12-myYuKRpjFpjDERCTPbTHyTB0aozQoOvoy_At8wG3GwzPbn6Hebeb7VhidGeItlcv7uil4H-E9Hacy2FXp64lzUc0iH2Pa9GrYWp1vl25usrBAdUlrA0zlHG2vw137q6WbXOcTj-1BpLMmDlLjjbPCpsQeS24JiKJfd1RI8wYB0yl9nPQhwHq--bBUHqk-u0saQjwB-fFhO6-ON8Zg5G66Ik7cIeSHInoNAHCD6X0umpCo4o7QLENZlzvGk1PRc9LtoUWSSwzDES_qm4kPMNdCskJj2MwzdkIHxWrhH6T-QjDJGZ65XJ6qG7g2-zcUP"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rfd_-sY_jeBKjOkqT7u58yYc8FoVGVJevqq9R1q5QTiC5qordOF3CEdW1Of_UJ6L4wHwajduS36PF3tOa2PVFuvpPPEKKAgRIr0mcyikZUBd0_BRLcxiXIUkJMg_jdT3Ab4HTn6nRNzEJPFWxmEUM6lcF4WKKyJW5j680uAsXrLkHSsPNMC2_dO15ldBQ3amHlZ-S7Wiy1lEnkgiHVmct_ZVXUklke7NmhqmASb28z8QUJfpzfXZX4hLsdOMluv-fm4QeW78GJDnj-nVOmTeVPibMdlOk5_IYDc8M3QVboJt_b4D2Z4MUiRsxfjqTc--4yZtpMprmTwmy95vVIRHo0iJ1PbmKs5z21EBKuaDcm3dHA_qn",
+              "q": "machine learning intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfd_-sY_jeBKjOkqT7u58yYc8FoVGVJevqq9R1q5QTiC5qordOF3CEdW1Of_UJ6L4wHwajduS36PF3tOa2PVFuvpPPEKKAgRIr0mcyikZUBd0_BRLcxiXIUkJMg_jdT3Ab4HTn6nRNzEJPFWxmEUM6lcF4WKKyJW5j680uAsXrLkHSsPNMC2_dO15ldBQ3amHlZ-S7Wiy1lEnkgiHVmct_ZVXUklke7NmhqmASb28z8QUJfpzfXZX4hLsdOMluv-fm4QeW78GJDnj-nVOmTeVPibMdlOk5_IYDc8M3QVboJt_b4D2Z4MUiRsxfjqTc--4yZtpMprmTwmy95vVIRHo0iJ1PbmKs5z21EBKuaDcm3dHA_qn&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfd_-sY_jeBKjOkqT7u58yYc8FoVGVJevqq9R1q5QTiC5qordOF3CEdW1Of_UJ6L4wHwajduS36PF3tOa2PVFuvpPPEKKAgRIr0mcyikZUBd0_BRLcxiXIUkJMg_jdT3Ab4HTn6nRNzEJPFWxmEUM6lcF4WKKyJW5j680uAsXrLkHSsPNMC2_dO15ldBQ3amHlZ-S7Wiy1lEnkgiHVmct_ZVXUklke7NmhqmASb28z8QUJfpzfXZX4hLsdOMluv-fm4QeW78GJDnj-nVOmTeVPibMdlOk5_IYDc8M3QVboJt_b4D2Z4MUiRsxfjqTc--4yZtpMprmTwmy95vVIRHo0iJ1PbmKs5z21EBKuaDcm3dHA_qn"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU605bYwPjwcDiVGYwUT8sr8JWwNcIjQbxeM6t5o8_-LqAL6x0YNon0nfeI3u-Nf07fpLlRchalm-d2kSzSC_lBq_6oAp_CxAs0JovgnWg2ZdkgNmfE2KVxOOJnltC5pipFCRqsE3xhDU3rri8zpyCXo3y7RQrzHIVKjiSX8qZCk5VTii9kcWxfpcdnWkc_R2FBbPxdjZJKShjb--XVQEivPYDKJXjBiE6RrfUlPc94eOhkuW0cky9RwAk1TewBb5MA-djziIIePaa4mtaQ9vlLn0PISBrCY-zsC9J4XoccJEgN6-P-V-MXEsFJjfAQjRaJIdX-Dt_I_kZMkKTwuyT-nhd77D",
+              "q": "machine learning intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU605bYwPjwcDiVGYwUT8sr8JWwNcIjQbxeM6t5o8_-LqAL6x0YNon0nfeI3u-Nf07fpLlRchalm-d2kSzSC_lBq_6oAp_CxAs0JovgnWg2ZdkgNmfE2KVxOOJnltC5pipFCRqsE3xhDU3rri8zpyCXo3y7RQrzHIVKjiSX8qZCk5VTii9kcWxfpcdnWkc_R2FBbPxdjZJKShjb--XVQEivPYDKJXjBiE6RrfUlPc94eOhkuW0cky9RwAk1TewBb5MA-djziIIePaa4mtaQ9vlLn0PISBrCY-zsC9J4XoccJEgN6-P-V-MXEsFJjfAQjRaJIdX-Dt_I_kZMkKTwuyT-nhd77D&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU605bYwPjwcDiVGYwUT8sr8JWwNcIjQbxeM6t5o8_-LqAL6x0YNon0nfeI3u-Nf07fpLlRchalm-d2kSzSC_lBq_6oAp_CxAs0JovgnWg2ZdkgNmfE2KVxOOJnltC5pipFCRqsE3xhDU3rri8zpyCXo3y7RQrzHIVKjiSX8qZCk5VTii9kcWxfpcdnWkc_R2FBbPxdjZJKShjb--XVQEivPYDKJXjBiE6RrfUlPc94eOhkuW0cky9RwAk1TewBb5MA-djziIIePaa4mtaQ9vlLn0PISBrCY-zsC9J4XoccJEgN6-P-V-MXEsFJjfAQjRaJIdX-Dt_I_kZMkKTwuyT-nhd77D"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJ7C_oDwvFglOqm_ceaPuiQWi2tEXH_lWsk5IV7DRMfePlprHwxBhGA_RSnAKRLBkB2NdWhSgK73cM6RUs1I-Cp4UvZzR1dSR7GTW-xgXhv_0P525E6BL6R9lGFra4yKreMwkZ1e7Y6Oik9ex_ydSoFEaNlOdJfjwxxTbsS1CSDDWJc7LBm4bk7A1zBjwLJQ_5igKdkv92r4gNDH3vjRE-d3G0-miebQQzucPrcrjJDQenuWVJaf79LrbVMqO8iw3f9CigrNaN1OkZj6L6govf4QD9IYJqwXAmSpM79T2zd5FHS_7ogoUB9MiKWWu55HTTGbxTaS4Ewo0Jnq5YkyEtWQQR4VvKB8DHPWiIB6mwWps4BD4",
+              "q": "machine learning intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJ7C_oDwvFglOqm_ceaPuiQWi2tEXH_lWsk5IV7DRMfePlprHwxBhGA_RSnAKRLBkB2NdWhSgK73cM6RUs1I-Cp4UvZzR1dSR7GTW-xgXhv_0P525E6BL6R9lGFra4yKreMwkZ1e7Y6Oik9ex_ydSoFEaNlOdJfjwxxTbsS1CSDDWJc7LBm4bk7A1zBjwLJQ_5igKdkv92r4gNDH3vjRE-d3G0-miebQQzucPrcrjJDQenuWVJaf79LrbVMqO8iw3f9CigrNaN1OkZj6L6govf4QD9IYJqwXAmSpM79T2zd5FHS_7ogoUB9MiKWWu55HTTGbxTaS4Ewo0Jnq5YkyEtWQQR4VvKB8DHPWiIB6mwWps4BD4&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJ7C_oDwvFglOqm_ceaPuiQWi2tEXH_lWsk5IV7DRMfePlprHwxBhGA_RSnAKRLBkB2NdWhSgK73cM6RUs1I-Cp4UvZzR1dSR7GTW-xgXhv_0P525E6BL6R9lGFra4yKreMwkZ1e7Y6Oik9ex_ydSoFEaNlOdJfjwxxTbsS1CSDDWJc7LBm4bk7A1zBjwLJQ_5igKdkv92r4gNDH3vjRE-d3G0-miebQQzucPrcrjJDQenuWVJaf79LrbVMqO8iw3f9CigrNaN1OkZj6L6govf4QD9IYJqwXAmSpM79T2zd5FHS_7ogoUB9MiKWWu55HTTGbxTaS4Ewo0Jnq5YkyEtWQQR4VvKB8DHPWiIB6mwWps4BD4"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsIrUljaPH9okET3XT5Wp29PkxPUBcpuT_iqZADbdvU5NDFR12-myYuKRpjFpjDERCTPbTHyTB0aozQoOvoy_At8wG3GwzPbn6Hebeb7VhidGeItlcv7uil4H-E9Hacy2FXp64lzUc0iH2Pa9GrYWp1vl25usrBAdUlrA0zlHG2vw137q6WbXOcTj-1BpLMmDlLjjbPCpsQeS24JiKJfd1RI8wYB0yl9nPQhwHq--bBUHqk-u0saQjwB-fFhO6-ON8Zg5G66Ik7cIeSHInoNAHCD6X0umpCo4o7QLENZlzvGk1PRc9LtoUWSSwzDES_qm4kPMNdCskJj2MwzdkIHxWrhH6T-QjDJGZ65XJ6qG7g2-zcUP",
+              "q": "machine learning intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsIrUljaPH9okET3XT5Wp29PkxPUBcpuT_iqZADbdvU5NDFR12-myYuKRpjFpjDERCTPbTHyTB0aozQoOvoy_At8wG3GwzPbn6Hebeb7VhidGeItlcv7uil4H-E9Hacy2FXp64lzUc0iH2Pa9GrYWp1vl25usrBAdUlrA0zlHG2vw137q6WbXOcTj-1BpLMmDlLjjbPCpsQeS24JiKJfd1RI8wYB0yl9nPQhwHq--bBUHqk-u0saQjwB-fFhO6-ON8Zg5G66Ik7cIeSHInoNAHCD6X0umpCo4o7QLENZlzvGk1PRc9LtoUWSSwzDES_qm4kPMNdCskJj2MwzdkIHxWrhH6T-QjDJGZ65XJ6qG7g2-zcUP&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsIrUljaPH9okET3XT5Wp29PkxPUBcpuT_iqZADbdvU5NDFR12-myYuKRpjFpjDERCTPbTHyTB0aozQoOvoy_At8wG3GwzPbn6Hebeb7VhidGeItlcv7uil4H-E9Hacy2FXp64lzUc0iH2Pa9GrYWp1vl25usrBAdUlrA0zlHG2vw137q6WbXOcTj-1BpLMmDlLjjbPCpsQeS24JiKJfd1RI8wYB0yl9nPQhwHq--bBUHqk-u0saQjwB-fFhO6-ON8Zg5G66Ik7cIeSHInoNAHCD6X0umpCo4o7QLENZlzvGk1PRc9LtoUWSSwzDES_qm4kPMNdCskJj2MwzdkIHxWrhH6T-QjDJGZ65XJ6qG7g2-zcUP"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rfd_-sY_jeBKjOkqT7u58yYc8FoVGVJevqq9R1q5QTiC5qordOF3CEdW1Of_UJ6L4wHwajduS36PF3tOa2PVFuvpPPEKKAgRIr0mcyikZUBd0_BRLcxiXIUkJMg_jdT3Ab4HTn6nRNzEJPFWxmEUM6lcF4WKKyJW5j680uAsXrLkHSsPNMC2_dO15ldBQ3amHlZ-S7Wiy1lEnkgiHVmct_ZVXUklke7NmhqmASb28z8QUJfpzfXZX4hLsdOMluv-fm4QeW78GJDnj-nVOmTeVPibMdlOk5_IYDc8M3QVboJt_b4D2Z4MUiRsxfjqTc--4yZtpMprmTwmy95vVIRHo0iJ1PbmKs5z21EBKuaDcm3dHA_qn",
+              "q": "machine learning intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfd_-sY_jeBKjOkqT7u58yYc8FoVGVJevqq9R1q5QTiC5qordOF3CEdW1Of_UJ6L4wHwajduS36PF3tOa2PVFuvpPPEKKAgRIr0mcyikZUBd0_BRLcxiXIUkJMg_jdT3Ab4HTn6nRNzEJPFWxmEUM6lcF4WKKyJW5j680uAsXrLkHSsPNMC2_dO15ldBQ3amHlZ-S7Wiy1lEnkgiHVmct_ZVXUklke7NmhqmASb28z8QUJfpzfXZX4hLsdOMluv-fm4QeW78GJDnj-nVOmTeVPibMdlOk5_IYDc8M3QVboJt_b4D2Z4MUiRsxfjqTc--4yZtpMprmTwmy95vVIRHo0iJ1PbmKs5z21EBKuaDcm3dHA_qn&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfd_-sY_jeBKjOkqT7u58yYc8FoVGVJevqq9R1q5QTiC5qordOF3CEdW1Of_UJ6L4wHwajduS36PF3tOa2PVFuvpPPEKKAgRIr0mcyikZUBd0_BRLcxiXIUkJMg_jdT3Ab4HTn6nRNzEJPFWxmEUM6lcF4WKKyJW5j680uAsXrLkHSsPNMC2_dO15ldBQ3amHlZ-S7Wiy1lEnkgiHVmct_ZVXUklke7NmhqmASb28z8QUJfpzfXZX4hLsdOMluv-fm4QeW78GJDnj-nVOmTeVPibMdlOk5_IYDc8M3QVboJt_b4D2Z4MUiRsxfjqTc--4yZtpMprmTwmy95vVIRHo0iJ1PbmKs5z21EBKuaDcm3dHA_qn"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bjnMj8IKQbdtd8_B9-DvvDxF6cWQPJp1fZs5VXvbWUZGhe3Ix3nnwDCol6dKEt8JNwyUHwf7azUYMxcrGrwoWYJ-UFGLw_fIQdmf4AwaPdqZJekOoBJODPIFoaw4g9dWqOqjjA6LFHDr0MwhrGgs50lnVRdaR5stuXiOHmPVMMduXBwlf6R484HddPBBlIQ5D3tpfq06-OHTv5F8dMOSxEbh4l_Wps35zKcYpcLm-xJOWDHMgs6as0c3Q3mVV3SzwZjnnYmD5A_xh_nXRYeBFNNxE2URO348dPpUlupjM4ldxQvAVh7YP1Ye8SEpdRC_aPwqVrH",
+              "q": "machine learning intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bjnMj8IKQbdtd8_B9-DvvDxF6cWQPJp1fZs5VXvbWUZGhe3Ix3nnwDCol6dKEt8JNwyUHwf7azUYMxcrGrwoWYJ-UFGLw_fIQdmf4AwaPdqZJekOoBJODPIFoaw4g9dWqOqjjA6LFHDr0MwhrGgs50lnVRdaR5stuXiOHmPVMMduXBwlf6R484HddPBBlIQ5D3tpfq06-OHTv5F8dMOSxEbh4l_Wps35zKcYpcLm-xJOWDHMgs6as0c3Q3mVV3SzwZjnnYmD5A_xh_nXRYeBFNNxE2URO348dPpUlupjM4ldxQvAVh7YP1Ye8SEpdRC_aPwqVrH&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bjnMj8IKQbdtd8_B9-DvvDxF6cWQPJp1fZs5VXvbWUZGhe3Ix3nnwDCol6dKEt8JNwyUHwf7azUYMxcrGrwoWYJ-UFGLw_fIQdmf4AwaPdqZJekOoBJODPIFoaw4g9dWqOqjjA6LFHDr0MwhrGgs50lnVRdaR5stuXiOHmPVMMduXBwlf6R484HddPBBlIQ5D3tpfq06-OHTv5F8dMOSxEbh4l_Wps35zKcYpcLm-xJOWDHMgs6as0c3Q3mVV3SzwZjnnYmD5A_xh_nXRYeBFNNxE2URO348dPpUlupjM4ldxQvAVh7YP1Ye8SEpdRC_aPwqVrH"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bgl6KxrGDJ_qgjraKHFNX3UzfBZTApxEuHbHPzgoyW_XpCNGqOfG4GwwwwcIlytIYQmJYpAnYxd79Bihz2F9Ce1eGF_xuzLpsEA6ZfUmWqdlpgJQnBGvPnViUFTX1g06_PYZ2_ztshcvhuECm8u6sBWKFea83QvaO970JHa7FQ6aAjBKqvntD7JwSetDoP-0SwMCmouy3PS3IViiyOdmZ4AsCzPYWkiO_WFLQzjM9pL7gC5R_auHmPUbNFqT5nHsNI7fQtFWJWCp7PropmbsJ6NNIngGPw-GZ4RQ271n8OkNBRJHOmDCKhg87vzYqqKMBwFW-_J",
+              "q": "machine learning intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bgl6KxrGDJ_qgjraKHFNX3UzfBZTApxEuHbHPzgoyW_XpCNGqOfG4GwwwwcIlytIYQmJYpAnYxd79Bihz2F9Ce1eGF_xuzLpsEA6ZfUmWqdlpgJQnBGvPnViUFTX1g06_PYZ2_ztshcvhuECm8u6sBWKFea83QvaO970JHa7FQ6aAjBKqvntD7JwSetDoP-0SwMCmouy3PS3IViiyOdmZ4AsCzPYWkiO_WFLQzjM9pL7gC5R_auHmPUbNFqT5nHsNI7fQtFWJWCp7PropmbsJ6NNIngGPw-GZ4RQ271n8OkNBRJHOmDCKhg87vzYqqKMBwFW-_J&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bgl6KxrGDJ_qgjraKHFNX3UzfBZTApxEuHbHPzgoyW_XpCNGqOfG4GwwwwcIlytIYQmJYpAnYxd79Bihz2F9Ce1eGF_xuzLpsEA6ZfUmWqdlpgJQnBGvPnViUFTX1g06_PYZ2_ztshcvhuECm8u6sBWKFea83QvaO970JHa7FQ6aAjBKqvntD7JwSetDoP-0SwMCmouy3PS3IViiyOdmZ4AsCzPYWkiO_WFLQzjM9pL7gC5R_auHmPUbNFqT5nHsNI7fQtFWJWCp7PropmbsJ6NNIngGPw-GZ4RQ271n8OkNBRJHOmDCKhg87vzYqqKMBwFW-_J"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpsp0pFQL5EweNpAXcusl1wz2V40LCpsM0yJcXNFjwDhRV9Ojf07LmEnQbTgXKdCjMHTTyuD_qVV7cNWGPLkLESFeinEoDmMXmtCCwvqFKwXk33R9oPGqsP9KwZctTUtp3d6iKFi0xQeJQ1E8MjtGl18unk_3hs70IIFltHPZO8YxdqivCnYFfQs1aK1M3TWuWua5ivNdvNGM3tWh91wrlAgtZ-nQzu-L8iDQ074Z5bPOyfmNuthQBT1XLp4lDAWVu2Bx_4wvhVcRv9WYHWwL7PN22yvssxYJR5vVCOo7VsJ2kFxzfh2Yw6JirQWhl7NB0ZyON4",
+              "q": "machine learning intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpsp0pFQL5EweNpAXcusl1wz2V40LCpsM0yJcXNFjwDhRV9Ojf07LmEnQbTgXKdCjMHTTyuD_qVV7cNWGPLkLESFeinEoDmMXmtCCwvqFKwXk33R9oPGqsP9KwZctTUtp3d6iKFi0xQeJQ1E8MjtGl18unk_3hs70IIFltHPZO8YxdqivCnYFfQs1aK1M3TWuWua5ivNdvNGM3tWh91wrlAgtZ-nQzu-L8iDQ074Z5bPOyfmNuthQBT1XLp4lDAWVu2Bx_4wvhVcRv9WYHWwL7PN22yvssxYJR5vVCOo7VsJ2kFxzfh2Yw6JirQWhl7NB0ZyON4&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpsp0pFQL5EweNpAXcusl1wz2V40LCpsM0yJcXNFjwDhRV9Ojf07LmEnQbTgXKdCjMHTTyuD_qVV7cNWGPLkLESFeinEoDmMXmtCCwvqFKwXk33R9oPGqsP9KwZctTUtp3d6iKFi0xQeJQ1E8MjtGl18unk_3hs70IIFltHPZO8YxdqivCnYFfQs1aK1M3TWuWua5ivNdvNGM3tWh91wrlAgtZ-nQzu-L8iDQ074Z5bPOyfmNuthQBT1XLp4lDAWVu2Bx_4wvhVcRv9WYHWwL7PN22yvssxYJR5vVCOo7VsJ2kFxzfh2Yw6JirQWhl7NB0ZyON4"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgO-Aw68bXRhyO5czSlwHlZQOyoVS4T6AanDhfkG1a_dgB1DWxieVfq0IfuRlOTb4mu2ler2kha4SMZX7_Ida54vdFZzL1Cvm1kd71Xmo4fZXzD7ZUOyKQXjJmDzXwbVWZqIiUb90Gyfx-wFtRM0gPkJbO_Lg-bytNMlbjjTCyhdsKPglbdGtIp9f--dkI5pRqmvAON6-QSV1Ix5AWGa_U47rtazU18HceJdtJrru6FMmgLmAlU7fsBWy8W01EYbgQVid9CM5uJvcVje16_Sf-RJbUA-YqPqbYe1KWmeuM81K9wB2CLIAYzi8u5BtV08OyxF_eDcQmwP8kHSLkZVKkzSd8Ek",
+              "q": "machine learning intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgO-Aw68bXRhyO5czSlwHlZQOyoVS4T6AanDhfkG1a_dgB1DWxieVfq0IfuRlOTb4mu2ler2kha4SMZX7_Ida54vdFZzL1Cvm1kd71Xmo4fZXzD7ZUOyKQXjJmDzXwbVWZqIiUb90Gyfx-wFtRM0gPkJbO_Lg-bytNMlbjjTCyhdsKPglbdGtIp9f--dkI5pRqmvAON6-QSV1Ix5AWGa_U47rtazU18HceJdtJrru6FMmgLmAlU7fsBWy8W01EYbgQVid9CM5uJvcVje16_Sf-RJbUA-YqPqbYe1KWmeuM81K9wB2CLIAYzi8u5BtV08OyxF_eDcQmwP8kHSLkZVKkzSd8Ek&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgO-Aw68bXRhyO5czSlwHlZQOyoVS4T6AanDhfkG1a_dgB1DWxieVfq0IfuRlOTb4mu2ler2kha4SMZX7_Ida54vdFZzL1Cvm1kd71Xmo4fZXzD7ZUOyKQXjJmDzXwbVWZqIiUb90Gyfx-wFtRM0gPkJbO_Lg-bytNMlbjjTCyhdsKPglbdGtIp9f--dkI5pRqmvAON6-QSV1Ix5AWGa_U47rtazU18HceJdtJrru6FMmgLmAlU7fsBWy8W01EYbgQVid9CM5uJvcVje16_Sf-RJbUA-YqPqbYe1KWmeuM81K9wB2CLIAYzi8u5BtV08OyxF_eDcQmwP8kHSLkZVKkzSd8Ek"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bjnMj8IKQbdtd8_B9-DvvDxF6cWQPJp1fZs5VXvbWUZGhe3Ix3nnwDCol6dKEt8JNwyUHwf7azUYMxcrGrwoWYJ-UFGLw_fIQdmf4AwaPdqZJekOoBJODPIFoaw4g9dWqOqjjA6LFHDr0MwhrGgs50lnVRdaR5stuXiOHmPVMMduXBwlf6R484HddPBBlIQ5D3tpfq06-OHTv5F8dMOSxEbh4l_Wps35zKcYpcLm-xJOWDHMgs6as0c3Q3mVV3SzwZjnnYmD5A_xh_nXRYeBFNNxE2URO348dPpUlupjM4ldxQvAVh7YP1Ye8SEpdRC_aPwqVrH",
+              "q": "machine learning intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bjnMj8IKQbdtd8_B9-DvvDxF6cWQPJp1fZs5VXvbWUZGhe3Ix3nnwDCol6dKEt8JNwyUHwf7azUYMxcrGrwoWYJ-UFGLw_fIQdmf4AwaPdqZJekOoBJODPIFoaw4g9dWqOqjjA6LFHDr0MwhrGgs50lnVRdaR5stuXiOHmPVMMduXBwlf6R484HddPBBlIQ5D3tpfq06-OHTv5F8dMOSxEbh4l_Wps35zKcYpcLm-xJOWDHMgs6as0c3Q3mVV3SzwZjnnYmD5A_xh_nXRYeBFNNxE2URO348dPpUlupjM4ldxQvAVh7YP1Ye8SEpdRC_aPwqVrH&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bjnMj8IKQbdtd8_B9-DvvDxF6cWQPJp1fZs5VXvbWUZGhe3Ix3nnwDCol6dKEt8JNwyUHwf7azUYMxcrGrwoWYJ-UFGLw_fIQdmf4AwaPdqZJekOoBJODPIFoaw4g9dWqOqjjA6LFHDr0MwhrGgs50lnVRdaR5stuXiOHmPVMMduXBwlf6R484HddPBBlIQ5D3tpfq06-OHTv5F8dMOSxEbh4l_Wps35zKcYpcLm-xJOWDHMgs6as0c3Q3mVV3SzwZjnnYmD5A_xh_nXRYeBFNNxE2URO348dPpUlupjM4ldxQvAVh7YP1Ye8SEpdRC_aPwqVrH"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bgl6KxrGDJ_qgjraKHFNX3UzfBZTApxEuHbHPzgoyW_XpCNGqOfG4GwwwwcIlytIYQmJYpAnYxd79Bihz2F9Ce1eGF_xuzLpsEA6ZfUmWqdlpgJQnBGvPnViUFTX1g06_PYZ2_ztshcvhuECm8u6sBWKFea83QvaO970JHa7FQ6aAjBKqvntD7JwSetDoP-0SwMCmouy3PS3IViiyOdmZ4AsCzPYWkiO_WFLQzjM9pL7gC5R_auHmPUbNFqT5nHsNI7fQtFWJWCp7PropmbsJ6NNIngGPw-GZ4RQ271n8OkNBRJHOmDCKhg87vzYqqKMBwFW-_J",
+              "q": "machine learning intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bgl6KxrGDJ_qgjraKHFNX3UzfBZTApxEuHbHPzgoyW_XpCNGqOfG4GwwwwcIlytIYQmJYpAnYxd79Bihz2F9Ce1eGF_xuzLpsEA6ZfUmWqdlpgJQnBGvPnViUFTX1g06_PYZ2_ztshcvhuECm8u6sBWKFea83QvaO970JHa7FQ6aAjBKqvntD7JwSetDoP-0SwMCmouy3PS3IViiyOdmZ4AsCzPYWkiO_WFLQzjM9pL7gC5R_auHmPUbNFqT5nHsNI7fQtFWJWCp7PropmbsJ6NNIngGPw-GZ4RQ271n8OkNBRJHOmDCKhg87vzYqqKMBwFW-_J&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUIqZv6_F9WtToVg9sUzW0bgl6KxrGDJ_qgjraKHFNX3UzfBZTApxEuHbHPzgoyW_XpCNGqOfG4GwwwwcIlytIYQmJYpAnYxd79Bihz2F9Ce1eGF_xuzLpsEA6ZfUmWqdlpgJQnBGvPnViUFTX1g06_PYZ2_ztshcvhuECm8u6sBWKFea83QvaO970JHa7FQ6aAjBKqvntD7JwSetDoP-0SwMCmouy3PS3IViiyOdmZ4AsCzPYWkiO_WFLQzjM9pL7gC5R_auHmPUbNFqT5nHsNI7fQtFWJWCp7PropmbsJ6NNIngGPw-GZ4RQ271n8OkNBRJHOmDCKhg87vzYqqKMBwFW-_J"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpsp0pFQL5EweNpAXcusl1wz2V40LCpsM0yJcXNFjwDhRV9Ojf07LmEnQbTgXKdCjMHTTyuD_qVV7cNWGPLkLESFeinEoDmMXmtCCwvqFKwXk33R9oPGqsP9KwZctTUtp3d6iKFi0xQeJQ1E8MjtGl18unk_3hs70IIFltHPZO8YxdqivCnYFfQs1aK1M3TWuWua5ivNdvNGM3tWh91wrlAgtZ-nQzu-L8iDQ074Z5bPOyfmNuthQBT1XLp4lDAWVu2Bx_4wvhVcRv9WYHWwL7PN22yvssxYJR5vVCOo7VsJ2kFxzfh2Yw6JirQWhl7NB0ZyON4",
+              "q": "machine learning intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpsp0pFQL5EweNpAXcusl1wz2V40LCpsM0yJcXNFjwDhRV9Ojf07LmEnQbTgXKdCjMHTTyuD_qVV7cNWGPLkLESFeinEoDmMXmtCCwvqFKwXk33R9oPGqsP9KwZctTUtp3d6iKFi0xQeJQ1E8MjtGl18unk_3hs70IIFltHPZO8YxdqivCnYFfQs1aK1M3TWuWua5ivNdvNGM3tWh91wrlAgtZ-nQzu-L8iDQ074Z5bPOyfmNuthQBT1XLp4lDAWVu2Bx_4wvhVcRv9WYHWwL7PN22yvssxYJR5vVCOo7VsJ2kFxzfh2Yw6JirQWhl7NB0ZyON4&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpsp0pFQL5EweNpAXcusl1wz2V40LCpsM0yJcXNFjwDhRV9Ojf07LmEnQbTgXKdCjMHTTyuD_qVV7cNWGPLkLESFeinEoDmMXmtCCwvqFKwXk33R9oPGqsP9KwZctTUtp3d6iKFi0xQeJQ1E8MjtGl18unk_3hs70IIFltHPZO8YxdqivCnYFfQs1aK1M3TWuWua5ivNdvNGM3tWh91wrlAgtZ-nQzu-L8iDQ074Z5bPOyfmNuthQBT1XLp4lDAWVu2Bx_4wvhVcRv9WYHWwL7PN22yvssxYJR5vVCOo7VsJ2kFxzfh2Yw6JirQWhl7NB0ZyON4"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgO-Aw68bXRhyO5czSlwHlZQOyoVS4T6AanDhfkG1a_dgB1DWxieVfq0IfuRlOTb4mu2ler2kha4SMZX7_Ida54vdFZzL1Cvm1kd71Xmo4fZXzD7ZUOyKQXjJmDzXwbVWZqIiUb90Gyfx-wFtRM0gPkJbO_Lg-bytNMlbjjTCyhdsKPglbdGtIp9f--dkI5pRqmvAON6-QSV1Ix5AWGa_U47rtazU18HceJdtJrru6FMmgLmAlU7fsBWy8W01EYbgQVid9CM5uJvcVje16_Sf-RJbUA-YqPqbYe1KWmeuM81K9wB2CLIAYzi8u5BtV08OyxF_eDcQmwP8kHSLkZVKkzSd8Ek",
+              "q": "machine learning intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntEVkRNpPyaYaqE23XGTISDcyJrJQ:1791603968152&q=machine+learning+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgO-Aw68bXRhyO5czSlwHlZQOyoVS4T6AanDhfkG1a_dgB1DWxieVfq0IfuRlOTb4mu2ler2kha4SMZX7_Ida54vdFZzL1Cvm1kd71Xmo4fZXzD7ZUOyKQXjJmDzXwbVWZqIiUb90Gyfx-wFtRM0gPkJbO_Lg-bytNMlbjjTCyhdsKPglbdGtIp9f--dkI5pRqmvAON6-QSV1Ix5AWGa_U47rtazU18HceJdtJrru6FMmgLmAlU7fsBWy8W01EYbgQVid9CM5uJvcVje16_Sf-RJbUA-YqPqbYe1KWmeuM81K9wB2CLIAYzi8u5BtV08OyxF_eDcQmwP8kHSLkZVKkzSd8Ek&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjM5uXwxK6XAxVMG9AFHRMmAdEQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=machine+learning+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgO-Aw68bXRhyO5czSlwHlZQOyoVS4T6AanDhfkG1a_dgB1DWxieVfq0IfuRlOTb4mu2ler2kha4SMZX7_Ida54vdFZzL1Cvm1kd71Xmo4fZXzD7ZUOyKQXjJmDzXwbVWZqIiUb90Gyfx-wFtRM0gPkJbO_Lg-bytNMlbjjTCyhdsKPglbdGtIp9f--dkI5pRqmvAON6-QSV1Ix5AWGa_U47rtazU18HceJdtJrru6FMmgLmAlU7fsBWy8W01EYbgQVid9CM5uJvcVje16_Sf-RJbUA-YqPqbYe1KWmeuM81K9wB2CLIAYzi8u5BtV08OyxF_eDcQmwP8kHSLkZVKkzSd8Ek"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Free AI/ML Internship",
+        "company_name": "Sparks To Ideas",
+        "location": "Vadodara, Gujarat",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=Jec8lzAYa2Ybz74zAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLsQrCMBCAYVz7CE43OIkkIrjo5GIJ6KS4lmt6NK01F3IndPQd-oY-iXX5v-kvpkVhzpkITs5eL-CiUo4SugTfzwQ91yCE2QfgCCVzO9DyGFSTHKwVGUwritp54_llOVLNo50n-aeSgJnSgErVbr8dTYrtenVLmJ8CdwbXEAp0ER7YcIMZN1C--1n9AQqVVhyWAAAA&shmds=v1_ARwrE2161Mmpbp_Os5EJRdawdH8yQJEzVktN7WPdg9Z-XeqyGw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=Jec8lzAYa2Ybz74zAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b4ff68ebed51892ec51e/images/8i4dmiVohX5bBgEt5fAO0lz7lGtNOXZR2Fo_xtHyOh0.jpeg",
+        "extensions": [
+          "20 hours ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476262971",
+        "job_title": "Free AI/ML Internship",
+        "description": "Description\n\nWe are seeking a motivated Free AI/ML Intern to join our team in India. This internship is an excellent opportunity for individuals looking to gain hands-on experience in artificial intelligence and machine learning.\n\nResponsibilities\n\n Assist in developing machine learning models and algorithms. Conduct data analysis and visualization to derive insights. Collaborate with team members to implement AI solutions. Participate in brainstorming sessions to enhance AI strategies. Document findings and present results to the team.\n\nSkills And Qualifications\n\n Basic understanding of machine learning concepts and algorithms. Familiarity with programming languages such as Python or R. Knowledge of data manipulation libraries like Pandas and NumPy. Experience with data visualization tools such as Matplotlib or Seaborn. Understanding of SQL for database management. Good communication skills and the ability to work in a team environment.\n\nThis job is provided by Shine.com",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476262971?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJGcmVlIEFJL01MIEludGVybnNoaXAiLCJjb21wYW55X25hbWUiOiJTcGFya3MgVG8gSWRlYXMiLCJodGlkb2NpZCI6IkplYzhsekFZYTJZYno3NHpBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1VGSUxWRlFVaTFEWkROeVUwWXdVamRhTFdaSVdFWjJTVEJZU0VsVlRVbHlOMUpJWWswd1JEUjJjR2x0YzFWa2NFNUlSRFJrZEhWVFdVVkJTMWhDVkVKSmNXRndTRmxOTWpocmRHcHpSbFF4VTNwelRsaG9XbWxSYVUweGJ6bG5hWEZqYUdOdU5sSnFRMmRoWDFOQ1ptbGthV2xaVkhBelIycG1jVWhtU2t4TlRHNWtURThTRjBGTVdFcGhjM3B0UTAxNU1uZE9ORkJyT0hsRmFVRXdHaUpCUkhOeU9XWlRSRmgzVWxwWFZGUXllbnA1VDJ4SFQycFpXV0ZmZUVkUVUxQkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJKZWM4bHpBWWEyWWJ6NzR6QUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Free AI/ML Internship",
+        "company_name": "Sparks To Ideas",
+        "location": "Ahmedabad, Gujarat",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=rBLa5FJ2IYNwQhN-AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLsQrCMBAAUFz7CU63uIgkIrjo1MVS0En3ck2OprXNhdwJHf0H_UK_RF3e9or3ojCnTARlbS9nqKNSjhL6BJ_nCwZuQQizC8ARKuZupOUxqCY5WCsymk4UtXfG8WQ5Usuz_SX500jATGlEpWa3384mxW69uibMd4EbQ-0JBfoIZZjIY4t-A9VjwIz6BRR-GbuXAAAA&shmds=v1_ARwrE20KIXkM0pzt8lirZjqv8q4SjQjPmoEfEB5n9isxKctFew&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=rBLa5FJ2IYNwQhN-AAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b4ff68ebed51892ec51e/images/NthSfELn4XG3fc8gyxNa84ssDm8IhDY5uBA-lIBVkPI.jpeg",
+        "extensions": [
+          "20 hours ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476270542",
+        "job_title": "Free AI/ML Internship",
+        "description": "Description\n\nWe are seeking a motivated Free AI/ML Intern to join our team in India. This internship is an excellent opportunity for individuals looking to gain hands-on experience in artificial intelligence and machine learning.\n\nResponsibilities\n\n Assist in developing machine learning models and algorithms. Conduct data analysis and visualization to derive insights. Collaborate with team members to implement AI solutions. Participate in brainstorming sessions to enhance AI strategies. Document findings and present results to the team.\n\nSkills And Qualifications\n\n Basic understanding of machine learning concepts and algorithms. Familiarity with programming languages such as Python or R. Knowledge of data manipulation libraries like Pandas and NumPy. Experience with data visualization tools such as Matplotlib or Seaborn. Understanding of SQL for database management. Good communication skills and the ability to work in a team environment.\n\nThis job is provided by Shine.com",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476270542?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jooble",
+            "link": "https://in.jooble.org/jdp/6512492099746156111?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "MyInternships.in",
+            "link": "https://myinternships.in/internships/sparks-to-ideas-is-hiring-ai-ml-internship-ahmedabad-540f3b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJGcmVlIEFJL01MIEludGVybnNoaXAiLCJjb21wYW55X25hbWUiOiJTcGFya3MgVG8gSWRlYXMiLCJodGlkb2NpZCI6InJCTGE1RkoySVlOd1FoTi1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2tselkwUndUMjFTVlRCVk5saFBkbFpNTmw5V2JqazNPR2RIWWxSMVpYSTBVRXRxYldoeVoxQm9NMHBPZFZndGFuSlVMVEIwY0ZOSFJISXpTMXBhYm1VNFVWbzFNa05zUm1GWFUwSldaakpUYmxCbk1XWjVNVVJhWkdkYVVubHZYM2RTTkMxamRFTTBSMHBoYTJaUFVXMUVibWhVYzJSWGFGZFZUMDl3WTFKdmF6WmxNVzhTRjBGTVdFcGhjM3B0UTAxNU1uZE9ORkJyT0hsRmFVRXdHaUpCUkhOeU9XWlRibk5zWTJGT2JVeE1WR1JWYTBocGJXSjROVWxuTTJRMlVFZEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJyQkxhNUZKMklZTndRaE4tQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Data Science & Machine Learning Intern",
+        "company_name": "Skiez Technologies India Pvt Ltd",
+        "location": "Tamil Nadu",
+        "via": "Indeed",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=jY7HwWndpE7Gvh-AAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWNMQrCQBAAsfUJVltZWOREsNHCRhBBRYh9WC_L3eplN-RWESv_4D98lC8xNlMMDDP8DIarNRpC6ZnEE4xhjz6yEOwIO2EJsBWjTuD7esNFz5B77yOowEY1JBoto1mbF87lnIqQDY194bVxKnTWh-uj_EeVI3bUJjSqZvPpo2glTIryyvSEE_komjQw5X5YM8LxbrCzGljghA0nOGB9-wEqcfnbsQAAAA&shmds=v1_ARwrE21W-R4fR9u-ihsXuposVHXQpS5iLc7HbiqfnLTw-9lhCA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=jY7HwWndpE7Gvh-AAAAAAA%3D%3D",
+        "extensions": [
+          "16 hours ago",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://in.indeed.com/viewjob?jk=7c62426f84dda68e",
+        "job_title": "Data Science & Machine Learning Intern",
+        "description": "Job Title: Data Science & Machine Learning Intern\n\n\nCompany: Skiez AI Academy\n\n\nJob Type: Internship\n\n\nJob Description:\n\n\nSkiez AI Academy is inviting applications from students and freshers interested in Data Science and Machine Learning. This internship offers practical exposure to data analysis, visualization, machine learning fundamentals, and project development.\n\n\nResponsibilities:\n\n\n\n Learn data analysis and data preprocessing.\n Work with Python libraries such as Pandas and NumPy.\n Explore data visualization techniques.\n Understand machine learning algorithms.\n Build beginner-friendly machine learning projects.\n Analyze datasets and communicate project findings.\n\nRequired Skills:\n\n\n\n Basic computer knowledge.\n Interest in data analysis and machine learning.\n Basic mathematics and logical reasoning.\n Python knowledge is an advantage.\n\nEligibility: Students, freshers, and graduates interested in Data Science and AI.\n\n\nWhat You Will Gain:\n\n\n\n Hands-on data analysis experience.\n Practical machine learning projects.\n Technical mentorship.\n Internship completion certificate, subject to successful completion.\n\nLocation: Chengalpattu, Tamil Nadu\n\n  Phone: +91-XXXXXXXXXX\n\n\nCompany: Skiez AI Academy\n\n\nWork Location: In person",
+        "apply_options": [
+          {
+            "title": "Indeed",
+            "link": "https://in.indeed.com/viewjob?jk=7c62426f84dda68e&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIFNjaWVuY2UgXHUwMDI2IE1hY2hpbmUgTGVhcm5pbmcgSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiU2tpZXogVGVjaG5vbG9naWVzIEluZGlhIFB2dCBMdGQiLCJodGlkb2NpZCI6ImpZN0h3V25kcEU3R3ZoLUFBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2xwVU5uazRabUl4TW5WMmMwTlJTRXBxTFROQ1JVVTJVMTh4YkRSSVh6WmxUMHhXTnpaeFVuRjZiMVZQZDFnNFJYWlFlVlJaYUVSNFduSjJTR1UwVFRCTk5HcGhTR2xqWlZnelpYYzJhSGx4VW5ZeFgzbGlUWHBMV0hZMVgyNTBSalZrYTJ0bFFXcDVXVGxDVWxvdFZFczRZMFJtVlcxSFoyNW1kVWw2UVRnMk9XRm1aVFlTRjBGTVdFcGhjM3B0UTAxNU1uZE9ORkJyT0hsRmFVRXdHaUpCUkhOeU9XWlJXa1JZYkRScmFVUmhiRmg0VEdGVVUyVlRiM2s1Y1hGU1QxTlIiLCJmY3YiOiIzIiwiZmNfaWQiOiJqWTdId1duZHBFN0d2aC1BQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Machine Learning - Internship (WFH)",
+        "company_name": "NDFM Business World Pvt. Ltd.",
+        "location": "Anywhere",
+        "via": "Internshala",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=U-F743HK9k43juynAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWNMQ6CQBAAY8sTrLZUo4ea2KiNxqAmYOgoyXFcuCOwR24XQ-kf_IeP8iViM9VMJvhMgmMilbGoIdbSo8UKVnBH1h7J2A5mWXSbw_f1htoVQKOjDDiEq3NVo6cHw9zRPgyJGlERS7ZKKNeGDnXhhnCM6I-cjPS6ayTrfLtbD6LDarF5XKIEzj2NeyLInG9KSJ8sIOZSgEU4td4ySb-EtMdaFj9FL6WUsQAAAA&shmds=v1_ARwrE23cFxKU65BUX8B5L-X605eAkdbc7te4ahkzwaQYm3iErA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=U-F743HK9k43juynAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b4ff68ebed51892ec51e/images/oOb7cV_06JFN7QZufMk_Cm7DlF6aK_odVoSEXb7v-D4.png",
+        "extensions": [
+          "2 days ago",
+          "\u20b95K\u2013\u20b96K a month",
+          "Work from home",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-ndfm-business-world-pvt-ltd1791455958",
+        "job_title": "Machine Learning - Internship (WFH)",
+        "description": "About the internship:\n\nSelected intern's day-to-day responsibilities include: \n\n\n\n1. Machine Learning Model Development: Design, develop, train, and implement machine learning models using Python, ML algorithms, and modern frameworks.\n\n2. Data Processing & Model Optimization: Collect, preprocess, and analyze datasets, evaluate model performance, and optimize algorithms for accuracy, efficiency, and scalability.\n\n3. ML Integration & Deployment: Collaborate with development teams to integrate machine learning models into real-world applications, test solutions, and support model deployment.\n\nWho can apply:\n\nOnly those candidates can apply who:\n\nare available for the work from home job/internshipcan start the work from home job/internship between 1st Dec'26 and 31st Dec'26are available for duration of 4 weekshave relevant skills and interests\n\nStipend:\n\nINR\u20b9 5,000 - 6,000 /month\n\nDeadline:\n\n2026-11-07 23:59:59\n\nOther perks:\n\nCertificate, Letter of recommendation, Flexible work hours\n\nSkills required:\n\nPython, Machine Learning and Deep Learning\n\nAbout Company:\n\n Our software company specializes in creating innovative, high-quality software solutions tailored to meet the needs of businesses across various industries. With a strong focus on user experience, scalability, and cutting-edge technology, we develop applications that drive efficiency and growth. Our team of skilled developers, designers, and marketers works collaboratively to deliver products that solve complex challenges and enhance productivity. Whether it's custom software development, mobile applications, or SaaS platforms, we are committed to excellence and customer satisfaction. Our company is dedicated to staying ahead of industry trends, ensuring that our clients receive the most advanced and effective solutions available.",
+        "apply_options": [
+          {
+            "title": "Internshala",
+            "link": "https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-ndfm-business-world-pvt-ltd1791455958?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJNYWNoaW5lIExlYXJuaW5nIC0gSW50ZXJuc2hpcCAoV0ZIKSIsImNvbXBhbnlfbmFtZSI6Ik5ERk0gQnVzaW5lc3MgV29ybGQgUHZ0LiBMdGQuIiwiaHRpZG9jaWQiOiJVLUY3NDNISzlrNDNqdXluQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMzbGpTMTl1WkRObVdqUnJha3RPVUUxNlpXZDJWRzFtWjNwVWNHbzJSV1UwUXpsd1VXNURUMHAzY0VoSmMyWnhhMmgyYTNwSkxWRnVUa2xwVFdaM2REaDFhMFZIVVVJdGVuUTBlRFp5WmxSMVZsVlBTWE5FY2swd05WbFpNMFJFVWw5SlJWQmFjVkJmTUhoZmJISlNaamx4UTA5RmJHVldTVWhxWldZeGVYTjBiRTFvVUdzU0YwRk1XRXBoYzNwdFEwMTVNbmRPTkZCck9IbEZhVUV3R2lKQlJITnlPV1pVWWw4M00yMXRlbUl0U214b1ZYRnZNRm80YzIxWFN6VjZhbFpCIiwiZmN2IjoiMyIsImZjX2lkIjoiVS1GNzQzSEs5azQzanV5bkFBQUFBQT09In0="
+      },
+      {
+        "title": "Machine Learning Intern",
+        "company_name": "Passion 3DWorld",
+        "location": "Maharashtra",
+        "via": "Indeed",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=xORMylCyOTmm1x2FAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWMMQoCMRBFsd0jWMjUFptFsdFWEMEFO8tlNg5JJM4smSm29AYW3tCTGJtfPN77zXvRdD36mJjgQlg4cYAzGxWG7-sDDxlBK_cRhOEkEjItD9Fs0r1zqrkNamjJt16eTphGmV2N9D-DRiw0ZTQaNrtubicO69UVVVM92x5vUvIdEkOPVUSNVvAHAvkGtZIAAAA&shmds=v1_ARwrE23roGi6lMe2O6dzct7RUnAObWxunKqs3XmceTLq5fsnog&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=xORMylCyOTmm1x2FAAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "\u20b95K\u2013\u20b910K a month",
+          "Internship"
+        ],
+        "source_link": "https://in.indeed.com/viewjob?jk=7043bac29fc8f567",
+        "job_title": "Machine Learning Intern",
+        "description": "About the Role\n\n\nPassion3DWorld is seeking a motivated and talented Machine Learning Engineer Intern to join our technical team. This remote, flexible internship is designed for students who are recently graduated or currently enrolled in college who are eager to apply and expand their skills in machine learning and software development. You will work directly with our experienced team, gaining hands-on experience in a real-world setting.\n\n\nPassion3DWorld provides world-class enterprise specific solutions in the overlapping sections of Robotics, AI/ML, and 3D Printing.\n\n\nWhat You'll Do\n\n\n\n Contribute to Software Development: Assist in the design, development, and implementation of new software solutions.\n Data and Model Management: Help with data collection, pre-processing, and database creation. You will also assist in fine-tuning Large Language Models (LLMs) and other machine learning projects.\n Backend Development: Learn and contribute to API creation and backend development to support new applications.\n Testing and Debugging: Collaborate with the team to test, debug, and ensure the reliability of software solutions.\n Documentation: Create clear and concise documentation for new software applications and processes.\n Team Collaboration: Attend meetings and work with other team members to contribute to a collaborative and innovative environment.\n\nQualifications\n\n\n\n Recently graduated or Currently enrolled in a college or university program.\n A strong interest in machine learning, software development, and related technologies.\n Eagerness to learn new skills and adapt to changing project needs.\n Strong communication and collaboration skills.\n\nJob Type: Internship\n\n\nPay: \u20b95,000.00 - \u20b910,000.00 per month\n\n\nBenefits:\n\n\n\n Paid time off\n Work from home\n\nWork Location: Remote",
+        "apply_options": [
+          {
+            "title": "Indeed",
+            "link": "https://in.indeed.com/viewjob?jk=7043bac29fc8f567&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJNYWNoaW5lIExlYXJuaW5nIEludGVybiIsImNvbXBhbnlfbmFtZSI6IlBhc3Npb24gM0RXb3JsZCIsImh0aWRvY2lkIjoieE9STXlsQ3lPVG1tMXgyRkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURkZPVXkxeFNXUTRYMFJ3YTBRelJrSk1ibWxhVVRWb00xQTRUVkJoVUd0eFkxWlVObVZ5Y1VGRk1GTTJiemhtYTBwek1VRTJNV2hrTVhsV05YUTNTMWRUYkd0WlNGSktlVXQwUVV4bGF6QjBaR1IyYldWeE5tZDJUVXhJZW5CT00yVkRhWEZwUlRJdE0yVTFOWGRDYVRGUVkwOTJRWFJYTFMxa1lXTnlaVXN4YVVKd1dHb1NGMEZNV0VwaGMzcHRRMDE1TW5kT05GQnJPSGxGYVVFd0dpSkJSSE55T1daVVdGRm5SVTVaWDNVeWJqQmpUMjh3UVVkTWNFOVpTV1ZEVkhCbiIsImZjdiI6IjMiLCJmY19pZCI6InhPUk15bEN5T1RtbTF4MkZBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "Free AI/ML Internship",
+        "company_name": "Sparks To Ideas",
+        "location": "Porbandar, Gujarat",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=7ZP2ReMqbVlHEj00AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLsQrCQAwAUFz7CU5ZXETuRHDRyaWloCDoXtI29FprciQndPQf9Av9EnV528ves8zlSgSH0p-OUHIiZQt9hM_zBYPUYITaBBCGQqQbab4PKUXbeW82us4Spr5xjdy9MNUy-V-yP5UFVIojJqo22_XkInfLxSWi3gyuAmVLaNAznEVr5BZ1BcVjQMX0BQ9R6M-XAAAA&shmds=v1_ARwrE21ECAklSZ1VPE_b-fWXmi1UYdY5xTfIrenakicNCvkC5Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=7ZP2ReMqbVlHEj00AAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b4ff68ebed51892ec51e/images/oxiWjEJNRpD-5_pte3u6GcGOr61QKFmALu1aMgqQRWY.jpeg",
+        "extensions": [
+          "20 hours ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476262962",
+        "job_title": "Free AI/ML Internship",
+        "description": "Description\n\nWe are seeking a motivated Free AI/ML Intern to join our team in India. This internship is an excellent opportunity for individuals looking to gain hands-on experience in artificial intelligence and machine learning.\n\nResponsibilities\n\n Assist in developing machine learning models and algorithms. Conduct data analysis and visualization to derive insights. Collaborate with team members to implement AI solutions. Participate in brainstorming sessions to enhance AI strategies. Document findings and present results to the team.\n\nSkills And Qualifications\n\n Basic understanding of machine learning concepts and algorithms. Familiarity with programming languages such as Python or R. Knowledge of data manipulation libraries like Pandas and NumPy. Experience with data visualization tools such as Matplotlib or Seaborn. Understanding of SQL for database management. Good communication skills and the ability to work in a team environment.\n\nThis job is provided by Shine.com",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476262962?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJGcmVlIEFJL01MIEludGVybnNoaXAiLCJjb21wYW55X25hbWUiOiJTcGFya3MgVG8gSWRlYXMiLCJodGlkb2NpZCI6IjdaUDJSZU1xYlZsSEVqMDBBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzNGWmRGSTBObW8yZGxGaU9HcERWVlF4YVZGNmIxUlJWRmRWUWpWWU5XbHdSbWsyYVc5cGJVTm5aMU4yVFhKV1NsZGZkREYxUTNKeFpVSjJORkZvYVZsWFNrUTNZMVZxUmpOclNtMHpjM0l5UkVoalFrVlBOekE1YVRsb1JYTkZTMDV3ZWt3dFpVNVNjVVkxV2xKamRESkJSbVkyVldNNVpYTk1XRFZJY1ZWS1ZXcGhTelFTRjBGTVdFcGhjM3B0UTAxNU1uZE9ORkJyT0hsRmFVRXdHaUpCUkhOeU9XWlVZVEJPTmt4Mk5tdGZOM2hVWHpSbFMwRlRNMkpsUmxVM1JUbEIiLCJmY3YiOiIzIiwiZmNfaWQiOiI3WlAyUmVNcWJWbEhFajAwQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Machine Learning Intern",
+        "company_name": "Passion 3DWorld",
+        "location": "Mumbai, Maharashtra",
+        "via": "SimplyHired",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=RcuiEAuebOG1qcNcAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWMsQrCMBBAce0nON3kINIUxUVXQQQLbo7lGo8kJb0ruQgd_QcH_88vMS5vePBe9VlUTYvWBya4EiYO7ODCmRLD9_WGQXrQ4q0HYTiLuEjLo8950oMxqrF2mjEHW1sZjTD1MpsS6R-dekw0RczUbffNXE_s1qsbqoYy253ukuIDAkP7HHsMG2ixBKg-J_wBSLXRQ5oAAAA&shmds=v1_ARwrE22gAM8Y7HVRffCe4M0Ymd9g1YlJgltct3BilfIkMSkoWQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=RcuiEAuebOG1qcNcAAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "\u20b95K\u2013\u20b910K a month",
+          "Internship"
+        ],
+        "source_link": "https://www.simplyhired.co.in/job/KnyOBPy5ly79lF-2rY_RHS-4D8nMVaUfNsMKaiNRJIwUF2EEV5zD8g",
+        "job_title": "Machine Learning Intern",
+        "description": "About the Role\n\nPassion3DWorld is seeking a motivated and talented Machine Learning Engineer Intern to join our technical team. This remote, flexible internship is designed for students who are recently graduated or currently enrolled in college who are eager to apply and expand their skills in machine learning and software development. You will work directly with our experienced team, gaining hands-on experience in a real-world setting.\n\nPassion3DWorld provides world-class enterprise specific solutions in the overlapping sections of Robotics, AI/ML, and 3D Printing.\n\nWhat You'll Do\n\nContribute to Software Development: Assist in the design, development, and implementation of new software solutions.Data and Model Management: Help with data collection, pre-processing, and database creation. You will also assist in fine-tuning Large Language Models (LLMs) and other machine learning projects.Backend Development: Learn and contribute to API creation and backend development to support new applications.Testing and Debugging: Collaborate with the team to test, debug, and ensure the reliability of software solutions.Documentation: Create clear and concise documentation for new software applications and processes.Team Collaboration: Attend meetings and work with other team members to contribute to a collaborative and innovative environment.Qualifications\n\nRecently graduated or Currently enrolled in a college or university program.A strong interest in machine learning, software development, and related technologies.Eagerness to learn new skills and adapt to changing project needs.Strong communication and collaboration skills.Job Type: Internship\n\nPay: \u20b95,000.00 - \u20b910,000.00 per month\n\nBenefits:\n\nPaid time offWork from homeWork Location: Remote",
+        "apply_options": [
+          {
+            "title": "SimplyHired",
+            "link": "https://www.simplyhired.co.in/job/KnyOBPy5ly79lF-2rY_RHS-4D8nMVaUfNsMKaiNRJIwUF2EEV5zD8g?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/machine-learning-intern-passion-3dworld-mumbai--techmap_in_KnyOBPy5ly79lF-2rY_RHS-4D8nMVaUfNsMKaiNRJIwUF2EEV5zD8g?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "MyInternships.in",
+            "link": "https://myinternships.in/internships/lumina-digital-is-hiring-machine-learning-intern-mumbai-11f7a3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobaaj",
+            "link": "https://www.jobaaj.com/job/ischoolconnect-machine-learning-intern-mumbai-maharashtra-0-to-1-years-775423?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/4701052534679142400?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Kit Job",
+            "link": "https://www.kitjob.in/job/341065965/machine-learning-intern-mumbai?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJNYWNoaW5lIExlYXJuaW5nIEludGVybiIsImNvbXBhbnlfbmFtZSI6IlBhc3Npb24gM0RXb3JsZCIsImh0aWRvY2lkIjoiUmN1aUVBdWViT0cxcWNOY0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVlZ1YTFwSVltWnVUakY0TWtOUmJWOTNORUkzYVc5bkxVeHNheTB6WTBvM1VsWnFaVGRaV0ZoRmRFTTFXRE4wV0RCc1dGOUdReloyZFVwdVlsRjFTMlI0WTNOUGJqQkJPVmhDZDNwU016WktjVUZ2YTFRNGVFUjFTVk5SYWxaMlJYRkRMVUpDTm1aclpVRlpObEkyUkdWbldtaHVjSFp0VUZwa1JtdHNiRFpLT0hOQmJHZ1NGMEZNV0VwaGMzcHRRMDE1TW5kT05GQnJPSGxGYVVFd0dpSkJSSE55T1daUmNHaERkWFp4WnpSQk0yZFBYMTlXYW5ORk1Xc3dTMkkzUnpGQiIsImZjdiI6IjMiLCJmY19pZCI6IlJjdWlFQXVlYk9HMXFjTmNBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "Free AI/ML Internship",
+        "company_name": "Sparks To Ideas",
+        "location": "Bhavnagar, Gujarat",
+        "via": "BeBee",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=8WkgzmAMRPfKvKWsAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLsQ4BQRAA0GjvE1TTaER2RaKhonC5hIr-Ms5k987Z2cwMudI_8IW-BM3rXvEeFW4nRLCp_GEPVTKSpLHN8Hm-oOMzKKE0EThByRx6Gq-jWdaV96q9C2pobeMavnlOdObB_5L-qTWiUO7RqF4s54PLKUwnx4xyVTgxVBdChTbBNuIjYUCZQXnvUNC-rNmGw5cAAAA&shmds=v1_ARwrE20D313ihqaQBcOBKgNZvpS-N7teOeyGApNdRFbWJnW8uQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=8WkgzmAMRPfKvKWsAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b4ff68ebed51892ec51e/images/7XwP3koVt0gHAzTTOLzyn-CnU7sdz6b96-I8Q5U7pXc.jpeg",
+        "extensions": [
+          "1 day ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://bebee.com/in/jobs/free-ai-ml-internship-sparks-to-ideas-bhavnagar--fj-2405941537",
+        "job_title": "Free AI/ML Internship",
+        "description": "Description\nWe are seeking a motivated Free AI/ML Intern to join our team in India. This internship is an excellent opportunity for individuals looking to gain hands-on experience in artificial intelligence and machine learning.\nResponsibilities\n Assist in developing machine learning models and algorithms. Conduct data analysis and visualization to derive insights. Collaborate with team members to implement AI solutions. Participate in brainstorming sessions to enhance AI strategies. Document findings and present results to the team.\nSkills And Qualifications\n Basic understanding of machine learning concepts and algorithms. Familiarity with programming languages such as Python or R. Knowledge of data manipulation libraries like Pandas and NumPy. Experience with data visualization tools such as Matplotlib or Seaborn. Understanding of SQL for database management. Good communication skills and the ability to work in a team environment.\nThis job is provided by Shine.com",
+        "apply_options": [
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/free-ai-ml-internship-sparks-to-ideas-bhavnagar--fj-2405941537?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/free-ai-ml-internship-at-sparks-to-ideas-4476268671?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJGcmVlIEFJL01MIEludGVybnNoaXAiLCJjb21wYW55X25hbWUiOiJTcGFya3MgVG8gSWRlYXMiLCJodGlkb2NpZCI6IjhXa2d6bUFNUlBmS3ZLV3NBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1Vac1kzUTJUM2xNZVZnMVZUSmpMWEpCV2kxek9XRndkV3hNUm1WR1MzWm1XbVpXVEhoRFpITk9ZVGRmTlVaaFJIWnphM1JXV1hsNFZFaFVWVk5QVG5Oc05WWjFhbXhmTWxGdldFaFJkRWhzWm5kVVZrSlJRMkZKVUZOMll6QkpTMGhETnpVMVlWUTBOMGRTTURka2JuY3RNMHhqZUZWSFpYRTViVVJIWVd0V1NWTldWV0lTRjBGTVdFcGhjM3B0UTAxNU1uZE9ORkJyT0hsRmFVRXdHaUpCUkhOeU9XWlVSMFYzYmpSTGVFODJkSHB0TVVORFoxUk9ZVTluUWtRNWNVTkIiLCJmY3YiOiIzIiwiZmNfaWQiOiI4V2tnem1BTVJQZkt2S1dzQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "AI Research - Internship (WFH)",
+        "company_name": "InAmigos Foundation",
+        "location": "Anywhere",
+        "via": "Internshala",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=hhT3ZtJVgyFgtDaWAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_y2MMQrCQBAAsc0TrLZUMTkRRNAqCtG0NpZyicfdyWX3uN1ASv_gG_yYLzGCzVQzk70n2bas4WLY6NQ6yKFGMQnZ-Qiza3Wew-f5ggc18DcI4URkg5nunUjknVLMobAsWnxbtNQpQtPQoMaIf7ix08nEoMXc1pvVUES0i7zGsvOWGCrq8T6249gjHHzQHPu0hKNzWsSz1cl9AfqqlrKoAAAA&shmds=v1_ARwrE21wBkg782x0Azs2I996eb1NV52zPf6pORx1Wp6H4rVL1Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=hhT3ZtJVgyFgtDaWAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b4ff68ebed51892ec51e/images/6N0fkZe0qGb40Bn4WnJMT_IiLySK6lFgWOvM4-ymFYw.jpeg",
+        "extensions": [
+          "1 day ago",
+          "Work from home",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://internshala.com/internship/detail/work-from-home-ai-research-internship-at-inamigos-foundation1791550828",
+        "job_title": "AI Research - Internship (WFH)",
+        "description": "About the internship:\n\nSelected intern's day-to-day responsibilities include:\n\n\n\n1. Research AI trends, tools, and emerging technologies.\n\n2. Collect and organize information from reliable online sources.\n\n3. Prepare short research summaries and presentations.\n\n4. Assist in gathering insights for AI-related projects.\n\n5. Attend team meetings or training sessions whenever required.\n\nWho can apply:\n\nOnly those candidates can apply who:\n\nare available for the work from home job/internshipcan start the work from home job/internship between 9th Oct'26 and 13th Nov'26are available for duration of 2 weekshave relevant skills and interests\n\nStipend:\n\nUnpaid\n\nDeadline:\n\n2026-11-08 23:59:59\n\nOther perks:\n\nCertificate, Letter of recommendation, Flexible work hours\n\nSkills required:\n\nEnglish Proficiency (Spoken) and English Proficiency (Written)\n\nAbout Company:\n\nInAmigos Foundation is a non-profit organization registered under Section 8 and licensed by the central government. It has 200+ volunteers from different parts of India. The purpose of our organization is to promote arts, commerce, sports, protection of the environment, and all. The only religion followed by our organization is 'humanity.'",
+        "apply_options": [
+          {
+            "title": "Internshala",
+            "link": "https://internshala.com/internship/detail/work-from-home-ai-research-internship-at-inamigos-foundation1791550828?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJBSSBSZXNlYXJjaCAtIEludGVybnNoaXAgKFdGSCkiLCJjb21wYW55X25hbWUiOiJJbkFtaWdvcyBGb3VuZGF0aW9uIiwiaHRpZG9jaWQiOiJoaFQzWnRKVmd5Rmd0RGFXQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNtdElVM0ZxTmpsRVQwdE5hVWxRYjA0MVVISmpkRTFzU2xscWVrb3dPVmxUZW1keWQxbFVWRm8yVkVnMmRHMDFaRjlQWW0xek5YbHhWRkp2TXkwd2FsZHNOMmd6V1VwMVZuTXdTVzFuZG5WTU4yOXdUV0k1TlRkU1lYbzROME51VmxkSFZFZENMV3c0UjBWdlptcG5kRU5QTWxSSFlWSkRkMWw0UW1wVlQzRXRaM2hIYVVNU0YwRk1XRXBoYzNwdFEwMTVNbmRPTkZCck9IbEZhVUV3R2lKQlJITnlPV1pSYVVOamMwcDZlamRNTFRZd2RXTXpWSGhSTFVSdU0wTlBNVFYzIiwiZmN2IjoiMyIsImZjX2lkIjoiaGhUM1p0SlZneUZndERhV0FBQUFBQT09In0="
+      },
+      {
+        "title": "PhD Intern - Machine Learning Researcher",
+        "company_name": "Apple India Pvt Ltd",
+        "location": "Bengaluru, Karnataka",
+        "via": "Apna Jobs",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=machine+learning+intern&htidocid=NUO-7geyyTvQFBJLAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_yWOTQrCMBBGcdsjuJq1P40IbnRVEUSsULxAmdYhicZJSKbSpXfwHF7Kk1hx8_h48MHL3qOsqMwODiwUGeZwwtZYJigJI1vWcKY0zNZQhM_zBVffwF-AZ9h7rx2NN0YkpLVSKblcJ0Gxbd76u_JMje_VcEo_1MlgpOBQqF6uFn0eWE-mRQiOhoKLRageAqVcwDJsiTW6LnYzOA4tKHjDLxpYINKwAAAA&shmds=v1_ARwrE22H8Dm-yXb5i2HLtE8ZyfiLBXJU2bqB0z_bDMCK47KQRg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=machine+learning+intern&htidocid=NUO-7geyyTvQFBJLAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAbFBMVEX___8pIiYAAAAKAAD5-fnDwsIVCxAnHyMeGRsdFRlraGni4eGrqaoqJifGxMUhGh24trfu7e1lY2SIhoaUkZJSUFEPAQlYVlcYERSCgIEQBwrZ2NiNioyioaHz8_PS0dFFQUI5NTdLSUl5d3jK5GCfAAABw0lEQVRIic2W2ZaDIAyGDSi4Iy5AN1vb93_HsTprTY14NblqOX4nCfxZguA_mq7aPViWcn7cwTUsBll4Y2FnAEBZb9C6kQPhnePh-OTAZJ7ciU1ckvo6rOMJFL4O9eyQ5b4OowlkZ18uuIjxJdjFmwtaxpg9bf8-DD9_nPJITwd9H658P9u1rW9Dd6j010GWp4PgRdeUa3B550JJKR0vHtfxf1_VzsQSQCrHh7e3G6ZMwafJxBSpdeb7YDzid41yenDw26RS8NeSAiPDIQbK1ICQD0dywO0SnGWybgwrr9trQog_jCtph3h11aRDGaOPscFhg3EnGmSo3CtOghzjptIjUhxQ8JxQoOp2gvK-F8THQEvmCAwFc0ODVwzcorgHBmY0KPGGTucISY2BtMjHoYWVVU5rDi9kvQUEni5Ly26IdcxTLZrrhpecol2AupBbQNcvYm02tEdwh53XI7A20NAiwGXXSypLKfCpU1GC5e_GOjE-Erx7BM-BtaYCKfFAn5axlTR59JZ7zqxvUolx6RA_IRB7SymS-f5M10ZldLHHmaX3ncwaw82t_Sp3fbm7cUW2aMd5Qasq-7OaZNfIdw1csQ-FMhdGJN6JwwAAAABJRU5ErkJggg.png",
+        "extensions": [
+          "2 days ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://apna.co/job/bengaluru/phd-intern-machine-learning-msi-product-operations-1232219153",
+        "job_title": "PhD Intern - Machine Learning Researcher",
+        "description": "PhD Intern, Machine Learning: MSI, Product Operations Team Summary Imagine what you could do here. At Apple, new ideas have a way of becoming phenomenal products, services, and customer experiences very quickly. Every single day, people do amazing things at Apple. This position involves a wide variety of skills, innovation, and is a rare opportunity to be working on groundbreaking, new applications of machine learning, research, and implementation. Ultimately, your work would have a huge impact on billions of users across the globe. You can help inspire change, by using your skills to influence globally recognized products' manufacturing. Description The goal of Apple's Manufacturing and Operations team is to take a vision of a product and turn it into a reality. Through the use of statistics, the scientific process, and machine learning, the team recommends and implements solutions to the most challenging problems. We're looking for ML researchers to help us revolutionize how we manufacture Apple's amazing products. Put your skill & passion to work in this highly visible role. Preferred Qualifications Familiarity with applying Machine Learning, especially Computer Vision in a Manufacturing / Assembly setting Familiarity with multimodal understanding & reasoning, knowledge-graphs & generative video models Prior publications in relevant field Minimum Qualifications Pursuing PhD in Computer Science / related field Deep understanding of Machine Learning concepts, Probability and Statistics Understanding of Computer Vision & VLMs, with demonstrated skill in training models and applying them to ML application development. Ability to prototype research ideas as working code (Python) Ability to meaningfully present results of analysis in a clear and impactful manner Experience Level Entry Level",
+        "apply_options": [
+          {
+            "title": "Apna Jobs",
+            "link": "https://apna.co/job/bengaluru/phd-intern-machine-learning-msi-product-operations-1232219153?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "MyInternships.in",
+            "link": "https://myinternships.in/internships/rakuten-india-machine-learning-intern-bengaluru-4be168?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/machine-learning-intern-sustainability-economicsai-bengaluru--talent-634941000237385520?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "QuickHyre AI",
+            "link": "https://quickhyre.ai/jobs/269a5ca4-0d12-4c39-9e87-b5ab59ae5915?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Getmereferred.com",
+            "link": "https://getmereferred.com/job-listing/senior-machine-learning-engineer-new-initiatives-nykaa-bengaluru-6-to-8-years-experience-1571d1dd-6555-481c-a602-a84e088e7357?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobaaj",
+            "link": "https://www.jobaaj.com/job/mobile-programming-machine-learning-intern-bangalore-0-to-1-years-765411?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "ITBots.in",
+            "link": "https://itbots.in/jobs/product-intern-machine-learning-genai-202607300847316a6ac24b75e1e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Sercanto",
+            "link": "https://www.sercanto.in/detail/a/financial-reporting-analyst_bengaluru-urban_191640103?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJQaEQgSW50ZXJuIC0gTWFjaGluZSBMZWFybmluZyBSZXNlYXJjaGVyIiwiY29tcGFueV9uYW1lIjoiQXBwbGUgSW5kaWEgUHZ0IEx0ZCIsImh0aWRvY2lkIjoiTlVPLTdnZXl5VHZRRkJKTEFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTUzF5TW5sME1HTjJZakZ6ZVZkUmF6bFRaM1pLT0hwMlUwSkdZbU5mV0VGWVRXTnJTRGRLUjI5cFNGRlZWM2xKUnpBeVNtaFhZVlpoY0ZKNFdUSktSVWhQTkhoRlV6UkhlV3A0VlZOdFMzSk1VVkJKU0hOek4wbElkREJ1VHpKaFdsaG5NelJZZFVnMlozSmtkamRoVERKdFptZDRSblYxVEY4eU0yaDZTWGh6YUVjNGRrWVNGMEZNV0VwaGMzcHRRMDE1TW5kT05GQnJPSGxGYVVFd0dpSkJSSE55T1daVWJrSXdhVUp5WjJOMkxURTRiakZUT1hsdlJsaDVlV0pwVFdsbiIsImZjdiI6IjMiLCJmY19pZCI6Ik5VTy03Z2V5eVR2UUZCSkxBQUFBQUE9PSJ9"
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkV1SURDcUlEUVVwcFZEUjBURmR4VGtkMVZGTjFaRVJaY2tGblowczFXQzF6VERaTFVsbHZVR2xKYnpNemVFNURWVEp1ZHpaTE0waG9XRTQxWjJOSVQyeFZTamhSWkhWTk5WQjJRMWc1VjI5Nk9GaEtabTl5VEdkWVJqRjVWVk41WVRjdGRqQm9MVGxwV21Zd2NHUnBVbFpOUjJWdlIxWlVaVGhmY21STFVGY3lUM05LYldOS09XVXpSRk4zVlMxR2MwaG1SVmsxT1dKTk1FNXJXbDg0YzFkdGQzUkpTRXhtUVVaRGRFazBjVWhsVUc5UWJFRkNlSGd0Wm5CUlJIZEZlVTE1WkVkaWRsOUljQzFGZWtVelMzbHdUMGhNZUhGVk9YUjVjbTVvVUhoRlNHbHVkMlJSTjJ4b016ZHlZVU15ZWtONFlVZE1jemc1Y0Vod1ZVWndjMnBTWTI5ZlVsRjBjVFZrZWtVMVQxWnlSV3BRT0dWRldGRXdlV1pyU21sWGVIUnZiQzFXUTJaek5tRkJlR1pHUTJaWmFsTlFibTlWYzFBNE1uSjJjRkJ0Ymt4TFgwWk5hRGxJU1RSdFkwOTNWM1pUVG1oS2NsQlRhMnQ2U1ZKMFduUXdiVEpCZGxJeVlrRlRXSFZGZVVOM1ZscHVha3Q1TTFoMlUzQkRjVk5oWHpBMFZIaHFUWE13ZEZWRVMyd3lUbFE1UmxFMFVGQkNMVXRKTmtRdGVUa3dXa3BhUlhoZmR4SVhRVXhZU21GemVtMURUWGt5ZDA0MFVHczRlVVZwUVRBYUlrRkVjM0k1WmxRME5uTTFXak5vUmpoT1NUUjFVVXRaUWxGdVNuUmFTMXBVYjJjIiwiZmN2IjoiMyJ9",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkV1SURDcUlEUVVwcFZEUjBURmR4VGtkMVZGTjFaRVJaY2tGblowczFXQzF6VERaTFVsbHZVR2xKYnpNemVFNURWVEp1ZHpaTE0waG9XRTQxWjJOSVQyeFZTamhSWkhWTk5WQjJRMWc1VjI5Nk9GaEtabTl5VEdkWVJqRjVWVk41WVRjdGRqQm9MVGxwV21Zd2NHUnBVbFpOUjJWdlIxWlVaVGhmY21STFVGY3lUM05LYldOS09XVXpSRk4zVlMxR2MwaG1SVmsxT1dKTk1FNXJXbDg0YzFkdGQzUkpTRXhtUVVaRGRFazBjVWhsVUc5UWJFRkNlSGd0Wm5CUlJIZEZlVTE1WkVkaWRsOUljQzFGZWtVelMzbHdUMGhNZUhGVk9YUjVjbTVvVUhoRlNHbHVkMlJSTjJ4b016ZHlZVU15ZWtONFlVZE1jemc1Y0Vod1ZVWndjMnBTWTI5ZlVsRjBjVFZrZWtVMVQxWnlSV3BRT0dWRldGRXdlV1pyU21sWGVIUnZiQzFXUTJaek5tRkJlR1pHUTJaWmFsTlFibTlWYzFBNE1uSjJjRkJ0Ymt4TFgwWk5hRGxJU1RSdFkwOTNWM1pUVG1oS2NsQlRhMnQ2U1ZKMFduUXdiVEpCZGxJeVlrRlRXSFZGZVVOM1ZscHVha3Q1TTFoMlUzQkRjVk5oWHpBMFZIaHFUWE13ZEZWRVMyd3lUbFE1UmxFMFVGQkNMVXRKTmtRdGVUa3dXa3BhUlhoZmR4SVhRVXhZU21GemVtMURUWGt5ZDA0MFVHczRlVVZwUVRBYUlrRkVjM0k1WmxRME5uTTFXak5vUmpoT1NUUjFVVXRaUWxGdVNuUmFTMXBVYjJjIiwiZmN2IjoiMyJ9&q=machine+learning+intern"
+    }
+  }
+}

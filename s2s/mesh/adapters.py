@@ -96,10 +96,17 @@ _register(PlatformAdapter(
     ecosystem="data_challenge",
     compensation="prize",
     trust="A",
-    liveness="http_probe",
-    # A bare "closed" would match almost anything in a 600 KB page.
+    # NOT probed, deliberately (2026-10-10). Every competition page is a ~6 KB
+    # JS shell, so a 200 proved nothing: "March Machine Learning Mania 2026"
+    # closed 2026-04-07 yet probed "live". The documented API needs a login,
+    # and the web endpoint answers our self-identified verifier with a
+    # reCAPTCHA challenge. We do not get round bot checks, so Kaggle cards rely
+    # on tier 1 (snippet wording, past edition year) and stay "unverified".
+    liveness="snippet_only",
     gate_markers=("this competition has ended", "competition is closed"),
     query_style="keywords",
+    canonical=(r"^https?://(?:www\.)?kaggle\.com/(?:competitions|c)/([\w\-]+).*$",
+               r"https://www.kaggle.com/competitions/\1"),
 ))
 
 _register(PlatformAdapter(
@@ -177,12 +184,18 @@ _register(PlatformAdapter(
     compensation="bounty",
     trust="A",
     liveness="http_probe",
-    # OBSERVED against real pages on 2026-10-09, not guessed. GitHub serves a
-    # React shell, so the human-readable "this issue was closed" never appears
-    # in the HTML; the state lives in an embedded JSON payload. Verified to be
-    # absent on open issues, so it does not false-positive.
-    gate_markers=('"state":"closed"',),
+    # The page marker '"state":"closed"' was REPLACED on 2026-10-10: the page
+    # also embeds the state of every linked pull request, so open issue
+    # apache/doris#48203 (two closed PRs linked) was archived. The REST API
+    # reports the issue's own state. Unauthenticated limit: 60/hour per IP;
+    # past it the API answers without "state" and the card stays unverified.
     query_style="keywords",
+    status_api=StatusApi(
+        url="https://api.github.com/repos/{id}",
+        id_re=r"github\.com/([\w.\-]+/[\w.\-]+/issues/\d+)",
+        path=("state",),
+        dead=("CLOSED",),
+    ),
 ))
 
 _register(PlatformAdapter(
@@ -190,14 +203,25 @@ _register(PlatformAdapter(
     label="DrivenData",
     engine="duckduckgo",
     site="drivendata.org",
-    url_pattern=r"^https?://(www\.)?drivendata\.org/competitions/\d+",
+    # Competitions also run on subdomains (concepttoclinic.drivendata.org/
+    # competitions/52/...) and as single-site challenges (aiforearth.
+    # drivendata.org). blog/community/assets/deon are not competitions.
+    url_pattern=r"^https?://(www\.|(?!blog\.|community\.|assets\.|deon\.)[\w\-]+\.)?"
+                r"drivendata\.org/competitions/(\d+|group/[\w\-]+)"
+                r"|^https?://(?!www\.|blog\.|community\.|assets\.|deon\.)[\w\-]+"
+                r"\.drivendata\.org/?$",
     dork="site:drivendata.org competitions {terms}",
     ecosystem="data_challenge",
     compensation="prize",
     trust="A",
     liveness="http_probe",
-    gate_markers=("competition closed", "this competition is over"),
+    # OBSERVED 2026-10-10: a finished competition renders
+    # "<strong>Completed</strong> <span class="end-date">sep 2026</span>".
+    gate_markers=(
+        r"re:\bcompleted (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* \d{4}\b",
+    ),
     query_style="keywords",
+    canonical=(r"^(https?://[\w.\-]*drivendata\.org/competitions/\d+/[\w\-]+/?).*$", r"\1"),
 ))
 
 # ------------------------------------------------------------- tier B -------
@@ -263,8 +287,20 @@ _register(PlatformAdapter(
     compensation="volunteer",
     trust="B",
     liveness="http_probe",
-    gate_markers=("this project is finished", "project is complete"),
     query_style="keywords",
+    canonical=(r"^https?://(?:www\.)?zooniverse\.org/projects/([\w\-]+/[\w\-]+).*$",
+               r"https://www.zooniverse.org/projects/\1"),
+    # OBSERVED 2026-10-10: the page never says "paused" or "not launched" in
+    # a reliable way; the public API does. "We Cam Coexist" is paused and
+    # "Parkside Asylum" was never launched to the public.
+    status_api=StatusApi(
+        url="https://www.zooniverse.org/api/projects?slug={id}",
+        id_re=r"zooniverse\.org/projects/([\w\-]+/[\w\-]+)",
+        path=("projects", 0, "state"),
+        dead=("PAUSED", "FINISHED"),
+        require=(("projects", 0, "launch_approved"), True),
+        headers={"Accept": "application/vnd.api+json; version=1"},
+    ),
 ))
 
 # ------------------------------------------------------------- tier C -------
@@ -329,13 +365,22 @@ _register(PlatformAdapter(
     label="Google Jobs (India internships)",
     engine="google_jobs",
     site=None,
-    url_pattern=r"^https?://",          # aggregated; the share link varies by source
+    # The card links to the posting on its own board (see serpapi_client.
+    # job_link), so any host is legitimate here.
+    url_pattern=r"^https?://",
     dork="{terms} intern",
     ecosystem="internship",
     compensation="stipend",
     trust="B",
-    liveness="snippet_only",
-    gate_markers=("no longer accepting applications",),
+    # Probed since 2026-10-10. It used to link Google's share URL, which cannot
+    # be checked, so every job card stayed "unverified".
+    liveness="http_probe",
+    gate_markers=(
+        "no longer accepting applications",     # LinkedIn, visible banner
+        '"is_expired":true',                    # WorkIndia embedded job JSON
+        "this job has expired",
+        "this internship is no longer available",
+    ),
     extra_params={"location": "India", "chips": "date_posted:week", "hl": "en", "gl": "in"},
     # Recorded 2026-10-10: OR-grouped phrases returned 1 and 0 jobs.
     query_style="keywords",

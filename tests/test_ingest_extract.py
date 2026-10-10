@@ -169,3 +169,29 @@ def test_duckduckgo_params_use_region_not_hl_gl(tmp_path):
         Dork(adapter_key="unstop", query="q", covers=(), engine="duckduckgo")
     )
     assert params == {"engine": "duckduckgo", "q": "q", "kl": "in-en"}
+
+
+# ------------------------------------- Google Jobs direct links (2026-10-10) --
+
+def test_job_link_prefers_the_original_board_and_strips_tracking():
+    from s2s.mesh.serpapi_client import job_link
+
+    item = {
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=x",
+        "source_link": "https://bebee.com/in/jobs/123",
+        "apply_options": [
+            {"title": "BeBee", "link": "https://bebee.com/in/jobs/123?utm_source=google_jobs_apply"},
+            {"title": "Unstop", "link": "https://unstop.com/internships/brand-intern-1766642"
+                                        "?utm_campaign=google_jobs_apply&utm_medium=organic"},
+        ],
+    }
+    assert job_link(item) == "https://unstop.com/internships/brand-intern-1766642"
+
+
+def test_job_link_falls_back_to_an_aggregator_then_the_share_link():
+    from s2s.mesh.serpapi_client import job_link
+
+    only_aggregator = {"apply_options": [{"link": "https://in.jooble.org/jdp/1?utm_source=x"}]}
+    assert job_link(only_aggregator) == "https://in.jooble.org/jdp/1"
+    nothing_direct = {"share_link": "https://www.google.com/search?ibp=htl;jobs&q=x"}
+    assert job_link(nothing_direct) == nothing_direct["share_link"]

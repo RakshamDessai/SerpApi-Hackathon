@@ -1,0 +1,186 @@
+{
+  "fetched_at": 1791603985.798496,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:zooniverse.org projects data analysis",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b50cf7ae8d5e05cb965e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/noYsUKh5H2Bt7RijyQ_S7iErAOV5tWrIqcrA1cj3yf0/6ac9b50cf7ae8d5e05cb965e.json",
+      "markdown_endpoint": "https://serpapi.com/searches/noYsUKh5H2Bt7RijyQ_S7iErAOV5tWrIqcrA1cj3yf0/6ac9b50cf7ae8d5e05cb965e.md",
+      "created_at": "2026-10-10 03:46:20 UTC",
+      "processed_at": "2026-10-10 03:46:20 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Azooniverse.org+projects+data+analysis&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/noYsUKh5H2Bt7RijyQ_S7iErAOV5tWrIqcrA1cj3yf0/6ac9b50cf7ae8d5e05cb965e.html",
+      "prettify_html_file": "https://serpapi.com/searches/noYsUKh5H2Bt7RijyQ_S7iErAOV5tWrIqcrA1cj3yf0/6ac9b50cf7ae8d5e05cb965e.prettify",
+      "total_time_taken": 5.09
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:zooniverse.org projects data analysis",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "ads": [
+      {
+        "position": 1,
+        "title": "Data Analytics Jobs at BCG - Find Data & Analytics Jobs",
+        "link": "https://duckduckgo.com/y.js?ad_domain=bcg.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=RHlcJMJfVirgPo4JPw5NF1t%2DdUue4vFXR2_AdDE7nksH7oGS1VjOxVBainUVN0lqoj9_RRlLntxnZTBTTjMGJhMk8VxzzUeLvY6iQbvn61e5%2DE0K07Zt_qNxmP420KFmXh%2DeQadu3uYiemO3a_hWszyqYroq_N894ATBYkGjD04.WFrwzICmvlGxLl1ly2N59w&eddgt=gD6nYA2m%2DCkyfU11D0QXrQ%3D%3D&rut=7675d56b5deaac5620602c2d42c1d17c1198a7fb1bd3a4374ebb23102bd108dd&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8k_5QMqBiJri4nOoPC5MiRjVUCUzIWaM%2DTtGq5PNv1ly9K9bNJDTsnVMptUePhh7G_pG4TDuoZsPh1cvQxBuUMV_ZJGV35zG7PRS_ihZ_1H%2DXq3%2DR7sfhgkI7cOtYKHNOEsk1wXW2XnhAm0BSawr20ljThqWqm%2Ds7cqIj64v6yzhiUHuZ4MONmjhN5vEJcoBXq3Z7NDLBuVPkd8KvfFUa%2DsYTex0%26u%3DaHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MjUwODkyMTM3MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODgzNTE3NDA2MCUyNmRzX2FfY2lkJTNkMTY4MDg2NzAyNCUyNmRzX2FfY2FpZCUzZDIyMTIzNzcwOTQ3JTI2ZHNfYV9hZ2lkJTNkMTc5MDU0ODY1MDA4JTI2ZHNfYV9saWQlM2Rrd2QtNTc0OTA1NTI3JTI2JTI2ZHNfZV9hZGlkJTNkODIzOTUwMzcwNTAyNDklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC04MjM5NjEzNDQ2NDg5NCUzYWxvYy0xOTAlMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZmNhcmVlcnMuYmNnLmNvbSUyZmMlMmZkYXRhLXNjaWVuY2UtYW5kLWFuYWx5dGljcy1qb2JzJTNmZ2NsaWQlM2QzOTg0NzlmNWVmYmMxMGQ1YTFjMTEzM2M1YWIzNGMzZSUyNmdjbHNyYyUzZDNwLmRzJTI2JTI2dXRtX2NhbXBhaWduJTNkTkFNUlAyMDI1X2dsb2JhbF90YV9kaWdpdGFsLWhpZ2gtc2NpZW5jZS1hbmQtYW5hbHl0aWNzLW1lZGl1bS1tc2FkczI1X2RhdGElMjUyMHNjaWVuY2VfYiUyNnV0bV9zb3VyY2UlM2RjcGNfc2VhcmNoJTI2dXRtX21lZGl1bSUzZG5hbXJfcGFpZF8wMzIwMjUlMjZtc2Nsa2lkJTNkMzk4NDc5ZjVlZmJjMTBkNWExYzExMzNjNWFiMzRjM2U%26rlid%3D398479f5efbc10d5a1c1133c5ab34c3e&vqd=4-301271733732401712397998945998765842721&iurl=%7B1%7DIG%3D002E4363C07C45E584D3A5BC989D9DF8%26CID%3D321F6196E6326E9302847678E7B96F2D%26ID%3DDevEx%2C5036.1",
+        "source": "bcg.com",
+        "snippet": "Apply for your next analytics or data science job at BCG and take your career further. Take the next step in your career & thrive at BCG with our analytics & data science jobs.",
+        "sitelinks": [
+          {
+            "title": "Data Analytics Jobs at...",
+            "link": "https://duckduckgo.com/y.js?ad_domain=bcg.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=S2M7DPXzsMITlcYeWmGZS72DlhKJWSOmtndaPaNcoenzCS3jEcSjP4praci0WMc8jGOa8WrriqP4Q5HEt%2DHglvTyz6ehX5upfhI7x3y%2D%2DzoYBRCIHj49m6g46j_YXHuC6fSyR%2DRv1P8Z3tFh3enKQlDvwlof5V4A4NKlmQnjais.7Oq8VFKdrxNBFcp2dM6d8w&eddgt=gD6nYA2m%2DCkyfU11D0QXrQ%3D%3D&rut=2c3d8d7ace7eed82ddb44d143bc2e4ed2fa9ca8d5937e4a3c56ddf1fcc920c7d&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8oiTP8zae%2DmW0CaUzn%2DQS0jVUCUw4ACA4KTLdH8YM97ph5k%2Dh2Q06Jmz%2DX29JCdH_T1WkBICJlVTGTMIsLvXRAxUHZUPmta5hUMqNqzTLDmsg79fqmsmu2hKp_7ksCWpsGeVQRecy81ncb7KTMPuVvinKP%2DZ8G8voL8oBZpCaPXWTOD%2DmskGggGuwnb5aHTRrNGkrPFYSo9Xwj%2D9Nh4Dfuf_jEFyaqU_mQHgayICKX3oOvdt0%26u%3DaHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MjUwODkyMTM3MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODgzNTE3NDA2MCUyNmRzX2FfY2lkJTNkMTY4MDg2NzAyNCUyNmRzX2FfY2FpZCUzZDIyMTIzNzcwOTQ3JTI2ZHNfYV9hZ2lkJTNkMTc5MDU0ODY1MDA4JTI2ZHNfYV9saWQlM2Rrd2QtNTc0OTA1NTI3JTI2JTI2ZHNfZV9hZGlkJTNkODIzOTUwMzcwNTAyNDklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC04MjM5NjEzNDQ2NDg5NCUzYWxvYy0xOTAlMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZmNhcmVlcnMuYmNnLmNvbSUyZmMlMmZkYXRhLXNjaWVuY2UtYW5kLWFuYWx5dGljcy1qb2JzJTNmdXRtX2NhbXBhaWduJTNkTkFNUlAyMDI1X2dsb2JhbF90YV9kaWdpdGFsLWhpZ2gtc2NpZW5jZS1hbmQtYW5hbHl0aWNzLW1lZGl1bS1tc2FkczI1X2RhdGElMjUyMHNjaWVuY2VfYiUyNnV0bV9zb3VyY2UlM2RjcGNfc2VhcmNoJTI2dXRtX21lZGl1bSUzZG5hbXJfcGFpZF8wMzIwMjUlMjZtc2Nsa2lkJTNkYzM0YTVhYzg4MjUyMWRiYzRhYTgzMDAxMzc1ZDg4NmYlMjZnY2xpZCUzZGMzNGE1YWM4ODI1MjFkYmM0YWE4MzAwMTM3NWQ4ODZmJTI2Z2Nsc3JjJTNkM3AuZHMlMjY%26rlid%3Dc34a5ac882521dbc4aa83001375d886f&vqd=4-147749810541581133463948331123924124733&iurl=%7B1%7DIG%3D002E4363C07C45E584D3A5BC989D9DF8%26CID%3D321F6196E6326E9302847678E7B96F2D%26ID%3DDevEx%2C5044.1",
+            "snippet": "Apply for your next analytics or data science job at BCG and ..."
+          },
+          {
+            "title": "Join our Consulting Team",
+            "link": "https://duckduckgo.com/y.js?ad_domain=bcg.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=SVwR0q6UAW0PC68lESqJmcv9O328U8nNX2_9xP7h6ExCScVtVsQxYvFB8bMrn1285qZSfHAE7fmesSxjEtf0SFdPISGZaYmCF83%2DmuPdm%2Dkzky9NZhOQhsv40Vjq_qQHMo_M7cPfMyp891SUmyjY3UwUww2RyQdEtTJaci6Ya3g.ChdijseU942wJr3ZiwwdkA&eddgt=gD6nYA2m%2DCkyfU11D0QXrQ%3D%3D&rut=8b00a83a2547898b732786304023ebf0349aa75337855087f5d28119641b8c1f&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8N7S8s6OOkYeU01B6irtEUzVUCUzoIFs6FDHTf%2DhC2TmMlgGlhHKgqbbQN7QeBc2nhqUcAQb92sfVMNcqMfC_C4XVyrwyrwFIPH%2Dmp2okWHyTxVmCUD3MWKAB7RXrvWktB7b%2DbVe8_dGH_aYb6H1z36DRuJa92RtW3Bx%2DnU9FVWsF85PE5500gFsar69frCPabWgNRmpvleSNsoAmSZP5RQxvQhDvDl2QbuHpknqbdoqtLguU%26u%3DaHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MjUwODkyMTM3MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODgzNTE3NDA2MCUyNmRzX2FfY2lkJTNkMTY4MDg2NzAyNCUyNmRzX2FfY2FpZCUzZDIyMTIzNzcwOTQ3JTI2ZHNfYV9hZ2lkJTNkMTc5MDU0ODY1MDA4JTI2ZHNfYV9saWQlM2Rrd2QtNTc0OTA1NTI3JTI2JTI2ZHNfZV9hZGlkJTNkODIzOTUwMzcwNTAyNDklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC04MjM5NjEzNDQ2NDg5NCUzYWxvYy0xOTAlMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZmNhcmVlcnMuYmNnLmNvbSUyZmMlMmZjb25zdWx0aW5nLWpvYnMlM2Z1dG1fY2FtcGFpZ24lM2ROQU1SUDIwMjVfZ2xvYmFsX3RhX2RpZ2l0YWwtaGlnaC1zY2llbmNlLWFuZC1hbmFseXRpY3MtbWVkaXVtLW1zYWRzMjVfZGF0YSUyNTIwc2NpZW5jZV9iJTI2dXRtX3NvdXJjZSUzZGNwY19zZWFyY2glMjZ1dG1fbWVkaXVtJTNkbmFtcl9wYWlkXzAzMjAyNSUyNm1zY2xraWQlM2Q1YzZiMWU4ZGI1NzAxYjA2ZjE1ODc0NDQwMDdmNTVkYiUyNmdjbGlkJTNkNWM2YjFlOGRiNTcwMWIwNmYxNTg3NDQ0MDA3ZjU1ZGIlMjZnY2xzcmMlM2QzcC5kcyUyNg%26rlid%3D5c6b1e8db5701b06f1587444007f55db&vqd=4-233910463228283430569639489062750127508&iurl=%7B1%7DIG%3D002E4363C07C45E584D3A5BC989D9DF8%26CID%3D321F6196E6326E9302847678E7B96F2D%26ID%3DDevEx%2C5046.1",
+            "snippet": "Consult BCG's clients on solutions that reshape business, ..."
+          },
+          {
+            "title": "Career Growth",
+            "link": "https://duckduckgo.com/y.js?ad_domain=bcg.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=AemdMwiLjbvvBVifSVBfjLgQKdLAM2A_mWlVMFFsNPnEJYnjud8hi_Qxpd4gCxLMu2HOHxm5oWHI_RFY6S_VznHZk26cgtM5ECq8dU8XMFmuVRIXeiT6CBS2rH_GhynWNGBc468tD2o0g0Kh4PAFZ04uNFQAzFyRP2lHw7SclbA.D2Xthm_F8Dx9rmX70BYUIw&eddgt=gD6nYA2m%2DCkyfU11D0QXrQ%3D%3D&rut=a7525774b29756e92f7debbfed765c84aca651bd0f09c7f5ad9a7e4cc3b59dfa&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De83ZBmOqAy1qB5wdfqPO1MPzVUCUx731hTewj7Zqo8Xkb74L1Rm2HepYug6ZyhT2KLh8_%2DqJjS8mOVLn9sbkwHZV2dicmdUTKVqI1essMrIbXipKdMY6VyvqeGQaG2lV_l_g%2Dv5qRxla4ljzHzzWtttLP83%2DJR9uQtOVEv7W8IQQBs5yxJbUzk25uw3bpYhyOaQ7EB8Diu1KZHSuIz3b8oOrKUeY8VFCkgBJFSzMz_1nbYIO7U%26u%3DaHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MjUwODkyMTM3MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODgzNTE3NDA2MCUyNmRzX2FfY2lkJTNkMTY4MDg2NzAyNCUyNmRzX2FfY2FpZCUzZDIyMTIzNzcwOTQ3JTI2ZHNfYV9hZ2lkJTNkMTc5MDU0ODY1MDA4JTI2ZHNfYV9saWQlM2Rrd2QtNTc0OTA1NTI3JTI2ZHNfeF9hZHhpZCUzZDgzNzAwMDI1OTcyNzI0NzUyJTI2ZHNfeF9hZHh0eXBlJTNkMSUyNmRzX2FfY2lkJTNkMTY4MDg2NzAyNCUyNmRzX2FfZXh0aWQlM2QyMDU2Nzk1NTg0MDQlMjZkc19lX2FkaWQlM2Q4MjM5NTAzNzA1MDI0OSUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTgyMzk2MTM0NDY0ODk0JTNhbG9jLTE5MCUyNiUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGY2FyZWVycy5iY2cuY29tJTI1MkZjYXJlZXItZ3Jvd3RoLW9wcG9ydHVuaXRpZXMlMjUzRmdjbGlkJTI1M0QwMGYxYWE3YTU1NDgxNDM1YjE1OWMwYjNlMDQ3MmNiNiUyNTI2Z2Nsc3JjJTI1M0QzcC5kcyUyNTI2JTI1MjZ1dG1fY2FtcGFpZ24lM2ROQU1SUDIwMjVfZ2xvYmFsX3RhX2RpZ2l0YWwtaGlnaF9jYXJlZXItZ3Jvd3RoX21zYWRzX3NpdGVsaW5rX2RhdGElMjUyMHNjaWVuY2UlMjZ1dG1fc291cmNlJTNkY3BjX3NlYXJjaCUyNnV0bV9tZWRpdW0lM2RuYW1yX3BhaWRfMDMyMDI1JTI2ZHNfYV9tc2Fkc19zaXRlbGlua2lkJTNkJTdic2l0ZWxpbmtlbnNpb25pZCU3ZCUyNmdjbGlkJTNkMDBmMWFhN2E1NTQ4MTQzNWIxNTljMGIzZTA0NzJjYjYlMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2QwMGYxYWE3YTU1NDgxNDM1YjE1OWMwYjNlMDQ3MmNiNg%26rlid%3D00f1aa7a55481435b159c0b3e0472cb6&vqd=4-82498160395860893585885443053905776736&iurl=%7B1%7DIG%3D002E4363C07C45E584D3A5BC989D9DF8%26CID%3D321F6196E6326E9302847678E7B96F2D%26ID%3DDevEx%2C5048.1",
+            "snippet": "Go beyond with growth opportunities Take your career to the next level"
+          },
+          {
+            "title": "Experienced Professionals",
+            "link": "https://duckduckgo.com/y.js?ad_domain=bcg.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=c20JKr3%2DjqtIEYmjDJC95KrCv89AbYvq0ibUEdHfqCqIgS5s24qw0KqCUEGM5qLyQVMSpEiRALOkrUb3Ry0762jzlcWGYJ7tyTDL1MdYSzaS64FLQjL_2azlZthyR%2DrmuGtLlQl7hIclNr_b28hOlVK537d_iROKuL4o%2DoL22j8.5kJJojsMk7S10DqcJSS8kg&eddgt=gD6nYA2m%2DCkyfU11D0QXrQ%3D%3D&rut=e07b4bafe9fee5211f77f9b5645b8e9d852c45f99006e20399f7a1cca452e4ce&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8FuJKs8h8U0do1NnyOACmaTVUCUzcgVV8AYw5_xcO%2Dcl%2Dl_vCA6NjcGzXk1zyYGRBNxj1dwgKmS0vEPwbo6b%2D30BXUr_WqmcOGKCzzcklGX%2D1VXZjsj36NB08rnKYUPB6iHeE51NlFA6SBKagSiaPJfTS0VErlHSou74Jb675fzBLSPH61AEdXDsuYEW%2D_qPuAzsezQYm%2DXYDAD0PT4y5GEpU7ZHkFdXWTd4wM_TTk5cZlHi9%26u%3DaHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MjUwODkyMTM3MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODgzNTE3NDA2MCUyNmRzX2FfY2lkJTNkMTY4MDg2NzAyNCUyNmRzX2FfY2FpZCUzZDIyMTIzNzcwOTQ3JTI2ZHNfYV9hZ2lkJTNkMTc5MDU0ODY1MDA4JTI2ZHNfYV9saWQlM2Rrd2QtNTc0OTA1NTI3JTI2JTI2ZHNfZV9hZGlkJTNkODIzOTUwMzcwNTAyNDklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC04MjM5NjEzNDQ2NDg5NCUzYWxvYy0xOTAlMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZmNhcmVlcnMuYmNnLmNvbSUyZmV4cGVyaWVuY2VkLXByb2Zlc3Npb25hbHMlM2Z1dG1fY2FtcGFpZ24lM2ROQU1SUDIwMjVfZ2xvYmFsX3RhX2RpZ2l0YWwtaGlnaC1zY2llbmNlLWFuZC1hbmFseXRpY3MtbWVkaXVtLW1zYWRzMjVfZGF0YSUyNTIwc2NpZW5jZV9iJTI2dXRtX3NvdXJjZSUzZGNwY19zZWFyY2glMjZ1dG1fbWVkaXVtJTNkbmFtcl9wYWlkXzAzMjAyNSUyNm1zY2xraWQlM2QwZGU0ZTgzOWQ1YmIxMTQwYTQzZjgyZjA2MGI0ODk0NiUyNmdjbGlkJTNkMGRlNGU4MzlkNWJiMTE0MGE0M2Y4MmYwNjBiNDg5NDYlMjZnY2xzcmMlM2QzcC5kcyUyNg%26rlid%3D0de4e839d5bb1140a43f82f060b48946&vqd=4-278152744236826917139779102609624530856&iurl=%7B1%7DIG%3D002E4363C07C45E584D3A5BC989D9DF8%26CID%3D321F6196E6326E9302847678E7B96F2D%26ID%3DDevEx%2C5050.1",
+            "snippet": "We are looking for experienced professionals to join our team."
+          }
+        ]
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Project data - Zooniverse Help",
+        "link": "https://help.zooniverse.org/transcription-project-guide/project-data/",
+        "snippet": "How to do things in the Zooniverse. Project data 2.1 What is a Subject? What is a Subject Set? Above: A subject from The Gravestone Project. Photo taken by Rebecca Schneider on December 10, 2022, in Watrous Cemetery near Watrous, NM. In Zooniverse parlance, a Subject is a unit of data to be analyzed. For transcription projects, Subjects are images of the text you want your volunteers to transcribe. A single Subject can include more than one image. For example, multi-image Subjects can group ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/help.zooniverse.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Data Analysis - Zooniverse Help",
+        "link": "https://help.zooniverse.org/next-steps/data-analysis/",
+        "snippet": "Data Analysis People have written code that can help you. Because Zooniverse projects hosted on the Panoptes platform share a codebase, their outputs should be similar in format.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/help.zooniverse.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Zooniverse",
+        "link": "https://www.zooniverse.org/",
+        "snippet": "A new Zooniverse project invites volunteers to help turn location information from museum records into points on a map, making biodiversity data easier for researchers to use. The project also introduces new mapping tools that will eventually support many different kinds of research on Zooniverse. Yesterday, we launched [\u2026] Read more 9 days ago",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Projects | Zooniverse",
+        "link": "https://www.zooniverse.org/projects",
+        "snippet": "Your contributions will help create high-quality geographic data that support biodiversity research, conservation planning, ecological modeling, and our understanding of life on Earth.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "projects: proj_20816: 1 row where picture_agency = \"Illustrated\" sorted ...",
+        "link": "https://subject-set-search-api.zooniverse.org/projects-91c660a/proj_20816?picture_agency=Illustrated&_sort=probelmatic_language_notes",
+        "snippet": "proj_20816 1 row where picture_agency = \"Illustrated\" sorted by probelmatic_language_notes View and edit SQL This data as json, CSV (advanced)",
+        "favicon": "https://external-content.duckduckgo.com/ip3/subject-set-search-api.zooniverse.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "projects: select rowid, subject_id, image1, image2, internal_id, group ...",
+        "link": "https://subject-set-search-api.zooniverse.org/projects-505b7bf?sql=select+rowid%2C+subject_id%2C+image1%2C+image2%2C+internal_id%2C+group_id%2C+part_number%2C+folder%2C+%5B%23Hazard%5D%2C+condition%2C+item%2C+picture_agency%2C+photographer%2C+oversize%2C+sensitive_image%2C+sensitive_image_note%2C+problematic_language%2C+probelmatic_language_notes%2C+%5B%23Other+Number%5D%2C+notes+from+proj_20816+where+%22%23Other+Number%22+%3D+%3Ap0+and+%28image1+%3E+%3Ap2+or+%28image1+%3D+%3Ap2+and+rowid+%3E+%3Ap1%29%29+order+by+image1%2C+rowid+limit+101&p0=1983-5236%2F15869&p1=257&p2=SMG00443777_%280001%29.jpeg",
+        "snippet": "Custom SQL query returning 1 row (hide) select rowid, subject_id, image1, image2, internal_id, group_id, part_number, folder, [#Hazard], condition, item, picture_agency, photographer, oversize, sensitive_image, sensitive_image_note, problematic_language, probelmatic_language_notes, [#Other Number], notes from proj_20816 where \"#Other Number\" = :p0 and (image1 > :p2 or (image1 = :p2 and rowid > :p1)) order by image1, rowid limit 101",
+        "favicon": "https://external-content.duckduckgo.com/ip3/subject-set-search-api.zooniverse.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "How Data Clustering Works \u2014 panoptes_aggregation 5.3.1 documentation",
+        "link": "https://aggregation-staging.zooniverse.org/How_Clustering_Works.html",
+        "snippet": "What problem does clustering solve? At the most basic level, clustering is the process of taking a set of data (e.g. a list of numbers, points drawn on an image, etc\u2026), finding groups of the data that are \"similar,\" and assigning a label to each group. Once each group is found, an average is used (or a generalization of the average as seen later on) to represent the group with a single value, and the variance about that average is used to define the extent of the group.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/aggregation-staging.zooniverse.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Statistics - Zooniverse",
+        "link": "https://blog.zooniverse.org/category/statistics/",
+        "snippet": "For a few of our earliest projects, we weren't able to source the raw classification data and/or get the public-engagement data we needed, so those projects were excluded from the analysis.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.zooniverse.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "data - Zooniverse",
+        "link": "https://blog.zooniverse.org/tag/data/",
+        "snippet": "Some users have been already been very resourceful in developing their own analysis tools for Zooniverse projects, or have done lots of offline work pulling data into Excel, IDL, Python, and lots of other programs (see examples here and here).",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.zooniverse.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Downloading Project Builder Data Exports - Daily Zooniverse",
+        "link": "https://daily.zooniverse.org/2019/07/15/downloading-project-builder-data-exports/",
+        "snippet": "Dear Project Builders, As you may have noticed, we recently implemented a change in how you download data exports from the Project Builder. Formerly, we sent a direct link for you to download your data, with the caveat that the link would expire in 24 hours. We received some feedback that the links were expiring\u2026",
+        "favicon": "https://external-content.duckduckgo.com/ip3/daily.zooniverse.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "PDF Phylogeny Activity - Zooniverse",
+        "link": "https://static.zooniverse.org/microplants.fieldmuseum.org/pdfs/PhylogenyActivity.pdf",
+        "snippet": "Phylogeny Analysis \"One Click\" Paste your set of sequences and let the software make decisions on your behalf (Each step is optimized for your data). \"Advanced\" Manually set parameters for the various steps. \"A la Carte\" Create your own phylogeny workflow using more programs available. 8. Name your analysis \"Frullania Phylogenetic Tree.\"",
+        "favicon": "https://external-content.duckduckgo.com/ip3/static.zooniverse.org.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "data analytics projects for beginners",
+        "link": "https://duckduckgo.com/?q=data%20analytics%20projects%20for%20beginners&origin=related"
+      },
+      {
+        "query": "free data analytics projects",
+        "link": "https://duckduckgo.com/?q=free%20data%20analytics%20projects&origin=related"
+      },
+      {
+        "query": "data analysis free projects",
+        "link": "https://duckduckgo.com/?q=data%20analysis%20free%20projects&origin=related"
+      },
+      {
+        "query": "live projects for data analytics",
+        "link": "https://duckduckgo.com/?q=live%20projects%20for%20data%20analytics&origin=related"
+      },
+      {
+        "query": "data analyst projects for beginners",
+        "link": "https://duckduckgo.com/?q=data%20analyst%20projects%20for%20beginners&origin=related"
+      },
+      {
+        "query": "best data analysis projects",
+        "link": "https://duckduckgo.com/?q=best%20data%20analysis%20projects&origin=related"
+      },
+      {
+        "query": "sample project for data analyst",
+        "link": "https://duckduckgo.com/?q=sample%20project%20for%20data%20analyst&origin=related"
+      },
+      {
+        "query": "data analytics projects for resume",
+        "link": "https://duckduckgo.com/?q=data%20analytics%20projects%20for%20resume&origin=related"
+      },
+      {
+        "query": "data analytics project examples",
+        "link": "https://duckduckgo.com/?q=data%20analytics%20project%20examples&origin=related"
+      },
+      {
+        "query": "project ideas for data analyst",
+        "link": "https://duckduckgo.com/?q=project%20ideas%20for%20data%20analyst&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Azooniverse.org+projects+data+analysis&start=11"
+    }
+  }
+}

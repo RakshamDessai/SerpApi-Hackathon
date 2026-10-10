@@ -189,6 +189,11 @@ def test_student_level_listings_are_kept(title, snippet):
     assert signals.exclusion_reason(_jobs_result(title, snippet)) is None
 
 
+def test_phd_roles_are_out_of_reach():
+    result = _jobs_result("PhD Intern - Machine Learning Researcher", "Join our lab.")
+    assert signals.exclusion_reason(result) == "needs a PhD"
+
+
 def test_c_suite_volunteer_titles_are_out_of_reach():
     result = _jobs_result("Chief Financial Officer - Volunteer Opportunity", "Help us.")
     assert signals.exclusion_reason(result) == "senior role"
@@ -219,8 +224,16 @@ def test_diversity_does_not_promote_a_much_weaker_match():
     assert keys == ["idealist"] * 5 + ["catchafire"]
 
 
-def test_diversity_never_drops_or_promotes_across_verdicts():
-    ranked = [_opp("a", 0.9, "live")] * 5 + [_opp("b", 0.8, "unverified")]
+def test_diversity_never_drops_and_never_promotes_archived():
+    ranked = [_opp("a", 0.9, "live")] * 5 + [_opp("b", 0.85, "archived")]
     out = scorer.diversify(ranked)
     assert len(out) == len(ranked)
-    assert [o.verdict for o in out] == ["live"] * 5 + ["unverified"]
+    assert [o.verdict for o in out] == ["live"] * 5 + ["archived"]
+
+
+def test_unverifiable_platform_can_join_a_crowded_live_top_ten():
+    """Kaggle can never be verified; 11 live job cards must not bury it."""
+    ranked = [_opp("gjobs", 0.80 - i / 1000, "live") for i in range(11)] \
+        + [_opp("kaggle", 0.74, "unverified")]
+    keys = [o.adapter_key for o in scorer.diversify(ranked)][:10]
+    assert keys[:3] == ["gjobs"] * 3 and keys[3] == "kaggle"

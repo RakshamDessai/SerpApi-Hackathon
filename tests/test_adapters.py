@@ -179,3 +179,41 @@ def test_dead_platforms_stay_removed():
     """Both now redirect to another host, so tier 2 archives every result."""
     assert "volunteermatch" not in registry.ADAPTERS
     assert "taproot" not in registry.ADAPTERS
+
+
+@pytest.mark.parametrize("key,url", [
+    ("drivendata", "https://concepttoclinic.drivendata.org/competitions/52/anomaly-detection-electricity/"),
+    ("drivendata", "https://www.drivendata.org/competitions/group/childrens-asr-competition/"),
+    ("drivendata", "https://aiforearth.drivendata.org/"),
+    ("zooniverse", "https://www.zooniverse.org/projects/tkillestein/kilonova-seekers"),
+    ("kaggle", "https://www.kaggle.com/competitions/statistella"),
+])
+def test_tier0_accepts_observed_science_listings(key, url):
+    assert re.match(registry.get(key).url_pattern, url, re.IGNORECASE), url
+
+
+@pytest.mark.parametrize("key,url", [
+    ("drivendata", "https://blog.drivendata.org/tag/competition/"),
+    ("drivendata", "https://community.drivendata.org/c/dengue-competition/18"),
+    ("drivendata", "https://www.deon.drivendata.org/accounts/signup/?next=/competitions/54/x"),
+    ("drivendata", "https://www.drivendata.org/competitions/"),
+    ("zooniverse", "https://www.zooniverse.org/projects"),
+    ("kaggle", "https://www.kaggle.com/competitions"),
+])
+def test_tier0_rejects_observed_science_non_listings(key, url):
+    assert not re.match(registry.get(key).url_pattern, url, re.IGNORECASE), url
+
+
+@pytest.mark.parametrize("key,url,canonical", [
+    ("kaggle", "https://www.kaggle.com/competitions/titanic/data",
+     "https://www.kaggle.com/competitions/titanic"),
+    ("kaggle", "https://www.kaggle.com/c/titanic", "https://www.kaggle.com/competitions/titanic"),
+    ("zooniverse", "https://www.zooniverse.org/projects/ryanhepburn/finvision/about/team",
+     "https://www.zooniverse.org/projects/ryanhepburn/finvision"),
+    ("drivendata", "https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/?ref=mlcontests",
+     "https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/"),
+    ("devpost", "https://ztq.devpost.com/", "https://ztq.devpost.com/"),   # no rule: unchanged
+])
+def test_subpages_collapse_to_the_listing(key, url, canonical):
+    from s2s.mesh.serpapi_client import canonical_url
+    assert canonical_url(key, url) == canonical

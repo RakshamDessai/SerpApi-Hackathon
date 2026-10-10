@@ -1,0 +1,671 @@
+{
+  "fetched_at": 1791603965.117248,
+  "engine": "google_scholar",
+  "params": {
+    "engine": "google_scholar",
+    "q": "\"machine learning\" OR \"classification model\" OR \"biodiversity data\" OR \"species identification\" OR \"epidemiological analysis\" OR \"public health data\"",
+    "hl": "en",
+    "as_ylo": 2025
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b4fac2bb99a2ca5d9826",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/auKcwHnJrFdDncQ9sqVen0fnFL1rO8e8TNm_FpHF9Us/6ac9b4fac2bb99a2ca5d9826.json",
+      "markdown_endpoint": "https://serpapi.com/searches/auKcwHnJrFdDncQ9sqVen0fnFL1rO8e8TNm_FpHF9Us/6ac9b4fac2bb99a2ca5d9826.md",
+      "created_at": "2026-10-10 03:46:02 UTC",
+      "processed_at": "2026-10-10 03:46:02 UTC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_ylo=2025",
+      "raw_html_file": "https://serpapi.com/searches/auKcwHnJrFdDncQ9sqVen0fnFL1rO8e8TNm_FpHF9Us/6ac9b4fac2bb99a2ca5d9826.html",
+      "total_time_taken": 2.22
+    },
+    "search_parameters": {
+      "engine": "google_scholar",
+      "q": "\"machine learning\" OR \"classification model\" OR \"biodiversity data\" OR \"species identification\" OR \"epidemiological analysis\" OR \"public health data\"",
+      "hl": "en",
+      "as_ylo": "2025"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling",
+      "total_results": 16200,
+      "time_taken_displayed": 0.13,
+      "query_displayed": "\"machine learning\" OR \"classification model\" OR \"biodiversity data\" OR \"species identification\" OR \"epidemiological analysis\" OR \"public health data\""
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Machine learning in polymer research",
+        "result_id": "4bXL-hJZbucJ",
+        "link": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202413695",
+        "snippet": "Abstract Machine learning is increasingly being applied in polymer chemistry to link chemical structures to macroscopic properties of polymers and to identify chemical patterns in the \u2026",
+        "publication_info": {
+          "summary": "W Ge, R De Silva, Y Fan, SA Sisson\u2026 - Advanced \u2026, 2025 - Wiley Online Library",
+          "authors": [
+            {
+              "name": "W Ge"
+            },
+            {
+              "name": "R De Silva"
+            },
+            {
+              "name": "Y Fan",
+              "link": "https://scholar.google.com/citations?user=vlOGRA0AAAAJ&hl=en&oi=sra",
+              "author_id": "vlOGRA0AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=vlOGRA0AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "SA Sisson",
+              "link": "https://scholar.google.com/citations?user=YgsdsUMAAAAJ&hl=en&oi=sra",
+              "author_id": "YgsdsUMAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=YgsdsUMAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "wiley.com",
+            "file_format": "PDF",
+            "link": "https://advanced.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202413695"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=4bXL-hJZbucJ",
+          "cited_by": {
+            "total": 219,
+            "link": "https://scholar.google.com/scholar?cites=16676364408251463137&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "16676364408251463137",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16676364408251463137&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:4bXL-hJZbucJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3A4bXL-hJZbucJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cluster=16676364408251463137&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "16676364408251463137",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=16676364408251463137&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "title": "Machine learning for analyzing effects of various factors on business economic",
+        "result_id": "dkVmmK95_0AJ",
+        "link": "http://ada-journal.org/index.php/ada/article/view/9",
+        "snippet": "\u2026 We will use machine learning methods to look at several \u2026 This research studies how to use machine learning to analyze \u2026 will provide explanations about machine learning and some of \u2026",
+        "publication_info": {
+          "summary": "MB Bagherabad, E Rivandi, MJ Mehr - Applied Decision Analytics, 2026 - ada-journal.org",
+          "authors": [
+            {
+              "name": "MB Bagherabad",
+              "link": "https://scholar.google.com/citations?user=GNAHsSoAAAAJ&hl=en&oi=sra",
+              "author_id": "GNAHsSoAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GNAHsSoAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "E Rivandi",
+              "link": "https://scholar.google.com/citations?user=4Y1-2zsAAAAJ&hl=en&oi=sra",
+              "author_id": "4Y1-2zsAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=4Y1-2zsAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MJ Mehr"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "ada-journal.org",
+            "file_format": "PDF",
+            "link": "http://ada-journal.org/index.php/ada/article/download/9/7"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=dkVmmK95_0AJ",
+          "cited_by": {
+            "total": 48,
+            "link": "https://scholar.google.com/scholar?cites=4683595932571682166&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "4683595932571682166",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4683595932571682166&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:dkVmmK95_0AJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AdkVmmK95_0AJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=4683595932571682166&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "4683595932571682166",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=4683595932571682166&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:dkVmmK95_0AJ:scholar.google.com/+%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 3,
+        "title": "Enhanced sampling in the age of machine learning: Algorithms and applications",
+        "result_id": "qh4gTXKD9aUJ",
+        "link": "https://pubs.acs.org/chreay/article-abstract/126/1/671/5080738",
+        "snippet": "Molecular dynamics simulations hold great promise for providing insight into the microscopic behavior of complex molecular systems. However, their effectiveness is often constrained \u2026",
+        "publication_info": {
+          "summary": "K Zhu, E Trizio, J Zhang, R Hu, L Jiang, T Hou\u2026 - Chemical \u2026, 2026 - ACS Publications",
+          "authors": [
+            {
+              "name": "K Zhu",
+              "link": "https://scholar.google.com/citations?user=T5KSWVUAAAAJ&hl=en&oi=sra",
+              "author_id": "T5KSWVUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=T5KSWVUAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "E Trizio",
+              "link": "https://scholar.google.com/citations?user=b7b7aIsAAAAJ&hl=en&oi=sra",
+              "author_id": "b7b7aIsAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=b7b7aIsAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "J Zhang"
+            },
+            {
+              "name": "R Hu",
+              "link": "https://scholar.google.com/citations?user=BRnytnAAAAAJ&hl=en&oi=sra",
+              "author_id": "BRnytnAAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BRnytnAAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "L Jiang"
+            },
+            {
+              "name": "T Hou",
+              "link": "https://scholar.google.com/citations?user=vHW2kqUAAAAJ&hl=en&oi=sra",
+              "author_id": "vHW2kqUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=vHW2kqUAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "acs.org",
+            "file_format": "PDF",
+            "link": "https://pubs.acs.org/chreay/article-pdf/126/1/671/63298766/cr5c00700.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=qh4gTXKD9aUJ",
+          "cited_by": {
+            "total": 84,
+            "link": "https://scholar.google.com/scholar?cites=11958608912495681194&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "11958608912495681194",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11958608912495681194&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:qh4gTXKD9aUJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3Aqh4gTXKD9aUJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 9,
+            "link": "https://scholar.google.com/scholar?cluster=11958608912495681194&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "11958608912495681194",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=11958608912495681194&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "title": "Machine learning operations landscape: platforms and tools",
+        "result_id": "rAdA6_tNQDwJ",
+        "link": "https://link.springer.com/article/10.1007/s10462-025-11164-3",
+        "snippet": "\u2026 machine learning advances, managing and monitoring intelligent models in production, also known as machine learning \u2026 Consequently, every aspect of the machine learning life cycle, \u2026",
+        "publication_info": {
+          "summary": "L Berberi, V Kozlov, G Nguyen\u2026 - Artificial Intelligence \u2026, 2025 - Springer",
+          "authors": [
+            {
+              "name": "L Berberi",
+              "link": "https://scholar.google.com/citations?user=g1qg7Q8AAAAJ&hl=en&oi=sra",
+              "author_id": "g1qg7Q8AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=g1qg7Q8AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "V Kozlov",
+              "link": "https://scholar.google.com/citations?user=tNOH3msAAAAJ&hl=en&oi=sra",
+              "author_id": "tNOH3msAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=tNOH3msAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "G Nguyen",
+              "link": "https://scholar.google.com/citations?user=IEmgzZkAAAAJ&hl=en&oi=sra",
+              "author_id": "IEmgzZkAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IEmgzZkAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1007/s10462-025-11164-3.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=rAdA6_tNQDwJ",
+          "cited_by": {
+            "total": 68,
+            "link": "https://scholar.google.com/scholar?cites=4341555785164130220&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "4341555785164130220",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4341555785164130220&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:rAdA6_tNQDwJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ArAdA6_tNQDwJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 11,
+            "link": "https://scholar.google.com/scholar?cluster=4341555785164130220&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "4341555785164130220",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=4341555785164130220&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 5,
+        "title": "Overview of leakage scenarios in supervised machine learning",
+        "result_id": "mmpsJHYleM4J",
+        "link": "https://link.springer.com/article/10.1186/s40537-025-01193-8",
+        "snippet": "Abstract Machine learning (ML) provides powerful tools for predictive modeling. ML\u2019s popularity stems from the promise of sample-level prediction with applications across a variety of \u2026",
+        "publication_info": {
+          "summary": "L Sasse, E Nicolaisen-Sobesky, J Dukart, SB Eickhoff\u2026 - Journal of Big Data, 2025 - Springer",
+          "authors": [
+            {
+              "name": "L Sasse",
+              "link": "https://scholar.google.com/citations?user=_OV6a5wAAAAJ&hl=en&oi=sra",
+              "author_id": "_OV6a5wAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_OV6a5wAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "E Nicolaisen-Sobesky",
+              "link": "https://scholar.google.com/citations?user=Rv_QjVIAAAAJ&hl=en&oi=sra",
+              "author_id": "Rv_QjVIAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Rv_QjVIAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "J Dukart",
+              "link": "https://scholar.google.com/citations?user=GP5aiRIAAAAJ&hl=en&oi=sra",
+              "author_id": "GP5aiRIAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GP5aiRIAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "SB Eickhoff",
+              "link": "https://scholar.google.com/citations?user=wjpISMAAAAAJ&hl=en&oi=sra",
+              "author_id": "wjpISMAAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=wjpISMAAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1186/s40537-025-01193-8.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=mmpsJHYleM4J",
+          "cited_by": {
+            "total": 119,
+            "link": "https://scholar.google.com/scholar?cites=14877682558365887130&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "14877682558365887130",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14877682558365887130&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:mmpsJHYleM4J:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AmmpsJHYleM4J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 10,
+            "link": "https://scholar.google.com/scholar?cluster=14877682558365887130&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "14877682558365887130",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=14877682558365887130&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 6,
+        "title": "Intelligent nanophotonics: when machine learning sheds light",
+        "result_id": "m8ckuwX89T8J",
+        "link": "https://link.springer.com/article/10.1186/s43593-025-00085-x",
+        "snippet": "\u2026 of nanophotonics and machine learning has inspired \u2026 interest as next-generation machine-learning hardware with advantages in \u2026 devices enabled by machine learning and \u2026",
+        "publication_info": {
+          "summary": "N Wu, Y Sun, J Hu, C Yang, Z Bai, F Wang, X Cui, S He\u2026 - ELight, 2025 - Springer",
+          "authors": [
+            {
+              "name": "N Wu"
+            },
+            {
+              "name": "Y Sun"
+            },
+            {
+              "name": "J Hu",
+              "link": "https://scholar.google.com/citations?user=3GIdO3wAAAAJ&hl=en&oi=sra",
+              "author_id": "3GIdO3wAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3GIdO3wAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "C Yang"
+            },
+            {
+              "name": "Z Bai"
+            },
+            {
+              "name": "F Wang"
+            },
+            {
+              "name": "X Cui"
+            },
+            {
+              "name": "S He"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1186/s43593-025-00085-x.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=m8ckuwX89T8J",
+          "cited_by": {
+            "total": 107,
+            "link": "https://scholar.google.com/scholar?cites=4608866895228356507&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "4608866895228356507",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4608866895228356507&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:m8ckuwX89T8J:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3Am8ckuwX89T8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cluster=4608866895228356507&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "4608866895228356507",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=4608866895228356507&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 7,
+        "title": "Machine Learning Approaches for Detecting Configuration Errors in SAP Systems",
+        "result_id": "75sR-fDLzNcJ",
+        "link": "https://www.fsrap.com/index.php/JWISE/article/view/250",
+        "snippet": "\u2026 This study proposes a machine learning\u2013based framework \u2026 generated by the machine learning model can distinguish between \u2026 The findings highlight the potential of machine learning\u2013\u2026",
+        "publication_info": {
+          "summary": "N Jagadhabi - Journal of Wireless Intelligence and Spectrum \u2026, 2026 - fsrap.com",
+          "authors": [
+            {
+              "name": "N Jagadhabi"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "fsrap.com",
+            "file_format": "PDF",
+            "link": "https://www.fsrap.com/index.php/JWISE/article/download/250/243"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=75sR-fDLzNcJ",
+          "cited_by": {
+            "total": 87,
+            "link": "https://scholar.google.com/scholar?cites=15550027849234750447&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "15550027849234750447",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15550027849234750447&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:75sR-fDLzNcJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3A75sR-fDLzNcJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 2,
+            "link": "https://scholar.google.com/scholar?cluster=15550027849234750447&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "15550027849234750447",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=15550027849234750447&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:75sR-fDLzNcJ:scholar.google.com/+%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 8,
+        "title": "Machine learning for power system stability and control",
+        "result_id": "yC_mqlOB7TYJ",
+        "type": "Html",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2590123025014252",
+        "snippet": "\u2026 Applying machine Learning (ML) techniques to power \u2026 This review paper demonstrates how machine learning \u2026 activities in conjunction with machine learning technologies that enable \u2026",
+        "publication_info": {
+          "summary": "R Islam, MAH Rivin, S Sultana, MDAB Asif\u2026 - Results in \u2026, 2025 - Elsevier",
+          "authors": [
+            {
+              "name": "R Islam",
+              "link": "https://scholar.google.com/citations?user=_oi_FGIAAAAJ&hl=en&oi=sra",
+              "author_id": "_oi_FGIAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_oi_FGIAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MAH Rivin"
+            },
+            {
+              "name": "S Sultana",
+              "link": "https://scholar.google.com/citations?user=VAiWkmQAAAAJ&hl=en&oi=sra",
+              "author_id": "VAiWkmQAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=VAiWkmQAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MDAB Asif"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "sciencedirect.com",
+            "file_format": "HTML",
+            "link": "https://www.sciencedirect.com/science/article/pii/S2590123025014252"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=yC_mqlOB7TYJ",
+          "html_version": "https://www.sciencedirect.com/science/article/pii/S2590123025014252",
+          "cited_by": {
+            "total": 76,
+            "link": "https://scholar.google.com/scholar?cites=3957961843878014920&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "3957961843878014920",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=3957961843878014920&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:yC_mqlOB7TYJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AyC_mqlOB7TYJ%3Ascholar.google.com%2F"
+        }
+      },
+      {
+        "position": 9,
+        "title": "Tiny machine learning and on-device inference: A survey of applications, challenges, and future directions",
+        "result_id": "CLf_uzaa6poJ",
+        "type": "Html",
+        "link": "https://www.mdpi.com/1424-8220/25/10/3191",
+        "snippet": "\u2026 This review examines Tiny Machine Learning, also known as TinyML, as an alternative to \u2026 of TinyML experiments, such as machine learning techniques and the hardware used for \u2026",
+        "publication_info": {
+          "summary": "S Heydari, QH Mahmoud - Sensors, 2025 - mdpi.com",
+          "authors": [
+            {
+              "name": "S Heydari",
+              "link": "https://scholar.google.com/citations?user=5qxQr6cAAAAJ&hl=en&oi=sra",
+              "author_id": "5qxQr6cAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5qxQr6cAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "QH Mahmoud",
+              "link": "https://scholar.google.com/citations?user=bGLXnHUAAAAJ&hl=en&oi=sra",
+              "author_id": "bGLXnHUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=bGLXnHUAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "mdpi.com",
+            "file_format": "HTML",
+            "link": "https://www.mdpi.com/1424-8220/25/10/3191"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=CLf_uzaa6poJ",
+          "html_version": "https://www.mdpi.com/1424-8220/25/10/3191",
+          "cited_by": {
+            "total": 252,
+            "link": "https://scholar.google.com/scholar?cites=11162904186264205064&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "11162904186264205064",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11162904186264205064&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:CLf_uzaa6poJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ACLf_uzaa6poJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=11162904186264205064&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "11162904186264205064",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=11162904186264205064&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:CLf_uzaa6poJ:scholar.google.com/+%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 10,
+        "title": "Machine learning for quality control in the food industry: A review",
+        "result_id": "wgz3ynHjtqAJ",
+        "type": "Html",
+        "link": "https://www.mdpi.com/2304-8158/14/19/3424",
+        "snippet": "The increasing complexity of modern food production demands advanced solutions for quality control (QC), safety monitoring, and process optimization. This review systematically \u2026",
+        "publication_info": {
+          "summary": "KG Liakos, V Athanasiadis, E Bozinou, SI Lalas - Foods, 2025 - mdpi.com",
+          "authors": [
+            {
+              "name": "KG Liakos",
+              "link": "https://scholar.google.com/citations?user=hlvhA7cAAAAJ&hl=en&oi=sra",
+              "author_id": "hlvhA7cAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hlvhA7cAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "V Athanasiadis",
+              "link": "https://scholar.google.com/citations?user=nfIoHDYAAAAJ&hl=en&oi=sra",
+              "author_id": "nfIoHDYAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nfIoHDYAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "E Bozinou",
+              "link": "https://scholar.google.com/citations?user=9tN6CBcAAAAJ&hl=en&oi=sra",
+              "author_id": "9tN6CBcAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9tN6CBcAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "SI Lalas",
+              "link": "https://scholar.google.com/citations?user=hAyIkCYAAAAJ&hl=en&oi=sra",
+              "author_id": "hAyIkCYAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hAyIkCYAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "mdpi.com",
+            "file_format": "HTML",
+            "link": "https://www.mdpi.com/2304-8158/14/19/3424"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=wgz3ynHjtqAJ",
+          "html_version": "https://www.mdpi.com/2304-8158/14/19/3424",
+          "cited_by": {
+            "total": 108,
+            "link": "https://scholar.google.com/scholar?cites=11580693569705807042&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "11580693569705807042",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11580693569705807042&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:wgz3ynHjtqAJ:scholar.google.com/&scioq=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3Awgz3ynHjtqAJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 11,
+            "link": "https://scholar.google.com/scholar?cluster=11580693569705807042&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "11580693569705807042",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=11580693569705807042&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:wgz3ynHjtqAJ:scholar.google.com/+%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://scholar.google.com/scholar?start=10&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+      "other_pages": {
+        "2": "https://scholar.google.com/scholar?start=10&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "3": "https://scholar.google.com/scholar?start=20&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "4": "https://scholar.google.com/scholar?start=30&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "5": "https://scholar.google.com/scholar?start=40&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "6": "https://scholar.google.com/scholar?start=50&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "7": "https://scholar.google.com/scholar?start=60&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "8": "https://scholar.google.com/scholar?start=70&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "9": "https://scholar.google.com/scholar?start=80&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "10": "https://scholar.google.com/scholar?start=90&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&hl=en&as_sdt=0,5&as_ylo=2025"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=10",
+      "next": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=10",
+        "3": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=20",
+        "4": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=30",
+        "5": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=40",
+        "6": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=50",
+        "7": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=60",
+        "8": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=70",
+        "9": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=80",
+        "10": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22machine+learning%22+OR+%22classification+model%22+OR+%22biodiversity+data%22+OR+%22species+identification%22+OR+%22epidemiological+analysis%22+OR+%22public+health+data%22&start=90"
+      }
+    }
+  }
+}

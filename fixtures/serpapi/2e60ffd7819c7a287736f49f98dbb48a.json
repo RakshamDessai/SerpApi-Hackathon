@@ -1,0 +1,159 @@
+{
+  "fetched_at": 1791603967.482347,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:zooniverse.org projects machine learning",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b4fd6b036fa8d0706470",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/qVxfJtAOELklO0SSuK5XM2AKZUU4ZIlCf6ZdAaG65iY/6ac9b4fd6b036fa8d0706470.json",
+      "markdown_endpoint": "https://serpapi.com/searches/qVxfJtAOELklO0SSuK5XM2AKZUU4ZIlCf6ZdAaG65iY/6ac9b4fd6b036fa8d0706470.md",
+      "created_at": "2026-10-10 03:46:05 UTC",
+      "processed_at": "2026-10-10 03:46:05 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Azooniverse.org+projects+machine+learning&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/qVxfJtAOELklO0SSuK5XM2AKZUU4ZIlCf6ZdAaG65iY/6ac9b4fd6b036fa8d0706470.html",
+      "prettify_html_file": "https://serpapi.com/searches/qVxfJtAOELklO0SSuK5XM2AKZUU4ZIlCf6ZdAaG65iY/6ac9b4fd6b036fa8d0706470.prettify",
+      "total_time_taken": 2.0
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:zooniverse.org projects machine learning",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Projects | Zooniverse",
+        "link": "https://www.zooniverse.org/projects",
+        "snippet": "All projects Welcome! We're so glad you're here. Scroll down to browse all of our active projects, search for a specific project, or filter projects based on your interests. Have fun, and happy classifying!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "October 2026 - Zooniverse",
+        "link": "https://blog.zooniverse.org/2026/10/",
+        "date_raw": "2026-10-01T00:00:00.0000000",
+        "date": "Oct 1, 2026",
+        "snippet": "At the same time, researchers are interested in having space for experimentation: for trying new modes of interaction, for complex projects that integrate machine learning, or just for doing something new that's not easy to try within the Zooniverse platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.zooniverse.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Zooniverse",
+        "link": "https://www.zooniverse.org/",
+        "snippet": "Linda Sass Constandi joined Galaxy Zoo in 2007, shortly after reading about the project in a newspaper. Nearly two decades later, Linda is still classifying, learning and cheering on new discoveries on Zooniverse.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Research | Shock Detectives | Zooniverse - People-powered research",
+        "link": "https://frontend.preview.zooniverse.org/projects/vickitoyedens/shock-detectives/about/research",
+        "snippet": "Your work will help scientists study unusual events and train machine learning models that may one day analyze data from the space environments of other planets. This project is closely connected to the Space Umbrella Zooniverse project. Both projects use overlapping MMS data and imagery, and share members of the same research team.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/frontend.preview.zooniverse.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Ethical Considerations for Machine Learning in Public-Engaged Research",
+        "link": "https://blog.zooniverse.org/2025/06/10/ethical-considerations-for-machine-learning-in-public-engaged-research/",
+        "date_raw": "2025-06-10T00:00:00.0000000",
+        "date": "Jun 10, 2025",
+        "snippet": "Highlights With support from the Kavli Foundation, the Zooniverse team is launching a project to help us develop a set of recommendations for running Machine Learning (ML) and Artificial Intelligence (AI)-engaged projects on the Zooniverse platform. The project will bring together subject matter experts, Zooniverse leadership, and platform participants in a series of workshops and working sessions. The project deepens partnerships among Zooniverse and its participant community, as well as ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/blog.zooniverse.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Kilonova Seekers | Zooniverse - People-powered research",
+        "link": "https://www.zooniverse.org/projects/tkillestein/kilonova-seekers",
+        "snippet": "Citizen science is important for our work as GOTO generates significant volumes of data, taxing even machine-learning based methods. Humans are excellent at dealing with uncertainty (admitting when they don't know) and identifying 'anomalies' (novel examples that have never been seen) - often this is where the most exciting objects are hiding!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Our Team - Zooniverse",
+        "link": "https://www.zooniverse.org/about/team",
+        "snippet": "Kameswara is a post-doctoral researcher with the Zooniverse team at the University of Minnesota working on implementing novel machine learning based anomaly detection frameworks on extragalactic astrophysical datasets. His goal is to enhance citizen-science outcomes using new human-computer optimization strategies.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Team | We Cam Coexist | Zooniverse - People-powered research",
+        "link": "https://www.zooniverse.org/projects/sunnymurphyiecl/we-cam-coexist/about/team",
+        "snippet": "Tanner Broussard Tanner is a graduate student at McNeese State University pursuing a Master of Science in Environmental and Chemical Sciences with a concentration in Integrative Biology. He serves as the Graduate Field Supervisor for the Texas-Louisiana Canid Project, supporting field-based research on coyotes and Gulf Coast canids across southwest Louisiana and southeast Texas. Tanner earned his bachelor's degree from McNeese State University in Natural Resource Conservation and ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "Team | FinVision | Zooniverse - People-powered research",
+        "link": "https://www.zooniverse.org/projects/ryanhepburn/finvision/about/team",
+        "snippet": "Ben Ciotti Project lead Ben is a lecturer and marine biology programme leader at the University of Plymouth. He is also the project lead for FinVision and an expert in wild juvenile fish ecology and physiology. His approach builds on physiological fundamentals, modern molecular tools, field surveys, laboratory experiments and statistical analysis to address contemporary ecological concerns.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Volunteer section 2020 | Parkside Asylum - Zooniverse",
+        "link": "https://www.zooniverse.org/projects/cheshirero/parkside-asylum/classify/workflow/14769?env=production",
+        "snippet": "Case books from Parkside Asylum The most recent subjects you've classified are shown here.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Classify | Sajjad Zaheer Photo Archive | Zooniverse - People-powered ...",
+        "link": "https://www.zooniverse.org/projects/sajjadzaheerarchive/sajjad-zaheer-photo-archive/classify",
+        "snippet": "Help us identify the people, places, and organizations in these photographs to assist researchers and scholars of 20th century South Asia.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.zooniverse.org.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "machine learning project examples",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20project%20examples&origin=related"
+      },
+      {
+        "query": "list of machine learning projects",
+        "link": "https://duckduckgo.com/?q=list%20of%20machine%20learning%20projects&origin=related"
+      },
+      {
+        "query": "machine learning projects beginners",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20projects%20beginners&origin=related"
+      },
+      {
+        "query": "best projects for machine learning",
+        "link": "https://duckduckgo.com/?q=best%20projects%20for%20machine%20learning&origin=related"
+      },
+      {
+        "query": "machine learning projects for students",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20projects%20for%20students&origin=related"
+      },
+      {
+        "query": "ideas for machine learning projects",
+        "link": "https://duckduckgo.com/?q=ideas%20for%20machine%20learning%20projects&origin=related"
+      },
+      {
+        "query": "machine learning projects for portfolio",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20projects%20for%20portfolio&origin=related"
+      },
+      {
+        "query": "machine learning simple projects",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20simple%20projects&origin=related"
+      },
+      {
+        "query": "ml project ideas for beginners",
+        "link": "https://duckduckgo.com/?q=ml%20project%20ideas%20for%20beginners&origin=related"
+      },
+      {
+        "query": "machine learning models project",
+        "link": "https://duckduckgo.com/?q=machine%20learning%20models%20project&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Azooniverse.org+projects+machine+learning&start=11"
+    }
+  }
+}
