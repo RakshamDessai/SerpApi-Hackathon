@@ -31,32 +31,38 @@ def _organic(title, link, snippet, date=None):
 
 
 #: Shaped exactly like a real SerpApi `google` response.
-UNV_PAYLOAD = {
+IDEALIST_PAYLOAD = {
     "organic_results": [
         _organic(
             "Prepare a 12-month cash flow forecast for a community health clinic",
-            "https://www.onlinevolunteering.org/en/opportunity/cash-flow-clinic",
+            "https://www.idealist.org/en/volunteer-opportunity/cash-flow-clinic",
             "A non-profit needs a volunteer to build a cash flow forecast and "
             "budget report in Excel. Beginner friendly, about 10 hours.",
             "3 days ago",
         ),
         _organic(
             "Financial model and liquidity analysis for a literacy NGO",
-            "https://www.onlinevolunteering.org/en/opportunity/liquidity-ngo",
+            "https://www.idealist.org/en/volunteer-opportunity/liquidity-ngo",
             "Build a financial model and liquidity analysis. Deliverable is a "
             "spreadsheet and a short report.",
             "1 week ago",
         ),
         _organic(
             "Browse volunteering opportunities",
-            "https://www.onlinevolunteering.org/en/",
+            "https://www.idealist.org/en/volunteer",
             "Find opportunities by skill.",
         ),
         _organic(
-            "Senior finance director wanted - 8+ years",
-            "https://www.onlinevolunteering.org/en/opportunity/senior-role",
-            "Seeking a senior expert. This opportunity has ended.",
+            "Budget template for a youth sports charity",
+            "https://www.idealist.org/en/volunteer-opportunity/budget-template",
+            "Build a simple budget template. This opportunity has ended.",
             "6 months ago",
+        ),
+        _organic(
+            "Senior finance director wanted - 8+ years",
+            "https://www.idealist.org/en/volunteer-opportunity/senior-role",
+            "Seeking a senior expert to lead our finance function.",
+            "1 week ago",
         ),
     ]
 }
@@ -82,8 +88,9 @@ UNSTOP_PAYLOAD = {
 CATCHAFIRE_PAYLOAD = {
     "organic_results": [
         _organic(
-            "Cash flow forecast and budget planning for an animal sanctuary",
-            "https://www.catchafire.org/opportunities/cash-flow-sanctuary",
+            "Animal sanctuary needs help with a cash flow forecast and budget",
+            # Real listing shape, observed 2026-10-10.
+            "https://www.catchafire.org/volunteer/180042/cash-flow-sanctuary/",
             "Volunteer needed to produce a 12 month budget and cash flow "
             "forecast. Deliverable is a spreadsheet model.",
             "4 days ago",
@@ -114,7 +121,7 @@ def seeded_settings(tmp_path):
     )
 
     payloads = {
-        "unv": UNV_PAYLOAD,
+        "idealist": IDEALIST_PAYLOAD,
         "unstop": UNSTOP_PAYLOAD,
         "catchafire": CATCHAFIRE_PAYLOAD,
     }
@@ -169,7 +176,11 @@ def test_phase1_acceptance(seeded_settings):
 
     # 5. the dead listing was archived, not shown as live
     archived_titles = " ".join(o.title.lower() for o in result.archived)
-    assert "senior finance director" in archived_titles
+    assert "youth sports charity" in archived_titles
+
+    # 5b. a senior role is removed outright, not merely ranked low
+    all_titles = " ".join(o.title.lower() for o in result.opportunities)
+    assert "senior finance director" not in all_titles
 
     # 6. scores are populated and explainable
     for opportunity in result.opportunities:

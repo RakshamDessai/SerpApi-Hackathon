@@ -20,7 +20,7 @@ from s2s.mesh.serpapi_client import SerpApiClient
 from tests.test_pipeline_acceptance import (
     CATCHAFIRE_PAYLOAD,
     UNSTOP_PAYLOAD,
-    UNV_PAYLOAD,
+    IDEALIST_PAYLOAD,
 )
 
 pytest.importorskip("streamlit.testing.v1")
@@ -58,7 +58,7 @@ def seeded_cache(monkeypatch):
     )
 
     payloads = {
-        "unv": UNV_PAYLOAD,
+        "idealist": IDEALIST_PAYLOAD,
         "unstop": UNSTOP_PAYLOAD,
         "catchafire": CATCHAFIRE_PAYLOAD,
     }
@@ -154,14 +154,28 @@ def test_gap_tab_renders(seeded_cache):
 
 # -------------------------------------------------------- honesty paths ---
 
-def test_without_fixtures_the_app_says_so_rather_than_faking_it():
+@pytest.fixture
+def empty_fixtures(monkeypatch, tmp_path):
+    """Demo mode with no recorded fixtures - independent of fixtures/serpapi/."""
+    from s2s.mesh import cache as cache_module
+
+    monkeypatch.setattr(
+        cache_module,
+        "build",
+        lambda _s: ResponseCache(
+            directory=tmp_path, ttl_hours=10**6, read_only=True, ignore_ttl=True
+        ),
+    )
+
+
+def test_without_fixtures_the_app_says_so_rather_than_faking_it(empty_fixtures):
     at = _run_with_preset()
     assert not at.exception
     messages = " ".join(w.value for w in at.warning)
     assert "no cached fixture" in messages or "ANTHROPIC_API_KEY" in messages
 
 
-def test_gap_report_refuses_to_blame_the_curriculum_without_searches():
+def test_gap_report_refuses_to_blame_the_curriculum_without_searches(empty_fixtures):
     at = _run_with_preset()
     messages = " ".join(w.value for w in at.warning)
     assert "no searches ran" in messages.lower()

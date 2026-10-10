@@ -1,0 +1,121 @@
+{
+  "fetched_at": 1791602601.025268,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:idealist.org volunteer opportunity data analysis",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afa70676dce71dc1e19f",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/QDxWDi1M3x2VsLMURLGgavkreK61dYkwAomDjZRvFmY/6ac9afa70676dce71dc1e19f.json",
+      "markdown_endpoint": "https://serpapi.com/searches/QDxWDi1M3x2VsLMURLGgavkreK61dYkwAomDjZRvFmY/6ac9afa70676dce71dc1e19f.md",
+      "created_at": "2026-10-10 03:23:19 UTC",
+      "processed_at": "2026-10-10 03:23:19 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aidealist.org+volunteer+opportunity+data+analysis&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/QDxWDi1M3x2VsLMURLGgavkreK61dYkwAomDjZRvFmY/6ac9afa70676dce71dc1e19f.html",
+      "prettify_html_file": "https://serpapi.com/searches/QDxWDi1M3x2VsLMURLGgavkreK61dYkwAomDjZRvFmY/6ac9afa70676dce71dc1e19f.prettify",
+      "total_time_taken": 1.81
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:idealist.org volunteer opportunity data analysis",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Data Analysis Internship (Remote/Hybrid) - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/89e2eedcd58741499704926e1d4c2039-data-analysis-internship-remotehybrid-ecological-servants-project-ramona",
+        "snippet": "Description Join the EcoServants Data Analysis Internship and play a key role in shaping the future of environmental programs through evidence-based research and data interpretation. This unpaid, fully remote internship is perfect for students or early-career professionals studying environmental science, data analytics, or research methodology.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Data Analyst (Entry level) - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/ab7d210b35a3415e921ad71d287ebee4-data-analyst-entry-level-4pexonic-inc-san-diego",
+        "snippet": "Collaborate with various teams to identify data needs and provide actionable, data-driven recommendations. Help establish best practices for data governance and quality assurance within the organization. Qualifications : Proficiency in SQL and at least one programming language (Python or R) for data analysis.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Data Analyst - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/9d19c43661ae42319d88457745832251-data-analyst-menzies-philanthropic-foundation-little-elm",
+        "date_raw": "2026-06-04T00:00:00.0000000",
+        "date": "Jun 4, 2026",
+        "snippet": "Job Title: Data Analyst Reports to: Head of Business Development Location: remote About the Organization: Menzies Philanthropic Foundation is a non-profit organization deeply committed to global orphanage support, guided by the Menzies 5 Keys of Needs. Our overarching mission is to lead the way in creating eco-regenerative conscious communities, serving as secure sanctuaries for orphans and vulnerable families. With a focus on addressing trauma and promoting holistic healing, we strive to ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Volunteer Data Analyst (Web-Scraping) - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/430497c3948541559f69bf1ac5c2234c-volunteer-data-analyst-web-scraping-educate-radiate-elevate-chicago",
+        "date_raw": "2026-08-03T00:00:00.0000000",
+        "date": "Aug 3, 2026",
+        "snippet": "What You Will Gain Project Development: The opportunity to design and manage end-to-end data pipelines in Python, from initial ingestion to structured database storage. Skill Development: Gain practical experience in the full data project lifecycle, providing a great foundation for future professional roles in data engineering or analysis.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Data Analytics Associate - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/833a0a3d3c134c87be97edfff966051b-data-analytics-associate-human-capital-management-group-jersey-city",
+        "snippet": "As a data analytics associate, you will collaborate within the Human Capital Management Group to collect, manage, and analyze financial and workforce data. The role centers on delivering meaningful, actionable insights drawn from market and internal data to help underserved businesses make informed decisions and achieve better workforce outcomes.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Remote Volunteer Data Analyst \u2014 iLevelUP - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/4a1de3f4e98144f9a142f1ac1c97dcc0-remote-volunteer-data-analyst-ilevelup-ilevelup-seattle",
+        "snippet": "The volunteer Data Analyst will answer approved questions through careful data preparation, analysis, visualization, and explanation while protecting participant privacy.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Data Analysis & Impact Evaluation Volunteer (Volunteer) - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/9a31b858ae2f4c579414278f93f34353-data-analysis-impact-evaluation-volunteer-volunteer-asia-pacific-youth-culture-foundation-seattle",
+        "snippet": "Responsibilities: - Clean and organize program data into standardized trackers - Help design impact indicators - Use Excel/Python for basic analysis and visualization - Help prepare data sections of the impact report Requirements: - Statistics, Data Science, Economics, Sociology or related majors preferred - Excel proficient - Rigorous and data ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Volunteer Data Analytics Instructor - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/f2e1c7c9ed7d4eb1a50bf0d1ca3b46dd-volunteer-data-analytics-instructor-ecological-servants-project-ramona",
+        "date_raw": "2026-05-08T00:00:00.0000000",
+        "date": "May 8, 2026",
+        "snippet": "EcoServants\u00ae is looking for volunteers who would like to help teach Data Analytics to our interns. We are especially interested in volunteers with experience in areas such as Excel, SQL, Python, Tableau, Power BI, data visualization, data cleaning, research methods, dashboards, reporting or nonprofit data analysis. This is a great opportunity for professionals, analysts, educators or advanced students who would like to mentor emerging data talent while supporting an environmental nonprofit ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "Remote Volunteer Data Analyst \u2014 Youth Program Impact ... - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/b75344a2e1134c1aa35252f390ab04b1-remote-volunteer-data-analyst-youth-program-impact-digital-analytics-believe-in-me-seattle",
+        "snippet": "REMOTE VOLUNTEER DATA ANALYST \u2014 YOUTH PROGRAM IMPACT & DIGITAL ANALYTICS Help Believe in Me turn reliable data into decisions that improve scholarships, education initiatives, volunteer engagement, fundraising, community partnerships, and services for underserved youth and young people. ABOUT THE ROLE The Data Analyst will support organization-wide impact measurement and digital analytics across Believe in Me and approved program initiatives, including iLevelUP and Cougs 4 Kids ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Volunteer Opportunity: Data Analyst - Social Media & Events",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/27e1529d85764afd93c7803e43805d0b-volunteer-opportunity-data-analyst-social-media-events-find-community-connection-project-brooklyn",
+        "date_raw": "2026-06-03T15:00:00.0000000",
+        "date": "Jun 3, 2026",
+        "snippet": "This is an in-person volunteer opportunity for individuals interested in data, reporting, community engagement, and nonprofit leadership. As our Data Analyst, you will play a key role in tracking volunteer engagement, program outcomes, event success, partnerships, fundraising efforts, and overall organizational impact.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Community Data & Resource Analyst Intern - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/81695782a46c4a7fa10a52cccf8ae6b2-community-data-resource-analyst-intern-women-of-connections-ministry-richmond",
+        "snippet": "The Community Data & Resource Analyst Intern supports the mission of improving access to essential community services by assisting in the collection, organization, and analysis of local resource data. This role is designed for students and recent graduates, including international students on F-1 visas eligible for OPT (Optional Practical ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aidealist.org+volunteer+opportunity+data+analysis&start=11"
+    }
+  }
+}

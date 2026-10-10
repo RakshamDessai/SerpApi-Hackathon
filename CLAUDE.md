@@ -40,9 +40,9 @@ Understand these and the code layout is obvious. (Full detail: `BUILD_PLAN.md` �
 2. **Platforms are declarative data, not code.** A `PlatformAdapter` dataclass
    holds domain, URL regex, engine, dork template, badge, trust tier, liveness
    strategy. Adding a platform = one registry entry.
-3. **SerpApi credits are a budget to allocate.** Naive search is 102 calls per
-   student click. Discipline-affinity platform selection + boolean OR-packing
-   gets the same coverage in ~10. This is also the best hackathon story.
+3. **SerpApi credits are a budget to allocate.** Naive search is 44–55 calls
+   per student click. Discipline-affinity platform selection + competency
+   grouping gets it in 8–10 (77–85% saved). This is also the best hackathon story.
 4. **Honesty about liveness is a feature.** Gated platforms (Upwork, Catchafire)
    produce dead links. Every card carries a verified verdict —
    `live` / `unverified` / `archived` — rather than an unverifiable claim.
@@ -79,10 +79,10 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
   `pip freeze >`), which makes `pip install -r` fail on line 1. The `Write` tool
   will *inherit* an existing file's encoding — if you rewrite it, `rm` it first
   and verify with `file requirements.txt` (must say "ASCII text").
-- **Never install the `serpapi` PyPI package.** It collides with
-  `google-search-results` on the `serpapi` module name but exposes a different
-  API. Our code uses `from serpapi import GoogleSearch`, which only exists in
-  `google-search-results`. Whichever pip resolves last silently wins.
+- **Do not reintroduce a SerpApi SDK.** `google-search-results` and the newer
+  `serpapi` package both claim the `serpapi` module with different APIs; a
+  teammate on the other one sees every search fail silently. `s2s` calls
+  `https://serpapi.com/search.json` with `requests` (`serpapi_client._search`).
 - **`claude-opus-5` rejects `temperature` / `top_p` / `top_k`** with a 400. Steer
   with prompting. Thinking is on by default; `max_tokens` caps thinking *plus*
   output together.
@@ -99,6 +99,17 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
   would otherwise share a name.
 - **Affinity is a share-weighted profile, not a max.** Taking the max let one
   stray secondary discipline award a platform full marks (Design → Kaggle).
+- **`engine=google` ignores `site:`** (measured 2026-10-10, every platform). All
+  `site:` adapters use `engine=duckduckgo` with `query_style="keywords"`: one
+  plain phrase, no quoted OR-groups — those leak off-site on every engine.
+- **Every `url_pattern` must be checked against real URLs.** Two guessed patterns
+  rejected 100% of real listings. Put observed URLs in `tests/test_adapters.py`.
+- **SerpApi bills empty searches.** They are recorded as spent and cached.
+- **Unstop pages are an identical JS shell** — liveness comes from its status
+  API (`StatusApi` on the adapter), never from the page.
+- **Tests must not read `.env`.** `tests/conftest.py` isolates every test and
+  sets `S2S_PROBE_TOP_N=0`. Never spend credits from a test.
+- **Check credits before recording:** `serpapi.com/account.json?api_key=…` is free.
 
 ## Code conventions
 
@@ -110,11 +121,10 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
 
 ## Current status
 
-Phases 0–4 are complete: 234 tests passing, app serving, full pipeline wired
-including bridge, blueprint, proof-of-work export and the Syllabus Gap Report.
+Phases 0–5 are complete: 329 tests passing, app serving, full pipeline wired,
+and **validated against real SerpApi results** on 2026-10-10. Real responses for
+all four presets are committed in `fixtures/serpapi/`, so demo mode is offline and
+free. The SerpApi key lives in `.env` (git-ignored).
 
-**The one blocker is that no SerpApi key has ever been used**, so no real query
-has run and real-world result quality is unvalidated. Everything else is done.
-
-See `PROJECT_STATE.md` for the file-by-file inventory, the 13 fixed bugs, and
-exactly what is owned by whom. It is the authoritative answer to "where are we".
+See `PROJECT_STATE.md` for what real data changed, the 33 fixed bugs, and the
+remaining known limits. It is the authoritative answer to "where are we".

@@ -1,0 +1,119 @@
+{
+  "fetched_at": 1791602327.0434182,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:github.com \"good first issue\" concurrency",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9ae94526c4895f8103cb0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/bi6APw6e-KQ0VHqKjKaCHk2aIhWnt4uAjAg5nPgBJTs/6ac9ae94526c4895f8103cb0.json",
+      "markdown_endpoint": "https://serpapi.com/searches/bi6APw6e-KQ0VHqKjKaCHk2aIhWnt4uAjAg5nPgBJTs/6ac9ae94526c4895f8103cb0.md",
+      "created_at": "2026-10-10 03:18:44 UTC",
+      "processed_at": "2026-10-10 03:18:44 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Agithub.com+%22good+first+issue%22+concurrency&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/bi6APw6e-KQ0VHqKjKaCHk2aIhWnt4uAjAg5nPgBJTs/6ac9ae94526c4895f8103cb0.html",
+      "prettify_html_file": "https://serpapi.com/searches/bi6APw6e-KQ0VHqKjKaCHk2aIhWnt4uAjAg5nPgBJTs/6ac9ae94526c4895f8103cb0.prettify",
+      "total_time_taken": 2.03
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:github.com \"good first issue\" concurrency",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "GitHub - youzi-forge/good-first-issue-autoUpdate: Auto-updated 'good ...",
+        "link": "https://github.com/youzi-forge/good-first-issue-autoUpdate",
+        "date_raw": "2026-10-04T11:19:00.0000000",
+        "date": "Oct 4, 2026",
+        "snippet": "This repo publishes a regularly auto\u2011updated list of issues labeled like good first issue (including good-first-issue and first-timers-only). CI builds the full list and serves it on GitHub Pages.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "GitHub - drkrillo/good-first-issues: Find Good First Issues to start ...",
+        "link": "https://github.com/drkrillo/good-first-issues",
+        "snippet": "This repo helps you automatically discover open issues labeled good first issue across GitHub repositories. It is a community driven project, and always welcoming interested contributors. Updated daily via GitHub Actions.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "For Good First Issue | Make your next open-source contribution matter.",
+        "link": "https://forgoodfirstissue.github.com/",
+        "snippet": "Making your next open-source contribution make the world better. For Good First Issue is a curated list of accessible issues from open-source projects helping our communities. Start today!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/forgoodfirstissue.github.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Contributing to an open source for good project - GitHub Docs",
+        "link": "https://docs.github.com/en/nonprofit/contributing-to-open-source-for-good/contributing-to-an-open-source-for-good-project",
+        "snippet": "For Good First Issue lowers the barrier for future contributions to social and civic good projects - and this is why it exists. How to find and contribute to open source Navigate to For Good First Issue. Search for a project of your interest based on the Sustainable Development Goals. Select a project and navigate to the project's repository.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/docs.github.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Finding ways to contribute to open source on GitHub",
+        "link": "https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github?finding-good-first-issues",
+        "snippet": "Many open source projects use the good first issue or help wanted labels to make it easier for new contributors to find issues to work on. Testing a pull request: You can contribute by merging a pull request into your local copy of the project and testing the changes. Add the outcome of your testing in a comment on the pull request.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/docs.github.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "For Good First Issue | Team contributing for nonprofits",
+        "link": "https://forgoodfirstissue.github.com/teams/",
+        "snippet": "Making your next open-source contribution make the world better. For Good First Issue is a curated list of accessible issues from open-source projects helping our communities. Start today!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/forgoodfirstissue.github.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "good-first-issues \u00b7 GitHub Topics \u00b7 GitHub",
+        "link": "https://github.com/topics/good-first-issues",
+        "snippet": "Auto-updated 'good first issue' list for popular GitHub repos; full list on Pages; updated every 3 days.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "GitHub - DeepSourceCorp/good-first-issue: Make your first open-source ...",
+        "link": "https://github.com/DeepSourceCorp/good-first-issue",
+        "snippet": "Welcome! \ud83d\udc4b\ud83c\udffc Good First Issue is an initiative to curate easy pickings from popular projects, so developers who've never contributed to open-source can get started quickly. Open-source maintainers are always looking to get more people involved, but new developers generally think it's challenging to become a contributor. We believe getting developers to fix super-easy issues removes the barrier for future contributions. This is why Good First Issue exists.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "GitHub - draunger/good-first-issue: Helps beginners make their first ...",
+        "link": "https://github.com/draunger/good-first-issue",
+        "snippet": "You're welcome to add a new project in Good First Issues, just follow these steps: To maintain the quality of projects in Good First Issues, please make sure your GitHub repository meets the following criteria: It has at least three issues with the good first issue label. This label is already present on all repositories by default. It contains a README.md with detailed setup instructions for the project It is actively maintained (last update less than 1 month ago) Add your repository's path ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "for good first issue github",
+        "link": "https://duckduckgo.com/?q=for%20good%20first%20issue%20github&origin=related"
+      },
+      {
+        "query": "for good first issue",
+        "link": "https://duckduckgo.com/?q=for%20good%20first%20issue&origin=related"
+      },
+      {
+        "query": "for good first issue open source",
+        "link": "https://duckduckgo.com/?q=for%20good%20first%20issue%20open%20source&origin=related"
+      },
+      {
+        "query": "for good first issue project",
+        "link": "https://duckduckgo.com/?q=for%20good%20first%20issue%20project&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Agithub.com+%22good+first+issue%22+concurrency&start=9"
+    }
+  }
+}

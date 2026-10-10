@@ -1,0 +1,123 @@
+{
+  "fetched_at": 1791602557.521694,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com brand identity competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af7aee028a5cba82e0e4",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/w1KnMNxDGhVMK9a3r1M7lb1iiBuCFzTiYmJmsPVGtTU/6ac9af7aee028a5cba82e0e4.json",
+      "markdown_endpoint": "https://serpapi.com/searches/w1KnMNxDGhVMK9a3r1M7lb1iiBuCFzTiYmJmsPVGtTU/6ac9af7aee028a5cba82e0e4.md",
+      "created_at": "2026-10-10 03:22:34 UTC",
+      "processed_at": "2026-10-10 03:22:34 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+brand+identity+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/w1KnMNxDGhVMK9a3r1M7lb1iiBuCFzTiYmJmsPVGtTU/6ac9af7aee028a5cba82e0e4.html",
+      "prettify_html_file": "https://serpapi.com/searches/w1KnMNxDGhVMK9a3r1M7lb1iiBuCFzTiYmJmsPVGtTU/6ac9af7aee028a5cba82e0e4.prettify",
+      "total_time_taken": 3.12
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com brand identity competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "BrandStorm: Brand Naming & Identity Challenge - 2026",
+        "link": "https://unstop.com/competitions/brandstorm-brand-naming-identity-challenge-ujjain-engineering-college-uec-ujjain-1763891",
+        "date_raw": "2026-10-01T00:00:00.0000000",
+        "date": "Oct 1, 2026",
+        "snippet": "Find out the best BrandStorm: Brand Naming & Identity Challenge that match your interests. Prove your mettle and win exciting prizes like job opportunities a...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Build Brand - 2026",
+        "link": "https://unstop.com/o/1634910",
+        "date_raw": "2026-02-06T02:30:00.0000000",
+        "date": "Feb 6, 2026",
+        "snippet": "An 8-Hour Offline Brand Identity Design Sprint | Enthusia 5.0 Step into the fast-paced world of branding and creative design where strategy meets aesthetics. BuildBrand challenges teams to craft a complete visual identity under real-world time constraints \u2014 just like professionals in the creative industry. About the Event: BuildBrand is an intensive 8-hour offline design sprint that simulates the high-stakes environment of a branding agency. Teams receive a live problem statement and must ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Brand Canvas 2026 - 2026 - api.unstop.com",
+        "link": "https://api.unstop.com/competitions/brand-canvas-2026-omnia-creative-1717779",
+        "snippet": "All that you need to know about Brand Canvas 2026 BrandCanvas 2026 is a national-level online branding and design competition presented by Omnia Creative and powered by Unstop, that challenges creative minds to transform fictional business ideas into compelling and memorable brands.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "H&S Brand Champion Challenge - 2026 - api.unstop.com",
+        "link": "https://api.unstop.com/competitions/crp-hs-brand-champion-challenge-procter-gamble-1641157",
+        "date_raw": "2026-02-17T00:00:00.0000000",
+        "date": "Feb 17, 2026",
+        "snippet": "Find out the best H&S Brand Champion Challenge that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash rewards f...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Identity Illusion \u2014 Branding & Creative Strategy Battle - 2026",
+        "link": "https://unstop.com/competitions/identity-illusion-branding-creative-strategy-battle-innoverse-2026-bennett-university-bu-greater-noida-1663347",
+        "snippet": "Identity Illusion is a branding challenge where teams creatively transform well-known brands into their conceptual opposites. The competition focuses on creativity, marketing strategy, improvisation, and performance skills.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "BrandStorm 2026 - 2026",
+        "link": "https://unstop.com/competitions/brandstorm-2026-barcode26-symbiosis-institute-of-management-studies-sims-pune-1762024",
+        "date_raw": "2026-09-26T00:00:00.0000000",
+        "date": "Sep 26, 2026",
+        "snippet": "Find out the best BrandStorm 2026 that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash rewards from leading c...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Identity Quest | The Brand Identity Challenge - 2025",
+        "link": "https://unstop.com/competitions/identity-quest-the-brand-identity-challenge-anuva-the-annual-design-festival-central-institute-of-technolog-1532598",
+        "snippet": "Objective: To design a visually appealing, versatile brand identity for 2 hypothetical brands that embodies its identity. (Brand briefs attached) Software: Illustrator, Figma, Photoshop, etc. Design Rules: Core Requirements: Participants must submit a cohesive brand identity package: Logo design (primary and variations) Color palette and typography Brand mockups (e.g., business card, social media, merchandise) Short brand story or positioning statement (150-250 words) Theme Alignment ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "BrandStorm-Visual Identity Design Challenge - 2024",
+        "link": "https://unstop.com/competitions/brandstorm-e-summit25-iit-roorkee-1301916",
+        "snippet": "Brandstorm is a high-energy branding challenge happening as part of Hi-Res, IIT Roorkee's epic Annual Design Convergence, during E-Summit '25 from January 31 to February 2, 2025.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Logo Redesign Contest - 2026",
+        "link": "https://unstop.com/competitions/logo-redesign-contest-klay-preschool-day-care-1749723",
+        "snippet": "As India's largest company-owned early childhood education ecosystem, KLAY has spent over 15 years nurturing young minds and supporting over 80,000 families across 180+ centers. As we evolve from early childhood care into a broader learning ecosystem under our core governing idea, \"From Potential to Purpose,\" we are officially revamping our brand identity.We invite the brilliant young designers and creative thinkers to reimagine the KLAY logo for the next chapter of our brand journey.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Graphic Design Competition: Crafting a Brand Identity for Jivika",
+        "link": "https://unstop.com/competitions/graphic-design-competition-crafting-a-brand-identity-for-jivika-jivika-future-works-private-limited-1486338",
+        "snippet": "All that you need to know about Graphic Design Competition: Crafting a Brand Identity for Jivika About Jivika Jivika is a social-impact startup pre-incubated at IIT Madras, dedicated to empowering blue- and grey-collar workers across India.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "Brand Forge-The Identity Challenge - 2025 - unstop.com",
+        "link": "https://unstop.com/competitions/brand-forge-the-ultimate-startup-showdown-national-institute-of-technology-nit-tiruchirappalli-1445780",
+        "date_raw": "2025-03-26T21:41:00.0000000",
+        "date": "Mar 26, 2025",
+        "snippet": "The Brand Development Competition is an exciting challenge that provides participants with a real-world problem statement. Participants must create a unique and compelling brand identity that aligns with modern startup trends.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+brand+identity+competition&start=11"
+    }
+  }
+}

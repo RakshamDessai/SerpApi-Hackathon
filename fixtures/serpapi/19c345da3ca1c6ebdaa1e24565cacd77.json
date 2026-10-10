@@ -1,0 +1,115 @@
+{
+  "fetched_at": 1791602321.711663,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:devfolio.co concurrency hackathon",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9ae8f5fa7b7a2910c73eb",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/cU6pl9T2fsc4X8UyxcvXUg7ZPj47OlVtCby04M4rS-0/6ac9ae8f5fa7b7a2910c73eb.json",
+      "markdown_endpoint": "https://serpapi.com/searches/cU6pl9T2fsc4X8UyxcvXUg7ZPj47OlVtCby04M4rS-0/6ac9ae8f5fa7b7a2910c73eb.md",
+      "created_at": "2026-10-10 03:18:39 UTC",
+      "processed_at": "2026-10-10 03:18:39 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Adevfolio.co+concurrency+hackathon&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/cU6pl9T2fsc4X8UyxcvXUg7ZPj47OlVtCby04M4rS-0/6ac9ae8f5fa7b7a2910c73eb.html",
+      "prettify_html_file": "https://serpapi.com/searches/cU6pl9T2fsc4X8UyxcvXUg7ZPj47OlVtCby04M4rS-0/6ac9ae8f5fa7b7a2910c73eb.prettify",
+      "total_time_taken": 1.83
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:devfolio.co concurrency hackathon",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Convergence - Devfolio",
+        "link": "https://convergence1.devfolio.co/overview",
+        "snippet": "More than a hackathon. Titan-level mission. Convergence 2K26, organized by Coding Club of JIS College of Engineering, brings together passionate builders, creative thinkers, and ambitious innovators for an unforgettable journey of technology, collaboration, and impact. More than just a coding competition, Convergence is a celebration of innovation, a platform where students transform bold ideas into real world solutions, connect with like minded creators, and challenge themselves to build ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/convergence1.devfolio.co.ico"
+      },
+      {
+        "position": 2,
+        "title": "Convergence - Devfolio",
+        "link": "https://convergence1.devfolio.co/schedule",
+        "date_raw": "2026-09-07T00:00:00.0000000",
+        "date": "Sep 7, 2026",
+        "snippet": "More than a hackathon. Titan-level mission.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/convergence1.devfolio.co.ico"
+      },
+      {
+        "position": 3,
+        "title": "Devfolio - Your one application to the best hackathons",
+        "link": "https://devfolio.co/",
+        "snippet": "Participate in a hackathon or even better, host one. Learn new skills, build things & get hired.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devfolio.co.ico"
+      },
+      {
+        "position": 4,
+        "title": "Hackathons - Devfolio",
+        "link": "https://his.devfolio.co/hackathons",
+        "snippet": "Participate in a hackathon or even better, host one. Learn new skills, build things & get hired.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/his.devfolio.co.ico"
+      },
+      {
+        "position": 5,
+        "title": "Past Hackathons - Devfolio",
+        "link": "https://devfolio.co/hackathons/past",
+        "snippet": "Participate in a hackathon or even better, host one. Learn new skills, build things & get hired.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devfolio.co.ico"
+      },
+      {
+        "position": 6,
+        "title": "Hakkathon - Devfolio",
+        "link": "https://hakkathon.devfolio.co/lineup",
+        "snippet": "First Horizon Foundation Distinguished Professor of Computer Science, University of Memphis",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hakkathon.devfolio.co.ico"
+      },
+      {
+        "position": 7,
+        "title": "Recursive | Devfolio",
+        "link": "https://recursiveacm.devfolio.co/",
+        "snippet": "RECURSIVE brings together students, developers, designers, and problem-solvers for an intense 8-hour in-person hackathon at GNIT, Kolkata. Working in teams of 2-4, participants will take on original real-world challenges and transform their ideas into functional solutions through technology, creativity, and collaboration.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/recursiveacm.devfolio.co.ico"
+      },
+      {
+        "position": 8,
+        "title": "Innohacks 4.0 | Devfolio",
+        "link": "https://innohacks-4.devfolio.co/",
+        "snippet": "Innohacks 4.0 is the flagship national-level 24-hour hackathon organized by Innogeeks, the technical club of KIET Deemed to be University, Delhi-NCR, Ghaziabad. After three successful editions, Innohacks 4.0 is back to bring together developers, designers, innovators, and problem-solvers from across India.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/innohacks-4.devfolio.co.ico"
+      },
+      {
+        "position": 9,
+        "title": "Avalon OpenHack - Devfolio",
+        "link": "https://avalon-openhack.devfolio.co/overview",
+        "snippet": "Avalon OpenHack is an online hackathon built for students, developers, and aspiring builders to turn ideas into working solutions. Participants come together to identify real-world problems, build innovative solutions, and compete in a collaborative environment focused on practical skills, creativity, and execution.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/avalon-openhack.devfolio.co.ico"
+      },
+      {
+        "position": 10,
+        "title": "Hacknauts - Devfolio",
+        "link": "https://hacknauts.devfolio.co/overview",
+        "snippet": "Hacknauts 2025 is a 24-hour hackathon where students come together to learn, build, and share ideas. Jointly organized by ITian Club (Dept. of Information Technology) & Causmic Club (Dept. of Applied Sciences) at Guru Nanak Dev Engineering College, Ludhiana, this event is part of the college's 70th Year's celebrations.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hacknauts.devfolio.co.ico"
+      },
+      {
+        "position": 11,
+        "title": "Athernex | Devfolio",
+        "link": "https://athernex.devfolio.co/",
+        "snippet": "Athernex is a 24-hour flagship hackathon designed to bring together builders, thinkers, and innovators to solve real-world challenges under pressure. The event features a mix of open and curated problem tracks\u2014allowing participants the freedom to explore ideas in domains like Blockchain, FinTech, and Developer Tools, while also engaging in high-impact, theme-driven challenges revealed closer to the event. With a strong focus on innovation, rapid prototyping, and practical problem-solving ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/athernex.devfolio.co.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Adevfolio.co+concurrency+hackathon&start=11"
+    }
+  }
+}

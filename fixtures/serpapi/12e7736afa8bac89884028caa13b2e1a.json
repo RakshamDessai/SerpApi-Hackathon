@@ -1,0 +1,326 @@
+{
+  "fetched_at": 1791602348.457867,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "concurrency intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9ae9a4a99b72e3b692622",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/FHUOgTsM7kt4KjysOm21fu-857xXEd5hmqi9bt8kOJ4/6ac9ae9a4a99b72e3b692622.json",
+      "markdown_endpoint": "https://serpapi.com/searches/FHUOgTsM7kt4KjysOm21fu-857xXEd5hmqi9bt8kOJ4/6ac9ae9a4a99b72e3b692622.md",
+      "created_at": "2026-10-10 03:18:50 UTC",
+      "processed_at": "2026-10-10 03:18:50 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=concurrency+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/FHUOgTsM7kt4KjysOm21fu-857xXEd5hmqi9bt8kOJ4/6ac9ae9a4a99b72e3b692622.html",
+      "total_time_taken": 18.0
+    },
+    "search_parameters": {
+      "q": "concurrency intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rvMK4OwXsRyIhE7EdbHGMcA80kSGfl3TWmxdO9Tade3coCN_gnHFjck-MvmS91rmSblL3yUK6hGSMWrVV1i-DCGhZoebHcW2mdmPK6mvk86-tN_zz6L20Fy-OM_jH6DY-pD9k5U6gaObC1ajWIxHJR1feP5BJDwnMKnK1oSc8lFnJZenDswCztIzicXLrXcZN5HAg8Q",
+          "q": "concurrency intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvMK4OwXsRyIhE7EdbHGMcA80kSGfl3TWmxdO9Tade3coCN_gnHFjck-MvmS91rmSblL3yUK6hGSMWrVV1i-DCGhZoebHcW2mdmPK6mvk86-tN_zz6L20Fy-OM_jH6DY-pD9k5U6gaObC1ajWIxHJR1feP5BJDwnMKnK1oSc8lFnJZenDswCztIzicXLrXcZN5HAg8Q&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQxKsJKAB6BAgXEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvMK4OwXsRyIhE7EdbHGMcA80kSGfl3TWmxdO9Tade3coCN_gnHFjck-MvmS91rmSblL3yUK6hGSMWrVV1i-DCGhZoebHcW2mdmPK6mvk86-tN_zz6L20Fy-OM_jH6DY-pD9k5U6gaObC1ajWIxHJR1feP5BJDwnMKnK1oSc8lFnJZenDswCztIzicXLrXcZN5HAg8Q"
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rprWL6OpWZoNRzUmdBA3qD0QxZN8No3SF3VzSV4NzUsiasw2PzJZwOXCSUBDI-4sGxs6KoaVosqzIWjCGiv9w-iDt_Re1QkfHJBdS-_yf-ipzcyzshMVDXFojMPmkcePDKQXhNgkkNDX3OkRKd7lgSGaMtPgPZVKicLLNkMjYeatr6utNMzZHVo0ytcY0c9086nZt7uB_cYA_7ZP3QQuhLRoy6f252zbvOmEdgo3EWlEvUrZiRHuF5qYmyAmrOj5cNZnjgfhWTXYJhRYeY_9IfUl07bM54pBnFd4nCY8xxRKAIsryQQfp-LbT_NOZfvjSwfQnRuOQ2_dJ4gqIL6kak9jyxHUtHzQcUZapIX42QSccp4Fj",
+              "q": "concurrency intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rprWL6OpWZoNRzUmdBA3qD0QxZN8No3SF3VzSV4NzUsiasw2PzJZwOXCSUBDI-4sGxs6KoaVosqzIWjCGiv9w-iDt_Re1QkfHJBdS-_yf-ipzcyzshMVDXFojMPmkcePDKQXhNgkkNDX3OkRKd7lgSGaMtPgPZVKicLLNkMjYeatr6utNMzZHVo0ytcY0c9086nZt7uB_cYA_7ZP3QQuhLRoy6f252zbvOmEdgo3EWlEvUrZiRHuF5qYmyAmrOj5cNZnjgfhWTXYJhRYeY_9IfUl07bM54pBnFd4nCY8xxRKAIsryQQfp-LbT_NOZfvjSwfQnRuOQ2_dJ4gqIL6kak9jyxHUtHzQcUZapIX42QSccp4Fj&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rprWL6OpWZoNRzUmdBA3qD0QxZN8No3SF3VzSV4NzUsiasw2PzJZwOXCSUBDI-4sGxs6KoaVosqzIWjCGiv9w-iDt_Re1QkfHJBdS-_yf-ipzcyzshMVDXFojMPmkcePDKQXhNgkkNDX3OkRKd7lgSGaMtPgPZVKicLLNkMjYeatr6utNMzZHVo0ytcY0c9086nZt7uB_cYA_7ZP3QQuhLRoy6f252zbvOmEdgo3EWlEvUrZiRHuF5qYmyAmrOj5cNZnjgfhWTXYJhRYeY_9IfUl07bM54pBnFd4nCY8xxRKAIsryQQfp-LbT_NOZfvjSwfQnRuOQ2_dJ4gqIL6kak9jyxHUtHzQcUZapIX42QSccp4Fj"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rrhpR-ApKtd3VSSz-fAhE3ctmFb9ZAuLuJW2mbfEgCod05px0zJBkayGUYtnNYVDpD2mE6Vwr5_w9UAYIieDIFV1T-tX9usJrPHssPxUrYdgk1Ufy7hsgiep08nds_iLWpACM1ARTNg3h4jF3haVVwYL0j4N99qltKpv_1QfLJCHJ7VPA06DMwuM0ZHvzELepSZpzLfbjS9KA03UWkjjRI2-zmlFm5aX8xutJgacLp8k_paZJlcPst3eyqZRAdhBbRhz2v0eX9u2UDvEN_NL6IVJR15VeoAAs6CoCafOixgSMv-xYyb2IUBW1b3GHCYjZgVAtMpL7Q-sgvgVUQ14PxPHi054CBzV9PUwBe1Y_O4Fe6aZ6",
+              "q": "concurrency intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rrhpR-ApKtd3VSSz-fAhE3ctmFb9ZAuLuJW2mbfEgCod05px0zJBkayGUYtnNYVDpD2mE6Vwr5_w9UAYIieDIFV1T-tX9usJrPHssPxUrYdgk1Ufy7hsgiep08nds_iLWpACM1ARTNg3h4jF3haVVwYL0j4N99qltKpv_1QfLJCHJ7VPA06DMwuM0ZHvzELepSZpzLfbjS9KA03UWkjjRI2-zmlFm5aX8xutJgacLp8k_paZJlcPst3eyqZRAdhBbRhz2v0eX9u2UDvEN_NL6IVJR15VeoAAs6CoCafOixgSMv-xYyb2IUBW1b3GHCYjZgVAtMpL7Q-sgvgVUQ14PxPHi054CBzV9PUwBe1Y_O4Fe6aZ6&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rrhpR-ApKtd3VSSz-fAhE3ctmFb9ZAuLuJW2mbfEgCod05px0zJBkayGUYtnNYVDpD2mE6Vwr5_w9UAYIieDIFV1T-tX9usJrPHssPxUrYdgk1Ufy7hsgiep08nds_iLWpACM1ARTNg3h4jF3haVVwYL0j4N99qltKpv_1QfLJCHJ7VPA06DMwuM0ZHvzELepSZpzLfbjS9KA03UWkjjRI2-zmlFm5aX8xutJgacLp8k_paZJlcPst3eyqZRAdhBbRhz2v0eX9u2UDvEN_NL6IVJR15VeoAAs6CoCafOixgSMv-xYyb2IUBW1b3GHCYjZgVAtMpL7Q-sgvgVUQ14PxPHi054CBzV9PUwBe1Y_O4Fe6aZ6"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rdf3hZ4zdlkAW_uEbRSgOymFbcouS0ukOqBSl80yEWWr2h0sy4OBQHvll6pBzKjFVuk01hZPMBk3ysiFMcXfpyyX5bCQeLZjkVqIanj2dQe4FDCiHFCy-U3IcbmuA7Is89mcojB1kfMr0JVtxCNRSmfhOTi9C2K4mRE2DCf0KfFBaRE-9JoSUtTqn5ZTsZr1YoEgXd8JAbYfnyC4lIx-UMFlJfqCC0UfQuijMqCrdhykA-RyBUzBHH2DC2HqwLpD7ar7xL9u35q2h154kkun4f1s1bLexOj02BZSJYswDYUaXEOYsPq9I4bhV2A05tCAfvEm00drUFmW7nLPwaWgg_HNPkEIrBbFGaeyVG6e6ws_q9F79",
+              "q": "concurrency intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdf3hZ4zdlkAW_uEbRSgOymFbcouS0ukOqBSl80yEWWr2h0sy4OBQHvll6pBzKjFVuk01hZPMBk3ysiFMcXfpyyX5bCQeLZjkVqIanj2dQe4FDCiHFCy-U3IcbmuA7Is89mcojB1kfMr0JVtxCNRSmfhOTi9C2K4mRE2DCf0KfFBaRE-9JoSUtTqn5ZTsZr1YoEgXd8JAbYfnyC4lIx-UMFlJfqCC0UfQuijMqCrdhykA-RyBUzBHH2DC2HqwLpD7ar7xL9u35q2h154kkun4f1s1bLexOj02BZSJYswDYUaXEOYsPq9I4bhV2A05tCAfvEm00drUFmW7nLPwaWgg_HNPkEIrBbFGaeyVG6e6ws_q9F79&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdf3hZ4zdlkAW_uEbRSgOymFbcouS0ukOqBSl80yEWWr2h0sy4OBQHvll6pBzKjFVuk01hZPMBk3ysiFMcXfpyyX5bCQeLZjkVqIanj2dQe4FDCiHFCy-U3IcbmuA7Is89mcojB1kfMr0JVtxCNRSmfhOTi9C2K4mRE2DCf0KfFBaRE-9JoSUtTqn5ZTsZr1YoEgXd8JAbYfnyC4lIx-UMFlJfqCC0UfQuijMqCrdhykA-RyBUzBHH2DC2HqwLpD7ar7xL9u35q2h154kkun4f1s1bLexOj02BZSJYswDYUaXEOYsPq9I4bhV2A05tCAfvEm00drUFmW7nLPwaWgg_HNPkEIrBbFGaeyVG6e6ws_q9F79"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWZU_l-CLLb_qXjPXe_Ia6XzPPKVnrMM0nJJrpw-adk_Vfo7dzIpDblGp88uO13I7r_1xUVbh88KcBTqfcEM9DYztMv1wEH5RgEkajWiHwynzisumpZbacBZZoKciyMVFk3oT8iaUts4xS2pUQLJTRVzm8zqXM1cWRiiBwBYzVHvwNMHR1FQVhwlxQr2NbDbF0HPxTBM1lldIQM3DYQh_t3Y0ZZfmvriI4CGfzlywWMnElst22UiNEZZQm9WQLUhiiVUNWbWcg_oqwfdxivpozSFb9pyF6fNBxub3XIhjtT6O9_lwVv7Ez854FVmzxN51kxGLB3ieJJ0av0uw9CaIxy9Hhzbh7gaz-Z1QlHZmbVq2dRid",
+              "q": "concurrency intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWZU_l-CLLb_qXjPXe_Ia6XzPPKVnrMM0nJJrpw-adk_Vfo7dzIpDblGp88uO13I7r_1xUVbh88KcBTqfcEM9DYztMv1wEH5RgEkajWiHwynzisumpZbacBZZoKciyMVFk3oT8iaUts4xS2pUQLJTRVzm8zqXM1cWRiiBwBYzVHvwNMHR1FQVhwlxQr2NbDbF0HPxTBM1lldIQM3DYQh_t3Y0ZZfmvriI4CGfzlywWMnElst22UiNEZZQm9WQLUhiiVUNWbWcg_oqwfdxivpozSFb9pyF6fNBxub3XIhjtT6O9_lwVv7Ez854FVmzxN51kxGLB3ieJJ0av0uw9CaIxy9Hhzbh7gaz-Z1QlHZmbVq2dRid&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWZU_l-CLLb_qXjPXe_Ia6XzPPKVnrMM0nJJrpw-adk_Vfo7dzIpDblGp88uO13I7r_1xUVbh88KcBTqfcEM9DYztMv1wEH5RgEkajWiHwynzisumpZbacBZZoKciyMVFk3oT8iaUts4xS2pUQLJTRVzm8zqXM1cWRiiBwBYzVHvwNMHR1FQVhwlxQr2NbDbF0HPxTBM1lldIQM3DYQh_t3Y0ZZfmvriI4CGfzlywWMnElst22UiNEZZQm9WQLUhiiVUNWbWcg_oqwfdxivpozSFb9pyF6fNBxub3XIhjtT6O9_lwVv7Ez854FVmzxN51kxGLB3ieJJ0av0uw9CaIxy9Hhzbh7gaz-Z1QlHZmbVq2dRid"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rprWL6OpWZoNRzUmdBA3qD0QxZN8No3SF3VzSV4NzUsiasw2PzJZwOXCSUBDI-4sGxs6KoaVosqzIWjCGiv9w-iDt_Re1QkfHJBdS-_yf-ipzcyzshMVDXFojMPmkcePDKQXhNgkkNDX3OkRKd7lgSGaMtPgPZVKicLLNkMjYeatr6utNMzZHVo0ytcY0c9086nZt7uB_cYA_7ZP3QQuhLRoy6f252zbvOmEdgo3EWlEvUrZiRHuF5qYmyAmrOj5cNZnjgfhWTXYJhRYeY_9IfUl07bM54pBnFd4nCY8xxRKAIsryQQfp-LbT_NOZfvjSwfQnRuOQ2_dJ4gqIL6kak9jyxHUtHzQcUZapIX42QSccp4Fj",
+              "q": "concurrency intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rprWL6OpWZoNRzUmdBA3qD0QxZN8No3SF3VzSV4NzUsiasw2PzJZwOXCSUBDI-4sGxs6KoaVosqzIWjCGiv9w-iDt_Re1QkfHJBdS-_yf-ipzcyzshMVDXFojMPmkcePDKQXhNgkkNDX3OkRKd7lgSGaMtPgPZVKicLLNkMjYeatr6utNMzZHVo0ytcY0c9086nZt7uB_cYA_7ZP3QQuhLRoy6f252zbvOmEdgo3EWlEvUrZiRHuF5qYmyAmrOj5cNZnjgfhWTXYJhRYeY_9IfUl07bM54pBnFd4nCY8xxRKAIsryQQfp-LbT_NOZfvjSwfQnRuOQ2_dJ4gqIL6kak9jyxHUtHzQcUZapIX42QSccp4Fj&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rprWL6OpWZoNRzUmdBA3qD0QxZN8No3SF3VzSV4NzUsiasw2PzJZwOXCSUBDI-4sGxs6KoaVosqzIWjCGiv9w-iDt_Re1QkfHJBdS-_yf-ipzcyzshMVDXFojMPmkcePDKQXhNgkkNDX3OkRKd7lgSGaMtPgPZVKicLLNkMjYeatr6utNMzZHVo0ytcY0c9086nZt7uB_cYA_7ZP3QQuhLRoy6f252zbvOmEdgo3EWlEvUrZiRHuF5qYmyAmrOj5cNZnjgfhWTXYJhRYeY_9IfUl07bM54pBnFd4nCY8xxRKAIsryQQfp-LbT_NOZfvjSwfQnRuOQ2_dJ4gqIL6kak9jyxHUtHzQcUZapIX42QSccp4Fj"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rrhpR-ApKtd3VSSz-fAhE3ctmFb9ZAuLuJW2mbfEgCod05px0zJBkayGUYtnNYVDpD2mE6Vwr5_w9UAYIieDIFV1T-tX9usJrPHssPxUrYdgk1Ufy7hsgiep08nds_iLWpACM1ARTNg3h4jF3haVVwYL0j4N99qltKpv_1QfLJCHJ7VPA06DMwuM0ZHvzELepSZpzLfbjS9KA03UWkjjRI2-zmlFm5aX8xutJgacLp8k_paZJlcPst3eyqZRAdhBbRhz2v0eX9u2UDvEN_NL6IVJR15VeoAAs6CoCafOixgSMv-xYyb2IUBW1b3GHCYjZgVAtMpL7Q-sgvgVUQ14PxPHi054CBzV9PUwBe1Y_O4Fe6aZ6",
+              "q": "concurrency intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rrhpR-ApKtd3VSSz-fAhE3ctmFb9ZAuLuJW2mbfEgCod05px0zJBkayGUYtnNYVDpD2mE6Vwr5_w9UAYIieDIFV1T-tX9usJrPHssPxUrYdgk1Ufy7hsgiep08nds_iLWpACM1ARTNg3h4jF3haVVwYL0j4N99qltKpv_1QfLJCHJ7VPA06DMwuM0ZHvzELepSZpzLfbjS9KA03UWkjjRI2-zmlFm5aX8xutJgacLp8k_paZJlcPst3eyqZRAdhBbRhz2v0eX9u2UDvEN_NL6IVJR15VeoAAs6CoCafOixgSMv-xYyb2IUBW1b3GHCYjZgVAtMpL7Q-sgvgVUQ14PxPHi054CBzV9PUwBe1Y_O4Fe6aZ6&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rrhpR-ApKtd3VSSz-fAhE3ctmFb9ZAuLuJW2mbfEgCod05px0zJBkayGUYtnNYVDpD2mE6Vwr5_w9UAYIieDIFV1T-tX9usJrPHssPxUrYdgk1Ufy7hsgiep08nds_iLWpACM1ARTNg3h4jF3haVVwYL0j4N99qltKpv_1QfLJCHJ7VPA06DMwuM0ZHvzELepSZpzLfbjS9KA03UWkjjRI2-zmlFm5aX8xutJgacLp8k_paZJlcPst3eyqZRAdhBbRhz2v0eX9u2UDvEN_NL6IVJR15VeoAAs6CoCafOixgSMv-xYyb2IUBW1b3GHCYjZgVAtMpL7Q-sgvgVUQ14PxPHi054CBzV9PUwBe1Y_O4Fe6aZ6"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rdf3hZ4zdlkAW_uEbRSgOymFbcouS0ukOqBSl80yEWWr2h0sy4OBQHvll6pBzKjFVuk01hZPMBk3ysiFMcXfpyyX5bCQeLZjkVqIanj2dQe4FDCiHFCy-U3IcbmuA7Is89mcojB1kfMr0JVtxCNRSmfhOTi9C2K4mRE2DCf0KfFBaRE-9JoSUtTqn5ZTsZr1YoEgXd8JAbYfnyC4lIx-UMFlJfqCC0UfQuijMqCrdhykA-RyBUzBHH2DC2HqwLpD7ar7xL9u35q2h154kkun4f1s1bLexOj02BZSJYswDYUaXEOYsPq9I4bhV2A05tCAfvEm00drUFmW7nLPwaWgg_HNPkEIrBbFGaeyVG6e6ws_q9F79",
+              "q": "concurrency intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdf3hZ4zdlkAW_uEbRSgOymFbcouS0ukOqBSl80yEWWr2h0sy4OBQHvll6pBzKjFVuk01hZPMBk3ysiFMcXfpyyX5bCQeLZjkVqIanj2dQe4FDCiHFCy-U3IcbmuA7Is89mcojB1kfMr0JVtxCNRSmfhOTi9C2K4mRE2DCf0KfFBaRE-9JoSUtTqn5ZTsZr1YoEgXd8JAbYfnyC4lIx-UMFlJfqCC0UfQuijMqCrdhykA-RyBUzBHH2DC2HqwLpD7ar7xL9u35q2h154kkun4f1s1bLexOj02BZSJYswDYUaXEOYsPq9I4bhV2A05tCAfvEm00drUFmW7nLPwaWgg_HNPkEIrBbFGaeyVG6e6ws_q9F79&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdf3hZ4zdlkAW_uEbRSgOymFbcouS0ukOqBSl80yEWWr2h0sy4OBQHvll6pBzKjFVuk01hZPMBk3ysiFMcXfpyyX5bCQeLZjkVqIanj2dQe4FDCiHFCy-U3IcbmuA7Is89mcojB1kfMr0JVtxCNRSmfhOTi9C2K4mRE2DCf0KfFBaRE-9JoSUtTqn5ZTsZr1YoEgXd8JAbYfnyC4lIx-UMFlJfqCC0UfQuijMqCrdhykA-RyBUzBHH2DC2HqwLpD7ar7xL9u35q2h154kkun4f1s1bLexOj02BZSJYswDYUaXEOYsPq9I4bhV2A05tCAfvEm00drUFmW7nLPwaWgg_HNPkEIrBbFGaeyVG6e6ws_q9F79"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWZU_l-CLLb_qXjPXe_Ia6XzPPKVnrMM0nJJrpw-adk_Vfo7dzIpDblGp88uO13I7r_1xUVbh88KcBTqfcEM9DYztMv1wEH5RgEkajWiHwynzisumpZbacBZZoKciyMVFk3oT8iaUts4xS2pUQLJTRVzm8zqXM1cWRiiBwBYzVHvwNMHR1FQVhwlxQr2NbDbF0HPxTBM1lldIQM3DYQh_t3Y0ZZfmvriI4CGfzlywWMnElst22UiNEZZQm9WQLUhiiVUNWbWcg_oqwfdxivpozSFb9pyF6fNBxub3XIhjtT6O9_lwVv7Ez854FVmzxN51kxGLB3ieJJ0av0uw9CaIxy9Hhzbh7gaz-Z1QlHZmbVq2dRid",
+              "q": "concurrency intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWZU_l-CLLb_qXjPXe_Ia6XzPPKVnrMM0nJJrpw-adk_Vfo7dzIpDblGp88uO13I7r_1xUVbh88KcBTqfcEM9DYztMv1wEH5RgEkajWiHwynzisumpZbacBZZoKciyMVFk3oT8iaUts4xS2pUQLJTRVzm8zqXM1cWRiiBwBYzVHvwNMHR1FQVhwlxQr2NbDbF0HPxTBM1lldIQM3DYQh_t3Y0ZZfmvriI4CGfzlywWMnElst22UiNEZZQm9WQLUhiiVUNWbWcg_oqwfdxivpozSFb9pyF6fNBxub3XIhjtT6O9_lwVv7Ez854FVmzxN51kxGLB3ieJJ0av0uw9CaIxy9Hhzbh7gaz-Z1QlHZmbVq2dRid&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWZU_l-CLLb_qXjPXe_Ia6XzPPKVnrMM0nJJrpw-adk_Vfo7dzIpDblGp88uO13I7r_1xUVbh88KcBTqfcEM9DYztMv1wEH5RgEkajWiHwynzisumpZbacBZZoKciyMVFk3oT8iaUts4xS2pUQLJTRVzm8zqXM1cWRiiBwBYzVHvwNMHR1FQVhwlxQr2NbDbF0HPxTBM1lldIQM3DYQh_t3Y0ZZfmvriI4CGfzlywWMnElst22UiNEZZQm9WQLUhiiVUNWbWcg_oqwfdxivpozSFb9pyF6fNBxub3XIhjtT6O9_lwVv7Ez854FVmzxN51kxGLB3ieJJ0av0uw9CaIxy9Hhzbh7gaz-Z1QlHZmbVq2dRid"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3Epqi9pcKrg3EVYocabSzz7cMutbsLVU6uhqOwBLAwrfT_q8fZthJ8kfA2lA6lENMZ3npTwLB_b5E67iRX4dIJbmlr676zE17I-stOs9Xv5AaI48qSEo-jbOlQ79qyAorlxXGAbeeN9QmQKIB9G0mo6t2RIBuuNNrAd2QCFxc4Pej-AMvEFZJp3MuBCMxf6um58eQbdwmwcwE5P6az9jBiusLeIu0ZcHdS0Ly6WhAdsItNx56YLCBIj1RdoXppp0wYrrzo5ggifmJMMunO6_Wl1PvCVqXWNzBjuwfMIRE1GBwq0oyNtUA",
+              "q": "concurrency intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3Epqi9pcKrg3EVYocabSzz7cMutbsLVU6uhqOwBLAwrfT_q8fZthJ8kfA2lA6lENMZ3npTwLB_b5E67iRX4dIJbmlr676zE17I-stOs9Xv5AaI48qSEo-jbOlQ79qyAorlxXGAbeeN9QmQKIB9G0mo6t2RIBuuNNrAd2QCFxc4Pej-AMvEFZJp3MuBCMxf6um58eQbdwmwcwE5P6az9jBiusLeIu0ZcHdS0Ly6WhAdsItNx56YLCBIj1RdoXppp0wYrrzo5ggifmJMMunO6_Wl1PvCVqXWNzBjuwfMIRE1GBwq0oyNtUA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3Epqi9pcKrg3EVYocabSzz7cMutbsLVU6uhqOwBLAwrfT_q8fZthJ8kfA2lA6lENMZ3npTwLB_b5E67iRX4dIJbmlr676zE17I-stOs9Xv5AaI48qSEo-jbOlQ79qyAorlxXGAbeeN9QmQKIB9G0mo6t2RIBuuNNrAd2QCFxc4Pej-AMvEFZJp3MuBCMxf6um58eQbdwmwcwE5P6az9jBiusLeIu0ZcHdS0Ly6WhAdsItNx56YLCBIj1RdoXppp0wYrrzo5ggifmJMMunO6_Wl1PvCVqXWNzBjuwfMIRE1GBwq0oyNtUA"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3EpqikztnPA2nHuZFFHWXdoUJttBRZYEO1rLz3R_gxyo7nvtFoYDpcw3-eV2MbWPziAwqQcku9CF4KIez-i4awikdIPWlsgWHJq6n6D41PIu68Vznfrk_edAxLsJBBYle6hGZXF3U8g63Rg9EqB0ACoLCzLt-hBTnk21XpoxTFjIfN-aYYMZOnkYYZ5T88e7HzrFk-0cBMllrLfELinUJz9r-ImChEwOArHTcJJbnByiujP8q-f7ruEGjlABsj6Z0z0KMncqGQkRTLl3_rhYW7tNMOHR3wfwsP25wvybIyq09iph1SpsA",
+              "q": "concurrency intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3EpqikztnPA2nHuZFFHWXdoUJttBRZYEO1rLz3R_gxyo7nvtFoYDpcw3-eV2MbWPziAwqQcku9CF4KIez-i4awikdIPWlsgWHJq6n6D41PIu68Vznfrk_edAxLsJBBYle6hGZXF3U8g63Rg9EqB0ACoLCzLt-hBTnk21XpoxTFjIfN-aYYMZOnkYYZ5T88e7HzrFk-0cBMllrLfELinUJz9r-ImChEwOArHTcJJbnByiujP8q-f7ruEGjlABsj6Z0z0KMncqGQkRTLl3_rhYW7tNMOHR3wfwsP25wvybIyq09iph1SpsA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3EpqikztnPA2nHuZFFHWXdoUJttBRZYEO1rLz3R_gxyo7nvtFoYDpcw3-eV2MbWPziAwqQcku9CF4KIez-i4awikdIPWlsgWHJq6n6D41PIu68Vznfrk_edAxLsJBBYle6hGZXF3U8g63Rg9EqB0ACoLCzLt-hBTnk21XpoxTFjIfN-aYYMZOnkYYZ5T88e7HzrFk-0cBMllrLfELinUJz9r-ImChEwOArHTcJJbnByiujP8q-f7ruEGjlABsj6Z0z0KMncqGQkRTLl3_rhYW7tNMOHR3wfwsP25wvybIyq09iph1SpsA"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rXzHIyNPKeBBr4Y3zXpQgNcfNOySIRDSSgYcHVhAkUSumAyaRWEMQno7rt-eTcQ_GJB42n8dNcnJjoqet4ToK8Xki48ipxsLS8vxbnnFNIUXPvJtBJmbnfFVv19XuN0Ver2okWe6Zohq0MFo2e3y2yDmgvAFdPze8qANQ1CC1nAm4y4j4fw1DcdB36YAiUQLqqThshzl0rXW45OXovMLMns1mQpt60hFxKDBUIj6eUwEWaOLQcDNG59wCh09EMZNL6S4BuJ1t0-a70mqhK378jdwvf2HEc9XmGYPwqTUfdh7wgXc2CsUn1IvU8gkSrGV74BevzFQt23py9uwe4P3MeEARfEc",
+              "q": "concurrency intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXzHIyNPKeBBr4Y3zXpQgNcfNOySIRDSSgYcHVhAkUSumAyaRWEMQno7rt-eTcQ_GJB42n8dNcnJjoqet4ToK8Xki48ipxsLS8vxbnnFNIUXPvJtBJmbnfFVv19XuN0Ver2okWe6Zohq0MFo2e3y2yDmgvAFdPze8qANQ1CC1nAm4y4j4fw1DcdB36YAiUQLqqThshzl0rXW45OXovMLMns1mQpt60hFxKDBUIj6eUwEWaOLQcDNG59wCh09EMZNL6S4BuJ1t0-a70mqhK378jdwvf2HEc9XmGYPwqTUfdh7wgXc2CsUn1IvU8gkSrGV74BevzFQt23py9uwe4P3MeEARfEc&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXzHIyNPKeBBr4Y3zXpQgNcfNOySIRDSSgYcHVhAkUSumAyaRWEMQno7rt-eTcQ_GJB42n8dNcnJjoqet4ToK8Xki48ipxsLS8vxbnnFNIUXPvJtBJmbnfFVv19XuN0Ver2okWe6Zohq0MFo2e3y2yDmgvAFdPze8qANQ1CC1nAm4y4j4fw1DcdB36YAiUQLqqThshzl0rXW45OXovMLMns1mQpt60hFxKDBUIj6eUwEWaOLQcDNG59wCh09EMZNL6S4BuJ1t0-a70mqhK378jdwvf2HEc9XmGYPwqTUfdh7wgXc2CsUn1IvU8gkSrGV74BevzFQt23py9uwe4P3MeEARfEc"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRTA14CBrwunWyoq9AFTPafMogSTK6y7rCzFj_mtz2l9-bR7r8YCMn-pnqpb7rwYl8JnFZSyAaUtpNxIlj4LLhpYlkdlssm2naFtlnTZfOXleVcg2ATRbIiUIUTB0LG8m8usVmvZdv9ZNhmxFW3HXW_H08tVf6RSIVOkIQlxJx9e5VxLzsseaLbMN7LAoyFPI-uGt9dmtRUL_rFWdlae8dwzDSPRWM_pox57OAbNu8XlUXcKBDo2cBpuLgWGLs_WsxpotBd2VqXjtBc_UOsrqtyVdaAplLu2dh3MksoTrIZJEgIcfn0SrFQiI_lAi9pJfSFyVe2E",
+              "q": "concurrency intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRTA14CBrwunWyoq9AFTPafMogSTK6y7rCzFj_mtz2l9-bR7r8YCMn-pnqpb7rwYl8JnFZSyAaUtpNxIlj4LLhpYlkdlssm2naFtlnTZfOXleVcg2ATRbIiUIUTB0LG8m8usVmvZdv9ZNhmxFW3HXW_H08tVf6RSIVOkIQlxJx9e5VxLzsseaLbMN7LAoyFPI-uGt9dmtRUL_rFWdlae8dwzDSPRWM_pox57OAbNu8XlUXcKBDo2cBpuLgWGLs_WsxpotBd2VqXjtBc_UOsrqtyVdaAplLu2dh3MksoTrIZJEgIcfn0SrFQiI_lAi9pJfSFyVe2E&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRTA14CBrwunWyoq9AFTPafMogSTK6y7rCzFj_mtz2l9-bR7r8YCMn-pnqpb7rwYl8JnFZSyAaUtpNxIlj4LLhpYlkdlssm2naFtlnTZfOXleVcg2ATRbIiUIUTB0LG8m8usVmvZdv9ZNhmxFW3HXW_H08tVf6RSIVOkIQlxJx9e5VxLzsseaLbMN7LAoyFPI-uGt9dmtRUL_rFWdlae8dwzDSPRWM_pox57OAbNu8XlUXcKBDo2cBpuLgWGLs_WsxpotBd2VqXjtBc_UOsrqtyVdaAplLu2dh3MksoTrIZJEgIcfn0SrFQiI_lAi9pJfSFyVe2E"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3Epqi9pcKrg3EVYocabSzz7cMutbsLVU6uhqOwBLAwrfT_q8fZthJ8kfA2lA6lENMZ3npTwLB_b5E67iRX4dIJbmlr676zE17I-stOs9Xv5AaI48qSEo-jbOlQ79qyAorlxXGAbeeN9QmQKIB9G0mo6t2RIBuuNNrAd2QCFxc4Pej-AMvEFZJp3MuBCMxf6um58eQbdwmwcwE5P6az9jBiusLeIu0ZcHdS0Ly6WhAdsItNx56YLCBIj1RdoXppp0wYrrzo5ggifmJMMunO6_Wl1PvCVqXWNzBjuwfMIRE1GBwq0oyNtUA",
+              "q": "concurrency intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3Epqi9pcKrg3EVYocabSzz7cMutbsLVU6uhqOwBLAwrfT_q8fZthJ8kfA2lA6lENMZ3npTwLB_b5E67iRX4dIJbmlr676zE17I-stOs9Xv5AaI48qSEo-jbOlQ79qyAorlxXGAbeeN9QmQKIB9G0mo6t2RIBuuNNrAd2QCFxc4Pej-AMvEFZJp3MuBCMxf6um58eQbdwmwcwE5P6az9jBiusLeIu0ZcHdS0Ly6WhAdsItNx56YLCBIj1RdoXppp0wYrrzo5ggifmJMMunO6_Wl1PvCVqXWNzBjuwfMIRE1GBwq0oyNtUA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3Epqi9pcKrg3EVYocabSzz7cMutbsLVU6uhqOwBLAwrfT_q8fZthJ8kfA2lA6lENMZ3npTwLB_b5E67iRX4dIJbmlr676zE17I-stOs9Xv5AaI48qSEo-jbOlQ79qyAorlxXGAbeeN9QmQKIB9G0mo6t2RIBuuNNrAd2QCFxc4Pej-AMvEFZJp3MuBCMxf6um58eQbdwmwcwE5P6az9jBiusLeIu0ZcHdS0Ly6WhAdsItNx56YLCBIj1RdoXppp0wYrrzo5ggifmJMMunO6_Wl1PvCVqXWNzBjuwfMIRE1GBwq0oyNtUA"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3EpqikztnPA2nHuZFFHWXdoUJttBRZYEO1rLz3R_gxyo7nvtFoYDpcw3-eV2MbWPziAwqQcku9CF4KIez-i4awikdIPWlsgWHJq6n6D41PIu68Vznfrk_edAxLsJBBYle6hGZXF3U8g63Rg9EqB0ACoLCzLt-hBTnk21XpoxTFjIfN-aYYMZOnkYYZ5T88e7HzrFk-0cBMllrLfELinUJz9r-ImChEwOArHTcJJbnByiujP8q-f7ruEGjlABsj6Z0z0KMncqGQkRTLl3_rhYW7tNMOHR3wfwsP25wvybIyq09iph1SpsA",
+              "q": "concurrency intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3EpqikztnPA2nHuZFFHWXdoUJttBRZYEO1rLz3R_gxyo7nvtFoYDpcw3-eV2MbWPziAwqQcku9CF4KIez-i4awikdIPWlsgWHJq6n6D41PIu68Vznfrk_edAxLsJBBYle6hGZXF3U8g63Rg9EqB0ACoLCzLt-hBTnk21XpoxTFjIfN-aYYMZOnkYYZ5T88e7HzrFk-0cBMllrLfELinUJz9r-ImChEwOArHTcJJbnByiujP8q-f7ruEGjlABsj6Z0z0KMncqGQkRTLl3_rhYW7tNMOHR3wfwsP25wvybIyq09iph1SpsA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVVNivViyVtms2aJvUHdkkFQ6Pnm4ljxV1mQqx_3EpqikztnPA2nHuZFFHWXdoUJttBRZYEO1rLz3R_gxyo7nvtFoYDpcw3-eV2MbWPziAwqQcku9CF4KIez-i4awikdIPWlsgWHJq6n6D41PIu68Vznfrk_edAxLsJBBYle6hGZXF3U8g63Rg9EqB0ACoLCzLt-hBTnk21XpoxTFjIfN-aYYMZOnkYYZ5T88e7HzrFk-0cBMllrLfELinUJz9r-ImChEwOArHTcJJbnByiujP8q-f7ruEGjlABsj6Z0z0KMncqGQkRTLl3_rhYW7tNMOHR3wfwsP25wvybIyq09iph1SpsA"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rXzHIyNPKeBBr4Y3zXpQgNcfNOySIRDSSgYcHVhAkUSumAyaRWEMQno7rt-eTcQ_GJB42n8dNcnJjoqet4ToK8Xki48ipxsLS8vxbnnFNIUXPvJtBJmbnfFVv19XuN0Ver2okWe6Zohq0MFo2e3y2yDmgvAFdPze8qANQ1CC1nAm4y4j4fw1DcdB36YAiUQLqqThshzl0rXW45OXovMLMns1mQpt60hFxKDBUIj6eUwEWaOLQcDNG59wCh09EMZNL6S4BuJ1t0-a70mqhK378jdwvf2HEc9XmGYPwqTUfdh7wgXc2CsUn1IvU8gkSrGV74BevzFQt23py9uwe4P3MeEARfEc",
+              "q": "concurrency intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXzHIyNPKeBBr4Y3zXpQgNcfNOySIRDSSgYcHVhAkUSumAyaRWEMQno7rt-eTcQ_GJB42n8dNcnJjoqet4ToK8Xki48ipxsLS8vxbnnFNIUXPvJtBJmbnfFVv19XuN0Ver2okWe6Zohq0MFo2e3y2yDmgvAFdPze8qANQ1CC1nAm4y4j4fw1DcdB36YAiUQLqqThshzl0rXW45OXovMLMns1mQpt60hFxKDBUIj6eUwEWaOLQcDNG59wCh09EMZNL6S4BuJ1t0-a70mqhK378jdwvf2HEc9XmGYPwqTUfdh7wgXc2CsUn1IvU8gkSrGV74BevzFQt23py9uwe4P3MeEARfEc&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXzHIyNPKeBBr4Y3zXpQgNcfNOySIRDSSgYcHVhAkUSumAyaRWEMQno7rt-eTcQ_GJB42n8dNcnJjoqet4ToK8Xki48ipxsLS8vxbnnFNIUXPvJtBJmbnfFVv19XuN0Ver2okWe6Zohq0MFo2e3y2yDmgvAFdPze8qANQ1CC1nAm4y4j4fw1DcdB36YAiUQLqqThshzl0rXW45OXovMLMns1mQpt60hFxKDBUIj6eUwEWaOLQcDNG59wCh09EMZNL6S4BuJ1t0-a70mqhK378jdwvf2HEc9XmGYPwqTUfdh7wgXc2CsUn1IvU8gkSrGV74BevzFQt23py9uwe4P3MeEARfEc"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRTA14CBrwunWyoq9AFTPafMogSTK6y7rCzFj_mtz2l9-bR7r8YCMn-pnqpb7rwYl8JnFZSyAaUtpNxIlj4LLhpYlkdlssm2naFtlnTZfOXleVcg2ATRbIiUIUTB0LG8m8usVmvZdv9ZNhmxFW3HXW_H08tVf6RSIVOkIQlxJx9e5VxLzsseaLbMN7LAoyFPI-uGt9dmtRUL_rFWdlae8dwzDSPRWM_pox57OAbNu8XlUXcKBDo2cBpuLgWGLs_WsxpotBd2VqXjtBc_UOsrqtyVdaAplLu2dh3MksoTrIZJEgIcfn0SrFQiI_lAi9pJfSFyVe2E",
+              "q": "concurrency intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntV63ah5qZ9twA2jqQ3k6uqs1C5nA:1791602347005&q=concurrency+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRTA14CBrwunWyoq9AFTPafMogSTK6y7rCzFj_mtz2l9-bR7r8YCMn-pnqpb7rwYl8JnFZSyAaUtpNxIlj4LLhpYlkdlssm2naFtlnTZfOXleVcg2ATRbIiUIUTB0LG8m8usVmvZdv9ZNhmxFW3HXW_H08tVf6RSIVOkIQlxJx9e5VxLzsseaLbMN7LAoyFPI-uGt9dmtRUL_rFWdlae8dwzDSPRWM_pox57OAbNu8XlUXcKBDo2cBpuLgWGLs_WsxpotBd2VqXjtBc_UOsrqtyVdaAplLu2dh3MksoTrIZJEgIcfn0SrFQiI_lAi9pJfSFyVe2E&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjH-uLrvq6XAxVekeEIHbJiKnsQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=concurrency+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRTA14CBrwunWyoq9AFTPafMogSTK6y7rCzFj_mtz2l9-bR7r8YCMn-pnqpb7rwYl8JnFZSyAaUtpNxIlj4LLhpYlkdlssm2naFtlnTZfOXleVcg2ATRbIiUIUTB0LG8m8usVmvZdv9ZNhmxFW3HXW_H08tVf6RSIVOkIQlxJx9e5VxLzsseaLbMN7LAoyFPI-uGt9dmtRUL_rFWdlae8dwzDSPRWM_pox57OAbNu8XlUXcKBDo2cBpuLgWGLs_WsxpotBd2VqXjtBc_UOsrqtyVdaAplLu2dh3MksoTrIZJEgIcfn0SrFQiI_lAi9pJfSFyVe2E"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Concurrency roles for SPPU talent",
+        "company_name": "CosmoQuick",
+        "location": "Pune, Maharashtra",
+        "via": "University Career Intelligence By CosmoQuick",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=concurrency+intern&htidocid=4ceRUUJQ4KhCVjrgAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLMQrCQBBAUWxzBBunFsmKYBPLFFZCRKzDZBmz0c1M2JlA7LyDncfzJMbmV-9nn0VWlMJ-TInYPyFJJIWbJLhU1RUMI7HB9_WGuzSghMkHEIajSBtpeQhmgxbOqca8VUPrfO6ld8LUyOTmSf-pNWCiIaJRvdtvp3zgdr0qRXs5j51_QMdQjUwbOOEsUYMl_AGCEhZnnQAAAA&shmds=v1_ARwrE2044RrSdsLRpTHOpaIalTm64-dD42y6p38WOpOJ79y_ow&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=concurrency+intern&htidocid=4ceRUUJQ4KhCVjrgAAAAAA%3D%3D",
+        "extensions": [
+          "3 days ago",
+          "\u20b920.2L a year",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://universities.cosmoquick.com/hire/concurrency/sppu",
+        "job_title": "Concurrency roles for SPPU talent",
+        "description": "Recruit Concurrency professionals from SPPU, Pune. 470+ recruiters, 90% placement rate, avg \u20b920.2 LPA. Post a role on CosmoQuick.",
+        "apply_options": [
+          {
+            "title": "University Career Intelligence By CosmoQuick",
+            "link": "https://universities.cosmoquick.com/hire/concurrency/sppu?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDb25jdXJyZW5jeSByb2xlcyBmb3IgU1BQVSB0YWxlbnQiLCJjb21wYW55X25hbWUiOiJDb3Ntb1F1aWNrIiwiaHRpZG9jaWQiOiI0Y2VSVVVKUTRLaENWanJnQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMzaE5YMWd6UzJOWE5VbEdZMjQzZEZjNFUzTmpSamR5WlRsWFNrWklla0V3TTJSVU1qRmxiRk42UWxCQ01HY3dUWHB5UzNkNFFYb3hUbU0xVDB0Q2MxaHZXVEpNZEUxQlMxTm1SREZrYW5Wc09HSm5ObDlwVmw5NmNHY3RTV1ZvU1dKSVlsUTJPRXhrT0MxbVdUTjJWeko2TUZOdlltdG5Sek5oUTNoU09WWnNkMk5rYm5jU0YzRnhOMHBoYzJZNVVFNDJhV2gyWTFCemMxZHdNbEZqR2lKQlJITnlPV1pTVjA5cVdGWnRUWGRWYWtGUmF6RktORE51VjNKSGJXeERaRWxuIiwiZmN2IjoiMyIsImZjX2lkIjoiNGNlUlVVSlE0S2hDVmpyZ0FBQUFBQT09In0="
+      },
+      {
+        "title": "Concurrency roles for Ashoka talent",
+        "company_name": "CosmoQuick",
+        "location": "Sonipat, Haryana",
+        "via": "University Career Intelligence By CosmoQuick",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=concurrency+intern&htidocid=aS4UZiYc48Bg_qZSAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLMQrCQBAAQGzzBAvZWiQngo3aSAptxQeE9VhzMZfd43YDSecfLP2dL1Gb6aZ4z4pDJeyHnIn9BFkiKdwlw1GDdAiGkdjg83zBQ26ghNkHEIaTSBNpvg9mSXfOqcayUUNrfemld8J0k9H9kv6pNWCmFNGo3mzXY5m4WS4q0V4uQ-s7aBmuwm1CW8EZ84SMX1ooq52eAAAA&shmds=v1_ARwrE22pC-a43rx2trRuNga7N9bZWrU93osPbClpMdK6hxQgdA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=concurrency+intern&htidocid=aS4UZiYc48Bg_qZSAAAAAA%3D%3D",
+        "extensions": [
+          "6 days ago",
+          "\u20b921.1L a year",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://universities.cosmoquick.com/hire/concurrency/ashoka",
+        "job_title": "Concurrency roles for Ashoka talent",
+        "description": "Recruit Concurrency professionals from Ashoka, Sonipat. 341+ recruiters, 91% placement rate, avg \u20b921.1 LPA. Post a role on CosmoQuick.",
+        "apply_options": [
+          {
+            "title": "University Career Intelligence By CosmoQuick",
+            "link": "https://universities.cosmoquick.com/hire/concurrency/ashoka?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDb25jdXJyZW5jeSByb2xlcyBmb3IgQXNob2thIHRhbGVudCIsImNvbXBhbnlfbmFtZSI6IkNvc21vUXVpY2siLCJodGlkb2NpZCI6ImFTNFVaaVljNDhCZ19xWlNBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1U1eU5FeENjVlZpUzNZNFZGaExXVlZJYzFkdVpuSnZRMFpVYlZGemJ6RXdjMnA0VlhwaWIxTjNWR3RUTW5GcVNFUnJiMnRqTTBWMk56QTJUR0ZoVHpadVltdFFlVWRwYTJsRWQydzRVVzV6YlRaNVltcHNSM1ZOVkRVMGVYaEJTRE5oUzAxaWRtbzRURTAwY1hvNWJWVklaV0pNWjJKc2JtMTVTMGhsYUZOU1VYRmxhbVVTRjNGeE4wcGhjMlk1VUU0MmFXaDJZMUJ6YzFkd01sRmpHaUpCUkhOeU9XWlVUbFIzYWpWM2MxUlpORmN0UjFWRFh6WTJXa3h0YzAwMGNWWjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJhUzRVWmlZYzQ4QmdfcVpTQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Concurrency roles for IIM Mumbai talent",
+        "company_name": "CosmoQuick",
+        "location": "Mumbai, Maharashtra",
+        "via": "University Career Intelligence By CosmoQuick",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=concurrency+intern&htidocid=_6XItHdjXhaW0xZqAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_y2NMQrCQBAAsc0TrNZWJCeCjTZCCkmRwheEzbHmTu9uw-0GYucf_IFP8yVGsJlqhinei-JUcbJjzpTsAzIHErhyhrpuoBljhx4UAyWFz_MFN-5ACLN1wAnOzH2g5dGpDnIwRiSUvSiqt6XlaDhRx5OZI_mhFYeZhoBK7W6_ncoh9etVxRL5Mnp7B5_-yw00OLsoTjN-AUByg9alAAAA&shmds=v1_ARwrE23AM1McTKvPP7_cHGrWfgQihrGbMZxxN3ibRiQn0ctxaA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=concurrency+intern&htidocid=_6XItHdjXhaW0xZqAAAAAA%3D%3D",
+        "extensions": [
+          "6 days ago",
+          "\u20b923L a year",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://universities.cosmoquick.com/hire/concurrency/iim-mumbai",
+        "job_title": "Concurrency roles for IIM Mumbai talent",
+        "description": "Recruit Concurrency professionals from IIM Mumbai, Mumbai. 372+ recruiters, 93% placement rate, avg \u20b923 LPA. Post a role on CosmoQuick.",
+        "apply_options": [
+          {
+            "title": "University Career Intelligence By CosmoQuick",
+            "link": "https://universities.cosmoquick.com/hire/concurrency/iim-mumbai?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDb25jdXJyZW5jeSByb2xlcyBmb3IgSUlNIE11bWJhaSB0YWxlbnQiLCJjb21wYW55X25hbWUiOiJDb3Ntb1F1aWNrIiwiaHRpZG9jaWQiOiJfNlhJdEhkalhoYVcweFpxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMwdFplVVZoVVdGUlpEZ3RNRFJFTjJoRFJVWkVhVTR5V0RacldEbHJNWE5KZGw5dldXSmZaMUZVT1dsTlNWTlpTRE00YlMxWVdXMUJaRkpOVFROb01sSlpibUYyTjNGVlMwNDJWVXRyY0hacFRHeHVZV2RtVnpSVlVIZFpXR0ZUVEZKTFNVaE1aVTB4VFdJNFRrSnJkMHhhWDJGRWFFTlVOV2hZY2t4TGVuRkpWazgxTVVRU0YzRnhOMHBoYzJZNVVFNDJhV2gyWTFCemMxZHdNbEZqR2lKQlJITnlPV1pTYzJZeWJuaHhOREl5T1d0blZHUnpRalZuZURsUGVFWXRaRlZCIiwiZmN2IjoiMyIsImZjX2lkIjoiXzZYSXRIZGpYaGFXMHhacUFBQUFBQT09In0="
+      },
+      {
+        "title": "Concurrency roles for IIM Ranchi talent",
+        "company_name": "CosmoQuick",
+        "location": "Ranchi, Jharkhand",
+        "via": "University Career Intelligence By CosmoQuick",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=concurrency+intern&htidocid=JYsfu-nmDValbt45AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_y2NMQrCQBAAsc0TbNxaJCeCjTZCColgoR8Il3XNnbnshtsLxM4_-AHf5ktUsJlqhslek2xXCOMQIzHeIUoghatEKMsjnC2j85BsIE7wfjzhJjUo2YgOhGEv0gSabl1KvW6MUQ15o8kmjzlKZ4SpltF8I_2hUmcj9cEmqlbr5Zj33MxnhWgnp8FjC57_ywUcvmrrLF8-Rj59-6MAAAA&shmds=v1_ARwrE22KfY-tteTzaHiNcHfiPgzKSaanEY2vmrefflRMo17kkw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=concurrency+intern&htidocid=JYsfu-nmDValbt45AAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "\u20b912.3L a year",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://universities.cosmoquick.com/hire/concurrency/iim-ranchi",
+        "job_title": "Concurrency roles for IIM Ranchi talent",
+        "description": "Recruit Concurrency professionals from IIM Ranchi, Ranchi. 219+ recruiters, 88% placement rate, avg \u20b912.3 LPA. Post a role on CosmoQuick.",
+        "apply_options": [
+          {
+            "title": "University Career Intelligence By CosmoQuick",
+            "link": "https://universities.cosmoquick.com/hire/concurrency/iim-ranchi?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDb25jdXJyZW5jeSByb2xlcyBmb3IgSUlNIFJhbmNoaSB0YWxlbnQiLCJjb21wYW55X25hbWUiOiJDb3Ntb1F1aWNrIiwiaHRpZG9jaWQiOiJKWXNmdS1ubURWYWxidDQ1QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNVRjNWV2xMVUhCTFIxSjVMVXAwVWtac1gwTlZjRXRHWmxReGRURnBibHAyWjA0NVptcE9XSEJVTFVWVVpEaHBlbU5zU2s1NFptNUtZVWhrTW5Ca1QweHZNMnhSYkZwSlJuZHhMVmhPYjJoWmFWOWtlbEEwUzJGWVV5MVBMVnB3UkZoT1FXVnZiMnN5VTE5cVZrUTJTbUpCTW5GQ01YTXlkR2hrT0hSdWJrTjZVM0ZLVHkwU0YzRnhOMHBoYzJZNVVFNDJhV2gyWTFCemMxZHdNbEZqR2lKQlJITnlPV1pTU1Y4MVRIZDZRbG93Vms5aVYweENiMHA2WTFsVlRqQlVOR1JSIiwiZmN2IjoiMyIsImZjX2lkIjoiSllzZnUtbm1EVmFsYnQ0NUFBQUFBQT09In0="
+      },
+      {
+        "title": "Concurrency roles for Symbiosis Institute Kurnool talent",
+        "company_name": "CosmoQuick",
+        "location": "Kurnool, Andhra Pradesh",
+        "via": "University Career Intelligence By CosmoQuick",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=concurrency+intern&htidocid=iSoeeR67KCx0tXNUAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_zXNMQrCQBBAUWw9gtU0NiKJCDZaSQoRG4MHkM06Zlc3M2FmFrTzDh7G-3gStbD53eMPX4NhXTH5LILk7yCcUOHMAod710TWqLAltWjZEHZZiDmBuYRk8H484cINKDrxAZhgw9wmHK2CWa_LslRNRavmLPrCc1cyYcO38ov0l6MGJ9gnZ3icL2a3oqd2Mq5YO65z9FeI9H9OYU2nIA724k6o4QPJZX4AugAAAA&shmds=v1_ARwrE23z5U_ZCy29onimiMXrj4KXS9kxEApQRDsUWPHpcUbJ1Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=concurrency+intern&htidocid=iSoeeR67KCx0tXNUAAAAAA%3D%3D",
+        "extensions": [
+          "4 days ago",
+          "\u20b94.4L a year",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://universities.cosmoquick.com/hire/concurrency/symbiosis-institute-kurnool",
+        "job_title": "Concurrency roles for Symbiosis Institute Kurnool talent",
+        "description": "Recruit Concurrency professionals from Symbiosis Institute Kurnool, Kurnool. 51+ recruiters, 65% placement rate, avg \u20b94.4 LPA. Post a role on CosmoQuick.",
+        "apply_options": [
+          {
+            "title": "University Career Intelligence By CosmoQuick",
+            "link": "https://universities.cosmoquick.com/hire/concurrency/symbiosis-institute-kurnool?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDb25jdXJyZW5jeSByb2xlcyBmb3IgU3ltYmlvc2lzIEluc3RpdHV0ZSBLdXJub29sIHRhbGVudCIsImNvbXBhbnlfbmFtZSI6IkNvc21vUXVpY2siLCJodGlkb2NpZCI6ImlTb2VlUjY3S0N4MHRYTlVBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEhVeVZEUk1ZekJuTWs5MlJYcFJNVzVKT1dGUGFWZFZjR2xQUWpseE9HYzRkVmR5VmxvdGEzQm1NMFJKV1VsRWJXcDZTVVpZWlZoSVZsZ3pjVlpSYTNKbFNqZGZWa00zVEVaalJtSnhMVFpVU0ZsdVJFNXlTRE4xY1RCUlRHODVRbVJpUjA4dFZVVjRUbmxsYVhKMldIcHRNMFk1V0dkUFpGbHROa2xWYzJoUlFVbDNOV01TRjNGeE4wcGhjMlk1VUU0MmFXaDJZMUJ6YzFkd01sRmpHaUpCUkhOeU9XWlViQzFrYVhkSVlUSlFTekZIVEdsTVVuSTVhR1pQVHpCSk1sOW4iLCJmY3YiOiIzIiwiZmNfaWQiOiJpU29lZVI2N0tDeDB0WE5VQUFBQUFBPT0ifQ=="
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTM2hOWDFnelMyTlhOVWxHWTI0M2RGYzRVM05qUmpkeVpUbFhTa1pJZWtFd00yUlVNakZsYkZONlFsQkNNR2N3VFhweVMzZDRRWG94VG1NMVQwdENjMWh2V1RKTWRFMUJTMU5tUkRGa2FuVnNPR0puTmw5cFZsOTZjR2N0U1dWb1NXSklZbFEyT0V4a09DMW1XVE4yVnpKNk1GTnZZbXRuUnpOaFEzaFNPVlpzZDJOa2JuY1NGM0Z4TjBwaGMyWTVVRTQyYVdoMlkxQnpjMWR3TWxGakdpSkJSSE55T1daU1YwOXFXRlp0VFhkVmFrRlJhekZLTkROdVYzSkhiV3hEWkVsbiIsImZjdiI6IjMifQ==",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTM2hOWDFnelMyTlhOVWxHWTI0M2RGYzRVM05qUmpkeVpUbFhTa1pJZWtFd00yUlVNakZsYkZONlFsQkNNR2N3VFhweVMzZDRRWG94VG1NMVQwdENjMWh2V1RKTWRFMUJTMU5tUkRGa2FuVnNPR0puTmw5cFZsOTZjR2N0U1dWb1NXSklZbFEyT0V4a09DMW1XVE4yVnpKNk1GTnZZbXRuUnpOaFEzaFNPVlpzZDJOa2JuY1NGM0Z4TjBwaGMyWTVVRTQyYVdoMlkxQnpjMWR3TWxGakdpSkJSSE55T1daU1YwOXFXRlp0VFhkVmFrRlJhekZLTkROdVYzSkhiV3hEWkVsbiIsImZjdiI6IjMifQ%3D%3D&q=concurrency+intern"
+    }
+  }
+}

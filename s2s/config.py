@@ -67,9 +67,11 @@ class Settings:
     cache_ttl_hours: int = 72
     results_per_search: int = 10
 
-    # Grounding gate
-    probe_top_n: int = 12
-    probe_timeout_s: float = 3.0
+    # Grounding gate. Probes are plain HTTP and cost no SerpApi credit, so they
+    # run in demo mode too - offline they fail soft to "unverified". The gate
+    # probes in search order, not rank order, so N must cover most survivors.
+    probe_top_n: int = 40
+    probe_timeout_s: float = 4.0
 
     # Tier C (Upwork / Freelancer / Contra) is opt-in: those platforms gate
     # their detail pages and their Google index goes stale, so they are the
@@ -95,6 +97,7 @@ class Settings:
             max_competencies=_env_int("S2S_MAX_COMPETENCIES", 6),
             cache_ttl_hours=_env_int("S2S_CACHE_TTL_HOURS", 72),
             include_tier_c=_env_bool("S2S_INCLUDE_TIER_C", False),
+            probe_top_n=_env_int("S2S_PROBE_TOP_N", 40),
         )
 
     # -- capability flags used by the UI ----------------------------------

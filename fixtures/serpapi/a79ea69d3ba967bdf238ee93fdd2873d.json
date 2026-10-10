@@ -1,0 +1,125 @@
+{
+  "fetched_at": 1791602581.568293,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com layout design competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af91b6a86736f887ecd9",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/YI79InGzb0YDm5rCA55nHu2vnWKg0ukCW4ZpoNZcdS0/6ac9af91b6a86736f887ecd9.json",
+      "markdown_endpoint": "https://serpapi.com/searches/YI79InGzb0YDm5rCA55nHu2vnWKg0ukCW4ZpoNZcdS0/6ac9af91b6a86736f887ecd9.md",
+      "created_at": "2026-10-10 03:22:57 UTC",
+      "processed_at": "2026-10-10 03:22:57 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+layout+design+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/YI79InGzb0YDm5rCA55nHu2vnWKg0ukCW4ZpoNZcdS0/6ac9af91b6a86736f887ecd9.html",
+      "prettify_html_file": "https://serpapi.com/searches/YI79InGzb0YDm5rCA55nHu2vnWKg0ukCW4ZpoNZcdS0/6ac9af91b6a86736f887ecd9.prettify",
+      "total_time_taken": 4.07
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com layout design competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Design Odyssey - 2026",
+        "link": "https://unstop.com/competitions/design-odyssey-e-summit26-indian-institute-of-technology-iit-patna-1621840",
+        "date_raw": "2026-01-11T17:29:00.0000000",
+        "date": "Jan 11, 2026",
+        "snippet": "Design Odyssey is an online graphic design competition jointly organized by E-Cell IIT Patna and Moodboard IIT Patna, in collaboration with the Association of Designers of India Kolkata Chapter (ADI Kolkata). This competition focuses on first-touch graphic communication \u2014how a brand is visually understood within seconds, especially in fast-paced, real-world contexts. Participants are expected to rely on core graphic design fundamentals such as typography, layout, hierarchy, colour, and ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Internships | Jobs | Competitions | Hackathons | Courses - Unstop",
+        "link": "https://unstop.com/",
+        "snippet": "Apply for jobs, internships, and hackathons. Compete in contests, build skills with career courses, and get hired by top employers. Your one stop career platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Be Me UI/UX Design Competition - 2025 - api.unstop.com",
+        "link": "https://api.unstop.com/competitions/uiux-design-competition-be-me-1443528",
+        "snippet": "Find out the best Be Me UI/UX Design Competition that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash rewards...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "UI/UX Design - 2025 - api.unstop.com",
+        "link": "https://api.unstop.com/hackathons/uiux-design-sankalp25-vel-tech-rangarajan-dr-sagunthala-rd-institute-of-science-and-technology-avadi-1395644",
+        "snippet": "The UI/UX Design Sprint at Sankalp 2025 is a dynamic competition aimed at fostering creativity and innovation in user interface and user experience design. Participants will engage in an intensive process to design intuitive and engaging interfaces, addressing real-world challenges and enhancing user satisfaction. Guidelines: Eligibility:",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Creative Design & Branding Internship at Pehchan | Remote",
+        "link": "https://unstop.com/internships/creative-design-branding-internship-pehchan-1767329",
+        "date_raw": "2026-10-07T14:38:00.0000000",
+        "date": "Oct 7, 2026",
+        "snippet": "Apply for the Creative Design & Branding Internship at Pehchan as a Remote opportunity. Explore eligibility criteria, stipend details, internship duration, and role responsibilities.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "UI/UX VibeCoding Website Design Challenge - 2026",
+        "link": "https://unstop.com/competitions/uiux-vibecoding-website-design-challenge-esparto-2026-hyderabad-institute-of-technology-and-management-hitm-1621771",
+        "snippet": "An open web design challenge where participants unleash their creativity to design visually stunning, user-centric, and fully responsive landing pages. The competition focuses on UI/UX principles, creativity, usability, and modern design trends. Participants may use any preferred design or development tools to craft engaging layouts with intuitive navigation and seamless user experience. Entries will be evaluated based on aesthetics, responsiveness, innovation, and overall user interaction ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Layout Design Engineer Job at Synopsys | Multiple Locations",
+        "link": "https://unstop.com/jobs/layout-design-engineer-synopsys-1020702?ref=ConnectKreation",
+        "snippet": "Unstop - Competitions, Quizzes, Hackathons, Scholarships and Internships for Students and Corporates",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Layout Design Engineer Job in Bangalore at Intel | Unstop",
+        "link": "https://unstop.com/jobs/layout-design-engineer-intel-1717811",
+        "date_raw": "2026-07-26T00:00:00.0000000",
+        "date": "Jul 26, 2026",
+        "snippet": "Unstop - Competitions, Quizzes, Hackathons, Scholarships and Internships for Students and Corporates",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Design for Every Generation - UX Escape 2026 - unstop.com",
+        "link": "https://unstop.com/competitions/design-for-every-generation-ux-escape-2026-madras-institute-of-technology-anna-university-1644870",
+        "date_raw": "2026-02-19T19:22:00.0000000",
+        "date": "Feb 19, 2026",
+        "snippet": "Find out the best Design for Every Generation - UX Escape 2026 that match your interests. Prove your mettle and win exciting prizes like job opportunities ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "CAD Design Challenge - 2026",
+        "link": "https://unstop.com/competitions/cad-design-challenge-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineering-a-1744769",
+        "date_raw": "2026-09-18T00:00:00.0000000",
+        "date": "Sep 18, 2026",
+        "snippet": "Fee once paid is non-refundable. About the Opportunity: An online team competition focused on CAD design. Embark on an exciting journey with the CAD Design Challenge, an online competition hosted by the Sant Longowal Institute of Engineering and Technology, Longowal, Punjab. This event is designed for creative minds eager to showcase their skil...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "VLSI Design Internship at Kukbit SL | Remote - unstop.com",
+        "link": "https://unstop.com/internships/vlsi-design-internship-unstop-summer-internship-fair-2026-kukbit-sl-1727290",
+        "date_raw": "2026-08-17T00:00:00.0000000",
+        "date": "Aug 17, 2026",
+        "snippet": "Apply for the VLSI Design Internship at Kukbit SL as a Remote opportunity. Explore eligibility criteria, stipend details, internship duration, and role responsibilities. Apply online on Unstop.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+layout+design+competition&start=11"
+    }
+  }
+}

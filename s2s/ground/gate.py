@@ -60,11 +60,27 @@ def tier0_url_shape(result: RawResult) -> bool:
     return re.match(adapter.url_pattern, result.url or "", re.IGNORECASE) is not None
 
 
-def tier1_snippet(result: RawResult) -> Verdict | None:
+#: Boards stamp the edition year into the title ("Budget Battle - 2026",
+#: "Financial Modeling & Valuation Competition - 2020"). Search indexes keep
+#: old editions for years; with no posting date they otherwise rank as fresh.
+TITLE_YEAR_RE = re.compile(r"\b(20[1-9]\d)\b")
+
+
+def stale_by_title_year(title: str, now: datetime | None = None) -> bool:
+    """True when every year in the title is already in the past."""
+    years = [int(y) for y in TITLE_YEAR_RE.findall(title)]
+    current = (now or datetime.now()).year
+    return bool(years) and max(years) < current
+
+
+def tier1_snippet(result: RawResult, now: datetime | None = None) -> Verdict | None:
     """Free signals from the SERP snippet. Returns 'archived' or None."""
     adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
     markers = tuple(adapter.gate_markers) if adapter else ()
     haystack = f"{result.title} {result.snippet}".lower()
+
+    if stale_by_title_year(result.title, now):
+        return "archived"
 
     for marker in markers + GENERIC_DEAD_MARKERS:
         if marker and marker.lower() in haystack:
@@ -72,11 +88,62 @@ def tier1_snippet(result: RawResult) -> Verdict | None:
     return None
 
 
+def status_api_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
+    """Ask the platform's own status endpoint. Costs no SerpApi credit."""
+    adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
+    api = adapter.status_api if adapter else None
+    if api is None:
+        return "unverified"
+    match = re.search(api.id_re, result.url or "")
+    if not match:
+        return "unverified"
+    try:
+        import requests
+
+        response = requests.get(
+            api.url.format(id=match.group(1)),
+            timeout=timeout,
+            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+        )
+        node = response.json()
+    except Exception as exc:
+        log.debug("status api failed for %s: %s", result.url, exc)
+        return "unverified"
+
+    if response.status_code == 404:
+        return "archived"
+    status = _dig(node, api.path)
+    if not isinstance(status, str) or not status:
+        return "unverified"
+    if status.upper() in api.dead:
+        return "archived"
+
+    closes = _dig(node, api.deadline) if api.deadline else None
+    if isinstance(closes, str):
+        try:
+            closing = datetime.fromisoformat(closes)
+            if closing < datetime.now(closing.tzinfo):
+                return "archived"
+        except ValueError:
+            pass
+    return "live"
+
+
+def _dig(node, path: tuple[str, ...]):
+    for key in path:
+        if not isinstance(node, dict):
+            return None
+        node = node.get(key)
+    return node
+
+
 def tier2_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
     """Fetch the page and decide. Costs no SerpApi credit."""
     adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
     if adapter is None:
         return "unverified"
+    if adapter.status_api is not None:
+        return status_api_probe(result, timeout=timeout)
 
     try:
         import requests

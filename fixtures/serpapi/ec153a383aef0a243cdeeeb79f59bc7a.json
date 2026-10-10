@@ -1,0 +1,238 @@
+{
+  "fetched_at": 1791602715.943629,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "budget intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b0160676dcd72c0fbe1e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/jNmK2WEE6B1y3YFxC99SnS2kLW0pNZxG9uaCfetKZDs/6ac9b0160676dcd72c0fbe1e.json",
+      "markdown_endpoint": "https://serpapi.com/searches/jNmK2WEE6B1y3YFxC99SnS2kLW0pNZxG9uaCfetKZDs/6ac9b0160676dcd72c0fbe1e.md",
+      "created_at": "2026-10-10 03:25:10 UTC",
+      "processed_at": "2026-10-10 03:25:10 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=budget+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/jNmK2WEE6B1y3YFxC99SnS2kLW0pNZxG9uaCfetKZDs/6ac9b0160676dcd72c0fbe1e.html",
+      "total_time_taken": 5.5
+    },
+    "search_parameters": {
+      "q": "budget intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp5s5hMpwCgOD7v7xm-tdiViP0iGe4xaPmX5PFd-CunCTROW1r0R5aygQ0Bb7wEoUECSfoled4sLsgCv9vqCFSNGONYVJ3qAkwwu0CfHeRKAa5TT1OhcMKP_y2jZPnaFiInfICRXWd9PfIIoT_Sks-kT6Xkar",
+          "q": "budget intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp5s5hMpwCgOD7v7xm-tdiViP0iGe4xaPmX5PFd-CunCTROW1r0R5aygQ0Bb7wEoUECSfoled4sLsgCv9vqCFSNGONYVJ3qAkwwu0CfHeRKAa5TT1OhcMKP_y2jZPnaFiInfICRXWd9PfIIoT_Sks-kT6Xkar&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQxKsJKAB6BAgZEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp5s5hMpwCgOD7v7xm-tdiViP0iGe4xaPmX5PFd-CunCTROW1r0R5aygQ0Bb7wEoUECSfoled4sLsgCv9vqCFSNGONYVJ3qAkwwu0CfHeRKAa5TT1OhcMKP_y2jZPnaFiInfICRXWd9PfIIoT_Sks-kT6Xkar"
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15qFzZrF5u3SyAEn4Ua6mRqEoov_B8X4I7-ztkTs8Tw1f9NPpQk98Vqj-NUzHdFlHqSKE7irq55iK5elR_shQQ0n3xsMveFHFv2ln0T6NENheMXlYtqhHuUbEbJyMnpbCpLMju-Es_uagrsp9e2oXsfyNpv5dmLkbYBXseJaClXYv5eZlHnnOSJfzKPNW65bb20EQTBkyjoM1pbzxtlej_RHOIYQKlZlVsw3jbyokO4i7-61SY4WpdBwzwrW7zymah0vKOOgBvZxNqI8Xkfh9f1OnEBm2Kr6GtLMLgY4keU7gOEmP0",
+              "q": "budget intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15qFzZrF5u3SyAEn4Ua6mRqEoov_B8X4I7-ztkTs8Tw1f9NPpQk98Vqj-NUzHdFlHqSKE7irq55iK5elR_shQQ0n3xsMveFHFv2ln0T6NENheMXlYtqhHuUbEbJyMnpbCpLMju-Es_uagrsp9e2oXsfyNpv5dmLkbYBXseJaClXYv5eZlHnnOSJfzKPNW65bb20EQTBkyjoM1pbzxtlej_RHOIYQKlZlVsw3jbyokO4i7-61SY4WpdBwzwrW7zymah0vKOOgBvZxNqI8Xkfh9f1OnEBm2Kr6GtLMLgY4keU7gOEmP0&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15qFzZrF5u3SyAEn4Ua6mRqEoov_B8X4I7-ztkTs8Tw1f9NPpQk98Vqj-NUzHdFlHqSKE7irq55iK5elR_shQQ0n3xsMveFHFv2ln0T6NENheMXlYtqhHuUbEbJyMnpbCpLMju-Es_uagrsp9e2oXsfyNpv5dmLkbYBXseJaClXYv5eZlHnnOSJfzKPNW65bb20EQTBkyjoM1pbzxtlej_RHOIYQKlZlVsw3jbyokO4i7-61SY4WpdBwzwrW7zymah0vKOOgBvZxNqI8Xkfh9f1OnEBm2Kr6GtLMLgY4keU7gOEmP0"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15kI32SKfrUP0gYj8VCVECZnwrRxgPSF8bqf5Ny9iDf4Zs_fFB7LmwBgpwIJuWETIG4UVySNoFVLVVyr-ZajkIjLAZNirmzPc1F7V2Xr4900sNLHOGrp5Hyp3GyzoTs1QCWrAcUjXl9hnKzQPgFLLhAyyWxRcBSAfWag6_rt4ipy9N9443IAJ9FsqW_4HmkyFswuwZV7sT9dUJ7Y-cQdREwQRsPL44Fjf0BcB3YyRlpq1yNT49rbyboSOdESxO7FNwIvAVItRuoGwfuYbj-oZYMnRfjhqbAOjZBHsH7XsqR9EkKJzw",
+              "q": "budget intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15kI32SKfrUP0gYj8VCVECZnwrRxgPSF8bqf5Ny9iDf4Zs_fFB7LmwBgpwIJuWETIG4UVySNoFVLVVyr-ZajkIjLAZNirmzPc1F7V2Xr4900sNLHOGrp5Hyp3GyzoTs1QCWrAcUjXl9hnKzQPgFLLhAyyWxRcBSAfWag6_rt4ipy9N9443IAJ9FsqW_4HmkyFswuwZV7sT9dUJ7Y-cQdREwQRsPL44Fjf0BcB3YyRlpq1yNT49rbyboSOdESxO7FNwIvAVItRuoGwfuYbj-oZYMnRfjhqbAOjZBHsH7XsqR9EkKJzw&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15kI32SKfrUP0gYj8VCVECZnwrRxgPSF8bqf5Ny9iDf4Zs_fFB7LmwBgpwIJuWETIG4UVySNoFVLVVyr-ZajkIjLAZNirmzPc1F7V2Xr4900sNLHOGrp5Hyp3GyzoTs1QCWrAcUjXl9hnKzQPgFLLhAyyWxRcBSAfWag6_rt4ipy9N9443IAJ9FsqW_4HmkyFswuwZV7sT9dUJ7Y-cQdREwQRsPL44Fjf0BcB3YyRlpq1yNT49rbyboSOdESxO7FNwIvAVItRuoGwfuYbj-oZYMnRfjhqbAOjZBHsH7XsqR9EkKJzw"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rP1QUifCLkObGdddYWM6vgj8domiFAaXuLl4otRJtWaMhbAo5RPrFMcBqwxIxT6Sy5qJqxrWbGXrHeHIE8xTsvp0FdqnngiEFZGb1AWZS7t-uMsW4QqOwXp96gGn2ML_UqX6P8iuUSi9KpWUyr59i_AE1WSc42cAbdFVAI2tA8X7c5ljsYyyrIQmUvHFdFZZyNggeSKT9Bopeek9RWAzT_gOa6SyE0YMasg7KdPmgwm1L8kjLFJOPmddsScRNk2OaIP89NVxJs2EINTxZoIVcToBUgYPxmy-zy90afD4gDZjj4ZRxtikX3SHJYptzTU59cxSb3g",
+              "q": "budget intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rP1QUifCLkObGdddYWM6vgj8domiFAaXuLl4otRJtWaMhbAo5RPrFMcBqwxIxT6Sy5qJqxrWbGXrHeHIE8xTsvp0FdqnngiEFZGb1AWZS7t-uMsW4QqOwXp96gGn2ML_UqX6P8iuUSi9KpWUyr59i_AE1WSc42cAbdFVAI2tA8X7c5ljsYyyrIQmUvHFdFZZyNggeSKT9Bopeek9RWAzT_gOa6SyE0YMasg7KdPmgwm1L8kjLFJOPmddsScRNk2OaIP89NVxJs2EINTxZoIVcToBUgYPxmy-zy90afD4gDZjj4ZRxtikX3SHJYptzTU59cxSb3g&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rP1QUifCLkObGdddYWM6vgj8domiFAaXuLl4otRJtWaMhbAo5RPrFMcBqwxIxT6Sy5qJqxrWbGXrHeHIE8xTsvp0FdqnngiEFZGb1AWZS7t-uMsW4QqOwXp96gGn2ML_UqX6P8iuUSi9KpWUyr59i_AE1WSc42cAbdFVAI2tA8X7c5ljsYyyrIQmUvHFdFZZyNggeSKT9Bopeek9RWAzT_gOa6SyE0YMasg7KdPmgwm1L8kjLFJOPmddsScRNk2OaIP89NVxJs2EINTxZoIVcToBUgYPxmy-zy90afD4gDZjj4ZRxtikX3SHJYptzTU59cxSb3g"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rUoQZf4gR9RMlgEF9DTInFun5HNmHq6nlED_r1B0pG4_CKRuXVCBO5uZxfyn4XqoEY1_rk2PWbv-HZuBSCF3rWCzEOG_2Sr8yj1p0gjR73zoAyMLJnDNi-P4MY1E87HbTlhGjgokmfJnRBcISkaAaqvYkn_Ed4idzqi5EIL9YmJBF5WgiPTFTlhNAHt_nCeLLnxKAQSYM_AoW4MagkQnfNZI1oKp0MKgWgg_SicOg09bvlXPNCZuovzckSNK-_VCAwWrm-bqL1ASFVFkxfSY8JOVL6-HHb2cKyFjbKRq7WlW9x0sdHO7K9qRttIq4xnpM99m9xLsOBmZzf3LopYnoJBNLPEY",
+              "q": "budget intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rUoQZf4gR9RMlgEF9DTInFun5HNmHq6nlED_r1B0pG4_CKRuXVCBO5uZxfyn4XqoEY1_rk2PWbv-HZuBSCF3rWCzEOG_2Sr8yj1p0gjR73zoAyMLJnDNi-P4MY1E87HbTlhGjgokmfJnRBcISkaAaqvYkn_Ed4idzqi5EIL9YmJBF5WgiPTFTlhNAHt_nCeLLnxKAQSYM_AoW4MagkQnfNZI1oKp0MKgWgg_SicOg09bvlXPNCZuovzckSNK-_VCAwWrm-bqL1ASFVFkxfSY8JOVL6-HHb2cKyFjbKRq7WlW9x0sdHO7K9qRttIq4xnpM99m9xLsOBmZzf3LopYnoJBNLPEY&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rUoQZf4gR9RMlgEF9DTInFun5HNmHq6nlED_r1B0pG4_CKRuXVCBO5uZxfyn4XqoEY1_rk2PWbv-HZuBSCF3rWCzEOG_2Sr8yj1p0gjR73zoAyMLJnDNi-P4MY1E87HbTlhGjgokmfJnRBcISkaAaqvYkn_Ed4idzqi5EIL9YmJBF5WgiPTFTlhNAHt_nCeLLnxKAQSYM_AoW4MagkQnfNZI1oKp0MKgWgg_SicOg09bvlXPNCZuovzckSNK-_VCAwWrm-bqL1ASFVFkxfSY8JOVL6-HHb2cKyFjbKRq7WlW9x0sdHO7K9qRttIq4xnpM99m9xLsOBmZzf3LopYnoJBNLPEY"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15qFzZrF5u3SyAEn4Ua6mRqEoov_B8X4I7-ztkTs8Tw1f9NPpQk98Vqj-NUzHdFlHqSKE7irq55iK5elR_shQQ0n3xsMveFHFv2ln0T6NENheMXlYtqhHuUbEbJyMnpbCpLMju-Es_uagrsp9e2oXsfyNpv5dmLkbYBXseJaClXYv5eZlHnnOSJfzKPNW65bb20EQTBkyjoM1pbzxtlej_RHOIYQKlZlVsw3jbyokO4i7-61SY4WpdBwzwrW7zymah0vKOOgBvZxNqI8Xkfh9f1OnEBm2Kr6GtLMLgY4keU7gOEmP0",
+              "q": "budget intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15qFzZrF5u3SyAEn4Ua6mRqEoov_B8X4I7-ztkTs8Tw1f9NPpQk98Vqj-NUzHdFlHqSKE7irq55iK5elR_shQQ0n3xsMveFHFv2ln0T6NENheMXlYtqhHuUbEbJyMnpbCpLMju-Es_uagrsp9e2oXsfyNpv5dmLkbYBXseJaClXYv5eZlHnnOSJfzKPNW65bb20EQTBkyjoM1pbzxtlej_RHOIYQKlZlVsw3jbyokO4i7-61SY4WpdBwzwrW7zymah0vKOOgBvZxNqI8Xkfh9f1OnEBm2Kr6GtLMLgY4keU7gOEmP0&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15qFzZrF5u3SyAEn4Ua6mRqEoov_B8X4I7-ztkTs8Tw1f9NPpQk98Vqj-NUzHdFlHqSKE7irq55iK5elR_shQQ0n3xsMveFHFv2ln0T6NENheMXlYtqhHuUbEbJyMnpbCpLMju-Es_uagrsp9e2oXsfyNpv5dmLkbYBXseJaClXYv5eZlHnnOSJfzKPNW65bb20EQTBkyjoM1pbzxtlej_RHOIYQKlZlVsw3jbyokO4i7-61SY4WpdBwzwrW7zymah0vKOOgBvZxNqI8Xkfh9f1OnEBm2Kr6GtLMLgY4keU7gOEmP0"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15kI32SKfrUP0gYj8VCVECZnwrRxgPSF8bqf5Ny9iDf4Zs_fFB7LmwBgpwIJuWETIG4UVySNoFVLVVyr-ZajkIjLAZNirmzPc1F7V2Xr4900sNLHOGrp5Hyp3GyzoTs1QCWrAcUjXl9hnKzQPgFLLhAyyWxRcBSAfWag6_rt4ipy9N9443IAJ9FsqW_4HmkyFswuwZV7sT9dUJ7Y-cQdREwQRsPL44Fjf0BcB3YyRlpq1yNT49rbyboSOdESxO7FNwIvAVItRuoGwfuYbj-oZYMnRfjhqbAOjZBHsH7XsqR9EkKJzw",
+              "q": "budget intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15kI32SKfrUP0gYj8VCVECZnwrRxgPSF8bqf5Ny9iDf4Zs_fFB7LmwBgpwIJuWETIG4UVySNoFVLVVyr-ZajkIjLAZNirmzPc1F7V2Xr4900sNLHOGrp5Hyp3GyzoTs1QCWrAcUjXl9hnKzQPgFLLhAyyWxRcBSAfWag6_rt4ipy9N9443IAJ9FsqW_4HmkyFswuwZV7sT9dUJ7Y-cQdREwQRsPL44Fjf0BcB3YyRlpq1yNT49rbyboSOdESxO7FNwIvAVItRuoGwfuYbj-oZYMnRfjhqbAOjZBHsH7XsqR9EkKJzw&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rfPVpXoLQvd9dDfyaeoH57ZXw79Cp52dTIpPyQuLfy15kI32SKfrUP0gYj8VCVECZnwrRxgPSF8bqf5Ny9iDf4Zs_fFB7LmwBgpwIJuWETIG4UVySNoFVLVVyr-ZajkIjLAZNirmzPc1F7V2Xr4900sNLHOGrp5Hyp3GyzoTs1QCWrAcUjXl9hnKzQPgFLLhAyyWxRcBSAfWag6_rt4ipy9N9443IAJ9FsqW_4HmkyFswuwZV7sT9dUJ7Y-cQdREwQRsPL44Fjf0BcB3YyRlpq1yNT49rbyboSOdESxO7FNwIvAVItRuoGwfuYbj-oZYMnRfjhqbAOjZBHsH7XsqR9EkKJzw"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rP1QUifCLkObGdddYWM6vgj8domiFAaXuLl4otRJtWaMhbAo5RPrFMcBqwxIxT6Sy5qJqxrWbGXrHeHIE8xTsvp0FdqnngiEFZGb1AWZS7t-uMsW4QqOwXp96gGn2ML_UqX6P8iuUSi9KpWUyr59i_AE1WSc42cAbdFVAI2tA8X7c5ljsYyyrIQmUvHFdFZZyNggeSKT9Bopeek9RWAzT_gOa6SyE0YMasg7KdPmgwm1L8kjLFJOPmddsScRNk2OaIP89NVxJs2EINTxZoIVcToBUgYPxmy-zy90afD4gDZjj4ZRxtikX3SHJYptzTU59cxSb3g",
+              "q": "budget intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rP1QUifCLkObGdddYWM6vgj8domiFAaXuLl4otRJtWaMhbAo5RPrFMcBqwxIxT6Sy5qJqxrWbGXrHeHIE8xTsvp0FdqnngiEFZGb1AWZS7t-uMsW4QqOwXp96gGn2ML_UqX6P8iuUSi9KpWUyr59i_AE1WSc42cAbdFVAI2tA8X7c5ljsYyyrIQmUvHFdFZZyNggeSKT9Bopeek9RWAzT_gOa6SyE0YMasg7KdPmgwm1L8kjLFJOPmddsScRNk2OaIP89NVxJs2EINTxZoIVcToBUgYPxmy-zy90afD4gDZjj4ZRxtikX3SHJYptzTU59cxSb3g&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rP1QUifCLkObGdddYWM6vgj8domiFAaXuLl4otRJtWaMhbAo5RPrFMcBqwxIxT6Sy5qJqxrWbGXrHeHIE8xTsvp0FdqnngiEFZGb1AWZS7t-uMsW4QqOwXp96gGn2ML_UqX6P8iuUSi9KpWUyr59i_AE1WSc42cAbdFVAI2tA8X7c5ljsYyyrIQmUvHFdFZZyNggeSKT9Bopeek9RWAzT_gOa6SyE0YMasg7KdPmgwm1L8kjLFJOPmddsScRNk2OaIP89NVxJs2EINTxZoIVcToBUgYPxmy-zy90afD4gDZjj4ZRxtikX3SHJYptzTU59cxSb3g"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rUoQZf4gR9RMlgEF9DTInFun5HNmHq6nlED_r1B0pG4_CKRuXVCBO5uZxfyn4XqoEY1_rk2PWbv-HZuBSCF3rWCzEOG_2Sr8yj1p0gjR73zoAyMLJnDNi-P4MY1E87HbTlhGjgokmfJnRBcISkaAaqvYkn_Ed4idzqi5EIL9YmJBF5WgiPTFTlhNAHt_nCeLLnxKAQSYM_AoW4MagkQnfNZI1oKp0MKgWgg_SicOg09bvlXPNCZuovzckSNK-_VCAwWrm-bqL1ASFVFkxfSY8JOVL6-HHb2cKyFjbKRq7WlW9x0sdHO7K9qRttIq4xnpM99m9xLsOBmZzf3LopYnoJBNLPEY",
+              "q": "budget intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rUoQZf4gR9RMlgEF9DTInFun5HNmHq6nlED_r1B0pG4_CKRuXVCBO5uZxfyn4XqoEY1_rk2PWbv-HZuBSCF3rWCzEOG_2Sr8yj1p0gjR73zoAyMLJnDNi-P4MY1E87HbTlhGjgokmfJnRBcISkaAaqvYkn_Ed4idzqi5EIL9YmJBF5WgiPTFTlhNAHt_nCeLLnxKAQSYM_AoW4MagkQnfNZI1oKp0MKgWgg_SicOg09bvlXPNCZuovzckSNK-_VCAwWrm-bqL1ASFVFkxfSY8JOVL6-HHb2cKyFjbKRq7WlW9x0sdHO7K9qRttIq4xnpM99m9xLsOBmZzf3LopYnoJBNLPEY&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rUoQZf4gR9RMlgEF9DTInFun5HNmHq6nlED_r1B0pG4_CKRuXVCBO5uZxfyn4XqoEY1_rk2PWbv-HZuBSCF3rWCzEOG_2Sr8yj1p0gjR73zoAyMLJnDNi-P4MY1E87HbTlhGjgokmfJnRBcISkaAaqvYkn_Ed4idzqi5EIL9YmJBF5WgiPTFTlhNAHt_nCeLLnxKAQSYM_AoW4MagkQnfNZI1oKp0MKgWgg_SicOg09bvlXPNCZuovzckSNK-_VCAwWrm-bqL1ASFVFkxfSY8JOVL6-HHb2cKyFjbKRq7WlW9x0sdHO7K9qRttIq4xnpM99m9xLsOBmZzf3LopYnoJBNLPEY"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpxNsmWyGi5zihWpy5V2ffRKJBmo3l8cCnnHk6QkfMctQ8FLlkGMAWYNR_QYtXdEqxX7fQtyX2Q6PD3vCsEt9wuNpjrE2ohx8BaH61yqHwgk92l3NLBRar5PgCFUgeVTFecCMISiaumUcHjbKwKHb0RTr7EgxlnDDY6vtjwZ1uagAzB1twZ9JvEqPrFW94XcUDOPqbFuthQKUB2JxxFur0Eg_cidA6vgTpqZ6TBgWDdAbRJD45YMgsR1_ht-vTxjy4MgrTEHfEl2e4TJpolOWicmbFlQWzSy4gOowd6DvYDTKdLdyyHmrW0F9XtmHUmOAir3qWfin-CqoyWEefEYxY7SY9L-",
+              "q": "budget intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpxNsmWyGi5zihWpy5V2ffRKJBmo3l8cCnnHk6QkfMctQ8FLlkGMAWYNR_QYtXdEqxX7fQtyX2Q6PD3vCsEt9wuNpjrE2ohx8BaH61yqHwgk92l3NLBRar5PgCFUgeVTFecCMISiaumUcHjbKwKHb0RTr7EgxlnDDY6vtjwZ1uagAzB1twZ9JvEqPrFW94XcUDOPqbFuthQKUB2JxxFur0Eg_cidA6vgTpqZ6TBgWDdAbRJD45YMgsR1_ht-vTxjy4MgrTEHfEl2e4TJpolOWicmbFlQWzSy4gOowd6DvYDTKdLdyyHmrW0F9XtmHUmOAir3qWfin-CqoyWEefEYxY7SY9L-&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpxNsmWyGi5zihWpy5V2ffRKJBmo3l8cCnnHk6QkfMctQ8FLlkGMAWYNR_QYtXdEqxX7fQtyX2Q6PD3vCsEt9wuNpjrE2ohx8BaH61yqHwgk92l3NLBRar5PgCFUgeVTFecCMISiaumUcHjbKwKHb0RTr7EgxlnDDY6vtjwZ1uagAzB1twZ9JvEqPrFW94XcUDOPqbFuthQKUB2JxxFur0Eg_cidA6vgTpqZ6TBgWDdAbRJD45YMgsR1_ht-vTxjy4MgrTEHfEl2e4TJpolOWicmbFlQWzSy4gOowd6DvYDTKdLdyyHmrW0F9XtmHUmOAir3qWfin-CqoyWEefEYxY7SY9L-"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOlXwN1Kkg1slxefdo_4jCBRzoYzLJGi0ZSEP9_DHJ3kXHKaQwvFe-AEMpYpYPnSCn8VRf3fQUm93q2Yo73uy-6lA22I73mGkSgWiucBY0WJBZsCxLApAW6iktMu-1xw90T5OePAhZz_HKKzSNEz1KRXtJx0HczKMEr_oa8NMwXlCQlYr9REe-bB9vnz5pZgrPfrmuskYwFL7p40nNmQjJ6teV56rEsLgOsIvIUi5UoTl69xKMBtYEw73F3e0Wqz_n5hnYc4XiGh0nI5MWY0Z6lDQYiQwBO_HFQxL43NYmWrjx16kUw7mynH1kJUTbKD9sgvgepFI5h7SXbm7IHW2BC-F9CDaWJWuhyyvqhk4MDmC0KWE",
+              "q": "budget intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOlXwN1Kkg1slxefdo_4jCBRzoYzLJGi0ZSEP9_DHJ3kXHKaQwvFe-AEMpYpYPnSCn8VRf3fQUm93q2Yo73uy-6lA22I73mGkSgWiucBY0WJBZsCxLApAW6iktMu-1xw90T5OePAhZz_HKKzSNEz1KRXtJx0HczKMEr_oa8NMwXlCQlYr9REe-bB9vnz5pZgrPfrmuskYwFL7p40nNmQjJ6teV56rEsLgOsIvIUi5UoTl69xKMBtYEw73F3e0Wqz_n5hnYc4XiGh0nI5MWY0Z6lDQYiQwBO_HFQxL43NYmWrjx16kUw7mynH1kJUTbKD9sgvgepFI5h7SXbm7IHW2BC-F9CDaWJWuhyyvqhk4MDmC0KWE&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOlXwN1Kkg1slxefdo_4jCBRzoYzLJGi0ZSEP9_DHJ3kXHKaQwvFe-AEMpYpYPnSCn8VRf3fQUm93q2Yo73uy-6lA22I73mGkSgWiucBY0WJBZsCxLApAW6iktMu-1xw90T5OePAhZz_HKKzSNEz1KRXtJx0HczKMEr_oa8NMwXlCQlYr9REe-bB9vnz5pZgrPfrmuskYwFL7p40nNmQjJ6teV56rEsLgOsIvIUi5UoTl69xKMBtYEw73F3e0Wqz_n5hnYc4XiGh0nI5MWY0Z6lDQYiQwBO_HFQxL43NYmWrjx16kUw7mynH1kJUTbKD9sgvgepFI5h7SXbm7IHW2BC-F9CDaWJWuhyyvqhk4MDmC0KWE"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUPBo_9WTiu78ayMpbHb1qxwcKeuPLAYYBtOTTn2Mf1WYzwqzZbIbFznNsD_DJEcPo-pQi6NmHXFeBk2WXmWDzFXEYwREgc6QTV-F5Jk1vixevRrwtmuOmrIcnz4nVBYCEywp5VZGDo6gOALdYR6jDkgah7uSJpJrjakS_8TKzgOb7OGc2ObVHo4PXK_B5gQG4_VZfLR6ZjfIboeDNCnqQEVGnLi-Hx-IR96tPL0uX8QyLe8S8qF1b7PM0-Uf3oyYEQxhjmbPE3-rGzF95k2-xPqQSj60-jyw4NxRqvJ4P8yoqWDWsiFLz55uJB2p3YxVtNGN-qrOFs_UfdRMmMRJCGaI5wA2",
+              "q": "budget intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUPBo_9WTiu78ayMpbHb1qxwcKeuPLAYYBtOTTn2Mf1WYzwqzZbIbFznNsD_DJEcPo-pQi6NmHXFeBk2WXmWDzFXEYwREgc6QTV-F5Jk1vixevRrwtmuOmrIcnz4nVBYCEywp5VZGDo6gOALdYR6jDkgah7uSJpJrjakS_8TKzgOb7OGc2ObVHo4PXK_B5gQG4_VZfLR6ZjfIboeDNCnqQEVGnLi-Hx-IR96tPL0uX8QyLe8S8qF1b7PM0-Uf3oyYEQxhjmbPE3-rGzF95k2-xPqQSj60-jyw4NxRqvJ4P8yoqWDWsiFLz55uJB2p3YxVtNGN-qrOFs_UfdRMmMRJCGaI5wA2&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUPBo_9WTiu78ayMpbHb1qxwcKeuPLAYYBtOTTn2Mf1WYzwqzZbIbFznNsD_DJEcPo-pQi6NmHXFeBk2WXmWDzFXEYwREgc6QTV-F5Jk1vixevRrwtmuOmrIcnz4nVBYCEywp5VZGDo6gOALdYR6jDkgah7uSJpJrjakS_8TKzgOb7OGc2ObVHo4PXK_B5gQG4_VZfLR6ZjfIboeDNCnqQEVGnLi-Hx-IR96tPL0uX8QyLe8S8qF1b7PM0-Uf3oyYEQxhjmbPE3-rGzF95k2-xPqQSj60-jyw4NxRqvJ4P8yoqWDWsiFLz55uJB2p3YxVtNGN-qrOFs_UfdRMmMRJCGaI5wA2"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rC8yPJokVwOjCPeS0eHMeLKzUWhESdeGzsgI0-uRdwlRzSPKfIKProXVpOvSwS-DpJroIcwPLqFxDUzdLDvXNIqxnhmk64jWO_3SxwXLC7gT2ZLma_3HxZD7J6FcEq1qhv45PLWRVp7dx6_PHn8l-9L35y4FlPqyhHH3SAk0nCopw5P0iveMxI_b4GZuEwSzaWHb9XMMRUdXjNGTV-ODSVf9aENRYBHJaColp-CXMovCeWOwAaOm55FKe4YrfKNb6KmZk74t7a22AFdNNcC6ORdJ-CCnvi2ZwkaXyP-z5RjK5Kw-C1ZZ90g1hdYpOoRu14jABRMhhBtztu4S8tXlW65_xOndBW7EaE5vzKh11PpH2OJ6j",
+              "q": "budget intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rC8yPJokVwOjCPeS0eHMeLKzUWhESdeGzsgI0-uRdwlRzSPKfIKProXVpOvSwS-DpJroIcwPLqFxDUzdLDvXNIqxnhmk64jWO_3SxwXLC7gT2ZLma_3HxZD7J6FcEq1qhv45PLWRVp7dx6_PHn8l-9L35y4FlPqyhHH3SAk0nCopw5P0iveMxI_b4GZuEwSzaWHb9XMMRUdXjNGTV-ODSVf9aENRYBHJaColp-CXMovCeWOwAaOm55FKe4YrfKNb6KmZk74t7a22AFdNNcC6ORdJ-CCnvi2ZwkaXyP-z5RjK5Kw-C1ZZ90g1hdYpOoRu14jABRMhhBtztu4S8tXlW65_xOndBW7EaE5vzKh11PpH2OJ6j&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rC8yPJokVwOjCPeS0eHMeLKzUWhESdeGzsgI0-uRdwlRzSPKfIKProXVpOvSwS-DpJroIcwPLqFxDUzdLDvXNIqxnhmk64jWO_3SxwXLC7gT2ZLma_3HxZD7J6FcEq1qhv45PLWRVp7dx6_PHn8l-9L35y4FlPqyhHH3SAk0nCopw5P0iveMxI_b4GZuEwSzaWHb9XMMRUdXjNGTV-ODSVf9aENRYBHJaColp-CXMovCeWOwAaOm55FKe4YrfKNb6KmZk74t7a22AFdNNcC6ORdJ-CCnvi2ZwkaXyP-z5RjK5Kw-C1ZZ90g1hdYpOoRu14jABRMhhBtztu4S8tXlW65_xOndBW7EaE5vzKh11PpH2OJ6j"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpxNsmWyGi5zihWpy5V2ffRKJBmo3l8cCnnHk6QkfMctQ8FLlkGMAWYNR_QYtXdEqxX7fQtyX2Q6PD3vCsEt9wuNpjrE2ohx8BaH61yqHwgk92l3NLBRar5PgCFUgeVTFecCMISiaumUcHjbKwKHb0RTr7EgxlnDDY6vtjwZ1uagAzB1twZ9JvEqPrFW94XcUDOPqbFuthQKUB2JxxFur0Eg_cidA6vgTpqZ6TBgWDdAbRJD45YMgsR1_ht-vTxjy4MgrTEHfEl2e4TJpolOWicmbFlQWzSy4gOowd6DvYDTKdLdyyHmrW0F9XtmHUmOAir3qWfin-CqoyWEefEYxY7SY9L-",
+              "q": "budget intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpxNsmWyGi5zihWpy5V2ffRKJBmo3l8cCnnHk6QkfMctQ8FLlkGMAWYNR_QYtXdEqxX7fQtyX2Q6PD3vCsEt9wuNpjrE2ohx8BaH61yqHwgk92l3NLBRar5PgCFUgeVTFecCMISiaumUcHjbKwKHb0RTr7EgxlnDDY6vtjwZ1uagAzB1twZ9JvEqPrFW94XcUDOPqbFuthQKUB2JxxFur0Eg_cidA6vgTpqZ6TBgWDdAbRJD45YMgsR1_ht-vTxjy4MgrTEHfEl2e4TJpolOWicmbFlQWzSy4gOowd6DvYDTKdLdyyHmrW0F9XtmHUmOAir3qWfin-CqoyWEefEYxY7SY9L-&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rdhuh-bDQ7lZYgbJV6OMYLpxNsmWyGi5zihWpy5V2ffRKJBmo3l8cCnnHk6QkfMctQ8FLlkGMAWYNR_QYtXdEqxX7fQtyX2Q6PD3vCsEt9wuNpjrE2ohx8BaH61yqHwgk92l3NLBRar5PgCFUgeVTFecCMISiaumUcHjbKwKHb0RTr7EgxlnDDY6vtjwZ1uagAzB1twZ9JvEqPrFW94XcUDOPqbFuthQKUB2JxxFur0Eg_cidA6vgTpqZ6TBgWDdAbRJD45YMgsR1_ht-vTxjy4MgrTEHfEl2e4TJpolOWicmbFlQWzSy4gOowd6DvYDTKdLdyyHmrW0F9XtmHUmOAir3qWfin-CqoyWEefEYxY7SY9L-"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOlXwN1Kkg1slxefdo_4jCBRzoYzLJGi0ZSEP9_DHJ3kXHKaQwvFe-AEMpYpYPnSCn8VRf3fQUm93q2Yo73uy-6lA22I73mGkSgWiucBY0WJBZsCxLApAW6iktMu-1xw90T5OePAhZz_HKKzSNEz1KRXtJx0HczKMEr_oa8NMwXlCQlYr9REe-bB9vnz5pZgrPfrmuskYwFL7p40nNmQjJ6teV56rEsLgOsIvIUi5UoTl69xKMBtYEw73F3e0Wqz_n5hnYc4XiGh0nI5MWY0Z6lDQYiQwBO_HFQxL43NYmWrjx16kUw7mynH1kJUTbKD9sgvgepFI5h7SXbm7IHW2BC-F9CDaWJWuhyyvqhk4MDmC0KWE",
+              "q": "budget intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOlXwN1Kkg1slxefdo_4jCBRzoYzLJGi0ZSEP9_DHJ3kXHKaQwvFe-AEMpYpYPnSCn8VRf3fQUm93q2Yo73uy-6lA22I73mGkSgWiucBY0WJBZsCxLApAW6iktMu-1xw90T5OePAhZz_HKKzSNEz1KRXtJx0HczKMEr_oa8NMwXlCQlYr9REe-bB9vnz5pZgrPfrmuskYwFL7p40nNmQjJ6teV56rEsLgOsIvIUi5UoTl69xKMBtYEw73F3e0Wqz_n5hnYc4XiGh0nI5MWY0Z6lDQYiQwBO_HFQxL43NYmWrjx16kUw7mynH1kJUTbKD9sgvgepFI5h7SXbm7IHW2BC-F9CDaWJWuhyyvqhk4MDmC0KWE&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOlXwN1Kkg1slxefdo_4jCBRzoYzLJGi0ZSEP9_DHJ3kXHKaQwvFe-AEMpYpYPnSCn8VRf3fQUm93q2Yo73uy-6lA22I73mGkSgWiucBY0WJBZsCxLApAW6iktMu-1xw90T5OePAhZz_HKKzSNEz1KRXtJx0HczKMEr_oa8NMwXlCQlYr9REe-bB9vnz5pZgrPfrmuskYwFL7p40nNmQjJ6teV56rEsLgOsIvIUi5UoTl69xKMBtYEw73F3e0Wqz_n5hnYc4XiGh0nI5MWY0Z6lDQYiQwBO_HFQxL43NYmWrjx16kUw7mynH1kJUTbKD9sgvgepFI5h7SXbm7IHW2BC-F9CDaWJWuhyyvqhk4MDmC0KWE"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUPBo_9WTiu78ayMpbHb1qxwcKeuPLAYYBtOTTn2Mf1WYzwqzZbIbFznNsD_DJEcPo-pQi6NmHXFeBk2WXmWDzFXEYwREgc6QTV-F5Jk1vixevRrwtmuOmrIcnz4nVBYCEywp5VZGDo6gOALdYR6jDkgah7uSJpJrjakS_8TKzgOb7OGc2ObVHo4PXK_B5gQG4_VZfLR6ZjfIboeDNCnqQEVGnLi-Hx-IR96tPL0uX8QyLe8S8qF1b7PM0-Uf3oyYEQxhjmbPE3-rGzF95k2-xPqQSj60-jyw4NxRqvJ4P8yoqWDWsiFLz55uJB2p3YxVtNGN-qrOFs_UfdRMmMRJCGaI5wA2",
+              "q": "budget intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUPBo_9WTiu78ayMpbHb1qxwcKeuPLAYYBtOTTn2Mf1WYzwqzZbIbFznNsD_DJEcPo-pQi6NmHXFeBk2WXmWDzFXEYwREgc6QTV-F5Jk1vixevRrwtmuOmrIcnz4nVBYCEywp5VZGDo6gOALdYR6jDkgah7uSJpJrjakS_8TKzgOb7OGc2ObVHo4PXK_B5gQG4_VZfLR6ZjfIboeDNCnqQEVGnLi-Hx-IR96tPL0uX8QyLe8S8qF1b7PM0-Uf3oyYEQxhjmbPE3-rGzF95k2-xPqQSj60-jyw4NxRqvJ4P8yoqWDWsiFLz55uJB2p3YxVtNGN-qrOFs_UfdRMmMRJCGaI5wA2&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgzy6MGPRdpIQdv42Hl_vUPBo_9WTiu78ayMpbHb1qxwcKeuPLAYYBtOTTn2Mf1WYzwqzZbIbFznNsD_DJEcPo-pQi6NmHXFeBk2WXmWDzFXEYwREgc6QTV-F5Jk1vixevRrwtmuOmrIcnz4nVBYCEywp5VZGDo6gOALdYR6jDkgah7uSJpJrjakS_8TKzgOb7OGc2ObVHo4PXK_B5gQG4_VZfLR6ZjfIboeDNCnqQEVGnLi-Hx-IR96tPL0uX8QyLe8S8qF1b7PM0-Uf3oyYEQxhjmbPE3-rGzF95k2-xPqQSj60-jyw4NxRqvJ4P8yoqWDWsiFLz55uJB2p3YxVtNGN-qrOFs_UfdRMmMRJCGaI5wA2"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rC8yPJokVwOjCPeS0eHMeLKzUWhESdeGzsgI0-uRdwlRzSPKfIKProXVpOvSwS-DpJroIcwPLqFxDUzdLDvXNIqxnhmk64jWO_3SxwXLC7gT2ZLma_3HxZD7J6FcEq1qhv45PLWRVp7dx6_PHn8l-9L35y4FlPqyhHH3SAk0nCopw5P0iveMxI_b4GZuEwSzaWHb9XMMRUdXjNGTV-ODSVf9aENRYBHJaColp-CXMovCeWOwAaOm55FKe4YrfKNb6KmZk74t7a22AFdNNcC6ORdJ-CCnvi2ZwkaXyP-z5RjK5Kw-C1ZZ90g1hdYpOoRu14jABRMhhBtztu4S8tXlW65_xOndBW7EaE5vzKh11PpH2OJ6j",
+              "q": "budget intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=bc71d050042edf4f&gl=in&hl=en&sxsrf=APpeQntqptcbq-uPDnch85YBgxB0-LFmYw:1791602712606&q=budget+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rC8yPJokVwOjCPeS0eHMeLKzUWhESdeGzsgI0-uRdwlRzSPKfIKProXVpOvSwS-DpJroIcwPLqFxDUzdLDvXNIqxnhmk64jWO_3SxwXLC7gT2ZLma_3HxZD7J6FcEq1qhv45PLWRVp7dx6_PHn8l-9L35y4FlPqyhHH3SAk0nCopw5P0iveMxI_b4GZuEwSzaWHb9XMMRUdXjNGTV-ODSVf9aENRYBHJaColp-CXMovCeWOwAaOm55FKe4YrfKNb6KmZk74t7a22AFdNNcC6ORdJ-CCnvi2ZwkaXyP-z5RjK5Kw-C1ZZ90g1hdYpOoRu14jABRMhhBtztu4S8tXlW65_xOndBW7EaE5vzKh11PpH2OJ6j&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiMpo2awK6XAxUqiCsGHXwEMNMQkbEKegQIGhAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=budget+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rC8yPJokVwOjCPeS0eHMeLKzUWhESdeGzsgI0-uRdwlRzSPKfIKProXVpOvSwS-DpJroIcwPLqFxDUzdLDvXNIqxnhmk64jWO_3SxwXLC7gT2ZLma_3HxZD7J6FcEq1qhv45PLWRVp7dx6_PHn8l-9L35y4FlPqyhHH3SAk0nCopw5P0iveMxI_b4GZuEwSzaWHb9XMMRUdXjNGTV-ODSVf9aENRYBHJaColp-CXMovCeWOwAaOm55FKe4YrfKNb6KmZk74t7a22AFdNNcC6ORdJ-CCnvi2ZwkaXyP-z5RjK5Kw-C1ZZ90g1hdYpOoRu14jABRMhhBtztu4S8tXlW65_xOndBW7EaE5vzKh11PpH2OJ6j"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Senior Property Manager",
+        "company_name": "Alice Ryan Estates & Agricultural Properties",
+        "location": "Chennai, Tamil Nadu",
+        "via": "SimplyHired",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=budget+intern&htidocid=MM9Hrey2dDK8fcC9AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_zWOMQrCQBAAsc0TrLayEMkFwUarEMRKEbUPm3O5O7nshrsLJJ1_8Cu-yJcYC5tphoHJ3rOsuBI7CXAO0lFIIxyR0VCAz_MFD2kgEgZtQRgOIsbTfGdT6uJWqRh9bmLC5HSupVXC1Migpij-UEeLgTqPier1phjyjs2yKr3TBJcRGfa_liIsoDTB6d6nPqD_n7jJOIbKEjO6FdywdR5OeO-_8vRiu7cAAAA&shmds=v1_ARwrE20PPWGRjb5Hys4m3QZoqWT-_WGUtx96Fq0Fkbt10DkHgg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=budget+intern&htidocid=MM9Hrey2dDK8fcC9AAAAAA%3D%3D",
+        "extensions": [
+          "1 day ago",
+          "\u20b91L\u2013\u20b91.5L a month",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://www.simplyhired.co.in/job/UJAchpm1rieo9zxgaVFjPGkSdCAZBgcEfn-KCJW0NA0hkHCeU2XOoQ",
+        "job_title": "Senior Property Manager",
+        "description": "Maintain property rentals by advertising and filling vacancies, negotiating and enforcing leases, and maintaining and securing premises.Establish rental rates and calculate overhead costs, taxes, depreciation, and profit.Advertise vacancies to attract tenants, obtain referrals from current tenants, and explain the advantages of location and services.Negotiate leases, secure contracts from tenants, and collect security deposits.Collect rent, prepare an annual budget, schedule expenditures, and correct variances.Maintain properties by investigating and resolving tenant complaints, enforcing occupancy rules, inspecting vacant units and completing repairs, planning renovations, and contracting with landscaping and snow removal services.Secure the property by contracting with the security patrol service, installing and maintaining security devices, establishing and enforcing precautionary policies and procedures, and responding to emergencies.Enforce occupancy policies and procedures by confronting violators.Prepare financial reports by collecting, analyzing, and summarizing data and trends.Reach organization goals by owning new and different requests and exploring opportunities to add value.Pay: \u20b9100,000.00 - \u20b9150,000.00 per month\n\nBenefits:\n\nCell phone reimbursementFlexible scheduleFood providedPaid time offWork Location: In person",
+        "apply_options": [
+          {
+            "title": "SimplyHired",
+            "link": "https://www.simplyhired.co.in/job/UJAchpm1rieo9zxgaVFjPGkSdCAZBgcEfn-KCJW0NA0hkHCeU2XOoQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgUHJvcGVydHkgTWFuYWdlciIsImNvbXBhbnlfbmFtZSI6IkFsaWNlIFJ5YW4gRXN0YXRlcyBcdTAwMjYgQWdyaWN1bHR1cmFsIFByb3BlcnRpZXMiLCJodGlkb2NpZCI6Ik1NOUhyZXkyZERLOGZjQzlBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzBoeFZuQXpYM1ZTYlU1bWRuQk5TR1JvTkZob1FVWmpVV0ZDU0ZkMVluSnBabUZIYVdjelJGWllhVkpoVW1wNFpTMWZUak0wYjBReVNsOXVkMjB6ZFd4Tk5XUTBNR0U1YVdkbGQwNUplRXhmYkhkM1gyOUJTMGROUWs1b1RIRldaRUZEUVc4d09FWTNlWGRXUW5kT04wSkhTM3B6TkhGQlFqSnBhbmxITVVWVk5FbE5iMW9TRjBkTVJFcGhiM2syU2t0eFVYSjFSVkJmU1dwQmJWRXdHaUpCUkhOeU9XWlNOV3BoUlVOMU5XZG1TaTFxUWpGMFFuTXRNa1Z0V0dJM2FrZFIiLCJmY3YiOiIzIiwiZmNfaWQiOiJNTTlIcmV5MmRESzhmY0M5QUFBQUFBPT0ifQ=="
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMGh4Vm5BelgzVlNiVTVtZG5CTlNHUm9ORmhvUVVaalVXRkNTRmQxWW5KcFptRkhhV2N6UkZaWWFWSmhVbXA0WlMxZlRqTTBiMFF5U2w5dWQyMHpkV3hOTldRME1HRTVhV2RsZDA1SmVFeGZiSGQzWDI5QlMwZE5RazVvVEhGV1pFRkRRVzh3T0VZM2VYZFdRbmRPTjBKSFMzcHpOSEZCUWpKcGFubEhNVVZWTkVsTmIxb1NGMGRNUkVwaGIzazJTa3R4VVhKMVJWQmZTV3BCYlZFd0dpSkJSSE55T1daU05XcGhSVU4xTldkbVNpMXFRakYwUW5NdE1rVnRXR0kzYWtkUiIsImZjdiI6IjMifQ==",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMGh4Vm5BelgzVlNiVTVtZG5CTlNHUm9ORmhvUVVaalVXRkNTRmQxWW5KcFptRkhhV2N6UkZaWWFWSmhVbXA0WlMxZlRqTTBiMFF5U2w5dWQyMHpkV3hOTldRME1HRTVhV2RsZDA1SmVFeGZiSGQzWDI5QlMwZE5RazVvVEhGV1pFRkRRVzh3T0VZM2VYZFdRbmRPTjBKSFMzcHpOSEZCUWpKcGFubEhNVVZWTkVsTmIxb1NGMGRNUkVwaGIzazJTa3R4VVhKMVJWQmZTV3BCYlZFd0dpSkJSSE55T1daU05XcGhSVU4xTldkbVNpMXFRakYwUW5NdE1rVnRXR0kzYWtkUiIsImZjdiI6IjMifQ%3D%3D&q=budget+intern"
+    }
+  }
+}

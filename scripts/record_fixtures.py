@@ -25,7 +25,7 @@ from s2s.config import FIXTURE_DIR, Settings          # noqa: E402
 from s2s.extract import extract_competencies          # noqa: E402
 from s2s.ingest import loader, structure              # noqa: E402
 from s2s.mesh import planner                          # noqa: E402
-from s2s.mesh.cache import ResponseCache              # noqa: E402
+from s2s.mesh.cache import ResponseCache, cache_key   # noqa: E402
 from s2s.mesh.ledger import BudgetLedger              # noqa: E402
 from s2s.mesh.serpapi_client import SerpApiClient     # noqa: E402
 
@@ -114,6 +114,13 @@ def main() -> int:
     for stem, dorks in plans:
         print(f"recording {stem}...")
         for dork in dorks:
+            # A harvested stand-in shares this dork's cache key, so it would be
+            # served as a hit and the real SerpApi response never recorded.
+            params = client.build_params(dork)
+            stale = cache.get(dork.engine, params)
+            if stale is not None and stale.get("s2s_source"):
+                (fixture_dir / f"{cache_key(dork.engine, params)}.json").unlink()
+                print(f"   {dork.adapter_key:<16} replacing harvested fixture")
             results = client.run(dork)
             print(f"   {dork.adapter_key:<16} {len(results):>3} results   {dork.query[:70]}")
 

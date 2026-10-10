@@ -1,0 +1,133 @@
+{
+  "fetched_at": 1791602324.643523,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:devpost.com concurrency hackathon",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9ae911248151e548e17a7",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/xNxaxDVX9pUR7MRAZQlBzbCNaPzFgzX_9GFLgDCmOzg/6ac9ae911248151e548e17a7.json",
+      "markdown_endpoint": "https://serpapi.com/searches/xNxaxDVX9pUR7MRAZQlBzbCNaPzFgzX_9GFLgDCmOzg/6ac9ae911248151e548e17a7.md",
+      "created_at": "2026-10-10 03:18:41 UTC",
+      "processed_at": "2026-10-10 03:18:41 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Adevpost.com+concurrency+hackathon&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/xNxaxDVX9pUR7MRAZQlBzbCNaPzFgzX_9GFLgDCmOzg/6ac9ae911248151e548e17a7.html",
+      "prettify_html_file": "https://serpapi.com/searches/xNxaxDVX9pUR7MRAZQlBzbCNaPzFgzX_9GFLgDCmOzg/6ac9ae911248151e548e17a7.prettify",
+      "total_time_taken": 2.5
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:devpost.com concurrency hackathon",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Hacklytics 2026: Golden Byte: Enter the factory. Build something golden ...",
+        "link": "https://hacklytics-2026.devpost.com/",
+        "snippet": "About Hacklytics 2026: Golden Byte Step into a world of pure imagination at Hacklytics 2026, where creativity, curiosity, and innovation come together in a factory of endless possibilities. This year's hackathon invites you to unwrap bold ideas, experiment fearlessly, and turn imaginative concepts into impactful solutions. As you journey through this whimsical factory of innovation, you'll tackle real-world challenges and blend technical skill with creativity and vision. Whether you're ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hacklytics-2026.devpost.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Devpost - The home for hackathons",
+        "link": "https://devpost.com/",
+        "snippet": "Participate in online virtual and in-person hackathons to build products, practice skills, learn technologies, win prizes, and grow your network.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devpost.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Hacklanta: Different Rhythm, Higher Stakes. - Devpost",
+        "link": "https://hacklanta.devpost.com/",
+        "snippet": "Hacklanta '26 \"Different Rhythm, Higher Stakes.\" Hacklanta is back October 9 to 11 in Atlanta. For 36 hours, more than 1,000 college builders from across the United States will come together at Georgia State University to turn ideas into working projects. Expect festival energy, ambitious builds, workshops, mentor hours, sponsor challenges, live recruiting opportunities, and a room full of people ready to make something real. Whether this is your first hackathon or your tenth, there is a ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hacklanta.devpost.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Hackyard Build 2026 | 24-Hour Hackathon at IIT Guwahati",
+        "link": "https://www.hackyardbuild2026.devpost.com/",
+        "snippet": "Hackyard Build 2026 is a free-to-enter, in-person hackathon in Guwahati, Assam, India, on 24-25 October 2026. Up to 300 builders will be selected from 1,000+ applications for a focused 24-hour build at IIT Guwahati. Students (including school students aged 13+), developers, designers, founders, researchers and operators can join.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.hackyardbuild2026.devpost.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "New & upcoming hackathons \u00b7 Devpost",
+        "link": "https://devpost.com/hackathons?search=india",
+        "snippet": "Devpost powers hackathons and app contests around the world. Sign up to make new friends, explore new APIs / tech, and win prizes & recognition.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devpost.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "UGAHacks 9: Be the Hero of Your Story! - Devpost",
+        "link": "https://ugahacks-9.devpost.com/rules",
+        "snippet": "No cross-submitting (submitting a project from a concurrent hackathon) No using code programmed before hacking time starts Hacking time starts at 7PM on Feb. 9th Must submit project through Devpost to be considered for judging Must include First and Last Names of all team members in submission Must submit Github Repository Must include Read Me",
+        "favicon": "https://external-content.duckduckgo.com/ip3/ugahacks-9.devpost.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "UGAHacks 11: Ignite the Magic Within! - Devpost",
+        "link": "https://ugahacks-11.devpost.com/rules",
+        "snippet": "No cross-submitting (submitting a project from a concurrent hackathon) No using code programmed before hacking time starts Hacking time starts at 8PM on Feb. 7th Must submit project through Devpost to be considered for judging Must include First and Last Names of all team members in submission Must submit Github Repository Must include Read Me",
+        "favicon": "https://external-content.duckduckgo.com/ip3/ugahacks-11.devpost.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "MuleHacks2026: Forming connections, changing lives - Devpost",
+        "link": "https://mulehacks.devpost.com/project-gallery",
+        "snippet": "Forming connections, changing lives Connect with the participants - support your favorite projects by liking, sharing, and commenting on them.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/mulehacks.devpost.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "RythmHacks: In September of 2023, RythmHacks is going in-person at the ...",
+        "link": "https://rythmhacks2023.devpost.com/rules",
+        "snippet": "Teams must be 4 people or fewer You must be in high school or below as of September 2023 No cross-submitting (submitting a project from a concurrent hackathon) No using code programmed before hacking time starts Always follow the MLH Code of Conduct.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/rythmhacks2023.devpost.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "The Vakathon: Vakathon is an 8-hour inclusive hackathon for all skill ...",
+        "link": "https://the-vakathon.devpost.com/",
+        "snippet": "Vakathon is an 8-hour inclusive hackathon for all skill levels. Work solo or in teams of up to 4. Bring your laptop, charger, and hardware to learn, network, and build.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/the-vakathon.devpost.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "Zero Origin: Solving Problems That Matter Most - Devpost",
+        "link": "https://zero-origin.devpost.com/?ref_medium=discover",
+        "date_raw": "2026-08-27T00:00:00.0000000",
+        "date": "Aug 27, 2026",
+        "snippet": "ZERO ORIGIN, organized by the Rotaract Club of SNS College of Technology, is a problem-driven online hackathon focused on transforming real-world problems into practical, innovative, technology-driven solutions.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/zero-origin.devpost.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "devpost hackathons",
+        "link": "https://duckduckgo.com/?q=devpost%20hackathons&origin=related"
+      },
+      {
+        "query": "online hackathon platform",
+        "link": "https://duckduckgo.com/?q=online%20hackathon%20platform&origin=related"
+      },
+      {
+        "query": "virtual hackathons",
+        "link": "https://duckduckgo.com/?q=virtual%20hackathons&origin=related"
+      },
+      {
+        "query": "hackathon hosting",
+        "link": "https://duckduckgo.com/?q=hackathon%20hosting&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Adevpost.com+concurrency+hackathon&start=11"
+    }
+  }
+}

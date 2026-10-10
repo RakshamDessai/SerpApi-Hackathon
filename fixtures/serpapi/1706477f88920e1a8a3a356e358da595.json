@@ -1,0 +1,115 @@
+{
+  "fetched_at": 1791602707.0254521,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com budget competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b010b9e86904a96529bc",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/mPUv7srmOMVFZcvTr6ngFObPvH_c8mk_7HrGujsnrdw/6ac9b010b9e86904a96529bc.json",
+      "markdown_endpoint": "https://serpapi.com/searches/mPUv7srmOMVFZcvTr6ngFObPvH_c8mk_7HrGujsnrdw/6ac9b010b9e86904a96529bc.md",
+      "created_at": "2026-10-10 03:25:04 UTC",
+      "processed_at": "2026-10-10 03:25:04 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+budget+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/mPUv7srmOMVFZcvTr6ngFObPvH_c8mk_7HrGujsnrdw/6ac9b010b9e86904a96529bc.html",
+      "prettify_html_file": "https://serpapi.com/searches/mPUv7srmOMVFZcvTr6ngFObPvH_c8mk_7HrGujsnrdw/6ac9b010b9e86904a96529bc.prettify",
+      "total_time_taken": 2.61
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com budget competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Budget Battle - 2026",
+        "link": "https://unstop.com/competitions/budget-battle-nmims-sbm-bizquest-2026-nmims-indore-1749037",
+        "snippet": "Find out the best Budget Battle that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash rewards from leading com...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Gyanotsav 6.0 - Budget Battle Royale | Finance - 2026",
+        "link": "https://unstop.com/competitions/gyanotsav-60-budget-battle-royale-finance-rukmini-devi-institute-of-advanced-studies-rdias-delhi-1754695",
+        "date_raw": "2026-09-16T00:00:00.0000000",
+        "date": "Sep 16, 2026",
+        "snippet": "Gyanotsav 6.0 - Budget Battle Royale | Finance Event Day: Day 1 - 7 October 2026 Event Time: 12:00 PM - 2:00 PM Venue: Computer Center, RDIAS, Delhi Budget Battle Royale is an exciting finance-based team competition that tests participants' financial planning, budgeting, analytical thinking, and decision-making skills. The event gives participants a practical financial scenario in which they must create and manage a budget, make strategic decisions, and respond effectively to ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Comqueer 8.0 - 2026",
+        "link": "http://api.unstop.com/competitions/comqueer-80-college-of-vocational-studies-cvs-du-1767146",
+        "snippet": "Each team will be given a different case involving problems such as financial losses, security issues, investor concerns, employee misconduct, declining customer trust or competition. Teams will have to understand their case, identify the major risks, and decide how they want to use a fictional budget of \u20b910 crore to deal with the crisis.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Hack-A-Throne | National Hackathon 2026 - 2026",
+        "link": "https://api.unstop.com/hackathons/hack-a-throne-national-hackathon-2026-hack-a-throne-1759760",
+        "snippet": "Find out the best Hack-A-Throne | National Hackathon 2026 that match your interests. Prove your mettle and win exciting prizes like job opportunities and cas...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Budget Analysis Competition - 2023 - Unstop",
+        "link": "https://unstop.com/competitions/budget-analysis-competition-indian-institute-of-management-iim-calcutta-601348",
+        "snippet": "Find out the best Budget Analysis Competition that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash rewards fr...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "ArthNiti - Union Budget Quiz Competition - 2026",
+        "link": "https://unstop.com/o/1629997",
+        "snippet": "The Union Budget is more than just numbers - it's a reflection of India's economic vision and policy priorities. Test your awareness, analytical sharpness and budget knowledge in this fast-paced quiz designed for future managers.If you follow the Budget closely and can think quickly under time pressure, this challenge is for you.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Budget Neeti \u2014 The $1 Billion Capital Strategy Challenge - 2026",
+        "link": "https://unstop.com/competitions/budget-neeti-the-1-billion-capital-strategy-challenge-innoverse-2026-bennett-university-bu-greater-noida-1663800",
+        "snippet": "Unstop - Competitions, Quizzes, Hackathons, Scholarships and Internships for Students and Corporates",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Build-A-Budget: A Finance Case Competition - 2025",
+        "link": "https://unstop.com/competitions/build-a-budget-ecolibrium-2025-university-school-of-management-and-entrepreneurship-usmedelhi-1422557",
+        "snippet": "Welcome to Build-a-Budget, a premier finance case competition designed to challenge your skills in corporate budgeting and financial strategy. Step into the role of a Chief Financial Officer (CFO) to develop a comprehensive budget that balances growth, sustainability, and financial stability.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Brick to Billion - 2026",
+        "link": "https://unstop.com/competitions/budget-baazi-comfesco2026-maitreyi-college-1667120",
+        "snippet": "Exciting, multi-round finance-themed competition designed to test participants' knowledge, decision-making, creativity, and strategic thinking. The event simulates the journey of building wealth from basic financial understanding to complex investment strategies making it both fun and intellectually stimulating.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Unstop - Competitions, Quizzes, Hackathons, Scholarships and ...",
+        "link": "https://unstop.com/competitions/union-budget-2026-analysis-iim-kashipur-1637378",
+        "snippet": "Unstop - Competitions, Quizzes, Hackathons, Scholarships and Internships for Students and Corporates",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "Policy Quest 1.0 - 2026",
+        "link": "https://unstop.com/quiz/policy-quest-10--1647676",
+        "snippet": "An Individual-Level Competition based on the Union Budget 2026 Policy Quest 1.0 is a dynamic and intellectually stimulating competition designed to test participants' awareness, analytical ability, and understanding of Public Policy and the Union Budget 2026.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+budget+competition&start=11"
+    }
+  }
+}

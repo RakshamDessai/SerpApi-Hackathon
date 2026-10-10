@@ -11,11 +11,10 @@ streamlit>=1.40
 python-dotenv>=1.0
 
 # --- SerpApi ------------------------------------------------------------
-# Provides `from serpapi import GoogleSearch`.
-# Do NOT also install the `serpapi` package: it claims the same `serpapi`
-# module namespace but exposes a different API, and whichever pip resolves
-# last silently wins.
-google-search-results>=2.4.2
+# No SDK: s2s calls https://serpapi.com/search.json with `requests` (below).
+# The legacy `google-search-results` and the newer `serpapi` package both
+# claim the `serpapi` module name with different APIs, so either one breaks
+# on a machine that has the other.
 
 # --- LLM (optional at runtime; heuristic fallback covers its absence) ---
 anthropic>=0.69
@@ -25,7 +24,7 @@ pypdf>=5.0
 python-docx>=1.1
 charset-normalizer>=3.3
 
-# --- liveness probe (Grounding Gate tier 2) ---
+# --- SerpApi calls + liveness probe (Grounding Gate tier 2) ---
 requests>=2.32
 
 # --- dev ---

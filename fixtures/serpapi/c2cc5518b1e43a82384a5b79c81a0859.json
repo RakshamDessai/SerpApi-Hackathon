@@ -1,0 +1,627 @@
+{
+  "fetched_at": 1791602612.859736,
+  "engine": "google_scholar",
+  "params": {
+    "engine": "google_scholar",
+    "q": "\"research design\" OR \"research assistant\" OR \"qualitative research\" OR \"interview study\"",
+    "hl": "en",
+    "as_ylo": 2025
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afb36c4c0ccae2fb7734",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/gTqTyCIedaE2IaAovSrcZ5A1W4jz08O6zfPp2dUdgOc/6ac9afb36c4c0ccae2fb7734.json",
+      "markdown_endpoint": "https://serpapi.com/searches/gTqTyCIedaE2IaAovSrcZ5A1W4jz08O6zfPp2dUdgOc/6ac9afb36c4c0ccae2fb7734.md",
+      "created_at": "2026-10-10 03:23:31 UTC",
+      "processed_at": "2026-10-10 03:23:31 UTC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_ylo=2025",
+      "raw_html_file": "https://serpapi.com/searches/gTqTyCIedaE2IaAovSrcZ5A1W4jz08O6zfPp2dUdgOc/6ac9afb36c4c0ccae2fb7734.html",
+      "total_time_taken": 1.57
+    },
+    "search_parameters": {
+      "engine": "google_scholar",
+      "q": "\"research design\" OR \"research assistant\" OR \"qualitative research\" OR \"interview study\"",
+      "hl": "en",
+      "as_ylo": "2025"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling",
+      "total_results": 16400,
+      "time_taken_displayed": 0.12,
+      "query_displayed": "\"research design\" OR \"research assistant\" OR \"qualitative research\" OR \"interview study\""
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Ensuring validity and reliability in qualitative research",
+        "result_id": "GbeYFW8MmXgJ",
+        "link": "https://ebn.bmj.com/content/28/4/206.abstract",
+        "snippet": "Research made simple 10.1136/ebnurs-2024-104232 In the 10 years since this paper was originally published in EBN\u2019s Research Made Simple series, 1 the debate around validity \u2026",
+        "publication_info": {
+          "summary": "H Noble, J Smith - Evidence Based Nursing, 2025 - ebn.bmj.com",
+          "authors": [
+            {
+              "name": "H Noble",
+              "link": "https://scholar.google.com/citations?user=57r7wKcAAAAJ&hl=en&oi=sra",
+              "author_id": "57r7wKcAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=57r7wKcAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "J Smith",
+              "link": "https://scholar.google.com/citations?user=nX2HfYwAAAAJ&hl=en&oi=sra",
+              "author_id": "nX2HfYwAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nX2HfYwAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "bmj.com",
+            "file_format": "PDF",
+            "link": "https://ebn.bmj.com/content/ebnurs/28/4/206.full.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=GbeYFW8MmXgJ",
+          "cited_by": {
+            "total": 237,
+            "link": "https://scholar.google.com/scholar?cites=8689990627231315737&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "8689990627231315737",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=8689990627231315737&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:GbeYFW8MmXgJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AGbeYFW8MmXgJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 9,
+            "link": "https://scholar.google.com/scholar?cluster=8689990627231315737&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "8689990627231315737",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=8689990627231315737&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "title": "Using thematic analysis in qualitative research",
+        "result_id": "J8FaparRN_cJ",
+        "type": "Html",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2949916X25000222",
+        "snippet": "Thematic analysis (TA) is one of the most widely utilized methods for analyzing qualitative data, offering a structured yet flexible framework for identifying, analyzing, and interpreting \u2026",
+        "publication_info": {
+          "summary": "SK Ahmed, RA Mohammed, AJ Nashwan\u2026 - Journal of medicine \u2026, 2025 - Elsevier",
+          "authors": [
+            {
+              "name": "SK Ahmed",
+              "link": "https://scholar.google.com/citations?user=51TDMPAAAAAJ&hl=en&oi=sra",
+              "author_id": "51TDMPAAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=51TDMPAAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "RA Mohammed",
+              "link": "https://scholar.google.com/citations?user=K6tgeUgAAAAJ&hl=en&oi=sra",
+              "author_id": "K6tgeUgAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=K6tgeUgAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "AJ Nashwan",
+              "link": "https://scholar.google.com/citations?user=gIkS-2kAAAAJ&hl=en&oi=sra",
+              "author_id": "gIkS-2kAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gIkS-2kAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "sciencedirect.com",
+            "file_format": "HTML",
+            "link": "https://www.sciencedirect.com/science/article/pii/S2949916X25000222"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=J8FaparRN_cJ",
+          "html_version": "https://www.sciencedirect.com/science/article/pii/S2949916X25000222",
+          "cited_by": {
+            "total": 2143,
+            "link": "https://scholar.google.com/scholar?cites=17813937381936120103&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "17813937381936120103",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=17813937381936120103&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:J8FaparRN_cJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AJ8FaparRN_cJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=17813937381936120103&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "17813937381936120103",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=17813937381936120103&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "title": "Qualitative research: A guide to design and implementation",
+        "result_id": "F9BDPe1UQ6wJ",
+        "type": "Book",
+        "link": "https://books.google.com/books?hl=en&lr=&id=tRpCEQAAQBAJ&oi=fnd&pg=PR7&dq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&ots=0CC0Q5QSIr&sig=CUsRslDthUHYQjKynOmKaNYOBn4",
+        "snippet": "\u2026 presenting a qualitative research study Qualitative Research: A \u2026 for designing and implementing qualitative research studies, and \u2026 a strong foundation in qualitative research theory and \u2026",
+        "publication_info": {
+          "summary": "EJ Tisdell, SB Merriam, HL Stuckey-Peyrot - 2025 - books.google.com",
+          "authors": [
+            {
+              "name": "EJ Tisdell",
+              "link": "https://scholar.google.com/citations?user=3X5fXncAAAAJ&hl=en&oi=sra",
+              "author_id": "3X5fXncAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3X5fXncAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "SB Merriam"
+            },
+            {
+              "name": "HL Stuckey-Peyrot"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=F9BDPe1UQ6wJ",
+          "cited_by": {
+            "total": 93840,
+            "link": "https://scholar.google.com/scholar?cites=12412858375875055639&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "12412858375875055639",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=12412858375875055639&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:F9BDPe1UQ6wJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AF9BDPe1UQ6wJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 10,
+            "link": "https://scholar.google.com/scholar?cluster=12412858375875055639&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "12412858375875055639",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=12412858375875055639&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "title": "Harnessing the power of AI in qualitative research: Exploring, using and redesigning ChatGPT",
+        "result_id": "4DGVOiQC4FEJ",
+        "type": "Html",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2949882125000283",
+        "snippet": "AI tools, particularly large-scale language model (LLM) based applications such as ChatGPT, have the potential to mitigate qualitative research workload. In this study, we conducted \u2026",
+        "publication_info": {
+          "summary": "HE Zhang, C Wu, J Xie, Y Lyu, J Cai\u2026 - Computers in Human \u2026, 2025 - Elsevier",
+          "authors": [
+            {
+              "name": "HE Zhang",
+              "link": "https://scholar.google.com/citations?user=MgxFi7QAAAAJ&hl=en&oi=sra",
+              "author_id": "MgxFi7QAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=MgxFi7QAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "C Wu",
+              "link": "https://scholar.google.com/citations?user=bKnl40AAAAAJ&hl=en&oi=sra",
+              "author_id": "bKnl40AAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=bKnl40AAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "J Xie",
+              "link": "https://scholar.google.com/citations?user=kVVYTAEAAAAJ&hl=en&oi=sra",
+              "author_id": "kVVYTAEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=kVVYTAEAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "Y Lyu",
+              "link": "https://scholar.google.com/citations?user=h7f_hhEAAAAJ&hl=en&oi=sra",
+              "author_id": "h7f_hhEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=h7f_hhEAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "J Cai",
+              "link": "https://scholar.google.com/citations?user=CtRkkTwAAAAJ&hl=en&oi=sra",
+              "author_id": "CtRkkTwAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=CtRkkTwAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "sciencedirect.com",
+            "file_format": "HTML",
+            "link": "https://www.sciencedirect.com/science/article/pii/S2949882125000283"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=4DGVOiQC4FEJ",
+          "html_version": "https://www.sciencedirect.com/science/article/pii/S2949882125000283",
+          "cited_by": {
+            "total": 169,
+            "link": "https://scholar.google.com/scholar?cites=5899717866480284128&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "5899717866480284128",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5899717866480284128&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:4DGVOiQC4FEJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3A4DGVOiQC4FEJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=5899717866480284128&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "5899717866480284128",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=5899717866480284128&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 5,
+        "title": "Researcher positionality: Ways to include it in a qualitative research design",
+        "result_id": "M7rg3DNsRwUJ",
+        "link": "https://journals.sagepub.com/doi/abs/10.1177/16094069251321251",
+        "snippet": "\u2026 This paper contributes to the ongoing discussion on qualitative research design that explores positionality. The key assertion that Masters, Doctor of Education, Doctor of Social Work, \u2026",
+        "publication_info": {
+          "summary": "PR Goundar - International Journal of Qualitative Methods, 2025 - journals.sagepub.com",
+          "authors": [
+            {
+              "name": "PR Goundar",
+              "link": "https://scholar.google.com/citations?user=kWtSVK8AAAAJ&hl=en&oi=sra",
+              "author_id": "kWtSVK8AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=kWtSVK8AAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "sagepub.com",
+            "file_format": "PDF",
+            "link": "https://journals.sagepub.com/doi/pdf/10.1177/16094069251321251"
+          },
+          {
+            "title": "Full View",
+            "link": "https://scholar.google.com/scholar?output=instlink&q=info:M7rg3DNsRwUJ:scholar.google.com/&hl=en&as_sdt=0,5&as_ylo=2025&scillfp=9171177148294606048&oi=lle"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=M7rg3DNsRwUJ",
+          "cited_by": {
+            "total": 268,
+            "link": "https://scholar.google.com/scholar?cites=380391663540943411&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "380391663540943411",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=380391663540943411&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:M7rg3DNsRwUJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AM7rg3DNsRwUJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cluster=380391663540943411&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "380391663540943411",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=380391663540943411&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 6,
+        "title": "Understanding qualitative research methodology: A systematic review",
+        "result_id": "vfpCImdjmVcJ",
+        "type": "Pdf",
+        "link": "https://noyam.org/wp-content/uploads/2025/03/EHASS2025637.pdf",
+        "snippet": "\u2026 of qualitative research method is outlined in this paper. Qualitative research methodology \u2026 This study makes key contributions to four main types of qualitative research designs with \u2026",
+        "publication_info": {
+          "summary": "DS Makateng, NT Mokala - E-Journal of Humanities, Arts and Social \u2026, 2025 - noyam.org",
+          "authors": [
+            {
+              "name": "DS Makateng",
+              "link": "https://scholar.google.com/citations?user=RnwT3oMAAAAJ&hl=en&oi=sra",
+              "author_id": "RnwT3oMAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=RnwT3oMAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "NT Mokala",
+              "link": "https://scholar.google.com/citations?user=HDjB9YsAAAAJ&hl=en&oi=sra",
+              "author_id": "HDjB9YsAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=HDjB9YsAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "noyam.org",
+            "file_format": "PDF",
+            "link": "https://noyam.org/wp-content/uploads/2025/03/EHASS2025637.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=vfpCImdjmVcJ",
+          "cited_by": {
+            "total": 63,
+            "link": "https://scholar.google.com/scholar?cites=6312185647344057021&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "6312185647344057021",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6312185647344057021&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:vfpCImdjmVcJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AvfpCImdjmVcJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=6312185647344057021&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "6312185647344057021",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=6312185647344057021&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:vfpCImdjmVcJ:scholar.google.com/+%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      },
+      {
+        "position": 7,
+        "title": "Qualitative research in the era of AI: a return to positivism or a new paradigm?",
+        "result_id": "cvfbNLUtn5MJ",
+        "link": "https://journals.sagepub.com/doi/abs/10.1177/16094069251337583",
+        "snippet": "\u2026 the scalability in qualitative research while challenging its \u2026 a qualitative research design to better comprehend how researchers accept and integrate AI tools into qualitative research. It \u2026",
+        "publication_info": {
+          "summary": "G Chatzichristos - International Journal of Qualitative \u2026, 2025 - journals.sagepub.com",
+          "authors": [
+            {
+              "name": "G Chatzichristos",
+              "link": "https://scholar.google.com/citations?user=3_NNOIsAAAAJ&hl=en&oi=sra",
+              "author_id": "3_NNOIsAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3_NNOIsAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "sagepub.com",
+            "file_format": "PDF",
+            "link": "https://journals.sagepub.com/doi/pdf/10.1177/16094069251337583"
+          },
+          {
+            "title": "Full View",
+            "link": "https://scholar.google.com/scholar?output=instlink&q=info:cvfbNLUtn5MJ:scholar.google.com/&hl=en&as_sdt=0,5&as_ylo=2025&scillfp=16195204984125476228&oi=lle"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=cvfbNLUtn5MJ",
+          "cited_by": {
+            "total": 68,
+            "link": "https://scholar.google.com/scholar?cites=10637271101171562354&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "10637271101171562354",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=10637271101171562354&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:cvfbNLUtn5MJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AcvfbNLUtn5MJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=10637271101171562354&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "10637271101171562354",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=10637271101171562354&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 8,
+        "title": "Purposeful sampling and saturation in qualitative research methodologies: recommendations and review",
+        "result_id": "jUKcRisAEe4J",
+        "link": "https://link.springer.com/article/10.1007/s11846-025-00881-2",
+        "snippet": "\u2026 Qualitative research has been flourishing in business and \u2026 Hence, highly substantial to qualitative research is how to achieve \u2026 informants and cases in the qualitative research process. \u2026",
+        "publication_info": {
+          "summary": "RB Bouncken, W Czakon, F Schmitt - Review of Managerial Science, 2026 - Springer",
+          "authors": [
+            {
+              "name": "RB Bouncken",
+              "link": "https://scholar.google.com/citations?user=BXReksUAAAAJ&hl=en&oi=sra",
+              "author_id": "BXReksUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BXReksUAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "W Czakon",
+              "link": "https://scholar.google.com/citations?user=95JXb0EAAAAJ&hl=en&oi=sra",
+              "author_id": "95JXb0EAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=95JXb0EAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "F Schmitt",
+              "link": "https://scholar.google.com/citations?user=g5mz0t0AAAAJ&hl=en&oi=sra",
+              "author_id": "g5mz0t0AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=g5mz0t0AAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1007/s11846-025-00881-2.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=jUKcRisAEe4J",
+          "cited_by": {
+            "total": 520,
+            "link": "https://scholar.google.com/scholar?cites=17154492641499169421&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "17154492641499169421",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=17154492641499169421&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:jUKcRisAEe4J:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AjUKcRisAEe4J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 14,
+            "link": "https://scholar.google.com/scholar?cluster=17154492641499169421&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "17154492641499169421",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=17154492641499169421&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 9,
+        "title": "Making a theoretical contribution with qualitative research",
+        "result_id": "Ogr6n-dtEigJ",
+        "link": "https://journals.aom.org/doi/full/10.5465/amj.2025.4002",
+        "snippet": "\u2026 Consequently, reviewers of qualitative research often have elevated \u2026 Moreover, in qualitative research, potential theoretical \u2026 Qualitative research requires flexibility since unexpected \u2026",
+        "publication_info": {
+          "summary": "E Rouse, J Reinecke, D Ravasi, A Langley\u2026 - Academy of \u2026, 2025 - journals.aom.org",
+          "authors": [
+            {
+              "name": "E Rouse",
+              "link": "https://scholar.google.com/citations?user=DVGJOfMAAAAJ&hl=en&oi=sra",
+              "author_id": "DVGJOfMAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=DVGJOfMAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "J Reinecke",
+              "link": "https://scholar.google.com/citations?user=HZ3yWq4AAAAJ&hl=en&oi=sra",
+              "author_id": "HZ3yWq4AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=HZ3yWq4AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "D Ravasi",
+              "link": "https://scholar.google.com/citations?user=P4qHxikAAAAJ&hl=en&oi=sra",
+              "author_id": "P4qHxikAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=P4qHxikAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "A Langley",
+              "link": "https://scholar.google.com/citations?user=N_Dy1J8AAAAJ&hl=en&oi=sra",
+              "author_id": "N_Dy1J8AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=N_Dy1J8AAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "aom.org",
+            "file_format": "PDF",
+            "link": "https://journals.aom.org/doi/pdf/10.5465/amj.2025.4002"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Ogr6n-dtEigJ",
+          "cited_by": {
+            "total": 79,
+            "link": "https://scholar.google.com/scholar?cites=2887491152686746170&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "2887491152686746170",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=2887491152686746170&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:Ogr6n-dtEigJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AOgr6n-dtEigJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 10,
+            "link": "https://scholar.google.com/scholar?cluster=2887491152686746170&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "2887491152686746170",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=2887491152686746170&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 10,
+        "title": "Reliability and validity in qualitative research revisited and the role of AI",
+        "result_id": "5pA2iorgLqIJ",
+        "type": "Pdf",
+        "link": "https://www.researchgate.net/profile/Prokopis-A-Christou/publication/390265947_Reliability_and_validity_in_qualitative_research_revisited_and_the_role_of_AI/links/67e66360f966c17052aad6ec/Reliability-and-validity-in-qualitative-research-revisited-and-the-role-of-AI.pdf",
+        "snippet": "\u2026 In this paper, I revisit these concepts in the context of qualitative research, highlighting their \u2026 trustworthiness in qualitative research outcomes amidst technological advancements. \u2026",
+        "publication_info": {
+          "summary": "PA Christou - The Qualitative Report, 2025 - researchgate.net",
+          "authors": [
+            {
+              "name": "PA Christou",
+              "link": "https://scholar.google.com/citations?user=lLzp3iUAAAAJ&hl=en&oi=sra",
+              "author_id": "lLzp3iUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=lLzp3iUAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "researchgate.net",
+            "file_format": "PDF",
+            "link": "https://www.researchgate.net/profile/Prokopis-A-Christou/publication/390265947_Reliability_and_validity_in_qualitative_research_revisited_and_the_role_of_AI/links/67e66360f966c17052aad6ec/Reliability-and-validity-in-qualitative-research-revisited-and-the-role-of-AI.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=5pA2iorgLqIJ",
+          "cited_by": {
+            "total": 57,
+            "link": "https://scholar.google.com/scholar?cites=11686524968701956326&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "11686524968701956326",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11686524968701956326&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:5pA2iorgLqIJ:scholar.google.com/&scioq=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=related%3A5pA2iorgLqIJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 5,
+            "link": "https://scholar.google.com/scholar?cluster=11686524968701956326&hl=en&as_sdt=0,5&as_ylo=2025",
+            "cluster_id": "11686524968701956326",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&cluster=11686524968701956326&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:5pA2iorgLqIJ:scholar.google.com/+%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025"
+        }
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://scholar.google.com/scholar?start=10&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+      "other_pages": {
+        "2": "https://scholar.google.com/scholar?start=10&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "3": "https://scholar.google.com/scholar?start=20&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "4": "https://scholar.google.com/scholar?start=30&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "5": "https://scholar.google.com/scholar?start=40&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "6": "https://scholar.google.com/scholar?start=50&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "7": "https://scholar.google.com/scholar?start=60&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "8": "https://scholar.google.com/scholar?start=70&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "9": "https://scholar.google.com/scholar?start=80&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025",
+        "10": "https://scholar.google.com/scholar?start=90&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&hl=en&as_sdt=0,5&as_ylo=2025"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=10",
+      "next": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=10",
+        "3": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=20",
+        "4": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=30",
+        "5": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=40",
+        "6": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=50",
+        "7": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=60",
+        "8": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=70",
+        "9": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=80",
+        "10": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2025&engine=google_scholar&hl=en&q=%22research+design%22+OR+%22research+assistant%22+OR+%22qualitative+research%22+OR+%22interview+study%22&start=90"
+      }
+    }
+  }
+}

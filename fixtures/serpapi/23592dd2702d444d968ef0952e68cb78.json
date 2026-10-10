@@ -1,0 +1,127 @@
+{
+  "fetched_at": 1791602610.868562,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:idealist.org volunteer opportunity research design",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afb018dc937f3d7adff7",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/67porlK3M0yuX0I_kFSLQDYTC3xEccZ4UfSJLC8Ix2Y/6ac9afb018dc937f3d7adff7.json",
+      "markdown_endpoint": "https://serpapi.com/searches/67porlK3M0yuX0I_kFSLQDYTC3xEccZ4UfSJLC8Ix2Y/6ac9afb018dc937f3d7adff7.md",
+      "created_at": "2026-10-10 03:23:28 UTC",
+      "processed_at": "2026-10-10 03:23:28 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aidealist.org+volunteer+opportunity+research+design&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/67porlK3M0yuX0I_kFSLQDYTC3xEccZ4UfSJLC8Ix2Y/6ac9afb018dc937f3d7adff7.html",
+      "prettify_html_file": "https://serpapi.com/searches/67porlK3M0yuX0I_kFSLQDYTC3xEccZ4UfSJLC8Ix2Y/6ac9afb018dc937f3d7adff7.prettify",
+      "total_time_taken": 1.75
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:idealist.org volunteer opportunity research design",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Research Operations Specialist - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/97809273616242e98ed7b30b17bfe27d-research-operations-specialist-work-on-climate-san-francisco",
+        "date_raw": "2026-09-16T00:00:00.0000000",
+        "date": "Sep 16, 2026",
+        "snippet": "About the team The Impact Research team studies the impact of Work on Climate's community through data on the usage of our programs. We gather data from mixed-methods research, including surveying, interviews, case studies, and usage metrics. Our team's findings guide program design and prove impact to our allies and funders.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Volunteering, Nonprofit Jobs, and Community - Idealist",
+        "link": "https://www.idealist.org/en",
+        "snippet": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Research & Engineering Project Leader: Process Design (Flonox) - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/4c65818114924c57ac6f8456bb3a84e1-research-engineering-project-leader-process-design-flonox-save-the-watertm-fort-lauderdale",
+        "date_raw": "2026-08-26T00:00:00.0000000",
+        "date": "Aug 26, 2026",
+        "snippet": "Find opportunities to change the world with the latest social-impact job, internship, and volunteer listings. Plus, explore resources for taking action in your community.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Assistant UI/UX Design Manager - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/2e906bbe421a480e8a550a9b4a1e586d-assistant-uiux-design-manager-menzies-philanthropic-foundation-little-elm",
+        "date_raw": "2026-08-05T00:00:00.0000000",
+        "date": "Aug 5, 2026",
+        "snippet": "Job Overview: The Assistant Design Manager will support the Design Manager in overseeing and executing design projects that align with the organization's mission. This role requires collaboration with cross-functional teams to create visually compelling and impactful designs for digital and print materials.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Best Virtual Volunteer Opportunities, On-Site Volunteering ... - Idealist",
+        "link": "https://www.idealist.org/en/volunteer?q=Research",
+        "snippet": "Ready to make a difference? Search for volunteer opportunities at nonprofits and purpose-driven companies",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Architect & Experience Design (Volunteer) - Volunteer Opportunity ...",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/8fc9a75e1af946eaa530bf1a6b29b2f6-architect-experience-design-volunteer-vandanam-organization-greater-noida",
+        "date_raw": "2026-05-18T00:00:00.0000000",
+        "date": "May 18, 2026",
+        "snippet": "Honorary Creative Futurist: Sacred Architecture & Experience Design (Volunteer - Unpaid Opportunity) About the Opportunity Vandanam is seeking a Creative Futurist to serve as the visual and spatial architect of our movement. We are moving beyond theoretical research into the creation of the Guru Vandanam Campus \u2014a multi-hectare \"Living Womb\" designed to facilitate the journey from conception (Garbha Sanskar) to 22nd-century mastery (The 64 Kalas). This is a volunteer Council Guardian role ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Volunteer Program Design Experts \u2014 Help Build SkillsPlus ... - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/005519b548174410a61e031ae97b46ea-volunteer-program-design-experts-help-build-skillsplus-for-vulnerable-women-and-survivors-glowa-global-welfare-association-bamenda",
+        "snippet": "Why Volunteer with SkillsPlus? This is an opportunity to use your professional expertise to help design a potentially scalable livelihood model for vulnerable women and survivors. Volunteers will contribute directly to the development of a new social-impact program and collaborate with GLOWA's team and other professionals from different fields.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Remote Graphic Design Internship | Nonprofit & Social Impact Design",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/7095b75bd1384125963c38dec8f4f29e-remote-graphic-design-internship-nonprofit-social-impact-design-posterity-international-boston",
+        "date_raw": "2026-09-05T00:00:00.0000000",
+        "date": "Sep 5, 2026",
+        "snippet": "This remote internship offers emerging designers an opportunity to build substantive portfolio work while gaining experience in nonprofit graphic design, social impact design, humanitarian communications, advocacy campaigns, digital content, and visual storytelling.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "DataScience Engineering FALL 2026 Unpaid Internship",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/417c419c787f41d3b76b132177cacad9-datascience-engineering-fall-2026-unpaid-internship-carboncopies-foundation-for-substrate-independent-minds-inc-san-francisco",
+        "date_raw": "2026-10-06T00:00:00.0000000",
+        "date": "Oct 6, 2026",
+        "snippet": "Benefits Gain experience working on cutting-edge neuroscience and neurotechnology research Opportunity to co-author academic publications Build a portfolio of impactful, real-world work in a collaborative research setting Coordination available for university credit-earning internships through the Carboncopies Foundation",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Volunteering - Idealist",
+        "link": "https://www.idealist.org/en/volunteering-resources",
+        "snippet": "Connecting more than 200,000 organizations with millions of people looking for social-impact jobs and volunteer opportunities.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Remote Volunteer Opportunities - Idealist",
+        "link": "https://www.idealist.org/remote-volunteer-opportunities",
+        "date_raw": "2026-10-09T00:00:00.0000000",
+        "date": "Oct 9, 2026",
+        "snippet": "Education and wellness Volunteer - Palmdale, CA BRIGHT MIND ENRICHMENT AND SCHOOLING Mentor individuals and deliver educational wellness programs Remote",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aidealist.org+volunteer+opportunity+research+design&start=11"
+    }
+  }
+}

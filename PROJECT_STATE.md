@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — living status
 
-**Last updated:** 2026-10-09, after the improvement round.
+**Last updated:** 2026-10-10, after the first live SerpApi validation (Phase 5).
 **Update rule:** rewrite sections 1, 2 and 6 at the end of every phase. A cold
 session must be able to resume from this file alone.
 
@@ -15,78 +15,50 @@ session must be able to resume from this file alone.
 | **Phase 2** | Open-Mesh breadth, planner, gate, efficiency panel | ✅ done |
 | **Phase 3** | Bridge, Blueprint, STAR bullet, case study | ✅ done |
 | **Phase 4** | Syllabus Gap Report | ✅ done |
-| **Phase 5** | **Demo hardening + live validation** | 🔶 **blocked on a SerpApi key** |
+| **Phase 5** | Demo hardening + live validation | ✅ **done** (2026-10-10) |
 
-**Test suite: 279 passed, 2 skipped, ~1.8s.** App serves HTTP 200, no tracebacks, pyflakes clean. The UI is now driven end-to-end by `tests/test_ui.py` (Streamlit `AppTest`), which clicks the button and asserts cards, ship assets and the gap tab actually render.
+**Test suite: 329 passed, 4 skipped, ~2.3s.** Tests are isolated from `.env`
+(autouse fixture in `tests/conftest.py`) and never make a network call.
 
-### What is genuinely finished
+### Phase 5: the first real SerpApi run, 2026-10-10
 
-Everything that can be built and verified **without API keys**:
+A SerpApi key went into `.env` (git-ignored). About 100 of the free tier's 250
+monthly credits were used for diagnosis and recording, leaving **~150** at the end
+of the session. Check with `account.json` (free) before recording again.
 
-- Full pipeline, stages 0–6, wired end to end.
-- 17 platform adapters, affinity matrix, budget planner (82–86% credit saving).
-- Grounding Gate tiers 0–2, dedupe, four-term scorer with visible breakdown.
-- Ship stage: bridge, 3-phase blueprint per discipline, STAR bullet, case study.
-- Syllabus Gap Report.
-- Streamlit UI: ingest, results, gap tab, ship assets in-card, dev tab with
-  registry and credit-efficiency panel.
-- 278 tests, including a full pipeline acceptance run against cache-seeded
-  SerpApi-shaped payloads, and a Streamlit `AppTest` suite that clicks through
-  the real UI.
+**What real data showed, and what changed:**
 
-### Improvement round, 2026-10-09 (multi-agent survey + live verification)
-
-A 5-lens survey agreed with an independent finding: **there was no demo at all.**
-`fixtures/serpapi/` was empty, so with no key the results tab rendered blank.
-
-Added, all keyless and verified against live sites:
-
-| Addition | What it does |
+| Finding (measured) | Change |
 |---|---|
-| `scripts/harvest_demo_fixtures.py` | Pulls REAL currently-open listings from platforms' own public endpoints (Devpost JSON, GitHub search API, DrivenData, Zooniverse), normalises them into SerpApi response shape and writes them through the same cache. Demo mode now renders. |
-| `scripts/verify_adapters.py` | Checks `url_pattern` and `gate_markers` against live pages. **6 adapters verified** (devfolio, devpost, drivendata, github, taproot, zooniverse): pattern matched 3/3 real URLs, tier 2 returned `live`. |
-| Provenance plumbing | `RawResult`/`Opportunity` carry `provenance`; the UI banners harvested runs as **"not SerpApi"**. Harvested data can never be mistaken for SerpApi output. |
+| `engine=google` ignored `site:` on 7/9 CS searches and on 8/8 platforms in a matrix; only 8/80 results were real listings. `google_light` and `as_sitesearch` did the same. | `site:` adapters use `engine=duckduckgo` (on-site 11/11 on 6/7 platforms). |
+| DuckDuckGo leaks or returns nothing for quoted OR-groups. | `query_style="keywords"`: one plain phrase plus platform wording. `planner.keyword_for` picks the phrase shared by the most competencies in the group, unique across groups. |
+| Catchafire and Idealist `url_pattern`s were guesses that rejected **every** real listing; Taproot's accepted any page. | Patterns rewritten from observed URLs; regression tests use those real URLs. |
+| Taproot Plus redirects to taprootfoundation.org (like VolunteerMatch). | Adapter **removed**. |
+| UN Online Volunteering: 0 results on 6/6 searches (WAF-blocked from indexers). | `enabled_by_default=False`; `active()` now honours that flag. |
+| Devpost `/software/*` and `devfolio.co/hackathons/past` passed tier 0 but are past projects and index pages. | Patterns now accept only hackathon subdomains. |
+| Unstop serves an identical 25 KB JS shell for every listing; **58/67** recorded events had finished, including the #1 CS card. | Declarative `StatusApi` on the adapter: the gate asks `unstop.com/api/public/competition/{id}` for `reg_status` and `end_regn_dt`. |
+| Demo mode skipped the liveness probe, so finished events ranked as open. | The probe (free HTTP) runs in demo mode too and fails soft offline. `probe_top_n` 12 → 40, env `S2S_PROBE_TOP_N`. |
+| Empty searches are billed but were logged as free "skipped" and never cached. | Billed in the ledger and cached. |
+| Google Jobs returned recruiter lead-gen ads, senior roles, and Shona/Danish course ads. | `signals.exclusion_reason` removes them (not just ranks them low). |
+| Semantic scored 0 on 32/34 real CS results: listings name a theme, not a syllabus phrase. | Keyword-level credit (title > body), generic words ignored. |
+| 15 Scholar papers buried every Sociology volunteer role. | `scorer.diversify`: ≤3 per platform in the top 10, within a 15-point margin. |
+| Unstop titles carry the edition year ("… – 2020"). | Tier 1 archives titles whose newest year is in the past. |
 
-**VolunteerMatch adapter REMOVED.** Live check: `volunteermatch.org` now 302s to
-`idealist.org/volunteermatch`, including deep `/search/oppNNNN.jsp` links. Tier 0
-accepted those URLs (spending a credit); tier 2 then archived every one because
-the post-redirect host no longer matches. Guaranteed to burn a search and return
-nothing. Registry is now 16 adapters.
+**Result**, demo mode with the live probe on (live / unverified / archived):
 
-**First real-data quality measurement.** Running the CS preset on harvested
-listings exposed a bug introduced the same day: the fixture filter re-extracted
-phrases from the *rendered dork*, which carries adapter boilerplate
-(`"good first issue"`). Every harvested issue contains that by construction, so
-everything passed the filter while matching zero competency terms -
-`semantic` scored **0.000 on all 22 results**. Fixed by filtering on
-`dork.covers` competency phrases and querying GitHub for the student's actual
-skills. Result: semantic **0.000 -> 0.110 mean** (top results 0.32 and 0.70),
-top score **38% -> 52%**, and the best real match is
-*"Profiling - find and fix slow database queries"* against
-*"Indexing, Storage and Query Optimisation"*.
+| Preset | Searches (naive) | Saving | Live | Unverified | Archived |
+|---|---|---|---|---|---|
+| CS (VTU DBMS) | 10 (44) | 77% | 10 | 1 | 23 |
+| Commerce (DU B.Com) | 8 (55) | 85% | 11 | 5 | 18 |
+| Design (B.Des) | 8 (55) | 85% | 14 | 9 | 21 |
+| Sociology (DU) | 10 (44) | 77% | 22 | 28 | 19 |
 
-Known limitation: only the **CS/Engineering preset** has harvestable oracles.
-Commerce, Design and Sociology target Catchafire / Taproot / UNV / Unstop /
-Idealist, none of which publish a free API - and UNV sits behind an Imperva WAF
-that rejects our TLS fingerprint entirely. Those three streams still need the key.
+The app was driven in a browser in demo mode: 0 live searches, 10 cache hits, and
+cards render with a verified verdict, verbatim syllabus quote and score breakdown.
 
-### The one blocker: no key has ever been used
-
-**No real SerpApi query has ever run.** The chain around the call is proven; the
-*relevance of real results* is not. This is the entire remaining risk.
-
-First actions once a key exists:
-
-```bash
-.venv/bin/python check_serpapi.py                        # connectivity
-.venv/bin/python scripts/record_fixtures.py --dry-run    # 40 credits, all 4 presets
-.venv/bin/python scripts/record_fixtures.py              # then demo mode works offline
-```
-
-Then expect to re-tune `s2s/extract/taxonomy.py` → `MARKET_ALIASES` once real
-results are visible. That table is the single biggest lever on result quality.
-
----
+`scripts/verify_adapters.py`: **8 of 9** adapters verify against live pages. It
+now falls back to recorded SerpApi URLs for client-rendered listing pages.
+Kaggle has no samples because no preset uses it.
 
 ## 2. What exists, file by file
 
@@ -102,33 +74,33 @@ results are visible. That table is the single biggest lever on result quality.
 | `extract/taxonomy.py` | 54 market aliases, 33 tool hints, discipline keywords, Bloom verbs. |
 | `extract/heuristic.py` | No-LLM fallback. **First-class path.** |
 | `extract/llm.py` | Claude `messages.parse()`, prompt caching, verbatim-span validation. |
-| `mesh/adapters.py` | 17 platforms, declarative, tiers A–D. |
+| `mesh/adapters.py` | 15 platforms (11 active by default), declarative, tiers A–D, engine routing notes. |
 | `mesh/affinity.py` | Discipline × platform matrix, share-weighted profile. |
-| `mesh/planner.py` | Platform selection + OR-packing + hard cap. |
+| `mesh/planner.py` | Platform selection + competency grouping + shared-keyword choice + hard cap. |
 | `mesh/serpapi_client.py` | Cache-first, ledger-accounted, per-engine parsing. |
 | `mesh/cache.py` | SHA-256 disk cache; read-only demo replay. |
 | `mesh/ledger.py` | Credit accounting and skip reasons. |
-| `ground/gate.py` | Tier 0 URL shape, tier 1 snippet, tier 2 HTTP probe. |
+| `ground/gate.py` | Tier 0 URL shape, tier 1 snippet + title year, tier 2 HTTP probe or status API. |
 | `ground/dedupe.py` | URL canonicalisation + near-duplicate merge. |
-| `score/scorer.py` | Four weighted terms, composite, ranking. |
-| `score/signals.py` | Seniority, compensation, effort, deliverable, scam. |
+| `score/scorer.py` | Four weighted terms, composite, ranking, platform diversity. |
+| `score/signals.py` | Seniority, compensation, effort, deliverable, scam, exclusion reasons. |
 | `ship/bridge.py` | Grounded "why you can do this" + template fallback. |
 | `ship/blueprint.py` | 3-phase playbook per discipline + pitfalls. |
 | `ship/export.py` | STAR bullet, Markdown case study. |
 | `analyze/gaps.py` | Syllabus Gap Report. |
 | `ui/cards.py` | Card + score table + ship assets (only Streamlit importer). |
-| `analyze/gaps.py` tests | `tests/test_ui.py` drives the real app via Streamlit `AppTest`. |
+| `tests/test_ui.py` | Drives the real app via Streamlit `AppTest`. |
 
 ### Top level
 
 | File | Notes |
 |---|---|
 | `app.py` | Streamlit UI. Sidebar budget controls, 3 result tabs, dev tab. |
-| `scripts/record_fixtures.py` | Records real SerpApi responses. `--dry-run` prints cost first. |
-| `check_serpapi.py` | Standalone connectivity check (renamed from `test_serpapi.py`). |
+| `scripts/record_fixtures.py` | Records real SerpApi responses. `--dry-run` prints cost first. Replaces harvested stand-ins. |
+| `check_serpapi.py` | Key + quota check via the free account endpoint (renamed from `test_serpapi.py`). |
 | `fixtures/syllabi/` | 4 presets in real Indian university formats. |
-| `fixtures/serpapi/` | **Empty — awaiting a key.** |
-| `tests/` | 278 tests, ~1,700 lines. |
+| `fixtures/serpapi/` | **36 real SerpApi responses** (DuckDuckGo, Google Jobs, Scholar) for all 4 presets, recorded 2026-10-10. |
+| `tests/` | 329 tests. |
 
 ### Deleted
 
@@ -140,21 +112,21 @@ results are visible. That table is the single biggest lever on result quality.
 
 ```bash
 cd "/Users/saisalelkar/Desktop/serp hack"
-.venv/bin/python -m pytest          # 278 passed, 2 skipped
+.venv/bin/python -m pytest          # 329 passed, 4 skipped
 .venv/bin/streamlit run app.py
 ```
 
 - **venv: Python 3.12.12** at `.venv/`. System python3 is 3.14 — do not use it.
-- streamlit 1.65.0, anthropic 1.12.1, google-search-results 2.4.2, pypdf,
-  python-docx, charset-normalizer, requests, pytest, python-dotenv.
-- `serpapi` package **not** installed — no namespace conflict.
+- streamlit 1.65.0, anthropic 1.12.1, pypdf, python-docx, charset-normalizer,
+  requests, pytest, python-dotenv.
+- **No SerpApi SDK.** Calls go over plain HTTPS (`serpapi_client._search`), so it
+  does not matter whether a machine has `google-search-results` or `serpapi`.
+  (`google-search-results` may still be in old venvs; nothing imports it.)
 
-### Keys — both ABSENT
+### Keys
 
-`.env` holds `.env.example` placeholders, correctly read as unset.
-
-- No `SERPAPI_API_KEY` → live search unavailable.
-- No `ANTHROPIC_API_KEY` → heuristic extraction + template bridge.
+- `SERPAPI_API_KEY` — **set** in `.env` (git-ignored, free plan, 250/month).
+- `ANTHROPIC_API_KEY` — absent → heuristic extraction + template bridge.
 
 ---
 
@@ -163,7 +135,7 @@ cd "/Users/saisalelkar/Desktop/serp hack"
 | Decision | Reason |
 |---|---|
 | Streamlit only; no FastAPI | Those pins were never imported. `s2s/` stays import-clean. |
-| `google-search-results`, not `serpapi` | Both claim the `serpapi` module name; only the former has `GoogleSearch`. |
+| No SerpApi SDK; plain HTTPS | Both SDKs claim the `serpapi` module name with different APIs; supersedes the earlier "keep `google-search-results`" decision (2026-10-10). |
 | Platforms graded Tier A/B/C/D | Treating all platforms equally produces dead links on stage. |
 | Tier C off by default | Upwork/Freelancer/Contra gate detail pages. |
 | Heuristic extraction and template bridge are first-class | Two external APIs = two demo failure modes. |
@@ -172,6 +144,10 @@ cd "/Users/saisalelkar/Desktop/serp hack"
 | Score breakdown shown in the UI | Transparent arithmetic beats an opaque "AI match: 87%". |
 | Quote validation is **whitespace-insensitive** | Reflowing a line break is not a paraphrase. Invented content is still rejected. |
 | `s2s.ship.ship()` renamed to `prepare()` | `from s2s.ship import ship` was ambiguous with the package. |
+| `site:` adapters use `engine=duckduckgo` | Measured: Google ignored `site:` on every platform; DuckDuckGo kept it. |
+| Keyword queries, not OR-groups, for `site:` | OR-groups leaked off-site or returned nothing on every engine tested. |
+| Out-of-reach listings are removed, not penalised | A ranked-low senior role still lands on a student's screen. |
+| Liveness probe runs in demo mode | It is free HTTP; skipping it showed finished events as open. |
 
 ### Bugs found and fixed (all have regression tests)
 
@@ -211,31 +187,49 @@ cd "/Users/saisalelkar/Desktop/serp hack"
 19. Three unused imports, a stale `check_serpapi.py` self-reference, a wrong
     test count in the README, and a deprecated `use_container_width` call.
 
+**Live-validation round, 2026-10-10** (found with a real key, not by tests):
+
+20. `record_fixtures.py` claimed to overwrite harvested stand-ins but served them
+    as cache hits, so real responses were never recorded.
+21. Google ignored `site:` (see section 1): ~90% of results were off-site junk.
+22. Catchafire and Idealist URL patterns rejected every real listing.
+23. Taproot Plus is dead (redirects off-host); its pattern accepted any page.
+24. UN Online Volunteering is unsearchable; `active()` ignored `enabled_by_default`.
+25. Empty searches were billed but recorded as free, and never cached.
+26. Both B.Com groups chose the same keyword, issuing one query twice.
+27. Unstop "live" verdicts were meaningless: one shell page for every listing.
+28. Demo mode skipped liveness, so ended events ranked as open.
+29. Semantic score was 0 for nearly every real result.
+30. Senior roles, recruiter ads and non-English listings reached the cards.
+31. One platform could fill the whole top 10.
+32. Tests read the developer's real `.env`; with a key present they failed and
+    could have spent credits.
+33. `origin/main` gained a teammate commit moving to the new `serpapi` SDK, which
+    our `from serpapi import GoogleSearch` cannot run on. Both SDKs dropped in
+    favour of plain HTTPS; `check_serpapi.py` now uses the free account endpoint.
+
 ---
 
 ## 5. What is left — and who owns it
 
-### Yours (blocking)
+Nothing blocks a demo. These are the known limits, in priority order.
 
-| # | Action | Why it matters |
-|---|---|---|
-| 1 | **Provide a SerpApi key** in `.env` | Nothing has been validated against real results. This is the only true blocker. |
-| 2 | Decide the submission deadline | Determines whether Phase 5 polish is worth it. |
-| 3 | *(optional)* Anthropic key | Upgrades extraction and bridge prose. Not required. |
+| # | Item | Owner | Notes |
+|---|---|---|---|
+| 1 | **Catchafire liveness is unverified.** Pages return 200 with no observed "closed" wording; its `gate_markers` are still guesses. | dev | Find a closed Catchafire listing and record the real marker. |
+| 2 | **Many open events are not syllabus-specific.** The SQL-themed Unstop events had all ended, so CS's live top 10 is mostly general hackathons. This reflects the market, not a bug. | — | An Anthropic key would improve extraction phrasing. |
+| 3 | Google Jobs links are google.com share links; they cannot be probed and stay `unverified`. | — | Honest as labelled. |
+| 4 | Kaggle, DrivenData and Zooniverse have no recorded fixtures because no preset selects them. | dev | Add a Data Science preset to exercise them. |
+| 5 | `scripts/harvest_demo_fixtures.py` is superseded by real fixtures. | dev | Keep for keyless forks, or delete. |
+| 6 | *(optional)* Anthropic key | user | Upgrades extraction and bridge prose. |
+| 7 | Time the 4-stream demo end to end. A run takes ~15 s, mostly the liveness probe. | user | |
 
-### Mine, once the key exists
-
-| # | Action |
-|---|---|
-| 1 | Record fixtures (40 credits) so demo mode works offline. |
-| 2 | Inspect real results and re-tune `MARKET_ALIASES`. |
-| 3 | Validate gate tier 2 against real Catchafire/Upwork login walls. |
-| 4 | Click every link in all four presets (Phase 5 link audit) — a dead link shown as live is a release blocker. |
-| 5 | Time the 4-stream demo end to end. |
+Credit budget: recording all presets again costs ~36 credits. Check
+`https://serpapi.com/account.json?api_key=…` first; it is free.
 
 ---
 
 ## 6. Next action
 
-Everything buildable without keys is done. **The next step needs the SerpApi
-key.** Until it exists, the highest-value remaining work is cosmetic only.
+Phase 5 is complete and pushed. The next most valuable step is item 1 above
+(observe a real closed Catchafire listing), then a timed dry run of the demo.

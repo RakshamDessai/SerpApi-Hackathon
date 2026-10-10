@@ -1,0 +1,523 @@
+{
+  "fetched_at": 1791602559.858235,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "brand identity intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af7d28b27ba56cc9355f",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/rYXN6doECbzCuDokTAuugtvFYepFLetwRChNuBw-fZY/6ac9af7d28b27ba56cc9355f.json",
+      "markdown_endpoint": "https://serpapi.com/searches/rYXN6doECbzCuDokTAuugtvFYepFLetwRChNuBw-fZY/6ac9af7d28b27ba56cc9355f.md",
+      "created_at": "2026-10-10 03:22:37 UTC",
+      "processed_at": "2026-10-10 03:22:37 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=brand+identity+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/rYXN6doECbzCuDokTAuugtvFYepFLetwRChNuBw-fZY/6ac9af7d28b27ba56cc9355f.html",
+      "total_time_taken": 1.89
+    },
+    "search_parameters": {
+      "q": "brand identity intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbhbcdckkJHb4y7Ov1MVmz5NIP5iO-Fd5I4JIAYXCB39ShpvyXhSNdTuU0AZb02XpuupayKgjXtemc8c3e0hMugmZA6ne_dAhYUd80HlEvx95IC_jWre7L1XzFvQrxHz7_kb7cgWHm0mzob6wS_MgTMGSoU0cvFHL94OLDi7IKv02hBKWzJr2vR-0uLVCxjZB3yo0EA",
+          "q": "brand identity intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbhbcdckkJHb4y7Ov1MVmz5NIP5iO-Fd5I4JIAYXCB39ShpvyXhSNdTuU0AZb02XpuupayKgjXtemc8c3e0hMugmZA6ne_dAhYUd80HlEvx95IC_jWre7L1XzFvQrxHz7_kb7cgWHm0mzob6wS_MgTMGSoU0cvFHL94OLDi7IKv02hBKWzJr2vR-0uLVCxjZB3yo0EA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQxKsJKAB6BAgYEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbhbcdckkJHb4y7Ov1MVmz5NIP5iO-Fd5I4JIAYXCB39ShpvyXhSNdTuU0AZb02XpuupayKgjXtemc8c3e0hMugmZA6ne_dAhYUd80HlEvx95IC_jWre7L1XzFvQrxHz7_kb7cgWHm0mzob6wS_MgTMGSoU0cvFHL94OLDi7IKv02hBKWzJr2vR-0uLVCxjZB3yo0EA"
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf4mX445_GHj107wuq6q0CtwnHJ6YGE5MFGm_kKjhtLDIJV1Ec_eVkYcX3dqxnFlmTMAzOmRM9JufT3IrC-95D91_aqOkJmbAZy11q1WH3R4uV0HUNS8rFvpxAfJP0_2Neor0Ke53boBrF-jHAUqQ15gO5o1P_Iprp_FAuKL1Es9KtAuEYpPkCzP72pdihowC6QkAvx2u79_asf4qPYgcza9GbHIA2_oDklBDgtcaBa2WrR0rPtVNa_5ncVcY3N9THQ5z-NrpIdzCpRzrnkEYvYDMi6nPVqzaCRNUVqlK1mzbfqgDh_OigAZRSM-F9EQTH_wabO9",
+              "q": "brand identity intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf4mX445_GHj107wuq6q0CtwnHJ6YGE5MFGm_kKjhtLDIJV1Ec_eVkYcX3dqxnFlmTMAzOmRM9JufT3IrC-95D91_aqOkJmbAZy11q1WH3R4uV0HUNS8rFvpxAfJP0_2Neor0Ke53boBrF-jHAUqQ15gO5o1P_Iprp_FAuKL1Es9KtAuEYpPkCzP72pdihowC6QkAvx2u79_asf4qPYgcza9GbHIA2_oDklBDgtcaBa2WrR0rPtVNa_5ncVcY3N9THQ5z-NrpIdzCpRzrnkEYvYDMi6nPVqzaCRNUVqlK1mzbfqgDh_OigAZRSM-F9EQTH_wabO9&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf4mX445_GHj107wuq6q0CtwnHJ6YGE5MFGm_kKjhtLDIJV1Ec_eVkYcX3dqxnFlmTMAzOmRM9JufT3IrC-95D91_aqOkJmbAZy11q1WH3R4uV0HUNS8rFvpxAfJP0_2Neor0Ke53boBrF-jHAUqQ15gO5o1P_Iprp_FAuKL1Es9KtAuEYpPkCzP72pdihowC6QkAvx2u79_asf4qPYgcza9GbHIA2_oDklBDgtcaBa2WrR0rPtVNa_5ncVcY3N9THQ5z-NrpIdzCpRzrnkEYvYDMi6nPVqzaCRNUVqlK1mzbfqgDh_OigAZRSM-F9EQTH_wabO9"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf7rejZDw6M-KipCgrnQWnbaBryzmdR_BjlaDJzXDHfoIPOwXgf-FZVRjwC49GEc7ZU3dPyDgXzPxRXYF9CLNlYxxBiHPCDq0_wEvIbaY_hb67HaMBEo4klPtqG6BYrGL8BSoXqr7GF4tly2PRT4HfGsbaVIeqSkNZ9bng2RumkyP6_P4IzoyxUcriEXhZvmkLARysekMaqbiSwNO8du2KXqhkj1x2UTRoEolu1XyhY6ZrPXFVVfIKjbagc-_m3BAoeE_xcTJ6kZkzeIw_42BENRm_9tqY5rQgQEy8a-WWW6mrYEV3mdvAUGxQWgGNf4nO4-fnvT",
+              "q": "brand identity intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf7rejZDw6M-KipCgrnQWnbaBryzmdR_BjlaDJzXDHfoIPOwXgf-FZVRjwC49GEc7ZU3dPyDgXzPxRXYF9CLNlYxxBiHPCDq0_wEvIbaY_hb67HaMBEo4klPtqG6BYrGL8BSoXqr7GF4tly2PRT4HfGsbaVIeqSkNZ9bng2RumkyP6_P4IzoyxUcriEXhZvmkLARysekMaqbiSwNO8du2KXqhkj1x2UTRoEolu1XyhY6ZrPXFVVfIKjbagc-_m3BAoeE_xcTJ6kZkzeIw_42BENRm_9tqY5rQgQEy8a-WWW6mrYEV3mdvAUGxQWgGNf4nO4-fnvT&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf7rejZDw6M-KipCgrnQWnbaBryzmdR_BjlaDJzXDHfoIPOwXgf-FZVRjwC49GEc7ZU3dPyDgXzPxRXYF9CLNlYxxBiHPCDq0_wEvIbaY_hb67HaMBEo4klPtqG6BYrGL8BSoXqr7GF4tly2PRT4HfGsbaVIeqSkNZ9bng2RumkyP6_P4IzoyxUcriEXhZvmkLARysekMaqbiSwNO8du2KXqhkj1x2UTRoEolu1XyhY6ZrPXFVVfIKjbagc-_m3BAoeE_xcTJ6kZkzeIw_42BENRm_9tqY5rQgQEy8a-WWW6mrYEV3mdvAUGxQWgGNf4nO4-fnvT"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rM2xmP9BqdacKvs8R5NlSSWOLjimgPw_8LWaJHIaqMoVGP4jpK52XBJoA8wSU54Ufq7iBBz1-CmVXclIcs-E4i5rnaqSsZ3TfxyXgJ7jrPhcdCxhZ8E-lL2GjA4NpPBVHYSBAgsZV1RxOxGpAA3vPjkvmYax3zyz8Yvi9AAt19v5z4FMmbMp38DraqUwYkUEhEbGQhf8CJI1wG0ZRndH1jygOqfOASB0fh_JGE-_E3NV8wrt54FUNaV2IzI5dzITp8xOsKmvFMVkwdU6G092c4GYUgbkMy2QlJlExHLPFlo7nmFhjQByOmGnw3rWwrpetOQtswXJiBCQ-c7hE8mJ3REhYiOs",
+              "q": "brand identity intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rM2xmP9BqdacKvs8R5NlSSWOLjimgPw_8LWaJHIaqMoVGP4jpK52XBJoA8wSU54Ufq7iBBz1-CmVXclIcs-E4i5rnaqSsZ3TfxyXgJ7jrPhcdCxhZ8E-lL2GjA4NpPBVHYSBAgsZV1RxOxGpAA3vPjkvmYax3zyz8Yvi9AAt19v5z4FMmbMp38DraqUwYkUEhEbGQhf8CJI1wG0ZRndH1jygOqfOASB0fh_JGE-_E3NV8wrt54FUNaV2IzI5dzITp8xOsKmvFMVkwdU6G092c4GYUgbkMy2QlJlExHLPFlo7nmFhjQByOmGnw3rWwrpetOQtswXJiBCQ-c7hE8mJ3REhYiOs&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rM2xmP9BqdacKvs8R5NlSSWOLjimgPw_8LWaJHIaqMoVGP4jpK52XBJoA8wSU54Ufq7iBBz1-CmVXclIcs-E4i5rnaqSsZ3TfxyXgJ7jrPhcdCxhZ8E-lL2GjA4NpPBVHYSBAgsZV1RxOxGpAA3vPjkvmYax3zyz8Yvi9AAt19v5z4FMmbMp38DraqUwYkUEhEbGQhf8CJI1wG0ZRndH1jygOqfOASB0fh_JGE-_E3NV8wrt54FUNaV2IzI5dzITp8xOsKmvFMVkwdU6G092c4GYUgbkMy2QlJlExHLPFlo7nmFhjQByOmGnw3rWwrpetOQtswXJiBCQ-c7hE8mJ3REhYiOs"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEme_RVtkbdpoA-MLCJ_ilYmHweOAKfPVtRmfgvXuUXwn-G4QuA82Wf6g6azKZahTQu4kx5B-RFjP1yPQKeW1bbnmKeuN9VSgY861jFFal5Mrf8JSByP0lOX1-Ed_XClQlPz6lzs5FqEizy5atEKtUSPF_4NGLb9O_zifhYur_Rpe70JFkdjWcrQRof1SRaN3UsvbUIT0jRl1muOVRtNuE-_XvEw7A0NfTV-UykGz-yrcT4a-OGUN4z3H-JTkvUn39rg78LP_RWDAfZdvjE_7yXhGHGba6IUbdLi5GLxao2qGE2iUExi_dp-0JC-cn4YYkJ3XOW4",
+              "q": "brand identity intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEme_RVtkbdpoA-MLCJ_ilYmHweOAKfPVtRmfgvXuUXwn-G4QuA82Wf6g6azKZahTQu4kx5B-RFjP1yPQKeW1bbnmKeuN9VSgY861jFFal5Mrf8JSByP0lOX1-Ed_XClQlPz6lzs5FqEizy5atEKtUSPF_4NGLb9O_zifhYur_Rpe70JFkdjWcrQRof1SRaN3UsvbUIT0jRl1muOVRtNuE-_XvEw7A0NfTV-UykGz-yrcT4a-OGUN4z3H-JTkvUn39rg78LP_RWDAfZdvjE_7yXhGHGba6IUbdLi5GLxao2qGE2iUExi_dp-0JC-cn4YYkJ3XOW4&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEme_RVtkbdpoA-MLCJ_ilYmHweOAKfPVtRmfgvXuUXwn-G4QuA82Wf6g6azKZahTQu4kx5B-RFjP1yPQKeW1bbnmKeuN9VSgY861jFFal5Mrf8JSByP0lOX1-Ed_XClQlPz6lzs5FqEizy5atEKtUSPF_4NGLb9O_zifhYur_Rpe70JFkdjWcrQRof1SRaN3UsvbUIT0jRl1muOVRtNuE-_XvEw7A0NfTV-UykGz-yrcT4a-OGUN4z3H-JTkvUn39rg78LP_RWDAfZdvjE_7yXhGHGba6IUbdLi5GLxao2qGE2iUExi_dp-0JC-cn4YYkJ3XOW4"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf4mX445_GHj107wuq6q0CtwnHJ6YGE5MFGm_kKjhtLDIJV1Ec_eVkYcX3dqxnFlmTMAzOmRM9JufT3IrC-95D91_aqOkJmbAZy11q1WH3R4uV0HUNS8rFvpxAfJP0_2Neor0Ke53boBrF-jHAUqQ15gO5o1P_Iprp_FAuKL1Es9KtAuEYpPkCzP72pdihowC6QkAvx2u79_asf4qPYgcza9GbHIA2_oDklBDgtcaBa2WrR0rPtVNa_5ncVcY3N9THQ5z-NrpIdzCpRzrnkEYvYDMi6nPVqzaCRNUVqlK1mzbfqgDh_OigAZRSM-F9EQTH_wabO9",
+              "q": "brand identity intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf4mX445_GHj107wuq6q0CtwnHJ6YGE5MFGm_kKjhtLDIJV1Ec_eVkYcX3dqxnFlmTMAzOmRM9JufT3IrC-95D91_aqOkJmbAZy11q1WH3R4uV0HUNS8rFvpxAfJP0_2Neor0Ke53boBrF-jHAUqQ15gO5o1P_Iprp_FAuKL1Es9KtAuEYpPkCzP72pdihowC6QkAvx2u79_asf4qPYgcza9GbHIA2_oDklBDgtcaBa2WrR0rPtVNa_5ncVcY3N9THQ5z-NrpIdzCpRzrnkEYvYDMi6nPVqzaCRNUVqlK1mzbfqgDh_OigAZRSM-F9EQTH_wabO9&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf4mX445_GHj107wuq6q0CtwnHJ6YGE5MFGm_kKjhtLDIJV1Ec_eVkYcX3dqxnFlmTMAzOmRM9JufT3IrC-95D91_aqOkJmbAZy11q1WH3R4uV0HUNS8rFvpxAfJP0_2Neor0Ke53boBrF-jHAUqQ15gO5o1P_Iprp_FAuKL1Es9KtAuEYpPkCzP72pdihowC6QkAvx2u79_asf4qPYgcza9GbHIA2_oDklBDgtcaBa2WrR0rPtVNa_5ncVcY3N9THQ5z-NrpIdzCpRzrnkEYvYDMi6nPVqzaCRNUVqlK1mzbfqgDh_OigAZRSM-F9EQTH_wabO9"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf7rejZDw6M-KipCgrnQWnbaBryzmdR_BjlaDJzXDHfoIPOwXgf-FZVRjwC49GEc7ZU3dPyDgXzPxRXYF9CLNlYxxBiHPCDq0_wEvIbaY_hb67HaMBEo4klPtqG6BYrGL8BSoXqr7GF4tly2PRT4HfGsbaVIeqSkNZ9bng2RumkyP6_P4IzoyxUcriEXhZvmkLARysekMaqbiSwNO8du2KXqhkj1x2UTRoEolu1XyhY6ZrPXFVVfIKjbagc-_m3BAoeE_xcTJ6kZkzeIw_42BENRm_9tqY5rQgQEy8a-WWW6mrYEV3mdvAUGxQWgGNf4nO4-fnvT",
+              "q": "brand identity intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf7rejZDw6M-KipCgrnQWnbaBryzmdR_BjlaDJzXDHfoIPOwXgf-FZVRjwC49GEc7ZU3dPyDgXzPxRXYF9CLNlYxxBiHPCDq0_wEvIbaY_hb67HaMBEo4klPtqG6BYrGL8BSoXqr7GF4tly2PRT4HfGsbaVIeqSkNZ9bng2RumkyP6_P4IzoyxUcriEXhZvmkLARysekMaqbiSwNO8du2KXqhkj1x2UTRoEolu1XyhY6ZrPXFVVfIKjbagc-_m3BAoeE_xcTJ6kZkzeIw_42BENRm_9tqY5rQgQEy8a-WWW6mrYEV3mdvAUGxQWgGNf4nO4-fnvT&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rzL30x91-518r7vIP4EVEkFkRgpnjmdah-ZbTyByrvf7rejZDw6M-KipCgrnQWnbaBryzmdR_BjlaDJzXDHfoIPOwXgf-FZVRjwC49GEc7ZU3dPyDgXzPxRXYF9CLNlYxxBiHPCDq0_wEvIbaY_hb67HaMBEo4klPtqG6BYrGL8BSoXqr7GF4tly2PRT4HfGsbaVIeqSkNZ9bng2RumkyP6_P4IzoyxUcriEXhZvmkLARysekMaqbiSwNO8du2KXqhkj1x2UTRoEolu1XyhY6ZrPXFVVfIKjbagc-_m3BAoeE_xcTJ6kZkzeIw_42BENRm_9tqY5rQgQEy8a-WWW6mrYEV3mdvAUGxQWgGNf4nO4-fnvT"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rM2xmP9BqdacKvs8R5NlSSWOLjimgPw_8LWaJHIaqMoVGP4jpK52XBJoA8wSU54Ufq7iBBz1-CmVXclIcs-E4i5rnaqSsZ3TfxyXgJ7jrPhcdCxhZ8E-lL2GjA4NpPBVHYSBAgsZV1RxOxGpAA3vPjkvmYax3zyz8Yvi9AAt19v5z4FMmbMp38DraqUwYkUEhEbGQhf8CJI1wG0ZRndH1jygOqfOASB0fh_JGE-_E3NV8wrt54FUNaV2IzI5dzITp8xOsKmvFMVkwdU6G092c4GYUgbkMy2QlJlExHLPFlo7nmFhjQByOmGnw3rWwrpetOQtswXJiBCQ-c7hE8mJ3REhYiOs",
+              "q": "brand identity intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rM2xmP9BqdacKvs8R5NlSSWOLjimgPw_8LWaJHIaqMoVGP4jpK52XBJoA8wSU54Ufq7iBBz1-CmVXclIcs-E4i5rnaqSsZ3TfxyXgJ7jrPhcdCxhZ8E-lL2GjA4NpPBVHYSBAgsZV1RxOxGpAA3vPjkvmYax3zyz8Yvi9AAt19v5z4FMmbMp38DraqUwYkUEhEbGQhf8CJI1wG0ZRndH1jygOqfOASB0fh_JGE-_E3NV8wrt54FUNaV2IzI5dzITp8xOsKmvFMVkwdU6G092c4GYUgbkMy2QlJlExHLPFlo7nmFhjQByOmGnw3rWwrpetOQtswXJiBCQ-c7hE8mJ3REhYiOs&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rM2xmP9BqdacKvs8R5NlSSWOLjimgPw_8LWaJHIaqMoVGP4jpK52XBJoA8wSU54Ufq7iBBz1-CmVXclIcs-E4i5rnaqSsZ3TfxyXgJ7jrPhcdCxhZ8E-lL2GjA4NpPBVHYSBAgsZV1RxOxGpAA3vPjkvmYax3zyz8Yvi9AAt19v5z4FMmbMp38DraqUwYkUEhEbGQhf8CJI1wG0ZRndH1jygOqfOASB0fh_JGE-_E3NV8wrt54FUNaV2IzI5dzITp8xOsKmvFMVkwdU6G092c4GYUgbkMy2QlJlExHLPFlo7nmFhjQByOmGnw3rWwrpetOQtswXJiBCQ-c7hE8mJ3REhYiOs"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEme_RVtkbdpoA-MLCJ_ilYmHweOAKfPVtRmfgvXuUXwn-G4QuA82Wf6g6azKZahTQu4kx5B-RFjP1yPQKeW1bbnmKeuN9VSgY861jFFal5Mrf8JSByP0lOX1-Ed_XClQlPz6lzs5FqEizy5atEKtUSPF_4NGLb9O_zifhYur_Rpe70JFkdjWcrQRof1SRaN3UsvbUIT0jRl1muOVRtNuE-_XvEw7A0NfTV-UykGz-yrcT4a-OGUN4z3H-JTkvUn39rg78LP_RWDAfZdvjE_7yXhGHGba6IUbdLi5GLxao2qGE2iUExi_dp-0JC-cn4YYkJ3XOW4",
+              "q": "brand identity intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEme_RVtkbdpoA-MLCJ_ilYmHweOAKfPVtRmfgvXuUXwn-G4QuA82Wf6g6azKZahTQu4kx5B-RFjP1yPQKeW1bbnmKeuN9VSgY861jFFal5Mrf8JSByP0lOX1-Ed_XClQlPz6lzs5FqEizy5atEKtUSPF_4NGLb9O_zifhYur_Rpe70JFkdjWcrQRof1SRaN3UsvbUIT0jRl1muOVRtNuE-_XvEw7A0NfTV-UykGz-yrcT4a-OGUN4z3H-JTkvUn39rg78LP_RWDAfZdvjE_7yXhGHGba6IUbdLi5GLxao2qGE2iUExi_dp-0JC-cn4YYkJ3XOW4&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEme_RVtkbdpoA-MLCJ_ilYmHweOAKfPVtRmfgvXuUXwn-G4QuA82Wf6g6azKZahTQu4kx5B-RFjP1yPQKeW1bbnmKeuN9VSgY861jFFal5Mrf8JSByP0lOX1-Ed_XClQlPz6lzs5FqEizy5atEKtUSPF_4NGLb9O_zifhYur_Rpe70JFkdjWcrQRof1SRaN3UsvbUIT0jRl1muOVRtNuE-_XvEw7A0NfTV-UykGz-yrcT4a-OGUN4z3H-JTkvUn39rg78LP_RWDAfZdvjE_7yXhGHGba6IUbdLi5GLxao2qGE2iUExi_dp-0JC-cn4YYkJ3XOW4"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rr2yHl0u02JBTAgbs2PDDwpDy89AyhS1NYIOQgsr6u5Ze6IP3fw1y4Nd5cyuvD67dNPlZnY84sZWO7s25z8rPc2DoBa5tRnxFkoj0jnJ5xf4_FH9Q_Hx_duoIyTb8r1PVZwNMwJerAa64-VWi6Na9lD9TwiMSVr5-H9uBdUbVm7veT8NsxXLpQIBtjCCJPoK5OkVRR2C7mr9w92XEUWPF4MUaU-abMooql8bw1NlX_5uysbd-uiVEQxWUxmh2b7QZWHQlUgzM2b2BxopRSB5v-YyasKdqMaR6n6r4UYmrb_nRd2O7KHTYtuj2KBQh528um45YeMrf43p-Pz5PUZeizr081fLFfLp_TG8oDk-ykbxlSom7",
+              "q": "brand identity intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rr2yHl0u02JBTAgbs2PDDwpDy89AyhS1NYIOQgsr6u5Ze6IP3fw1y4Nd5cyuvD67dNPlZnY84sZWO7s25z8rPc2DoBa5tRnxFkoj0jnJ5xf4_FH9Q_Hx_duoIyTb8r1PVZwNMwJerAa64-VWi6Na9lD9TwiMSVr5-H9uBdUbVm7veT8NsxXLpQIBtjCCJPoK5OkVRR2C7mr9w92XEUWPF4MUaU-abMooql8bw1NlX_5uysbd-uiVEQxWUxmh2b7QZWHQlUgzM2b2BxopRSB5v-YyasKdqMaR6n6r4UYmrb_nRd2O7KHTYtuj2KBQh528um45YeMrf43p-Pz5PUZeizr081fLFfLp_TG8oDk-ykbxlSom7&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rr2yHl0u02JBTAgbs2PDDwpDy89AyhS1NYIOQgsr6u5Ze6IP3fw1y4Nd5cyuvD67dNPlZnY84sZWO7s25z8rPc2DoBa5tRnxFkoj0jnJ5xf4_FH9Q_Hx_duoIyTb8r1PVZwNMwJerAa64-VWi6Na9lD9TwiMSVr5-H9uBdUbVm7veT8NsxXLpQIBtjCCJPoK5OkVRR2C7mr9w92XEUWPF4MUaU-abMooql8bw1NlX_5uysbd-uiVEQxWUxmh2b7QZWHQlUgzM2b2BxopRSB5v-YyasKdqMaR6n6r4UYmrb_nRd2O7KHTYtuj2KBQh528um45YeMrf43p-Pz5PUZeizr081fLFfLp_TG8oDk-ykbxlSom7"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMfK-xOhXtCzlp_MPiAYNzri1aaa88SWJMv99mIilLsbPHeF9K3LcIa7YA_6n3bbrc7ME9FRrlKMJWINka42aEIlNB6TVA6VofvN9K8puOl2Jmb8SZd6JTq0lYoAJUxWmB1HN9Xex1JZ4ZW1dVhpepXQ3BdfJmTI28KdDgz1XtvnH7m5CrruWZpXd_gJaTXI83D54MyVBlkEvU8L4RXZyeK60S-YZdRgkcA3m-ISX-HE0wigU5DDLT_3LC5XYl2ffNm3rHRAW4OG1C2hBkELBqqGX5AKGf-5mQUyG1FDdJ7A4_lOedLfEP9C_fqOqSCKmF7Fjyi3pYmKyVudfHpYi6BYdKUi5",
+              "q": "brand identity intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMfK-xOhXtCzlp_MPiAYNzri1aaa88SWJMv99mIilLsbPHeF9K3LcIa7YA_6n3bbrc7ME9FRrlKMJWINka42aEIlNB6TVA6VofvN9K8puOl2Jmb8SZd6JTq0lYoAJUxWmB1HN9Xex1JZ4ZW1dVhpepXQ3BdfJmTI28KdDgz1XtvnH7m5CrruWZpXd_gJaTXI83D54MyVBlkEvU8L4RXZyeK60S-YZdRgkcA3m-ISX-HE0wigU5DDLT_3LC5XYl2ffNm3rHRAW4OG1C2hBkELBqqGX5AKGf-5mQUyG1FDdJ7A4_lOedLfEP9C_fqOqSCKmF7Fjyi3pYmKyVudfHpYi6BYdKUi5&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMfK-xOhXtCzlp_MPiAYNzri1aaa88SWJMv99mIilLsbPHeF9K3LcIa7YA_6n3bbrc7ME9FRrlKMJWINka42aEIlNB6TVA6VofvN9K8puOl2Jmb8SZd6JTq0lYoAJUxWmB1HN9Xex1JZ4ZW1dVhpepXQ3BdfJmTI28KdDgz1XtvnH7m5CrruWZpXd_gJaTXI83D54MyVBlkEvU8L4RXZyeK60S-YZdRgkcA3m-ISX-HE0wigU5DDLT_3LC5XYl2ffNm3rHRAW4OG1C2hBkELBqqGX5AKGf-5mQUyG1FDdJ7A4_lOedLfEP9C_fqOqSCKmF7Fjyi3pYmKyVudfHpYi6BYdKUi5"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JLmMh7EqXrfkYCtedupIKjmqiIfQ8OEN-yGgKAmJgpa0EkxwgcOQ84RpzJcjRupeEjibe4UrTG9shZGVo8KRdYror0Vt2fYm-TGALT0hDofDAauNtelWB5VkkrvhCvzO04DOcX6UtASQ4E9IEkjbTTjqydHlPJAz7av-nLTtqeXShaPnvQvy5SbGJY_o9uWeGgPSgfcB_uV7adpFTpfeRJFaDPFB1iWNDfeSIiI2ENKFppv6dflyPJ-Yl0CdK7f__XM_dk4bJclQNuzN1mCSAwroc69UZBAaUMF6FcMCWanvLJJJOz0JAuQsV1BVZSl8K-I39CsBrPdDiOsEpchTFziZsq41",
+              "q": "brand identity intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JLmMh7EqXrfkYCtedupIKjmqiIfQ8OEN-yGgKAmJgpa0EkxwgcOQ84RpzJcjRupeEjibe4UrTG9shZGVo8KRdYror0Vt2fYm-TGALT0hDofDAauNtelWB5VkkrvhCvzO04DOcX6UtASQ4E9IEkjbTTjqydHlPJAz7av-nLTtqeXShaPnvQvy5SbGJY_o9uWeGgPSgfcB_uV7adpFTpfeRJFaDPFB1iWNDfeSIiI2ENKFppv6dflyPJ-Yl0CdK7f__XM_dk4bJclQNuzN1mCSAwroc69UZBAaUMF6FcMCWanvLJJJOz0JAuQsV1BVZSl8K-I39CsBrPdDiOsEpchTFziZsq41&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JLmMh7EqXrfkYCtedupIKjmqiIfQ8OEN-yGgKAmJgpa0EkxwgcOQ84RpzJcjRupeEjibe4UrTG9shZGVo8KRdYror0Vt2fYm-TGALT0hDofDAauNtelWB5VkkrvhCvzO04DOcX6UtASQ4E9IEkjbTTjqydHlPJAz7av-nLTtqeXShaPnvQvy5SbGJY_o9uWeGgPSgfcB_uV7adpFTpfeRJFaDPFB1iWNDfeSIiI2ENKFppv6dflyPJ-Yl0CdK7f__XM_dk4bJclQNuzN1mCSAwroc69UZBAaUMF6FcMCWanvLJJJOz0JAuQsV1BVZSl8K-I39CsBrPdDiOsEpchTFziZsq41"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr149I7XQZTQCBQu_XSP5Q5CXCxeXzQ5SJ-QIsBiDcwzePeB0EXip3ZHvjrFtnd6TE4BFEBTNHhw-dDHx9TCnCYF-k_9xNz3GJCgeL1LvkoR5vw1nHVZfTd11dLz22JWDH_b7ORQCT2DQ_08pkgGisf3HzH1iuGStTDqx_7BfColBvnT_roCECPld0mQEjV6srgo3prc8WGDly7amrI1lwa7UUnxCmlEeUUOOJINHGTYcKB0WxGzmer1AQb29BnXvBYB81FLVmBgzXFmFm3gMcZb4F_dVvWWXNlmEttM5ziz6HKBHFawatnaipLAbeGO9upgiwCUprCPxP75wIsnPfxNXsRU7",
+              "q": "brand identity intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr149I7XQZTQCBQu_XSP5Q5CXCxeXzQ5SJ-QIsBiDcwzePeB0EXip3ZHvjrFtnd6TE4BFEBTNHhw-dDHx9TCnCYF-k_9xNz3GJCgeL1LvkoR5vw1nHVZfTd11dLz22JWDH_b7ORQCT2DQ_08pkgGisf3HzH1iuGStTDqx_7BfColBvnT_roCECPld0mQEjV6srgo3prc8WGDly7amrI1lwa7UUnxCmlEeUUOOJINHGTYcKB0WxGzmer1AQb29BnXvBYB81FLVmBgzXFmFm3gMcZb4F_dVvWWXNlmEttM5ziz6HKBHFawatnaipLAbeGO9upgiwCUprCPxP75wIsnPfxNXsRU7&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr149I7XQZTQCBQu_XSP5Q5CXCxeXzQ5SJ-QIsBiDcwzePeB0EXip3ZHvjrFtnd6TE4BFEBTNHhw-dDHx9TCnCYF-k_9xNz3GJCgeL1LvkoR5vw1nHVZfTd11dLz22JWDH_b7ORQCT2DQ_08pkgGisf3HzH1iuGStTDqx_7BfColBvnT_roCECPld0mQEjV6srgo3prc8WGDly7amrI1lwa7UUnxCmlEeUUOOJINHGTYcKB0WxGzmer1AQb29BnXvBYB81FLVmBgzXFmFm3gMcZb4F_dVvWWXNlmEttM5ziz6HKBHFawatnaipLAbeGO9upgiwCUprCPxP75wIsnPfxNXsRU7"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rr2yHl0u02JBTAgbs2PDDwpDy89AyhS1NYIOQgsr6u5Ze6IP3fw1y4Nd5cyuvD67dNPlZnY84sZWO7s25z8rPc2DoBa5tRnxFkoj0jnJ5xf4_FH9Q_Hx_duoIyTb8r1PVZwNMwJerAa64-VWi6Na9lD9TwiMSVr5-H9uBdUbVm7veT8NsxXLpQIBtjCCJPoK5OkVRR2C7mr9w92XEUWPF4MUaU-abMooql8bw1NlX_5uysbd-uiVEQxWUxmh2b7QZWHQlUgzM2b2BxopRSB5v-YyasKdqMaR6n6r4UYmrb_nRd2O7KHTYtuj2KBQh528um45YeMrf43p-Pz5PUZeizr081fLFfLp_TG8oDk-ykbxlSom7",
+              "q": "brand identity intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rr2yHl0u02JBTAgbs2PDDwpDy89AyhS1NYIOQgsr6u5Ze6IP3fw1y4Nd5cyuvD67dNPlZnY84sZWO7s25z8rPc2DoBa5tRnxFkoj0jnJ5xf4_FH9Q_Hx_duoIyTb8r1PVZwNMwJerAa64-VWi6Na9lD9TwiMSVr5-H9uBdUbVm7veT8NsxXLpQIBtjCCJPoK5OkVRR2C7mr9w92XEUWPF4MUaU-abMooql8bw1NlX_5uysbd-uiVEQxWUxmh2b7QZWHQlUgzM2b2BxopRSB5v-YyasKdqMaR6n6r4UYmrb_nRd2O7KHTYtuj2KBQh528um45YeMrf43p-Pz5PUZeizr081fLFfLp_TG8oDk-ykbxlSom7&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rr2yHl0u02JBTAgbs2PDDwpDy89AyhS1NYIOQgsr6u5Ze6IP3fw1y4Nd5cyuvD67dNPlZnY84sZWO7s25z8rPc2DoBa5tRnxFkoj0jnJ5xf4_FH9Q_Hx_duoIyTb8r1PVZwNMwJerAa64-VWi6Na9lD9TwiMSVr5-H9uBdUbVm7veT8NsxXLpQIBtjCCJPoK5OkVRR2C7mr9w92XEUWPF4MUaU-abMooql8bw1NlX_5uysbd-uiVEQxWUxmh2b7QZWHQlUgzM2b2BxopRSB5v-YyasKdqMaR6n6r4UYmrb_nRd2O7KHTYtuj2KBQh528um45YeMrf43p-Pz5PUZeizr081fLFfLp_TG8oDk-ykbxlSom7"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMfK-xOhXtCzlp_MPiAYNzri1aaa88SWJMv99mIilLsbPHeF9K3LcIa7YA_6n3bbrc7ME9FRrlKMJWINka42aEIlNB6TVA6VofvN9K8puOl2Jmb8SZd6JTq0lYoAJUxWmB1HN9Xex1JZ4ZW1dVhpepXQ3BdfJmTI28KdDgz1XtvnH7m5CrruWZpXd_gJaTXI83D54MyVBlkEvU8L4RXZyeK60S-YZdRgkcA3m-ISX-HE0wigU5DDLT_3LC5XYl2ffNm3rHRAW4OG1C2hBkELBqqGX5AKGf-5mQUyG1FDdJ7A4_lOedLfEP9C_fqOqSCKmF7Fjyi3pYmKyVudfHpYi6BYdKUi5",
+              "q": "brand identity intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMfK-xOhXtCzlp_MPiAYNzri1aaa88SWJMv99mIilLsbPHeF9K3LcIa7YA_6n3bbrc7ME9FRrlKMJWINka42aEIlNB6TVA6VofvN9K8puOl2Jmb8SZd6JTq0lYoAJUxWmB1HN9Xex1JZ4ZW1dVhpepXQ3BdfJmTI28KdDgz1XtvnH7m5CrruWZpXd_gJaTXI83D54MyVBlkEvU8L4RXZyeK60S-YZdRgkcA3m-ISX-HE0wigU5DDLT_3LC5XYl2ffNm3rHRAW4OG1C2hBkELBqqGX5AKGf-5mQUyG1FDdJ7A4_lOedLfEP9C_fqOqSCKmF7Fjyi3pYmKyVudfHpYi6BYdKUi5&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMfK-xOhXtCzlp_MPiAYNzri1aaa88SWJMv99mIilLsbPHeF9K3LcIa7YA_6n3bbrc7ME9FRrlKMJWINka42aEIlNB6TVA6VofvN9K8puOl2Jmb8SZd6JTq0lYoAJUxWmB1HN9Xex1JZ4ZW1dVhpepXQ3BdfJmTI28KdDgz1XtvnH7m5CrruWZpXd_gJaTXI83D54MyVBlkEvU8L4RXZyeK60S-YZdRgkcA3m-ISX-HE0wigU5DDLT_3LC5XYl2ffNm3rHRAW4OG1C2hBkELBqqGX5AKGf-5mQUyG1FDdJ7A4_lOedLfEP9C_fqOqSCKmF7Fjyi3pYmKyVudfHpYi6BYdKUi5"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JLmMh7EqXrfkYCtedupIKjmqiIfQ8OEN-yGgKAmJgpa0EkxwgcOQ84RpzJcjRupeEjibe4UrTG9shZGVo8KRdYror0Vt2fYm-TGALT0hDofDAauNtelWB5VkkrvhCvzO04DOcX6UtASQ4E9IEkjbTTjqydHlPJAz7av-nLTtqeXShaPnvQvy5SbGJY_o9uWeGgPSgfcB_uV7adpFTpfeRJFaDPFB1iWNDfeSIiI2ENKFppv6dflyPJ-Yl0CdK7f__XM_dk4bJclQNuzN1mCSAwroc69UZBAaUMF6FcMCWanvLJJJOz0JAuQsV1BVZSl8K-I39CsBrPdDiOsEpchTFziZsq41",
+              "q": "brand identity intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JLmMh7EqXrfkYCtedupIKjmqiIfQ8OEN-yGgKAmJgpa0EkxwgcOQ84RpzJcjRupeEjibe4UrTG9shZGVo8KRdYror0Vt2fYm-TGALT0hDofDAauNtelWB5VkkrvhCvzO04DOcX6UtASQ4E9IEkjbTTjqydHlPJAz7av-nLTtqeXShaPnvQvy5SbGJY_o9uWeGgPSgfcB_uV7adpFTpfeRJFaDPFB1iWNDfeSIiI2ENKFppv6dflyPJ-Yl0CdK7f__XM_dk4bJclQNuzN1mCSAwroc69UZBAaUMF6FcMCWanvLJJJOz0JAuQsV1BVZSl8K-I39CsBrPdDiOsEpchTFziZsq41&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JLmMh7EqXrfkYCtedupIKjmqiIfQ8OEN-yGgKAmJgpa0EkxwgcOQ84RpzJcjRupeEjibe4UrTG9shZGVo8KRdYror0Vt2fYm-TGALT0hDofDAauNtelWB5VkkrvhCvzO04DOcX6UtASQ4E9IEkjbTTjqydHlPJAz7av-nLTtqeXShaPnvQvy5SbGJY_o9uWeGgPSgfcB_uV7adpFTpfeRJFaDPFB1iWNDfeSIiI2ENKFppv6dflyPJ-Yl0CdK7f__XM_dk4bJclQNuzN1mCSAwroc69UZBAaUMF6FcMCWanvLJJJOz0JAuQsV1BVZSl8K-I39CsBrPdDiOsEpchTFziZsq41"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr149I7XQZTQCBQu_XSP5Q5CXCxeXzQ5SJ-QIsBiDcwzePeB0EXip3ZHvjrFtnd6TE4BFEBTNHhw-dDHx9TCnCYF-k_9xNz3GJCgeL1LvkoR5vw1nHVZfTd11dLz22JWDH_b7ORQCT2DQ_08pkgGisf3HzH1iuGStTDqx_7BfColBvnT_roCECPld0mQEjV6srgo3prc8WGDly7amrI1lwa7UUnxCmlEeUUOOJINHGTYcKB0WxGzmer1AQb29BnXvBYB81FLVmBgzXFmFm3gMcZb4F_dVvWWXNlmEttM5ziz6HKBHFawatnaipLAbeGO9upgiwCUprCPxP75wIsnPfxNXsRU7",
+              "q": "brand identity intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnvzEXP8_Sg8K9uTM0LBWgZVfhMFmg:1791602559248&q=brand+identity+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr149I7XQZTQCBQu_XSP5Q5CXCxeXzQ5SJ-QIsBiDcwzePeB0EXip3ZHvjrFtnd6TE4BFEBTNHhw-dDHx9TCnCYF-k_9xNz3GJCgeL1LvkoR5vw1nHVZfTd11dLz22JWDH_b7ORQCT2DQ_08pkgGisf3HzH1iuGStTDqx_7BfColBvnT_roCECPld0mQEjV6srgo3prc8WGDly7amrI1lwa7UUnxCmlEeUUOOJINHGTYcKB0WxGzmer1AQb29BnXvBYB81FLVmBgzXFmFm3gMcZb4F_dVvWWXNlmEttM5ziz6HKBHFawatnaipLAbeGO9upgiwCUprCPxP75wIsnPfxNXsRU7&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjajv3Qv66XAxXWAoYAHdfIFcYQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=brand+identity+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr149I7XQZTQCBQu_XSP5Q5CXCxeXzQ5SJ-QIsBiDcwzePeB0EXip3ZHvjrFtnd6TE4BFEBTNHhw-dDHx9TCnCYF-k_9xNz3GJCgeL1LvkoR5vw1nHVZfTd11dLz22JWDH_b7ORQCT2DQ_08pkgGisf3HzH1iuGStTDqx_7BfColBvnT_roCECPld0mQEjV6srgo3prc8WGDly7amrI1lwa7UUnxCmlEeUUOOJINHGTYcKB0WxGzmer1AQb29BnXvBYB81FLVmBgzXFmFm3gMcZb4F_dVvWWXNlmEttM5ziz6HKBHFawatnaipLAbeGO9upgiwCUprCPxP75wIsnPfxNXsRU7"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Creative & Branding Internship",
+        "company_name": "Pehchan",
+        "location": "Anywhere",
+        "via": "Unstop",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=QUREjwc3pLXNixUSAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWNIQ4CMRAAgz2FRq1CIFpCQkjAgSA4fnDZ623akt5u023ISSSeH_ISihk3M9170R0uhbDGJ8EazgV5jOzhxpUKa4gZvq8PPGQAJSwugDBcRXyi1SnUmvVorWoyXmuLOONkssI0yGybpH_0GrBQTlip3-23s8nsN8s7BReQIXKbjRF_IzZauIsAAAA&shmds=v1_ARwrE21vD_xfPP7dndPAM9UKRtTEg-yOfkVHXxnalsNL4a15oQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=QUREjwc3pLXNixUSAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9af7d28b27ba56cc9355f/images/LObx7WLdLh1_73bZ6lUsqnzzFHOGJdQHcvfpeq8_oMg.jpeg",
+        "extensions": [
+          "4 days ago",
+          "\u20b92K a year",
+          "Work from home",
+          "Part-time"
+        ],
+        "source_link": "https://unstop.com/internships/creative-branding-internship-pehchan-1766642",
+        "job_title": "Creative & Branding Internship",
+        "description": "Roles:\n\n\n\nCreative Design & Branding Intern\nWork on real branding and visual communication projects for PEHCHAN and its clients.\nContribute to social media, marketing, and digital design.\n\nResponsibilities:\n\n\n\nCreate social media posts, stories, carousels, and campaigns.\nDesign marketing creatives, banners, and promotional materials.\nAssist with logo design and brand identity development.\nCreate visual concepts based on project briefs.\nMaintain brand consistency across different designs.\nResearch design trends, references, typography, and visual styles.\nTake feedback and improve designs through iterations.\nBuild and maintain a strong design portfolio through real projects.\n\nRequirements:\n\n\n\nCurrently studying design, recently graduated, or a self-taught creative.\nStrong interest in graphic design, branding, and visual communication.\nGood understanding of composition, typography, spacing, and color.\nAbility to understand a brief and turn ideas into visuals.\nA portfolio is preferred.\nWillingness to learn, experiment, and take feedback.\nAvailable for a 3-month remote internship.",
+        "apply_options": [
+          {
+            "title": "Unstop",
+            "link": "https://unstop.com/internships/creative-branding-internship-pehchan-1766642?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/branding-videography-internship-onii-saab--talent-637895916159567653?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jooble",
+            "link": "https://in.jooble.org/jdp/1062448185193941749?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "India Jobs Expertini",
+            "link": "https://in.expertini.com/job/branding-videography-internship-india-onii-saab-637895916159567653/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Trabajo.org",
+            "link": "https://in.trabajo.org/job-1907-257b6066e9dd13912a5da38667ab7601?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/4343667756223168512?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDcmVhdGl2ZSBcdTAwMjYgQnJhbmRpbmcgSW50ZXJuc2hpcCIsImNvbXBhbnlfbmFtZSI6IlBlaGNoYW4iLCJodGlkb2NpZCI6IlFVUkVqd2MzcExYTml4VVNBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU21WclZtaHlSbnBHV0V3NVkwNWtkSFpCU0ZSYVJXWlVVelE0TlhnelIzWlBTak5wVlZka2FYbFZNbDh3WDBaaFZYazBaRGhTZUdKU1VYZHhlbUpTZUZOWE0ydEJXRUYzTkhaS056WXhNMW8yWTBSQmRFUm9SV3BUV2podWRuWm5jblpHVERJd2VIRlhhV3czZUZGWVJGRm9ZbkY2Um1RelVqSk9lRWQxWTJKdE5UY3pOM0lTRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlNTMUE0YzNVd1JVZFRSMmxZVDJ4TWEzUm9ObnBET1VWWU9WSjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJRVVJFandjM3BMWE5peFVTQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Brand Development & Outreach Intern",
+        "company_name": "PACEE",
+        "location": "Anywhere",
+        "via": "BeBee",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=bEcnD74a0fSRVAkYAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWNKw7CQBBAg63gAKhRCESXkGAAw6chKLhBM20n7ZLtzGZnIJV4JDfkJBTzxEteXvaeZLtDQm7gRE8KEntigzlcH5YI6w4ubJQYvq8P3KUCJUyjFYazSBtotu3Mom6cUw15q4bm67yW3glTJYMbI_2j1A4TxYBG5Wq9HPLI7WJ62x-LAjyPm8bjD8kaElWOAAAA&shmds=v1_ARwrE21Kf_ALhBTefO-A9fa909BIHh3VJbUNwKiyFmP56_Jkpg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=bEcnD74a0fSRVAkYAAAAAA%3D%3D",
+        "extensions": [
+          "3 days ago",
+          "Work from home",
+          "Internship"
+        ],
+        "source_link": "https://bebee.com/in/jobs/brand-development-outreach-intern-pacee--fj-2401568370",
+        "job_title": "Brand Development & Outreach Intern",
+        "description": "About Pacee\nPacee is a sports squad-completion platform launching first in Pune. Informal games fall apart because of no-shows, last-minute dropouts and messy WhatsApp coordination. Pacee helps players fill squads, find games and actually get them played, across cricket, football, badminton, padel and pickleball. We're an early-stage, pre-seed team preparing for launch.\nThe Role\nWe're hiring four Brand Development and Outreach Interns to own the marketing side of Pacee's story. You'll run our social media, help build our brand identity from the ground up, and figure out what will make Pacee stand out. Full details will be shared during onboarding.\nWhat You'll Do\nManage and grow Pacee's social media accounts, including InstagramCreate videos and content using AI toolsHelp shape a clear, recognisable brand identityStudy how marketing is done in the market, then find unique strategies we can useSupport outreach to players, communities and partners\nWho We're Looking For\nMust have\nCurrently enrolled at a universityA genuine passion for startupsStrong knowledge of marketing techniques and how brands grow on social mediaAt least one solid internshipAble to use AI tools efficiently, including for content and video creationAble to commit 10\u201320 hours a week consistently (depends on projects)\nPreferred\nStudying a business coursePrevious internship experience in marketingA portfolio of content, campaigns or social pages you've worked onYou play a sport and you're good at it. Be ready to tell us which one and back it up in the interview.\nLocation and Logistics\nOpen to candidates across India, with Pune preferredFully remote until all KPIs are met10\u201315 hours per week4 openingsReports directly to the founders\nPay and Path to Full-Time\nAll interns work against the same KPIs, agreed at the start.\n\n\nTwo paid position: the interns who delivers most strongly against the KPIs moves into the paid roleFull-time conversion: strong performance can convert into a full-time role with PaceeBefore moving to a paid time role, interns will be rewarded with bonuses for projects completed!\nHow to Apply\nFill the form below OR Send your CV with a short note (under 100 words) telling us what value you'll add to Pacee's brand and which sport you play. Include links to any content, campaigns or social pages you've worked on.\nApply to: careers@pacee.in or the form below!Deadline: 25th October 2026\nThere are two interview rounds for shortlisted candidates.\nTips Before You Apply\nYour CV must be neatly and professionally formatted. Informal CVs will be rejected outright. We are very serious about who we hire.We receive a lot of applications, so be unique and show us what makes you stand out.\nGoogle Form: https://forms.gle/LGW7xPBwWw5akkMq8",
+        "apply_options": [
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/brand-development-outreach-intern-pacee--fj-2401568370?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJCcmFuZCBEZXZlbG9wbWVudCBcdTAwMjYgT3V0cmVhY2ggSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiUEFDRUUiLCJodGlkb2NpZCI6ImJFY25ENzRhMGZTUlZBa1lBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEdkT1RHWkhiWGRXVlVFMVlrczBiV0ZqWVZKYU1EVlFXamhmWjJwR1VtSjZTMWR3UkVwdlZWaDBkVlI2TldoWk5rZGlWVU5qZWs5eWVuWnNObVpFWlZwVFpETjBlVWgwZUVaeVJsQlZOWFJGWlRJeVkzRldSWGh6WjBjeVZHOW1WSEJtZFRoM2QzWTBVMnB3YVdScmEzWndRVWhOZWw4d1MxWnNVbE5wYmtaeGQyOWxSbkFTRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlNUVzR0Tkd0TVdrVTJNWEZEY25kaVFrTlBTa1JZU2xBeWRsZEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJiRWNuRDc0YTBmU1JWQWtZQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Brand Management Internship in Bangalore, Noida, Mumbai, Hyderabad, Gurgaon, Pune",
+        "company_name": "NoBrokerHood",
+        "location": "Hyderabad, Telangana",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=gO4dGhre9pDAv6RHAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_02OIQ7CQBAAg-0TUCtQ5NISEgy4GkBAEHiy7W2uV667zd41KY4_8DD-wEugDjNuMpO9Z1lbKrKFEzI66ogTHDmRcmx8D56hRHYYRMnAWbxFA6ehq9AbODwsKVZoDewHdShs4DIwwef5glYqiIRaNyAMexEXaL5rUurjtihiDLmLCZOv81q6QpgqGYufFCfcYoNKfcBEt_VmNeY9u-XiLKXKnfQgYqezv_6VwrTJ-AXU1kxL0gAAAA&shmds=v1_ARwrE21VktXobU0t721m07MqWOCwwznh1hJScqfOdUHfgCInIQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=gO4dGhre9pDAv6RHAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9af7d28b27ba56cc9355f/images/HrTwn26WyDDb9tsPPMcJ0B9IqEwFd9U2QsA6Z3E8eTo.jpeg",
+        "extensions": [
+          "4 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/brand-management-internship-in-bangalore-noida-mumbai-hyderabad-gurgaon-pune-at-nobrokerhood-4476102611",
+        "job_title": "Brand Management Internship in Bangalore, Noida, Mumbai, Hyderabad, Gurgaon, Pune",
+        "description": "As a brand manager intern, you will be the front line of our ad sales effort - identifying brands in your city, pitching them social activation opportunities, and closing them on physical and/or digital campaigns across our network of premium gated communities. This is a high-ownership, high-visibility role. You will not be making tea. You will be having real conversations with real brand managers at companies ranging from real estate developers and educational institutions to FMCG, jewellery, healthcare, and automotive brands- and convincing them to spend marketing budgets on NoBrokerHood.\n\nSelected Intern's Day-to-day Responsibilities Include\n\n\n\n Outreach & pipeline building: Research and identify brands in your city that are actively advertising or have a budget for society-level activations Build a daily outreach pipeline via WhatsApp, LinkedIn, cold calls, and email to brand managers and marketing heads Maintain a clean CRM log of all outreach, follow-ups, and pipeline status Pitching & meetings: Set up meetings with brand decision-makers and pitch NoBrokerHood's physical and digital activation formats Present campaign proposals tailored to each brand's objectives- footfall, trials, awareness, leads Handle objections, negotiate campaign scopes, and follow through from pitch to closure Execution coordination: Coordinate with internal teams to ensure booked activations are set up correctly in the societies Be the brand's point of contact during the activation- ensure smooth delivery and brand satisfaction Collect feedback and document case studies for successful campaigns\n\nAbout Company: NoBrokerHood is India's leading society management platform, serving over 40 lakh families across 18,000+ gated communities in major cities, including Bengaluru, Mumbai, Pune, Hyderabad, Gurgaon, Noida, and Ahmedabad. A subsidiary of NoBroker, India's first proptech unicorn, it connects brands with verified, high-income residents in premium gated societies. The platform enables hyper-targeted advertising through physical activations such as kiosks, door-to-door campaigns, lift posters, gate branding, and signage, as well as digital formats like in-app banners, notice boards, and spotlight ads within residential communities.",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/brand-management-internship-in-bangalore-noida-mumbai-hyderabad-gurgaon-pune-at-nobrokerhood-4476102611?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJCcmFuZCBNYW5hZ2VtZW50IEludGVybnNoaXAgaW4gQmFuZ2Fsb3JlLCBOb2lkYSwgTXVtYmFpLCBIeWRlcmFiYWQsIEd1cmdhb24sIFB1bmUiLCJjb21wYW55X25hbWUiOiJOb0Jyb2tlckhvb2QiLCJodGlkb2NpZCI6ImdPNGRHaHJlOXBEQXY2UkhBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2tZd2REZDVObFp1WVdkSVoydHZaVVprVTNab2R5MHRRMlp4YmxZMVNUSk5jVmRFZVc5TWRrRnFVVXh2VEZsblUzUnBWblp5Um1kMmRYTllPRGRmYkRjMlRqVjFjR3hYWXpodmJIbHJORVpqYlUwdFNIWkJVbVYzZWkxRmEwNDNlVFJvUlVWSE5WRnFUalZCZWtwb1REQnFMVFppTkdvemNWSnVPVmQ0UzJwalZYSTFiVU1TRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlVTMTlHWW1GbVJGVkZOa2hVVWtGNmNrTnRUVVJIZEhJMVV6aEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJnTzRkR2hyZTlwREF2NlJIQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Brand Management Internship in Bangalore, Noida, Mumbai, Hyderabad, Pune, Gurgaon",
+        "company_name": "NoBrokerHood",
+        "location": "India",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=ZDaczizSiVvqdDidAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWOMQ6CQBBFY0tvYzW1IWBMbLSjAQqINyADO1lWYYbMLgl23sELeRZPIjS_eC8v-dF3Fz0yRTZQIaOlkThAyYGUfe8mcAwZssVBlGKoxRmMoZrHFl0MxcuQYosmhvvMq89ntSgMv_cHHtKCJ9Suh5XkInagw60PYfLXNPV-SKwPGFyXdDKmwtTKkq6R36bxPSpNAwZqzpfTkkxsj_taMpUnaSFitmclG4d_L1BY68MAAAA&shmds=v1_ARwrE22SXwbbWwlCcVKWEN4CpdUXd-rsewhGfAt_KROPMieRZg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=ZDaczizSiVvqdDidAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9af7d28b27ba56cc9355f/images/CgqS2vRLWUHSNHiB6TkpkCJX0oNLFSijYUTGLzh1omM.jpeg",
+        "extensions": [
+          "4 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/brand-management-internship-in-bangalore-noida-mumbai-hyderabad-pune-gurgaon-at-nobrokerhood-4475897800",
+        "job_title": "Brand Management Internship in Bangalore, Noida, Mumbai, Hyderabad, Pune, Gurgaon",
+        "description": "As a brand manager intern, you will be the front line of our ad sales effort - identifying brands in your city, pitching them social activation opportunities, and closing them on physical and/or digital campaigns across our network of premium gated communities. This is a high-ownership, high-visibility role. You will not be making tea. You will be having real conversations with real brand managers at companies ranging from real estate developers and educational institutions to FMCG, jewellery, healthcare, and automotive brands- and convincing them to spend marketing budgets on NoBrokerHood.\n\nSelected Intern's Day-to-day Responsibilities Include\n\n\n\n Outreach & pipeline building: Research and identify brands in your city that are actively advertising or have a budget for society-level activations Build a daily outreach pipeline via WhatsApp, LinkedIn, cold calls, and email to brand managers and marketing heads Maintain a clean CRM log of all outreach, follow-ups, and pipeline status Pitching & meetings: Set up meetings with brand decision-makers and pitch NoBrokerHood's physical and digital activation formats Present campaign proposals tailored to each brand's objectives- footfall, trials, awareness, leads Handle objections, negotiate campaign scopes, and follow through from pitch to closure Execution coordination: Coordinate with internal teams to ensure booked activations are set up correctly in the societies Be the brand's point of contact during the activation- ensure smooth delivery and brand satisfaction Collect feedback and document case studies for successful campaigns\n\nAbout Company: NoBrokerHood is India's leading society management platform, serving over 40 lakh families across 18,000+ gated communities in major cities, including Bengaluru, Mumbai, Pune, Hyderabad, Gurgaon, Noida, and Ahmedabad. A subsidiary of NoBroker, India's first proptech unicorn, it connects brands with verified, high-income residents in premium gated societies. The platform enables hyper-targeted advertising through physical activations such as kiosks, door-to-door campaigns, lift posters, gate branding, and signage, as well as digital formats like in-app banners, notice boards, and spotlight ads within residential communities.",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/brand-management-internship-in-bangalore-noida-mumbai-hyderabad-pune-gurgaon-at-nobrokerhood-4475897800?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJCcmFuZCBNYW5hZ2VtZW50IEludGVybnNoaXAgaW4gQmFuZ2Fsb3JlLCBOb2lkYSwgTXVtYmFpLCBIeWRlcmFiYWQsIFB1bmUsIEd1cmdhb24iLCJjb21wYW55X25hbWUiOiJOb0Jyb2tlckhvb2QiLCJodGlkb2NpZCI6IlpEYWN6aXpTaVZ2cWREaWRBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU3paZk4ySk1TRWd0TjJ3NVkzSk9WMVZ3UkhaTlYxaHBhM3BGZFdweVltaEdiVVZEWlV0d1ZYUTRSRkV0T0hKRk5tWkpkVTE2UWtwM1IycEtPVzVGVDBwcVlXMTFZVU5XUTJob1RYSnhWR2haZERod1ZFdENabGhGVjJGT1ExaG9Oa2MzZHpsTWVGTmtXbmcxZHpFeGJqZGtVWGxqTFdWb1VYUXlTVGROU0hGUk0yOW5ZM01TRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlJMWGd4V0ZsRVRsWkpjbFp4UTNGNFYyNWtOSEZ3VkVoSlprSm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJaRGFjeml6U2lWdnFkRGlkQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Design Internship (6 Months)",
+        "company_name": "Kimirica",
+        "location": "Indore, Madhya Pradesh",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=MgmVjnS-UmNBxh3EAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXNMQrCQBBAUWxzBKvBSkWyIsRCW0FEAt4gTDbD7oZkZ9mZInbewcbzeRJN87vHLz6LorqQBBfhFpVyFB8SrI9Qc1QvG_i-3tBzC0KYrQeOcGV2Ay3PXjXJyRiRoXSiqMGWlkfDkVqezB_JnEY8ZkoDKjWHaj-VKbrt6h7GkINFCPO440w7qLHzT4RHxo7E_wBarHtrmwAAAA&shmds=v1_ARwrE22FXPxEOepFJTqATGcfcPv0kurgg2HArx73PwanPi0YKg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=MgmVjnS-UmNBxh3EAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAATlBMVEX____6-vppaWm5ubnW1tbLy8uCgoJ5eXnZ2dnIyMiLi4uRkZGtra3c3Nyamprx8fFycnI4ODhiYmJWVlYAAABCQkIxMTFcXFxJSUmzs7M0hCmwAAAAeElEQVRIie3OzRLDIAhG0U9BMNUUa9OfvP-LVqfrZN8OZ8OCuQOAc865PyLolitugOagiKodtOCirYxlOg7vWwBXPISf6wh7St0o8RUwmMST0NoMI72IZ8i14BtmiL6PTwqI1h0RYc9BxoTafLW1YgKcnHTOOfd7Pr8sA3tsZnI_AAAAAElFTkSuQmCC.png",
+        "extensions": [
+          "4 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/design-internship-6-months-at-kimirica-4474059607",
+        "job_title": "Design Internship (6 Months)",
+        "description": "JOB DESCRIPTION | GRAPHIC DESIGN INTERN\n\nDepartment: Design\n\nLocation: Unit 14, Lunawat Group Campus, Near Airport, Indore, Madhya Pradesh \u2013 452005\n\nWork Mode: Full-time, On-site\n\nDuration: 6 Months\n\nStipend: Upto 10,000.\n\n\n\n\nROLE SUMMARY\n\nKimirica is a luxury D2C brand across Bath & Body, Skincare, Fragrances, Home Fragrance and Gifting. We are looking for a Graphic Design Intern to support the Design Team across packaging, NPD, e-commerce, digital marketing and brand communication. The role offers hands-on exposure to real brand projects, including creative adaptations, product artworks, packaging, mockups, digital creatives and day-to-day design requirements.\n\n\n\n\nKEY RESPONSIBILITIES\n\nCreative & Design Support: Assist with creative adaptations, resizing, format conversions, presentation decks and day-to-day design requirements across brand functions.Packaging & NPD Artwork: Support packaging, labels, product artworks and NPD requirements, including basic artwork corrections, file preparation and prepress.E-commerce & Digital Creatives: Create and adapt creatives for e-commerce listings, A+ content, product pages, social media and digital marketing campaigns.Product Visualisation: Develop basic product mockups, visual concepts and presentation assets; explore AI-assisted design and visualisation tools.Brand Guidelines: Follow Kimirica\u2019s brand guidelines across typography, layouts, imagery and visual communication while maintaining consistency across deliverables.Coordination & Learning: Work closely with senior designers and cross-functional teams, incorporate feedback within timelines and continuously improve design skills and execution.\n\n\nKEY SKILLS & COMPETENCIES\n\nGood understanding of layout, typography, composition and visual hierarchy.Working knowledge of Adobe Illustrator and Photoshop.Ability to adapt and resize creatives across different formats and platforms.Basic understanding of packaging design, labels, print artwork and prepress.Familiarity with social media, e-commerce and digital marketing creatives.Strong visual sense, attention to detail and willingness to learn and experiment with new design tools.\n\n\nQUALIFICATIONS\n\nPursuing or recently completed a degree/diploma in Graphic Design, Visual Communication, Fine Arts, Communication Design or a related field.Basic proficiency in Adobe Illustrator and Photoshop.Strong interest in branding, packaging, digital design and visual communication.A portfolio or sample work showcasing design skills is preferred.Familiarity with AI-assisted design and visualisation tools will be an advantage.Must be available for a 6-month, full-time, on-site internship in Indore.\n\n\nKPIs\n\nTimely completion and quality of assigned design tasks and creative adaptations.Accuracy of packaging, NPD and product artwork.Quality and consistency of digital and e-commerce creatives.Adherence to Kimirica\u2019s brand and design guidelines.Timely incorporation of feedback and revisions.Organisation and maintenance of design files and assets.Responsiveness to day-to-day design requirements.Demonstrated learning, creativity and improvement throughout the internship.\n\n\nINTERNSHIP OUTCOME\n\nUpon successful completion of the 6-month internship, the intern may be considered for a Pre-Placement Offer (PPO) based on performance, contribution, availability of relevant openings and business requirements at that time.",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/design-internship-6-months-at-kimirica-4474059607?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEZXNpZ24gSW50ZXJuc2hpcCAoNiBNb250aHMpIiwiY29tcGFueV9uYW1lIjoiS2ltaXJpY2EiLCJodGlkb2NpZCI6Ik1nbVZqblMtVW1OQnhoM0VBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEU5MFNYVTVOamxqVFdNMlgwVnhiR2RRYjJOWFJYZDBOelpLVDFaR2VWSXpORzQ0UzNGU1ZqWnhjSEZqY21aSVJXWm9aMHhvYjE5bFNVVm5NRGxtZVZGQloyaHRjV0ptY0d4d1RHSkJSblJyTlVzNFVrVjNSbFo2WmxWaVVYZEVORTVXZDFjdE5VVnFlblUzU0hJMWNscDVVM1ZxYTBFNFVHWktTWGhXVVVwSVZDMTRSRjhTRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlRaMDlsVUV4bVZqUlJhbFJhVmxacUxVSllWMkppU1dGT2VrRjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJNZ21Wam5TLVVtTkJ4aDNFQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Graphic Designer & UI/UX Designer",
+        "company_name": "SOR Group",
+        "location": "Hyderabad, Telangana",
+        "via": "SimplyHired",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=1apQx_y8g_FAEE12AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_0XLsQrCMBCAYVz7CE7n4iDSiOBSV6E6CWrBrVzTI4nEXMhFqJvv4OrT-STq5PIPH_zFa1RUdcJonYYNiTOBEkyh2anm_If34wkX7kAIk7bAAWpm42m8tjlHqZQS8aWRjNnpUvNVcaCOB_Wd5JdWLCaKHjO1y9ViKGMws8lxf4A68S2CC7C995Sww34OJ_IYDAb8APqq40OfAAAA&shmds=v1_ARwrE20sEZBIQfUpCC-flQaZLzr-KI07bdH7C_3lSdECdcbOoA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=1apQx_y8g_FAEE12AAAAAA%3D%3D",
+        "extensions": [
+          "4 days ago",
+          "\u20b910K\u2013\u20b912K a month",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://www.simplyhired.co.in/job/dMg00LCoH-VMjuKs_zpsD2ChqvlDwD_l77jLETTFACZjU6cqBItKAQ",
+        "job_title": "Graphic Designer & UI/UX Designer",
+        "description": "Graphic Design & UI/UX Intern\n\nThe Role\n\nAs a Graphic Design & UI/UX Intern, you will work on branding, graphic design and digital experiences for brands under SOR Group.\n\nYou will be involved in real projects from ideation through execution, working across different formats and requirements. The role requires an understanding of both visual design and the thinking behind it.\n\nResponsibilities\n\nBranding & Graphic Design\n\nContribute to branding projects from concept and ideation through iterations and final execution.Develop logo concepts and visual identities based on the brand's positioning and personality.Create brand collateral including presentations, brochures, marketing materials and other assets.Design social media content while maintaining consistency with the brand's visual language.Adapt designs across different formats, platforms and requirements.UI/UX\n\nDesign user interfaces and digital experiences for websites, products and other digital platforms.Create wireframes, layouts and visual designs with attention to usability as well as aesthetics.Translate concepts and requirements into clear, functional digital experiences.Research & Brand Understanding\n\nUnderstand the audience, positioning, personality and objectives behind each brand before designing.Research visual references, competitors, industries and relevant design trends.Use research and strategic context to inform design decisions.Execution & Collaboration\n\nWork with internal teams to understand requirements, develop concepts and incorporate feedback.Manage multiple design tasks and iterations within timelines.Maintain attention to detail across files, formats and final outputs.What We Expect\n\nStrong fundamentals in graphic design, composition, typography, colour and visual hierarchy.An interest in branding and the thinking behind design decisions, not just aesthetics.Familiarity with relevant design and UI/UX tools.Ability to develop ideas and translate them into strong visual outputs.Practical design judgement: Work within real-world constraints of time, resources and requirements. Focus on producing the strongest possible output within the available constraints rather than pursuing an ideal solution that the timeline does not allow.Ability to work at speed while maintaining the quality and effectiveness of the final output.Openness to feedback, iteration and learning new tools and techniques.Clear communication and ownership of assigned work.Who Will Do Well Here\n\nSomeone who is creative, curious and detail-oriented, with a genuine interest in branding, design and digital experiences. You should enjoy solving visual problems, be comfortable exploring different directions and iterations, and understand that good design is also about making sound decisions within real-world constraints.\n\nPay: \u20b910,000.00 - \u20b912,000.00 per month\n\nBenefits:\n\nPaid sick timePaid time offWork Location: In person",
+        "apply_options": [
+          {
+            "title": "SimplyHired",
+            "link": "https://www.simplyhired.co.in/job/dMg00LCoH-VMjuKs_zpsD2ChqvlDwD_l77jLETTFACZjU6cqBItKAQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/lead-10x-graphic-ui-designer-onetap-hyderabad--jobted-c30c881b6a7cb3d5d7c6cc9c0fdbec00?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "IxDF",
+            "link": "https://ixdf.org/jobs/graphic-designer-ui-ux-hyderabad?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Getmereferred.com",
+            "link": "https://getmereferred.com/job-listing/graphic-ui-ux-designer-robotouch-hyderabad-3-to-5-years-experience-9adf75fb-0360-4661-8afb-7e1935cb4bfd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJHcmFwaGljIERlc2lnbmVyIFx1MDAyNiBVSS9VWCBEZXNpZ25lciIsImNvbXBhbnlfbmFtZSI6IlNPUiBHcm91cCIsImh0aWRvY2lkIjoiMWFwUXhfeThnX0ZBRUUxMkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTa013TTA4ek1tTXhVVVJzTUVOR2RFcFBhak10UzJSQlFuVkVkMG8yYVdkWFdHRXpjVXRJUkU5RVJHdFRaR3BXY1hsMU5EUmljV0pvVXpSTGJsaHVMVmxxWlhGTVJsY3pjbTlvWWpNM05HMVRiR05qVUdWVmVYVnFjRTFMZFcxTVpuaEJkMFp4VmxveVZYaHdNV2szU0Y5bU4ySmhiM0l4UlZwclFtRXdSRWN0V0hOeE4yTVNGMlkyWDBwaGNISlVSSFJoUm0xTVVWQXhOVWhZYzBGM0dpSkJSSE55T1daVFJFZFVhbEI0WTFwR2NYZDJhV1p3ZDFkYU1Ia3hVSFJ0ZEV4UiIsImZjdiI6IjMiLCJmY19pZCI6IjFhcFF4X3k4Z19GQUVFMTJBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "Design Intern",
+        "company_name": "iSprout Business Centre",
+        "location": "Hyderabad, Telangana",
+        "via": "SimplyHired",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=eeNjlJPhgJJGQCNSAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLsQrCMBAAUFz7CU43OYgkIrjopoI6616u7ZFG4l3IXaFu_oPgB_ol6vK2V70n1exAGgPDmY0Kw-f5gps0oISl7UEYjiIh0XTbm2XdeK-aXFBDi61r5e6FqZHR_5L-qbXHQjmhUb1aL0eXOcx9vOQig8Fu0MikCntiKwSR4fToqGCD3QKulJADMn4BKeHl1ZkAAAA&shmds=v1_ARwrE20HqKhFuteSobpQgUQ9S2izuIfTUonYKyAd7tq3hI9-4g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=eeNjlJPhgJJGQCNSAAAAAA%3D%3D",
+        "extensions": [
+          "20 hours ago",
+          "\u20b915K\u2013\u20b917K a month",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://www.simplyhired.co.in/job/vDHIOuDxpYjgp2SVh1ANnC4vcsa-uCT5ORyKXdvG9fI9FZDsAHNUlQ",
+        "job_title": "Design Intern",
+        "description": "Role Overview\n\nA creative and enthusiastic Designer \u2013 On-Job Trainee (OJT) to support the design team at iSprout Business Center, Hyderabad. This on-site training program is designed for fresh graduates or entry-level candidates who are looking to gain practical exposure in workspace and interior design within the managed office space environment.\n\nThe trainee will assist in developing design concepts, preparing layouts, coordinating with vendors, and supporting site execution to help deliver visually appealing and functional workspaces.\n\nKey Responsibilities\n\n1. Design Support & Concept Development (Core Focus)\n\nAssist the design team in understanding project briefs, design requirements, and objectives.Support the development of creative and innovative design concepts for office spaces.Assist in preparing layouts, space plans, furniture arrangements, and basic design drawings.Support selection of colour schemes, materials, and finishes as per project requirements.2. Design Documentation & Software Support\n\nAssist in preparing drawings and presentations using design tools such as AutoCAD, SketchUp, and Adobe Creative Suite.Support preparation of mood boards, concept presentations, and design documentation.Maintain proper records of drawings, design versions, and project files.3. Brand & Aesthetic Alignment\n\nSupport the team in ensuring that all design outputs align with the company\u2019s brand identity and visual standards.Assist in incorporating feedback received from internal teams and stakeholders into revised design concepts.4. Vendor & Site Coordination Support\n\nAssist in coordinating with vendors, suppliers, and contractors for material specifications and samples.Support site visits along with senior designers to ensure design intent is maintained during execution and installation.Assist in monitoring project progress and resolving minor design-related clarifications.5. Trend Research & Learning\n\nResearch current design trends, workspace planning concepts, and best practices in the Managed Office Spaces .Support the design team with reference materials and innovative ideas for upcoming projects.Qualifications & Requirements\n\nEducation: Bachelor\u2019s degree in Interior Design, Architecture, or a related field.Design Skills: Basic knowledge of space planning, layouts, and interior design principles.Software Skills: Working knowledge of AutoCAD, SketchUp, and Adobe Creative Suite is preferred.Creative Ability: Good creative and conceptual thinking skills with an eye for detail.Communication: Good verbal and presentation skills.Teamwork: Ability to work collaboratively in a team environment.Adaptability: Willingness to learn and work in a fast-paced, project-based environment.Pay: \u20b915,000.00 - \u20b917,000.00 per month\n\nWork Location: In person",
+        "apply_options": [
+          {
+            "title": "SimplyHired",
+            "link": "https://www.simplyhired.co.in/job/vDHIOuDxpYjgp2SVh1ANnC4vcsa-uCT5ORyKXdvG9fI9FZDsAHNUlQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/design-intern-water-hyderabad-telangana--t7xk-820129884?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "MyInternships.in",
+            "link": "https://myinternships.in/internships/farmerp-rf-design-intern-hyderabad-b2460d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Getmereferred.com",
+            "link": "https://getmereferred.com/job-listing/abmsales-and-design-livspace-hyderabad-2-to-5-years-experience-2cd26ed5-b26e-4564-b791-a1ba7bb7b553?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Trabajo.org",
+            "link": "https://in.trabajo.org/job-4112-8567714a833dc4f78bc73c5b04de23c4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/3066090151609368576?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "NiyukJobs | AI",
+            "link": "https://niyukjobs.ai/jobs/detail/marketing-and-design-intern-at-mb-learning-hyderabad-telangana-india-426907?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEZXNpZ24gSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiaVNwcm91dCBCdXNpbmVzcyBDZW50cmUiLCJodGlkb2NpZCI6ImVlTmpsSlBoZ0pKR1FDTlNBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzI5RE5GbEtORUV5T0ZsZmExWk9WSGRJWjNobU1Va3llQzB3ZGpaNk9YaElUekpsUlhKQ09HSlBSR1UwZFRoV1owaFlUWFkzV21oQ1lVRndMWFpIU21wM1ZEaFRlWFpJYms1TmN6WnpiMHBIVVhsbFdtSjZOV3hHVlU1aVYwMU9Namw0VG5sNE9FRk9ia1YyU1VsNFFXSk5hVlU0VURSdGVWZHNZVVJtUmsxQlUyOUhWbVlTRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlJYeTFwWVRCamRFUlhZVzl6UkVzd01sazJTelpxU1ZOQ2RrUkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJlZU5qbEpQaGdKSkdRQ05TQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Graphic Design - Internship",
+        "company_name": "CyberFrat",
+        "location": "Maharashtra",
+        "via": "Internshala",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=q371xLT_2NRkXX07AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLMQ7CMAxAUbFyAsTkGYkGIVhgBFExcIbKjawkqNiR7aFsXICJG3ISyvKn9-fv2XzXKtZcIpzJSmJYw5WdlC2XCt_XB-7SgxFqzCAMrUgaaHnM7tUOIZgNTTJHL7GJ8gjC1MsYpsn-6SyjUh3QqdvuN2NTOa0Wp2dPelF0KAw3nAhadsUfS_ZDV5AAAAA&shmds=v1_ARwrE23iG_vdUQS3o_XPtv3h9Ob5NBQOg5EbwMYnIIUJXQXQzQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=q371xLT_2NRkXX07AAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9af7d28b27ba56cc9355f/images/m-sTM_Ax4blfUUjbJcE9MukIQqCY0su7qYnJxJJgxTo.jpeg",
+        "extensions": [
+          "3 days ago",
+          "\u20b94K\u2013\u20b95K a month",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://internshala.com/internship/detail/graphic-design-internship-in-dombivli-at-cyberfrat1791358995",
+        "job_title": "Graphic Design - Internship",
+        "description": "About the internship:\n\nSelected intern's day-to-day responsibilities include: \n\nCreate engaging graphics for social media platforms, websites, email campaigns, and marketing materials.\n\nDesign banners, presentations, brochures, and other promotional collateral.\n\nAssist in developing visual concepts aligned with brand guidelines.\n\nEdit and retouch images, illustrations, and digital assets.\n\nCollaborate with the marketing and content teams to create compelling visual content.\n\nResearch design trends and suggest innovative ideas for campaigns.\n\nEnsure consistency in brand identity across all creative materials.\n\nSupport the team with ad creatives, event creatives, and other design requirements.\n\nWho can apply:\n\nOnly those candidates can apply who:\n\nare available for full time (in-office) internshipcan start the internship between 7th Oct'26 and 11th Nov'26are available for duration of 3 monthsare from Dombivli onlyhave relevant skills and interests\n\nStipend:\n\nINR\u20b9 4,000 - 5,000 /month\n\nDeadline:\n\n2026-11-06 23:59:59\n\nOther perks:\n\nCertificate, Letter of recommendation\n\nSkills required:\n\nAdobe Photoshop, CorelDRAW, Adobe Illustrator, Adobe InDesign and Adobe After Effects\n\nOther Requirements:\n\nAre available for a full-time internship.Have relevant skills and interests in graphic design.Possess a strong portfolio of academic, personal, or freelance projects.Are eager to learn and work in a fast-paced environment.\n\nAbout Company:\n\nCyberFrat is a global organization specializing in providing services like advisory, consulting, training, event management, and content creation in emerging technologies, cybersecurity, and risk management domains.",
+        "apply_options": [
+          {
+            "title": "Internshala",
+            "link": "https://internshala.com/internship/detail/graphic-design-internship-in-dombivli-at-cyberfrat1791358995?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJHcmFwaGljIERlc2lnbiAtIEludGVybnNoaXAiLCJjb21wYW55X25hbWUiOiJDeWJlckZyYXQiLCJodGlkb2NpZCI6InEzNzF4TFRfMk5Sa1hYMDdBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEVKU2RYTXdSVEZ6ZEVKUVF6bGtRbmxCWm1Gak5TMVJiWFYxTmpSRFZEQm1TVzk2T0U5T2QybHBUVGRmZDBkUFNrdG5UMHRFWm5SU1dtaEJhMkoxYTFKblgzcEJVbHBVY21jeVZWbGxSVlYwTlRKeVMyMXVXRk5MV1hkb1RsTm5jVGt5WlhOU01XcE1OMXBxUkZWVmFHWkliM2hrYmpkbmRuUlBka3RGZERWb2RrNVdkVGdTRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlNkVXhqYUVSd1EwOHdWbVEwWVdWZldqWk9kbTU1Y0ZaTlF6ZG4iLCJmY3YiOiIzIiwiZmNfaWQiOiJxMzcxeExUXzJOUmtYWDA3QUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Social Media Marketing Intern",
+        "company_name": "Walltrendz",
+        "location": "Jabalpur, Madhya Pradesh",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=sZfIPihpcClhVTlsAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXNMQoCMRBAUWz3CFZTWYhsRNBCDyAKC4KFpcxuhiQaJyEzwmrlHay9nCdxbX73-NVnVK2OqQsYoSEbEBosV9LADnasVBi-rzdcUgtCWDoPiWGbkos03njVLGtjRGLtRFFDV3fpZhJTm3ozIPnnLB4L5YhK58Vy3teZ3XRywhi1ENsnBIY9thjzvcyGv_UPhENBS-J_DXgC_6AAAAA&shmds=v1_ARwrE22j9ajqSuWNH5oaTX_UZs5QCXwPKUcG62pMonIS3Y5DFQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=sZfIPihpcClhVTlsAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N__AABEIADgAOAMBIgACEQEDEQH_xAAZAAEAAwEBAAAAAAAAAAAAAAAAAQIHAwT_xAAsEAACAQIDBwMEAwAAAAAAAAAAAQIDEQUWVQQSIUFRkZMTMYFhccHRFDJC_8QAGAEBAQADAAAAAAAAAAAAAAAAAAEDBAX_xAAYEQEAAwEAAAAAAAAAAAAAAAAAARNREv_aAAwDAQACEQMRAD8A1nNGB6lQ7sZowPUqHdmPgraojWwZowPUqHdjNGB6lQ7sx8AojWwZowPUqHdjNGB6lQ7sx8AojWwZowPUqHdgx8AojQAtBRd1KW6-TtdBnVOlKhWrSjGlSnNydluq_EWpR4uXqPpHgu7_AEeiVTZYKf8AGdSLkrOUo8UuaSvz-r9rrmEeevRlRm4ycZJO29B3i_szmdN-muEaSf1nJ_ixSbi3eCcV0vcCAAFC8as4xUYyslLeXDmUAFt-XVc-XUepNppydmkn8exUAdPXqXvvf73_AGX9upWU5SVm-F2_llQAAAGy5dwXS9j8KGXcF0vY_CiARz-p1OXcF0vY_Chl3BdL2PwogA6nU5dwXS9j8KGXcF0vY_CiADqdTl3BdL2PwogAHU6__9k.jpeg",
+        "extensions": [
+          "2 days ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/social-media-marketing-intern-at-walltrendz-4477106689",
+        "job_title": "Social Media Marketing Intern",
+        "description": "Company Description Walltrendz, powered by The Inspire Decor, is a home d\u00e9cor products manufacturer specializing in customized wall coverings and glass films aligned with global design trends. A dedicated team of designers, e-commerce professionals, and operations specialists collaborates to deliver stylish products with a strong focus on quality and timely delivery. The company serves both online customers and corporate projects, working closely with architects and interior designers on residential and commercial spaces. Its extensive product portfolio includes creative, removable, and self-adhesive wallpapers for bedrooms, living rooms, nurseries, and kids\u2019 spaces in a wide variety of themes such as floral, tropical, animal, and cartoon designs. This environment offers interns exposure to modern home d\u00e9cor, design trends, and end-to-end e-commerce operations.\nRole Description The Social Media Marketing Intern will support the planning, creation, and publishing of content across social media platforms to promote Walltrendz products and brand storytelling. Day-to-day responsibilities include assisting with social media content calendars, drafting posts and captions, engaging with followers, and monitoring comments and messages to maintain a responsive online presence. The intern will help track performance metrics, identify trends, and suggest ideas to increase reach, engagement, and conversions in collaboration with the marketing team. This is a full-time, on-site role based in Jabalpur, offering hands-on experience in digital promotion within the home d\u00e9cor and e-commerce space.\nQualifications\n Candidates should possess skills in Social Media Marketing and Digital Marketing to manage campaigns and measure performance.Candidates should possess skills in Social Media Content Creation and Marketing to design engaging posts and brand-focused stories.Candidates should possess strong Communication skills for clear writing, collaboration with team members, and professional interaction with online audiences.Basic understanding of major social platforms (Instagram, Facebook, Pinterest, etc.) and current social media trends.Ability to work on-site in Jabalpur, manage multiple tasks, and meet deadlines in a fast-paced environment.Interest in home d\u00e9cor, interior design, or visual aesthetics; familiarity with design tools (e.g., Canva, basic photo/video editing) is an advantage.Enrollment in or completion of a degree or course in Marketing, Communications, Media, or a related field is preferred but not mandatory.",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/social-media-marketing-intern-at-walltrendz-4477106689?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/social-media-marketing-intern-walltrendz-jabalpur--fj-2404329294?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobaaj",
+            "link": "https://www.jobaaj.com/job/witty-marketers-social-media-marketing-intern-jabalpur-madhya-pradesh-0-to-1-years-886858?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/4249359001776553984?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "MyInternships.in",
+            "link": "https://myinternships.in/internships/druva-social-media-marketing-intern-jabalpur-f8f543?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "NiyukJobs | AI",
+            "link": "https://niyukjobs.ai/jobs-at-pageup-software-services-pvt-ltd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTb2NpYWwgTWVkaWEgTWFya2V0aW5nIEludGVybiIsImNvbXBhbnlfbmFtZSI6IldhbGx0cmVuZHoiLCJodGlkb2NpZCI6InNaZklQaWhwY0NsaFZUbHNBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEhrME9IVXdiVVZmYnpGMk1Yb3RSM1J5TXpKclZYVXdWR3haWldZME0yUkdjVjlrTWpONlRYTkdja3h6TjNGNVRrbERjV2x5ZEVSM2FFRnNiVzR5V1hORU5HdGZRbEZpVldWS1FXOTVWMnBpWDNFMlpESXRSR3AxVUZsT00wdFZaazFpYW5OMk1GTkZhSGRoUVhsdVoycGlRMmN6TnpBeVpGaFpOalp5TVVrNGQySllWSElTRjJZMlgwcGhjSEpVUkhSaFJtMU1VVkF4TlVoWWMwRjNHaUpCUkhOeU9XWlVTVFJTZDJvNFV6QkZha3N6WmxZemJVeHFkbmN0YWpOQ2VHRm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJzWmZJUGlocGNDbGhWVGxzQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Creative Design Intern",
+        "company_name": "Slideuplift.com",
+        "location": "Maharashtra",
+        "via": "Indeed",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=brand+identity+intern&htidocid=_G0aLFJJrK__-muXAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLMQ7CMAxAUbH2CAzIM0ODkFhgBAkxMHGAyi0mCQp2FBvUkROwcENOQrr86b_mM2vcvhBafBEcSKNnOLFRYfi9v3CXHpSwDAGE4SjiE813wSzr1jnV1Hq1iod2kIcTpl5GV5FO6TRgoZzQqFtvVmOb2S8XlxSv9Mwp3mxCEBnOWEfUYAX_RTpqVpEAAAA&shmds=v1_ARwrE20ickhZWszkmB7Rsyj4r4b9ReFiifrhZw9_3r9_jTaKmQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=brand+identity+intern&htidocid=_G0aLFJJrK__-muXAAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "\u20b98K\u2013\u20b920K a month",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.indeed.com/viewjob?jk=266f51c55a445ac8",
+        "job_title": "Creative Design Intern",
+        "description": "Job description:\n\n\nCompany Description SlideUplift is a utility that provides business professionals with\n\n\nimpactful PowerPoint tools and templates to create powerful presentations. PowerPoint\n\n\nis the default medium for communication in various industries, including startups,\n\n\nbrand management, consulting, and human resources. However, professionals often\n\n\nstruggle with graphics and spend excessive time on formatting rather than focusing on\n\n\ntheir ideas. SlideUplift offers a wide variety of original and visually appealing graphics to\n\n\nenhance presentations and help professionals communicate their ideas effectively.\n\n\nGraphics Designer\n\n\nWe are looking for a creative, detail-oriented PPT Graphics Designer to join our team.\n\n\nThe ideal candidate should be skilled in transforming ideas, data, and content into\n\n\nvisually appealing, professional, and brand-aligned presentations. You will work closely\n\n\nwith the content, marketing, and design teams to create slides that communicate\n\n\nmessages clearly, look polished, and maintain visual consistency across formats.\n\n\nThe role requires a strong understanding of design principles, color theory, typography,\n\n\nlayout design, and modern presentation trends. Key responsibilities include creating\n\n\ncustom PowerPoint templates, designing clean and engaging slide layouts, enhancing\n\n\nexisting presentations, and converting raw content into compelling visual stories. You\n\n\nwill also work on graphics such as icons, charts, diagrams, and infographics to simplify\n\n\ncomplex information.\n\n\nIn addition to presentation design, you will be involved in motion graphics, video\n\n\nediting, and AI-powered creative design projects. This includes creating engaging\n\n\npromotional videos, animated presentation content, social media creatives, explainer\n\n\nvideos, and marketing assets using modern design and AI tools. You should be\n\n\ncomfortable working with AI-powered platforms for image generation, video creation,\n\n\nvoiceovers, content enhancement, and creative automation to improve design quality\n\n\nand productivity.\n\n\nAttention to detail, the ability to work under deadlines, and strong communication skills\n\n\nare essential. You should be proficient in Microsoft PowerPoint, Google Slides, Adobe\n\n\nIllustrator, Adobe Photoshop, Figma, Adobe After Effects, Adobe Premiere Pro, and\n\n\nother relevant creative tools. Familiarity with AI design and video creation platforms\n\n\nsuch as ChatGPT, Midjourney, Adobe Firefly, Canva AI, Runway, Pika, Synthesia, or\n\n\nsimilar tools will be an added advantage.\n\n\nA good understanding of business presentations, corporate communication, visual\n\n\nstorytelling, animation principles, and motion design will help you excel in this role. If\n\n\nyou enjoy turning concepts into attractive presentations, designing engaging visual\n\n\ncontent, creating impactful videos, and exploring the latest AI-powered creative\n\n\ntechnologies while maintaining brand guidelines, we would love to have you on our\n\n\nteam.\n\n\nThis role offers the opportunity to work on diverse presentation, branding, motion\n\n\ngraphics, and AI-driven creative projects, collaborate with cross-functional teams, and\n\n\ncontribute to high-impact visual communication across digital platforms.\n\n\nRequirements\n\n\n\n Bachelor\u2019s degree (or pursuing) in Film, Media, Graphic Design, Visual\n\nCommunication, or related field.\n\n\n\n Prior internship or project experience (max 6 months preferred).\n Basic to intermediate skills in: Adobe Creative Suite (Premiere Pro, After Effects,\n Photoshop, Illustrator) Presentation tools (PowerPoint, Google Slides, Keynote)\n Strong visual storytelling and design sense.\n Creative mindset with excellent attention to detail. Ability to work collaboratively and meet deadlines.\n Good communication and organizational skills.\n\nDetails Working Hours - 10am to 7pm (hours may extend depending on work) Working\n\n\nDays- 5 days a week Monday to Friday (availability on weekends based on work)\n\n\nPay: \u20b98,000.00 - \u20b920,000.00 per month\n\n\nEducation:\n\n\n\n Bachelor's (Required)\n\nLocation:\n\n\n\n Viman Nagar, Pune, Maharashtra (Required)\n\nWork Location: In person",
+        "apply_options": [
+          {
+            "title": "Indeed",
+            "link": "https://in.indeed.com/viewjob?jk=266f51c55a445ac8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/creative-design-intern-slideupliftcom-viman-nagar--techmap_in_sTLVPMGQ2-bUKlYDYEAwyf7xK0VCYaVVa1zmzdgzrjV_N2TGpXmpZQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "SimplyHired",
+            "link": "https://www.simplyhired.co.in/job/aREraXrJm1SPw5pSI2kVfHP2n2wRSwPljUK1guSOnzdCty5IiQYvfA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJDcmVhdGl2ZSBEZXNpZ24gSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiU2xpZGV1cGxpZnQuY29tIiwiaHRpZG9jaWQiOiJfRzBhTEZKSnJLX18tbXVYQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrTXdhRFZyTkZwNFMxWnJVblY0Y1RSNGFsVlZUaTF5YUUxVk1VZ3RSREZJU2xwSE1HaEdUVmx5TUdGdFpHdG9MV1ZFWXkxbmEzZzFSbkozZURSbmJ6QnBNRWxUUjJaU1FteGFlWFJTVTBFek5XcFBNelZtTnpkS1pFeE5ZVW8wUjJSelMxOWZiMmRWYzBoNFowOTRlWFF5VlZWcU56RnBjbUZtUkVsT01HRTVaWFJUVDBnU0YyWTJYMHBoY0hKVVJIUmhSbTFNVVZBeE5VaFljMEYzR2lKQlJITnlPV1pSVDNoNWFrVlBOM2hqVVV0MFduVm5Oek5uZUdGV05YZHhXamwzIiwiZmN2IjoiMyIsImZjX2lkIjoiX0cwYUxGSkpyS19fLW11WEFBQUFBQT09In0="
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkV1SURDcUlEUVVwcFZEUjBTV3R0YVdGRVVYTnhWMWhDYkhKQlVVZDZOek5zU0dSeFNGQkxWSEZ1WjAxR1ZFdEljbDg0UjJaaVEwVlZhV0ZqUzJKbGFXOVlVbUpXVDJjM09VTXhlQzFwYzNreVJtRTNVVTFuVG5kUGQyZFJNRzh4VlZkZk1VSk1Za2RqTVdFelFYZG1aVVF0UjFCTk0wSXhVSE5yVTFSeFFTMXBUa2RyTXpJMFJrVTVlbUZIY0VObVdGVjBZbHA2TFRCWGQxRXlTak4zYTFwMVdVaEdWbFJ6TTA1eGNVaDJaWE52ZUdacmFtWXlWVmt0UWkxR2JUY3dXbTVsWjJ4b1JTMHhYM1ZoUTFCblNIWXdOVVZ3ZWtwbWVVSk9NVEV0WkMxZlYyVnpialJJVDFkc1oydFZZMjFxUlZCc1lVNWFaVEJ3Vm05dmVtSlJRM1IwVVc5NlIyWnNiMDFvVkRoNFNESm9kR0l3VFVFMVNXdENjVVI1TW1vek9IZHRWamN4ZG1SWE5IQmhkbFk0Ym5WbWJUbEVaWEJFVTNKUGRVVklVVzlOWkRaNFEwSTVUR2RVVkhRNFVEWTBURlY2YVc1aE4ybHJjMnRwY2s4eFZUVkZWbnBIVVdjMWNqWmZiVjkyTjNSbVFWaFJRVGxXYzFReWFqUXhSbWRYTkc5RVJXVkVPV2xFWWkwd2IwbHBkWE5pUlRkUFZsRklibFUyVlc5cGFYQndkMVJNVVVsSlVSSVhaalpmU21Gd2NsUkVkR0ZHYlV4UlVERTFTRmh6UVhjYUlrRkVjM0k1WmxGQ1QycExSRWxKTTBoa0xUQndRVmxrTUY5emVHbDFhWGRxYVdjIiwiZmN2IjoiMyJ9",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkV1SURDcUlEUVVwcFZEUjBTV3R0YVdGRVVYTnhWMWhDYkhKQlVVZDZOek5zU0dSeFNGQkxWSEZ1WjAxR1ZFdEljbDg0UjJaaVEwVlZhV0ZqUzJKbGFXOVlVbUpXVDJjM09VTXhlQzFwYzNreVJtRTNVVTFuVG5kUGQyZFJNRzh4VlZkZk1VSk1Za2RqTVdFelFYZG1aVVF0UjFCTk0wSXhVSE5yVTFSeFFTMXBUa2RyTXpJMFJrVTVlbUZIY0VObVdGVjBZbHA2TFRCWGQxRXlTak4zYTFwMVdVaEdWbFJ6TTA1eGNVaDJaWE52ZUdacmFtWXlWVmt0UWkxR2JUY3dXbTVsWjJ4b1JTMHhYM1ZoUTFCblNIWXdOVVZ3ZWtwbWVVSk9NVEV0WkMxZlYyVnpialJJVDFkc1oydFZZMjFxUlZCc1lVNWFaVEJ3Vm05dmVtSlJRM1IwVVc5NlIyWnNiMDFvVkRoNFNESm9kR0l3VFVFMVNXdENjVVI1TW1vek9IZHRWamN4ZG1SWE5IQmhkbFk0Ym5WbWJUbEVaWEJFVTNKUGRVVklVVzlOWkRaNFEwSTVUR2RVVkhRNFVEWTBURlY2YVc1aE4ybHJjMnRwY2s4eFZUVkZWbnBIVVdjMWNqWmZiVjkyTjNSbVFWaFJRVGxXYzFReWFqUXhSbWRYTkc5RVJXVkVPV2xFWWkwd2IwbHBkWE5pUlRkUFZsRklibFUyVlc5cGFYQndkMVJNVVVsSlVSSVhaalpmU21Gd2NsUkVkR0ZHYlV4UlVERTFTRmh6UVhjYUlrRkVjM0k1WmxGQ1QycExSRWxKTTBoa0xUQndRVmxrTUY5emVHbDFhWGRxYVdjIiwiZmN2IjoiMyJ9&q=brand+identity+intern"
+    }
+  }
+}

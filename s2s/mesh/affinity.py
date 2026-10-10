@@ -59,11 +59,6 @@ AFFINITY: dict[str, dict[Discipline, float]] = {
         D.MEDIA_COMM: 0.8, D.LAW_POLICY: 0.8, D.DATA_QUANT: 0.4,
         D.CS_SOFTWARE: 0.2, D.LIFE_SCIENCES: 0.3, D.ENG_MECHANICAL: 0.2,
     },
-    "taproot": {
-        D.COMMERCE_FINANCE: 0.8, D.DESIGN_VISUAL: 0.7, D.ARTS_HUMANITIES: 0.7,
-        D.LAW_POLICY: 0.7, D.MEDIA_COMM: 0.6, D.DATA_QUANT: 0.4,
-        D.CS_SOFTWARE: 0.2, D.LIFE_SCIENCES: 0.2, D.ENG_MECHANICAL: 0.2,
-    },
     "idealist": {
         D.ARTS_HUMANITIES: 0.8, D.LAW_POLICY: 0.7, D.MEDIA_COMM: 0.6,
         D.COMMERCE_FINANCE: 0.5, D.DESIGN_VISUAL: 0.5, D.DATA_QUANT: 0.4,

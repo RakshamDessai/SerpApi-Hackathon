@@ -85,6 +85,28 @@ def phrases_for(group: list[Competency]) -> list[str]:
     return phrases[:MAX_PHRASES_PER_DORK]
 
 
+def keyword_for(group: list[Competency], used: set[str] | None = None) -> str | None:
+    """The single phrase a `keywords`-style dork searches for.
+
+    A keyword dork cannot OR-pack, so it packs the other way: it picks the
+    phrase shared by the most competencies in the group ("financial model"
+    rather than "cost of equity"), so one search still serves several units.
+    Ties go to the strongest phrase in `phrases_for` order. Phrases in `used`
+    are skipped: two groups sharing "financial model" would otherwise issue the
+    identical query twice and lose the second group's coverage.
+    """
+    used = used or set()
+    ordered = [p for p in phrases_for(group) if p.lower() not in used]
+    if not ordered:
+        return None
+    rank = {p.lower(): i for i, p in enumerate(ordered)}
+    counts: dict[str, int] = {}
+    for competency in group:
+        for phrase in {p.lower() for p in competency.search_phrases}:
+            counts[phrase] = counts.get(phrase, 0) + 1
+    return max(ordered, key=lambda p: (counts.get(p.lower(), 0), -rank[p.lower()]))
+
+
 def plan(
     competencies: list[Competency],
     credit_cap: int,
@@ -101,6 +123,7 @@ def plan(
 
     dorks: list[Dork] = []
     budget = credit_cap
+    used_keywords: set[str] = set()
 
     # Breadth before depth: one group across all platforms, then the next.
     # If the cap bites, the student still gets every ecosystem represented.
@@ -108,13 +131,17 @@ def plan(
         phrases = phrases_for(group)
         if not phrases:
             continue
+        keyword = keyword_for(group, used_keywords) or phrases[0]
+        used_keywords.add(keyword.lower())
+        keyword_phrases = [keyword] + [p for p in phrases if p != keyword]
         for adapter, _ in platforms:
             if budget <= 0:
                 return dorks
+            terms = keyword_phrases if adapter.query_style == "keywords" else phrases
             dorks.append(
                 Dork(
                     adapter_key=adapter.key,
-                    query=adapter_registry.render_query(adapter, phrases),
+                    query=adapter_registry.render_query(adapter, terms),
                     covers=tuple(group),
                     engine=adapter.engine,
                     params=dict(adapter.extra_params),

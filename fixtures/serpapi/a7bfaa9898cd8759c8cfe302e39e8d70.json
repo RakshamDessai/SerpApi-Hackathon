@@ -1,0 +1,145 @@
+{
+  "fetched_at": 1791602539.7627048,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com financial model competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af68a973c4683edca93e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/iWLdSzhRjzXZQgioX_ur3WzA_ImMjsKvmkHhXmpXRis/6ac9af68a973c4683edca93e.json",
+      "markdown_endpoint": "https://serpapi.com/searches/iWLdSzhRjzXZQgioX_ur3WzA_ImMjsKvmkHhXmpXRis/6ac9af68a973c4683edca93e.md",
+      "created_at": "2026-10-10 03:22:16 UTC",
+      "processed_at": "2026-10-10 03:22:16 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+financial+model+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/iWLdSzhRjzXZQgioX_ur3WzA_ImMjsKvmkHhXmpXRis/6ac9af68a973c4683edca93e.html",
+      "prettify_html_file": "https://serpapi.com/searches/iWLdSzhRjzXZQgioX_ur3WzA_ImMjsKvmkHhXmpXRis/6ac9af68a973c4683edca93e.prettify",
+      "total_time_taken": 3.29
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com financial model competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Arthshastra: A Financial Model - 2026 - unstop.com",
+        "link": "https://unstop.com/competitions/arthshastra-a-financial-modeling-event-krishi-chanakya-2026-national-institute-of-agricultural-extension-ma-1724032",
+        "snippet": "Behind every thriving business is a financial model sharp enough to read the future and steady enough to survive it. Get the model right, and a balance sheet doesn't just add up; it tells a story of growth, resilience, and smart decision-making. Arthshastra, MANAGE's flagship financial modeling event, puts that skill to the test.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Financial Modeling & Valuation Competition - 2020 - Unstop",
+        "link": "https://unstop.com/competitions/financial-modeling-valuation-competition-indian-capstone-simulations-108816",
+        "snippet": "Financial Modeling & Valuation competition by Indian Capstone Simulations is an opportunity to showcase your knowledge in the field of finance, financial modeling, and valuation and compete with the brightest finance enthusiasts of the country. The focus of this competition will be on the ability of the participants in understanding economic and business trends for the next 12-24 months relevant for the company and in that context come up with the valuation. Round 1: Participants need to ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "FinGenius 2025 - Decoding Finance",
+        "link": "https://api.unstop.com/competitions/fingenius-2025-decoding-finance-finance-veda-1486133",
+        "date_raw": "2025-05-28T04:30:00.0000000",
+        "date": "May 28, 2025",
+        "snippet": "Finance Veda is a dynamic ed-tech platform dedicated to simplifying finance education for students and young professionals. With a strong focus on practical learning, Finance Veda offers workshops, internship programs, and live projects in domains such as investment banking, equity research, financial modeling, valuation, and corporate finance.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "NextGen Finance Challenge - 2026",
+        "link": "https://api.unstop.com/competitions/nextgen-finance-challenge-finance-veda-1685857",
+        "snippet": "A national-level finance competition designed to test the financial awareness, analytical thinking, and business understanding of undergraduate students across India through engaging and practical finance challenges. About Finance Veda Finance Veda is a dynamic ed-tech platform committed to simplifying finance education for students and young professionals. With a strong focus on practical learning, Finance Veda offers workshops, internships, and live projects in domains such as: Investment ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Margin - 2026",
+        "link": "https://unstop.com/competitions/margin-s2s-1749651",
+        "snippet": "MARGIN 2026 | The Finance Innovation Challenge Think you can solve real-world financial problems with innovative ideas? MARGIN 2026 is an online finance innovation competition for school and college students to ideate, build, and pitch solutions that can reshape how people, businesses, and society manage money. Eligibility: Open to everyone Competition Process: Round 1 \u2014 Idea Submission Submit an original finance-related idea addressing a real-world problem. Participants will submit a ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "Mulyankan 2026: A Valuation-Based Competition - unstop.com",
+        "link": "https://unstop.com/competitions/mulyankan-2026-a-valuation-based-competition--1620681",
+        "date_raw": "2026-01-08T11:30:00.0000000",
+        "date": "Jan 8, 2026",
+        "snippet": "All that you need to know about Mulyankan 2026: A Valuation-Based Competition About: Finatix, The Finance Club of the Indian Institute of Management, Raipur, proudly presents you, Mulyankan. It is a National Level Financial Valuation Competition encouraging students from Business schools across the nation to showcase their financial acumen.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Finopoly- The Finance Competition - 2026",
+        "link": "https://unstop.com/competitions/finopoly-the-finance-competition-iim-indore-1708977",
+        "date_raw": "2026-08-21T00:00:00.0000000",
+        "date": "Aug 21, 2026",
+        "snippet": "All that you need to know about Finopoly- The Finance Competition Finopoly is AtharvRanbhoomi's international finance event: an intense, multi-stage simulation that tests your financial acumen, market instincts, and strategic thinking across diverse formats.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Pirates of the Portfolio: A Finance & Investment Competition",
+        "link": "https://unstop.com/competitions/pirates-of-the-portfolio-a-finance-investment-competition-econvista26-lady-shri-ram-college-for-women-lsr-d-1754899",
+        "snippet": "The competition progresses through multiple stages, beginning with an online preliminary quiz, followed by an online finance case challenge, and culminating in a live stock-market simulation and investment pitch. The quiz will test participants across financial markets, corporate finance, and current affairs, while also asse...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Katha VC X Crowwd X Straight-Up Valuation: The Valuation Case Competition",
+        "link": "https://unstop.com/competitions/straight-up-valuation-the-valuation-competition-fortune26-dtu-new-delhi-1664416",
+        "date_raw": "2026-04-05T00:00:00.0000000",
+        "date": "Apr 5, 2026",
+        "snippet": "Assets DTU in collaboration with Ecotech, proudly presents Straight Up Valuation a high-intensity valuation case competition designed to test your financial acumen, analytical thinking, and decision-making under pressure. Step into the shoes of an investor. Dive deep into financials, decode business models, and uncover hidden value.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Bahulya 4.0: A Finance Case Competition - FIFA World Cup 2030 Edition",
+        "link": "https://unstop.com/competitions/bahulya-40-a-finance-case-competition-fifa-world-cup-2030-edition-jesus-and-mary-college-jmc-du-delhi-1765727",
+        "date_raw": "2026-10-06T14:16:00.0000000",
+        "date": "Oct 6, 2026",
+        "snippet": "The Finance and Investment Cell of Jesus and Mary College is proud to present the fourth edition of Bahulya, a premier finance case competition that challenges participants to showcase their analytical acumen, strategic thinking, and problem-solving skills. This year's edition explores one of the world's biggest sporting spectacles through a financial lens: the feasibility of hosting the FIFA World Cup 2030 in India. Participants will be required to navigate the complexities of large ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "CaseCeption - A Finance Case Competition by CRISIL - 2026",
+        "link": "https://unstop.com/competitions/caseception-a-finance-case-competition-by-crisil-hindu-college-1643034",
+        "snippet": "This is not your average competition. Backed by CRISIL Ratings as our case partner, Caseception throws you into the deep end of real world financial problem solving, where your ability to interpret data, model financials, decode investor behaviour and read between the lines of a financial statement is what separates the good from the exceptional.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "financial modeling world cup competition",
+        "link": "https://duckduckgo.com/?q=financial%20modeling%20world%20cup%20competition&origin=related"
+      },
+      {
+        "query": "financial modelling world championships",
+        "link": "https://duckduckgo.com/?q=financial%20modelling%20world%20championships&origin=related"
+      },
+      {
+        "query": "finance case study competitions",
+        "link": "https://duckduckgo.com/?q=finance%20case%20study%20competitions&origin=related"
+      },
+      {
+        "query": "financial modeling institute",
+        "link": "https://duckduckgo.com/?q=financial%20modeling%20institute&origin=related"
+      },
+      {
+        "query": "finance competitions",
+        "link": "https://duckduckgo.com/?q=finance%20competitions&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+financial+model+competition&start=11"
+    }
+  }
+}

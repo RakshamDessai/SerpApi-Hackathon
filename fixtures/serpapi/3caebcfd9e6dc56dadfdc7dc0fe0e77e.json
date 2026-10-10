@@ -1,0 +1,338 @@
+{
+  "fetched_at": 1791602548.801377,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "financial model intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af7380a078ffcc9dc95d",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/glT6GQEHGrCLmLnZiOVXT4vkC8OMOqCubmxP3mr0mQQ/6ac9af7380a078ffcc9dc95d.json",
+      "markdown_endpoint": "https://serpapi.com/searches/glT6GQEHGrCLmLnZiOVXT4vkC8OMOqCubmxP3mr0mQQ/6ac9af7380a078ffcc9dc95d.md",
+      "created_at": "2026-10-10 03:22:27 UTC",
+      "processed_at": "2026-10-10 03:22:27 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=financial+model+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/glT6GQEHGrCLmLnZiOVXT4vkC8OMOqCubmxP3mr0mQQ/6ac9af7380a078ffcc9dc95d.html",
+      "total_time_taken": 1.51
+    },
+    "search_parameters": {
+      "q": "financial model intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQoGkpH6oNPmRPYB_pgm0gjwPFKB9cj1uCbsm8p45IUCnkB77iBwBZE7wL8PzxlXWbS9NEjS3l3ssGZa8Xhv8BsO7tKFayOtB48Abu3VCrL11kFpLX67GmAbjxF6MyuZ3FGg-UYMc-vLSglmtPPYIlVWRrq2r8WWa3KYf2AOb7nAk9bQ52A",
+          "q": "financial model intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQoGkpH6oNPmRPYB_pgm0gjwPFKB9cj1uCbsm8p45IUCnkB77iBwBZE7wL8PzxlXWbS9NEjS3l3ssGZa8Xhv8BsO7tKFayOtB48Abu3VCrL11kFpLX67GmAbjxF6MyuZ3FGg-UYMc-vLSglmtPPYIlVWRrq2r8WWa3KYf2AOb7nAk9bQ52A&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQxKsJKAB6BAgXEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQoGkpH6oNPmRPYB_pgm0gjwPFKB9cj1uCbsm8p45IUCnkB77iBwBZE7wL8PzxlXWbS9NEjS3l3ssGZa8Xhv8BsO7tKFayOtB48Abu3VCrL11kFpLX67GmAbjxF6MyuZ3FGg-UYMc-vLSglmtPPYIlVWRrq2r8WWa3KYf2AOb7nAk9bQ52A"
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShFI0KMXqDDLK721GKcHqZAMwCXhD6pM896Bz0riI62IDTAthYJArqaBCMlIj8C3xLIiIdIQynpJL_g1hiajhV6QVRFcRdS5WcgcSq7OhBfSDyCocfSN9dFMJBMpoo9iYM2szCGHJ-nB27JZ9gQcRJ1enX7EtMdyEoKpkZgrjY9KXpzRngf_Z8JD_c-xqWPskUaR3K6FIKV9tWRdflef6FfqyUkPonkASlkN5a5MsoDKtnh7ViiNVmGX-C_rRUqOfYIXzKW9AqL_U4exjCfM_2MISisGjXJZg6fxfHSFVd4wDwbul1OOaVrVUAm5Cn-9zk_luGLb",
+              "q": "financial model intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShFI0KMXqDDLK721GKcHqZAMwCXhD6pM896Bz0riI62IDTAthYJArqaBCMlIj8C3xLIiIdIQynpJL_g1hiajhV6QVRFcRdS5WcgcSq7OhBfSDyCocfSN9dFMJBMpoo9iYM2szCGHJ-nB27JZ9gQcRJ1enX7EtMdyEoKpkZgrjY9KXpzRngf_Z8JD_c-xqWPskUaR3K6FIKV9tWRdflef6FfqyUkPonkASlkN5a5MsoDKtnh7ViiNVmGX-C_rRUqOfYIXzKW9AqL_U4exjCfM_2MISisGjXJZg6fxfHSFVd4wDwbul1OOaVrVUAm5Cn-9zk_luGLb&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShFI0KMXqDDLK721GKcHqZAMwCXhD6pM896Bz0riI62IDTAthYJArqaBCMlIj8C3xLIiIdIQynpJL_g1hiajhV6QVRFcRdS5WcgcSq7OhBfSDyCocfSN9dFMJBMpoo9iYM2szCGHJ-nB27JZ9gQcRJ1enX7EtMdyEoKpkZgrjY9KXpzRngf_Z8JD_c-xqWPskUaR3K6FIKV9tWRdflef6FfqyUkPonkASlkN5a5MsoDKtnh7ViiNVmGX-C_rRUqOfYIXzKW9AqL_U4exjCfM_2MISisGjXJZg6fxfHSFVd4wDwbul1OOaVrVUAm5Cn-9zk_luGLb"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShEEv4hVhJqEeQ0UH8UrVC-EwEYiYQ-PYIHam4DPVp1Bq2c_ZTtLlntJAwxZnKXToRYvTdgcnHyQ26EayMmGPixeWq70JRYt-T15uAza0gQYQQo7_7x9ISBKw6S9np7BQGoWst3pFRzqd9qS1kPzQOGPrZWIr4QOr3kt1Zl9GhxCEkjsKTot3rMw_we4BcspIn4bxWatygMpJ57C0OQkPKho8esVc9en2xeAI8XQPafxjCkOG4qGJwx-b9P3IVwSW8JIR2a-nUGaNkGoSmu5h7WwJD5e0E6EMt0SRVkOcams9Op9dhGxClXGuwjKd-0pI_khNp_-",
+              "q": "financial model intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShEEv4hVhJqEeQ0UH8UrVC-EwEYiYQ-PYIHam4DPVp1Bq2c_ZTtLlntJAwxZnKXToRYvTdgcnHyQ26EayMmGPixeWq70JRYt-T15uAza0gQYQQo7_7x9ISBKw6S9np7BQGoWst3pFRzqd9qS1kPzQOGPrZWIr4QOr3kt1Zl9GhxCEkjsKTot3rMw_we4BcspIn4bxWatygMpJ57C0OQkPKho8esVc9en2xeAI8XQPafxjCkOG4qGJwx-b9P3IVwSW8JIR2a-nUGaNkGoSmu5h7WwJD5e0E6EMt0SRVkOcams9Op9dhGxClXGuwjKd-0pI_khNp_-&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShEEv4hVhJqEeQ0UH8UrVC-EwEYiYQ-PYIHam4DPVp1Bq2c_ZTtLlntJAwxZnKXToRYvTdgcnHyQ26EayMmGPixeWq70JRYt-T15uAza0gQYQQo7_7x9ISBKw6S9np7BQGoWst3pFRzqd9qS1kPzQOGPrZWIr4QOr3kt1Zl9GhxCEkjsKTot3rMw_we4BcspIn4bxWatygMpJ57C0OQkPKho8esVc9en2xeAI8XQPafxjCkOG4qGJwx-b9P3IVwSW8JIR2a-nUGaNkGoSmu5h7WwJD5e0E6EMt0SRVkOcams9Op9dhGxClXGuwjKd-0pI_khNp_-"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c130ehMH87co_lh5bA6eCStZmMaF1cxRAqZ0EqZ92OsHaw9RzSkemeQTu1k8GyknYb5NYUpaZC4iP0gn4YAPAoU4pJ1rOr8XwfnC6Fw2qCsGFF3vng-CS1VsyEIf3KeE7IiBmhWmUcErnZsABkVjC5DKKZpwDts0kGYmIqo6U-9mIHv_p2oKYZ4zMha_9ztC80M5JpEr3yAXciYp3j0Sj3G81to1_5YSkcxwHbLYPDiP7cc9md27-_H5XQ5Z4IOlDSw_kHNLgsNzlhflmXqn7CPQe4T_4U-iZTMU3f-VhuO0Jjor-scWY-Mz9LARjUtu8Hg5cPRA",
+              "q": "financial model intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c130ehMH87co_lh5bA6eCStZmMaF1cxRAqZ0EqZ92OsHaw9RzSkemeQTu1k8GyknYb5NYUpaZC4iP0gn4YAPAoU4pJ1rOr8XwfnC6Fw2qCsGFF3vng-CS1VsyEIf3KeE7IiBmhWmUcErnZsABkVjC5DKKZpwDts0kGYmIqo6U-9mIHv_p2oKYZ4zMha_9ztC80M5JpEr3yAXciYp3j0Sj3G81to1_5YSkcxwHbLYPDiP7cc9md27-_H5XQ5Z4IOlDSw_kHNLgsNzlhflmXqn7CPQe4T_4U-iZTMU3f-VhuO0Jjor-scWY-Mz9LARjUtu8Hg5cPRA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c130ehMH87co_lh5bA6eCStZmMaF1cxRAqZ0EqZ92OsHaw9RzSkemeQTu1k8GyknYb5NYUpaZC4iP0gn4YAPAoU4pJ1rOr8XwfnC6Fw2qCsGFF3vng-CS1VsyEIf3KeE7IiBmhWmUcErnZsABkVjC5DKKZpwDts0kGYmIqo6U-9mIHv_p2oKYZ4zMha_9ztC80M5JpEr3yAXciYp3j0Sj3G81to1_5YSkcxwHbLYPDiP7cc9md27-_H5XQ5Z4IOlDSw_kHNLgsNzlhflmXqn7CPQe4T_4U-iZTMU3f-VhuO0Jjor-scWY-Mz9LARjUtu8Hg5cPRA"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK51fEeDo11pOA6ASC7Cw2G9n5GS2C4EJSIEO9_Vh1iLqkp2bLCUECpLD6T0ai2hT5czJkK4l8bPQU1x2XD0DcBeFYzhxgXavtbzYkwHj3hYNsQLOetPFEK2J6Jr1nC27I0SLYSy8wpMR_4eXc_GCxHTAAZYHqxnK_2-YP_FMNZvWVuvBwClL1MYnEPfi9e-OjW5HtIVQWJTwk5Yo9Yh0ug9RZhe-9NKVynyY75jDUIepcwwTZFgNiMUjv6d3Ws0bW49gjnoUMVhuWorAGan8a3vDDcjzfyF44nkSHm1c6s7mQeN2YL12ZWpUorLiH2iI1AgxbrE",
+              "q": "financial model intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK51fEeDo11pOA6ASC7Cw2G9n5GS2C4EJSIEO9_Vh1iLqkp2bLCUECpLD6T0ai2hT5czJkK4l8bPQU1x2XD0DcBeFYzhxgXavtbzYkwHj3hYNsQLOetPFEK2J6Jr1nC27I0SLYSy8wpMR_4eXc_GCxHTAAZYHqxnK_2-YP_FMNZvWVuvBwClL1MYnEPfi9e-OjW5HtIVQWJTwk5Yo9Yh0ug9RZhe-9NKVynyY75jDUIepcwwTZFgNiMUjv6d3Ws0bW49gjnoUMVhuWorAGan8a3vDDcjzfyF44nkSHm1c6s7mQeN2YL12ZWpUorLiH2iI1AgxbrE&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK51fEeDo11pOA6ASC7Cw2G9n5GS2C4EJSIEO9_Vh1iLqkp2bLCUECpLD6T0ai2hT5czJkK4l8bPQU1x2XD0DcBeFYzhxgXavtbzYkwHj3hYNsQLOetPFEK2J6Jr1nC27I0SLYSy8wpMR_4eXc_GCxHTAAZYHqxnK_2-YP_FMNZvWVuvBwClL1MYnEPfi9e-OjW5HtIVQWJTwk5Yo9Yh0ug9RZhe-9NKVynyY75jDUIepcwwTZFgNiMUjv6d3Ws0bW49gjnoUMVhuWorAGan8a3vDDcjzfyF44nkSHm1c6s7mQeN2YL12ZWpUorLiH2iI1AgxbrE"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShFI0KMXqDDLK721GKcHqZAMwCXhD6pM896Bz0riI62IDTAthYJArqaBCMlIj8C3xLIiIdIQynpJL_g1hiajhV6QVRFcRdS5WcgcSq7OhBfSDyCocfSN9dFMJBMpoo9iYM2szCGHJ-nB27JZ9gQcRJ1enX7EtMdyEoKpkZgrjY9KXpzRngf_Z8JD_c-xqWPskUaR3K6FIKV9tWRdflef6FfqyUkPonkASlkN5a5MsoDKtnh7ViiNVmGX-C_rRUqOfYIXzKW9AqL_U4exjCfM_2MISisGjXJZg6fxfHSFVd4wDwbul1OOaVrVUAm5Cn-9zk_luGLb",
+              "q": "financial model intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShFI0KMXqDDLK721GKcHqZAMwCXhD6pM896Bz0riI62IDTAthYJArqaBCMlIj8C3xLIiIdIQynpJL_g1hiajhV6QVRFcRdS5WcgcSq7OhBfSDyCocfSN9dFMJBMpoo9iYM2szCGHJ-nB27JZ9gQcRJ1enX7EtMdyEoKpkZgrjY9KXpzRngf_Z8JD_c-xqWPskUaR3K6FIKV9tWRdflef6FfqyUkPonkASlkN5a5MsoDKtnh7ViiNVmGX-C_rRUqOfYIXzKW9AqL_U4exjCfM_2MISisGjXJZg6fxfHSFVd4wDwbul1OOaVrVUAm5Cn-9zk_luGLb&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShFI0KMXqDDLK721GKcHqZAMwCXhD6pM896Bz0riI62IDTAthYJArqaBCMlIj8C3xLIiIdIQynpJL_g1hiajhV6QVRFcRdS5WcgcSq7OhBfSDyCocfSN9dFMJBMpoo9iYM2szCGHJ-nB27JZ9gQcRJ1enX7EtMdyEoKpkZgrjY9KXpzRngf_Z8JD_c-xqWPskUaR3K6FIKV9tWRdflef6FfqyUkPonkASlkN5a5MsoDKtnh7ViiNVmGX-C_rRUqOfYIXzKW9AqL_U4exjCfM_2MISisGjXJZg6fxfHSFVd4wDwbul1OOaVrVUAm5Cn-9zk_luGLb"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShEEv4hVhJqEeQ0UH8UrVC-EwEYiYQ-PYIHam4DPVp1Bq2c_ZTtLlntJAwxZnKXToRYvTdgcnHyQ26EayMmGPixeWq70JRYt-T15uAza0gQYQQo7_7x9ISBKw6S9np7BQGoWst3pFRzqd9qS1kPzQOGPrZWIr4QOr3kt1Zl9GhxCEkjsKTot3rMw_we4BcspIn4bxWatygMpJ57C0OQkPKho8esVc9en2xeAI8XQPafxjCkOG4qGJwx-b9P3IVwSW8JIR2a-nUGaNkGoSmu5h7WwJD5e0E6EMt0SRVkOcams9Op9dhGxClXGuwjKd-0pI_khNp_-",
+              "q": "financial model intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShEEv4hVhJqEeQ0UH8UrVC-EwEYiYQ-PYIHam4DPVp1Bq2c_ZTtLlntJAwxZnKXToRYvTdgcnHyQ26EayMmGPixeWq70JRYt-T15uAza0gQYQQo7_7x9ISBKw6S9np7BQGoWst3pFRzqd9qS1kPzQOGPrZWIr4QOr3kt1Zl9GhxCEkjsKTot3rMw_we4BcspIn4bxWatygMpJ57C0OQkPKho8esVc9en2xeAI8XQPafxjCkOG4qGJwx-b9P3IVwSW8JIR2a-nUGaNkGoSmu5h7WwJD5e0E6EMt0SRVkOcams9Op9dhGxClXGuwjKd-0pI_khNp_-&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylDEWLu3E6APf1UIN90BYShEEv4hVhJqEeQ0UH8UrVC-EwEYiYQ-PYIHam4DPVp1Bq2c_ZTtLlntJAwxZnKXToRYvTdgcnHyQ26EayMmGPixeWq70JRYt-T15uAza0gQYQQo7_7x9ISBKw6S9np7BQGoWst3pFRzqd9qS1kPzQOGPrZWIr4QOr3kt1Zl9GhxCEkjsKTot3rMw_we4BcspIn4bxWatygMpJ57C0OQkPKho8esVc9en2xeAI8XQPafxjCkOG4qGJwx-b9P3IVwSW8JIR2a-nUGaNkGoSmu5h7WwJD5e0E6EMt0SRVkOcams9Op9dhGxClXGuwjKd-0pI_khNp_-"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c130ehMH87co_lh5bA6eCStZmMaF1cxRAqZ0EqZ92OsHaw9RzSkemeQTu1k8GyknYb5NYUpaZC4iP0gn4YAPAoU4pJ1rOr8XwfnC6Fw2qCsGFF3vng-CS1VsyEIf3KeE7IiBmhWmUcErnZsABkVjC5DKKZpwDts0kGYmIqo6U-9mIHv_p2oKYZ4zMha_9ztC80M5JpEr3yAXciYp3j0Sj3G81to1_5YSkcxwHbLYPDiP7cc9md27-_H5XQ5Z4IOlDSw_kHNLgsNzlhflmXqn7CPQe4T_4U-iZTMU3f-VhuO0Jjor-scWY-Mz9LARjUtu8Hg5cPRA",
+              "q": "financial model intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c130ehMH87co_lh5bA6eCStZmMaF1cxRAqZ0EqZ92OsHaw9RzSkemeQTu1k8GyknYb5NYUpaZC4iP0gn4YAPAoU4pJ1rOr8XwfnC6Fw2qCsGFF3vng-CS1VsyEIf3KeE7IiBmhWmUcErnZsABkVjC5DKKZpwDts0kGYmIqo6U-9mIHv_p2oKYZ4zMha_9ztC80M5JpEr3yAXciYp3j0Sj3G81to1_5YSkcxwHbLYPDiP7cc9md27-_H5XQ5Z4IOlDSw_kHNLgsNzlhflmXqn7CPQe4T_4U-iZTMU3f-VhuO0Jjor-scWY-Mz9LARjUtu8Hg5cPRA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c130ehMH87co_lh5bA6eCStZmMaF1cxRAqZ0EqZ92OsHaw9RzSkemeQTu1k8GyknYb5NYUpaZC4iP0gn4YAPAoU4pJ1rOr8XwfnC6Fw2qCsGFF3vng-CS1VsyEIf3KeE7IiBmhWmUcErnZsABkVjC5DKKZpwDts0kGYmIqo6U-9mIHv_p2oKYZ4zMha_9ztC80M5JpEr3yAXciYp3j0Sj3G81to1_5YSkcxwHbLYPDiP7cc9md27-_H5XQ5Z4IOlDSw_kHNLgsNzlhflmXqn7CPQe4T_4U-iZTMU3f-VhuO0Jjor-scWY-Mz9LARjUtu8Hg5cPRA"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK51fEeDo11pOA6ASC7Cw2G9n5GS2C4EJSIEO9_Vh1iLqkp2bLCUECpLD6T0ai2hT5czJkK4l8bPQU1x2XD0DcBeFYzhxgXavtbzYkwHj3hYNsQLOetPFEK2J6Jr1nC27I0SLYSy8wpMR_4eXc_GCxHTAAZYHqxnK_2-YP_FMNZvWVuvBwClL1MYnEPfi9e-OjW5HtIVQWJTwk5Yo9Yh0ug9RZhe-9NKVynyY75jDUIepcwwTZFgNiMUjv6d3Ws0bW49gjnoUMVhuWorAGan8a3vDDcjzfyF44nkSHm1c6s7mQeN2YL12ZWpUorLiH2iI1AgxbrE",
+              "q": "financial model intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK51fEeDo11pOA6ASC7Cw2G9n5GS2C4EJSIEO9_Vh1iLqkp2bLCUECpLD6T0ai2hT5czJkK4l8bPQU1x2XD0DcBeFYzhxgXavtbzYkwHj3hYNsQLOetPFEK2J6Jr1nC27I0SLYSy8wpMR_4eXc_GCxHTAAZYHqxnK_2-YP_FMNZvWVuvBwClL1MYnEPfi9e-OjW5HtIVQWJTwk5Yo9Yh0ug9RZhe-9NKVynyY75jDUIepcwwTZFgNiMUjv6d3Ws0bW49gjnoUMVhuWorAGan8a3vDDcjzfyF44nkSHm1c6s7mQeN2YL12ZWpUorLiH2iI1AgxbrE&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK51fEeDo11pOA6ASC7Cw2G9n5GS2C4EJSIEO9_Vh1iLqkp2bLCUECpLD6T0ai2hT5czJkK4l8bPQU1x2XD0DcBeFYzhxgXavtbzYkwHj3hYNsQLOetPFEK2J6Jr1nC27I0SLYSy8wpMR_4eXc_GCxHTAAZYHqxnK_2-YP_FMNZvWVuvBwClL1MYnEPfi9e-OjW5HtIVQWJTwk5Yo9Yh0ug9RZhe-9NKVynyY75jDUIepcwwTZFgNiMUjv6d3Ws0bW49gjnoUMVhuWorAGan8a3vDDcjzfyF44nkSHm1c6s7mQeN2YL12ZWpUorLiH2iI1AgxbrE"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDMmYw4AOS89NANpKnKylAmF61RkhA9EYrH1JnIkJhVZJ6HpIkL58uRWRysYkVf_xMmjRu28uuEYg7GWtgzaiW4Fo_jP5PpPcxkT7c5BiGh_5a0yU7-EJ-bDd_BEzJQkJUBS235EVA3rpOmMEllStitO-NHRypXb_gTQtWKS-j3Uvfo-hrh32Gr9klwXYhXLDOJLzXLalvbl9lowA3Smkw6ueHOpK0x3BLi2-6T4at-LUceVW3JfWEXyLyRx6UoYH9TP7imNbkUszEOzyzdwzwTroAXCEbYpu9yFQAajQ4fDctkHW45cKkOEXjY1Fg-bx0ipsGo4YcRqi6ssDFgfOwOTU17ci",
+              "q": "financial model intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDMmYw4AOS89NANpKnKylAmF61RkhA9EYrH1JnIkJhVZJ6HpIkL58uRWRysYkVf_xMmjRu28uuEYg7GWtgzaiW4Fo_jP5PpPcxkT7c5BiGh_5a0yU7-EJ-bDd_BEzJQkJUBS235EVA3rpOmMEllStitO-NHRypXb_gTQtWKS-j3Uvfo-hrh32Gr9klwXYhXLDOJLzXLalvbl9lowA3Smkw6ueHOpK0x3BLi2-6T4at-LUceVW3JfWEXyLyRx6UoYH9TP7imNbkUszEOzyzdwzwTroAXCEbYpu9yFQAajQ4fDctkHW45cKkOEXjY1Fg-bx0ipsGo4YcRqi6ssDFgfOwOTU17ci&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDMmYw4AOS89NANpKnKylAmF61RkhA9EYrH1JnIkJhVZJ6HpIkL58uRWRysYkVf_xMmjRu28uuEYg7GWtgzaiW4Fo_jP5PpPcxkT7c5BiGh_5a0yU7-EJ-bDd_BEzJQkJUBS235EVA3rpOmMEllStitO-NHRypXb_gTQtWKS-j3Uvfo-hrh32Gr9klwXYhXLDOJLzXLalvbl9lowA3Smkw6ueHOpK0x3BLi2-6T4at-LUceVW3JfWEXyLyRx6UoYH9TP7imNbkUszEOzyzdwzwTroAXCEbYpu9yFQAajQ4fDctkHW45cKkOEXjY1Fg-bx0ipsGo4YcRqi6ssDFgfOwOTU17ci"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU_fxLxSEiT-Y7nKClUADkT9pmk2mSULQ-Buzr3o2KxL-8kZt2af6999Q29K6PNzKp_JNEh7PAaOqWDPtdXatV5e68aRpsr70yvgRlS7TlsSd-cUvITj0Ts_90N4bn6HjqBjKXbAR3PKjpZjP3OXnEIHTI6-A06hmQTAmHm7PQ960Jdd2twOgpsi22LoyDnRxSjP3Jw3e77wRMB_av27XALfd7V2LpkxQcIMzqDbT3qTAGh2sO1RcHOSWoYv5wuaV2TxS84lQ5sYxK9IKo2irdk2GrSiZcns9uu4Yy_3p2zmFNAwlB7juPP-2PocHf6SXuoUSMXBHpTuXIUKydYgTXj21XRFm",
+              "q": "financial model intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU_fxLxSEiT-Y7nKClUADkT9pmk2mSULQ-Buzr3o2KxL-8kZt2af6999Q29K6PNzKp_JNEh7PAaOqWDPtdXatV5e68aRpsr70yvgRlS7TlsSd-cUvITj0Ts_90N4bn6HjqBjKXbAR3PKjpZjP3OXnEIHTI6-A06hmQTAmHm7PQ960Jdd2twOgpsi22LoyDnRxSjP3Jw3e77wRMB_av27XALfd7V2LpkxQcIMzqDbT3qTAGh2sO1RcHOSWoYv5wuaV2TxS84lQ5sYxK9IKo2irdk2GrSiZcns9uu4Yy_3p2zmFNAwlB7juPP-2PocHf6SXuoUSMXBHpTuXIUKydYgTXj21XRFm&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU_fxLxSEiT-Y7nKClUADkT9pmk2mSULQ-Buzr3o2KxL-8kZt2af6999Q29K6PNzKp_JNEh7PAaOqWDPtdXatV5e68aRpsr70yvgRlS7TlsSd-cUvITj0Ts_90N4bn6HjqBjKXbAR3PKjpZjP3OXnEIHTI6-A06hmQTAmHm7PQ960Jdd2twOgpsi22LoyDnRxSjP3Jw3e77wRMB_av27XALfd7V2LpkxQcIMzqDbT3qTAGh2sO1RcHOSWoYv5wuaV2TxS84lQ5sYxK9IKo2irdk2GrSiZcns9uu4Yy_3p2zmFNAwlB7juPP-2PocHf6SXuoUSMXBHpTuXIUKydYgTXj21XRFm"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CTdgBDSYTWQR4a4nCj0kp4bFUxv1iT9rxPkGhbTAE3C-UfhnXQCipozVRil0VGr1hoL_uS6axJ61giGZqIujYRpNeUBR2sNDPmodQ1HCPtHh0cuJfxhecR63pUwgiSWoXE0xvgBME9IZf6LYDdt1EgtgdHS08hSaMKz9emznXFo9H0xqetuauVsZvaKW_buziy-Vt5iTsitr8UiFRMVpSzkNHaHMFtObZKrstrSf58dYunBX8-tdoE9TJMMgf5uWubYO6hJhCYvHfRjbaJEmXc1llw29hrnrgj3zXqBVuf3jUuhzWBFXXnI28rs3g3emjBzgjKg4fe3X_E-s-CbDkK4gYx7_",
+              "q": "financial model intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CTdgBDSYTWQR4a4nCj0kp4bFUxv1iT9rxPkGhbTAE3C-UfhnXQCipozVRil0VGr1hoL_uS6axJ61giGZqIujYRpNeUBR2sNDPmodQ1HCPtHh0cuJfxhecR63pUwgiSWoXE0xvgBME9IZf6LYDdt1EgtgdHS08hSaMKz9emznXFo9H0xqetuauVsZvaKW_buziy-Vt5iTsitr8UiFRMVpSzkNHaHMFtObZKrstrSf58dYunBX8-tdoE9TJMMgf5uWubYO6hJhCYvHfRjbaJEmXc1llw29hrnrgj3zXqBVuf3jUuhzWBFXXnI28rs3g3emjBzgjKg4fe3X_E-s-CbDkK4gYx7_&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CTdgBDSYTWQR4a4nCj0kp4bFUxv1iT9rxPkGhbTAE3C-UfhnXQCipozVRil0VGr1hoL_uS6axJ61giGZqIujYRpNeUBR2sNDPmodQ1HCPtHh0cuJfxhecR63pUwgiSWoXE0xvgBME9IZf6LYDdt1EgtgdHS08hSaMKz9emznXFo9H0xqetuauVsZvaKW_buziy-Vt5iTsitr8UiFRMVpSzkNHaHMFtObZKrstrSf58dYunBX8-tdoE9TJMMgf5uWubYO6hJhCYvHfRjbaJEmXc1llw29hrnrgj3zXqBVuf3jUuhzWBFXXnI28rs3g3emjBzgjKg4fe3X_E-s-CbDkK4gYx7_"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43hWhF--0CdI7rCOSzP2KW0uYdEN86rr1Wu8qpnMZOYcM90MULL-hWYFhKwTUYMB5ezX-FHbmEC7ZvUsMor9JGMa4fYYlTd0oTvG5ZU26GFvBVxWpGNQObtDKcEbOIsLjrGf86bvKksXb96rZy8kzbb68SMx-EmSX1fD_9910ZnHkLkk03323m5G7P0uqdwQ2E-7hJrLV_NGI4YcwFufgObf4lUyq9ME_o582auSi6LHG864X8snBIN8l2SBvLW86zVecj2Q2VH-VAnW0nwmurnILFdsNCPPLStOzY3dIrdJydUraNcKPfrYYLCUB5g7zyXsebr4ZaeipOk3ZrjIF6axNxcVQ",
+              "q": "financial model intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43hWhF--0CdI7rCOSzP2KW0uYdEN86rr1Wu8qpnMZOYcM90MULL-hWYFhKwTUYMB5ezX-FHbmEC7ZvUsMor9JGMa4fYYlTd0oTvG5ZU26GFvBVxWpGNQObtDKcEbOIsLjrGf86bvKksXb96rZy8kzbb68SMx-EmSX1fD_9910ZnHkLkk03323m5G7P0uqdwQ2E-7hJrLV_NGI4YcwFufgObf4lUyq9ME_o582auSi6LHG864X8snBIN8l2SBvLW86zVecj2Q2VH-VAnW0nwmurnILFdsNCPPLStOzY3dIrdJydUraNcKPfrYYLCUB5g7zyXsebr4ZaeipOk3ZrjIF6axNxcVQ&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43hWhF--0CdI7rCOSzP2KW0uYdEN86rr1Wu8qpnMZOYcM90MULL-hWYFhKwTUYMB5ezX-FHbmEC7ZvUsMor9JGMa4fYYlTd0oTvG5ZU26GFvBVxWpGNQObtDKcEbOIsLjrGf86bvKksXb96rZy8kzbb68SMx-EmSX1fD_9910ZnHkLkk03323m5G7P0uqdwQ2E-7hJrLV_NGI4YcwFufgObf4lUyq9ME_o582auSi6LHG864X8snBIN8l2SBvLW86zVecj2Q2VH-VAnW0nwmurnILFdsNCPPLStOzY3dIrdJydUraNcKPfrYYLCUB5g7zyXsebr4ZaeipOk3ZrjIF6axNxcVQ"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDMmYw4AOS89NANpKnKylAmF61RkhA9EYrH1JnIkJhVZJ6HpIkL58uRWRysYkVf_xMmjRu28uuEYg7GWtgzaiW4Fo_jP5PpPcxkT7c5BiGh_5a0yU7-EJ-bDd_BEzJQkJUBS235EVA3rpOmMEllStitO-NHRypXb_gTQtWKS-j3Uvfo-hrh32Gr9klwXYhXLDOJLzXLalvbl9lowA3Smkw6ueHOpK0x3BLi2-6T4at-LUceVW3JfWEXyLyRx6UoYH9TP7imNbkUszEOzyzdwzwTroAXCEbYpu9yFQAajQ4fDctkHW45cKkOEXjY1Fg-bx0ipsGo4YcRqi6ssDFgfOwOTU17ci",
+              "q": "financial model intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDMmYw4AOS89NANpKnKylAmF61RkhA9EYrH1JnIkJhVZJ6HpIkL58uRWRysYkVf_xMmjRu28uuEYg7GWtgzaiW4Fo_jP5PpPcxkT7c5BiGh_5a0yU7-EJ-bDd_BEzJQkJUBS235EVA3rpOmMEllStitO-NHRypXb_gTQtWKS-j3Uvfo-hrh32Gr9klwXYhXLDOJLzXLalvbl9lowA3Smkw6ueHOpK0x3BLi2-6T4at-LUceVW3JfWEXyLyRx6UoYH9TP7imNbkUszEOzyzdwzwTroAXCEbYpu9yFQAajQ4fDctkHW45cKkOEXjY1Fg-bx0ipsGo4YcRqi6ssDFgfOwOTU17ci&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDMmYw4AOS89NANpKnKylAmF61RkhA9EYrH1JnIkJhVZJ6HpIkL58uRWRysYkVf_xMmjRu28uuEYg7GWtgzaiW4Fo_jP5PpPcxkT7c5BiGh_5a0yU7-EJ-bDd_BEzJQkJUBS235EVA3rpOmMEllStitO-NHRypXb_gTQtWKS-j3Uvfo-hrh32Gr9klwXYhXLDOJLzXLalvbl9lowA3Smkw6ueHOpK0x3BLi2-6T4at-LUceVW3JfWEXyLyRx6UoYH9TP7imNbkUszEOzyzdwzwTroAXCEbYpu9yFQAajQ4fDctkHW45cKkOEXjY1Fg-bx0ipsGo4YcRqi6ssDFgfOwOTU17ci"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU_fxLxSEiT-Y7nKClUADkT9pmk2mSULQ-Buzr3o2KxL-8kZt2af6999Q29K6PNzKp_JNEh7PAaOqWDPtdXatV5e68aRpsr70yvgRlS7TlsSd-cUvITj0Ts_90N4bn6HjqBjKXbAR3PKjpZjP3OXnEIHTI6-A06hmQTAmHm7PQ960Jdd2twOgpsi22LoyDnRxSjP3Jw3e77wRMB_av27XALfd7V2LpkxQcIMzqDbT3qTAGh2sO1RcHOSWoYv5wuaV2TxS84lQ5sYxK9IKo2irdk2GrSiZcns9uu4Yy_3p2zmFNAwlB7juPP-2PocHf6SXuoUSMXBHpTuXIUKydYgTXj21XRFm",
+              "q": "financial model intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU_fxLxSEiT-Y7nKClUADkT9pmk2mSULQ-Buzr3o2KxL-8kZt2af6999Q29K6PNzKp_JNEh7PAaOqWDPtdXatV5e68aRpsr70yvgRlS7TlsSd-cUvITj0Ts_90N4bn6HjqBjKXbAR3PKjpZjP3OXnEIHTI6-A06hmQTAmHm7PQ960Jdd2twOgpsi22LoyDnRxSjP3Jw3e77wRMB_av27XALfd7V2LpkxQcIMzqDbT3qTAGh2sO1RcHOSWoYv5wuaV2TxS84lQ5sYxK9IKo2irdk2GrSiZcns9uu4Yy_3p2zmFNAwlB7juPP-2PocHf6SXuoUSMXBHpTuXIUKydYgTXj21XRFm&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYU_fxLxSEiT-Y7nKClUADkT9pmk2mSULQ-Buzr3o2KxL-8kZt2af6999Q29K6PNzKp_JNEh7PAaOqWDPtdXatV5e68aRpsr70yvgRlS7TlsSd-cUvITj0Ts_90N4bn6HjqBjKXbAR3PKjpZjP3OXnEIHTI6-A06hmQTAmHm7PQ960Jdd2twOgpsi22LoyDnRxSjP3Jw3e77wRMB_av27XALfd7V2LpkxQcIMzqDbT3qTAGh2sO1RcHOSWoYv5wuaV2TxS84lQ5sYxK9IKo2irdk2GrSiZcns9uu4Yy_3p2zmFNAwlB7juPP-2PocHf6SXuoUSMXBHpTuXIUKydYgTXj21XRFm"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CTdgBDSYTWQR4a4nCj0kp4bFUxv1iT9rxPkGhbTAE3C-UfhnXQCipozVRil0VGr1hoL_uS6axJ61giGZqIujYRpNeUBR2sNDPmodQ1HCPtHh0cuJfxhecR63pUwgiSWoXE0xvgBME9IZf6LYDdt1EgtgdHS08hSaMKz9emznXFo9H0xqetuauVsZvaKW_buziy-Vt5iTsitr8UiFRMVpSzkNHaHMFtObZKrstrSf58dYunBX8-tdoE9TJMMgf5uWubYO6hJhCYvHfRjbaJEmXc1llw29hrnrgj3zXqBVuf3jUuhzWBFXXnI28rs3g3emjBzgjKg4fe3X_E-s-CbDkK4gYx7_",
+              "q": "financial model intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CTdgBDSYTWQR4a4nCj0kp4bFUxv1iT9rxPkGhbTAE3C-UfhnXQCipozVRil0VGr1hoL_uS6axJ61giGZqIujYRpNeUBR2sNDPmodQ1HCPtHh0cuJfxhecR63pUwgiSWoXE0xvgBME9IZf6LYDdt1EgtgdHS08hSaMKz9emznXFo9H0xqetuauVsZvaKW_buziy-Vt5iTsitr8UiFRMVpSzkNHaHMFtObZKrstrSf58dYunBX8-tdoE9TJMMgf5uWubYO6hJhCYvHfRjbaJEmXc1llw29hrnrgj3zXqBVuf3jUuhzWBFXXnI28rs3g3emjBzgjKg4fe3X_E-s-CbDkK4gYx7_&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CTdgBDSYTWQR4a4nCj0kp4bFUxv1iT9rxPkGhbTAE3C-UfhnXQCipozVRil0VGr1hoL_uS6axJ61giGZqIujYRpNeUBR2sNDPmodQ1HCPtHh0cuJfxhecR63pUwgiSWoXE0xvgBME9IZf6LYDdt1EgtgdHS08hSaMKz9emznXFo9H0xqetuauVsZvaKW_buziy-Vt5iTsitr8UiFRMVpSzkNHaHMFtObZKrstrSf58dYunBX8-tdoE9TJMMgf5uWubYO6hJhCYvHfRjbaJEmXc1llw29hrnrgj3zXqBVuf3jUuhzWBFXXnI28rs3g3emjBzgjKg4fe3X_E-s-CbDkK4gYx7_"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43hWhF--0CdI7rCOSzP2KW0uYdEN86rr1Wu8qpnMZOYcM90MULL-hWYFhKwTUYMB5ezX-FHbmEC7ZvUsMor9JGMa4fYYlTd0oTvG5ZU26GFvBVxWpGNQObtDKcEbOIsLjrGf86bvKksXb96rZy8kzbb68SMx-EmSX1fD_9910ZnHkLkk03323m5G7P0uqdwQ2E-7hJrLV_NGI4YcwFufgObf4lUyq9ME_o582auSi6LHG864X8snBIN8l2SBvLW86zVecj2Q2VH-VAnW0nwmurnILFdsNCPPLStOzY3dIrdJydUraNcKPfrYYLCUB5g7zyXsebr4ZaeipOk3ZrjIF6axNxcVQ",
+              "q": "financial model intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnshZcOdqMEnfNUySY6vUTQEPykuPQ:1791602548136&q=financial+model+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43hWhF--0CdI7rCOSzP2KW0uYdEN86rr1Wu8qpnMZOYcM90MULL-hWYFhKwTUYMB5ezX-FHbmEC7ZvUsMor9JGMa4fYYlTd0oTvG5ZU26GFvBVxWpGNQObtDKcEbOIsLjrGf86bvKksXb96rZy8kzbb68SMx-EmSX1fD_9910ZnHkLkk03323m5G7P0uqdwQ2E-7hJrLV_NGI4YcwFufgObf4lUyq9ME_o582auSi6LHG864X8snBIN8l2SBvLW86zVecj2Q2VH-VAnW0nwmurnILFdsNCPPLStOzY3dIrdJydUraNcKPfrYYLCUB5g7zyXsebr4ZaeipOk3ZrjIF6axNxcVQ&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjnhNfLv66XAxU6lisGHW3fLGgQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=financial+model+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43hWhF--0CdI7rCOSzP2KW0uYdEN86rr1Wu8qpnMZOYcM90MULL-hWYFhKwTUYMB5ezX-FHbmEC7ZvUsMor9JGMa4fYYlTd0oTvG5ZU26GFvBVxWpGNQObtDKcEbOIsLjrGf86bvKksXb96rZy8kzbb68SMx-EmSX1fD_9910ZnHkLkk03323m5G7P0uqdwQ2E-7hJrLV_NGI4YcwFufgObf4lUyq9ME_o582auSi6LHG864X8snBIN8l2SBvLW86zVecj2Q2VH-VAnW0nwmurnILFdsNCPPLStOzY3dIrdJydUraNcKPfrYYLCUB5g7zyXsebr4ZaeipOk3ZrjIF6axNxcVQ"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Investment Banking Intern (Kochi)",
+        "company_name": "GHC Growth Lab",
+        "location": "Kochi, Keralam",
+        "via": "Shine",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=financial+model+intern&htidocid=Tusu8c01PkTgEsbRAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_x3NPQ7CMAxAYbH2CEweAaEGIbGUDYZSlTtUaWQlgdSuYgs6cgdGbsdJ-Fne9ukVr1lRNXRD0QFJ4WDpGslDQ4qZYNGyC3EJ78cTLtyDoM0uABPUzD7hfB9UR6mMEUmlF7UaXel4MEzY82S-SH7pJNiMY7KK3Xa3mcqR_Arq0xHqzHcNcLY9RIL_bw0tZpvs8AH86e3ongAAAA&shmds=v1_ARwrE20e9RjPjv7_c9MOohCPog6uD3eTfwQQvAtDCE8m1tJA4Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=financial+model+intern&htidocid=Tusu8c01PkTgEsbRAAAAAA%3D%3D",
+        "extensions": [
+          "3 days ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://www.shine.com/jobs/investment-banking-intern-kochi/ghc-growth-lab/19730874",
+        "job_title": "Investment Banking Intern (Kochi)",
+        "description": "Company Description GHC Growth Lab is a specialized consultancy focused on helping startups transform ideas into viable business models. The firm operates within the startup ecosystem, offering tailored advisory and mentoring services that address the unique challenges of early-stage ventures. Its model is built around a startup for startups approach, leveraging the expertise of experienced professionals to deliver practical guidance. GHC Growth Lab emphasizes quality, prompt support, and qualified execution to help founders build sustainable, scalable businesses.  \nRole Description The Investment Banking Intern at GHC Growth Lab will support advisory projects for startup clients through financial analysis, market research, and preparation of pitch materials. Day-to-day responsibilities include assisting with financial modeling, valuation support, investment memos, and due diligence on potential transactions. The intern will help compile data, prepare presentations, and contribute to strategic recommendations under the guidance of senior team members. This is a full-time, on-site role based in Kochi, requiring consistent collaboration with colleagues and startup clients.  \nQualifications  \n\n Strong Analytical Skills and ability to interpret financial and business data.  \n Foundational knowledge of Finance and Investments, including capital structures and valuation concepts.  \n Hands-on exposure or coursework in Financial Modeling and building basic financial projections.  \n Interest or experience in Due Diligence, including reviewing company information and market data.  \n Pursuing or recently completed a degree in Finance, Business, Economics, or a related field.  \n Proficiency in Excel and presentation tools (e.g., PowerPoint or similar software).  \n Clear written and verbal communication skills and the ability to present findings concisely.  \n High level of curiosity, attention to detail, and willingness to learn in a fast-paced startup environment. .",
+        "apply_options": [
+          {
+            "title": "Shine",
+            "link": "https://www.shine.com/jobs/investment-banking-intern-kochi/ghc-growth-lab/19730874?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/4882451474858115072?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJJbnZlc3RtZW50IEJhbmtpbmcgSW50ZXJuIChLb2NoaSkiLCJjb21wYW55X25hbWUiOiJHSEMgR3Jvd3RoIExhYiIsImh0aWRvY2lkIjoiVHVzdThjMDFQa1RnRXNiUkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVEo1V1VWQ2RqRm1VRXc1VTJnNWIyVm5jRE5JVEdkNVFXVmhNMlJ6VVVsMVEyaEtWbVZDTldsWlJsVnBlVTFJVjFJelFsOTVPRkYwUkZFNWJEbGZXbEpPZGpCTU1YVnZiVE5HWm5kTFdqVjJhR0kxVTFSMllYQmlNREZRWTJnMFN6TktSa2QyUjFndFVXTkxiR0pzU1RCa2RXUmpkSGcxZDJkelRXazRWbUpwVkV0cFQwSVNGMlJMWDBwaGRXWTJRamR4YzNKMVJWQTNZalo2ZDFGWkdpSkJSSE55T1daU1VWcE1VWE5VY1RGTk5EQjBTazVJWjNGUFgwWnBOVUppUVY5QiIsImZjdiI6IjMiLCJmY19pZCI6IlR1c3U4YzAxUGtUZ0VzYlJBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "Financial Modelling Consultant (Gurugram)",
+        "company_name": "KPMG India Services",
+        "location": "Gurugram, Haryana",
+        "via": "Jobrapido.com",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=financial+model+intern&htidocid=xedz5JJWtpdWjnUXAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_y2NQQrCMBAA8doneNpjFWlE8KI3BatIQfABZZuGNJLulmwq9eYffIa_8iVW8DK3mUnek2R3cISkHXoouDbeO7KwZ5LeR6QIad6H3gZsZ_B5vuDGFYjBoBtggpzZejPdNjF2slFKxGdWIkanM82tYjIVD2qU5IdSGgym8xhNuVovh6wjO0_PlyKHE9UO4WrC3Wkj4Mb2_7uAI4YHEn4BEFNnlK4AAAA&shmds=v1_ARwrE200pfHq89wnjaORbxdmwYHYv1D7mLjjfZgtjzuLAD9UKg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=financial+model+intern&htidocid=xedz5JJWtpdWjnUXAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9af7380a078ffcc9dc95d/images/6bQJb1g9AIyk6exCTYV2ByTsWGQrioAzV1chPktOv28.png",
+        "extensions": [
+          "5 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.jobrapido.com/jobpreview/2727282240579960832",
+        "job_title": "Financial Modelling Consultant (Gurugram)",
+        "description": "Consultant - FMS - France Role Title: Consultant Department: Financial Modelling Location: Gurgaon We are recruiting for an Consultant in the team.\n\nYour responsibilities will include\n\n- Support the specification / design of models and analysis tools.\n- Develop models (incl. integrated P&L;, Cash flow and Balance sheet models) from scratch.\n- Amend models developed by KPMG staff or by third parties.\n- Carry out financial analysis of the outputs of models.\n- Ensure the consistency in client models and create / maintain project documentation and data books.\n- Carry out testing of models as per KPMG quality control procedures.\n- Review models and feedback findings to clients using KPMG proprietary software.\n- Review and comment on revised models received from clients to verify whether review comments have been acted upon.\n- Document the operation of models and the findings from our work.\n- Document issues in a business model for inclusion in review reports and liaise with the project manager to fully explain the points raised.\n- Design and execute commercial analysis e.g. market sizing, market driver analysis, competitive benchmarking etc.\n- Develop business cases and business plans underpinned by robust financial analysis in support of strategic initiatives. To succeed in this demanding role you will need to demonstrate the following skills and experience:\n- 3-6 years working experience of Financial Analysis, Business Modelling or Financial Modelling; \u2022 A good working knowledge of accounting, financial statements, and financial analysis; \u2022 Solid analytical and problem solving skills; \u2022 Advanced knowledge of Microsoft Excel; \u2022 A commercial outlook and a good understanding of the general business and economic environment; and \u2022 Excellent communication and presentation skills \u2022 Ability to build effective networks internally and externally Experience Level Senior Level",
+        "apply_options": [
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/2727282240579960832?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Kit Job",
+            "link": "https://www.kitjob.in/job/337013243/consultant-financial-modeling-us-gurugram?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJGaW5hbmNpYWwgTW9kZWxsaW5nIENvbnN1bHRhbnQgKEd1cnVncmFtKSIsImNvbXBhbnlfbmFtZSI6IktQTUcgSW5kaWEgU2VydmljZXMiLCJodGlkb2NpZCI6InhlZHo1SkpXdHBkV2puVVhBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzBVek9VdHFiREozU1RJMmFHZHBkMWhyTWtoQ1RXbDBXblF6WjNsRFUzbzRiRGRKU0ZaalNGcGFVMEYwY2pWd2VVMXlTbXh3UTJsRmFrcHdjM2xPT0hkQ2FVRkViVmxKYjJ0emVVNW1UMVZFYW1GZlptbDZhRFZmVDB4TFkxTmZjV040TlZWWFYxSTFZakZKYWs5UFUwOVFjMlEwUWpsM1oySm1aRXRJUTB3NVptRmhRVE1TRjJSTFgwcGhkV1kyUWpkeGMzSjFSVkEzWWpaNmQxRlpHaUpCUkhOeU9XWlJYekJLU2xOWlREQXplbkZpWmpaMVJGZE1WMmRKVURSQ09XOVIiLCJmY3YiOiIzIiwiZmNfaWQiOiJ4ZWR6NUpKV3RwZFdqblVYQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Financial Modelling Intern - Mumbai",
+        "company_name": "Confidential",
+        "location": "Mumbai, Maharashtra",
+        "via": "CallCenterJob.co.in",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=financial+model+intern&htidocid=3EsAah65Kn3SCEpPAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_y2NMQrCQBAAsfUJVgt2ojkRbNROUCzyhrBJ1ruTy264XSGlf_ADvs2XmIDNVDPM_DObny6RkZuICUppKaXIHm5slBk2UD67GiN8X294SA1KmJsAwnAV8YkWx2DW68E51VR4NbTYFI10TphqGdwY6YRKA2bqExpVu_12KHr2q-VZ-B5bYpvukf-3NZQ42qjBMv4AubfhqaMAAAA&shmds=v1_ARwrE214JS4hD68KkMZW5CSOaIQiVM4YBEPfKq7J69syn3E4VQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=financial+model+intern&htidocid=3EsAah65Kn3SCEpPAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N__AABEIACUAOAMBIgACEQEDEQH_xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgYBBAUHA__EACsQAAIBAwMDAwMFAQAAAAAAAAECAAMEEQUSISIxUQYTcTJBYRVDUoGRFP_EABYBAQEBAAAAAAAAAAAAAAAAAAACAf_EABgRAQEAAwAAAAAAAAAAAAAAAAABERIh_9oADAMBAAIRAxEAPwD3GJWfU2tX1G-oaPolNX1Cuu8u_wBNNTnHxna3JBxt7MSqn4UrX1XYVqNWpq1C7oEj3xcBFVR9zwin-88cdJla8zWZW2JGm6VEV6bKyMMhlOQRJSWkSDVqSq7NUQCn9ZLDp4zz44k4CJFXVs7WBwcHB7GIFO9SPU0P1Pb689Jqtk9H2KxX9rvkkk4GejGcDpYZyyg4XU9Jv763taWp3K1Lp6mxats9PfvDdOWxnAPAH8Vz2zLmQCMEAgzXtrCztHZ7W0oUWb6mp01Un5wJe0s6nFjhpQsSNv6o2KYDkHcuAFA55HH3Hye-ZhLfT6bU6p1Pp3KMkMA21nIBOfLH_BLNMYHiQpVVtbFrapTfVj7RUICCTke2Fz8kqxPebD07MkBtUwGQFFIOAMk8c9ue34XxzY8TGAe4HmBwLAWf_fTqpqvvVCRheeoYcefvuz-domZ34gIiICIiAiIgIiIH_9k.jpeg",
+        "extensions": [
+          "22 hours ago",
+          "\u20b918K\u2013\u20b928.8K a month",
+          "Part-time"
+        ],
+        "source_link": "https://callcenterjob.co.in/financial-modelling-intern-mumbai_329044",
+        "job_title": "Financial Modelling Intern - Mumbai",
+        "description": "This paid internship position is for a reputed Mumbai based mid-market investment bank.\n\nThis is a full-time, hybrid (not remote) position.\n\nAn Indian investment bank with technology sector focus is looking to hire a financial modelling intern. In this role, you will be responsible for performing financial analysis and building valuation models for investment banking transactions.\n\nOnly candidates who can join immediately and are based in Mumbai should apply.\n\nStudents who are currently pursuing any full time or part-time degree/course/professional qualification should NOT apply.\n\nRoles and Responsibilities:\n\u2022 Build and maintain financial models\n\u2022 Undertake financial research and analysis\n\u2022 Work extensively on large, complex excel spreadsheets\n\nQualifications and Skills:\n\u2022 Finance graduate/Post-graduate/C.A.\n\u2022 Deep, hands-on expertise in MS Excel and financial modeling\n\u2022 Basic proficiency in analyzing financial statements of a company\n\u2022 Strong analytical and quantitative skills\n\u2022 Good communication skills, written and verbal\n\u2022 Attention to detail\n\u2022 Should be capable of multi-tasking and handling projects with tight deadlines\n\u2022 Exposure to valuation methodologies would be an added advantage",
+        "apply_options": [
+          {
+            "title": "CallCenterJob.co.in",
+            "link": "https://callcenterjob.co.in/financial-modelling-intern-mumbai_329044?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJGaW5hbmNpYWwgTW9kZWxsaW5nIEludGVybiAtIE11bWJhaSIsImNvbXBhbnlfbmFtZSI6IkNvbmZpZGVudGlhbCIsImh0aWRvY2lkIjoiM0VzQWFoNjVLbjNTQ0VwUEFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURlZvWVdWcGRYbE9TV2cyZWtwNGNGRjBkRTVzT0daMlgzbFlUVXR3VmpSWVNHcDViamxCUzA1RVkxYzJjVkJUZURWclprbENURUZ1VW14eVVFa3dSVlpQVUZKVE4zTkZjRmRyU0ZSVU9WODBTRTF4UVVoZmVGbE1aVGxNTTFSeVMySnhWMlpGVldkelpHeE9MWHBIT1VSRlRXUnRZbEYwTW0xUk5EZDVSMEpoWkc5aFYyUVNGMlJMWDBwaGRXWTJRamR4YzNKMVJWQTNZalo2ZDFGWkdpSkJSSE55T1daVE5HWmlPWEZUUldkdFRqUTNPRVF5ZGs5MmJYTkhiVU5UVDJobiIsImZjdiI6IjMiLCJmY19pZCI6IjNFc0FhaDY1S24zU0NFcFBBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "AVP-Project Finance-IB",
+        "company_name": "HDFC Bank",
+        "location": "Mumbai, Maharashtra",
+        "via": "BeBee",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=financial+model+intern&htidocid=uO0iEQvU8Xw93-yoAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLMQ6CQBBA0dhyBKupjbDGxEYr0aAWJFS2ZNhM2EWYITtrQukRTLyhJxGbX72fvBeJOd6rtArSkY1QeEa2lN5y-L4-0EkDShisA2G4iLQ9LQ8uxlH3xqj2WasRo7eZlcEIUyOTmSf9p1aHgcYeI9Xb3WbKRm5XcD0XJ8iRH-AZyufQoF9DiTNFdTHgD3GlDPOTAAAA&shmds=v1_ARwrE212OV5NXPPpkp9ehEp1wmloNqaQ7EAJtE7B4-RsO0aWZQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=financial+model+intern&htidocid=uO0iEQvU8Xw93-yoAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9af7380a078ffcc9dc95d/images/Ybya3cV2uLviFToxGBsAwMZdy07L4rGHUgJ4m3wZ9UI.jpeg",
+        "extensions": [
+          "4 days ago",
+          "Internship"
+        ],
+        "source_link": "https://bebee.com/in/jobs/avp-project-finance-ib-hdfc-bank-mumbai--techmap_in_KXJfVzNx69CtFMd1SCYvtD6qQrYRXWpV6vYoBeODKgEop2HO1trzPw",
+        "job_title": "AVP-Project Finance-IB",
+        "description": "Job Title:\nAVP Project Finance - IB\n\n\nJob Details:\nBusiness Unit: Investment Banking\nTeam: Investment Banking\nReports to: Co Head Project Finance \u2013 IB\n\n\nLocation: Mumbai\nJob Function: Investment Banking\nRole Type: Individual Contributor\nDirect Reportees: nil\nTravel Required: Yes\nJob Band Range: D1\nJD Created/Updated: 01-01-2019\n\n\nVersion No: 2.0\n\n\nJob Purpose:\nTo originate or provide high-level origination support for Investment Banking and Project Finance transactions, achieving individual and team revenue targets.\n\n\nJob Responsibilities:\nAssisting the team in pitching, ideation, and deal execution.\n\n\nIndependently managing deal execution at senior levels.\n\n\nAdherence to defined timelines for delivery.\n\n\nLeading the execution of Project Finance mandates across Telecom, Media, and Technology sectors.\n\n\nDeveloping project finance models and carrying out detailed sensitivities on key parameters.\n\n\nFamiliarity with India's regulatory framework for relevant sectors (Power, Roads, Airports, etc.).\n\n\nInterest and motivation in developing a long-term career in Project Finance.\n\n\nEducational Qualifications:\nGraduation: Any\nCA from a reputed firm / MBA from a premier Institute\n\n\nKey Skills:\n5 \u2013 8 years of relevant experience with depth of transaction experience.\n\n\nExperience covering: term sheet development and negotiation, modelling project cash flows and sensitivity analysis, preparing information memorandum, anchoring due diligence by lenders' advisors (technical, commercial, legal), resolving due diligence issues, answering queries during syndication, legal documentation, disbursement.\n\n\nExperience with Project Finance of a premier Bank or FI.\n\n\nGood Team player.\n\n\nExperience Required:\n5-8 years with a Project Finance of a premier Bank or FI.\n\n\nMajor Stakeholders:\nOther functions\nIB Division\nAbout HDFC Bank HDFC Bank is one of India\u2019s leading private banks. The Housing Development Finance Corporation Limited or HDFC Ltd was among the first financial institutions in India to receive an \u201cin principle\u201d approval from the Reserve Bank of India (RBI) to set up a bank in the private sector. This was done as part of RBI\u2019s policy for liberalization of the Indian banking industry in 1994. HDFC Bank was incorporated in August 1994 in the name of HDFC Bank Limited, with its registered office in Mumbai, India. The bank commenced operations as a Scheduled Commercial Bank in January 1995. As of March 31, 2026, the Bank\u2019s distribution network was at 9,689 branches and 21,172 ATMs across 4,175 cities / towns as against 9,455 branches and 21,139 ATMs across 4,150 cities / towns as of March 31, 2025. 50% of the branches are in semi-urban and rural areas. In addition, the Bank has 14,400 business correspondents, which are primarily manned by Common Service Centres (CSC). The Bank\u2019s international operations comprise five branch\nView more",
+        "apply_options": [
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/avp-project-finance-ib-hdfc-bank-mumbai--techmap_in_KXJfVzNx69CtFMd1SCYvtD6qQrYRXWpV6vYoBeODKgEop2HO1trzPw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Jobaaj",
+            "link": "https://www.jobaaj.com/job/hdfc-bank-avp-project-finance-ib-mumbai-india-2-to-5-years-1841141?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJBVlAtUHJvamVjdCBGaW5hbmNlLUlCIiwiY29tcGFueV9uYW1lIjoiSERGQyBCYW5rIiwiaHRpZG9jaWQiOiJ1TzBpRVF2VThYdzkzLXlvQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNtOVpZemM0ZVVsYU9ETldablpMVkVZeVRUUnBWWG90VUVaQ1NVRTBRVXBuZDFCbVlqSTNTbGxDUzNGUFZGSTVWa1pzV2s5TGVuUmZTM3BVVHpkV09DMDVjVXBJVURaNVJsQkxiMHRSYlV0MGMxRnpRVTQzZEVVNU5EWnNhbWczUlhKNk1VWm5ORFIxVFMxQlVEQlBTR3RsV2w5dE4zWkJWRVZpWlc1SlFUTXRiSGhUY3pjU0YyUkxYMHBoZFdZMlFqZHhjM0oxUlZBM1lqWjZkMUZaR2lKQlJITnlPV1pVZUVGblpHOUNSRE5KY25wdFZrZGlTelIyWm00MFlVbHpOREZCIiwiZmN2IjoiMyIsImZjX2lkIjoidU8waUVRdlU4WHc5My15b0FBQUFBQT09In0="
+      },
+      {
+        "title": "Online Finance Analyst Internship with Startup Exposure",
+        "company_name": "Freelance Shop",
+        "location": "Anywhere",
+        "via": "The Elite Job",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=financial+model+intern&htidocid=FLNQ9kKAfV4S-vNHAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_x3OPQrCQBBAYWxzAcFqaousCDZaWRixUsgBwiQO2ZV1ZtmZYOy8g5fwXJ7En-Z1D77iNSlOR46BCarAyB3BljHe1eDARpnVhwS3YB5qw2xDgt2YRIdM8H484SItKGHuPAjDXqSPNNt4s6Rr51Rj2auhha7s5OqEqZXRfSf9pVGPmVJEo2a5Woxl4n4-rTJR_EtqLwkCfyXngB_AmrcGqwAAAA&shmds=v1_ARwrE23-ca2ilEMQ_oP5Cinb4ZlntdIfUcv6gS65m4ZcCPO7Zg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=financial+model+intern&htidocid=FLNQ9kKAfV4S-vNHAAAAAA%3D%3D",
+        "extensions": [
+          "5 days ago",
+          "Work from home",
+          "Full\u2013time"
+        ],
+        "source_link": "https://www.theelitejob.com/us/job/642/Online-Finance-Analyst-Internship-with-Startup-Exposure",
+        "job_title": "Online Finance Analyst Internship with Startup Exposure",
+        "description": "Step into the startup world with a high-impact Online Finance Analyst Internship. This remote internship offers a unique opportunity to work directly with founders, helping shape the financial backbone of early-stage ventures. You'll be involved in cash flow planning, unit economics analysis, runway forecasting, and market sizing for real startup business models. Unlike traditional finance internships, this role blends financial thinking with entrepreneurial problem-solving\u2014ideal for students or freshers looking to break into venture-backed environments.\n\n\r\nInterns will work across tools like Google Sheets, PitchBook data, and basic financial CRMs to assist with monthly reporting, investor updates, and fundraising documentation. You\u2019ll also have exposure to pitch review sessions, startup pitch deck teardown meetings, and internal decision memos.\n\n\r\n\r\nWhat makes this internship unique?\n\n\r\n\r\nHands-on with early-stage financial strategy, not just theory\r\nLearn how founders and VCs evaluate numbers before making decisions\r\nRegular feedback from startup CFOs, analysts, or ex-founders\r\nOpportunities to work on multiple startup projects across industries\r\nBuild a portfolio of live startup case studies and Excel models\r\n\r\n\r\nIf you're excited by the fast-paced startup ecosystem and want to blend finance with innovation, this internship is built for you.",
+        "apply_options": [
+          {
+            "title": "The Elite Job",
+            "link": "https://www.theelitejob.com/us/job/642/Online-Finance-Analyst-Internship-with-Startup-Exposure?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJPbmxpbmUgRmluYW5jZSBBbmFseXN0IEludGVybnNoaXAgd2l0aCBTdGFydHVwIEV4cG9zdXJlIiwiY29tcGFueV9uYW1lIjoiRnJlZWxhbmNlIFNob3AiLCJodGlkb2NpZCI6IkZMTlE5a0tBZlY0Uy12TkhBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzJFd2FGQXRURFpNVEUxNlMwNTRjVk5xU1U1ME5saFRTMGRrZVcxWGJYZE1Zek53ZGxacVQxSlpPREpUV1MxMU1VWnVRelp1TWpCVk1FNXViMnR6YWxKUGNHcEJTa3R5YjBObExVZERaV28wWTBWUmFsUlhiblpHUTFneVpHaFZOMFEwVVVSTWNHbFRhRTFvVkVwUVRXMU1jRTUwTmtkUFZYZEtURmQxWkdZNVkxUXphRmdTRjJSTFgwcGhkV1kyUWpkeGMzSjFSVkEzWWpaNmQxRlpHaUpCUkhOeU9XWlRWV3RaZW1GSVpEVkxjSEUyVmtkS1UxZG9Ta1JRUnpSelpGOTMiLCJmY3YiOiIzIiwiZmNfaWQiOiJGTE5ROWtLQWZWNFMtdk5IQUFBQUFBPT0ifQ=="
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVEo1V1VWQ2RqRm1VRXc1VTJnNWIyVm5jRE5JVEdkNVFXVmhNMlJ6VVVsMVEyaEtWbVZDTldsWlJsVnBlVTFJVjFJelFsOTVPRkYwUkZFNWJEbGZXbEpPZGpCTU1YVnZiVE5HWm5kTFdqVjJhR0kxVTFSMllYQmlNREZRWTJnMFN6TktSa2QyUjFndFVXTkxiR0pzU1RCa2RXUmpkSGcxZDJkelRXazRWbUpwVkV0cFQwSVNGMlJMWDBwaGRXWTJRamR4YzNKMVJWQTNZalo2ZDFGWkdpSkJSSE55T1daU1VWcE1VWE5VY1RGTk5EQjBTazVJWjNGUFgwWnBOVUppUVY5QiIsImZjdiI6IjMifQ==",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVEo1V1VWQ2RqRm1VRXc1VTJnNWIyVm5jRE5JVEdkNVFXVmhNMlJ6VVVsMVEyaEtWbVZDTldsWlJsVnBlVTFJVjFJelFsOTVPRkYwUkZFNWJEbGZXbEpPZGpCTU1YVnZiVE5HWm5kTFdqVjJhR0kxVTFSMllYQmlNREZRWTJnMFN6TktSa2QyUjFndFVXTkxiR0pzU1RCa2RXUmpkSGcxZDJkelRXazRWbUpwVkV0cFQwSVNGMlJMWDBwaGRXWTJRamR4YzNKMVJWQTNZalo2ZDFGWkdpSkJSSE55T1daU1VWcE1VWE5VY1RGTk5EQjBTazVJWjNGUFgwWnBOVUppUVY5QiIsImZjdiI6IjMifQ%3D%3D&q=financial+model+intern"
+    }
+  }
+}

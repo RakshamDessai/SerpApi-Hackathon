@@ -1,7 +1,7 @@
 """The Open-Mesh platform registry.
 
 Every platform is one `PlatformAdapter` entry - declarative data, not code.
-Adding a 18th platform is one dict entry plus an affinity column.
+Adding a platform is one dict entry plus an affinity column.
 
 Tiers (BUILD_PLAN.md section 6) are a correction to the original vision doc,
 which treated every platform as equally viable:
@@ -26,6 +26,21 @@ VERIFICATION STATUS of `gate_markers` (tier 2):
                    a missed marker shows a closed listing as live. Re-check
                    these once a SerpApi key produces real URLs to probe.
 
+ENGINE ROUTING - MEASURED with a real key on 2026-10-10, not assumed:
+
+  Google (engine=google) treats `site:` as a soft hint. On 7 of 9 recorded CS
+  searches, and on every one of 8 platforms in a follow-up matrix, it dropped
+  the restriction and back-filled with Medium, Scribd and YouTube - signature:
+  `total_results` collapses to ~50. google_light and `as_sitesearch` behaved
+  the same. Tier 0 caught all of it, but every such call is a wasted credit.
+
+  DuckDuckGo via SerpApi honoured `site:` on 6 of 7 platforms (11/11 results
+  on-site) - but only for short, unquoted keyword queries. Quoted OR-groups
+  either returned nothing or leaked too. So site: adapters use
+  engine="duckduckgo" with query_style="keywords": one plain phrase plus the
+  platform's own vocabulary ("competition", "needs help with"). Relevance
+  across the rest of the competency group is recovered in stage 5 scoring.
+
 `tests/test_adapters.py` enforces that every marker is at least 12 characters,
 because substring matching over a 600 KB page makes a short English phrase
 ("closed", "has expired") match unrelated text and archive live work.
@@ -33,7 +48,7 @@ because substring matching over a 600 KB page makes a short English phrase
 
 from __future__ import annotations
 
-from s2s.models import PlatformAdapter
+from s2s.models import PlatformAdapter, StatusApi
 
 # Keeps students out of listings they cannot win. Applied to Tier B/C boards.
 NEGATIVES = "-senior -lead -director -principal -\"5+ years\" -phd"
@@ -53,83 +68,111 @@ def _register(adapter: PlatformAdapter) -> PlatformAdapter:
 _register(PlatformAdapter(
     key="unv",
     label="UN Online Volunteering",
-    engine="google",
+    engine="duckduckgo",
     site="onlinevolunteering.org",
     url_pattern=r"^https?://(www\.)?onlinevolunteering\.org/(en|es|fr)/opportunity/",
-    dork='site:onlinevolunteering.org/en/opportunity ({terms})',
+    dork="site:onlinevolunteering.org opportunity {terms}",
     ecosystem="ngo_impact",
     compensation="volunteer",
     trust="A",
     liveness="http_probe",
     gate_markers=("no longer available", "this opportunity is closed",
                   "applications are closed"),
+    query_style="keywords",
+    # OFF since 2026-10-10: DuckDuckGo returned nothing on 6 of 6 real
+    # searches and Google ignored the site: scope. The site sits behind an
+    # Imperva WAF, so search engines barely index it - and SerpApi still
+    # bills an empty search. Kept registered so it is one flag to re-enable.
+    enabled_by_default=False,
 ))
 
 _register(PlatformAdapter(
     key="kaggle",
     label="Kaggle Competitions",
-    engine="google",
+    engine="duckduckgo",
     site="kaggle.com",
     url_pattern=r"^https?://(www\.)?kaggle\.com/competitions/[\w\-]+",
-    dork='site:kaggle.com/competitions ({terms})',
+    dork="site:kaggle.com competitions {terms}",
     ecosystem="data_challenge",
     compensation="prize",
     trust="A",
     liveness="http_probe",
     # A bare "closed" would match almost anything in a 600 KB page.
     gate_markers=("this competition has ended", "competition is closed"),
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
     key="unstop",
     label="Unstop",
-    engine="google",
+    engine="duckduckgo",
     site="unstop.com",
-    url_pattern=r"^https?://(www\.)?unstop\.com/(competitions?|hackathons?|"
+    # api.unstop.com serves the same listing pages and is indexed alongside
+    # the main host (observed 2026-10-10, HTTP 200).
+    url_pattern=r"^https?://(www\.|api\.)?unstop\.com/(competitions?|hackathons?|"
                 r"case-competitions?|o)/[\w\-]+",
-    dork='site:unstop.com (competitions OR hackathons OR case-competitions) ({terms})',
+    dork="site:unstop.com {terms} competition",
     ecosystem="hackathon",
     compensation="prize",
     trust="A",
     liveness="http_probe",
     gate_markers=("registration closed", "this opportunity has ended"),
+    query_style="keywords",
+    # OBSERVED 2026-10-10: every listing page is the same 25 KB JS shell, so
+    # page markers can never fire. The public JSON endpoint reports
+    # reg_status FINISHED for ended events - including the #1 CS card.
+    status_api=StatusApi(
+        url="https://unstop.com/api/public/competition/{id}",
+        id_re=r"[/-](\d{5,})(?:/register)?/?$",
+        path=("data", "competition", "regnRequirements", "reg_status"),
+        dead=("FINISHED", "CLOSED", "EXPIRED", "ENDED"),
+        # A listing can still say STARTED hours after registration shut.
+        deadline=("data", "competition", "regnRequirements", "end_regn_dt"),
+    ),
 ))
 
 _register(PlatformAdapter(
     key="devpost",
     label="Devpost",
-    engine="google",
+    engine="duckduckgo",
     site="devpost.com",
-    url_pattern=r"^https?://[\w\-]+\.devpost\.com/?$|^https?://devpost\.com/(software|hackathons)/",
-    dork='site:devpost.com ({terms}) hackathon',
+    # Each hackathon is its own subdomain. devpost.com/software/* pages are
+    # past project submissions - someone else's finished work, not an open
+    # brief - and were 2 of the first 11 real results (2026-10-10).
+    url_pattern=r"^https?://(?!www\.|info\.|help\.)[\w\-]+\.devpost\.com/?$",
+    dork="site:devpost.com {terms} hackathon",
     ecosystem="hackathon",
     compensation="prize",
     trust="A",
     liveness="http_probe",
     gate_markers=("this hackathon has ended", "submissions are closed"),
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
     key="devfolio",
     label="Devfolio",
-    engine="google",
+    engine="duckduckgo",
     site="devfolio.co",
-    url_pattern=r"^https?://[\w\-]+\.devfolio\.co/?|^https?://(www\.)?devfolio\.co/(hackathons|projects)/",
-    dork='site:devfolio.co ({terms})',
+    # Each hackathon is its own subdomain (innohacks-4.devfolio.co). Paths on
+    # the bare host are index pages (/hackathons/past) or past projects.
+    url_pattern=r"^https?://(?!www\.)[\w\-]+\.devfolio\.co/?$",
+    dork="site:devfolio.co {terms} hackathon",
     ecosystem="hackathon",
     compensation="prize",
     trust="A",
     liveness="http_probe",
     gate_markers=("applications closed", "hackathon ended"),
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
     key="github",
     label="GitHub good-first-issues",
-    engine="google",
+    engine="duckduckgo",
     site="github.com",
     url_pattern=r"^https?://(www\.)?github\.com/[\w\-.]+/[\w\-.]+/issues/\d+",
-    dork='site:github.com inurl:issues ("good first issue" OR "help wanted") ({terms})',
+    dork='site:github.com "good first issue" {terms}',
     ecosystem="open_source",
     compensation="bounty",
     trust="A",
@@ -139,20 +182,22 @@ _register(PlatformAdapter(
     # in the HTML; the state lives in an embedded JSON payload. Verified to be
     # absent on open issues, so it does not false-positive.
     gate_markers=('"state":"closed"',),
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
     key="drivendata",
     label="DrivenData",
-    engine="google",
+    engine="duckduckgo",
     site="drivendata.org",
     url_pattern=r"^https?://(www\.)?drivendata\.org/competitions/\d+",
-    dork='site:drivendata.org/competitions ({terms})',
+    dork="site:drivendata.org competitions {terms}",
     ecosystem="data_challenge",
     compensation="prize",
     trust="A",
     liveness="http_probe",
     gate_markers=("competition closed", "this competition is over"),
+    query_style="keywords",
 ))
 
 # ------------------------------------------------------------- tier B -------
@@ -160,44 +205,42 @@ _register(PlatformAdapter(
 _register(PlatformAdapter(
     key="catchafire",
     label="Catchafire",
-    engine="google",
+    engine="duckduckgo",
     site="catchafire.org",
-    url_pattern=r"^https?://(www\.)?catchafire\.org/(opportunities?|projects?)/",
-    dork='site:catchafire.org ({terms})',
+    # OBSERVED 2026-10-10: listings live at /volunteer/<id>/<slug>/ and are
+    # titled "<Org> needs help with ...". The earlier /opportunities/ pattern
+    # was a guess and rejected every real listing; /profiles/ pages are people.
+    url_pattern=r"^https?://(www\.)?catchafire\.org/volunteer/\d+/",
+    dork='site:catchafire.org "needs help with" {terms}',
     ecosystem="ngo_impact",
     compensation="volunteer",
     trust="B",
     liveness="http_probe",
     gate_markers=("sign in to view", "log in to view", "this project is no longer"),
+    query_style="keywords",
 ))
 
-_register(PlatformAdapter(
-    key="taproot",
-    label="Taproot Plus",
-    engine="google",
-    site="taprootplus.org",
-    url_pattern=r"^https?://(www\.)?taprootplus\.org/",
-    dork='site:taprootplus.org ({terms})',
-    ecosystem="ngo_impact",
-    compensation="volunteer",
-    trust="B",
-    liveness="http_probe",
-    # "sign in" alone appears in the nav of most logged-out pages.
-    gate_markers=("sign in to view", "no longer accepting"),
-))
+# Taproot Plus was REMOVED on 2026-10-10 after live verification, for the same
+# reason as VolunteerMatch below: taprootplus.org and its /projects/ pages now
+# redirect to taprootfoundation.org, so tier 2 archives every result. Its
+# url_pattern had also accepted any page on the host (signup, newsletter).
 
 _register(PlatformAdapter(
     key="idealist",
     label="Idealist",
-    engine="google",
+    engine="duckduckgo",
     site="idealist.org",
-    url_pattern=r"^https?://(www\.)?idealist\.org/(en|es)/(volop|job|internship)/",
-    dork='site:idealist.org ({terms})',
+    # OBSERVED 2026-10-10: /en/volunteer-opportunity/<hex>-<slug>. The earlier
+    # /volop/ pattern was a guess and rejected every real listing.
+    url_pattern=r"^https?://(www\.)?idealist\.org/(en|es)/"
+                r"(volunteer-opportunity|nonprofit-job|nonprofit-internship|volop|job|internship)/",
+    dork="site:idealist.org volunteer opportunity {terms}",
     ecosystem="ngo_impact",
     compensation="volunteer",
     trust="B",
     liveness="http_probe",
     gate_markers=("this listing has expired", "no longer available"),
+    query_style="keywords",
 ))
 
 # VolunteerMatch was REMOVED on 2026-10-09 after live verification.
@@ -212,15 +255,16 @@ _register(PlatformAdapter(
 _register(PlatformAdapter(
     key="zooniverse",
     label="Zooniverse",
-    engine="google",
+    engine="duckduckgo",
     site="zooniverse.org",
     url_pattern=r"^https?://(www\.)?zooniverse\.org/projects/[\w\-]+/[\w\-]+",
-    dork='site:zooniverse.org/projects ({terms})',
+    dork="site:zooniverse.org projects {terms}",
     ecosystem="research",
     compensation="volunteer",
     trust="B",
     liveness="http_probe",
     gate_markers=("this project is finished", "project is complete"),
+    query_style="keywords",
 ))
 
 # ------------------------------------------------------------- tier C -------
@@ -230,10 +274,10 @@ _register(PlatformAdapter(
 _register(PlatformAdapter(
     key="upwork",
     label="Upwork",
-    engine="google",
+    engine="duckduckgo",
     site="upwork.com",
     url_pattern=r"^https?://(www\.)?upwork\.com/(freelance-jobs|jobs)/",
-    dork='site:upwork.com/freelance-jobs ({terms}) {negatives}',
+    dork="site:upwork.com freelance jobs {terms} {negatives}",
     ecosystem="freelance",
     compensation="paid",
     trust="C",
@@ -241,36 +285,39 @@ _register(PlatformAdapter(
     gate_markers=("this job is no longer available", "log in to continue",
                   "create an account", "job is closed"),
     enabled_by_default=False,
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
     key="freelancer",
     label="Freelancer",
-    engine="google",
+    engine="duckduckgo",
     site="freelancer.com",
     url_pattern=r"^https?://(www\.)?freelancer\.(com|in)/projects/",
-    dork='site:freelancer.com/projects ({terms}) {negatives}',
+    dork="site:freelancer.com projects {terms} {negatives}",
     ecosystem="freelance",
     compensation="paid",
     trust="C",
     liveness="http_probe",
     gate_markers=("project has been closed", "bidding closed"),
     enabled_by_default=False,
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
     key="contra",
     label="Contra",
-    engine="google",
+    engine="duckduckgo",
     site="contra.com",
     url_pattern=r"^https?://(www\.)?contra\.com/",
-    dork='site:contra.com ({terms}) {negatives}',
+    dork="site:contra.com {terms} {negatives}",
     ecosystem="freelance",
     compensation="paid",
     trust="C",
     liveness="snippet_only",
     gate_markers=("no longer accepting",),
     enabled_by_default=False,
+    query_style="keywords",
 ))
 
 # ------------------------------------------------------------- tier D -------
@@ -283,13 +330,15 @@ _register(PlatformAdapter(
     engine="google_jobs",
     site=None,
     url_pattern=r"^https?://",          # aggregated; the share link varies by source
-    dork='{terms} intern',
+    dork="{terms} intern",
     ecosystem="internship",
     compensation="stipend",
     trust="B",
     liveness="snippet_only",
     gate_markers=("no longer accepting applications",),
     extra_params={"location": "India", "chips": "date_posted:week", "hl": "en", "gl": "in"},
+    # Recorded 2026-10-10: OR-grouped phrases returned 1 and 0 jobs.
+    query_style="keywords",
 ))
 
 _register(PlatformAdapter(
@@ -323,18 +372,26 @@ def active(include_tier_c: bool = False, only: set[str] | None = None) -> list[P
     for adapter in ADAPTERS.values():
         if only is not None and adapter.key not in only:
             continue
-        if adapter.trust == "C" and not include_tier_c:
+        if adapter.trust == "C":
+            if not include_tier_c:
+                continue
+        elif not adapter.enabled_by_default:
             continue
         out.append(adapter)
     return out
 
 
 def render_query(adapter: PlatformAdapter, phrases: list[str]) -> str:
-    """Fill an adapter's dork template with an OR-group of quoted phrases.
+    """Fill an adapter's dork template from the group's phrases, strongest first.
 
-    Google's relevance degrades past roughly six quoted alternatives inside a
-    site: scope, so callers should keep groups small (see mesh/planner.py).
+    `or_group` packs every phrase into one quoted OR-group. `keywords` uses
+    only the strongest phrase, unquoted: that is the only shape DuckDuckGo
+    kept inside a site: scope when measured (see the module docstring).
     """
-    quoted = " OR ".join(f'"{p}"' for p in phrases if p.strip())
-    query = adapter.dork.format(terms=quoted, negatives=NEGATIVES)
+    phrases = [p.strip() for p in phrases if p.strip()]
+    if adapter.query_style == "keywords":
+        terms = phrases[0] if phrases else ""
+    else:
+        terms = " OR ".join(f'"{p}"' for p in phrases)
+    query = adapter.dork.format(terms=terms, negatives=NEGATIVES)
     return " ".join(query.split())

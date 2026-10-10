@@ -1,0 +1,123 @@
+{
+  "fetched_at": 1791602550.98844,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:idealist.org volunteer opportunity financial model",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af75de1f33ab95ac09c0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/6OoIDKO32xDAho8Tju55sXnqy9OS3gIYrJI7TLtbbMQ/6ac9af75de1f33ab95ac09c0.json",
+      "markdown_endpoint": "https://serpapi.com/searches/6OoIDKO32xDAho8Tju55sXnqy9OS3gIYrJI7TLtbbMQ/6ac9af75de1f33ab95ac09c0.md",
+      "created_at": "2026-10-10 03:22:29 UTC",
+      "processed_at": "2026-10-10 03:22:29 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aidealist.org+volunteer+opportunity+financial+model&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/6OoIDKO32xDAho8Tju55sXnqy9OS3gIYrJI7TLtbbMQ/6ac9af75de1f33ab95ac09c0.html",
+      "prettify_html_file": "https://serpapi.com/searches/6OoIDKO32xDAho8Tju55sXnqy9OS3gIYrJI7TLtbbMQ/6ac9af75de1f33ab95ac09c0.prettify",
+      "total_time_taken": 1.77
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:idealist.org volunteer opportunity financial model",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Senior Finance Manager | AI Failure Economics & Strategic ... - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/7f792372aee848febcd995d6200870e8-senior-finance-manager-ai-failure-economics-strategic-finance-cost-modeling-financial-exposure-roi-capital-strategy-remote-brite-institute-san-francisco",
+        "date_raw": "2026-08-25T00:00:00.0000000",
+        "date": "Aug 25, 2026",
+        "snippet": "This volunteer opportunity is designed for people who want to work on that challenge. Keywords: Financial Analyst, FP&A, Financial Modeling, Strategic Finance, Budgeting, MBA, Corporate Finance, Finance Volunteer, Scenario Analysis.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Biophelia Financial Analysis Program Management - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/868fe46080de4e339afaef32cbaaf323-biophelia-financial-analysis-program-management-m4a-foundation-crowddoing-el-dorado-hills",
+        "date_raw": "2026-02-16T00:00:00.0000000",
+        "date": "Feb 16, 2026",
+        "snippet": "Find opportunities to change the world with the latest social-impact job, internship, and volunteer listings. Plus, explore resources for taking action in your community.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Chief Financial Officer - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/9a6e82647b2b4f969cf82dc0ce037607-chief-financial-officer-wevise-na",
+        "snippet": "Lead long-term financial planning aligned with Wevise's strategic roadmap and multi-city expansion goals. Develop financial models, forecasts, and scenario plans to support fundraising, program growth, and organizational sustainability. Advise the CEO and Board on financial risks, opportunities, and strategic decisions.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Volunteering, Nonprofit Jobs, and Community - Idealist",
+        "link": "https://www.idealist.org/en",
+        "snippet": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Biophelia Financial Analysis Program Management - Volunteer Opportunity ...",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/2953eceb13b442c796b066183d8d14e4-biophelia-financial-analysis-program-management-m4a-foundation-crowddoing-el-dorado-hills",
+        "date_raw": "2026-02-21T00:00:00.0000000",
+        "date": "Feb 21, 2026",
+        "snippet": "Conduct business studies on past, future and comparative performance and develop forecast models Identify trends, advise initiative and recommend actions to a senior financial analyst based on sound analysis Track and determine financial status by analyzing actual results in comparison with forecasts for biophelia pilots",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Chief Financial Officer (Volunteer) - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/fbc217c0b3554aaa876229c7b001dd7e-chief-financial-officer-volunteer-mentor-a-promise-new-york",
+        "date_raw": "2026-06-03T00:00:00.0000000",
+        "date": "Jun 3, 2026",
+        "snippet": "Strategic planning Nonprofit finance Financial reporting Risk management Organizational growth Help build the financial foundation behind the mission. Because every opportunity we create for a young person begins with responsible stewardship, thoughtful planning, and a commitment to long-term sustainability. This role holds the pieces together.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Volunteer Chief Financial Officer (CFO) - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/ded555781bfe4b389d5f74a873492407-volunteer-chief-financial-officer-cfo-ridgebury-farm-ridgefield",
+        "date_raw": "2026-06-23T00:00:00.0000000",
+        "date": "Jun 23, 2026",
+        "snippet": "Volunteer Chief Financial Officer (CFO) Ridgebury Farm Ridgebury Farm is seeking a Volunteer Chief Financial Officer (CFO) to serve as a strategic financial leader and trusted advisor to the Executive Director, Board of Directors, and leadership team. This individual will provide ongoing financial oversight, strategic guidance, and operational insight to help ensure the organization's long-term sustainability and growth. As Ridgebury Farm continues to expand its clinical therapy services ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Volunteer in Financial Literacy & Personal Finance - Idealist",
+        "link": "https://www.idealist.org/volunteer-in-personal-finance",
+        "snippet": "Volunteer in Financial Literacy & Personal Finance 407 volunteer opportunities Save Search S",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "Volunteering - Idealist",
+        "link": "https://www.idealist.org/en/volunteering",
+        "snippet": "Idealist connects millions of idealists - people who want to do good - with opportunities for action and collaboration all over the world.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Volunteer Opportunities - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunities",
+        "snippet": "Idealist connects millions of idealists - people who want to do good - with opportunities for action and collaboration all over the world.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Entry Level Financial Analyst FP&A (New Grad Program)",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/025c8275c23e4de2a55e7504f2e0b018-entry-level-financial-analyst-fpa-new-grad-program-4pexonic-inc-san-diego",
+        "snippet": "Discover Your Calling Find opportunities to change the world with the latest social-impact job, internship, and volunteer listings. Plus, explore resources for taking action in your community.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aidealist.org+volunteer+opportunity+financial+model&start=11"
+    }
+  }
+}

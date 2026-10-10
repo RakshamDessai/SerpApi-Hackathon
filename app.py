@@ -355,8 +355,10 @@ def render_dev_tab(settings: Settings) -> None:
     st.subheader("Multi-engine explorer")
     st.caption("Probe SerpApi directly - useful when adding a new adapter.")
 
-    engine = st.selectbox("Engine", ["google", "google_jobs", "google_scholar"])
-    query = st.text_input("Query", value='site:kaggle.com/competitions ("time series")')
+    engine = st.selectbox(
+        "Engine", ["duckduckgo", "google", "google_light", "google_jobs", "google_scholar"]
+    )
+    query = st.text_input("Query", value="site:kaggle.com competitions time series")
 
     if st.button("Run search"):
         if not settings.has_serpapi:

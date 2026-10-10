@@ -1,0 +1,125 @@
+{
+  "fetched_at": 1791602571.5376189,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:idealist.org volunteer opportunity brand identity",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af831bd4f0672457be70",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/O7aGQaER3ZSi071b4mYCB4kuLl8OovFuDqo5pcA92ss/6ac9af831bd4f0672457be70.json",
+      "markdown_endpoint": "https://serpapi.com/searches/O7aGQaER3ZSi071b4mYCB4kuLl8OovFuDqo5pcA92ss/6ac9af831bd4f0672457be70.md",
+      "created_at": "2026-10-10 03:22:43 UTC",
+      "processed_at": "2026-10-10 03:22:43 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aidealist.org+volunteer+opportunity+brand+identity&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/O7aGQaER3ZSi071b4mYCB4kuLl8OovFuDqo5pcA92ss/6ac9af831bd4f0672457be70.html",
+      "prettify_html_file": "https://serpapi.com/searches/O7aGQaER3ZSi071b4mYCB4kuLl8OovFuDqo5pcA92ss/6ac9af831bd4f0672457be70.prettify",
+      "total_time_taken": 7.78
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:idealist.org volunteer opportunity brand identity",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Volunteer Opportunity: Branding & Design Support (Project ... - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/9ef342971ecb4ad5aa079186b86530ee-volunteer-opportunity-branding-design-support-project-based-or-ongoing-project-dna-inc-newark",
+        "date_raw": "2026-04-23T00:00:00.0000000",
+        "date": "Apr 23, 2026",
+        "snippet": "Our work includes restorative circles, social-emotional learning (SEL), and creative outlets like music and storytelling to help young people build identity, resilience, and connection. The Opportunity We are looking for a creative and thoughtful volunteer to support us with branding and visual identity.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Brand Identity Designer (Volunteer) - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/8de6b722a1634c28a1bfc8c2631708b2-brand-identity-designer-volunteer-books-and-found-new-york",
+        "snippet": "Background or coursework in graphic design, brand identity, or visual communications Portfolio demonstrating warm, community-rooted, or culturally sensitive design",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Brand Strategy Volunteer - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/b2cc43b10cbd4d508e478bd16b43c4b8-brand-strategy-volunteer-florida-youth-at-risk-fort-lauderdale",
+        "date_raw": "2026-08-12T00:00:00.0000000",
+        "date": "Aug 12, 2026",
+        "snippet": "APPLY HERE Overview Florida Youth At Risk is a youth-centered nonprofit that empowers underserved youth through music, creative programs, community events, and leadership opportunities. We are building a brand that reflects the energy, talent, and vision of the youth we serve We're looking for a Brand Strategy Volunteer to help us shape and grow it. If you're passionate about purpose-driven storytelling and want to be part of a movement that's igniting hope and creativity, we'd love ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Multimedia and Brand Assets - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/83e65140a8864a7397cb41ce505b8c9d-multimedia-and-brand-assets-humanity-pathways-global-detroit",
+        "date_raw": "2026-07-22T00:00:00.0000000",
+        "date": "Jul 22, 2026",
+        "snippet": "The Multimedia & Brand Assets Specialist plays an important role in developing the visual identity of Humanity Pathways Global and its sponsored initiatives. This position creates engaging multimedia content that communicates HPG's mission across digital platforms, fundraising campaigns, educational programs, marketing initiatives, and public outreach. Working closely with the Marketing Department, the specialist ensures that HPG's branding remains professional, consistent, and visually ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Senior Director of Brand Strategy & Identity (Volunteer) - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/218bc9fc1e0a42bf84a27442ddedb5ca-senior-director-of-brand-strategy-identity-volunteer-mentor-a-promise-new-york",
+        "date_raw": "2026-06-13T00:00:00.0000000",
+        "date": "Jun 13, 2026",
+        "snippet": "Please highlight experience involving brand strategy, communications, marketing, public relations, organizational identity, audience development, storytelling, or reputation management. Help shape the identity, reputation, and future of Mentor A Promise while ensuring every child knows they are a Promise.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Brand Strategist (Volunteer) - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/d4861b7c7bf040e6bd374ef18c6a0c9a-brand-strategist-volunteer-mentor-a-promise-new-york",
+        "snippet": "Please highlight experience involving brand strategy, marketing strategy, audience research, consumer insights, communications, fashion branding, retail marketing, or related disciplines. Help shape a brand that stands for creativity, community, resilience, and opportunity. Thank you for your interest in volunteering with our organization.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Volunteer Brand Guidelines Designer - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/f2aea820fe7a4ca784beca4732271a57-volunteer-brand-guidelines-designer-legacy-paws-rescue-catawba",
+        "snippet": "Description Project scope: Legacy Paws brand design and visual identity We have our brand and tone-of-voice guidelines written out in a Google Doc. This project has two parts. First, we need that document designed into a real brand book. Right now it's raw content in a doc.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Graphic Designer for Logo Redesign - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/6879948c6f6c4c10ad34b3641b7dd1b1-graphic-designer-for-logo-redesign-united-states-of-america-informatics-olympiad-in-teams-westport",
+        "snippet": "A portfolio demonstrating previous branding or logo work is strongly preferred. This is a volunteer, project-based opportunity with the chance to create a visual identity that will represent USIOT nationally and internationally.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "Marketing & Design Volunteer/Intern Description - Volunteer Opportunity ...",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/4e3c1ab0440b490eb7c39cd2c855af09-marketing-design-volunteerintern-description-95-counties-nashville",
+        "date_raw": "2026-08-23T00:00:00.0000000",
+        "date": "Aug 23, 2026",
+        "snippet": "95 Counties is seeking a creative and motivated Marketing & Design Volunteer / Intern to join our growing marketing team. This role will support the development of our social media presence, visual identity, and overall brand communications as we expand our work across Tennessee and into new markets. This is an opportunity for someone interested in marketing, graphic design, social media, communications, branding, or nonprofit storytelling to gain hands on experience while contributing to an ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Design Lead - UI/UX & Branding - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/0bcca61ca7e54c0ebac40aeccfb3560c-design-lead-uiux-branding-empowered-futures-calgary",
+        "date_raw": "2026-04-18T00:00:00.0000000",
+        "date": "Apr 18, 2026",
+        "snippet": "You will collaborate closely with cross-functional teams\u2014product, engineering, marketing, and leadership\u2014to shape the visual identity and design strategy that drives business growth. Key Responsibilities Lead and mentor a team of designers, fostering professional growth, collaboration, and a culture of design excellence.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Brand Guide Assistant - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/02163f24953843118a908163ae89d4c8-brand-guide-assistant-doing-good-nashville",
+        "snippet": "Activities Serve as Brand Director's Assistant. Help create new and update existing brand related documents. Talk and work with others throughout organization to understand and correctly implement brand. Assisted in maintaining brand consistency across digital and print materials. Reviewed marketing assets to ensure compliance with brand guidelines. Supported the creation and organization of brand templates and style guides. Collaborated with designers and content creators to align visuals ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aidealist.org+volunteer+opportunity+brand+identity&start=11"
+    }
+  }
+}

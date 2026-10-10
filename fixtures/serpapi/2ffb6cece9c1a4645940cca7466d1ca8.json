@@ -1,0 +1,157 @@
+{
+  "fetched_at": 1791602351.743583,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:devfolio.co SQL query hackathon",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9aeacb9dbc491e452e3fa",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/OYcxLlF8v-BMWnW9L7d0YGO-4LAQYgEyUK_h08Im7sw/6ac9aeacb9dbc491e452e3fa.json",
+      "markdown_endpoint": "https://serpapi.com/searches/OYcxLlF8v-BMWnW9L7d0YGO-4LAQYgEyUK_h08Im7sw/6ac9aeacb9dbc491e452e3fa.md",
+      "created_at": "2026-10-10 03:19:08 UTC",
+      "processed_at": "2026-10-10 03:19:08 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Adevfolio.co+SQL+query+hackathon&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/OYcxLlF8v-BMWnW9L7d0YGO-4LAQYgEyUK_h08Im7sw/6ac9aeacb9dbc491e452e3fa.html",
+      "prettify_html_file": "https://serpapi.com/searches/OYcxLlF8v-BMWnW9L7d0YGO-4LAQYgEyUK_h08Im7sw/6ac9aeacb9dbc491e452e3fa.prettify",
+      "total_time_taken": 2.91
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:devfolio.co SQL query hackathon",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Devfolio - Your one application to the best hackathons",
+        "link": "https://devfolio.co/",
+        "snippet": "Participate in a hackathon or even better, host one. Learn new skills, build things & get hired.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devfolio.co.ico"
+      },
+      {
+        "position": 2,
+        "title": "Q-HACK INDIA 2026 | Devfolio",
+        "link": "https://qhack-india.devfolio.co/",
+        "snippet": "Q-Hack India 2026 is a national-level quantum hackathon hosted by QuantumRIT at Ramaiah Institute of Technology, Bengaluru, as part of Quantum Week 2026, a IBM Qiskit Fall Fest program. The hackathon brings together students, developers, researchers and quantum enthusiasts to explore real-world applications of quantum computing.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/qhack-india.devfolio.co.ico"
+      },
+      {
+        "position": 3,
+        "title": "Past Hackathons - Devfolio",
+        "link": "https://devfolio.co/hackathons/past",
+        "snippet": "Participate in a hackathon or even better, host one. Learn new skills, build things & get hired.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devfolio.co.ico"
+      },
+      {
+        "position": 4,
+        "title": "Hackathons | Devfolio",
+        "link": "https://his.devfolio.co/hackathons",
+        "snippet": "Participate in a hackathon or even better, host one. Learn new skills, build things & get hired.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/his.devfolio.co.ico"
+      },
+      {
+        "position": 5,
+        "title": "Q-HACK INDIA 2026 | Devfolio",
+        "link": "https://qhack-india.devfolio.co/schedule",
+        "date_raw": "2026-09-25T00:00:00.0000000",
+        "date": "Sep 25, 2026",
+        "snippet": "Q-HACK INDIA 2026 Overview Prizes Schedule Overview Prizes Schedule Schedule Overview Prizes Overview Prizes Schedule Schedule Overview Prizes Add to Calendar Calcutta (+05:30 UTC) Add to Calendar 25 Sep 2026 (Fri)",
+        "favicon": "https://external-content.duckduckgo.com/ip3/qhack-india.devfolio.co.ico"
+      },
+      {
+        "position": 6,
+        "title": "Innohacks 4.0 | Devfolio",
+        "link": "https://innohacks-4.devfolio.co/",
+        "snippet": "Innohacks 4.0 is the flagship national-level 24-hour hackathon organized by Innogeeks, the technical club of KIET Deemed to be University, Delhi-NCR, Ghaziabad. After three successful editions, Innohacks 4.0 is back to bring together developers, designers, innovators, and problem-solvers from across India.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/innohacks-4.devfolio.co.ico"
+      },
+      {
+        "position": 7,
+        "title": "Hack Quanta | Devfolio",
+        "link": "https://hack-quanta.devfolio.co/",
+        "snippet": "The hackathon brings together coders, designers, and tech enthusiasts from across the country to work on real-world challenges. Participants will benefit from industry mentorship, expert feedback, and the chance to connect with company representatives through interactive sessions, judging, and networking.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hack-quanta.devfolio.co.ico"
+      },
+      {
+        "position": 8,
+        "title": "Out Of Context'26 - Devfolio",
+        "link": "https://out-of-context-2026.devfolio.co/projects",
+        "snippet": "The arena where creativity becomes engineering and engineering becomes impact.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/out-of-context-2026.devfolio.co.ico"
+      },
+      {
+        "position": 9,
+        "title": "Hack-Xplode | Devfolio",
+        "link": "https://talos-hackathon.devfolio.co/",
+        "snippet": "Hack-Xplode is a 30-day hackathon event organized by the Department of Artificial Intelligence and Data Science at Chennai Institute of Technology. The primary objective of Hack-Xplode is to foster the development of projects and solutions that address critical issues, both locally and globally.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/talos-hackathon.devfolio.co.ico"
+      },
+      {
+        "position": 10,
+        "title": "HACK WITH GDG S4 - Devfolio",
+        "link": "https://hack-with-gdg-s4.devfolio.co/overview",
+        "snippet": "Hack With GDG S4 is the fourth season of the flagship hackathon organized by Google Developer Groups - KSR College of Engineering (GDG KSRCE). The event brings together developers, designers, innovators, and problem-solvers to transform ideas into impactful solutions through technology.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hack-with-gdg-s4.devfolio.co.ico"
+      },
+      {
+        "position": 11,
+        "title": "HackaThrone | Devfolio",
+        "link": "https://hackathrone25.devfolio.co/",
+        "snippet": "\u2694\ufe0f About the Hackathon HackaThrone, the flagship national hackathon of VIT Chennai, powered by the Microsoft Innovations Club (MIC), is where visionaries step forward to build what others only imagine. It's 24 hours of sleepless coding, raw ideas, and relentless execution \u2014 a playground for minds wired to disrupt, innovate, and lead.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hackathrone25.devfolio.co.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "hackathons app for pc",
+        "link": "https://duckduckgo.com/?q=hackathons%20app%20for%20pc&origin=related"
+      },
+      {
+        "query": "hackerrank sql test practice free",
+        "link": "https://duckduckgo.com/?q=hackerrank%20sql%20test%20practice%20free&origin=related"
+      },
+      {
+        "query": "hackathon sql practice",
+        "link": "https://duckduckgo.com/?q=hackathon%20sql%20practice&origin=related"
+      },
+      {
+        "query": "hackerrank basic sql",
+        "link": "https://duckduckgo.com/?q=hackerrank%20basic%20sql&origin=related"
+      },
+      {
+        "query": "hacker rank sql test",
+        "link": "https://duckduckgo.com/?q=hacker%20rank%20sql%20test&origin=related"
+      },
+      {
+        "query": "hacker rank sql exam",
+        "link": "https://duckduckgo.com/?q=hacker%20rank%20sql%20exam&origin=related"
+      },
+      {
+        "query": "sql practice hackerrank",
+        "link": "https://duckduckgo.com/?q=sql%20practice%20hackerrank&origin=related"
+      },
+      {
+        "query": "sqlpad hackathon",
+        "link": "https://duckduckgo.com/?q=sqlpad%20hackathon&origin=related"
+      },
+      {
+        "query": "practice sql online",
+        "link": "https://duckduckgo.com/?q=practice%20sql%20online&origin=related"
+      },
+      {
+        "query": "sql preparation hackerrank",
+        "link": "https://duckduckgo.com/?q=sql%20preparation%20hackerrank&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Adevfolio.co+SQL+query+hackathon&start=11"
+    }
+  }
+}

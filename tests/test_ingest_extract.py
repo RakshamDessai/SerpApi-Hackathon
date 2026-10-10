@@ -128,3 +128,44 @@ def test_cache_roundtrip(tmp_path):
     payload = {"organic_results": [{"title": "t", "link": "https://x"}]}
     cache.put("google", {"q": "x"}, payload)
     assert cache.get("google", {"q": "x"}) == payload
+
+
+def test_empty_result_is_billed_and_cached(tmp_path, monkeypatch):
+    """SerpApi bills "no results"; re-running the same query must not pay twice."""
+    from s2s.mesh import serpapi_client
+    from s2s.mesh.cache import ResponseCache
+    from s2s.mesh.ledger import BudgetLedger
+    from s2s.mesh.serpapi_client import SerpApiClient
+    from s2s.models import Dork
+
+    calls = []
+
+    def fake_search(params, timeout=60.0):
+        calls.append(params)
+        return {"error": "DuckDuckGo hasn't returned any results for this query."}
+
+    monkeypatch.setattr(serpapi_client, "_search", fake_search)
+    cache = ResponseCache(directory=tmp_path)
+    dork = Dork(adapter_key="unstop", query="site:unstop.com x", covers=(), engine="duckduckgo")
+
+    first = BudgetLedger(cap=5)
+    assert SerpApiClient("key", cache, first).run(dork) == []
+    assert first.spent == 1 and first.live_calls == 1 and first.skipped == 0
+
+    second = BudgetLedger(cap=5)
+    assert SerpApiClient("key", cache, second).run(dork) == []
+    assert second.spent == 0 and second.cache_hits == 1
+    assert len(calls) == 1
+
+
+def test_duckduckgo_params_use_region_not_hl_gl(tmp_path):
+    from s2s.mesh.cache import ResponseCache
+    from s2s.mesh.ledger import BudgetLedger
+    from s2s.mesh.serpapi_client import SerpApiClient
+    from s2s.models import Dork
+
+    client = SerpApiClient(None, ResponseCache(directory=tmp_path), BudgetLedger(cap=1))
+    params = client.build_params(
+        Dork(adapter_key="unstop", query="q", covers=(), engine="duckduckgo")
+    )
+    assert params == {"engine": "duckduckgo", "q": "q", "kl": "in-en"}

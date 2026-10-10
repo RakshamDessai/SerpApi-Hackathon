@@ -10,7 +10,7 @@ from datetime import timedelta
 import pytest
 
 from s2s.models import Competency, Discipline, RawResult, ScoreBreakdown
-from s2s.score import scorer
+from s2s.score import scorer, signals
 
 
 def _result(title="", snippet="", adapter_key="unv", posted_at=None):
@@ -146,3 +146,81 @@ def test_scam_listings_are_dropped(competency, now):
     scam = _result(title="cash flow forecast", snippet="pay to apply, registration fee")
     out = scorer.build_opportunities([(scam, "live", now)], [competency], now=now)
     assert out == []
+
+
+# ---------------- exclusions, from real Google Jobs results (2026-10-10) ----
+
+def _jobs_result(title, snippet):
+    return RawResult(title=title, url="https://example.org/job", snippet=snippet,
+                     adapter_key="gjobs")
+
+
+@pytest.mark.parametrize("title,snippet,reason", [
+    ("Concurrency roles for SPPU talent",
+     "Recruit Concurrency professionals from SPPU, Pune. 470+ recruiters, "
+     "90% placement rate. Post a role on CosmoQuick.",
+     "employer-facing ad, not a listing"),
+    ("Senior Database Performance & Benchmark Engineer (Bengaluru)",
+     "Responsible for designing and executing rigorous testing strategies.",
+     "senior role"),
+    ("Snowflake + SQL (Advanced) - Technical Lead/Technical Specialist",
+     "Job ID: 887412 - 5 - 15 Years - 1 Opening", "senior role"),
+    ("SQL Data Engineer", "Requires 5 - 15 Years of hands-on work.",
+     "needs years of experience"),
+    ("Komplet ansigtsgenkendelse ved hjaelp af SQL-database Projekt",
+     "Byg et komplet ansigtsgenkendelsessystem med Python og SQL, der registrerer, "
+     "koder og lagrer ansigtsdata til genkendelse og administration i realtid.",
+     "not in English"),
+])
+def test_out_of_reach_listings_are_excluded(title, snippet, reason):
+    assert signals.exclusion_reason(_jobs_result(title, snippet)) == reason
+
+
+@pytest.mark.parametrize("title,snippet", [
+    ("SQL Developer Fresher Interns (Bengaluru)",
+     "The SQL MySQL Developer plays a crucial role in the design, development, "
+     "and maintenance of databases, as well as the optimization of SQL queries."),
+    # "lead" in the body is usually the client, not the role
+    ("Build a dashboard for a literacy NGO",
+     "Our programme lead needs a volunteer to build a 12 month budget dashboard."),
+    ("SQL Mania - 2026", "Competition"),
+])
+def test_student_level_listings_are_kept(title, snippet):
+    assert signals.exclusion_reason(_jobs_result(title, snippet)) is None
+
+
+def test_c_suite_volunteer_titles_are_out_of_reach():
+    result = _jobs_result("Chief Financial Officer - Volunteer Opportunity", "Help us.")
+    assert signals.exclusion_reason(result) == "senior role"
+
+
+# ------------------------------------------------- platform diversity ------
+
+def _opp(key, score, verdict="unverified"):
+    from s2s.models import Opportunity
+    breakdown = ScoreBreakdown(semantic=score, level=0, freshness=0, actionability=0,
+                               weights={"semantic": 1.0, "level": 0, "freshness": 0,
+                                        "actionability": 0})
+    return Opportunity(title=f"{key}{score}", url=f"https://{key}.org/{score}", snippet="",
+                       adapter_key=key, matched_competency=None, score=breakdown,
+                       verdict=verdict)
+
+
+def test_one_platform_cannot_take_over_the_top_ten():
+    """15 near-equal Scholar papers must not bury a comparable volunteer role."""
+    ranked = [_opp("scholar", 0.70 - i / 1000) for i in range(15)] + [_opp("idealist", 0.62)]
+    keys = [o.adapter_key for o in scorer.diversify(ranked)][:10]
+    assert keys[:3] == ["scholar"] * 3 and keys[3] == "idealist"
+
+
+def test_diversity_does_not_promote_a_much_weaker_match():
+    ranked = [_opp("idealist", 0.70 - i / 1000) for i in range(5)] + [_opp("catchafire", 0.30)]
+    keys = [o.adapter_key for o in scorer.diversify(ranked)]
+    assert keys == ["idealist"] * 5 + ["catchafire"]
+
+
+def test_diversity_never_drops_or_promotes_across_verdicts():
+    ranked = [_opp("a", 0.9, "live")] * 5 + [_opp("b", 0.8, "unverified")]
+    out = scorer.diversify(ranked)
+    assert len(out) == len(ranked)
+    assert [o.verdict for o in out] == ["live"] * 5 + ["unverified"]

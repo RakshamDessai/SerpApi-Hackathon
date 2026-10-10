@@ -123,3 +123,25 @@ def test_dedupe_keeps_genuinely_different_listings():
         _result("https://www.onlinevolunteering.org/en/opportunity/b", title="Logo design for NGO"),
     ]
     assert len(dedupe.dedupe(results)) == 2
+
+
+# ------------------------------- edition year in the title (2026-10-10) ----
+
+@pytest.mark.parametrize("title,stale", [
+    ("Financial Modeling & Valuation Competition - 2020 - Unstop", True),
+    ("Sqlize - 2025", True),
+    ("Budget Battle - 2026", False),
+    ("Nonprofit Budget & Grants Planning Advisor (2027)", False),
+    ("FinGenius 2025 - Decoding Finance - 2026", False),   # newest year wins
+    ("Hack On Hills 8.0", False),                          # no year: no claim
+])
+def test_past_edition_year_in_title_is_stale(title, stale):
+    from datetime import datetime
+    assert gate.stale_by_title_year(title, now=datetime(2026, 10, 10)) is stale
+
+
+def test_stale_title_is_archived_by_tier1():
+    from datetime import datetime
+    result = _result("https://unstop.com/competitions/x-1", title="Budget Analysis - 2023",
+                     adapter_key="unstop")
+    assert gate.tier1_snippet(result, now=datetime(2026, 10, 10)) == "archived"

@@ -201,7 +201,9 @@ def run(
         deduped,
         probe_top_n=settings.probe_top_n,
         timeout=settings.probe_timeout_s,
-        enable_probe=not settings.demo_mode,
+        # Not tied to demo mode: in demo mode 58 of 67 recorded Unstop events
+        # had already finished, and without a probe they rank as if open.
+        enable_probe=settings.probe_top_n > 0,
     )
     tier0_dropped = len(deduped) - len(graded)
 

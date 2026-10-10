@@ -1,0 +1,119 @@
+{
+  "fetched_at": 1791602593.829673,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:idealist.org volunteer opportunity layout design",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af9ef5c2f8712e867820",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/0YR1sCzoFkdAVh9SrjuGSY8l1uCLEp55-GnrnzIlVm8/6ac9af9ef5c2f8712e867820.json",
+      "markdown_endpoint": "https://serpapi.com/searches/0YR1sCzoFkdAVh9SrjuGSY8l1uCLEp55-GnrnzIlVm8/6ac9af9ef5c2f8712e867820.md",
+      "created_at": "2026-10-10 03:23:10 UTC",
+      "processed_at": "2026-10-10 03:23:10 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aidealist.org+volunteer+opportunity+layout+design&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/0YR1sCzoFkdAVh9SrjuGSY8l1uCLEp55-GnrnzIlVm8/6ac9af9ef5c2f8712e867820.html",
+      "prettify_html_file": "https://serpapi.com/searches/0YR1sCzoFkdAVh9SrjuGSY8l1uCLEp55-GnrnzIlVm8/6ac9af9ef5c2f8712e867820.prettify",
+      "total_time_taken": 2.9
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:idealist.org volunteer opportunity layout design",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Volunteer Designer (Layout, Typesetting & Cover Design) - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/bcd4eed3033e4457a70bf77acf4cb7f1-volunteer-designer-layout-typesetting-cover-design-yamm-youth-achieving-moral-maturity-winston-salem",
+        "snippet": "We're looking for a Designer to bring our finished manuscripts to life visually \u2014 handling interior layout, typesetting, and cover design so each book looks professional and publish-ready.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Graphic design and layout - Starting soon, finishing May 10",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/41f22ff01abc41409b36af280865302a-graphic-design-and-layout-starting-soon-finishing-may-10-center-for-youth-development-through-law-berkeley",
+        "date_raw": "2026-04-13T00:00:00.0000000",
+        "date": "Apr 13, 2026",
+        "snippet": "Find opportunities to change the world with the latest social-impact job, internship, and volunteer listings. Plus, explore resources for taking action in your community.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Best Virtual Volunteer Opportunities, On-Site Volunteering ... - Idealist",
+        "link": "https://www.idealist.org/en/volunteer?q=design",
+        "snippet": "Ready to make a difference? Search for volunteer opportunities at nonprofits and purpose-driven companies",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Volunteer in Graphic Design - Idealist",
+        "link": "https://www.idealist.org/volunteer-in-graphic-design",
+        "snippet": "Remote Volunteer Opportunity: Graphic Designer, App Developer, or Social Media Manager Consumer Advocacy and Information Resource (CAIR) Design visuals, build apps, or manage social media.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Graphic Design Volunteer - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/d2636991ab2d4d85ae4fed0e9ddb6e32-graphic-design-volunteer-trans-empowerment-project-chicago",
+        "snippet": "At Trans Empowerment Project, design isn't decoration. The visuals we create help people find resources, teach potential allies something they didn't know, bring fundraising campaigns to life, turn complicated information into something people can actually understand, and challenge the tired narratives we're constantly handed about who trans people are. We're looking for volunteer Graphic Designers who can help us make that work look as powerful as it deserves to. This is a hands-on creative ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Volunteering, Nonprofit Jobs, and Community - Idealist",
+        "link": "https://www.idealist.org/en",
+        "snippet": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Remote Graphic Design Internship | Nonprofit & Social Impact Design",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/7095b75bd1384125963c38dec8f4f29e-remote-graphic-design-internship-nonprofit-social-impact-design-posterity-international-boston",
+        "date_raw": "2026-09-05T00:00:00.0000000",
+        "date": "Sep 5, 2026",
+        "snippet": "This remote internship offers emerging designers an opportunity to build substantive portfolio work while gaining experience in nonprofit graphic design, social impact design, humanitarian communications, advocacy campaigns, digital content, and visual storytelling.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Volunteer Warehouse Layout & Organization Coordinator",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/4f2a5098732845eab7d6fcfa60d977b5-volunteer-warehouse-layout-organization-coordinator-looproots-foundation-mesa",
+        "snippet": "The ideal volunteer has experience with warehouse organization, retail or grocery setup, commercial kitchens, food-service operations, inventory storage, interior space planning, facilities, logistics, or a related area. You do not need to be an architect or designer, but you should be comfortable looking at an open space and helping create an efficient layout.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "Graphic Design Career Development Program (Internship) Opportunity ...",
+        "link": "https://idealist.org/en/volunteer-opportunity/e718773e4da44c6b96ff13c8d3d8ed51-graphic-design-career-development-program-internship-opportunity-association-of-leaders-in-volunteer-engagement-alve-york",
+        "snippet": "Wheelchair Accessible Description Collaborate with staff or volunteer leads to interpret content and translate it into visually engaging layouts that align with AL!VE's brand guidelines. Assist in designing marketing and communications materials, including newsletters, social media graphics, event flyers, posters, digital ads, and other ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/idealist.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Graphic Design Volunteer - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/3acc1b61a0e446518cae630a2a31e09c-graphic-design-volunteer-tihan-tucson-interfaith-hivaids-network-tucson",
+        "snippet": "This position is a great opportunity for those involved in or planning a career in graphic design, marketing, advertising, or related fields. The Graphic Design Volunteer will work directly with TIHAN staff and committee members on the development of creative and functional print and web design.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Assistant UI/UX Design Manager - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/2e906bbe421a480e8a550a9b4a1e586d-assistant-uiux-design-manager-menzies-philanthropic-foundation-little-elm",
+        "date_raw": "2026-08-05T00:00:00.0000000",
+        "date": "Aug 5, 2026",
+        "snippet": "Proficiency in graphic design software, including Adobe Creative Suite (Photoshop, Illustrator, InDesign) or equivalent tools. Strong understanding of typography, color theory, and layout design principles. Ability to take creative direction and translate concepts into visually appealing designs. Excellent communication and collaboration skills.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aidealist.org+volunteer+opportunity+layout+design&start=11"
+    }
+  }
+}

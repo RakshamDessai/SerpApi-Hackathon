@@ -24,9 +24,10 @@ looking for a volunteer to build a 12-month cash flow forecast.
 
 Those two facts never meet. S2S is the bridge.
 
-It works the same way for a Design student (brand identity briefs on Catchafire),
-a Sociology student (survey design for UN Volunteers), and a CS student (good
-first issues on GitHub) — **one engine, one codebase, every stream**.
+It works the same way for a Design student (brand identity volunteer roles on
+Idealist), a Sociology student (data-analysis projects on Catchafire), and a CS
+student (open hackathons on Devpost and Devfolio) — **one engine, one codebase,
+every stream**.
 
 ---
 
@@ -49,15 +50,16 @@ scoring and ranking are all deterministic code below it. That is what gives one
 codebase for every academic stream — and what makes a no-LLM fallback possible.
 
 **2. Platforms are declarative data, not code.**
-Each of the **16 platforms** is one `PlatformAdapter` entry holding its domain,
-URL regex, SerpApi engine, dork template, ecosystem badge, trust tier and
-liveness strategy. Adding an eighteenth is one registry entry.
+Each of the **15 registered platforms** is one `PlatformAdapter` entry holding its
+domain, URL regex, SerpApi engine, query template, ecosystem badge, trust tier
+and liveness strategy. Adding another is one registry entry.
 
 **3. SerpApi credits are a budget to allocate.**
-A naive search is 6 competencies × 17 platforms = **102 calls per click** — one
-run per month on a free tier. Discipline-affinity platform selection plus boolean
-OR-packing delivers the same coverage in **~10 calls (82–86% saved)**, and the UI
-shows the ledger for every run.
+A naive search is every competency × every active platform — 44 to 55 calls per
+click on the four presets, a fifth of a free tier's month. Discipline-affinity
+platform selection plus competency grouping delivers it in **8–10 calls (77–85%
+saved)**, and the UI shows the ledger for every run. Empty searches are billed
+too, so they are counted and cached rather than silently retried.
 
 **4. Honesty about liveness is a feature.**
 Gated platforms produce dead links. Every card carries a verified verdict —
@@ -75,7 +77,7 @@ python3.12 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
 cp .env.example .env          # then add your SerpApi key
-.venv/bin/python check_serpapi.py     # verify connectivity
+.venv/bin/python check_serpapi.py     # verify the key and quota (free)
 
 .venv/bin/streamlit run app.py
 ```
@@ -93,23 +95,25 @@ Open <http://localhost:8501>, pick a preset syllabus, and press
 The heuristic path is **first class, not a stub**. A demo that hard-depends on
 two external APIs has two single points of failure.
 
-### Demo mode (0 credits, no network)
+### Demo mode (0 credits)
+
+Real SerpApi responses for all four presets are committed in `fixtures/serpapi/`
+(36 searches, recorded 2026-10-10). Set `S2S_DEMO_MODE=true` or flip the sidebar
+toggle: the cache becomes read-only with no expiry, so the demo provably cannot
+spend a credit.
+
+The free liveness check still runs in demo mode — it is plain HTTP, not SerpApi —
+so a competition that has closed since recording shows as **Archived**, not live.
+With the conference wifi down it fails soft to **Unverified**.
 
 ```bash
-# With a key - real SerpApi responses, ~40 credits:
-.venv/bin/python scripts/record_fixtures.py --dry-run   # shows the cost first
+# Re-record (about 36 credits; prints the cost first):
+.venv/bin/python scripts/record_fixtures.py --dry-run
 .venv/bin/python scripts/record_fixtures.py
 
-# Without a key - real listings harvested from the platforms' own public
-# endpoints. Clearly labelled in the UI as "not SerpApi". Covers the CS preset.
-.venv/bin/python scripts/harvest_demo_fixtures.py
-
-# Verify url_pattern and gate_markers against live pages (no credits):
+# Verify url_pattern and the liveness check against live pages (no credits):
 .venv/bin/python scripts/verify_adapters.py
 ```
-
-Then set `S2S_DEMO_MODE=true`. The cache becomes read-only with no expiry, so the
-demo provably cannot spend a credit — and works with the conference wifi down.
 
 ---
 
@@ -121,14 +125,38 @@ end up demoing 404s.
 
 | Tier | Platforms | Behaviour |
 |---|---|---|
-| **A** | UN Online Volunteering, Kaggle, Unstop, Devpost, Devfolio, GitHub, DrivenData | Stable URLs, public detail pages. Build on these. |
-| **B** | Catchafire, Taproot Plus, Idealist, VolunteerMatch, Zooniverse | Indexed but partly gated. Included, labelled honestly. |
+| **A** | Kaggle, Unstop, Devpost, Devfolio, GitHub, DrivenData | Stable URLs, public detail pages. Build on these. |
+| **B** | Catchafire, Idealist, Zooniverse | Indexed but partly gated. Included, labelled honestly. |
 | **C** | Upwork, Freelancer, Contra | Login-gated and routinely stale. **Opt-in only.** |
-| **D** | Google Jobs (India), Google Scholar | A different SerpApi engine, not a `site:` dork. |
+| **D** | Google Jobs (India), Google Scholar | A different SerpApi engine, not a `site:` query. |
+| off | UN Online Volunteering | Registered but disabled: 0 results on 6 of 6 real searches. |
 
-Tier D is also the engine-breadth exhibit: `engine=google_jobs` with India-scoped
-`chips=date_posted:week` freshness, and `engine=google_scholar` with a publication
-year floor, alongside advanced boolean `site:` dorking.
+Removed after live checks: **VolunteerMatch** and **Taproot Plus** — both now
+redirect to another site, so every result would be archived.
+
+SerpApi engines used: `duckduckgo` for every `site:` platform (see below),
+`google_jobs` with India-scoped `chips=date_posted:week`, and `google_scholar`
+with a publication-year floor.
+
+### What the first real SerpApi run taught us
+
+The design originally sent every platform through `engine=google` with packed
+boolean dorks like `site:devpost.com ("SQL query" OR "query optimisation")`.
+Measured with a real key, that failed:
+
+- **Google treated `site:` as a hint.** On 7 of 9 recorded CS searches, and on all
+  8 platforms in a follow-up matrix, it dropped the restriction and returned
+  Medium, Scribd and YouTube. Only 8 of 80 results were real listings.
+  `google_light` and `as_sitesearch` behaved the same.
+- **SerpApi's DuckDuckGo engine kept `site:` — 11 of 11 results on-site for 6 of 7
+  platforms** — but only for short plain-keyword queries. Quoted OR-groups leaked
+  or returned nothing.
+
+So `site:` platforms now use `engine=duckduckgo` with one plain phrase plus the
+platform's own wording (`site:unstop.com financial model competition`). Instead of
+OR-packing, each search uses the phrase **shared by the most competencies in its
+group**, and stage 5 recovers per-competency relevance. Real listings per CS run
+went from 8 to 57.
 
 ---
 
@@ -139,12 +167,18 @@ request and costs **no SerpApi credit**.
 
 | Tier | Check | Catches |
 |---|---|---|
-| 0 | URL shape vs the adapter's regex | Homepages, category pages, blog posts |
-| 1 | Snippet markers (`"this competition has ended"`) | Expired listings |
-| 2 | HTTP probe + **post-redirect URL check** | 404s and login walls |
+| 0 | URL shape vs the adapter's regex, checked against real URLs | Homepages, profiles, past project pages |
+| 1 | Snippet markers, and a past edition year in the title (`"… – 2023"`) | Expired listings |
+| 2 | HTTP probe + **post-redirect URL check**, or the platform's own status API | 404s, login walls, ended events |
 
-Checking the URL *after* redirects is what catches the Upwork and Catchafire
-sign-in-wall case: HTTP 200, but the final page is a login form.
+Checking the URL *after* redirects catches the sign-in-wall case: HTTP 200, but
+the final page is a login form.
+
+The status API exists because of Unstop. Every Unstop listing serves the same
+25 KB JavaScript shell, so a page probe can only prove the server answered. On
+real data, **58 of 67** recorded Unstop competitions had already finished, and the
+#1 CS card ("SQL Mania") had ended six months earlier. Unstop's public JSON
+endpoint reports `reg_status: FINISHED`, so the gate asks it instead.
 
 ---
 
@@ -156,13 +190,22 @@ MatchScore = 0.45·semantic + 0.25·level + 0.15·freshness + 0.15·actionabilit
 
 | Term | What it measures |
 |---|---|
-| **Semantic** | Overlap between the competency's market aliases and the brief. Lexical by default — an embedding dependency would be a second demo failure mode. |
+| **Semantic** | Whole market phrases in the title or snippet, plus smaller credit for distinctive single keywords ("SQL Mania", "Zero to Query"). Lexical by default — an embedding dependency would be a second demo failure mode. |
 | **Level** | Distance between the student's band (Bloom level + semester) and the listing's pitch. |
 | **Freshness** | Exponential decay on the posting date, with an explicit penalty for unknown dates rather than a silent zero. |
 | **Actionability** | Verdict + platform trust tier + whether the brief names a concrete deliverable. |
 
 Every card shows the arithmetic. A transparent score beats an opaque
 "AI match: 87%", and it costs nothing.
+
+Two rules sit on top of the score:
+
+- **Out-of-reach listings are removed, not ranked low:** senior or C-suite titles,
+  "5–15 years" experience, employer-facing recruiter ads, and non-English listings.
+  All four appeared in the first real Google Jobs results.
+- **Platform diversity:** no platform takes more than 3 of the top 10 while a
+  comparable alternative exists. Otherwise 15 Google Scholar papers buried every
+  real research role for a Sociology student.
 
 ---
 
@@ -205,12 +248,13 @@ an API without change.
 ## Tests
 
 ```bash
-.venv/bin/python -m pytest        # 279 passed, 2 skipped
+.venv/bin/python -m pytest        # 329 passed, 4 skipped
 ```
 
 Covering registry integrity, the budget cap as a safety property, every scoring
-term, gate tiers 0–1, dedupe, PDF/DOCX/UTF-16 ingestion, verbatim-span validation,
-the gap report, and a full pipeline acceptance run.
+term, gate tiers 0–2, dedupe, PDF/DOCX/UTF-16 ingestion, verbatim-span validation,
+the gap report, a full pipeline acceptance run, and URL rules checked against
+real listings. Tests never read your `.env` and never spend a credit.
 
 ---
 

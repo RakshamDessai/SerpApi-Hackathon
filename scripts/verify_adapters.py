@@ -120,28 +120,16 @@ DISCOVERY: dict[str, Discovery] = {
         base="https://",  # slug.devfolio.co
     ),
     "catchafire": Discovery(
-        listing="https://www.catchafire.org/opportunities/",
-        link_re=r'href="(/opportunities/[\w\-]+/?)"',
+        listing="https://www.catchafire.org/volunteer/",
+        link_re=r'href="(/volunteer/\d+/[\w\-]+/?)"',
         absolute=False,
         base="https://www.catchafire.org",
     ),
     "idealist": Discovery(
-        listing="https://www.idealist.org/en/volops",
-        link_re=r'href="(/en/volop/[\w\-]+)"',
+        listing="https://www.idealist.org/en/volunteer",
+        link_re=r'href="(/en/volunteer-opportunity/[\w\-]+)"',
         absolute=False,
         base="https://www.idealist.org",
-    ),
-    "volunteermatch": Discovery(
-        listing="https://www.volunteermatch.org/search/",
-        link_re=r'href="(/search/opp\d+\.jsp)"',
-        absolute=False,
-        base="https://www.volunteermatch.org",
-    ),
-    "taproot": Discovery(
-        listing="https://taprootplus.org/projects",
-        link_re=r'href="(/projects/[\w\-]+)"',
-        absolute=False,
-        base="https://taprootplus.org",
     ),
 }
 
@@ -217,6 +205,26 @@ def harvest(key: str, disc: Discovery, limit: int) -> tuple[list[str], int | Non
     return urls[:limit], response.status_code, ""
 
 
+def recorded_urls(key: str, limit: int) -> list[str]:
+    """Tier-0-passing listing URLs from fixtures/serpapi/, newest files first."""
+    adapter = ADAPTERS[key]
+    found: list[str] = []
+    files = sorted((ROOT / "fixtures" / "serpapi").glob("*.json"),
+                   key=lambda f: f.stat().st_mtime, reverse=True)
+    for path in files:
+        try:
+            response = json.loads(path.read_text(encoding="utf-8")).get("response", {})
+        except (OSError, json.JSONDecodeError):
+            continue
+        for item in response.get("organic_results") or []:
+            url = item.get("link") or ""
+            if url not in found and re.match(adapter.url_pattern, url, re.IGNORECASE):
+                found.append(url)
+                if len(found) >= limit:
+                    return found
+    return found
+
+
 def verify_one(key: str, samples: int, timeout: float) -> AdapterReport:
     adapter = ADAPTERS[key]
     report = AdapterReport(key=key, tier=adapter.trust)
@@ -230,6 +238,15 @@ def verify_one(key: str, samples: int, timeout: float) -> AdapterReport:
     report.listing_status = status
     report.reachable = status == 200
     report.note = note
+    if not urls:
+        # Client-rendered listing pages (Unstop, Idealist, Catchafire, Kaggle)
+        # expose no links to plain HTTP. Fall back to URLs SerpApi actually
+        # returned - pre-filtered by tier 0, so this samples the probe, not
+        # the pattern.
+        urls = recorded_urls(key, samples)
+        if urls:
+            report.reachable = True
+            report.note = "sampled from recorded SerpApi results (listing page is client-rendered)"
     report.urls_found = len(urls)
 
     if not urls:

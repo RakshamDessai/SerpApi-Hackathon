@@ -90,7 +90,9 @@ class Competency:
 
 # ---------------------------------------------------------------- adapter ---
 
-Engine = Literal["google", "google_jobs", "google_scholar"]
+Engine = Literal["google", "google_light", "duckduckgo", "google_jobs", "google_scholar"]
+#: How `{terms}` is filled. See `mesh.adapters.render_query`.
+QueryStyle = Literal["or_group", "keywords"]
 Ecosystem = Literal[
     "ngo_impact", "freelance", "data_challenge",
     "hackathon", "open_source", "internship", "research",
@@ -120,6 +122,22 @@ COMPENSATION_LABEL: dict[str, str] = {
 
 
 @dataclass(frozen=True)
+class StatusApi:
+    """A platform's own machine-readable status endpoint, for tier 2.
+
+    Needed where the listing page is a client-rendered shell: Unstop serves the
+    same 25 KB page for every listing, so a page probe can only prove the
+    server answered - an event that ended months ago looked "live".
+    """
+
+    url: str                        # template containing {id}
+    id_re: str                      # one capture group: the id in a listing URL
+    path: tuple[str, ...]           # JSON keys down to the status string
+    dead: tuple[str, ...]           # status values meaning closed or finished
+    deadline: tuple[str, ...] = ()  # JSON keys down to an ISO-8601 closing time
+
+
+@dataclass(frozen=True)
 class PlatformAdapter:
     """A declarative platform descriptor.
 
@@ -140,6 +158,8 @@ class PlatformAdapter:
     gate_markers: tuple[str, ...] = ()
     extra_params: dict = field(default_factory=dict)
     enabled_by_default: bool = True
+    query_style: QueryStyle = "or_group"
+    status_api: StatusApi | None = None
 
 
 # ------------------------------------------------------------------ dork ----

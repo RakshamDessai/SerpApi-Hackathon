@@ -1,0 +1,329 @@
+{
+  "fetched_at": 1791602369.1656299,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "SQL query intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9aeb800a7fb38fa7e9085",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/5EcHfGKuGF6lURKjTVNfDvxsS6wrbeN6mVis8I5hHhE/6ac9aeb800a7fb38fa7e9085.json",
+      "markdown_endpoint": "https://serpapi.com/searches/5EcHfGKuGF6lURKjTVNfDvxsS6wrbeN6mVis8I5hHhE/6ac9aeb800a7fb38fa7e9085.md",
+      "created_at": "2026-10-10 03:19:20 UTC",
+      "processed_at": "2026-10-10 03:19:20 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=SQL+query+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/5EcHfGKuGF6lURKjTVNfDvxsS6wrbeN6mVis8I5hHhE/6ac9aeb800a7fb38fa7e9085.html",
+      "total_time_taken": 8.65
+    },
+    "search_parameters": {
+      "q": "SQL query intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r6lclnUuEFz1h_qVdzJ_AdusU9YtFqaNmWY2SJzKpbmhMkwRK1N0k9yZE-4VjmNw2RBQQrtTpnU3Y8UDdetadlAOOBZIbEaOki0uyL5u_DNDX-7i7Q5UhG54yMxD0lB-fxum3COpRMHJBcoj7E5KWuoFG07mipa7bT3A8g4ositD53Mut",
+          "q": "SQL query intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r6lclnUuEFz1h_qVdzJ_AdusU9YtFqaNmWY2SJzKpbmhMkwRK1N0k9yZE-4VjmNw2RBQQrtTpnU3Y8UDdetadlAOOBZIbEaOki0uyL5u_DNDX-7i7Q5UhG54yMxD0lB-fxum3COpRMHJBcoj7E5KWuoFG07mipa7bT3A8g4ositD53Mut&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQxKsJKAB6BAgYEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r6lclnUuEFz1h_qVdzJ_AdusU9YtFqaNmWY2SJzKpbmhMkwRK1N0k9yZE-4VjmNw2RBQQrtTpnU3Y8UDdetadlAOOBZIbEaOki0uyL5u_DNDX-7i7Q5UhG54yMxD0lB-fxum3COpRMHJBcoj7E5KWuoFG07mipa7bT3A8g4ositD53Mut"
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4lr_4-5_pe1OcIvokM7qhW0SipaOx2Bp5P1TeajxMp7qmjVGbWMSMXt5Lkq0St2kV3he_50olA9x32Br9oYBg6aT0mROB_7bO0-kJvr5qkR-aJ5qvmdYk0EUWRsTUSdNW865riMDXqXFdAmZ5w1vQ0Fz7-EA_xVidyOLGd6Zxo7bwhjAHmjfI7CgyqjF3WMDpc87UC-x6uLwxUq9gm8a5up_p4XN31SzzH6DH9RyGVL6UHJyW4JVAOtMOf8rW-dxnTATG7sVdf8gs94KptEl0WZfPze4RFmuXY2HEDiGNOTTzZ5080",
+              "q": "SQL query intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4lr_4-5_pe1OcIvokM7qhW0SipaOx2Bp5P1TeajxMp7qmjVGbWMSMXt5Lkq0St2kV3he_50olA9x32Br9oYBg6aT0mROB_7bO0-kJvr5qkR-aJ5qvmdYk0EUWRsTUSdNW865riMDXqXFdAmZ5w1vQ0Fz7-EA_xVidyOLGd6Zxo7bwhjAHmjfI7CgyqjF3WMDpc87UC-x6uLwxUq9gm8a5up_p4XN31SzzH6DH9RyGVL6UHJyW4JVAOtMOf8rW-dxnTATG7sVdf8gs94KptEl0WZfPze4RFmuXY2HEDiGNOTTzZ5080&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4lr_4-5_pe1OcIvokM7qhW0SipaOx2Bp5P1TeajxMp7qmjVGbWMSMXt5Lkq0St2kV3he_50olA9x32Br9oYBg6aT0mROB_7bO0-kJvr5qkR-aJ5qvmdYk0EUWRsTUSdNW865riMDXqXFdAmZ5w1vQ0Fz7-EA_xVidyOLGd6Zxo7bwhjAHmjfI7CgyqjF3WMDpc87UC-x6uLwxUq9gm8a5up_p4XN31SzzH6DH9RyGVL6UHJyW4JVAOtMOf8rW-dxnTATG7sVdf8gs94KptEl0WZfPze4RFmuXY2HEDiGNOTTzZ5080"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4nxkLPc4094SS3h1gO94epRBTehQnYX5zxdDnMUvZDh1GzlgBayCVZOpel_L5UPbGNwoWzz6vOJfz31hHFVbKMNMo9neXBsC3OFprZgRJUTHo7CfTT0Paztj4kk2dGgHfFgemxB8AekdJZFGzC204C7MxWQfVy-jOHaOP07teCgejs3ELwC5PtelyqahCUD8KX7HtVeG9uKWDFOs4pJ-_qQ2qOMyuyCIPsIVA-dZoirc2K3lkUd8GfIzrtwuD45NkSmNlJd3Grxf2IAuF81MTsGmuJlKf5jwlIYWNLjkQDghn_Kil0",
+              "q": "SQL query intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4nxkLPc4094SS3h1gO94epRBTehQnYX5zxdDnMUvZDh1GzlgBayCVZOpel_L5UPbGNwoWzz6vOJfz31hHFVbKMNMo9neXBsC3OFprZgRJUTHo7CfTT0Paztj4kk2dGgHfFgemxB8AekdJZFGzC204C7MxWQfVy-jOHaOP07teCgejs3ELwC5PtelyqahCUD8KX7HtVeG9uKWDFOs4pJ-_qQ2qOMyuyCIPsIVA-dZoirc2K3lkUd8GfIzrtwuD45NkSmNlJd3Grxf2IAuF81MTsGmuJlKf5jwlIYWNLjkQDghn_Kil0&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4nxkLPc4094SS3h1gO94epRBTehQnYX5zxdDnMUvZDh1GzlgBayCVZOpel_L5UPbGNwoWzz6vOJfz31hHFVbKMNMo9neXBsC3OFprZgRJUTHo7CfTT0Paztj4kk2dGgHfFgemxB8AekdJZFGzC204C7MxWQfVy-jOHaOP07teCgejs3ELwC5PtelyqahCUD8KX7HtVeG9uKWDFOs4pJ-_qQ2qOMyuyCIPsIVA-dZoirc2K3lkUd8GfIzrtwuD45NkSmNlJd3Grxf2IAuF81MTsGmuJlKf5jwlIYWNLjkQDghn_Kil0"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rGChfL9jSHOy2LHr0SdyGLEtASwvt7tZjxfTGerjq0iaRCxB5Ee84slHi78Vw2SIGLXEhPax4sQa3Q85_Ds1NI-toSxC56S-7CYJmvZj6W5-RFjW4Ju60h2WHW00d1Gx2G9keZ92vMZ7RZVNDiTt8T-OK7C8jFC5W-qz0goZdSKM7NlPWkKylwju3L9sCgLCk_kE0XufJzXDnsxNwPBG9pKqezcwcRvwemXzCCr3jNk4RvgyOaRqNEpD9xlotGAJML5QQMKLnY-YX9RXqrPFsDhnLlYS6qUnC8XN9GvX2yvMYz950pgmN2DvwaZIx88vUFBWQW_SViamB92wbgkTk8TNpwi0",
+              "q": "SQL query intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rGChfL9jSHOy2LHr0SdyGLEtASwvt7tZjxfTGerjq0iaRCxB5Ee84slHi78Vw2SIGLXEhPax4sQa3Q85_Ds1NI-toSxC56S-7CYJmvZj6W5-RFjW4Ju60h2WHW00d1Gx2G9keZ92vMZ7RZVNDiTt8T-OK7C8jFC5W-qz0goZdSKM7NlPWkKylwju3L9sCgLCk_kE0XufJzXDnsxNwPBG9pKqezcwcRvwemXzCCr3jNk4RvgyOaRqNEpD9xlotGAJML5QQMKLnY-YX9RXqrPFsDhnLlYS6qUnC8XN9GvX2yvMYz950pgmN2DvwaZIx88vUFBWQW_SViamB92wbgkTk8TNpwi0&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rGChfL9jSHOy2LHr0SdyGLEtASwvt7tZjxfTGerjq0iaRCxB5Ee84slHi78Vw2SIGLXEhPax4sQa3Q85_Ds1NI-toSxC56S-7CYJmvZj6W5-RFjW4Ju60h2WHW00d1Gx2G9keZ92vMZ7RZVNDiTt8T-OK7C8jFC5W-qz0goZdSKM7NlPWkKylwju3L9sCgLCk_kE0XufJzXDnsxNwPBG9pKqezcwcRvwemXzCCr3jNk4RvgyOaRqNEpD9xlotGAJML5QQMKLnY-YX9RXqrPFsDhnLlYS6qUnC8XN9GvX2yvMYz950pgmN2DvwaZIx88vUFBWQW_SViamB92wbgkTk8TNpwi0"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r0UnJwLmOArxiEDYNJLIY__C-rLvm4Z9JV4RuRwV2oHD8AWjUqWF5fYHEECXdAbYQOLGu2V9jQ0qdggK1YfmpGXY9RzdXGth6yrGeMb1sXEaCDKCV3Y-J66SI6oFQxkLSNmlaIzvwtePgnAGJU0jzC1_e12jY9oNxQGzuOHa4pYTRDm8VAIxUQeTECNFU4NvDMahtTPCtZ5kulrOkMYSynjekCqStQDqzXj1nlHEc4tyJME1gO-B1T9iiSe5na7YTkX4GLGDwRy0iq8X8RxYOLgFOb3wyLvch0kTfjUyW1qBqbw-TAjwhlgq8OLorz-IMLhsTJUaNEEWsyftmVZq2Y8GDDdI",
+              "q": "SQL query intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0UnJwLmOArxiEDYNJLIY__C-rLvm4Z9JV4RuRwV2oHD8AWjUqWF5fYHEECXdAbYQOLGu2V9jQ0qdggK1YfmpGXY9RzdXGth6yrGeMb1sXEaCDKCV3Y-J66SI6oFQxkLSNmlaIzvwtePgnAGJU0jzC1_e12jY9oNxQGzuOHa4pYTRDm8VAIxUQeTECNFU4NvDMahtTPCtZ5kulrOkMYSynjekCqStQDqzXj1nlHEc4tyJME1gO-B1T9iiSe5na7YTkX4GLGDwRy0iq8X8RxYOLgFOb3wyLvch0kTfjUyW1qBqbw-TAjwhlgq8OLorz-IMLhsTJUaNEEWsyftmVZq2Y8GDDdI&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0UnJwLmOArxiEDYNJLIY__C-rLvm4Z9JV4RuRwV2oHD8AWjUqWF5fYHEECXdAbYQOLGu2V9jQ0qdggK1YfmpGXY9RzdXGth6yrGeMb1sXEaCDKCV3Y-J66SI6oFQxkLSNmlaIzvwtePgnAGJU0jzC1_e12jY9oNxQGzuOHa4pYTRDm8VAIxUQeTECNFU4NvDMahtTPCtZ5kulrOkMYSynjekCqStQDqzXj1nlHEc4tyJME1gO-B1T9iiSe5na7YTkX4GLGDwRy0iq8X8RxYOLgFOb3wyLvch0kTfjUyW1qBqbw-TAjwhlgq8OLorz-IMLhsTJUaNEEWsyftmVZq2Y8GDDdI"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4lr_4-5_pe1OcIvokM7qhW0SipaOx2Bp5P1TeajxMp7qmjVGbWMSMXt5Lkq0St2kV3he_50olA9x32Br9oYBg6aT0mROB_7bO0-kJvr5qkR-aJ5qvmdYk0EUWRsTUSdNW865riMDXqXFdAmZ5w1vQ0Fz7-EA_xVidyOLGd6Zxo7bwhjAHmjfI7CgyqjF3WMDpc87UC-x6uLwxUq9gm8a5up_p4XN31SzzH6DH9RyGVL6UHJyW4JVAOtMOf8rW-dxnTATG7sVdf8gs94KptEl0WZfPze4RFmuXY2HEDiGNOTTzZ5080",
+              "q": "SQL query intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4lr_4-5_pe1OcIvokM7qhW0SipaOx2Bp5P1TeajxMp7qmjVGbWMSMXt5Lkq0St2kV3he_50olA9x32Br9oYBg6aT0mROB_7bO0-kJvr5qkR-aJ5qvmdYk0EUWRsTUSdNW865riMDXqXFdAmZ5w1vQ0Fz7-EA_xVidyOLGd6Zxo7bwhjAHmjfI7CgyqjF3WMDpc87UC-x6uLwxUq9gm8a5up_p4XN31SzzH6DH9RyGVL6UHJyW4JVAOtMOf8rW-dxnTATG7sVdf8gs94KptEl0WZfPze4RFmuXY2HEDiGNOTTzZ5080&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4lr_4-5_pe1OcIvokM7qhW0SipaOx2Bp5P1TeajxMp7qmjVGbWMSMXt5Lkq0St2kV3he_50olA9x32Br9oYBg6aT0mROB_7bO0-kJvr5qkR-aJ5qvmdYk0EUWRsTUSdNW865riMDXqXFdAmZ5w1vQ0Fz7-EA_xVidyOLGd6Zxo7bwhjAHmjfI7CgyqjF3WMDpc87UC-x6uLwxUq9gm8a5up_p4XN31SzzH6DH9RyGVL6UHJyW4JVAOtMOf8rW-dxnTATG7sVdf8gs94KptEl0WZfPze4RFmuXY2HEDiGNOTTzZ5080"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4nxkLPc4094SS3h1gO94epRBTehQnYX5zxdDnMUvZDh1GzlgBayCVZOpel_L5UPbGNwoWzz6vOJfz31hHFVbKMNMo9neXBsC3OFprZgRJUTHo7CfTT0Paztj4kk2dGgHfFgemxB8AekdJZFGzC204C7MxWQfVy-jOHaOP07teCgejs3ELwC5PtelyqahCUD8KX7HtVeG9uKWDFOs4pJ-_qQ2qOMyuyCIPsIVA-dZoirc2K3lkUd8GfIzrtwuD45NkSmNlJd3Grxf2IAuF81MTsGmuJlKf5jwlIYWNLjkQDghn_Kil0",
+              "q": "SQL query intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4nxkLPc4094SS3h1gO94epRBTehQnYX5zxdDnMUvZDh1GzlgBayCVZOpel_L5UPbGNwoWzz6vOJfz31hHFVbKMNMo9neXBsC3OFprZgRJUTHo7CfTT0Paztj4kk2dGgHfFgemxB8AekdJZFGzC204C7MxWQfVy-jOHaOP07teCgejs3ELwC5PtelyqahCUD8KX7HtVeG9uKWDFOs4pJ-_qQ2qOMyuyCIPsIVA-dZoirc2K3lkUd8GfIzrtwuD45NkSmNlJd3Grxf2IAuF81MTsGmuJlKf5jwlIYWNLjkQDghn_Kil0&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYJ2TIHHaEXLEMCDKcWEf9asZ3c44AW_riLmKViI4j4nxkLPc4094SS3h1gO94epRBTehQnYX5zxdDnMUvZDh1GzlgBayCVZOpel_L5UPbGNwoWzz6vOJfz31hHFVbKMNMo9neXBsC3OFprZgRJUTHo7CfTT0Paztj4kk2dGgHfFgemxB8AekdJZFGzC204C7MxWQfVy-jOHaOP07teCgejs3ELwC5PtelyqahCUD8KX7HtVeG9uKWDFOs4pJ-_qQ2qOMyuyCIPsIVA-dZoirc2K3lkUd8GfIzrtwuD45NkSmNlJd3Grxf2IAuF81MTsGmuJlKf5jwlIYWNLjkQDghn_Kil0"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rGChfL9jSHOy2LHr0SdyGLEtASwvt7tZjxfTGerjq0iaRCxB5Ee84slHi78Vw2SIGLXEhPax4sQa3Q85_Ds1NI-toSxC56S-7CYJmvZj6W5-RFjW4Ju60h2WHW00d1Gx2G9keZ92vMZ7RZVNDiTt8T-OK7C8jFC5W-qz0goZdSKM7NlPWkKylwju3L9sCgLCk_kE0XufJzXDnsxNwPBG9pKqezcwcRvwemXzCCr3jNk4RvgyOaRqNEpD9xlotGAJML5QQMKLnY-YX9RXqrPFsDhnLlYS6qUnC8XN9GvX2yvMYz950pgmN2DvwaZIx88vUFBWQW_SViamB92wbgkTk8TNpwi0",
+              "q": "SQL query intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rGChfL9jSHOy2LHr0SdyGLEtASwvt7tZjxfTGerjq0iaRCxB5Ee84slHi78Vw2SIGLXEhPax4sQa3Q85_Ds1NI-toSxC56S-7CYJmvZj6W5-RFjW4Ju60h2WHW00d1Gx2G9keZ92vMZ7RZVNDiTt8T-OK7C8jFC5W-qz0goZdSKM7NlPWkKylwju3L9sCgLCk_kE0XufJzXDnsxNwPBG9pKqezcwcRvwemXzCCr3jNk4RvgyOaRqNEpD9xlotGAJML5QQMKLnY-YX9RXqrPFsDhnLlYS6qUnC8XN9GvX2yvMYz950pgmN2DvwaZIx88vUFBWQW_SViamB92wbgkTk8TNpwi0&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rGChfL9jSHOy2LHr0SdyGLEtASwvt7tZjxfTGerjq0iaRCxB5Ee84slHi78Vw2SIGLXEhPax4sQa3Q85_Ds1NI-toSxC56S-7CYJmvZj6W5-RFjW4Ju60h2WHW00d1Gx2G9keZ92vMZ7RZVNDiTt8T-OK7C8jFC5W-qz0goZdSKM7NlPWkKylwju3L9sCgLCk_kE0XufJzXDnsxNwPBG9pKqezcwcRvwemXzCCr3jNk4RvgyOaRqNEpD9xlotGAJML5QQMKLnY-YX9RXqrPFsDhnLlYS6qUnC8XN9GvX2yvMYz950pgmN2DvwaZIx88vUFBWQW_SViamB92wbgkTk8TNpwi0"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r0UnJwLmOArxiEDYNJLIY__C-rLvm4Z9JV4RuRwV2oHD8AWjUqWF5fYHEECXdAbYQOLGu2V9jQ0qdggK1YfmpGXY9RzdXGth6yrGeMb1sXEaCDKCV3Y-J66SI6oFQxkLSNmlaIzvwtePgnAGJU0jzC1_e12jY9oNxQGzuOHa4pYTRDm8VAIxUQeTECNFU4NvDMahtTPCtZ5kulrOkMYSynjekCqStQDqzXj1nlHEc4tyJME1gO-B1T9iiSe5na7YTkX4GLGDwRy0iq8X8RxYOLgFOb3wyLvch0kTfjUyW1qBqbw-TAjwhlgq8OLorz-IMLhsTJUaNEEWsyftmVZq2Y8GDDdI",
+              "q": "SQL query intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0UnJwLmOArxiEDYNJLIY__C-rLvm4Z9JV4RuRwV2oHD8AWjUqWF5fYHEECXdAbYQOLGu2V9jQ0qdggK1YfmpGXY9RzdXGth6yrGeMb1sXEaCDKCV3Y-J66SI6oFQxkLSNmlaIzvwtePgnAGJU0jzC1_e12jY9oNxQGzuOHa4pYTRDm8VAIxUQeTECNFU4NvDMahtTPCtZ5kulrOkMYSynjekCqStQDqzXj1nlHEc4tyJME1gO-B1T9iiSe5na7YTkX4GLGDwRy0iq8X8RxYOLgFOb3wyLvch0kTfjUyW1qBqbw-TAjwhlgq8OLorz-IMLhsTJUaNEEWsyftmVZq2Y8GDDdI&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0UnJwLmOArxiEDYNJLIY__C-rLvm4Z9JV4RuRwV2oHD8AWjUqWF5fYHEECXdAbYQOLGu2V9jQ0qdggK1YfmpGXY9RzdXGth6yrGeMb1sXEaCDKCV3Y-J66SI6oFQxkLSNmlaIzvwtePgnAGJU0jzC1_e12jY9oNxQGzuOHa4pYTRDm8VAIxUQeTECNFU4NvDMahtTPCtZ5kulrOkMYSynjekCqStQDqzXj1nlHEc4tyJME1gO-B1T9iiSe5na7YTkX4GLGDwRy0iq8X8RxYOLgFOb3wyLvch0kTfjUyW1qBqbw-TAjwhlgq8OLorz-IMLhsTJUaNEEWsyftmVZq2Y8GDDdI"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYCwOK1t0egRnb9GtkaHPsIBWm7Vo-8kmh72HemR0SfF-yMZBotfqTyyoIEoLfruIrxIF7gf2i3uuezc3ollOBtAG5FaIOBndksgqnkELz7ulCSFdX34x75SPtKXCo1xOAHQ3gBokSySmMIqablutrq6Fta39MHvCCsEK0IVLrFXYgde87y3jEgbjrCn8KzPh1TSw_dek_uhbBo9LLlGJLX8qMi9u-6f28Yx_nYyc8NwU1h9FB7lm1jxcj-QMnWyd02vXkETvcGJC0EoBPm6Eec-0MdVmqtxlMcopFP63YG9xPHCpqcdDLyiQoC7d0v1a1U3RoED2QvStPJnwxxLdv4pIX4_vS30tRP-iKfqdYGNhTKHy",
+              "q": "SQL query intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYCwOK1t0egRnb9GtkaHPsIBWm7Vo-8kmh72HemR0SfF-yMZBotfqTyyoIEoLfruIrxIF7gf2i3uuezc3ollOBtAG5FaIOBndksgqnkELz7ulCSFdX34x75SPtKXCo1xOAHQ3gBokSySmMIqablutrq6Fta39MHvCCsEK0IVLrFXYgde87y3jEgbjrCn8KzPh1TSw_dek_uhbBo9LLlGJLX8qMi9u-6f28Yx_nYyc8NwU1h9FB7lm1jxcj-QMnWyd02vXkETvcGJC0EoBPm6Eec-0MdVmqtxlMcopFP63YG9xPHCpqcdDLyiQoC7d0v1a1U3RoED2QvStPJnwxxLdv4pIX4_vS30tRP-iKfqdYGNhTKHy&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYCwOK1t0egRnb9GtkaHPsIBWm7Vo-8kmh72HemR0SfF-yMZBotfqTyyoIEoLfruIrxIF7gf2i3uuezc3ollOBtAG5FaIOBndksgqnkELz7ulCSFdX34x75SPtKXCo1xOAHQ3gBokSySmMIqablutrq6Fta39MHvCCsEK0IVLrFXYgde87y3jEgbjrCn8KzPh1TSw_dek_uhbBo9LLlGJLX8qMi9u-6f28Yx_nYyc8NwU1h9FB7lm1jxcj-QMnWyd02vXkETvcGJC0EoBPm6Eec-0MdVmqtxlMcopFP63YG9xPHCpqcdDLyiQoC7d0v1a1U3RoED2QvStPJnwxxLdv4pIX4_vS30tRP-iKfqdYGNhTKHy"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rVm54FxM2x5B2SD1_0sC3mwSV8HNIFPAsaE2McYkZpdaZTA30_W0mbETv3aRTI8V1TN3rztE76GDBnfkBgHtGZCdn7RypzXbIPBBl_4Kd0_gWx8mQgk9QWUwUpJWnq27XeHZ5MaIAVjLJGI75whP71uC7lFppWKXh_Gr9q8iY2SOS5uCMaORJ9nPLP_uR2pbRcZgJhnHZMz5jqv2OGmmRA68yfmZhnx4_rjUOVPAh9NDyWc9Uvzb2qstBq5dnMq9yIKC_CPXp0gOGGBrcKfTUkFSCMiqQ1Tw2u-wCQEmEgQS12WGxeK09kKXTfxksT70XZRBGxrX58Obq8oW8_N03soxBQBgRQR0eKXFx1qAtKNcWNhlO",
+              "q": "SQL query intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVm54FxM2x5B2SD1_0sC3mwSV8HNIFPAsaE2McYkZpdaZTA30_W0mbETv3aRTI8V1TN3rztE76GDBnfkBgHtGZCdn7RypzXbIPBBl_4Kd0_gWx8mQgk9QWUwUpJWnq27XeHZ5MaIAVjLJGI75whP71uC7lFppWKXh_Gr9q8iY2SOS5uCMaORJ9nPLP_uR2pbRcZgJhnHZMz5jqv2OGmmRA68yfmZhnx4_rjUOVPAh9NDyWc9Uvzb2qstBq5dnMq9yIKC_CPXp0gOGGBrcKfTUkFSCMiqQ1Tw2u-wCQEmEgQS12WGxeK09kKXTfxksT70XZRBGxrX58Obq8oW8_N03soxBQBgRQR0eKXFx1qAtKNcWNhlO&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVm54FxM2x5B2SD1_0sC3mwSV8HNIFPAsaE2McYkZpdaZTA30_W0mbETv3aRTI8V1TN3rztE76GDBnfkBgHtGZCdn7RypzXbIPBBl_4Kd0_gWx8mQgk9QWUwUpJWnq27XeHZ5MaIAVjLJGI75whP71uC7lFppWKXh_Gr9q8iY2SOS5uCMaORJ9nPLP_uR2pbRcZgJhnHZMz5jqv2OGmmRA68yfmZhnx4_rjUOVPAh9NDyWc9Uvzb2qstBq5dnMq9yIKC_CPXp0gOGGBrcKfTUkFSCMiqQ1Tw2u-wCQEmEgQS12WGxeK09kKXTfxksT70XZRBGxrX58Obq8oW8_N03soxBQBgRQR0eKXFx1qAtKNcWNhlO"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4ruLIIYM44Ilf83fPQ-KfdpLMUhj7AFLziLPC3wlCAnJyN4GisPuDh0eXK_OhTUL3_6HjPNaR6XqJ2TcoHNmuyt65C5zVUtmIEAFbXHKlnzK4n1ipAUOzWINzBaWSslJnhUStMP_Fsdt9qEvP4ISNi0bhP3vxjQ9EPaDvnvtFUcZSmtnO7UXo5XvoOjlZQhAZxW36xWMDdVuD0jnzap_dER2tnvAQhBejwJyKB0sY7CAgmZ8bC_02YsV_CqWA-AHBhYb08PwQfNofLqGUkz_A6i4Mj-52qrJM9hOT933VQj5L0hHCaI3OxVN_kFyrfRwqofBLFcAOpAv0SzzsH9H-r0mJ7YMALllEDsweHvlS_Bnt5JMTJ",
+              "q": "SQL query intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4ruLIIYM44Ilf83fPQ-KfdpLMUhj7AFLziLPC3wlCAnJyN4GisPuDh0eXK_OhTUL3_6HjPNaR6XqJ2TcoHNmuyt65C5zVUtmIEAFbXHKlnzK4n1ipAUOzWINzBaWSslJnhUStMP_Fsdt9qEvP4ISNi0bhP3vxjQ9EPaDvnvtFUcZSmtnO7UXo5XvoOjlZQhAZxW36xWMDdVuD0jnzap_dER2tnvAQhBejwJyKB0sY7CAgmZ8bC_02YsV_CqWA-AHBhYb08PwQfNofLqGUkz_A6i4Mj-52qrJM9hOT933VQj5L0hHCaI3OxVN_kFyrfRwqofBLFcAOpAv0SzzsH9H-r0mJ7YMALllEDsweHvlS_Bnt5JMTJ&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4ruLIIYM44Ilf83fPQ-KfdpLMUhj7AFLziLPC3wlCAnJyN4GisPuDh0eXK_OhTUL3_6HjPNaR6XqJ2TcoHNmuyt65C5zVUtmIEAFbXHKlnzK4n1ipAUOzWINzBaWSslJnhUStMP_Fsdt9qEvP4ISNi0bhP3vxjQ9EPaDvnvtFUcZSmtnO7UXo5XvoOjlZQhAZxW36xWMDdVuD0jnzap_dER2tnvAQhBejwJyKB0sY7CAgmZ8bC_02YsV_CqWA-AHBhYb08PwQfNofLqGUkz_A6i4Mj-52qrJM9hOT933VQj5L0hHCaI3OxVN_kFyrfRwqofBLFcAOpAv0SzzsH9H-r0mJ7YMALllEDsweHvlS_Bnt5JMTJ"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJCsdAcZiNY91RJRBwG51Lqw1lBbTs9fUWF-rYDVN6SbS5vfX79FsEH86VkkbGULR7l7fagdy7gRDBFKEIn9uPK7I9p1qKXNIisU57Q5ipKjjxuVTYmTuV1HDFrSR_qYtaKHmPOm0v4BlabHy5EQX4Z0XDm3Hsc2cvMWTTb_xo5gXdVTmoDXdOFsm0AHmMtcLDTqJV768OCRDbSoPWzxxVcgN1fIb0NaXpxCefICs45HH9eCBPY5ry6o_mMKzcZDkkToINTKSbdqAvfQig5OL14ltae8ANWAkYfp_BUwsS2tJSZ83raFNndxUQ136_KvSoNtCxG7aLl7FXegNqsxdhEVNvCX5",
+              "q": "SQL query intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJCsdAcZiNY91RJRBwG51Lqw1lBbTs9fUWF-rYDVN6SbS5vfX79FsEH86VkkbGULR7l7fagdy7gRDBFKEIn9uPK7I9p1qKXNIisU57Q5ipKjjxuVTYmTuV1HDFrSR_qYtaKHmPOm0v4BlabHy5EQX4Z0XDm3Hsc2cvMWTTb_xo5gXdVTmoDXdOFsm0AHmMtcLDTqJV768OCRDbSoPWzxxVcgN1fIb0NaXpxCefICs45HH9eCBPY5ry6o_mMKzcZDkkToINTKSbdqAvfQig5OL14ltae8ANWAkYfp_BUwsS2tJSZ83raFNndxUQ136_KvSoNtCxG7aLl7FXegNqsxdhEVNvCX5&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJCsdAcZiNY91RJRBwG51Lqw1lBbTs9fUWF-rYDVN6SbS5vfX79FsEH86VkkbGULR7l7fagdy7gRDBFKEIn9uPK7I9p1qKXNIisU57Q5ipKjjxuVTYmTuV1HDFrSR_qYtaKHmPOm0v4BlabHy5EQX4Z0XDm3Hsc2cvMWTTb_xo5gXdVTmoDXdOFsm0AHmMtcLDTqJV768OCRDbSoPWzxxVcgN1fIb0NaXpxCefICs45HH9eCBPY5ry6o_mMKzcZDkkToINTKSbdqAvfQig5OL14ltae8ANWAkYfp_BUwsS2tJSZ83raFNndxUQ136_KvSoNtCxG7aLl7FXegNqsxdhEVNvCX5"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYCwOK1t0egRnb9GtkaHPsIBWm7Vo-8kmh72HemR0SfF-yMZBotfqTyyoIEoLfruIrxIF7gf2i3uuezc3ollOBtAG5FaIOBndksgqnkELz7ulCSFdX34x75SPtKXCo1xOAHQ3gBokSySmMIqablutrq6Fta39MHvCCsEK0IVLrFXYgde87y3jEgbjrCn8KzPh1TSw_dek_uhbBo9LLlGJLX8qMi9u-6f28Yx_nYyc8NwU1h9FB7lm1jxcj-QMnWyd02vXkETvcGJC0EoBPm6Eec-0MdVmqtxlMcopFP63YG9xPHCpqcdDLyiQoC7d0v1a1U3RoED2QvStPJnwxxLdv4pIX4_vS30tRP-iKfqdYGNhTKHy",
+              "q": "SQL query intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYCwOK1t0egRnb9GtkaHPsIBWm7Vo-8kmh72HemR0SfF-yMZBotfqTyyoIEoLfruIrxIF7gf2i3uuezc3ollOBtAG5FaIOBndksgqnkELz7ulCSFdX34x75SPtKXCo1xOAHQ3gBokSySmMIqablutrq6Fta39MHvCCsEK0IVLrFXYgde87y3jEgbjrCn8KzPh1TSw_dek_uhbBo9LLlGJLX8qMi9u-6f28Yx_nYyc8NwU1h9FB7lm1jxcj-QMnWyd02vXkETvcGJC0EoBPm6Eec-0MdVmqtxlMcopFP63YG9xPHCpqcdDLyiQoC7d0v1a1U3RoED2QvStPJnwxxLdv4pIX4_vS30tRP-iKfqdYGNhTKHy&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYCwOK1t0egRnb9GtkaHPsIBWm7Vo-8kmh72HemR0SfF-yMZBotfqTyyoIEoLfruIrxIF7gf2i3uuezc3ollOBtAG5FaIOBndksgqnkELz7ulCSFdX34x75SPtKXCo1xOAHQ3gBokSySmMIqablutrq6Fta39MHvCCsEK0IVLrFXYgde87y3jEgbjrCn8KzPh1TSw_dek_uhbBo9LLlGJLX8qMi9u-6f28Yx_nYyc8NwU1h9FB7lm1jxcj-QMnWyd02vXkETvcGJC0EoBPm6Eec-0MdVmqtxlMcopFP63YG9xPHCpqcdDLyiQoC7d0v1a1U3RoED2QvStPJnwxxLdv4pIX4_vS30tRP-iKfqdYGNhTKHy"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rVm54FxM2x5B2SD1_0sC3mwSV8HNIFPAsaE2McYkZpdaZTA30_W0mbETv3aRTI8V1TN3rztE76GDBnfkBgHtGZCdn7RypzXbIPBBl_4Kd0_gWx8mQgk9QWUwUpJWnq27XeHZ5MaIAVjLJGI75whP71uC7lFppWKXh_Gr9q8iY2SOS5uCMaORJ9nPLP_uR2pbRcZgJhnHZMz5jqv2OGmmRA68yfmZhnx4_rjUOVPAh9NDyWc9Uvzb2qstBq5dnMq9yIKC_CPXp0gOGGBrcKfTUkFSCMiqQ1Tw2u-wCQEmEgQS12WGxeK09kKXTfxksT70XZRBGxrX58Obq8oW8_N03soxBQBgRQR0eKXFx1qAtKNcWNhlO",
+              "q": "SQL query intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVm54FxM2x5B2SD1_0sC3mwSV8HNIFPAsaE2McYkZpdaZTA30_W0mbETv3aRTI8V1TN3rztE76GDBnfkBgHtGZCdn7RypzXbIPBBl_4Kd0_gWx8mQgk9QWUwUpJWnq27XeHZ5MaIAVjLJGI75whP71uC7lFppWKXh_Gr9q8iY2SOS5uCMaORJ9nPLP_uR2pbRcZgJhnHZMz5jqv2OGmmRA68yfmZhnx4_rjUOVPAh9NDyWc9Uvzb2qstBq5dnMq9yIKC_CPXp0gOGGBrcKfTUkFSCMiqQ1Tw2u-wCQEmEgQS12WGxeK09kKXTfxksT70XZRBGxrX58Obq8oW8_N03soxBQBgRQR0eKXFx1qAtKNcWNhlO&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rVm54FxM2x5B2SD1_0sC3mwSV8HNIFPAsaE2McYkZpdaZTA30_W0mbETv3aRTI8V1TN3rztE76GDBnfkBgHtGZCdn7RypzXbIPBBl_4Kd0_gWx8mQgk9QWUwUpJWnq27XeHZ5MaIAVjLJGI75whP71uC7lFppWKXh_Gr9q8iY2SOS5uCMaORJ9nPLP_uR2pbRcZgJhnHZMz5jqv2OGmmRA68yfmZhnx4_rjUOVPAh9NDyWc9Uvzb2qstBq5dnMq9yIKC_CPXp0gOGGBrcKfTUkFSCMiqQ1Tw2u-wCQEmEgQS12WGxeK09kKXTfxksT70XZRBGxrX58Obq8oW8_N03soxBQBgRQR0eKXFx1qAtKNcWNhlO"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4ruLIIYM44Ilf83fPQ-KfdpLMUhj7AFLziLPC3wlCAnJyN4GisPuDh0eXK_OhTUL3_6HjPNaR6XqJ2TcoHNmuyt65C5zVUtmIEAFbXHKlnzK4n1ipAUOzWINzBaWSslJnhUStMP_Fsdt9qEvP4ISNi0bhP3vxjQ9EPaDvnvtFUcZSmtnO7UXo5XvoOjlZQhAZxW36xWMDdVuD0jnzap_dER2tnvAQhBejwJyKB0sY7CAgmZ8bC_02YsV_CqWA-AHBhYb08PwQfNofLqGUkz_A6i4Mj-52qrJM9hOT933VQj5L0hHCaI3OxVN_kFyrfRwqofBLFcAOpAv0SzzsH9H-r0mJ7YMALllEDsweHvlS_Bnt5JMTJ",
+              "q": "SQL query intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4ruLIIYM44Ilf83fPQ-KfdpLMUhj7AFLziLPC3wlCAnJyN4GisPuDh0eXK_OhTUL3_6HjPNaR6XqJ2TcoHNmuyt65C5zVUtmIEAFbXHKlnzK4n1ipAUOzWINzBaWSslJnhUStMP_Fsdt9qEvP4ISNi0bhP3vxjQ9EPaDvnvtFUcZSmtnO7UXo5XvoOjlZQhAZxW36xWMDdVuD0jnzap_dER2tnvAQhBejwJyKB0sY7CAgmZ8bC_02YsV_CqWA-AHBhYb08PwQfNofLqGUkz_A6i4Mj-52qrJM9hOT933VQj5L0hHCaI3OxVN_kFyrfRwqofBLFcAOpAv0SzzsH9H-r0mJ7YMALllEDsweHvlS_Bnt5JMTJ&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4ruLIIYM44Ilf83fPQ-KfdpLMUhj7AFLziLPC3wlCAnJyN4GisPuDh0eXK_OhTUL3_6HjPNaR6XqJ2TcoHNmuyt65C5zVUtmIEAFbXHKlnzK4n1ipAUOzWINzBaWSslJnhUStMP_Fsdt9qEvP4ISNi0bhP3vxjQ9EPaDvnvtFUcZSmtnO7UXo5XvoOjlZQhAZxW36xWMDdVuD0jnzap_dER2tnvAQhBejwJyKB0sY7CAgmZ8bC_02YsV_CqWA-AHBhYb08PwQfNofLqGUkz_A6i4Mj-52qrJM9hOT933VQj5L0hHCaI3OxVN_kFyrfRwqofBLFcAOpAv0SzzsH9H-r0mJ7YMALllEDsweHvlS_Bnt5JMTJ"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJCsdAcZiNY91RJRBwG51Lqw1lBbTs9fUWF-rYDVN6SbS5vfX79FsEH86VkkbGULR7l7fagdy7gRDBFKEIn9uPK7I9p1qKXNIisU57Q5ipKjjxuVTYmTuV1HDFrSR_qYtaKHmPOm0v4BlabHy5EQX4Z0XDm3Hsc2cvMWTTb_xo5gXdVTmoDXdOFsm0AHmMtcLDTqJV768OCRDbSoPWzxxVcgN1fIb0NaXpxCefICs45HH9eCBPY5ry6o_mMKzcZDkkToINTKSbdqAvfQig5OL14ltae8ANWAkYfp_BUwsS2tJSZ83raFNndxUQ136_KvSoNtCxG7aLl7FXegNqsxdhEVNvCX5",
+              "q": "SQL query intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&gl=in&hl=en&sxsrf=APpeQnvGdv_iI6unNRFXWAOqkIx0ndl4QQ:1791602368392&q=SQL+query+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJCsdAcZiNY91RJRBwG51Lqw1lBbTs9fUWF-rYDVN6SbS5vfX79FsEH86VkkbGULR7l7fagdy7gRDBFKEIn9uPK7I9p1qKXNIisU57Q5ipKjjxuVTYmTuV1HDFrSR_qYtaKHmPOm0v4BlabHy5EQX4Z0XDm3Hsc2cvMWTTb_xo5gXdVTmoDXdOFsm0AHmMtcLDTqJV768OCRDbSoPWzxxVcgN1fIb0NaXpxCefICs45HH9eCBPY5ry6o_mMKzcZDkkToINTKSbdqAvfQig5OL14ltae8ANWAkYfp_BUwsS2tJSZ83raFNndxUQ136_KvSoNtCxG7aLl7FXegNqsxdhEVNvCX5&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwjdl_z1vq6XAxVph68BHb_fGKEQkbEKegQIGxAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=SQL+query+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJCsdAcZiNY91RJRBwG51Lqw1lBbTs9fUWF-rYDVN6SbS5vfX79FsEH86VkkbGULR7l7fagdy7gRDBFKEIn9uPK7I9p1qKXNIisU57Q5ipKjjxuVTYmTuV1HDFrSR_qYtaKHmPOm0v4BlabHy5EQX4Z0XDm3Hsc2cvMWTTb_xo5gXdVTmoDXdOFsm0AHmMtcLDTqJV768OCRDbSoPWzxxVcgN1fIb0NaXpxCefICs45HH9eCBPY5ry6o_mMKzcZDkkToINTKSbdqAvfQig5OL14ltae8ANWAkYfp_BUwsS2tJSZ83raFNndxUQ136_KvSoNtCxG7aLl7FXegNqsxdhEVNvCX5"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "SQL Developer Fresher Interns (Bengaluru)",
+        "company_name": "Gigafactor Solutions",
+        "location": "Bengaluru, Karnataka",
+        "via": "Jobrapido.com",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=SQL+query+intern&htidocid=7LrGFQdvvCV834UlAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_z2NMQrCQBAAsc0TrLZUCYkINtoFMYg2kgeETVjvouftcbuRlP7Bh_gnX2JsbGaqYZL3JCmq8wl29CDHgSLsI4kdffBK0QvMCvIGXR_7OXyeL7hyA0IYWwvsoWQ2jqZbqxpkk-ciLjOiqF2btXzP2VPDQz5G8kMtFiMFh0r1ar0csuDNIi07gxdslSNU7HrtePx2Hv7nFI4YPSre8Avx41VHsgAAAA&shmds=v1_ARwrE22iAOcsSpJ2PZCwjl2eyub0gPzxM_5C9yqnxtC3ZGHicQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=SQL+query+intern&htidocid=7LrGFQdvvCV834UlAAAAAA%3D%3D",
+        "extensions": [
+          "4 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.jobrapido.com/jobpreview/3871929370431979520",
+        "job_title": "SQL Developer Fresher Interns (Bengaluru)",
+        "description": "The SQL MySQL Developer plays a crucial role in the design, development, and maintenance of databases, as well as the implementation and optimization of SQL queries. This role is essential in ensuring the efficient management and utilization of data within an organization by leveraging the capabilities of MySQL databases.  \nThis is a Remote Position.  \n\nKey responsibilities  \n- Design, develop, and maintain complex SQL queries and stored procedures.  \n\n-  \n- Optimize and improve existing SQL queries for performance and scalability.  \n- Work closely with cross-functional teams to understand database requirements and implement efficient database solutions.  \n- Monitor and ensure the integrity and security of databases, including backup and recovery processes.  \n- Perform data analysis to identify trends, patterns, and insights to support business decision-making.  \n- Collaborate with software developers to integrate database functionality into applications.  \n- Conduct performance tuning and optimization of databases for maximum efficiency.  \n- Create and maintain documentation of database processes and procedures.  \n- Troubleshoot and resolve database-related issues and errors in a timely manner.  \n- Implement and maintain database security measures to protect sensitive data.  \n\nRequired qualifications  \n- Apprentice or Bachelor's degree in Computer Science, Information Technology, or a related field.  \n- Understanding of relational database management systems and SQL principles.  \n- Knowledge of MySQL database administration and development.  \n- Proficiency in writing and optimizing SQL queries and stored procedures.  \n- Experience working with database design, normalization, and performance tuning.  \n- Ability to collaborate effectively with cross-functional teams and communicate technical concepts to non-technical stakeholders.  \n- Solid analytical and problem-solving skills for data analysis and troubleshooting.  \n- Understanding of data security and compliance standards.  \n- Knowledge of software developme",
+        "apply_options": [
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/3871929370431979520?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTUUwgRGV2ZWxvcGVyIEZyZXNoZXIgSW50ZXJucyAoQmVuZ2FsdXJ1KSIsImNvbXBhbnlfbmFtZSI6IkdpZ2FmYWN0b3IgU29sdXRpb25zIiwiaHRpZG9jaWQiOiI3THJHRlFkdnZDVjgzNFVsQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFRDMVZOVlpOTUZwWmRreEVjRlF0VEVwbFNtaDNOVE4xVUZoQk1TMXpVSGx3YUZOa1kySk9PSFJJVmxWc1pXTm9jM0U0YVZSTVpVZHhVbVJNVTB4dFRFUXRUWEJETWxvdFFubERkamxrVjBWSlVFcHJabmRKU25kdU1qWnpkSEEwVUVWSlRYWk5ObmxJUzFoUVVXUnZORTlITVZneVpEbDJNVk4zZG5GdVNXOXRhbEl4U1ZjU0YzZExOMHBoZERJelJpMXRUM1p5TUZCMk4xOXFhVUZ2R2lKQlJITnlPV1pSWjFKT01HcDBPVXhsVWw4MFZUSTBhRkoxTUZSRE1HaEVVVWwzIiwiZmN2IjoiMyIsImZjX2lkIjoiN0xyR0ZRZHZ2Q1Y4MzRVbEFBQUFBQT09In0="
+      },
+      {
+        "title": "Snowflake + SQL (Advanced) - Technical Lead/Technical Specialist (Pune)",
+        "company_name": "CitiusTech",
+        "location": "Pune, Maharashtra",
+        "via": "Jobrapido.com",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=SQL+query+intern&htidocid=H9pXQUI6YJkgg9E8AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_0WNPQ6CQBBGY8sRbJwS_GGNiY1WxsIGEw32OCwju7ruEmZRSu_ghTyLJxEqm5d8yfvygs8gOKfWPS8GbwQTSI8JhJvigVZSEcEMTiSV1RINJISF-M-0IqnRaPYQHhpLEXxfb7i6HJiwlgqchZ1zpaHhWnlf8UoIZhOX7NFrGUt3F85S7lrRnbhHxgprqgx6yhbLeRtXthyPttrrhvswaAt9agp77Exk5Wv8AXtFxJ7DAAAA&shmds=v1_ARwrE20-1YhDTXy4yDLDs0zhbd-GBtd6jfdHqGVOAecTPeMURA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=SQL+query+intern&htidocid=H9pXQUI6YJkgg9E8AAAAAA%3D%3D",
+        "extensions": [
+          "6 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.jobrapido.com/jobpreview/2769452359795867648",
+        "job_title": "Snowflake + SQL (Advanced) - Technical Lead/Technical Specialist (Pune)",
+        "description": "- Job ID: 887412\n\n- 5 - 15 Years \n\n- 1 Opening \n- CT Pune Qubix SEZ1, CitiusTech Bangalore SEZ1, CitiusTech Chennai SEZ, CitiusTech SEZ3\n\n-   \n\n- Role description\n\nWho we are\n\nCitiusTech - Shaping Healthcare Possibilities.\n\nCitiusTech is a global IT services, consulting, and business solutions enterprise 100% focused on the healthcare and life sciences industry. We enable 140+ enterprises to build a human-first ecosystem that is efficient, effective, and equitable with deep domain expertise and next-gen technology. With over 8,500 healthcare technology professionals worldwide, CitiusTech powers healthcare digital innovation, business transformation, and industry-wide convergence through next-generation technologies, solutions, and products.\n\nOur Purpose   \nWe are shaping healthcare possibilities to make our clients\u2019 businesses successful, which is not just a statement but our purpose, driving us to explore what\u2019s next in healthcare.\n\nOur goal is clear: to make healthcare better for all \u2013 more efficient, effective, and equitable. We are investing in people, technology, innovation, and partnerships to create meaningful change. We see technology not just as a tool but as a catalyst that amplifies human ingenuity to solve complex healthcare challenges.\n\n100% healthcare focus | Trusted by 140+ healthcare and life sciences enterprises | 40% of Fortune 500 healthcare enterprises are our clients | #1 Rated as a leader by top analyst firms \n\nOur vision\n\nTo inspire new possibilities for the health ecosystem with technology and human ingenuity.\n\nWhat is in it for you?\n\nAs a Technical Lead \u2013 Snowflake + SQL, you will be a part of an Agile team to design and build healthcare applications and implement new features while adhering to the best coding development standards.\n\nResponsibilities: -\n\n- Data profiling to identify primary keys and issues with the data.\n- Write ETL to bring data onto the client Data Platform, de-duplicate data, create or update dimensional data structures, and produce use case-specific output.\n- Interact with the Product team to understand and refine requirements.\n- Interact with QA to address reported findings.\n- Work individually and as a team to achieve goals.\n- Take initiative to take on additional work if the present workstream slows down.\n- Mentor junior team members and help to bring new team members in the team.\n\nExperience: -\n\n- 5 - 7 Years\n\nLocation: -\n\n- Pune\n- Chennai\n- Bangalore\n- Mumbai\n\nEducational Qualifications: -\n\n- Engineering Degree \u2013 BE/ME/BTech/MTech/BSc/MSc.\n- Technical certification in multiple technologies is desirable.\n\nSkills: -\n\nMandatory Skills: -\n\n- SQL: Must be familiar with common table elements (CTEs), complex joins, and analytic and windowing functions\n- Python\n- Snowflake\n- Data Profiling: Must be able to identify unique and primary keys and determine cardinality, data type, precision, and scale, and skew\n- Effective communication skills to communicate internally within the team and externally across other teams, notably Product and QA\n- Understands the scope and context of the work and takes initiative to achieve the goals, rather than waiting to take specific directions\n\nGood to Have Skills: -\n\n- Healthcare Industry (Payer experience)\n- Data Modeling\n- Python\n\nOur commitment\n\nTo combine the best of IT services, consulting, products, accelerators, and frameworks with a client-first mindset and next-gen tech understanding. Together, we\u2019re humanizing healthcare to make a positive impact on human lives.\n\nWhat drives us\n\nAt CitiusTech, we believe in making a tangible difference in healthcare. We constantly explore new ways to transform the industry, from AI-driven solutions to advanced data analytics and cloud computing. Our collaborative culture, combined with a relentless drive for excellence, positions us as innovators reshaping the healthcare landscape, one solution at a time.\n\nLife@CitiusTech\n\nWe focus on building highly motivated engineering teams and thought leaders with an entrepreneurial mindset centered on our core values of Passion, Respect, Openness, Unity, and Depth (PROUD) of knowledge. Our success lies in creating a fun, transparent, non-hierarchical, diverse work culture that focuses on continuous learning and work-life balance.\n\nRated by our employees as the \u2018Great Place to Work for\u2019 according to the Outstanding Place to Work survey. We offer you comprehensive benefits to ensure you have a long and rewarding career with us.\n\nOur EVP\n\nBe You Be Awesome is our EVP. It reflects our continuing efforts to create CitiusTech as a great workplace where our employees can thrive, personally and professionally. It encompasses the unique benefits and opportunities we offer to support your growth, well-being, and success throughout your journey with us and beyond. Together with our clients, we are solving some of the greatest healthcare challenges and positively impacting human lives. Welcome to the world of Faster Growth, Higher Learning, and Stronger Impact.\n\nHere is an opportunity for you to make a difference and collaborate with global leaders to shape the future of healthcare and positively impact human lives.\n\nTo learn more about CitiusTech, visit and follow us on \n\nHappy applying!\n\nSkills\n\nSnowflake+ Matillion   \nSnowflake+ SQL   \nAWS Glue+Python   \nPython+ Advanced Sql+ Azure   \nDatabricks, python, pyspark, strong sql background OR Databricks, Python, Dimensional Modelling & Data warehousing   \nSnowflake + ADF + Python   \nMS SQL Server, T\u2011SQL, stored procedures, indexing & performance tuning   \nOracle PL/SQL (functions, stored procedures, triggers, packages) and performance tuning   \nPython,Snowflake,CI/CD usage experience & Streamlit   \nPowerBI + Advanced SQL + Healthcare   \nPython +Pyspark + AWS + Glue   \nSnowflake + ADF - Senior Solution Architect\n\nAbout CitiusTech\n\nCitiusTech is a global technology services, consulting, and business solutions enterprise 100% focused on the healthcare and life sciences industry. We enable 140+ enterprises to build a human-first ecosystem that is efficient, effective, and equitable. Leveraging deep domain expertise and next-generation technologies including AI, Cloud, Data, and Intelligent Automation, we assist our clients to realize their vision, accelerate transformation, and achieve business outcomes. With 7,700+ healthcare technology professionals worldwide, CitiusTech powers digital innovation, business transformation, and industry-wide convergence through next-generation technologies, solutions, and products.",
+        "apply_options": [
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/2769452359795867648?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTbm93Zmxha2UgKyBTUUwgKEFkdmFuY2VkKSAtIFRlY2huaWNhbCBMZWFkL1RlY2huaWNhbCBTcGVjaWFsaXN0IChQdW5lKSIsImNvbXBhbnlfbmFtZSI6IkNpdGl1c1RlY2giLCJodGlkb2NpZCI6Ikg5cFhRVUk2WUprZ2c5RThBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU3poWmNtbGpiRjkzYlhCVFNubzRha2QyV25Wb1N6UlNSSE5IUVhWSmJIbEhjVGc0V2tseU9YQk1PVVJDUTJkeWNGUlpXVk5wY2xWa2NUSnJlR3RvVjFsVVJHeFhSWEJtZGpneGFYVkJhMlpTYldZeldrZGhUVTVRTjB4U1VTMUphVzB4ZVVKNVNFSTFOa1kzVlVOaVVVVjZSR1pCWVdoYWEyOVlUVWRZTkhaWlJqWlNWRElTRjNkTE4wcGhkREl6UmkxdFQzWnlNRkIyTjE5cWFVRnZHaUpCUkhOeU9XWlVZMEZCUVc1eGNIWk5hM0kyYlVOSWNTMW1ORGhuY2xvME5HdEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJIOXBYUVVJNllKa2dnOUU4QUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Senior Database Performance & Benchmark Engineer (Bengaluru)",
+        "company_name": "NOKIA",
+        "location": "Bengaluru, Karnataka",
+        "via": "Jobrapido.com",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=SQL+query+intern&htidocid=E-zlc8wWUQcyPam1AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_z2OMQrCQBBFsc0RBGEqUZFEBButFEUkoIJYy2QZd2OSmTC7gZTewaN4I09ibGx-8eDxfvTuRdcLcS4KWwyYoSc4k95FK2RDMIQNsXEVagE7tjkTKYw6ZrFstBnD5_mCh2TgCdU4EIa9iC2pv3Ih1H6ZJN6XsfUBQ25iI1UiTJm0SSf539y8Q6W6xEC3-WLWxjXbyeB4Sg9ryBn-qSmkqNx9LPALl1FfyLYAAAA&shmds=v1_ARwrE21m2d-GFA3QvEDGTNwutIfy_Oes7FFf2dnPeYpQqIgCuA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=SQL+query+intern&htidocid=E-zlc8wWUQcyPam1AAAAAA%3D%3D",
+        "extensions": [
+          "6 days ago",
+          "Internship"
+        ],
+        "source_link": "https://in.jobrapido.com/jobpreview/8571889679895363584",
+        "job_title": "Senior Database Performance & Benchmark Engineer (Bengaluru)",
+        "description": "Senior Database Performance & Benchmark Engineer, the responsible for designing and executing rigorous testing strategies across a complex hybrid environment consisting of large-scale on-premises SQL Server instances and public cloud managed database services. You will act as the bridge between infrastructure engineering, database administration, and application development to ensure our systems are resilient, highly scalable, and optimized for peak production workloads.\n\nResponsibilities\n\n- Hybrid Benchmarking & Load Testing: Design, script, and execute comprehensive load, stress, and endurance tests utilizing synthetic tools (e.g., HammerDB, OStress, Apache JMeter) and production replay tools (e.g., WorkloadTools, DEA).\n- Performance Telemetry & Monitoring: Establish performance baselines and build continuous monitoring dashboards utilizing OS-level metrics (PerfMon/Linux Sysstat) and SQL Server Dynamic Management Views (DMVs). \n\n- Cloud Migration & Scaling Validation: Benchmark on-premises workloads and simulate equivalent performance in public cloud environments (such as AWS RDS/EC2, Azure SQL, or GCP Cloud SQL) to accurately size cloud infrastructure and control costs. \n\n- Bottleneck Isolation & Optimization: Analyze execution plans, identify plan regressions, and isolate resource contention bottlenecks (CPU, Memory, Disk I/O, TempDB, and network latency).\n- Concurrency & Lock Management: Diagnose and resolve complex locking, blocking, and deadlock scenarios discovered during high-concurrency simulation cycles.\n- Cross-Functional Collaboration: Partner with Performance QA, DevOps, Infrastructure, and Application teams to establish quality gates and provide actionable code/indexing optimization recommendations. \n\nQualifications\n\nMust-Have:\n\n- Bachelor\u2019s degree in computer science, information technology, engineering, or a related discipline, or equivalent with 7+ years of experience in dedicated database administration (DBA), database engineering, or specialized database performance testing experience.\n- Hybrid Setting Mastery: Proven track record managing or benchmarking both traditional on-premises enterprise hardware and public cloud architectures (AWS, Azure, or GCP).\n- Deep SQL Server Internals: Expert-level knowledge of SQL Server query optimization, execution plan analysis, Query Store, Extended Events (XEvents), and system DMVs and Extensive experience setting up and operating database benchmarking suites such as HammerDB, SQLQueryStress, OStress, or similar automated simulation frameworks.\n- Solid understanding of underlying storage configurations (SAN, NVMe, Cloud IOPS allocations), virtualization layers, and network latency mechanics in hybrid setups and Scripting & Automation: Proficiency in PowerShell, T-SQL, or Python to automate test deployments, data generation, and telemetry collection. \n\n- Experience with cloud native infrastructure-as-code tools (e.g., Terraform) to spin up and tear down transient performance testing sandboxes and Experience with production workload masking and synchronization methodologies to generate high-fidelity, non-sensitive testing datasets.\n\nNice-To-Have:\n\n- Relevant certifications such as Azure Database Administrator Associate or historical Microsoft SQL Server certifications.\n\nAdvancing connectivity to secure a brighter world. Nokia is a global leader in connectivity for the AI era. \n\nWith expertise across fixed, mobile and transport networks, powered by the innovation of Nokia Bell Labs, we\u2019re advancing connectivity to secure a brighter world.\n\nLearn more about life at Nokia.\n\nOur recruitment process\n\nWe act inclusively and respect the uniqueness of people. Our employment decisions are made regardless of race, color, national or ethnic origin, religion, gender, sexual orientation, gender identity or expression, age, marital status, disability, protected veteran status or other characteristics protected by law. We are committed to a culture of inclusion built upon our core value of respect. \n\nIf you\u2019re interested in this role but don\u2019t meet every listed requirement, we still encourage you to apply. Unique backgrounds, perspectives, and experiences enrich our teams, and you may be just the right candidate for this or another opportunity.\n\nThe length of the recruitment process may vary depending on the specific role's requirements. We strive to ensure a smooth and inclusive experience for all candidates. Discover more about the recruitment process at Nokia.",
+        "apply_options": [
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/8571889679895363584?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          },
+          {
+            "title": "Kit Job",
+            "link": "https://www.kitjob.in/job/341935667/performance-analysis-architect-bengaluru?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgRGF0YWJhc2UgUGVyZm9ybWFuY2UgXHUwMDI2IEJlbmNobWFyayBFbmdpbmVlciAoQmVuZ2FsdXJ1KSIsImNvbXBhbnlfbmFtZSI6Ik5PS0lBIiwiaHRpZG9jaWQiOiJFLXpsYzh3V1VRY3lQYW0xQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFRHMXFRVFI0Y0ZadlVXaFBYM1JTTjJSNFYxUlpjREEyWkUwNVF6RmFhMUppZWpOblVsOW1lVTEzWjBSUVVtdHdOMmRsTmtrdFkwOXNiM2RzVG05b2FqUklNWGQzWTNwTlZYY3hVekZmVUMwMVQwb3Rja2RDUjJvd1Z6bGZSWEZ4UmtadGVIWm9YMjA0VldacVdHUjJUVGswTkhCVFZsVmZVWEZsYW5wNWNsQXlZbVZMYVRrU0YzZExOMHBoZERJelJpMXRUM1p5TUZCMk4xOXFhVUZ2R2lKQlJITnlPV1pUVFhoeFl6UjNTRzUwU1RBNGEwbDZiRFpCTld4TVpVZEtiRXhCIiwiZmN2IjoiMyIsImZjX2lkIjoiRS16bGM4d1dVUWN5UGFtMUFBQUFBQT09In0="
+      },
+      {
+        "title": "Kuziva Zviso Kwakazara Uchishandisa SQL Database Project 2026 Internship neChitupa",
+        "company_name": "EasyShiksha",
+        "location": "Anywhere",
+        "via": "EasyShiksha",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=SQL+query+intern&htidocid=zbCvDLYnTQeA2kEBAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWNO67CQAwARUtNReWaIkGRoIASEEJQgBANDXIWK2sS1qu1-VbcgQu9s7yTvLxmmtFouj-dbr2-vfmOcLyzCqwfWOMbE8LBeVaP4cyKsN9tYI6GJSrBNsmFnEExLMawCkYpqOcIgWae7RYRfj9fuEgJSpicBwmwFKka6k-9WdRJnqs2WaWGxi5zcs0lUCnPvI30H6f2nCg2aHQqRsNnFkM16C1QX3vPdSuBQ7s-M_4B7GyUSsMAAAA&shmds=v1_ARwrE20T-I1xHx2qrxZqIJNknWFIbP8QWbgEt5uILkWbUH8n9g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=SQL+query+intern&htidocid=zbCvDLYnTQeA2kEBAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9aeb800a7fb38fa7e9085/images/tLW37ZwlqkBCGAPVXJ-fCDTwxRu4r6-ikRGne3oEGHs.jpeg",
+        "extensions": [
+          "4 days ago",
+          "Work from home",
+          "Internship"
+        ],
+        "source_link": "https://easyshiksha.com/sn/online_courses/complete-face-recognition-using-sql-database-project",
+        "job_title": "Kuziva Zviso Kwakazara Uchishandisa SQL Database Project 2026 Internship neChitupa",
+        "description": "Vaka sisitimu yakazara yekuziva chiso uchishandisa Python neSQL, uchitora, uchinyora, uye uchichengeta ruzivo rwechiso kuti ruzivikanwe uye rutongwe panguva chaiyo. Inosanganisira internship online ne chitupa.",
+        "apply_options": [
+          {
+            "title": "EasyShiksha",
+            "link": "https://easyshiksha.com/sn/online_courses/complete-face-recognition-using-sql-database-project?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJLdXppdmEgWnZpc28gS3dha2F6YXJhIFVjaGlzaGFuZGlzYSBTUUwgRGF0YWJhc2UgUHJvamVjdCAyMDI2IEludGVybnNoaXAgbmVDaGl0dXBhIiwiY29tcGFueV9uYW1lIjoiRWFzeVNoaWtzaGEiLCJodGlkb2NpZCI6InpiQ3ZETFluVFFlQTJrRUJBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1dabWRVRnhhV3BDTUZaV1ZtWkRRbHBHUlMxUGRGRmtjV1Z5U2pRMlZYQk9YemhuVlRsR1NGUlhZa3BaYW10aFlXWTNkV05HU1U5d1JGSmllRkZ3ZUROM1JrMVFUWEYxU3psdk9FeDZOR2RVVnpOYU9WVm1OSEp6ZEhaclRGcDZUM2gxY3pBeWFHTmpWbGROTFdJeFoydFFZVEZoUTNocVEzTmlkVGh1YlVkSGNWQTViRU1TRjNkTE4wcGhkREl6UmkxdFQzWnlNRkIyTjE5cWFVRnZHaUpCUkhOeU9XWlNSa2hPWm10b1JEWlJialYwUzFsU05ESmhiVk51YjJsQlpWVkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJ6YkN2RExZblRRZUEya0VCQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Komplet ansigtsgenkendelse ved hj\u00e6lp af SQL-database Projekt 2026 Praktikplads med certifikat",
+        "company_name": "EasyShiksha",
+        "location": "Anywhere",
+        "via": "EasyShiksha",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=SQL+query+intern&htidocid=_qO-hNpuMQhofOygAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWMMWrDQBBFcevalaupDZGMwC6S2oRgFw46gBhpx7urXe0smiFxutwhd8hF0voUPok3zYfH4_3lbbH8PPKUIylgEm9VLKVAyVAUgg8y4Ma_35gBL9C-n54MKvZY1HnmkYJCs232BTCoDzmiEZhKNNCs_uIDKty_f2DkHoRwHhxwgldmG2n94lSzPNe1SKysKKofqoGnmhP1fK1LJP_TicOZyrdS1-y21yonu1kdUL5a50OR4BO8JePxAR3R24nPAAAA&shmds=v1_ARwrE2325IV6AUpQbaBxzbPn_PtMivePTpTr5r7_J7RJuKESCA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=SQL+query+intern&htidocid=_qO-hNpuMQhofOygAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9aeb800a7fb38fa7e9085/images/UGlTZJmkFFxnu1_l79PIuhidU6ufyk7yj49eOcS8040.jpeg",
+        "extensions": [
+          "1 day ago",
+          "Work from home",
+          "Internship"
+        ],
+        "source_link": "https://easyshiksha.com/da/online_kurser/Fuld-ansigtsgenkendelse-ved-hj%C3%A6lp-af-SQL-databaseprojekt",
+        "job_title": "Komplet ansigtsgenkendelse ved hj\u00e6lp af SQL-database Projekt 2026 Praktikplads med certifikat",
+        "description": "Byg et komplet ansigtsgenkendelsessystem med Python og SQL, der registrerer, koder og lagrer ansigtsdata til genkendelse og administration i realtid. Inkluderer online praktikplads med certifikat.",
+        "apply_options": [
+          {
+            "title": "EasyShiksha",
+            "link": "https://easyshiksha.com/da/online_kurser/Fuld-ansigtsgenkendelse-ved-hj%C3%A6lp-af-SQL-databaseprojekt?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJLb21wbGV0IGFuc2lndHNnZW5rZW5kZWxzZSB2ZWQgaGrDpmxwIGFmIFNRTC1kYXRhYmFzZSBQcm9qZWt0IDIwMjYgUHJha3Rpa3BsYWRzIG1lZCBjZXJ0aWZpa2F0IiwiY29tcGFueV9uYW1lIjoiRWFzeVNoaWtzaGEiLCJodGlkb2NpZCI6Il9xTy1oTnB1TVFob2ZPeWdBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzJadGNrVTBXSEZOTUZneVlWaERhR1V0UzI4eldXaFVTblkwU1ZsdFZUWkRZMU5pVjJSUk56RlJSM3BKUWtGaVZXRlBRMnBuVjJSbFlWYzFSRUpEU1c0dFgxZDVkM3BaVEdWMGNGSjZUVmRqTjJjMmNIVmpUREZEVjJocWVrMTFRV2w2TmxwZllrbExVbTlWVlVseU9FWTVSM1ZWTXpac2IxbGZSbTgzYmtaWVJrZHZjMWtTRjNkTE4wcGhkREl6UmkxdFQzWnlNRkIyTjE5cWFVRnZHaUpCUkhOeU9XWlVaMjlZZDJoM2JHdGlSVVl4WmpWV2FYSXlhVGRIU1djM2JsSlIiLCJmY3YiOiIzIiwiZmNfaWQiOiJfcU8taE5wdU1RaG9mT3lnQUFBQUFBPT0ifQ=="
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUQzFWTlZaTk1GcFpka3hFY0ZRdFRFcGxTbWgzTlROMVVGaEJNUzF6VUhsd2FGTmtZMkpPT0hSSVZsVnNaV05vYzNFNGFWUk1aVWR4VW1STVUweHRURVF0VFhCRE1sb3RRbmxEZGpsa1YwVkpVRXByWm5kSlNuZHVNalp6ZEhBMFVFVkpUWFpOTm5sSVMxaFFVV1J2TkU5SE1WZ3laRGwyTVZOM2RuRnVTVzl0YWxJeFNWY1NGM2RMTjBwaGRESXpSaTF0VDNaeU1GQjJOMTlxYVVGdkdpSkJSSE55T1daUloxSk9NR3AwT1V4bFVsODBWVEkwYUZKMU1GUkRNR2hFVVVsMyIsImZjdiI6IjMifQ==",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUQzFWTlZaTk1GcFpka3hFY0ZRdFRFcGxTbWgzTlROMVVGaEJNUzF6VUhsd2FGTmtZMkpPT0hSSVZsVnNaV05vYzNFNGFWUk1aVWR4VW1STVUweHRURVF0VFhCRE1sb3RRbmxEZGpsa1YwVkpVRXByWm5kSlNuZHVNalp6ZEhBMFVFVkpUWFpOTm5sSVMxaFFVV1J2TkU5SE1WZ3laRGwyTVZOM2RuRnVTVzl0YWxJeFNWY1NGM2RMTjBwaGRESXpSaTF0VDNaeU1GQjJOMTlxYVVGdkdpSkJSSE55T1daUloxSk9NR3AwT1V4bFVsODBWVEkwYUZKMU1GUkRNR2hFVVVsMyIsImZjdiI6IjMifQ%3D%3D&q=SQL+query+intern"
+    }
+  }
+}

@@ -23,8 +23,14 @@ from s2s.models import Dork, RawResult
 
 log = logging.getLogger(__name__)
 
+#: SerpApi's wording when an engine answered but matched nothing, e.g.
+#: "DuckDuckGo hasn't returned any results for this query."
+EMPTY_RESULT_MARKER = "hasn't returned any results"
+
 RESULT_FIELD = {
     "google": "organic_results",
+    "google_light": "organic_results",
+    "duckduckgo": "organic_results",
     "google_jobs": "jobs_results",
     "google_scholar": "organic_results",
 }
@@ -59,6 +65,27 @@ def parse_posted_at(text: str | None, now: datetime | None = None) -> datetime |
     return None
 
 
+SEARCH_URL = "https://serpapi.com/search.json"
+
+
+def _search(params: dict, timeout: float = 60.0) -> dict:
+    """One SerpApi call over plain HTTPS.
+
+    Deliberately no SDK. The legacy `google-search-results` and the newer
+    `serpapi` package both install a module named `serpapi` with different APIs,
+    so code written against one fails silently on a machine that has the other.
+    Both are thin wrappers over this endpoint. SerpApi returns its `error` field
+    as JSON even on 4xx, so the body is parsed regardless of status.
+    """
+    import requests
+
+    response = requests.get(SEARCH_URL, params=params, timeout=timeout)
+    try:
+        return response.json()
+    except ValueError:
+        return {"error": f"HTTP {response.status_code}: non-JSON response"}
+
+
 class SerpApiClient:
     def __init__(
         self,
@@ -77,8 +104,12 @@ class SerpApiClient:
     # -- request building -------------------------------------------------
 
     def build_params(self, dork: Dork) -> dict:
-        params: dict = {"engine": dork.engine, "q": dork.query, "hl": "en"}
-        if dork.engine == "google":
+        if dork.engine == "duckduckgo":
+            # DuckDuckGo takes a combined region code and ignores hl/gl/num.
+            params: dict = {"engine": dork.engine, "q": dork.query, "kl": "in-en"}
+        else:
+            params = {"engine": dork.engine, "q": dork.query, "hl": "en"}
+        if dork.engine in ("google", "google_light"):
             params.update({"gl": "in", "num": self.results_per_search})
         params.update(dork.params or {})
         return params
@@ -111,12 +142,18 @@ class SerpApiClient:
             return []
 
         try:
-            from serpapi import GoogleSearch
-
-            response = GoogleSearch({**params, "api_key": self.api_key}).get_dict()
+            response = _search({**params, "api_key": self.api_key})
         except Exception as exc:
             self.ledger.record_skipped(dork.adapter_key, dork.query, f"error: {exc}")
             log.warning("SerpApi call failed for %s: %s", dork.adapter_key, exc)
+            return []
+
+        if "error" in response and EMPTY_RESULT_MARKER in str(response["error"]):
+            # A legitimate "nothing matched" answer. SerpApi bills it (observed
+            # 2026-10-10), so count the credit - and cache it, or every re-run
+            # pays again for the same empty query.
+            self.ledger.record_live(dork.adapter_key, dork.query, dork.est_cost)
+            self.cache.put(dork.engine, params, response)
             return []
 
         if "error" in response:

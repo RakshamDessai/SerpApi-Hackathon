@@ -22,6 +22,31 @@ PRESETS = {
 }
 
 
+#: Variables a developer's real .env may set. Tests must behave identically
+#: with or without them - and must never spend a real SerpApi credit.
+ENV_VARS = (
+    "SERPAPI_API_KEY", "ANTHROPIC_API_KEY", "S2S_DEMO_MODE", "S2S_CREDIT_CAP",
+    "S2S_MAX_PLATFORMS", "S2S_TERMS_PER_DORK", "S2S_MAX_COMPETENCIES",
+    "S2S_CACHE_TTL_HOURS", "S2S_INCLUDE_TIER_C", "S2S_PROBE_TOP_N",
+)
+
+
+@pytest.fixture(autouse=True)
+def isolated_env(monkeypatch):
+    """Keep the developer's .env out of every test.
+
+    Once a real key went into .env, the "no key" UI test started failing and
+    any test that missed a fixture could have made a paid call.
+    """
+    import s2s.config
+
+    monkeypatch.setattr(s2s.config, "load_dotenv", lambda *a, **k: False)
+    for name in ENV_VARS:
+        monkeypatch.delenv(name, raising=False)
+    # Link probes are real HTTP; tests that need one call the gate directly.
+    monkeypatch.setenv("S2S_PROBE_TOP_N", "0")
+
+
 @pytest.fixture
 def now() -> datetime:
     return datetime(2026, 10, 8, 12, 0, 0)

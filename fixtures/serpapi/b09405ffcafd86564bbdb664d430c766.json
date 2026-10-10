@@ -1,0 +1,119 @@
+{
+  "fetched_at": 1791602718.281844,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:idealist.org volunteer opportunity budget",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b01cd649a92946c40bfd",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/KDFBp51k36zba9aQ-lxatM8PQGxdQSUyoSPAc3aTE-M/6ac9b01cd649a92946c40bfd.json",
+      "markdown_endpoint": "https://serpapi.com/searches/KDFBp51k36zba9aQ-lxatM8PQGxdQSUyoSPAc3aTE-M/6ac9b01cd649a92946c40bfd.md",
+      "created_at": "2026-10-10 03:25:16 UTC",
+      "processed_at": "2026-10-10 03:25:16 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aidealist.org+volunteer+opportunity+budget&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/KDFBp51k36zba9aQ-lxatM8PQGxdQSUyoSPAc3aTE-M/6ac9b01cd649a92946c40bfd.html",
+      "prettify_html_file": "https://serpapi.com/searches/KDFBp51k36zba9aQ-lxatM8PQGxdQSUyoSPAc3aTE-M/6ac9b01cd649a92946c40bfd.prettify",
+      "total_time_taken": 1.97
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:idealist.org volunteer opportunity budget",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "5 Tips to Budget for Volunteer Programs and Support - Idealist",
+        "link": "https://www.idealist.org/en/orgs/volunteer-program-budgeting",
+        "snippet": "You may forget to consider that volunteer programs and support have associated costs. Learn how to budget for and record volunteer-related expenses properly.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Teach Students how to Budget - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/85c6fff2d2a0495b9156fe402b0763d5-teach-students-how-to-budget-junior-achievement-of-southern-california-los-angeles",
+        "date_raw": "2026-04-16T00:00:00.0000000",
+        "date": "Apr 16, 2026",
+        "snippet": "Find opportunities to change the world with the latest social-impact job, internship, and volunteer listings. Plus, explore resources for taking action in your community.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Budget Planning Associate (Volunteer) - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/130f7ad17fa849faad0aab3f02b705b2-budget-planning-associate-volunteer-a-free-bird-brooklyn",
+        "snippet": "Job description Budget Planning Associate (Volunteer) Organization: A Free Bird | 501 (c) (3) Nonprofit Location: Remote (NYC preferred) Commitment: 5-10 hours per week | Minimum 3-month commitment About Us A Free Bird is a New York City-based nonprofit dedicated to empowering children diagnosed with cancer through artistic expression. Through creative programs in art, music, writing, and more, we help children build confidence, process emotions, and find strength during their journey ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Nonprofit Budget & Grants Planning Advisor (2027) - Volunteer Opportunity",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/17569494fe314076b9054d5af2212674-nonprofit-budget-grants-planning-advisor-2027-army-pink-los-angeles",
+        "snippet": "We are seeking a volunteer advisor with experience in nonprofit budgeting, grants, and financial planning who can help review our current financial structure and assist with creating our 2027 organizational budget.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Volunteering - Idealist",
+        "link": "https://www.idealist.org/en/volunteering",
+        "snippet": "Idealist connects millions of idealists - people who want to do good - with opportunities for action and collaboration all over the world.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Volunteering, Nonprofit Jobs, and Community - Idealist",
+        "link": "https://www.idealist.org/en",
+        "snippet": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Virtual Volunteering Opportunities - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-resources/remote-volunteer-opportunities",
+        "date_raw": "2025-10-30T00:00:00.0000000",
+        "date": "Oct 30, 2025",
+        "snippet": "Non-medical Hospice Volunteer with Amedisys Hospice Location: Remote Opportunity near Austin, TX Our Non-medical Hospice Direct Care Volunteer provides support to patients living with a terminal illness, in addition to their caregivers and family. Support is provided in a variety of ways, including companionship, socialization, and caregiver ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Chief Grant Officer - Volunteer Opportunity - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunity/0a4eae7b96b140b187da4d1e3828db05-chief-grant-officer-human-health-project-los-angeles",
+        "snippet": "Format agency budget to meet grant sources' budget requirements. - Develop grant budgets with program leadership and accounting staff. - Copy, collate, package and mail/email final grant materials per grant instructions, meeting deadlines for submission. Respond to inquiries from grant sources and programs in a timely and strategic manner.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 9,
+        "title": "How to Measure Volunteer Impact And Why It Matters - Idealist",
+        "link": "https://www.idealist.org/en/orgs/measure-volunteer-impact",
+        "snippet": "Nonprofits must measure volunteer impact to accurately grasp all their volunteers accomplish. Learn how to measure it and why it matters in this guide.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 10,
+        "title": "Remote Volunteer Opportunities - Idealist",
+        "link": "https://www.idealist.org/remote-volunteer-opportunities",
+        "date_raw": "2026-10-09T00:00:00.0000000",
+        "date": "Oct 9, 2026",
+        "snippet": "Education and wellness Volunteer - Roseville, CA BRIGHT MIND ENRICHMENT AND SCHOOLING Mentor individuals and deliver educational wellness programs Remote",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      },
+      {
+        "position": 11,
+        "title": "Volunteer Opportunities - Idealist",
+        "link": "https://www.idealist.org/en/volunteer-opportunities",
+        "snippet": "Idealist connects millions of idealists - people who want to do good - with opportunities for action and collaboration all over the world.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.idealist.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aidealist.org+volunteer+opportunity+budget&start=11"
+    }
+  }
+}

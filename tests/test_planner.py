@@ -107,7 +107,7 @@ def test_cs_student_gets_github_and_hackathons():
 
 def test_finance_student_gets_ngo_and_competition_boards():
     keys = {a.key for a, _ in planner.choose_platforms(FINANCE, max_platforms=5)}
-    assert keys & {"catchafire", "taproot"}
+    assert "catchafire" in keys
     assert "unstop" in keys
 
 
@@ -169,3 +169,52 @@ def test_stream_override_changes_platform_selection():
     forced_platforms = {d.adapter_key for d in forced.dorks}
     assert detected_platforms != forced_platforms, "override had no effect"
     assert "github" in forced_platforms
+
+
+# --------------------------------------------- keyword dorks (2026-10-10) ---
+
+def test_keyword_prefers_the_phrase_the_group_shares():
+    """One plain-keyword search should still serve several units at once."""
+    group = [
+        _competency("capital", [Discipline.COMMERCE_FINANCE],
+                    aliases=["cost of equity", "financial model"], bloom=5),
+        _competency("budgeting", [Discipline.COMMERCE_FINANCE],
+                    aliases=["NPV analysis", "financial model"], bloom=4),
+    ]
+    assert planner.keyword_for(group) == "financial model"
+
+
+def test_keyword_falls_back_to_the_strongest_phrase():
+    group = [
+        _competency("a", [Discipline.CS_SOFTWARE], aliases=["concurrency"], bloom=5),
+        _competency("b", [Discipline.CS_SOFTWARE], aliases=["database schema"], bloom=3),
+    ]
+    assert planner.keyword_for(group) == "concurrency"
+
+
+def test_keyword_dorks_are_plain_and_or_group_dorks_are_packed():
+    dorks = planner.plan(FINANCE + CS[:1], credit_cap=20, max_platforms=6)
+    for dork in dorks:
+        adapter = registry.get(dork.adapter_key)
+        if adapter.query_style == "keywords":
+            assert " OR " not in dork.query, dork.query
+        else:
+            assert " OR " in dork.query, dork.query
+
+
+def test_groups_never_repeat_a_keyword():
+    """Both B.Com groups once picked "financial model": the same query twice."""
+    shared = ["financial model", "budget"]
+    group_a = [_competency(f"a{i}", [Discipline.COMMERCE_FINANCE], aliases=shared + [f"a{i}"])
+               for i in range(3)]
+    group_b = [_competency(f"b{i}", [Discipline.COMMERCE_FINANCE], aliases=shared + [f"b{i}"])
+               for i in range(3)]
+    dorks = planner.plan(group_a + group_b, credit_cap=40, max_platforms=6, terms_per_dork=3)
+    queries = [d.query for d in dorks]
+    assert len(queries) == len(set(queries)), queries
+
+
+def test_disabled_adapters_are_never_planned():
+    assert not registry.get("unv").enabled_by_default
+    assert "unv" not in {a.key for a in registry.active()}
+    assert "unv" not in {a.key for a in registry.active(include_tier_c=True)}
