@@ -1,0 +1,157 @@
+{
+  "fetched_at": 1791602360.140735,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com SQL query competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9aeb6a8dce6b51631db61",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/W_lhcVGVd3-QJdlrCKODRgOOlK81XtluVUEUwhMk4JM/6ac9aeb6a8dce6b51631db61.json",
+      "markdown_endpoint": "https://serpapi.com/searches/W_lhcVGVd3-QJdlrCKODRgOOlK81XtluVUEUwhMk4JM/6ac9aeb6a8dce6b51631db61.md",
+      "created_at": "2026-10-10 03:19:18 UTC",
+      "processed_at": "2026-10-10 03:19:18 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+SQL+query+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/W_lhcVGVd3-QJdlrCKODRgOOlK81XtluVUEUwhMk4JM/6ac9aeb6a8dce6b51631db61.html",
+      "prettify_html_file": "https://serpapi.com/searches/W_lhcVGVd3-QJdlrCKODRgOOlK81XtluVUEUwhMk4JM/6ac9aeb6a8dce6b51631db61.prettify",
+      "total_time_taken": 1.86
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com SQL query competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "SQL-Competition - 2026",
+        "link": "https://unstop.com/p/sql-competition-aditya-university-1655608",
+        "snippet": "This SQL Competition is jointly organized by Aditya University in association with Oracle Academy to challenge and assess B. Tech students' practical knowledge in SQL and database concepts. The competition is designed as a 4-day event comprising four progressive rounds \u2014 from objective-based testing to hands-on query writing to one-on-one technical interviews \u2014 providing students with a holistic platform to demonstrate and sharpen their database skills. Guidelines: Eligibility: 2nd (2028 ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "SQL Mania - 2026 - unstop.com",
+        "link": "https://unstop.com/competitions/sql-mania-solutions-2k26-army-institute-of-technology-1646544",
+        "snippet": "SQL Mania is an offline competitive SQL event designed to evaluate participants' database knowledge, analytical thinking, and real-world query writing skills. Participants will work on a structured relational database and solve industry-inspired problem statements using SQL queries within a fixed time limit. The competition emphasizes accuracy, efficiency, optimization, and clean query structuring \u2014 reflecting real-world backend development and data engineering scenarios. This event is ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "SQL Warriors - 2026",
+        "link": "https://unstop.com/competitions/sql-warriors-techno-sapiens-2k26-institute-of-information-technology-management-iitm-delhi-1626004",
+        "date_raw": "2026-01-19T04:38:00.0000000",
+        "date": "Jan 19, 2026",
+        "snippet": "SQL Warriors is a competitive database problem-solving event where participants apply structured query logic to real datasets under time constraints. With tasks disclosed on the spot, individuals must demonstrate efficiency, accuracy, and mastery of SQL to retrieve, manipulate, and analyze data without external assistance.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Ctrl+Query - 2026",
+        "link": "https://unstop.com/hackathons/ctrlquery-sankalan-2026-department-of-computer-science-docs-university-of-delhi-du-1674906",
+        "snippet": "Key Points - CTRL+ QUERY (SQL Forensics Puzzle Competition): Concept: A unique SQL-based mystery challenge where participants act as database investigators to trace a campus exam leak.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "SQL SPRINT \u2014 College Management SQL Schemas - 2026",
+        "link": "https://unstop.com/p/sql-sprint-college-management-sql-schemas-code-craft-society-1755254",
+        "snippet": "SQL SPRINT is a hands-on database activity organized by the Code Craft Society, designed to test and improve your SQL, DBMS, and database design skills through a real-world College Management System. Participants will design and implement SQL schemas, create tables and relationships, apply constraints and normalization, and solve practical database problems within a 1-hour 30-minute challenge. The event will be conducted in hybrid mode on 15th September 2026, with online participation from ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "Sqlize - 2025",
+        "link": "https://unstop.com/hackathons/sqlize-technozarre-srm-university-vadapalani-1396441",
+        "snippet": "The competition consists of a series of progressively difficult SQL challenges, ranging from basic queries to advanced optimization tasks. Designed to be accessible to beginners while engaging experienced participants with in-depth challenges.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Internships | Jobs | Competitions | Hackathons | Courses - Unstop",
+        "link": "https://unstop.com/",
+        "snippet": "Apply for jobs, internships, and hackathons. Compete in contests, build skills with career courses, and get hired by top employers. Your one stop career platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Query Quest - 2026",
+        "link": "https://unstop.com/quiz/query-quest-pimpri-chinchwad-college-of-engineeringpune-1657623",
+        "snippet": "Quiz Name: \"Query Quest: The DBMS Challenge\" Total Questions: 30 MCQs Total Time: 60 minutes Time per Question: 60 seconds Eligibility Open to all students. Individual participation only. Quiz Format Type: Multiple Choice Questions (MCQs) Questions are divided into: Easy, Moderate, Hard Some questions may be output-based SQL / MySQL or ER diagram/normalization Scoring Each correct answer = 1 mark Incorrect answer = 0 marks Fullscreen Instructions (To ensure fair play): The quiz must be ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "SQL Assessment Platform for Hiring Developers | Unstop",
+        "link": "https://unstop.com/online-assessment-platform/sql-assessments",
+        "snippet": "Looking for the best SQL assessment tools for hiring? Unstop tests real-world query skills with a live SQL simulator, AI scoring & proctoring. Book a demo.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Inspired By American Express for Data Science Role: Krack The Case 2026 ...",
+        "link": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
+        "snippet": "This assessment is designed to evaluate your applied knowledge and problem-solving skills across multiple domains, including SQL, Machine Learning, and core data concepts. You will encounter a mix of scenario-based and concept-oriented multiple-choice questions. Each question will have four options, with only one correct answer. Structure & Rules: Question Format: Objective (MCQ) Topics Covered: SQL queries, database management, entity-relationship models, machine learning algorithms, and ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "Student and Corporate Competitions: Challenge Yourself & Win Prizes",
+        "link": "https://api.unstop.com/competitions/",
+        "snippet": "Explore competitions by top companies/startups in multiple domains like Data Analytics, Finance, Marketing, Robotics, etc. Bag your dream job and win amazing prizes!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "sql competition online",
+        "link": "https://duckduckgo.com/?q=sql%20competition%20online&origin=related"
+      },
+      {
+        "query": "sql coding contest websites",
+        "link": "https://duckduckgo.com/?q=sql%20coding%20contest%20websites&origin=related"
+      },
+      {
+        "query": "sql competitors",
+        "link": "https://duckduckgo.com/?q=sql%20competitors&origin=related"
+      },
+      {
+        "query": "sql competitive programming",
+        "link": "https://duckduckgo.com/?q=sql%20competitive%20programming&origin=related"
+      },
+      {
+        "query": "sql challenges free",
+        "link": "https://duckduckgo.com/?q=sql%20challenges%20free&origin=related"
+      },
+      {
+        "query": "online sql challenges",
+        "link": "https://duckduckgo.com/?q=online%20sql%20challenges&origin=related"
+      },
+      {
+        "query": "programiz sql challenge",
+        "link": "https://duckduckgo.com/?q=programiz%20sql%20challenge&origin=related"
+      },
+      {
+        "query": "sql practice challenge",
+        "link": "https://duckduckgo.com/?q=sql%20practice%20challenge&origin=related"
+      },
+      {
+        "query": "sql challenges",
+        "link": "https://duckduckgo.com/?q=sql%20challenges&origin=related"
+      },
+      {
+        "query": "sql contest",
+        "link": "https://duckduckgo.com/?q=sql%20contest&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+SQL+query+competition&start=11"
+    }
+  }
+}

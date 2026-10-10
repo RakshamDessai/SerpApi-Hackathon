@@ -1,0 +1,92 @@
+{
+  "fetched_at": 1791602577.0319629,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:catchafire.org \"needs help with\" layout design",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af8b88de92f248df4a32",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/AhtMY3mpkVeVGz38xG3VaLT0WHkVOTLh-KDGL-R1yHQ/6ac9af8b88de92f248df4a32.json",
+      "markdown_endpoint": "https://serpapi.com/searches/AhtMY3mpkVeVGz38xG3VaLT0WHkVOTLh-KDGL-R1yHQ/6ac9af8b88de92f248df4a32.md",
+      "created_at": "2026-10-10 03:22:51 UTC",
+      "processed_at": "2026-10-10 03:22:51 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Acatchafire.org+%22needs+help+with%22+layout+design&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/AhtMY3mpkVeVGz38xG3VaLT0WHkVOTLh-KDGL-R1yHQ/6ac9af8b88de92f248df4a32.html",
+      "prettify_html_file": "https://serpapi.com/searches/AhtMY3mpkVeVGz38xG3VaLT0WHkVOTLh-KDGL-R1yHQ/6ac9af8b88de92f248df4a32.prettify",
+      "total_time_taken": 5.09
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:catchafire.org \"needs help with\" layout design",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "ads": [
+      {
+        "position": 1,
+        "title": "Easy-To-Use Floor Plan Maker - Floor Plan Tool",
+        "link": "https://duckduckgo.com/y.js?ad_domain=roomsketcher.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=7JtLswEcT%2DCmqsogBnBtOY6lxUeHpMKaZ4S0MtFyWp47hdZ6E7_3BJj3rfpON6N5xw8JIHjOhqvEHNvfo5OESV28UC3afrVGfOhNlNuAUM9qOCOyIfsOtWONZ2o2eLwyZt9lm%2DAr7AbDw9bcyz0lDBr10feAtMSRd_nFxgmSijw.Pm7ypdxlRx8UKymDz5_7KQ&eddgt=F3Sv057k_MVX_V4he%2DU61w%3D%3D&rut=aa07bacaf079d1d251d9edecc85902154010f8dcdf2bb492e371680ad68aa415&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8_aXWlj40tNSY1UlgPHTBGDVUCUwyWlWh83y2wSCD7C7cYrJkAaUb1rC2rZFSQjTlp3G%2D0fzJ8jpY%2DY6BPp3dO84Z2a4osvSRLX_TWimupx126GtmXAx5MMl35H3kXVTe3qMLFyB22bUVp_2mGU_SYCppCIfURt_%2Do0n4l8veIY_t19qIIG8ilU5OwBovd27Dj%2DWuQ8Zkl_5YBKwU3r3B%2DrzdERY%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucm9vbXNrZXRjaGVyLmNvbSUyZiUzZnV0bV9zb3VyY2UlM2RtaWNyb3NvZnQlMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkMy4lMjUyMFAtTWF4JTI1MjAtJTI1MjBOT1JBTSUyNnV0bV90ZXJtJTNkd3d3LnJvb21za2V0Y2hlci5jb20lMjZ1dG1fY29udGVudCUzZDMuJTI1MjBQLU1heCUyNTIwLSUyNTIwTk9SQU1fXzElMjUzQSUyNTIwVG9wJTI1MjBvZiUyNTIwRnVubmVsX183OTcxNDgwNDc0MjUwNSUyNmNhbXBhaWduJTNkbS1sZWFkLTAwMSUyNnV0bV9zb3VyY2UlM2RtaWNyb3NvZnQlMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkcG1heC1ub3JhbSUyNm1zY2xraWQlM2RmNjRmNjcxNzgzMTQxNTA0NzhkMDBkZGUyYzg0YmZiOA%26rlid%3Df64f67178314150478d00dde2c84bfb8&vqd=4-31913657181566838623809333566211303294&iurl=%7B1%7DIG%3DC0DD7B15B0404495B7332EE7E86A29CC%26CID%3D3A58547E6412627D3CCE4390655E63D5%26ID%3DDevEx%2C5031.1",
+        "source": "roomsketcher.com",
+        "snippet": "Easily create floor plans that wow clients and sell homes faster. Create, edit, and present floor plans - no design skills needed.",
+        "sitelinks": [
+          {
+            "title": "2D Floor Plans",
+            "link": "https://duckduckgo.com/y.js?ad_domain=roomsketcher.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=5wwdk0dK79HguiCXUxjmTeUQ3RFmNJeB8U_lAvgV817xbhiQUenRM_bNdwC4I2_jB9xjG3H81%2DlsJhJs96UK1TgRlE5cChofTy4Rp3J880vdPZ7IZBU%2DJDd4JD2kh955M1u9X1WVM_XRxSnhAh2iMex8EldQqilBsU8tsz0Q9O8.gdV8z5SfNZSjwhijRT4fgQ&eddgt=F3Sv057k_MVX_V4he%2DU61w%3D%3D&rut=58a7c0b1b45a486605c016755c74fc226817b60e1e62467ea96c687bb5c579a6&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8mVBHtBEU3qwGQUXZtCk77DVUCUy17RXsCDr2IA5k8Z0LLhx30dzrrbzSpfAv2o3KxMj0_2fum9VKGXDI70ATUMvTpBuz%2Dk7E7G3VLWM8aEzgF_1RRwOSlS_3Kip0BKdjSxU0cNxx9oYHJhg0p_dYugcT4B_ifLpSnxzryuZ8h74hJFCFsaHY3KwmOXyB%2D2AVus2_YdeivMGLbFqWbw6rtak083keLnbWwklp4sLlc4Z32VlX%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucm9vbXNrZXRjaGVyLmNvbSUyZmZlYXR1cmVzJTJmMmQtZmxvb3ItcGxhbnMlMmYlM2Z1dG1fc291cmNlJTNkbWljcm9zb2Z0JTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDMuJTI1MjBQLU1heCUyNTIwLSUyNTIwTk9SQU0lMjZ1dG1fdGVybSUzZHd3dy5yb29tc2tldGNoZXIuY29tJTI2dXRtX2NvbnRlbnQlM2QzLiUyNTIwUC1NYXglMjUyMC0lMjUyME5PUkFNX18xJTI1M0ElMjUyMFRvcCUyNTIwb2YlMjUyMEZ1bm5lbF9fNzk3MTQ4MDQ3NDI1MDUlMjZjYW1wYWlnbiUzZG0tbGVhZC0wMDElMjZ1dG1fc291cmNlJTNkbWljcm9zb2Z0JTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZHBtYXgtbm9yYW0lMjZtc2Nsa2lkJTNkOWE2NDlhNTkzNWRhMWU2YzEwOTRmMDkwOWE0YWVkMDU%26rlid%3D9a649a5935da1e6c1094f0909a4aed05&vqd=4-148465303544768930831736719889747364818&iurl=%7B1%7DIG%3DC0DD7B15B0404495B7332EE7E86A29CC%26CID%3D3A58547E6412627D3CCE4390655E63D5%26ID%3DDevEx%2C5037.1",
+            "snippet": "Create high-quality 2D Floor Plans. Draw yourself or we'll help you!"
+          },
+          {
+            "title": "Pricing",
+            "link": "https://duckduckgo.com/y.js?ad_domain=roomsketcher.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=5sQ8Cx45oxZbOt8UzIsMokttCd3h8qVtDibPVfzHaYNP2v4DWlq04aUxVMvmhnMhDeQi0sO1kdQZsem0_cSXU0fspQonphF_jEhIYMcouAROLqQcO8uHW6IouwDxyBtPVDR46Xnyb3yjg7g3GvMTKBSUsGPCAZLc7t8a_OwKpSg.h20H7sTsx144ePLfF_d9fQ&eddgt=F3Sv057k_MVX_V4he%2DU61w%3D%3D&rut=a133b44102b0b726820b926a979e3fbda094b8218f585d6cef22f52de5406152&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8F4ROHaeHiQolyayJ3vY3qTVUCUypC1wmVoXrLuUyP%2D5J8NGYNNKDPXqbygCeQlFT3hm3RWg8PnnTTbhS8mKP76ZPa1TErYk26nk2a1KEcLjuI_oTYz%2Dby3qcHd7I9JcQtUVliIFyXJZ7w5FgN9owUdAED9aR0pF%2DuJMLqVuohO1vFbSUpjjK026O54Eoeq_7pJbFDd1b7El3TaAhnxa3G_Ywam5_UqytgKGD_8qFsgGEFEBb%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucm9vbXNrZXRjaGVyLmNvbSUyZnByaWNpbmclMmYlM2Z1dG1fc291cmNlJTNkbWljcm9zb2Z0JTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDMuJTI1MjBQLU1heCUyNTIwLSUyNTIwTk9SQU0lMjZ1dG1fdGVybSUzZHd3dy5yb29tc2tldGNoZXIuY29tJTI2dXRtX2NvbnRlbnQlM2QzLiUyNTIwUC1NYXglMjUyMC0lMjUyME5PUkFNX18xJTI1M0ElMjUyMFRvcCUyNTIwb2YlMjUyMEZ1bm5lbF9fNzk3MTQ4MDQ3NDI1MDUlMjZjYW1wYWlnbiUzZG0tbGVhZC0wMDElMjZ1dG1fc291cmNlJTNkbWljcm9zb2Z0JTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZHBtYXgtbm9yYW0lMjZtc2Nsa2lkJTNkZDJiZmQxNzUxZGNhMTkzNzQwNzRiYmJjYjI1YWEwYTE%26rlid%3Dd2bfd1751dca19374074bbbcb25aa0a1&vqd=4-310157799435952220270396102967646066224&iurl=%7B1%7DIG%3DC0DD7B15B0404495B7332EE7E86A29CC%26CID%3D3A58547E6412627D3CCE4390655E63D5%26ID%3DDevEx%2C5039.1",
+            "snippet": "Choose a plan that works for you. Save 50% with annual billing."
+          }
+        ]
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Emerald Sea Protection Society needs help with a website audit project",
+        "link": "https://www.catchafire.org/volunteer/175298/emerald-sea-protection-society--website-audit/",
+        "snippet": "Feedback on the current website's layout, user functionality, mobile-friendliness, visual design, content, and other key features Clear articulation of the Organization's goals for the website Recommendations for improvements to help achieve the Organization's desired goals Note: If you are looking for a more specific, in-depth audit of your website's design and usability, try our Website Usability Audit project",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "The B.R.A.V.E. Project\u00ae needs help with a brochure graphic design project",
+        "link": "https://prod.catchafire.org/volunteer/171859/the-b-r-a-v-e--project---brochure-graphic-design/",
+        "snippet": "Brochure Graphic Design Call for The B.R.A.V.E. Project\u00ae Catchafire relies on javascript for some of its core functionality",
+        "favicon": "https://external-content.duckduckgo.com/ip3/prod.catchafire.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "Verde Vida needs help with a flexible graphic design support project",
+        "link": "https://lb0.catchafire.org/volunteer/171192/verde-vida--flexible-graphic-design-support/",
+        "snippet": "Flexible Graphic Design Support Call for Verde Vida",
+        "favicon": "https://external-content.duckduckgo.com/ip3/lb0.catchafire.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Verde Vida needs help with a flyer graphic design project",
+        "link": "https://uwgt.catchafire.org/volunteer/154649/verde-vida--flyer-graphic-design/",
+        "snippet": "Flyer Graphic Design Call for Verde Vida",
+        "favicon": "https://external-content.duckduckgo.com/ip3/uwgt.catchafire.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "reDesignED needs help with a flexible graphic design support project",
+        "link": "https://www.catchafire.org/volunteer/162125/redesigned--flexible-graphic-design-support/",
+        "snippet": "Flexible Graphic Design Support Call for reDesignED Sorry, the page you are looking for cannot be found.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Acatchafire.org+%22needs+help+with%22+layout+design&start=5"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+BACHELOR OF DESIGN (B.Des) - Semester I
+Paper DES 104: Typography and Visual Communication
+Credits: 4 (Studio 3, Theory 1)
+
+Course Objectives: To build a working command of type, grid and hierarchy, and
+to apply them to identity and layout problems for real audiences.
+
+Unit 1: Fundamentals of Typography
+Anatomy of type: baseline, x-height, cap height, ascender, descender, counter,
+kerning, tracking and leading. Classification of typefaces: serif, sans-serif,
+slab, script and display. Type measurement systems: points and picas. Legibility
+and readability. Selecting and pairing typefaces for a brief.
+
+Unit 2: Grid Systems and Visual Hierarchy
+Modular grids, column grids and baseline grids. Margins, gutters and the type
+area. Establishing visual hierarchy through scale, weight, colour and spacing.
+Rule of thirds and the golden section. Designing a typographic scale. Responsive
+layout principles for screen and print.
+
+Unit 3: Colour Theory and Composition
+Colour wheel, hue, saturation and value. RGB, CMYK and spot colour. Colour
+harmony schemes: complementary, analogous and triadic. Accessibility and
+contrast ratios. Gestalt principles of perception: proximity, similarity,
+closure, continuity and figure-ground.
+
+Unit 4: Brand Identity Systems
+Logo design process: research, mood boards, thumbnails, refinement. Logotypes,
+monograms and pictorial marks. Building a brand identity guideline document:
+logo usage, clear space, colour palette, typography, imagery and tone of voice.
+Designing stationery and social media template systems. Vector asset creation
+and file preparation for print and digital delivery.
+
+Unit 5: Editorial and Information Design
+Magazine and report layout. Pull quotes, captions and running heads. Designing
+an annual report spread. Infographic fundamentals: data-to-ink ratio, chart
+selection and labelling. Preparing a portfolio case study.
+
+Studio Work: Each student will produce a complete visual identity for a
+not-for-profit organisation, including a logo, a one-page brand guideline and a
+set of social media templates.
+
+Suggested Readings:
+1. Ellen Lupton, Thinking with Type.
+2. Josef Muller-Brockmann, Grid Systems in Graphic Design.
+3. Robin Williams, The Non-Designer's Design Book.

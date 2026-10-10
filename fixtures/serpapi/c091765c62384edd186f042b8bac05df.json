@@ -1,0 +1,94 @@
+{
+  "fetched_at": 1791602710.063327,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:catchafire.org \"needs help with\" budget",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b013ae39f3a54e6a241c",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/6PLjeLortWpUVQlwnlI34loRo09p4zY2A4QahEOSgwA/6ac9b013ae39f3a54e6a241c.json",
+      "markdown_endpoint": "https://serpapi.com/searches/6PLjeLortWpUVQlwnlI34loRo09p4zY2A4QahEOSgwA/6ac9b013ae39f3a54e6a241c.md",
+      "created_at": "2026-10-10 03:25:07 UTC",
+      "processed_at": "2026-10-10 03:25:07 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Acatchafire.org+%22needs+help+with%22+budget&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/6PLjeLortWpUVQlwnlI34loRo09p4zY2A4QahEOSgwA/6ac9b013ae39f3a54e6a241c.html",
+      "prettify_html_file": "https://serpapi.com/searches/6PLjeLortWpUVQlwnlI34loRo09p4zY2A4QahEOSgwA/6ac9b013ae39f3a54e6a241c.prettify",
+      "total_time_taken": 2.7
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:catchafire.org \"needs help with\" budget",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "impacthumanity needs help with a flexible finance support project",
+        "link": "https://www.catchafire.org/volunteer/162373/impacthumanity--flexible-finance-support/",
+        "snippet": "Help impacthumanity with critical financial needs over the course of 4 weeks, in areas like budgeting, planning, and systems set up and review.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "Tax-Aid needs help with a flexible tech support project",
+        "link": "https://www.catchafire.org/volunteer/165690/tax-aid--flexible-tech-support/",
+        "date_raw": "2026-08-09T00:00:00.0000000",
+        "date": "Aug 9, 2026",
+        "snippet": "Help Tax-Aid with critical technological needs over the course of 4 weeks, in areas like tools set up and implementation, systems auditing, or process updates.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "impacthumanity needs help with a program strategy & goals project",
+        "link": "https://prod.catchafire.org/volunteer/172078/impacthumanity--program-strategy---goals/",
+        "snippet": "Program Strategy & Goals Call for impacthumanity",
+        "favicon": "https://external-content.duckduckgo.com/ip3/prod.catchafire.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "Plan to Accommodate Travel Home - Foundation (PATH) needs help with a ...",
+        "link": "https://prod.catchafire.org/volunteer/172725/plan-to-accommodate-travel-home---foundation--path---website-audit/",
+        "snippet": "Website Audit Call for Plan to Accommodate Travel Home - Foundation (PATH)",
+        "favicon": "https://external-content.duckduckgo.com/ip3/prod.catchafire.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Emerald Sea Protection Society needs help with a website audit project",
+        "link": "https://www.catchafire.org/volunteer/175298/emerald-sea-protection-society--website-audit/",
+        "snippet": "Help Emerald Sea Protection Society assess whether or not their current website is optimally supporting its mission and goals, and outline the scope for needed changes and improvements.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "Maya Health Alliance needs help with a website audit project",
+        "link": "https://prod.catchafire.org/volunteer/171569/maya-health-alliance--website-audit/",
+        "snippet": "Website Audit Call for Maya Health Alliance",
+        "favicon": "https://external-content.duckduckgo.com/ip3/prod.catchafire.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "Dogwood Alliance needs help with a video editing project",
+        "link": "https://prod.catchafire.org/volunteer/171550/dogwood-alliance---video-editing/",
+        "snippet": "Video Editing Call for Dogwood Alliance",
+        "favicon": "https://external-content.duckduckgo.com/ip3/prod.catchafire.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "350 Colorado needs help with a google ads set up project",
+        "link": "https://prod.catchafire.org/volunteer/170261/350-colorado--google-ads-set-up/",
+        "snippet": "Google Ads Set Up Call for 350 Colorado",
+        "favicon": "https://external-content.duckduckgo.com/ip3/prod.catchafire.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Acatchafire.org+%22needs+help+with%22+budget&start=8"
+    }
+  }
+}

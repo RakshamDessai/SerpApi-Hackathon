@@ -1,0 +1,114 @@
+{
+  "fetched_at": 1791602357.909848,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:github.com \"good first issue\" SQL query",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9aeb2afea451684ac80da",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/z1lc8MHS2w09csFbbsSGgKxf5fDOvQUrd4dJDn7MriU/6ac9aeb2afea451684ac80da.json",
+      "markdown_endpoint": "https://serpapi.com/searches/z1lc8MHS2w09csFbbsSGgKxf5fDOvQUrd4dJDn7MriU/6ac9aeb2afea451684ac80da.md",
+      "created_at": "2026-10-10 03:19:14 UTC",
+      "processed_at": "2026-10-10 03:19:14 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Agithub.com+%22good+first+issue%22+SQL+query&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/z1lc8MHS2w09csFbbsSGgKxf5fDOvQUrd4dJDn7MriU/6ac9aeb2afea451684ac80da.html",
+      "prettify_html_file": "https://serpapi.com/searches/z1lc8MHS2w09csFbbsSGgKxf5fDOvQUrd4dJDn7MriU/6ac9aeb2afea451684ac80da.prettify",
+      "total_time_taken": 3.19
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:github.com \"good first issue\" SQL query",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "GitHub - youzi-forge/good-first-issue-autoUpdate: Auto-updated 'good ...",
+        "link": "https://github.com/youzi-forge/good-first-issue-autoUpdate",
+        "date_raw": "2026-10-04T11:19:00.0000000",
+        "date": "Oct 4, 2026",
+        "snippet": "This repo publishes a regularly auto\u2011updated list of issues labeled like good first issue (including good-first-issue and first-timers-only). CI builds the full list and serves it on GitHub Pages.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "For Good First Issue | Make your next open-source contribution matter.",
+        "link": "https://forgoodfirstissue.github.com/",
+        "snippet": "Making your next open-source contribution make the world better. For Good First Issue is a curated list of accessible issues from open-source projects helping our communities. Start today!",
+        "favicon": "https://external-content.duckduckgo.com/ip3/forgoodfirstissue.github.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Encouraging helpful contributions to your project with labels",
+        "link": "https://docs.github.com/articles/helping-new-contributors-find-your-project-with-labels",
+        "snippet": "You can apply the good first issue label to issues in your public repository so that people can find them when searching by labels. For more information about searching by labels, see Searching issues and pull requests. GitHub uses an algorithm to determine the most approachable issues in each repository and surface them in various places on GitHub. Adding the good first issue label can increase the likelihood that your issues are surfaced. On GitHub, navigate to the main page of the ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/docs.github.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Finding ways to contribute to open source on GitHub",
+        "link": "https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github?finding-good-first-issues",
+        "snippet": "Narrow down the list to repositories that use the `good first issue` or `help wanted` labels and have over 100 stars on GitHub. Using the good first issue and help wanted labels in the search will help Copilot filter for repositories that open for first-time contributors.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/docs.github.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "GitHub - drkrillo/good-first-issues: Find Good First Issues to start ...",
+        "link": "https://github.com/drkrillo/good-first-issues",
+        "snippet": "This repo helps you automatically discover open issues labeled good first issue across GitHub repositories. It is a community driven project, and always welcoming interested contributors. Updated daily via GitHub Actions.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "good-first-issues \u00b7 GitHub Topics \u00b7 GitHub",
+        "link": "https://github.com/topics/good-first-issues",
+        "snippet": "Auto-updated 'good first issue' list for popular GitHub repos; full list on Pages; updated every 3 days.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "GitHub - DeepSourceCorp/good-first-issue: Make your first open-source ...",
+        "link": "https://github.com/DeepSourceCorp/good-first-issue",
+        "snippet": "Welcome! \ud83d\udc4b\ud83c\udffc Good First Issue is an initiative to curate easy pickings from popular projects, so developers who've never contributed to open-source can get started quickly. Open-source maintainers are always looking to get more people involved, but new developers generally think it's challenging to become a contributor. We believe getting developers to fix super-easy issues removes the barrier for future contributions. This is why Good First Issue exists.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "[Good First Issue] Support All SQL Functions in Other SQL System - GitHub",
+        "link": "https://github.com/apache/doris/issues/48203",
+        "date_raw": "2025-02-22T00:00:00.0000000",
+        "date": "Feb 22, 2025",
+        "snippet": "Description We plan to implement all SQL functions in other famous DBs, like MySQL, PG, Trino, CK, Hive, and more. Facilitate the users to migrate to Doris. They're very suitable for newcomers as your first Doris PR. So here's the list. Feel free to comment to pick anyone! If one is picked, I will tick it. Part I. Hive sinh (from Trino), asinh, atanh, acosh (Easy) @ChenMiaoi context_ngrams @noixcn factorial (Easy) @K-handle-Y levenshtein @whisper33z encode, decode @hacklu-tu soundex See the ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "good first issue",
+        "link": "https://duckduckgo.com/?q=good%20first%20issue&origin=related"
+      },
+      {
+        "query": "good first issue github",
+        "link": "https://duckduckgo.com/?q=good%20first%20issue%20github&origin=related"
+      },
+      {
+        "query": "good first issue examples",
+        "link": "https://duckduckgo.com/?q=good%20first%20issue%20examples&origin=related"
+      },
+      {
+        "query": "for good first issue open source",
+        "link": "https://duckduckgo.com/?q=for%20good%20first%20issue%20open%20source&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Agithub.com+%22good+first+issue%22+SQL+query&start=8"
+    }
+  }
+}

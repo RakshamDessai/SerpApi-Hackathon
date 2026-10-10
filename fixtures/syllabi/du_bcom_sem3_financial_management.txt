@@ -1,0 +1,49 @@
+UNIVERSITY OF DELHI
+B.Com (Hons.) - Semester III
+Paper BCH 3.2: Financial Management
+Credits: 6 (Lectures 5, Tutorial 1)
+
+Course Objectives: To familiarise students with the principles and practices of
+financial management and to develop the ability to apply them to real corporate
+decisions.
+
+Unit I: Introduction to Financial Management
+Nature, scope and objectives of financial management. Profit maximisation versus
+wealth maximisation. Time value of money: compounding and discounting, present
+value and future value of a single amount and of an annuity. Risk and return:
+expected return, standard deviation, coefficient of variation.
+
+Unit II: Capital Budgeting
+The capital budgeting process. Cash flow estimation: incremental cash flows,
+sunk costs, opportunity costs. Payback period and discounted payback period.
+Net Present Value (NPV), Internal Rate of Return (IRR), Modified IRR,
+Profitability Index. Capital rationing. Risk analysis in capital budgeting:
+sensitivity analysis and scenario analysis.
+
+Unit III: Working Capital Management, Liquidity and Cash Flow
+Concepts of working capital: gross and net working capital. Operating cycle and
+cash conversion cycle. Estimation of working capital requirements. Management of
+cash: cash budgets and 13-week cash flow forecasting. Receivables management:
+credit policy, ageing schedule, debtors turnover. Inventory management: EOQ,
+reorder level, inventory turnover ratio. Ratio analysis for liquidity: current
+ratio, quick ratio, debt service coverage ratio.
+
+Unit IV: Cost of Capital and Capital Structure
+Cost of equity using the dividend discount model and the Capital Asset Pricing
+Model (CAPM). Estimation of beta. Cost of debt and cost of preference capital.
+Weighted Average Cost of Capital (WACC). Capital structure theories: net income
+approach, net operating income approach, Modigliani-Miller hypothesis.
+Operating, financial and combined leverage. EBIT-EPS analysis.
+
+Unit V: Dividend Decisions
+Dividend policy and its determinants. Walter's model and Gordon's model. Bonus
+shares and stock splits. Payout ratio and retention ratio.
+
+Practical Component: Students are expected to prepare a 3-statement financial
+model in a spreadsheet for a listed Indian company, compute its WACC, and
+present a one-year cash flow projection.
+
+Suggested Readings:
+1. Khan M.Y. and Jain P.K., Financial Management, Tata McGraw Hill.
+2. Pandey I.M., Financial Management, Vikas Publishing House.
+3. Ross, Westerfield and Jaffe, Corporate Finance, McGraw Hill.

@@ -1,0 +1,165 @@
+{
+  "fetched_at": 1791602604.499276,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com data analysis competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afaa412f434dfc1dd6c4",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/kgEvmOpgyLGx6zJokC4LUZwBuBOkzq9hTT2DYGGFav0/6ac9afaa412f434dfc1dd6c4.json",
+      "markdown_endpoint": "https://serpapi.com/searches/kgEvmOpgyLGx6zJokC4LUZwBuBOkzq9hTT2DYGGFav0/6ac9afaa412f434dfc1dd6c4.md",
+      "created_at": "2026-10-10 03:23:22 UTC",
+      "processed_at": "2026-10-10 03:23:22 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+data+analysis+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/kgEvmOpgyLGx6zJokC4LUZwBuBOkzq9hTT2DYGGFav0/6ac9afaa412f434dfc1dd6c4.html",
+      "prettify_html_file": "https://serpapi.com/searches/kgEvmOpgyLGx6zJokC4LUZwBuBOkzq9hTT2DYGGFav0/6ac9afaa412f434dfc1dd6c4.prettify",
+      "total_time_taken": 1.77
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com data analysis competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Manthan : Data Analysis Competition - 2025 - unstop.com",
+        "link": "https://unstop.com/competitions/manthan-data-analysis-competition-agrovon-2k25-ccs-national-institute-of-agricultural-marketing-niam-jaipur-1534382",
+        "date_raw": "2025-08-09T07:30:00.0000000",
+        "date": "Aug 9, 2025",
+        "snippet": "Manthan is a data analysis competition where participants dive deep into real-world datasets to uncover insights, solve business problems, and showcase their analytical prowess.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Data Analytics Challenge - 2026 - unstop.com",
+        "link": "https://unstop.com/competitions/data-analytics-challenge--1709507",
+        "snippet": "Analyze real-world datasets, develop efficient analytical solutions, and present meaningful conclusions through data-driven decision-making. Showcase your coding, visualization, and problem-solving skills as you compete to solve practical challenges using Python and analytics.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Vista 2024: Data Beyond Boundaries, An Analytics Case Competition",
+        "link": "https://api.unstop.com/competitions/vista-2024-data-beyond-boundaries-an-analytics-case-competition-vista-2024-iim-bangalores-international-bus-1066643",
+        "snippet": "Data Beyond Boundaries is an unparalleled opportunity for analytics enthusiasts to test their skills, solve real-world business problems, and demonstrate their analytical prowess.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Analytica - IIIT Nagpur's Flagship ML & Data Science Hackathon - 2025",
+        "link": "https://api.unstop.com/hackathons/analytica-tantrafiesta25-iiitn-1553390",
+        "date_raw": "2025-09-07T18:30:00.0000000",
+        "date": "Sep 7, 2025",
+        "snippet": "Analytica is IIIT Nagpur's flagship Machine Learning and Data Science hackathon. Round 1 will be hosted online on Unstop; the final offline round will be conducted at IIIT Nagpur.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "Enigma - The Data Analytics Case Competition - 2026",
+        "link": "https://unstop.com/competitions/enigma-the-data-analytics-case-competition-atharv-ranbhoomi-2026-iim-indore-1755171",
+        "date_raw": "2026-09-13T12:15:00.0000000",
+        "date": "Sep 13, 2026",
+        "snippet": "Enigma, Atharv Ranbhoomi's international data analytics competition, is your opportunity to showcase your ability to solve real-world business problems using data.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "Data Analytics Challenge - 2026 - unstop.com",
+        "link": "https://unstop.com/p/data-analytics-challenge-parikalp--1709507",
+        "snippet": "Analyze real-world datasets, develop efficient analytical solutions, and present meaningful conclusions through data-driven decision-making. Showcase your coding, visualization, and problem-solving skills as you compete to solve practical challenges using Python and analytics.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Chi Square National Analytics Challenge 2026 - 2026",
+        "link": "https://unstop.com/competitions/chi-square-national-analytics-challenge-2026-xavier-school-of-management-xlri-1627300",
+        "snippet": "Participants are expected to use relevant frameworks, data interpretation, charts/visualizations, and concise storytelling to substantiate their approach. This will be a submission round on Unstop. All files must be compiled and zipped into a single folder before submission.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Data Synergy - A Data Analytics Case Study Competition",
+        "link": "https://unstop.com/competitions/1664758",
+        "snippet": "Avantika University - School of Management is organizing a three-round national level competition named \"Data Synergy\". The competition is designed to test the participants on their analytical thinking, problem solving and presentation skills.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Analytica: The Data Analysis Event - 2026 - unstop.com",
+        "link": "https://unstop.com/competitions/analytica-the-data-analysis-event-sankalp-110-national-academy-of-agricultural-research-management-naarm-hy-1729489",
+        "date_raw": "2026-08-05T11:47:00.0000000",
+        "date": "Aug 5, 2026",
+        "snippet": "Analytica - The Data Analysis Challenge at Sankalp 11.0 is designed to test analytical thinking, problem-solving ability, and data-driven decision-making skills.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Trilytics'26: Analytics Case Competition - 2026",
+        "link": "https://unstop.com/o/1700384",
+        "date_raw": "2026-08-26T00:00:00.0000000",
+        "date": "Aug 26, 2026",
+        "snippet": "Trilytics '26, the flagship analytics case competition of the PGDBA Conclave, returns with an exciting opportunity for the brightest analytical minds across the country to solve high-impact business challenges at the intersection of healthcare, pharmaceuticals, and data science.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "Insightfy 6.0: Analytics Case Competition - 2026 - unstop.com",
+        "link": "https://unstop.com/competitions/insightfy-60-analytics-case-competition-inflection-point-60-iim-lucknow-1645930",
+        "snippet": "Are you ready to crack data-driven challenges and showcase your analytical prowess? Insightify, a flagship event of Inflection Point 6.0, is designed to push your problem-solving skills to the next level.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "datahack data science competition",
+        "link": "https://duckduckgo.com/?q=datahack%20data%20science%20competition&origin=related"
+      },
+      {
+        "query": "data analytics competition",
+        "link": "https://duckduckgo.com/?q=data%20analytics%20competition&origin=related"
+      },
+      {
+        "query": "data science competition site",
+        "link": "https://duckduckgo.com/?q=data%20science%20competition%20site&origin=related"
+      },
+      {
+        "query": "big data competition",
+        "link": "https://duckduckgo.com/?q=big%20data%20competition&origin=related"
+      },
+      {
+        "query": "data driven competition",
+        "link": "https://duckduckgo.com/?q=data%20driven%20competition&origin=related"
+      },
+      {
+        "query": "data science talent competition",
+        "link": "https://duckduckgo.com/?q=data%20science%20talent%20competition&origin=related"
+      },
+      {
+        "query": "data science competition platform",
+        "link": "https://duckduckgo.com/?q=data%20science%20competition%20platform&origin=related"
+      },
+      {
+        "query": "is data science competitive",
+        "link": "https://duckduckgo.com/?q=is%20data%20science%20competitive&origin=related"
+      },
+      {
+        "query": "datacamp competition",
+        "link": "https://duckduckgo.com/?q=datacamp%20competition&origin=related"
+      },
+      {
+        "query": "data science competition",
+        "link": "https://duckduckgo.com/?q=data%20science%20competition&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+data+analysis+competition&start=11"
+    }
+  }
+}

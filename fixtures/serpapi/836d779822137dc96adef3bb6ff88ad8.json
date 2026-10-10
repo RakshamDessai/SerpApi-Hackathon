@@ -1,0 +1,92 @@
+{
+  "fetched_at": 1791602598.862679,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:catchafire.org \"needs help with\" data analysis",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afa4ee2318bfcdd478dd",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/GAvgkP7bJEHLFXX7bnyQ4Jc9SNbm7UmPM70N2z1MhwE/6ac9afa4ee2318bfcdd478dd.json",
+      "markdown_endpoint": "https://serpapi.com/searches/GAvgkP7bJEHLFXX7bnyQ4Jc9SNbm7UmPM70N2z1MhwE/6ac9afa4ee2318bfcdd478dd.md",
+      "created_at": "2026-10-10 03:23:16 UTC",
+      "processed_at": "2026-10-10 03:23:16 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Acatchafire.org+%22needs+help+with%22+data+analysis&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/GAvgkP7bJEHLFXX7bnyQ4Jc9SNbm7UmPM70N2z1MhwE/6ac9afa4ee2318bfcdd478dd.html",
+      "prettify_html_file": "https://serpapi.com/searches/GAvgkP7bJEHLFXX7bnyQ4Jc9SNbm7UmPM70N2z1MhwE/6ac9afa4ee2318bfcdd478dd.prettify",
+      "total_time_taken": 1.88
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:catchafire.org \"needs help with\" data analysis",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Higher Ground needs help with a data & analytics 1-hour consult",
+        "link": "https://www.catchafire.org/volunteer/80814/",
+        "snippet": "Data & Analytics Call for Higher Ground",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 2,
+        "title": "SOJOURN needs help with a data & analytics 1-hour consult",
+        "link": "https://www.catchafire.org/volunteer/160809/sojourn--data---analytics/",
+        "snippet": "Data & Analytics Call for SOJOURN",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 3,
+        "title": "SACRD.org needs help with a data crunching & analysis project",
+        "link": "https://www.catchafire.org/volunteer/175459/sacrd-org--data-crunching---analysis/",
+        "snippet": "Data Crunching & Analysis Call for SACRD.org",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 4,
+        "title": "MEND needs help with a data & analytics 1-hour consult",
+        "link": "https://www.catchafire.org/volunteer/161606/mend--data---analytics/",
+        "snippet": "Data & Analytics Call for MEND",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 5,
+        "title": "Artvango Therapeutic Services, Inc. needs help with a data & analytics ...",
+        "link": "https://www.catchafire.org/volunteer/175602/artvango-therapeutic-services--inc---data---analytics/",
+        "snippet": "Data & Analytics Help Artvango Therapeutic Services, Inc. by speaking with a member of their organization on the phone for 1 hour about their data and analytics needs.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 6,
+        "title": "WildFish needs help with a data & analytics 1-hour consult",
+        "link": "https://www.catchafire.org/volunteer/160585/wildfish--data---analytics/",
+        "snippet": "Data & Analytics Call for WildFish",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 7,
+        "title": "The Jesus Experience needs help with a customer database (crm) set up ...",
+        "link": "https://www.catchafire.org/volunteer/175549/the-jesus-experience--customer-database--crm--set-up/",
+        "snippet": "Setup of selected CRM system (e.g. Airtable, Salsa CRM, Salesforce, Raiser's Edge, Bloomerang, or Kindful) including a customized set of objects, single-record editing of data and field history tracking (up to 15) A customized set of views and reports to allow table-based editing and analysis of data (up to 15) Migration of Organization's current database to identified CRM system Training and guidelines on how to manage system and generate basic reports \"Hand-off\" documentation on the ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      },
+      {
+        "position": 8,
+        "title": "Emerald Sea Protection Society needs help with a website audit project",
+        "link": "https://www.catchafire.org/volunteer/175298/emerald-sea-protection-society--website-audit/",
+        "snippet": "Help Emerald Sea Protection Society assess whether or not their current website is optimally supporting its mission and goals, and outline the scope for needed changes and improvements.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Acatchafire.org+%22needs+help+with%22+data+analysis&start=8"
+    }
+  }
+}

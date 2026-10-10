@@ -1,0 +1,119 @@
+{
+  "fetched_at": 1791602330.073001,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com concurrency competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9ae97421b08b65ac8531a",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/eSqKo9wpwUBXfxZf7xOXWG2heCItnxzXVcZK2Cl7BVw/6ac9ae97421b08b65ac8531a.json",
+      "markdown_endpoint": "https://serpapi.com/searches/eSqKo9wpwUBXfxZf7xOXWG2heCItnxzXVcZK2Cl7BVw/6ac9ae97421b08b65ac8531a.md",
+      "created_at": "2026-10-10 03:18:47 UTC",
+      "processed_at": "2026-10-10 03:18:47 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+concurrency+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/eSqKo9wpwUBXfxZf7xOXWG2heCItnxzXVcZK2Cl7BVw/6ac9ae97421b08b65ac8531a.html",
+      "prettify_html_file": "https://serpapi.com/searches/eSqKo9wpwUBXfxZf7xOXWG2heCItnxzXVcZK2Cl7BVw/6ac9ae97421b08b65ac8531a.prettify",
+      "total_time_taken": 2.59
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com concurrency competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "CP Contest - 2026",
+        "link": "https://unstop.com/hackathons/cp-contest-indian-institute-of-technology-bhubaneswar-1742751",
+        "snippet": "About the Competition: Welcome to the Tech Zephyr CP Contest! Get ready to test your algorithmic thinking, problem-solving speed, and coding proficiency. This competitive programming contest is designed to push your limits with a series of challenging problems ranging from basic data structures to advanced algorithms.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "The Sphinx Trial (CP) - 2026 - unstop.com",
+        "link": "https://unstop.com/p/the-sphinx-trial-cp-devhost-2026-sahyadri-open-source-community-1738042",
+        "snippet": "The competition will feature a combination of logic-deduction-based challenges and conventional competitive programming problems. Logic Deduction Problems: Participants must analyze the given examples and deduce the underlying lo...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Hack-A-Throne | National Hackathon 2026 - 2026",
+        "link": "https://api.unstop.com/hackathons/hack-a-throne-national-hackathon-2026-hack-a-throne-1759760",
+        "snippet": "Find out the best Hack-A-Throne | National Hackathon 2026 that match your interests. Prove your mettle and win exciting prizes like job opportunities and cas...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Software Hackathon Convergence 2k26 - 2026 - unstop.com",
+        "link": "https://unstop.com/hackathons/software-hackathon-convergence-2k26-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-techno-1750788",
+        "date_raw": "2026-09-23T00:00:00.0000000",
+        "date": "Sep 23, 2026",
+        "snippet": "Find out the best Software Hackathon Convergence 2k26 that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash re...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "21341+ Competitions for Students 2026: Prizes & Quizzes - Unstop",
+        "link": "https://unstop.com/competitions-challenges",
+        "date_raw": "2026-10-06T00:00:00.0000000",
+        "date": "Oct 6, 2026",
+        "snippet": "Explore 21341+ online competitions for college students in India 2026. Join quizzes, case studies, coding and skill challenges with prizes and certificates.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "ICC CodeClash 2026 - 2026",
+        "link": "https://unstop.com/hackathons/icc-codeclash-2026-chandigarh-university-uttar-pradesh-1762222",
+        "snippet": "ICC CodeClash 2026 is a two-stage online coding competition designed to evaluate participants on Data Structures and Algorithms, problem-solving, logical thinking, coding ability, algorithmic understanding, speed, and accuracy.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "Internships | Jobs | Competitions | Hackathons | Courses - Unstop",
+        "link": "https://unstop.com/",
+        "snippet": "Apply for jobs, internships, and hackathons. Compete in contests, build skills with career courses, and get hired by top employers. Your one stop career platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "The Quantitative Code Conflux | Techfest IIT Bombay X Jane street",
+        "link": "https://unstop.com/competitions/the-quantitative-code-conflux-iit-bombay-1747629",
+        "date_raw": "2026-09-29T00:00:00.0000000",
+        "date": "Sep 29, 2026",
+        "snippet": "The Quantitative Code Conflux is a national coding and quantitative reasoning competition by Techfest, IIT Bombay, that equips participants to approach competitive programming and quantitative problems with rigor.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Unstop - Competitions, Quizzes, Hackathons, Scholarships and ...",
+        "link": "https://unstop.com/competitions/1765719/register",
+        "snippet": "Best viewed in latest versions of Mozilla, Chrome, Opera & Safari.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Accenture Innovation Challenge - 2026",
+        "link": "https://unstop.com/competitions/crp-accenture-innovation-challenge-2026-accenture-1714566",
+        "snippet": "Find out the best Accenture Innovation Challenge- 2026 that match your interests. Prove your mettle and win exciting prizes like job opportunities and cash r...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "G-Prime - 2026 - unstop.com",
+        "link": "https://unstop.com/hackathons/g-prime-opulence-2026-gokaraju-rangaraju-institute-of-engineering-and-technology-griet-hyderabad-1661460",
+        "snippet": "It is a multi-stage programming competition designed to test algorithmic thinking, coding efficiency, and problem-solving skills. Open to all engineering students, G-Prime offers a high-energy platform for passionate coders to compete and showcase their skills. Guidelines: Open to all undergraduate students from any college or stream.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+concurrency+competition&start=11"
+    }
+  }
+}

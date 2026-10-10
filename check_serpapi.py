@@ -3,7 +3,7 @@ SerpApi Quickstart & Health Check Script
 Run this script to verify your SerpApi setup and API key.
 
 Usage:
-    python test_serpapi.py
+    python check_serpapi.py
 """
 
 import os
@@ -34,35 +34,34 @@ def check_environment():
         return True
 
 def test_search():
-    import serpapi
-    print("\n[i] Testing connection to SerpApi with a sample Google Search query...")
+    """Validate the key and show the remaining quota. Costs no search credit.
+
+    Uses SerpApi's account endpoint over plain HTTPS rather than an SDK: the
+    legacy and current SDKs both claim the `serpapi` module name.
+    """
+    import requests
+
+    print("\n[i] Checking the key against SerpApi's account endpoint (free)...")
     try:
-        client = serpapi.Client(api_key=SERPAPI_API_KEY)
-        params = {
-            "engine": "google",
-            "q": "SerpApi India Hackathon 2026",
-            "location": "India",
-            "hl": "en",
-            "gl": "in",
-            "num": 3
-        }
-        results = client.search(params)
-
-        if "error" in results:
-            print(f"[ERROR] SerpApi returned error: {results['error']}")
-            return False
-
-        search_metadata = results.get("search_metadata", {})
-        print(f"[SUCCESS] Search completed successfully!")
-        print(f"  Status: {search_metadata.get('status')}")
-        print(f"  Total time taken: {search_metadata.get('total_time_taken')}s")
-        print("\nTop Results:")
-        for idx, res in enumerate(results.get("organic_results", [])[:3], 1):
-            print(f"  {idx}. {res.get('title')} ({res.get('link')})")
-        return True
+        response = requests.get(
+            "https://serpapi.com/account.json",
+            params={"api_key": SERPAPI_API_KEY},
+            timeout=20,
+        )
+        account = response.json()
     except Exception as e:
-        print(f"[ERROR] Failed to execute SerpApi query: {e}")
+        print(f"[ERROR] Could not reach SerpApi: {e}")
         return False
+
+    if "error" in account:
+        print(f"[ERROR] SerpApi returned error: {account['error']}")
+        return False
+
+    print("[SUCCESS] Key is valid.")
+    print(f"  Plan: {account.get('plan_name')}")
+    print(f"  Searches left this month: {account.get('plan_searches_left')}"
+          f" of {account.get('searches_per_month')}")
+    return True
 
 if __name__ == "__main__":
     if check_environment():

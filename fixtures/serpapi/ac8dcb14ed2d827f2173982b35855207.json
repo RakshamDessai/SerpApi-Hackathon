@@ -1,0 +1,237 @@
+{
+  "fetched_at": 1791602730.802134,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "research design intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b0267bf2f92a32780aa7",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/Vhs4gdJNXuKLruW0fs1qnSGYyj3lbtBosK3AvFCzhrY/6ac9b0267bf2f92a32780aa7.json",
+      "markdown_endpoint": "https://serpapi.com/searches/Vhs4gdJNXuKLruW0fs1qnSGYyj3lbtBosK3AvFCzhrY/6ac9b0267bf2f92a32780aa7.md",
+      "created_at": "2026-10-10 03:25:26 UTC",
+      "processed_at": "2026-10-10 03:25:26 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=research+design+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/Vhs4gdJNXuKLruW0fs1qnSGYyj3lbtBosK3AvFCzhrY/6ac9b0267bf2f92a32780aa7.html",
+      "total_time_taken": 4.55
+    },
+    "search_parameters": {
+      "q": "research design intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQsC_DIXxrynOtv50ngMEMKNumC9EwQCXfxJCBSIUosmpl49WpAQVFyoaMdIQFFtUzIHd61sNaXSPiDqduNG6Tpkehn9epI7b8gRs3l5h-ncSNGKdDuEZb5scqcWQsLE6JfzU08TwH4ICAr-EeuMwqGwjNR7Z32MyVJT_Opzi0LyDHKS0AQ",
+          "q": "research design intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQsC_DIXxrynOtv50ngMEMKNumC9EwQCXfxJCBSIUosmpl49WpAQVFyoaMdIQFFtUzIHd61sNaXSPiDqduNG6Tpkehn9epI7b8gRs3l5h-ncSNGKdDuEZb5scqcWQsLE6JfzU08TwH4ICAr-EeuMwqGwjNR7Z32MyVJT_Opzi0LyDHKS0AQ&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQxKsJKAB6BAgaEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQsC_DIXxrynOtv50ngMEMKNumC9EwQCXfxJCBSIUosmpl49WpAQVFyoaMdIQFFtUzIHd61sNaXSPiDqduNG6Tpkehn9epI7b8gRs3l5h-ncSNGKdDuEZb5scqcWQsLE6JfzU08TwH4ICAr-EeuMwqGwjNR7Z32MyVJT_Opzi0LyDHKS0AQ"
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJAXjxb6t6nIHVc2VWis6MFro5q3k2JVv1Zo5aaqyH0eP-AJwC4_O0tupQiLxU10YzieENBugp7_DrPERi67hrRerp_Ep-8kPfu2IvwT8F-sueQCHJYO1FVe19IUyFxaagyflL7EcbMSnEYTzo_AaxSGliBlJ_mDoFp_0VAhVMzrHlA1TtKRgxnVgF8XrHYa3XgIOz2HgWAMzLXFheNFYZkxUKndjZVqcOQJTayghdK9McBlUGnfLO6mDIjSPgmySTHTEYEChBHznENuU_KtTtpA2xcYRojetB1WaDVUhLDtsMsMhDF-oUMDojHO_d8Ej7_GF4Y",
+              "q": "research design intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJAXjxb6t6nIHVc2VWis6MFro5q3k2JVv1Zo5aaqyH0eP-AJwC4_O0tupQiLxU10YzieENBugp7_DrPERi67hrRerp_Ep-8kPfu2IvwT8F-sueQCHJYO1FVe19IUyFxaagyflL7EcbMSnEYTzo_AaxSGliBlJ_mDoFp_0VAhVMzrHlA1TtKRgxnVgF8XrHYa3XgIOz2HgWAMzLXFheNFYZkxUKndjZVqcOQJTayghdK9McBlUGnfLO6mDIjSPgmySTHTEYEChBHznENuU_KtTtpA2xcYRojetB1WaDVUhLDtsMsMhDF-oUMDojHO_d8Ej7_GF4Y&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJAXjxb6t6nIHVc2VWis6MFro5q3k2JVv1Zo5aaqyH0eP-AJwC4_O0tupQiLxU10YzieENBugp7_DrPERi67hrRerp_Ep-8kPfu2IvwT8F-sueQCHJYO1FVe19IUyFxaagyflL7EcbMSnEYTzo_AaxSGliBlJ_mDoFp_0VAhVMzrHlA1TtKRgxnVgF8XrHYa3XgIOz2HgWAMzLXFheNFYZkxUKndjZVqcOQJTayghdK9McBlUGnfLO6mDIjSPgmySTHTEYEChBHznENuU_KtTtpA2xcYRojetB1WaDVUhLDtsMsMhDF-oUMDojHO_d8Ej7_GF4Y"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJ4heeHwilCDGZvxCcBbxgZTdQ17ZQul3Ms7wEDOOJOVRprYxRj_aeEUGuq4GmkchaIQUlkykbkN2-zJ1dGWQSEiWryXyDE5_Yag1VCwAICcQyHRpNKpr6HvXdIcwu5Vj2JG7DpS1mw5h1CrixQlAFvFuj-kvBwsxqpEtJw7_AQWGxe9Rva0hQAGm8tzsswBEWHsX9kyj4drJ0zoKpjUPyMs84yBS5332r3DNH7dLpZi7AJ3Oj8dD5klEwZTd65BYoAm7GHtNxw8kf30IIGgD2j9aWHrRDibI4YAYARH8DnxH43la-sL0ZdQcy6g1GfHlDSjwPb",
+              "q": "research design intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJ4heeHwilCDGZvxCcBbxgZTdQ17ZQul3Ms7wEDOOJOVRprYxRj_aeEUGuq4GmkchaIQUlkykbkN2-zJ1dGWQSEiWryXyDE5_Yag1VCwAICcQyHRpNKpr6HvXdIcwu5Vj2JG7DpS1mw5h1CrixQlAFvFuj-kvBwsxqpEtJw7_AQWGxe9Rva0hQAGm8tzsswBEWHsX9kyj4drJ0zoKpjUPyMs84yBS5332r3DNH7dLpZi7AJ3Oj8dD5klEwZTd65BYoAm7GHtNxw8kf30IIGgD2j9aWHrRDibI4YAYARH8DnxH43la-sL0ZdQcy6g1GfHlDSjwPb&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJ4heeHwilCDGZvxCcBbxgZTdQ17ZQul3Ms7wEDOOJOVRprYxRj_aeEUGuq4GmkchaIQUlkykbkN2-zJ1dGWQSEiWryXyDE5_Yag1VCwAICcQyHRpNKpr6HvXdIcwu5Vj2JG7DpS1mw5h1CrixQlAFvFuj-kvBwsxqpEtJw7_AQWGxe9Rva0hQAGm8tzsswBEWHsX9kyj4drJ0zoKpjUPyMs84yBS5332r3DNH7dLpZi7AJ3Oj8dD5klEwZTd65BYoAm7GHtNxw8kf30IIGgD2j9aWHrRDibI4YAYARH8DnxH43la-sL0ZdQcy6g1GfHlDSjwPb"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c10aTwbG6P3FMkJg0pCZ9Lreq_HPEKUPwDVk1SThuMx6C8AC8gBu5JIlhRu6-thdBw4lZ9aeQyUWqRY_ntgP-TV0cqNkRJdGjpmMKA6xc3UjsfX3vhIfscUJpj1jwnbns_iv3CcR3L9_nwrivjMOJm9i29LmeYEVh0ZftJWToRLkZZb30cEEF2kD6JGti764kzIBimAkIXbLuQJ6JOOKcJ5JOScsakYw3Z_ZOElEZuapYvyRGsCLPOfthEGwvOn_L05zED3rjLq6q6gwEVIITakJSrK_oMy7NWtSQwuGTyalZK4JYNRQDfR4vBQv1PqeF6UzQq04",
+              "q": "research design intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c10aTwbG6P3FMkJg0pCZ9Lreq_HPEKUPwDVk1SThuMx6C8AC8gBu5JIlhRu6-thdBw4lZ9aeQyUWqRY_ntgP-TV0cqNkRJdGjpmMKA6xc3UjsfX3vhIfscUJpj1jwnbns_iv3CcR3L9_nwrivjMOJm9i29LmeYEVh0ZftJWToRLkZZb30cEEF2kD6JGti764kzIBimAkIXbLuQJ6JOOKcJ5JOScsakYw3Z_ZOElEZuapYvyRGsCLPOfthEGwvOn_L05zED3rjLq6q6gwEVIITakJSrK_oMy7NWtSQwuGTyalZK4JYNRQDfR4vBQv1PqeF6UzQq04&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c10aTwbG6P3FMkJg0pCZ9Lreq_HPEKUPwDVk1SThuMx6C8AC8gBu5JIlhRu6-thdBw4lZ9aeQyUWqRY_ntgP-TV0cqNkRJdGjpmMKA6xc3UjsfX3vhIfscUJpj1jwnbns_iv3CcR3L9_nwrivjMOJm9i29LmeYEVh0ZftJWToRLkZZb30cEEF2kD6JGti764kzIBimAkIXbLuQJ6JOOKcJ5JOScsakYw3Z_ZOElEZuapYvyRGsCLPOfthEGwvOn_L05zED3rjLq6q6gwEVIITakJSrK_oMy7NWtSQwuGTyalZK4JYNRQDfR4vBQv1PqeF6UzQq04"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK9JTi_xvMBOVWT8U9x3hkUHfSAubtLZrZEllRQxbox4mkAEkAKE5HMgzjutbQWKOQNAH2_Pl-xI3-cWoNLmkIeXOGHLAnTmg0WYjrzPwLkS709Ds17FrQeiys3iz3GX1EMRFINq03XGTeu_mURnXsb9ySnQ98XANYGBF-CgKwWxhVcmbJHuXWajOEW4Ml0-CY97hw3a2xXg310a4GloyUa8r2TZjX0OjLb6N7G9w-EWP4-Sbci15qUY-aVVgbcaCU8K2A5WGGyaFttZgCQWP_ZoybbytPLgeWUKNvQtWATosNrsTc_-RdtQ3vNZ9z-f7-NwzcaY",
+              "q": "research design intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK9JTi_xvMBOVWT8U9x3hkUHfSAubtLZrZEllRQxbox4mkAEkAKE5HMgzjutbQWKOQNAH2_Pl-xI3-cWoNLmkIeXOGHLAnTmg0WYjrzPwLkS709Ds17FrQeiys3iz3GX1EMRFINq03XGTeu_mURnXsb9ySnQ98XANYGBF-CgKwWxhVcmbJHuXWajOEW4Ml0-CY97hw3a2xXg310a4GloyUa8r2TZjX0OjLb6N7G9w-EWP4-Sbci15qUY-aVVgbcaCU8K2A5WGGyaFttZgCQWP_ZoybbytPLgeWUKNvQtWATosNrsTc_-RdtQ3vNZ9z-f7-NwzcaY&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK9JTi_xvMBOVWT8U9x3hkUHfSAubtLZrZEllRQxbox4mkAEkAKE5HMgzjutbQWKOQNAH2_Pl-xI3-cWoNLmkIeXOGHLAnTmg0WYjrzPwLkS709Ds17FrQeiys3iz3GX1EMRFINq03XGTeu_mURnXsb9ySnQ98XANYGBF-CgKwWxhVcmbJHuXWajOEW4Ml0-CY97hw3a2xXg310a4GloyUa8r2TZjX0OjLb6N7G9w-EWP4-Sbci15qUY-aVVgbcaCU8K2A5WGGyaFttZgCQWP_ZoybbytPLgeWUKNvQtWATosNrsTc_-RdtQ3vNZ9z-f7-NwzcaY"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJAXjxb6t6nIHVc2VWis6MFro5q3k2JVv1Zo5aaqyH0eP-AJwC4_O0tupQiLxU10YzieENBugp7_DrPERi67hrRerp_Ep-8kPfu2IvwT8F-sueQCHJYO1FVe19IUyFxaagyflL7EcbMSnEYTzo_AaxSGliBlJ_mDoFp_0VAhVMzrHlA1TtKRgxnVgF8XrHYa3XgIOz2HgWAMzLXFheNFYZkxUKndjZVqcOQJTayghdK9McBlUGnfLO6mDIjSPgmySTHTEYEChBHznENuU_KtTtpA2xcYRojetB1WaDVUhLDtsMsMhDF-oUMDojHO_d8Ej7_GF4Y",
+              "q": "research design intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJAXjxb6t6nIHVc2VWis6MFro5q3k2JVv1Zo5aaqyH0eP-AJwC4_O0tupQiLxU10YzieENBugp7_DrPERi67hrRerp_Ep-8kPfu2IvwT8F-sueQCHJYO1FVe19IUyFxaagyflL7EcbMSnEYTzo_AaxSGliBlJ_mDoFp_0VAhVMzrHlA1TtKRgxnVgF8XrHYa3XgIOz2HgWAMzLXFheNFYZkxUKndjZVqcOQJTayghdK9McBlUGnfLO6mDIjSPgmySTHTEYEChBHznENuU_KtTtpA2xcYRojetB1WaDVUhLDtsMsMhDF-oUMDojHO_d8Ej7_GF4Y&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJAXjxb6t6nIHVc2VWis6MFro5q3k2JVv1Zo5aaqyH0eP-AJwC4_O0tupQiLxU10YzieENBugp7_DrPERi67hrRerp_Ep-8kPfu2IvwT8F-sueQCHJYO1FVe19IUyFxaagyflL7EcbMSnEYTzo_AaxSGliBlJ_mDoFp_0VAhVMzrHlA1TtKRgxnVgF8XrHYa3XgIOz2HgWAMzLXFheNFYZkxUKndjZVqcOQJTayghdK9McBlUGnfLO6mDIjSPgmySTHTEYEChBHznENuU_KtTtpA2xcYRojetB1WaDVUhLDtsMsMhDF-oUMDojHO_d8Ej7_GF4Y"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJ4heeHwilCDGZvxCcBbxgZTdQ17ZQul3Ms7wEDOOJOVRprYxRj_aeEUGuq4GmkchaIQUlkykbkN2-zJ1dGWQSEiWryXyDE5_Yag1VCwAICcQyHRpNKpr6HvXdIcwu5Vj2JG7DpS1mw5h1CrixQlAFvFuj-kvBwsxqpEtJw7_AQWGxe9Rva0hQAGm8tzsswBEWHsX9kyj4drJ0zoKpjUPyMs84yBS5332r3DNH7dLpZi7AJ3Oj8dD5klEwZTd65BYoAm7GHtNxw8kf30IIGgD2j9aWHrRDibI4YAYARH8DnxH43la-sL0ZdQcy6g1GfHlDSjwPb",
+              "q": "research design intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJ4heeHwilCDGZvxCcBbxgZTdQ17ZQul3Ms7wEDOOJOVRprYxRj_aeEUGuq4GmkchaIQUlkykbkN2-zJ1dGWQSEiWryXyDE5_Yag1VCwAICcQyHRpNKpr6HvXdIcwu5Vj2JG7DpS1mw5h1CrixQlAFvFuj-kvBwsxqpEtJw7_AQWGxe9Rva0hQAGm8tzsswBEWHsX9kyj4drJ0zoKpjUPyMs84yBS5332r3DNH7dLpZi7AJ3Oj8dD5klEwZTd65BYoAm7GHtNxw8kf30IIGgD2j9aWHrRDibI4YAYARH8DnxH43la-sL0ZdQcy6g1GfHlDSjwPb&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtVKivCvRXSQCqYDAtjFylJ9M-2BlcGFBd1zA3Y3XhoJ4heeHwilCDGZvxCcBbxgZTdQ17ZQul3Ms7wEDOOJOVRprYxRj_aeEUGuq4GmkchaIQUlkykbkN2-zJ1dGWQSEiWryXyDE5_Yag1VCwAICcQyHRpNKpr6HvXdIcwu5Vj2JG7DpS1mw5h1CrixQlAFvFuj-kvBwsxqpEtJw7_AQWGxe9Rva0hQAGm8tzsswBEWHsX9kyj4drJ0zoKpjUPyMs84yBS5332r3DNH7dLpZi7AJ3Oj8dD5klEwZTd65BYoAm7GHtNxw8kf30IIGgD2j9aWHrRDibI4YAYARH8DnxH43la-sL0ZdQcy6g1GfHlDSjwPb"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c10aTwbG6P3FMkJg0pCZ9Lreq_HPEKUPwDVk1SThuMx6C8AC8gBu5JIlhRu6-thdBw4lZ9aeQyUWqRY_ntgP-TV0cqNkRJdGjpmMKA6xc3UjsfX3vhIfscUJpj1jwnbns_iv3CcR3L9_nwrivjMOJm9i29LmeYEVh0ZftJWToRLkZZb30cEEF2kD6JGti764kzIBimAkIXbLuQJ6JOOKcJ5JOScsakYw3Z_ZOElEZuapYvyRGsCLPOfthEGwvOn_L05zED3rjLq6q6gwEVIITakJSrK_oMy7NWtSQwuGTyalZK4JYNRQDfR4vBQv1PqeF6UzQq04",
+              "q": "research design intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c10aTwbG6P3FMkJg0pCZ9Lreq_HPEKUPwDVk1SThuMx6C8AC8gBu5JIlhRu6-thdBw4lZ9aeQyUWqRY_ntgP-TV0cqNkRJdGjpmMKA6xc3UjsfX3vhIfscUJpj1jwnbns_iv3CcR3L9_nwrivjMOJm9i29LmeYEVh0ZftJWToRLkZZb30cEEF2kD6JGti764kzIBimAkIXbLuQJ6JOOKcJ5JOScsakYw3Z_ZOElEZuapYvyRGsCLPOfthEGwvOn_L05zED3rjLq6q6gwEVIITakJSrK_oMy7NWtSQwuGTyalZK4JYNRQDfR4vBQv1PqeF6UzQq04&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rj-wr9e0nFxf2HrH1Zx9c10aTwbG6P3FMkJg0pCZ9Lreq_HPEKUPwDVk1SThuMx6C8AC8gBu5JIlhRu6-thdBw4lZ9aeQyUWqRY_ntgP-TV0cqNkRJdGjpmMKA6xc3UjsfX3vhIfscUJpj1jwnbns_iv3CcR3L9_nwrivjMOJm9i29LmeYEVh0ZftJWToRLkZZb30cEEF2kD6JGti764kzIBimAkIXbLuQJ6JOOKcJ5JOScsakYw3Z_ZOElEZuapYvyRGsCLPOfthEGwvOn_L05zED3rjLq6q6gwEVIITakJSrK_oMy7NWtSQwuGTyalZK4JYNRQDfR4vBQv1PqeF6UzQq04"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK9JTi_xvMBOVWT8U9x3hkUHfSAubtLZrZEllRQxbox4mkAEkAKE5HMgzjutbQWKOQNAH2_Pl-xI3-cWoNLmkIeXOGHLAnTmg0WYjrzPwLkS709Ds17FrQeiys3iz3GX1EMRFINq03XGTeu_mURnXsb9ySnQ98XANYGBF-CgKwWxhVcmbJHuXWajOEW4Ml0-CY97hw3a2xXg310a4GloyUa8r2TZjX0OjLb6N7G9w-EWP4-Sbci15qUY-aVVgbcaCU8K2A5WGGyaFttZgCQWP_ZoybbytPLgeWUKNvQtWATosNrsTc_-RdtQ3vNZ9z-f7-NwzcaY",
+              "q": "research design intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK9JTi_xvMBOVWT8U9x3hkUHfSAubtLZrZEllRQxbox4mkAEkAKE5HMgzjutbQWKOQNAH2_Pl-xI3-cWoNLmkIeXOGHLAnTmg0WYjrzPwLkS709Ds17FrQeiys3iz3GX1EMRFINq03XGTeu_mURnXsb9ySnQ98XANYGBF-CgKwWxhVcmbJHuXWajOEW4Ml0-CY97hw3a2xXg310a4GloyUa8r2TZjX0OjLb6N7G9w-EWP4-Sbci15qUY-aVVgbcaCU8K2A5WGGyaFttZgCQWP_ZoybbytPLgeWUKNvQtWATosNrsTc_-RdtQ3vNZ9z-f7-NwzcaY&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHRAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFzaqi6X-nLhHx30s6Z1rK9JTi_xvMBOVWT8U9x3hkUHfSAubtLZrZEllRQxbox4mkAEkAKE5HMgzjutbQWKOQNAH2_Pl-xI3-cWoNLmkIeXOGHLAnTmg0WYjrzPwLkS709Ds17FrQeiys3iz3GX1EMRFINq03XGTeu_mURnXsb9ySnQ98XANYGBF-CgKwWxhVcmbJHuXWajOEW4Ml0-CY97hw3a2xXg310a4GloyUa8r2TZjX0OjLb6N7G9w-EWP4-Sbci15qUY-aVVgbcaCU8K2A5WGGyaFttZgCQWP_ZoybbytPLgeWUKNvQtWATosNrsTc_-RdtQ3vNZ9z-f7-NwzcaY"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDOB0XZMvytIOPNq473x6PmHnEU-7DvNnUZu7zyZNQonfQmUSQZkccV0-WHEfzeiQqccXJFAjipl8zkr96uJ1PfZaZ9y6gosTORLJoN3EY9lzS0TnwTYdZG2SjxxPQ6dh3sDYfuz32BYhxdppi9Y-iYJ1LGD2I5gcBNXyJeERLyGYFzpuLwFPnbODs_-sQepk-VitDmmo7tDQBtzwMIaF3T25Wbb_LeN3_CMn2esKCfWpAoCcs8iVhnMn2cHQ2h8Aw9g3mn5aQIbRIAf01DR9cTHINRoqCCCjJcMh6ednLl2uU6k_65yEyxWLchRkEvpHgflpl4XnDvJ308G6B0sbP0IDH2Vu",
+              "q": "research design intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDOB0XZMvytIOPNq473x6PmHnEU-7DvNnUZu7zyZNQonfQmUSQZkccV0-WHEfzeiQqccXJFAjipl8zkr96uJ1PfZaZ9y6gosTORLJoN3EY9lzS0TnwTYdZG2SjxxPQ6dh3sDYfuz32BYhxdppi9Y-iYJ1LGD2I5gcBNXyJeERLyGYFzpuLwFPnbODs_-sQepk-VitDmmo7tDQBtzwMIaF3T25Wbb_LeN3_CMn2esKCfWpAoCcs8iVhnMn2cHQ2h8Aw9g3mn5aQIbRIAf01DR9cTHINRoqCCCjJcMh6ednLl2uU6k_65yEyxWLchRkEvpHgflpl4XnDvJ308G6B0sbP0IDH2Vu&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDOB0XZMvytIOPNq473x6PmHnEU-7DvNnUZu7zyZNQonfQmUSQZkccV0-WHEfzeiQqccXJFAjipl8zkr96uJ1PfZaZ9y6gosTORLJoN3EY9lzS0TnwTYdZG2SjxxPQ6dh3sDYfuz32BYhxdppi9Y-iYJ1LGD2I5gcBNXyJeERLyGYFzpuLwFPnbODs_-sQepk-VitDmmo7tDQBtzwMIaF3T25Wbb_LeN3_CMn2esKCfWpAoCcs8iVhnMn2cHQ2h8Aw9g3mn5aQIbRIAf01DR9cTHINRoqCCCjJcMh6ednLl2uU6k_65yEyxWLchRkEvpHgflpl4XnDvJ308G6B0sbP0IDH2Vu"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYUx35EE1wfOsbAV3VML8o7NbpCGqrixZouZtPbl1CyAoPISOgvITavF1-Wmlm7EBoRmeQCxy3Cxc698B0fKRreCsqBimF_l-IV8t7s8PBi7W4ysSMPnCkY7R5tC_n0hE0GL-WcQNFVrf5WNNtoWnviaMTlAiUbFtjd9wFym5YtQ6IwWDfOseSPMf0YQL6mCHLakjsL3iRZsdzWSPVNQtvZVeYcsfkszaLY-P3XnC659gA5WmjQAA7DW4i4ZQQmcFAXK3VCAhoIqna1uU9L_uJ38q8XC-6M2NG-1H7Ti3hos2vkSDu2FSwwHFE8uvezi_T6iMpe4_j_DGTTBBbLnRAQFHhg1TV",
+              "q": "research design intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYUx35EE1wfOsbAV3VML8o7NbpCGqrixZouZtPbl1CyAoPISOgvITavF1-Wmlm7EBoRmeQCxy3Cxc698B0fKRreCsqBimF_l-IV8t7s8PBi7W4ysSMPnCkY7R5tC_n0hE0GL-WcQNFVrf5WNNtoWnviaMTlAiUbFtjd9wFym5YtQ6IwWDfOseSPMf0YQL6mCHLakjsL3iRZsdzWSPVNQtvZVeYcsfkszaLY-P3XnC659gA5WmjQAA7DW4i4ZQQmcFAXK3VCAhoIqna1uU9L_uJ38q8XC-6M2NG-1H7Ti3hos2vkSDu2FSwwHFE8uvezi_T6iMpe4_j_DGTTBBbLnRAQFHhg1TV&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYUx35EE1wfOsbAV3VML8o7NbpCGqrixZouZtPbl1CyAoPISOgvITavF1-Wmlm7EBoRmeQCxy3Cxc698B0fKRreCsqBimF_l-IV8t7s8PBi7W4ysSMPnCkY7R5tC_n0hE0GL-WcQNFVrf5WNNtoWnviaMTlAiUbFtjd9wFym5YtQ6IwWDfOseSPMf0YQL6mCHLakjsL3iRZsdzWSPVNQtvZVeYcsfkszaLY-P3XnC659gA5WmjQAA7DW4i4ZQQmcFAXK3VCAhoIqna1uU9L_uJ38q8XC-6M2NG-1H7Ti3hos2vkSDu2FSwwHFE8uvezi_T6iMpe4_j_DGTTBBbLnRAQFHhg1TV"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cas--vADINlM8ooYBMhhAQ5i3Ure47lX0IkhWJSfWhW1RcOqU1KV6QLgw6A4pjRCTKQdUKUqAm0A7N15AFUHy151PuTO_pb0kOpuo1J5_P4nNT5WFucHrE6nwp-glagb5xBcXcRsU6fY40hFOtOalUxDoQz7CshSAQsPpyQqcZyRkK8IJawikkbtWGzv72ayGkrdvdlHSlxcebG0S6Kht9yzk7YVp8Oysd9qgdCAT-5rbp8856FdrfEMQybw4vFkQpF2rpxGcsm2Vr26teq9wqOGkXdKXqbGpPr8WySVYt0lVICjWxKSIwdeXj3CfsIu1loqHeKrzs5FfemqnzdhSppA4Hu9",
+              "q": "research design intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cas--vADINlM8ooYBMhhAQ5i3Ure47lX0IkhWJSfWhW1RcOqU1KV6QLgw6A4pjRCTKQdUKUqAm0A7N15AFUHy151PuTO_pb0kOpuo1J5_P4nNT5WFucHrE6nwp-glagb5xBcXcRsU6fY40hFOtOalUxDoQz7CshSAQsPpyQqcZyRkK8IJawikkbtWGzv72ayGkrdvdlHSlxcebG0S6Kht9yzk7YVp8Oysd9qgdCAT-5rbp8856FdrfEMQybw4vFkQpF2rpxGcsm2Vr26teq9wqOGkXdKXqbGpPr8WySVYt0lVICjWxKSIwdeXj3CfsIu1loqHeKrzs5FfemqnzdhSppA4Hu9&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cas--vADINlM8ooYBMhhAQ5i3Ure47lX0IkhWJSfWhW1RcOqU1KV6QLgw6A4pjRCTKQdUKUqAm0A7N15AFUHy151PuTO_pb0kOpuo1J5_P4nNT5WFucHrE6nwp-glagb5xBcXcRsU6fY40hFOtOalUxDoQz7CshSAQsPpyQqcZyRkK8IJawikkbtWGzv72ayGkrdvdlHSlxcebG0S6Kht9yzk7YVp8Oysd9qgdCAT-5rbp8856FdrfEMQybw4vFkQpF2rpxGcsm2Vr26teq9wqOGkXdKXqbGpPr8WySVYt0lVICjWxKSIwdeXj3CfsIu1loqHeKrzs5FfemqnzdhSppA4Hu9"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43v0yOO9RLD_Am9ZMD7rJY4AGh3Pykg_0YwG-YYZ8lNv5hF0zFxstmFeFOBiiaMjGQ-QA1UXeI8O-nDSkazTJAXNv6WyHK_xTxCQHBiX_WpaTWwqJCe2y6RL9hU7ierT8x07DmOifD-dAiGVj5WEiFGLeUuBwV0sTkaoU3wb1cQ6FklL-kiHBOkom8fx_sbGNU6WHaNyz1rEi-d2cDRHe7tQW2-f3Mf1nzmaxqSCVl1FNmaTk3Fby0YAfOb7Ou-qm8qRHpUzrk6R3R1GVPFDGPRleKkJlIE3riXANchzQHXfzu1lWmvDOq7RTxoM537bpUJaGVNaff0pQFQ5DcHBKzl-Nvcwu",
+              "q": "research design intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43v0yOO9RLD_Am9ZMD7rJY4AGh3Pykg_0YwG-YYZ8lNv5hF0zFxstmFeFOBiiaMjGQ-QA1UXeI8O-nDSkazTJAXNv6WyHK_xTxCQHBiX_WpaTWwqJCe2y6RL9hU7ierT8x07DmOifD-dAiGVj5WEiFGLeUuBwV0sTkaoU3wb1cQ6FklL-kiHBOkom8fx_sbGNU6WHaNyz1rEi-d2cDRHe7tQW2-f3Mf1nzmaxqSCVl1FNmaTk3Fby0YAfOb7Ou-qm8qRHpUzrk6R3R1GVPFDGPRleKkJlIE3riXANchzQHXfzu1lWmvDOq7RTxoM537bpUJaGVNaff0pQFQ5DcHBKzl-Nvcwu&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43v0yOO9RLD_Am9ZMD7rJY4AGh3Pykg_0YwG-YYZ8lNv5hF0zFxstmFeFOBiiaMjGQ-QA1UXeI8O-nDSkazTJAXNv6WyHK_xTxCQHBiX_WpaTWwqJCe2y6RL9hU7ierT8x07DmOifD-dAiGVj5WEiFGLeUuBwV0sTkaoU3wb1cQ6FklL-kiHBOkom8fx_sbGNU6WHaNyz1rEi-d2cDRHe7tQW2-f3Mf1nzmaxqSCVl1FNmaTk3Fby0YAfOb7Ou-qm8qRHpUzrk6R3R1GVPFDGPRleKkJlIE3riXANchzQHXfzu1lWmvDOq7RTxoM537bpUJaGVNaff0pQFQ5DcHBKzl-Nvcwu"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDOB0XZMvytIOPNq473x6PmHnEU-7DvNnUZu7zyZNQonfQmUSQZkccV0-WHEfzeiQqccXJFAjipl8zkr96uJ1PfZaZ9y6gosTORLJoN3EY9lzS0TnwTYdZG2SjxxPQ6dh3sDYfuz32BYhxdppi9Y-iYJ1LGD2I5gcBNXyJeERLyGYFzpuLwFPnbODs_-sQepk-VitDmmo7tDQBtzwMIaF3T25Wbb_LeN3_CMn2esKCfWpAoCcs8iVhnMn2cHQ2h8Aw9g3mn5aQIbRIAf01DR9cTHINRoqCCCjJcMh6ednLl2uU6k_65yEyxWLchRkEvpHgflpl4XnDvJ308G6B0sbP0IDH2Vu",
+              "q": "research design intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDOB0XZMvytIOPNq473x6PmHnEU-7DvNnUZu7zyZNQonfQmUSQZkccV0-WHEfzeiQqccXJFAjipl8zkr96uJ1PfZaZ9y6gosTORLJoN3EY9lzS0TnwTYdZG2SjxxPQ6dh3sDYfuz32BYhxdppi9Y-iYJ1LGD2I5gcBNXyJeERLyGYFzpuLwFPnbODs_-sQepk-VitDmmo7tDQBtzwMIaF3T25Wbb_LeN3_CMn2esKCfWpAoCcs8iVhnMn2cHQ2h8Aw9g3mn5aQIbRIAf01DR9cTHINRoqCCCjJcMh6ednLl2uU6k_65yEyxWLchRkEvpHgflpl4XnDvJ308G6B0sbP0IDH2Vu&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJh9Ri_XUuBPa1fXW9rjaDOB0XZMvytIOPNq473x6PmHnEU-7DvNnUZu7zyZNQonfQmUSQZkccV0-WHEfzeiQqccXJFAjipl8zkr96uJ1PfZaZ9y6gosTORLJoN3EY9lzS0TnwTYdZG2SjxxPQ6dh3sDYfuz32BYhxdppi9Y-iYJ1LGD2I5gcBNXyJeERLyGYFzpuLwFPnbODs_-sQepk-VitDmmo7tDQBtzwMIaF3T25Wbb_LeN3_CMn2esKCfWpAoCcs8iVhnMn2cHQ2h8Aw9g3mn5aQIbRIAf01DR9cTHINRoqCCCjJcMh6ednLl2uU6k_65yEyxWLchRkEvpHgflpl4XnDvJ308G6B0sbP0IDH2Vu"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYUx35EE1wfOsbAV3VML8o7NbpCGqrixZouZtPbl1CyAoPISOgvITavF1-Wmlm7EBoRmeQCxy3Cxc698B0fKRreCsqBimF_l-IV8t7s8PBi7W4ysSMPnCkY7R5tC_n0hE0GL-WcQNFVrf5WNNtoWnviaMTlAiUbFtjd9wFym5YtQ6IwWDfOseSPMf0YQL6mCHLakjsL3iRZsdzWSPVNQtvZVeYcsfkszaLY-P3XnC659gA5WmjQAA7DW4i4ZQQmcFAXK3VCAhoIqna1uU9L_uJ38q8XC-6M2NG-1H7Ti3hos2vkSDu2FSwwHFE8uvezi_T6iMpe4_j_DGTTBBbLnRAQFHhg1TV",
+              "q": "research design intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYUx35EE1wfOsbAV3VML8o7NbpCGqrixZouZtPbl1CyAoPISOgvITavF1-Wmlm7EBoRmeQCxy3Cxc698B0fKRreCsqBimF_l-IV8t7s8PBi7W4ysSMPnCkY7R5tC_n0hE0GL-WcQNFVrf5WNNtoWnviaMTlAiUbFtjd9wFym5YtQ6IwWDfOseSPMf0YQL6mCHLakjsL3iRZsdzWSPVNQtvZVeYcsfkszaLY-P3XnC659gA5WmjQAA7DW4i4ZQQmcFAXK3VCAhoIqna1uU9L_uJ38q8XC-6M2NG-1H7Ti3hos2vkSDu2FSwwHFE8uvezi_T6iMpe4_j_DGTTBBbLnRAQFHhg1TV&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjftObi7rfg2ASSx2IeXYUx35EE1wfOsbAV3VML8o7NbpCGqrixZouZtPbl1CyAoPISOgvITavF1-Wmlm7EBoRmeQCxy3Cxc698B0fKRreCsqBimF_l-IV8t7s8PBi7W4ysSMPnCkY7R5tC_n0hE0GL-WcQNFVrf5WNNtoWnviaMTlAiUbFtjd9wFym5YtQ6IwWDfOseSPMf0YQL6mCHLakjsL3iRZsdzWSPVNQtvZVeYcsfkszaLY-P3XnC659gA5WmjQAA7DW4i4ZQQmcFAXK3VCAhoIqna1uU9L_uJ38q8XC-6M2NG-1H7Ti3hos2vkSDu2FSwwHFE8uvezi_T6iMpe4_j_DGTTBBbLnRAQFHhg1TV"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cas--vADINlM8ooYBMhhAQ5i3Ure47lX0IkhWJSfWhW1RcOqU1KV6QLgw6A4pjRCTKQdUKUqAm0A7N15AFUHy151PuTO_pb0kOpuo1J5_P4nNT5WFucHrE6nwp-glagb5xBcXcRsU6fY40hFOtOalUxDoQz7CshSAQsPpyQqcZyRkK8IJawikkbtWGzv72ayGkrdvdlHSlxcebG0S6Kht9yzk7YVp8Oysd9qgdCAT-5rbp8856FdrfEMQybw4vFkQpF2rpxGcsm2Vr26teq9wqOGkXdKXqbGpPr8WySVYt0lVICjWxKSIwdeXj3CfsIu1loqHeKrzs5FfemqnzdhSppA4Hu9",
+              "q": "research design intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cas--vADINlM8ooYBMhhAQ5i3Ure47lX0IkhWJSfWhW1RcOqU1KV6QLgw6A4pjRCTKQdUKUqAm0A7N15AFUHy151PuTO_pb0kOpuo1J5_P4nNT5WFucHrE6nwp-glagb5xBcXcRsU6fY40hFOtOalUxDoQz7CshSAQsPpyQqcZyRkK8IJawikkbtWGzv72ayGkrdvdlHSlxcebG0S6Kht9yzk7YVp8Oysd9qgdCAT-5rbp8856FdrfEMQybw4vFkQpF2rpxGcsm2Vr26teq9wqOGkXdKXqbGpPr8WySVYt0lVICjWxKSIwdeXj3CfsIu1loqHeKrzs5FfemqnzdhSppA4Hu9&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cas--vADINlM8ooYBMhhAQ5i3Ure47lX0IkhWJSfWhW1RcOqU1KV6QLgw6A4pjRCTKQdUKUqAm0A7N15AFUHy151PuTO_pb0kOpuo1J5_P4nNT5WFucHrE6nwp-glagb5xBcXcRsU6fY40hFOtOalUxDoQz7CshSAQsPpyQqcZyRkK8IJawikkbtWGzv72ayGkrdvdlHSlxcebG0S6Kht9yzk7YVp8Oysd9qgdCAT-5rbp8856FdrfEMQybw4vFkQpF2rpxGcsm2Vr26teq9wqOGkXdKXqbGpPr8WySVYt0lVICjWxKSIwdeXj3CfsIu1loqHeKrzs5FfemqnzdhSppA4Hu9"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43v0yOO9RLD_Am9ZMD7rJY4AGh3Pykg_0YwG-YYZ8lNv5hF0zFxstmFeFOBiiaMjGQ-QA1UXeI8O-nDSkazTJAXNv6WyHK_xTxCQHBiX_WpaTWwqJCe2y6RL9hU7ierT8x07DmOifD-dAiGVj5WEiFGLeUuBwV0sTkaoU3wb1cQ6FklL-kiHBOkom8fx_sbGNU6WHaNyz1rEi-d2cDRHe7tQW2-f3Mf1nzmaxqSCVl1FNmaTk3Fby0YAfOb7Ou-qm8qRHpUzrk6R3R1GVPFDGPRleKkJlIE3riXANchzQHXfzu1lWmvDOq7RTxoM537bpUJaGVNaff0pQFQ5DcHBKzl-Nvcwu",
+              "q": "research design intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQnsw8FEa4MMjRUN2P9YaTamgbZSEeQ:1791602730113&q=research+design+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43v0yOO9RLD_Am9ZMD7rJY4AGh3Pykg_0YwG-YYZ8lNv5hF0zFxstmFeFOBiiaMjGQ-QA1UXeI8O-nDSkazTJAXNv6WyHK_xTxCQHBiX_WpaTWwqJCe2y6RL9hU7ierT8x07DmOifD-dAiGVj5WEiFGLeUuBwV0sTkaoU3wb1cQ6FklL-kiHBOkom8fx_sbGNU6WHaNyz1rEi-d2cDRHe7tQW2-f3Mf1nzmaxqSCVl1FNmaTk3Fby0YAfOb7Ou-qm8qRHpUzrk6R3R1GVPFDGPRleKkJlIE3riXANchzQHXfzu1lWmvDOq7RTxoM537bpUJaGVNaff0pQFQ5DcHBKzl-Nvcwu&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwiy-7miwK6XAxWnl2oFHb9mIxAQkbEKegQIHBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=research+design+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4relZ0P3q9mRqYqQWYZAh43v0yOO9RLD_Am9ZMD7rJY4AGh3Pykg_0YwG-YYZ8lNv5hF0zFxstmFeFOBiiaMjGQ-QA1UXeI8O-nDSkazTJAXNv6WyHK_xTxCQHBiX_WpaTWwqJCe2y6RL9hU7ierT8x07DmOifD-dAiGVj5WEiFGLeUuBwV0sTkaoU3wb1cQ6FklL-kiHBOkom8fx_sbGNU6WHaNyz1rEi-d2cDRHe7tQW2-f3Mf1nzmaxqSCVl1FNmaTk3Fby0YAfOb7Ou-qm8qRHpUzrk6R3R1GVPFDGPRleKkJlIE3riXANchzQHXfzu1lWmvDOq7RTxoM537bpUJaGVNaff0pQFQ5DcHBKzl-Nvcwu"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Research Intern (Design & Marketing) (Makarba)",
+        "company_name": "Virtual Pebbles",
+        "location": "Ahmedabad, Gujarat",
+        "via": "Jobrapido.com",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=research+design+intern&htidocid=Wp96EkpLnue5DfDnAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_y3LMQrCMBQAUFx7BKe_KFakFcFFJ0EoDgVxcC0_7SdJmyYl_xc6egfP4aU8iQoub3vJa5YUN2LCWBu4eKHoYXUmttrDEkqMHYn1OoVViR1GhSm8H09og4J_Ch6KELSj-dGIDHzIc2aXaRYUW2d16PPgSYUp_yb-UbHBSINDoWq3307Z4PV6cbdRRnRwJaUcMVgPJ9NTgwqbDRRjixHlAy315FuwAAAA&shmds=v1_ARwrE20kkC4GmXi1AkW0Hflzy3jun7_v5avNEcrPAJRoRZ6grQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=research+design+intern&htidocid=Wp96EkpLnue5DfDnAAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.jobrapido.com/jobpreview/926390771056115712",
+        "job_title": "Research Intern (Design & Marketing) (Makarba)",
+        "description": "About the role  \nHelp build and grow a brand end to end. You'll research what works, shape the strategy, and turn ideas into campaigns, content, and designs that go live. This is a 30-day paid internship, and employment starts after it on successful completion. You'll work on real brand projects with direct mentorship from [founder / team lead].\n\nYou'll\n\n- Research competitors, audiences, and trends, and turn findings into brand and campaign ideas\n- Help shape brand positioning, messaging, and tone of voice\n- Plan and pitch campaigns and content across social media, web, and other channels\n- Design creatives that carry the brand consistently, such as posts, ads, and decks\n- Explain the marketing goal behind every idea and design\n- Experiment with AI and new creative tools\n\nYou should have\n\n- Good design sense, shown through a portfolio, Behance, Instagram, or college projects\n- Strong research skills and the ability to back ideas with insight\n- Original, creative thinking\n- Basic understanding of branding and marketing\n- Curiosity to learn new tools, including AI\n- Availability for the full 30 days and to continue full time if selected\n\nBonus\n\n- Canva, Figma, Photoshop, or video editing\n- Copywriting or content writing\n\nYou don't need to be strong at everything. Be great at some of it and eager to learn the rest.\n\nWhat you'll gain\n\n- Real brand and campaign experience, not practice tasks\n- Direct mentorship and weekly feedback\n- Exposure to AI-powered creative workflows\n- Internship certificate\n- Employment after the 30-day internship, based on performance and mutual fit\n\nDetails\n\n- Stipend: \u20b95,000-8,000 for the 30 days, based on skills and portfolio\n- Location / Work mode: [Ahmedabad, on-site]\n\nPay: Up to \u20b910,000.00 per month\n\nBenefits:\n\n- Flexible schedule\n- Paid sick time\n\nWork Location: In person",
+        "apply_options": [
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/926390771056115712?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJSZXNlYXJjaCBJbnRlcm4gKERlc2lnbiBcdTAwMjYgTWFya2V0aW5nKSAoTWFrYXJiYSkiLCJjb21wYW55X25hbWUiOiJWaXJ0dWFsIFBlYmJsZXMiLCJodGlkb2NpZCI6IldwOTZFa3BMbnVlNURmRG5BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEVRNFJqaFRVMWxYZFZONWMyVlljMnRTVVZKbWFFTktjREk1ZGtzMWExOWtOVk0wWVVSM1lUVnVjME4zVmtscmJHVXlPWFJYTUVGa1VHZzFWemgxZDFGeVdYQlNSRTFCVDFndGJqQk5jM0ZtWldodFlrUlBOVko0UzNsNVltTjNSRjlmT1hOM1ZrWllXVXRQZDFSMFZrRk9RWGhWTWpWb1UyWTNMV0ZzZUhCeVYwNUVNbUVTRjB0eVJFcGhja3N0UW5GbGRuRjBjMUIyT0RKT1oxRkZHaUpCUkhOeU9XWlVWWFV4YnpSMU5HdDVZa2hIUlhjMlJsbHBZa3hyVFUxNmVHSjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJXcDk2RWtwTG51ZTVEZkRuQUFBQUFBPT0ifQ=="
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURVE0UmpoVFUxbFhkVk41YzJWWWMydFNVVkptYUVOS2NESTVka3MxYTE5a05WTTBZVVIzWVRWdWMwTjNWa2xyYkdVeU9YUlhNRUZrVUdnMVZ6aDFkMUZ5V1hCU1JFMUJUMWd0YmpCTmMzRm1aV2h0WWtSUE5WSjRTM2w1WW1OM1JGOWZPWE4zVmtaWVdVdFBkMVIwVmtGT1FYaFZNalZvVTJZM0xXRnNlSEJ5VjA1RU1tRVNGMHR5UkVwaGNrc3RRbkZsZG5GMGMxQjJPREpPWjFGRkdpSkJSSE55T1daVVZYVXhielIxTkd0NVlraEhSWGMyUmxscFlreHJUVTE2ZUdKMyIsImZjdiI6IjMifQ==",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURVE0UmpoVFUxbFhkVk41YzJWWWMydFNVVkptYUVOS2NESTVka3MxYTE5a05WTTBZVVIzWVRWdWMwTjNWa2xyYkdVeU9YUlhNRUZrVUdnMVZ6aDFkMUZ5V1hCU1JFMUJUMWd0YmpCTmMzRm1aV2h0WWtSUE5WSjRTM2w1WW1OM1JGOWZPWE4zVmtaWVdVdFBkMVIwVmtGT1FYaFZNalZvVTJZM0xXRnNlSEJ5VjA1RU1tRVNGMHR5UkVwaGNrc3RRbkZsZG5GMGMxQjJPREpPWjFGRkdpSkJSSE55T1daVVZYVXhielIxTkd0NVlraEhSWGMyUmxscFlreHJUVTE2ZUdKMyIsImZjdiI6IjMifQ%3D%3D&q=research+design+intern"
+    }
+  }
+}

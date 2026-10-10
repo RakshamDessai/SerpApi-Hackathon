@@ -39,3 +39,6 @@ secrets/
 
 # Codebase memory index
 .codebase-memory/
+
+# S2S SerpApi response cache (credit preservation)
+.cache/

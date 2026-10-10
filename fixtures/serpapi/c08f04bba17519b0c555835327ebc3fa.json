@@ -1,0 +1,602 @@
+{
+  "fetched_at": 1791602602.357731,
+  "engine": "google_scholar",
+  "params": {
+    "engine": "google_scholar",
+    "q": "\"data analysis\" OR \"data cleaning\" OR \"content analysis\" OR \"media monitoring\"",
+    "hl": "en",
+    "as_ylo": 2025
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afa9217ade33863ee6c5",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/N68_AG3QLAVfp_gUTAHyALfhGMdqpZBFU0gg_bZdUXw/6ac9afa9217ade33863ee6c5.json",
+      "markdown_endpoint": "https://serpapi.com/searches/N68_AG3QLAVfp_gUTAHyALfhGMdqpZBFU0gg_bZdUXw/6ac9afa9217ade33863ee6c5.md",
+      "created_at": "2026-10-10 03:23:21 UTC",
+      "processed_at": "2026-10-10 03:23:21 UTC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_ylo=2025",
+      "raw_html_file": "https://serpapi.com/searches/N68_AG3QLAVfp_gUTAHyALfhGMdqpZBFU0gg_bZdUXw/6ac9afa9217ade33863ee6c5.html",
+      "total_time_taken": 0.8
+    },
+    "search_parameters": {
+      "engine": "google_scholar",
+      "q": "\"data analysis\" OR \"data cleaning\" OR \"content analysis\" OR \"media monitoring\"",
+      "hl": "en",
+      "as_ylo": "2025"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling",
+      "total_results": 16200,
+      "time_taken_displayed": 0.18,
+      "query_displayed": "\"data analysis\" OR \"data cleaning\" OR \"content analysis\" OR \"media monitoring\""
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Qualitative content analysis\u2013framing the analytical process of inductive content analysis to develop a sound study design",
+        "result_id": "vQ8Xxfd5_b4J",
+        "link": "https://link.springer.com/article/10.1007/s11135-025-02220-9",
+        "snippet": "Qualitative content analysis (QCA) is often used in social and health sciences. However, as there are different approaches to using QCA, it can be challenging to understand and use \u2026",
+        "publication_info": {
+          "summary": "CN Lyhne, J Thisted, M Bjerrum - Quality & Quantity, 2025 - Springer",
+          "authors": [
+            {
+              "name": "CN Lyhne"
+            },
+            {
+              "name": "J Thisted"
+            },
+            {
+              "name": "M Bjerrum"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1007/s11135-025-02220-9.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=vQ8Xxfd5_b4J",
+          "cited_by": {
+            "total": 167,
+            "link": "https://scholar.google.com/scholar?cites=13762290141384609725&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "13762290141384609725",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=13762290141384609725&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:vQ8Xxfd5_b4J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AvQ8Xxfd5_b4J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cluster=13762290141384609725&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "13762290141384609725",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=13762290141384609725&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "title": "Sustainable data analysis with Snakemake",
+        "result_id": "Ky0y8wBq1U8J",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8114187/",
+        "snippet": "Data analysis often entails a multitude of heterogeneous \u2026 Here, we analyze the properties needed for data analysis to \u2026 of all steps involved in data analysis, ranging from raw data \u2026",
+        "publication_info": {
+          "summary": "F M\u00f6lder, KP Jablonski, B Letcher, MB Hall\u2026 - \u2026, 2025 - pmc.ncbi.nlm.nih.gov",
+          "authors": [
+            {
+              "name": "F M\u00f6lder",
+              "link": "https://scholar.google.com/citations?user=BfBulw0AAAAJ&hl=en&oi=sra",
+              "author_id": "BfBulw0AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BfBulw0AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "KP Jablonski",
+              "link": "https://scholar.google.com/citations?user=yjPFt58AAAAJ&hl=en&oi=sra",
+              "author_id": "yjPFt58AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=yjPFt58AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "B Letcher",
+              "link": "https://scholar.google.com/citations?user=4KXvLoIAAAAJ&hl=en&oi=sra",
+              "author_id": "4KXvLoIAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=4KXvLoIAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "MB Hall",
+              "link": "https://scholar.google.com/citations?user=UPv5JGEAAAAJ&hl=en&oi=sra",
+              "author_id": "UPv5JGEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UPv5JGEAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "nih.gov",
+            "file_format": "PDF",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8114187/pdf/f1000research-10-173023.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Ky0y8wBq1U8J",
+          "cited_by": {
+            "total": 2412,
+            "link": "https://scholar.google.com/scholar?cites=5752620651348372779&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "5752620651348372779",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=5752620651348372779&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:Ky0y8wBq1U8J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AKy0y8wBq1U8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 18,
+            "link": "https://scholar.google.com/scholar?cluster=5752620651348372779&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "5752620651348372779",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=5752620651348372779&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "title": "Qualitative data analysis: reflections, procedures, and some points for consideration",
+        "result_id": "IVGaW-NSKtcJ",
+        "link": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2025.1669578/full",
+        "snippet": "\u2026 and reviewer to demystify qualitative data analysis (QDA), this \u2026 The procedures of data analysis and/or writing as a process \u2026 guide for scholars on data analysis, incorporating reflections, \u2026",
+        "publication_info": {
+          "summary": "N Dahal - Frontiers in Research Metrics and Analytics, 2025 - frontiersin.org",
+          "authors": [
+            {
+              "name": "N Dahal",
+              "link": "https://scholar.google.com/citations?user=BzcPJKEAAAAJ&hl=en&oi=sra",
+              "author_id": "BzcPJKEAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BzcPJKEAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "frontiersin.org",
+            "file_format": "PDF",
+            "link": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2025.1669578/pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=IVGaW-NSKtcJ",
+          "cited_by": {
+            "total": 130,
+            "link": "https://scholar.google.com/scholar?cites=15504295803624247585&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "15504295803624247585",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=15504295803624247585&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:IVGaW-NSKtcJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AIVGaW-NSKtcJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=15504295803624247585&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "15504295803624247585",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=15504295803624247585&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:IVGaW-NSKtcJ:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025"
+        }
+      },
+      {
+        "position": 4,
+        "title": "An examination of generative AI response to suicide inquires: content analysis",
+        "result_id": "RbH9LZZrys8J",
+        "type": "Html",
+        "link": "https://mental.jmir.org/2025/1/e73623",
+        "snippet": "\u2026 Studies using content analysis in mental health include but \u2026 Likewise, in AI studies, content analysis has been used to \u2026 to mental health inquiries, content analysis was selected as an \u2026",
+        "publication_info": {
+          "summary": "LO Campbell, K Babb, GW Lambie, BG Hayes - JMIR Mental Health, 2025 - mental.jmir.org",
+          "authors": [
+            {
+              "name": "LO Campbell",
+              "link": "https://scholar.google.com/citations?user=5il9aBYAAAAJ&hl=en&oi=sra",
+              "author_id": "5il9aBYAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5il9aBYAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "K Babb",
+              "link": "https://scholar.google.com/citations?user=dXEfOegAAAAJ&hl=en&oi=sra",
+              "author_id": "dXEfOegAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=dXEfOegAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "GW Lambie",
+              "link": "https://scholar.google.com/citations?user=L3Rd6IUAAAAJ&hl=en&oi=sra",
+              "author_id": "L3Rd6IUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=L3Rd6IUAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "BG Hayes",
+              "link": "https://scholar.google.com/citations?user=1fBBuh4AAAAJ&hl=en&oi=sra",
+              "author_id": "1fBBuh4AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1fBBuh4AAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "HTML",
+            "link": null
+          },
+          {
+            "title": "jmir.org",
+            "file_format": "HTML",
+            "link": "https://mental.jmir.org/2025/1/e73623"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=RbH9LZZrys8J",
+          "html_version": "https://mental.jmir.org/2025/1/e73623",
+          "cited_by": {
+            "total": 59,
+            "link": "https://scholar.google.com/scholar?cites=14972898203907502405&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "14972898203907502405",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=14972898203907502405&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:RbH9LZZrys8J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ARbH9LZZrys8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 11,
+            "link": "https://scholar.google.com/scholar?cluster=14972898203907502405&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "14972898203907502405",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=14972898203907502405&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:RbH9LZZrys8J:scholar.google.com/+%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025"
+        }
+      },
+      {
+        "position": 5,
+        "title": "A process for conducting mixed methods data analysis",
+        "result_id": "AFIvH9chbVEJ",
+        "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgf2.736",
+        "snippet": "\u2026 methods data analysis has long \u2026 data analysis, building on his concepts of integration, joint displays, and metainferences. This review summarizes existing mixed methods data analysis \u2026",
+        "publication_info": {
+          "summary": "JW Creswell, M Inoue - Journal of General and Family \u2026, 2025 - Wiley Online Library",
+          "authors": [
+            {
+              "name": "JW Creswell"
+            },
+            {
+              "name": "M Inoue"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "wiley.com",
+            "file_format": "PDF",
+            "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jgf2.736"
+          },
+          {
+            "title": "Full View",
+            "link": "https://scholar.google.com/scholar?output=instlink&q=info:AFIvH9chbVEJ:scholar.google.com/&hl=en&as_sdt=0,44&as_ylo=2025&scillfp=7136168078355374899&oi=lle"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=AFIvH9chbVEJ",
+          "cited_by": {
+            "total": 267,
+            "link": "https://scholar.google.com/scholar?cites=5867383097358504448&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "5867383097358504448",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=5867383097358504448&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:AFIvH9chbVEJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AAFIvH9chbVEJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 10,
+            "link": "https://scholar.google.com/scholar?cluster=5867383097358504448&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "5867383097358504448",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=5867383097358504448&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 6,
+        "title": "Scaling hermeneutics: a guide to qualitative coding with LLMs for reflexive content analysis",
+        "result_id": "TP_M9tA0Sk0J",
+        "link": "https://link.springer.com/article/10.1140/epjds/s13688-025-00548-8",
+        "snippet": "Qualitative coding, or content analysis, is more than just labeling text: it is a reflexive interpretive practice that shapes research questions, refines theoretical insights, and illuminates \u2026",
+        "publication_info": {
+          "summary": "ZO Dunivin - EPJ Data Science, 2025 - Springer",
+          "authors": [
+            {
+              "name": "ZO Dunivin",
+              "link": "https://scholar.google.com/citations?user=qZadTtcAAAAJ&hl=en&oi=sra",
+              "author_id": "qZadTtcAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qZadTtcAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "springer.com",
+            "file_format": "PDF",
+            "link": "https://link.springer.com/content/pdf/10.1140/epjds/s13688-025-00548-8.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=TP_M9tA0Sk0J",
+          "cited_by": {
+            "total": 135,
+            "link": "https://scholar.google.com/scholar?cites=5569321961295511372&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "5569321961295511372",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=5569321961295511372&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:TP_M9tA0Sk0J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3ATP_M9tA0Sk0J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 6,
+            "link": "https://scholar.google.com/scholar?cluster=5569321961295511372&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "5569321961295511372",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=5569321961295511372&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 7,
+        "title": "Collaborative coding in inductive content analysis: Why, when, and how to do it",
+        "result_id": "IrVm0WFIiQ8J",
+        "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgc4.70030",
+        "snippet": "Inductive content analysis (ICA) is a useful method for analyzing qualitative data in genetic counseling research. It is particularly relevant when the goal is to examine and improve \u2026",
+        "publication_info": {
+          "summary": "F Coulston, F Lynch, DF Vears - Journal of Genetic Counseling, 2025 - Wiley Online Library",
+          "authors": [
+            {
+              "name": "F Coulston"
+            },
+            {
+              "name": "F Lynch",
+              "link": "https://scholar.google.com/citations?user=_a_AoG0AAAAJ&hl=en&oi=sra",
+              "author_id": "_a_AoG0AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_a_AoG0AAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "DF Vears",
+              "link": "https://scholar.google.com/citations?user=s2FF65YAAAAJ&hl=en&oi=sra",
+              "author_id": "s2FF65YAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=s2FF65YAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "wiley.com",
+            "file_format": "PDF",
+            "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jgc4.70030"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=IrVm0WFIiQ8J",
+          "cited_by": {
+            "total": 105,
+            "link": "https://scholar.google.com/scholar?cites=1119505567340475682&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "1119505567340475682",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=1119505567340475682&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:IrVm0WFIiQ8J:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AIrVm0WFIiQ8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 12,
+            "link": "https://scholar.google.com/scholar?cluster=1119505567340475682&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "1119505567340475682",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=1119505567340475682&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 8,
+        "title": "Introduction to Bayesian data analysis for cognitive science",
+        "result_id": "E-ykuGjU-jwJ",
+        "type": "Book",
+        "link": "https://books.google.com/books?hl=en&lr=&id=101yEQAAQBAJ&oi=fnd&pg=PP1&dq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&ots=Dkqkble2Ac&sig=2sCtT80mDzXQwMMTzZCG5IE1n7M",
+        "snippet": "\u2026 Introduction to Bayesian Data Analysis for Cognitive Science This book introduces Bayesian data analysis and Bayesian cognitive modeling to students and researchers in cognitive \u2026",
+        "publication_info": {
+          "summary": "B Nicenboim, DJ Schad, S Vasishth - 2025 - books.google.com",
+          "authors": [
+            {
+              "name": "B Nicenboim",
+              "link": "https://scholar.google.com/citations?user=v31PY0QAAAAJ&hl=en&oi=sra",
+              "author_id": "v31PY0QAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=v31PY0QAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "DJ Schad",
+              "link": "https://scholar.google.com/citations?user=SmoMdbwAAAAJ&hl=en&oi=sra",
+              "author_id": "SmoMdbwAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=SmoMdbwAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "S Vasishth",
+              "link": "https://scholar.google.com/citations?user=HdcXwdUAAAAJ&hl=en&oi=sra",
+              "author_id": "HdcXwdUAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=HdcXwdUAAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=E-ykuGjU-jwJ",
+          "cited_by": {
+            "total": 139,
+            "link": "https://scholar.google.com/scholar?cites=4394057932692843539&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "4394057932692843539",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=4394057932692843539&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:E-ykuGjU-jwJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AE-ykuGjU-jwJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=4394057932692843539&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "4394057932692843539",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=4394057932692843539&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 9,
+        "title": "Character education empirical research: A thematic review and comparative content analysis",
+        "result_id": "v0ANK2NLR-kJ",
+        "link": "https://www.tandfonline.com/doi/abs/10.1080/03057240.2025.2480185",
+        "snippet": "Character Education Empirical Research (CEER) is a rapidly emerging field, but no thematic overview is available. This study aimed to fill this gap in the research, generating a thematic \u2026",
+        "publication_info": {
+          "summary": "P Oldham, S McLoughlin - Journal of Moral Education, 2026 - Taylor & Francis",
+          "authors": [
+            {
+              "name": "P Oldham",
+              "link": "https://scholar.google.com/citations?user=sARS3ccAAAAJ&hl=en&oi=sra",
+              "author_id": "sARS3ccAAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=sARS3ccAAAAJ&engine=google_scholar_author&hl=en"
+            },
+            {
+              "name": "S McLoughlin",
+              "link": "https://scholar.google.com/citations?user=Dl2WYQ4AAAAJ&hl=en&oi=sra",
+              "author_id": "Dl2WYQ4AAAAJ",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Dl2WYQ4AAAAJ&engine=google_scholar_author&hl=en"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "tandfonline.com",
+            "file_format": "PDF",
+            "link": "https://www.tandfonline.com/doi/pdf/10.1080/03057240.2025.2480185"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=v0ANK2NLR-kJ",
+          "cited_by": {
+            "total": 88,
+            "link": "https://scholar.google.com/scholar?cites=16809487023479799999&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "16809487023479799999",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=16809487023479799999&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:v0ANK2NLR-kJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3Av0ANK2NLR-kJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 5,
+            "link": "https://scholar.google.com/scholar?cluster=16809487023479799999&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "16809487023479799999",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=16809487023479799999&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 10,
+        "title": "Introduction to statistics and data analysis for physicists",
+        "result_id": "GA0AE5xjyXsJ",
+        "type": "Book",
+        "link": "https://www.worldscientific.com/doi/abs/10.1142/9789819814329_0001",
+        "snippet": "Though it is exaggerated to pretend that in our life only the taxes and the death are certain, it is true that the majority of all predictions suffer from uncertainties. Thus the occupation with \u2026",
+        "publication_info": {
+          "summary": "G Bohm, G Zech - 2025 - World Scientific",
+          "authors": [
+            {
+              "name": "G Bohm"
+            },
+            {
+              "name": "G Zech"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "",
+            "file_format": "PDF",
+            "link": null
+          },
+          {
+            "title": "worldscientific.com",
+            "file_format": "PDF",
+            "link": "https://www.worldscientific.com/doi/pdf/10.1142/9789819814329_0001"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=GA0AE5xjyXsJ",
+          "cited_by": {
+            "total": 369,
+            "link": "https://scholar.google.com/scholar?cites=8919770058968796440&as_sdt=5,44&sciodt=0,44&hl=en",
+            "cites_id": "8919770058968796440",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=8919770058968796440&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:GA0AE5xjyXsJ:scholar.google.com/&scioq=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=related%3AGA0AE5xjyXsJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=8919770058968796440&hl=en&as_sdt=0,44&as_ylo=2025",
+            "cluster_id": "8919770058968796440",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&cluster=8919770058968796440&engine=google_scholar&hl=en"
+          }
+        }
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://scholar.google.com/scholar?start=10&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+      "other_pages": {
+        "2": "https://scholar.google.com/scholar?start=10&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "3": "https://scholar.google.com/scholar?start=20&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "4": "https://scholar.google.com/scholar?start=30&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "5": "https://scholar.google.com/scholar?start=40&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "6": "https://scholar.google.com/scholar?start=50&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "7": "https://scholar.google.com/scholar?start=60&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "8": "https://scholar.google.com/scholar?start=70&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "9": "https://scholar.google.com/scholar?start=80&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025",
+        "10": "https://scholar.google.com/scholar?start=90&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&hl=en&as_sdt=0,44&as_ylo=2025"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=10",
+      "next": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=10",
+        "3": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=20",
+        "4": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=30",
+        "5": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=40",
+        "6": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=50",
+        "7": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=60",
+        "8": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=70",
+        "9": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=80",
+        "10": "https://serpapi.com/search.json?as_sdt=0%2C44&as_ylo=2025&engine=google_scholar&hl=en&q=%22data+analysis%22+OR+%22data+cleaning%22+OR+%22content+analysis%22+OR+%22media+monitoring%22&start=90"
+      }
+    }
+  }
+}

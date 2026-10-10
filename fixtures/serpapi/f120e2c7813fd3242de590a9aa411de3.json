@@ -1,0 +1,435 @@
+{
+  "fetched_at": 1791602725.86944,
+  "engine": "google_jobs",
+  "params": {
+    "engine": "google_jobs",
+    "q": "data analysis intern",
+    "hl": "en",
+    "location": "India",
+    "chips": "date_posted:week",
+    "gl": "in"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9b01ea9fcce25f299e453",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/-p3Jks7mYztYi5Y1BA56r9XDLz7dwqaKhmmSPr_ia-I/6ac9b01ea9fcce25f299e453.json",
+      "markdown_endpoint": "https://serpapi.com/searches/-p3Jks7mYztYi5Y1BA56r9XDLz7dwqaKhmmSPr_ia-I/6ac9b01ea9fcce25f299e453.md",
+      "created_at": "2026-10-10 03:25:18 UTC",
+      "processed_at": "2026-10-10 03:25:18 UTC",
+      "google_jobs_url": "https://www.google.com/search?q=data+analysis+intern&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&chips=date_posted:week&udm=8",
+      "raw_html_file": "https://serpapi.com/searches/-p3Jks7mYztYi5Y1BA56r9XDLz7dwqaKhmmSPr_ia-I/6ac9b01ea9fcce25f299e453.html",
+      "total_time_taken": 6.99
+    },
+    "search_parameters": {
+      "q": "data analysis intern",
+      "engine": "google_jobs",
+      "location_requested": "India",
+      "location_used": "India",
+      "google_domain": "google.com",
+      "hl": "en",
+      "gl": "in",
+      "chips": "date_posted:week"
+    },
+    "filters": [
+      {
+        "name": "Remote",
+        "parameters": {
+          "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZwPWHVXxlwERzyWxGDt8yiytJgpqBZq1oHkRQmpXhfQF41-ClKinn68e0fEdmUVzRa_3NRZHUeZebjENhW_aQk9DuDjnhiMkxPusIdjU51sltC4f78nyYQRtWC8RW0f1WRkQGUrvjzOVtiBpqo85odXNKCItBDBQlQthKGlF9lIsks4uyg",
+          "q": "data analysis intern remote"
+        },
+        "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZwPWHVXxlwERzyWxGDt8yiytJgpqBZq1oHkRQmpXhfQF41-ClKinn68e0fEdmUVzRa_3NRZHUeZebjENhW_aQk9DuDjnhiMkxPusIdjU51sltC4f78nyYQRtWC8RW0f1WRkQGUrvjzOVtiBpqo85odXNKCItBDBQlQthKGlF9lIsks4uyg&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQxKsJKAB6BAggEAE&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZwPWHVXxlwERzyWxGDt8yiytJgpqBZq1oHkRQmpXhfQF41-ClKinn68e0fEdmUVzRa_3NRZHUeZebjENhW_aQk9DuDjnhiMkxPusIdjU51sltC4f78nyYQRtWC8RW0f1WRkQGUrvjzOVtiBpqo85odXNKCItBDBQlQthKGlF9lIsks4uyg"
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCE0whC8jfXYx8Br6sQzsDOPY7IkdVVMVxcEXGXNKgS1w8IC2z67d7k5uODXEJTf_TJbw0LQl8JLrUQLO2RJ1RSsyjJ7c2OZkX847AjETUmHqer6smaDHec_W5X1oc2aTc4g0-j06FjoInFV9m1YeNV1mM29EVpvvSlC_0WDUxMLtPq_Ae3rQPd08EeNlwK1Zh9MkUxUl6rqX498BkFeC7ZplGtGp9jAol9XfzR1EVjDiwukbOLR56Pl3Xqm4qes5nPPTIENuXWbTVg-XBrF5Bm0kOUTzNtlkPweCJMRsZ2L0LUiuKc",
+              "q": "data analysis intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCE0whC8jfXYx8Br6sQzsDOPY7IkdVVMVxcEXGXNKgS1w8IC2z67d7k5uODXEJTf_TJbw0LQl8JLrUQLO2RJ1RSsyjJ7c2OZkX847AjETUmHqer6smaDHec_W5X1oc2aTc4g0-j06FjoInFV9m1YeNV1mM29EVpvvSlC_0WDUxMLtPq_Ae3rQPd08EeNlwK1Zh9MkUxUl6rqX498BkFeC7ZplGtGp9jAol9XfzR1EVjDiwukbOLR56Pl3Xqm4qes5nPPTIENuXWbTVg-XBrF5Bm0kOUTzNtlkPweCJMRsZ2L0LUiuKc&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCE0whC8jfXYx8Br6sQzsDOPY7IkdVVMVxcEXGXNKgS1w8IC2z67d7k5uODXEJTf_TJbw0LQl8JLrUQLO2RJ1RSsyjJ7c2OZkX847AjETUmHqer6smaDHec_W5X1oc2aTc4g0-j06FjoInFV9m1YeNV1mM29EVpvvSlC_0WDUxMLtPq_Ae3rQPd08EeNlwK1Zh9MkUxUl6rqX498BkFeC7ZplGtGp9jAol9XfzR1EVjDiwukbOLR56Pl3Xqm4qes5nPPTIENuXWbTVg-XBrF5Bm0kOUTzNtlkPweCJMRsZ2L0LUiuKc"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCGFEzK9TFKpsAI_YoeGDNL3bWMVZV7JR1D5zONNWcMhi9jgqEoR6lmjTP087CzUE3DC0PPV3_zX5GzjDhekmDzQ6Zb2ePiHFLDHHlK2H8wmrz2huRigWAV8Td7Gno1N05g4mIRn8Rq7PogyJ1MjbQS6U7ASBJSce585hu320ruZnlBkW7a_9MdHs9dDG-aXhZbXkBxUKCQnARoUTD_hRyu38qUke2aGft45-SOklIOySPwwRFdXVL8BX6VnT_TnEpwgvt9_oR908_FnTuPKCLq9Rf1Cjj9RbE0fckVhtxZ__poYqb_w0Yk41sascBbLp9zftQzW",
+              "q": "data analysis intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCGFEzK9TFKpsAI_YoeGDNL3bWMVZV7JR1D5zONNWcMhi9jgqEoR6lmjTP087CzUE3DC0PPV3_zX5GzjDhekmDzQ6Zb2ePiHFLDHHlK2H8wmrz2huRigWAV8Td7Gno1N05g4mIRn8Rq7PogyJ1MjbQS6U7ASBJSce585hu320ruZnlBkW7a_9MdHs9dDG-aXhZbXkBxUKCQnARoUTD_hRyu38qUke2aGft45-SOklIOySPwwRFdXVL8BX6VnT_TnEpwgvt9_oR908_FnTuPKCLq9Rf1Cjj9RbE0fckVhtxZ__poYqb_w0Yk41sascBbLp9zftQzW&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCGFEzK9TFKpsAI_YoeGDNL3bWMVZV7JR1D5zONNWcMhi9jgqEoR6lmjTP087CzUE3DC0PPV3_zX5GzjDhekmDzQ6Zb2ePiHFLDHHlK2H8wmrz2huRigWAV8Td7Gno1N05g4mIRn8Rq7PogyJ1MjbQS6U7ASBJSce585hu320ruZnlBkW7a_9MdHs9dDG-aXhZbXkBxUKCQnARoUTD_hRyu38qUke2aGft45-SOklIOySPwwRFdXVL8BX6VnT_TnEpwgvt9_oR908_FnTuPKCLq9Rf1Cjj9RbE0fckVhtxZ__poYqb_w0Yk41sascBbLp9zftQzW"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rXU76ScWBwxKToAdO0Enw8ZT-KR3FVsqT_KT5jDPk0ypZ-GGPXTQWuuhZnNF4RC9_-Oveejpey4OrJ3pmLI8amtxlsXNYTibxxy3DnDS8tYAgVzbHhu4Mcas2KM0MzKhcpDA1lmgaiPWrOjByIyJeF_bRkPPDIrcPknfDY_NHLbhr-KbdijZGApetskwKNLz5Ikfnuqa_81eo_Maq5iWQ3tFJ9LaDD26y4R7c1YILZ09iORwZDfgx9j_rm1JIX6vfj8hITA2HooJVIJBoEMw4lLZU8Fb1r_qhd7BfB5qDnfp7K2sj8CE1uIqa_LAA3NT9MxylYWcwjdCRP28eaSLrLIG7dRA",
+              "q": "data analysis intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXU76ScWBwxKToAdO0Enw8ZT-KR3FVsqT_KT5jDPk0ypZ-GGPXTQWuuhZnNF4RC9_-Oveejpey4OrJ3pmLI8amtxlsXNYTibxxy3DnDS8tYAgVzbHhu4Mcas2KM0MzKhcpDA1lmgaiPWrOjByIyJeF_bRkPPDIrcPknfDY_NHLbhr-KbdijZGApetskwKNLz5Ikfnuqa_81eo_Maq5iWQ3tFJ9LaDD26y4R7c1YILZ09iORwZDfgx9j_rm1JIX6vfj8hITA2HooJVIJBoEMw4lLZU8Fb1r_qhd7BfB5qDnfp7K2sj8CE1uIqa_LAA3NT9MxylYWcwjdCRP28eaSLrLIG7dRA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXU76ScWBwxKToAdO0Enw8ZT-KR3FVsqT_KT5jDPk0ypZ-GGPXTQWuuhZnNF4RC9_-Oveejpey4OrJ3pmLI8amtxlsXNYTibxxy3DnDS8tYAgVzbHhu4Mcas2KM0MzKhcpDA1lmgaiPWrOjByIyJeF_bRkPPDIrcPknfDY_NHLbhr-KbdijZGApetskwKNLz5Ikfnuqa_81eo_Maq5iWQ3tFJ9LaDD26y4R7c1YILZ09iORwZDfgx9j_rm1JIX6vfj8hITA2HooJVIJBoEMw4lLZU8Fb1r_qhd7BfB5qDnfp7K2sj8CE1uIqa_LAA3NT9MxylYWcwjdCRP28eaSLrLIG7dRA"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJM8s_aTmXC3dBjv0OsXhJ4cOUv2QlA3xE0LWvZi_9VDCHaocl5DxVIhYy2uRdVj_Rxokfo7pIZQmDrZgs6nTHLVjTFagN4fR8ZIKrykERvIbfZTfhI770LsFasFq1A9M8k2nYZTYKXFkx-lR_n1Jd08auS8LCXtzTRF2Vmh5mUZQJoxKlWZ1hAEmfIhDJgivrSvFBI-MxmWmAhuhiofo9BSWWrPh_OOcZ1GmZq7kT9GpUI-Lr7IRLZuYuTMJxrpBIGDvjF9-E_97Phb-HFEbufUpBA1FcBDLCV8VCDUCeqF1OiKcPrE0DMbgqlYUx7qPR0pLP34",
+              "q": "data analysis intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJM8s_aTmXC3dBjv0OsXhJ4cOUv2QlA3xE0LWvZi_9VDCHaocl5DxVIhYy2uRdVj_Rxokfo7pIZQmDrZgs6nTHLVjTFagN4fR8ZIKrykERvIbfZTfhI770LsFasFq1A9M8k2nYZTYKXFkx-lR_n1Jd08auS8LCXtzTRF2Vmh5mUZQJoxKlWZ1hAEmfIhDJgivrSvFBI-MxmWmAhuhiofo9BSWWrPh_OOcZ1GmZq7kT9GpUI-Lr7IRLZuYuTMJxrpBIGDvjF9-E_97Phb-HFEbufUpBA1FcBDLCV8VCDUCeqF1OiKcPrE0DMbgqlYUx7qPR0pLP34&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJM8s_aTmXC3dBjv0OsXhJ4cOUv2QlA3xE0LWvZi_9VDCHaocl5DxVIhYy2uRdVj_Rxokfo7pIZQmDrZgs6nTHLVjTFagN4fR8ZIKrykERvIbfZTfhI770LsFasFq1A9M8k2nYZTYKXFkx-lR_n1Jd08auS8LCXtzTRF2Vmh5mUZQJoxKlWZ1hAEmfIhDJgivrSvFBI-MxmWmAhuhiofo9BSWWrPh_OOcZ1GmZq7kT9GpUI-Lr7IRLZuYuTMJxrpBIGDvjF9-E_97Phb-HFEbufUpBA1FcBDLCV8VCDUCeqF1OiKcPrE0DMbgqlYUx7qPR0pLP34"
+          }
+        ]
+      },
+      {
+        "name": "Job type",
+        "options": [
+          {
+            "name": "Full time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCE0whC8jfXYx8Br6sQzsDOPY7IkdVVMVxcEXGXNKgS1w8IC2z67d7k5uODXEJTf_TJbw0LQl8JLrUQLO2RJ1RSsyjJ7c2OZkX847AjETUmHqer6smaDHec_W5X1oc2aTc4g0-j06FjoInFV9m1YeNV1mM29EVpvvSlC_0WDUxMLtPq_Ae3rQPd08EeNlwK1Zh9MkUxUl6rqX498BkFeC7ZplGtGp9jAol9XfzR1EVjDiwukbOLR56Pl3Xqm4qes5nPPTIENuXWbTVg-XBrF5Bm0kOUTzNtlkPweCJMRsZ2L0LUiuKc",
+              "q": "data analysis intern full time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCE0whC8jfXYx8Br6sQzsDOPY7IkdVVMVxcEXGXNKgS1w8IC2z67d7k5uODXEJTf_TJbw0LQl8JLrUQLO2RJ1RSsyjJ7c2OZkX847AjETUmHqer6smaDHec_W5X1oc2aTc4g0-j06FjoInFV9m1YeNV1mM29EVpvvSlC_0WDUxMLtPq_Ae3rQPd08EeNlwK1Zh9MkUxUl6rqX498BkFeC7ZplGtGp9jAol9XfzR1EVjDiwukbOLR56Pl3Xqm4qes5nPPTIENuXWbTVg-XBrF5Bm0kOUTzNtlkPweCJMRsZ2L0LUiuKc&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCE0whC8jfXYx8Br6sQzsDOPY7IkdVVMVxcEXGXNKgS1w8IC2z67d7k5uODXEJTf_TJbw0LQl8JLrUQLO2RJ1RSsyjJ7c2OZkX847AjETUmHqer6smaDHec_W5X1oc2aTc4g0-j06FjoInFV9m1YeNV1mM29EVpvvSlC_0WDUxMLtPq_Ae3rQPd08EeNlwK1Zh9MkUxUl6rqX498BkFeC7ZplGtGp9jAol9XfzR1EVjDiwukbOLR56Pl3Xqm4qes5nPPTIENuXWbTVg-XBrF5Bm0kOUTzNtlkPweCJMRsZ2L0LUiuKc"
+          },
+          {
+            "name": "Part time",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCGFEzK9TFKpsAI_YoeGDNL3bWMVZV7JR1D5zONNWcMhi9jgqEoR6lmjTP087CzUE3DC0PPV3_zX5GzjDhekmDzQ6Zb2ePiHFLDHHlK2H8wmrz2huRigWAV8Td7Gno1N05g4mIRn8Rq7PogyJ1MjbQS6U7ASBJSce585hu320ruZnlBkW7a_9MdHs9dDG-aXhZbXkBxUKCQnARoUTD_hRyu38qUke2aGft45-SOklIOySPwwRFdXVL8BX6VnT_TnEpwgvt9_oR908_FnTuPKCLq9Rf1Cjj9RbE0fckVhtxZ__poYqb_w0Yk41sascBbLp9zftQzW",
+              "q": "data analysis intern part time"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCGFEzK9TFKpsAI_YoeGDNL3bWMVZV7JR1D5zONNWcMhi9jgqEoR6lmjTP087CzUE3DC0PPV3_zX5GzjDhekmDzQ6Zb2ePiHFLDHHlK2H8wmrz2huRigWAV8Td7Gno1N05g4mIRn8Rq7PogyJ1MjbQS6U7ASBJSce585hu320ruZnlBkW7a_9MdHs9dDG-aXhZbXkBxUKCQnARoUTD_hRyu38qUke2aGft45-SOklIOySPwwRFdXVL8BX6VnT_TnEpwgvt9_oR908_FnTuPKCLq9Rf1Cjj9RbE0fckVhtxZ__poYqb_w0Yk41sascBbLp9zftQzW&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rer8FIO3DPELNO0d8unchFkeOT7n0pMzvzXoKnbfRSCGFEzK9TFKpsAI_YoeGDNL3bWMVZV7JR1D5zONNWcMhi9jgqEoR6lmjTP087CzUE3DC0PPV3_zX5GzjDhekmDzQ6Zb2ePiHFLDHHlK2H8wmrz2huRigWAV8Td7Gno1N05g4mIRn8Rq7PogyJ1MjbQS6U7ASBJSce585hu320ruZnlBkW7a_9MdHs9dDG-aXhZbXkBxUKCQnARoUTD_hRyu38qUke2aGft45-SOklIOySPwwRFdXVL8BX6VnT_TnEpwgvt9_oR908_FnTuPKCLq9Rf1Cjj9RbE0fckVhtxZ__poYqb_w0Yk41sascBbLp9zftQzW"
+          },
+          {
+            "name": "Contract",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rXU76ScWBwxKToAdO0Enw8ZT-KR3FVsqT_KT5jDPk0ypZ-GGPXTQWuuhZnNF4RC9_-Oveejpey4OrJ3pmLI8amtxlsXNYTibxxy3DnDS8tYAgVzbHhu4Mcas2KM0MzKhcpDA1lmgaiPWrOjByIyJeF_bRkPPDIrcPknfDY_NHLbhr-KbdijZGApetskwKNLz5Ikfnuqa_81eo_Maq5iWQ3tFJ9LaDD26y4R7c1YILZ09iORwZDfgx9j_rm1JIX6vfj8hITA2HooJVIJBoEMw4lLZU8Fb1r_qhd7BfB5qDnfp7K2sj8CE1uIqa_LAA3NT9MxylYWcwjdCRP28eaSLrLIG7dRA",
+              "q": "data analysis intern contract"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXU76ScWBwxKToAdO0Enw8ZT-KR3FVsqT_KT5jDPk0ypZ-GGPXTQWuuhZnNF4RC9_-Oveejpey4OrJ3pmLI8amtxlsXNYTibxxy3DnDS8tYAgVzbHhu4Mcas2KM0MzKhcpDA1lmgaiPWrOjByIyJeF_bRkPPDIrcPknfDY_NHLbhr-KbdijZGApetskwKNLz5Ikfnuqa_81eo_Maq5iWQ3tFJ9LaDD26y4R7c1YILZ09iORwZDfgx9j_rm1JIX6vfj8hITA2HooJVIJBoEMw4lLZU8Fb1r_qhd7BfB5qDnfp7K2sj8CE1uIqa_LAA3NT9MxylYWcwjdCRP28eaSLrLIG7dRA&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rXU76ScWBwxKToAdO0Enw8ZT-KR3FVsqT_KT5jDPk0ypZ-GGPXTQWuuhZnNF4RC9_-Oveejpey4OrJ3pmLI8amtxlsXNYTibxxy3DnDS8tYAgVzbHhu4Mcas2KM0MzKhcpDA1lmgaiPWrOjByIyJeF_bRkPPDIrcPknfDY_NHLbhr-KbdijZGApetskwKNLz5Ikfnuqa_81eo_Maq5iWQ3tFJ9LaDD26y4R7c1YILZ09iORwZDfgx9j_rm1JIX6vfj8hITA2HooJVIJBoEMw4lLZU8Fb1r_qhd7BfB5qDnfp7K2sj8CE1uIqa_LAA3NT9MxylYWcwjdCRP28eaSLrLIG7dRA"
+          },
+          {
+            "name": "Internship",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJM8s_aTmXC3dBjv0OsXhJ4cOUv2QlA3xE0LWvZi_9VDCHaocl5DxVIhYy2uRdVj_Rxokfo7pIZQmDrZgs6nTHLVjTFagN4fR8ZIKrykERvIbfZTfhI770LsFasFq1A9M8k2nYZTYKXFkx-lR_n1Jd08auS8LCXtzTRF2Vmh5mUZQJoxKlWZ1hAEmfIhDJgivrSvFBI-MxmWmAhuhiofo9BSWWrPh_OOcZ1GmZq7kT9GpUI-Lr7IRLZuYuTMJxrpBIGDvjF9-E_97Phb-HFEbufUpBA1FcBDLCV8VCDUCeqF1OiKcPrE0DMbgqlYUx7qPR0pLP34",
+              "q": "data analysis intern internship"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJM8s_aTmXC3dBjv0OsXhJ4cOUv2QlA3xE0LWvZi_9VDCHaocl5DxVIhYy2uRdVj_Rxokfo7pIZQmDrZgs6nTHLVjTFagN4fR8ZIKrykERvIbfZTfhI770LsFasFq1A9M8k2nYZTYKXFkx-lR_n1Jd08auS8LCXtzTRF2Vmh5mUZQJoxKlWZ1hAEmfIhDJgivrSvFBI-MxmWmAhuhiofo9BSWWrPh_OOcZ1GmZq7kT9GpUI-Lr7IRLZuYuTMJxrpBIGDvjF9-E_97Phb-HFEbufUpBA1FcBDLCV8VCDUCeqF1OiKcPrE0DMbgqlYUx7qPR0pLP34&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJRAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJM8s_aTmXC3dBjv0OsXhJ4cOUv2QlA3xE0LWvZi_9VDCHaocl5DxVIhYy2uRdVj_Rxokfo7pIZQmDrZgs6nTHLVjTFagN4fR8ZIKrykERvIbfZTfhI770LsFasFq1A9M8k2nYZTYKXFkx-lR_n1Jd08auS8LCXtzTRF2Vmh5mUZQJoxKlWZ1hAEmfIhDJgivrSvFBI-MxmWmAhuhiofo9BSWWrPh_OOcZ1GmZq7kT9GpUI-Lr7IRLZuYuTMJxrpBIGDvjF9-E_97Phb-HFEbufUpBA1FcBDLCV8VCDUCeqF1OiKcPrE0DMbgqlYUx7qPR0pLP34"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rvtcT-Eje2p9k8tYK5dum57LmhmtfzNVrQD3FaBvlE3sXSX5pnSAlO4xEY4ivq7H9SLhq32UQh1mMttnYY0AEGyGnCegjjzpEuxLbGYxVrbCCRV-kxilCr3OGMVFqVVXVGBFskvystP-VIiWFU5Osfc-urOh-uAMfrilVcqPVE2h1m8XFfEUk21d3oPhCaQdEfvUulf1KqJL7mit0uSQB_mJtrW14d0WX0kCNrNAAsRXKQbir9i00iIErDTcLoJDbgBijXG016x-Jv6HkiOQVQDi-QjwXnO3dJbc_8k_Ag1nzQwO9iTymTpu067xeWgLqdx1JBYIXHsN2n3kcL-nC_KMgiNqCZsNGcXGy5NnBZhDcq2r3",
+              "q": "data analysis intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvtcT-Eje2p9k8tYK5dum57LmhmtfzNVrQD3FaBvlE3sXSX5pnSAlO4xEY4ivq7H9SLhq32UQh1mMttnYY0AEGyGnCegjjzpEuxLbGYxVrbCCRV-kxilCr3OGMVFqVVXVGBFskvystP-VIiWFU5Osfc-urOh-uAMfrilVcqPVE2h1m8XFfEUk21d3oPhCaQdEfvUulf1KqJL7mit0uSQB_mJtrW14d0WX0kCNrNAAsRXKQbir9i00iIErDTcLoJDbgBijXG016x-Jv6HkiOQVQDi-QjwXnO3dJbc_8k_Ag1nzQwO9iTymTpu067xeWgLqdx1JBYIXHsN2n3kcL-nC_KMgiNqCZsNGcXGy5NnBZhDcq2r3&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvtcT-Eje2p9k8tYK5dum57LmhmtfzNVrQD3FaBvlE3sXSX5pnSAlO4xEY4ivq7H9SLhq32UQh1mMttnYY0AEGyGnCegjjzpEuxLbGYxVrbCCRV-kxilCr3OGMVFqVVXVGBFskvystP-VIiWFU5Osfc-urOh-uAMfrilVcqPVE2h1m8XFfEUk21d3oPhCaQdEfvUulf1KqJL7mit0uSQB_mJtrW14d0WX0kCNrNAAsRXKQbir9i00iIErDTcLoJDbgBijXG016x-Jv6HkiOQVQDi-QjwXnO3dJbc_8k_Ag1nzQwO9iTymTpu067xeWgLqdx1JBYIXHsN2n3kcL-nC_KMgiNqCZsNGcXGy5NnBZhDcq2r3"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnP4Pog_kU7Q8ipSgB9uxqwtVzjuobHNMd08Mn2NBtsw3uRm2KRZwXKQ68GQOuwOTcGkOLcGc0QKsGU9iQfwLQPHScBwM1lGPe4gHYtl4DdIy5Qi37QSuY3z-8IS21iC3pwoV3FV_brAQZVFOGIKH1-hUOpPM-XPiyqOtL9DPlT3whfmgiKJEAA4EXT09nVcWOh71ZfdIoqJVmQhTjBEGmO9SU2VfQEjooe8s1P6_QRBdD6-ryB7MlBF5OdDsgd1IddoNpWQ9aijNsxkYBV0UeTmoj6bgz4xG9Sp1wr7wYGKrOT5Yf3XbX2vqyYj7yNW9xB7b-lSDwFpuZ9y-UeNX-0LZCDQx",
+              "q": "data analysis intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnP4Pog_kU7Q8ipSgB9uxqwtVzjuobHNMd08Mn2NBtsw3uRm2KRZwXKQ68GQOuwOTcGkOLcGc0QKsGU9iQfwLQPHScBwM1lGPe4gHYtl4DdIy5Qi37QSuY3z-8IS21iC3pwoV3FV_brAQZVFOGIKH1-hUOpPM-XPiyqOtL9DPlT3whfmgiKJEAA4EXT09nVcWOh71ZfdIoqJVmQhTjBEGmO9SU2VfQEjooe8s1P6_QRBdD6-ryB7MlBF5OdDsgd1IddoNpWQ9aijNsxkYBV0UeTmoj6bgz4xG9Sp1wr7wYGKrOT5Yf3XbX2vqyYj7yNW9xB7b-lSDwFpuZ9y-UeNX-0LZCDQx&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnP4Pog_kU7Q8ipSgB9uxqwtVzjuobHNMd08Mn2NBtsw3uRm2KRZwXKQ68GQOuwOTcGkOLcGc0QKsGU9iQfwLQPHScBwM1lGPe4gHYtl4DdIy5Qi37QSuY3z-8IS21iC3pwoV3FV_brAQZVFOGIKH1-hUOpPM-XPiyqOtL9DPlT3whfmgiKJEAA4EXT09nVcWOh71ZfdIoqJVmQhTjBEGmO9SU2VfQEjooe8s1P6_QRBdD6-ryB7MlBF5OdDsgd1IddoNpWQ9aijNsxkYBV0UeTmoj6bgz4xG9Sp1wr7wYGKrOT5Yf3XbX2vqyYj7yNW9xB7b-lSDwFpuZ9y-UeNX-0LZCDQx"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGuQnpiDH-ciifdylMHXLVSGte41mpULpy3VLwly5MXALf33iJHQK2Ymjb3w4nLdHSRzfXpAxzYRkcyBugGREonb5kjB8yAnD54W1Upquu31_IBE5CmrfC4KmrXxrhZuIKvBIpymvIHxjsPqVjSkAOTGR0UHiRAX7dan3SicEvcUU3QqTqaMVvdx-J9hV7hNdPPyn5mhKtjNBjF3y_7x3k4c2ofF2wa-xJa-d0lXnsd2upzAtHmQCcIqO9c9b_0F4MEciimv-httg1fayohd09ucNR2CYf6XdLjxwnhe0sIm36rfFcpm6D5crd3rOPQKyiuMDiI7qUZbUQGhEmlewCTcb6H-p",
+              "q": "data analysis intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGuQnpiDH-ciifdylMHXLVSGte41mpULpy3VLwly5MXALf33iJHQK2Ymjb3w4nLdHSRzfXpAxzYRkcyBugGREonb5kjB8yAnD54W1Upquu31_IBE5CmrfC4KmrXxrhZuIKvBIpymvIHxjsPqVjSkAOTGR0UHiRAX7dan3SicEvcUU3QqTqaMVvdx-J9hV7hNdPPyn5mhKtjNBjF3y_7x3k4c2ofF2wa-xJa-d0lXnsd2upzAtHmQCcIqO9c9b_0F4MEciimv-httg1fayohd09ucNR2CYf6XdLjxwnhe0sIm36rfFcpm6D5crd3rOPQKyiuMDiI7qUZbUQGhEmlewCTcb6H-p&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGuQnpiDH-ciifdylMHXLVSGte41mpULpy3VLwly5MXALf33iJHQK2Ymjb3w4nLdHSRzfXpAxzYRkcyBugGREonb5kjB8yAnD54W1Upquu31_IBE5CmrfC4KmrXxrhZuIKvBIpymvIHxjsPqVjSkAOTGR0UHiRAX7dan3SicEvcUU3QqTqaMVvdx-J9hV7hNdPPyn5mhKtjNBjF3y_7x3k4c2ofF2wa-xJa-d0lXnsd2upzAtHmQCcIqO9c9b_0F4MEciimv-httg1fayohd09ucNR2CYf6XdLjxwnhe0sIm36rfFcpm6D5crd3rOPQKyiuMDiI7qUZbUQGhEmlewCTcb6H-p"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLK29txXauxd7QL8dNsQWBZAEiT-u0Z67znD-vEdoWT1fPcMSpctMNN2xGJSUVUQwEIc9eB52LO2EemPbFlyUwm9br8tg5NM6NsRgQFhTBHFJugnCe6MptYJjUGvzdxODxqm0AFn0F5iiH7E1Sjepb0AN8vzy-avFVIbahpo1Zm2Flp084CQuZ2y4V2vyhJUviP9gJWSoRBQ2Kn63H194gHMHusJcp-TYj_tAAMi2Pt_KGzMpbfxT4UmP2ck8AuDGNab6BocLt5qVvd5Q5e-MPNAW24Y9q2JkgojByuPbD13OZV0XThH0z99z5KpOFBY9FOQu0Liq9wy3O_4GD_l0IKuv8GD",
+              "q": "data analysis intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLK29txXauxd7QL8dNsQWBZAEiT-u0Z67znD-vEdoWT1fPcMSpctMNN2xGJSUVUQwEIc9eB52LO2EemPbFlyUwm9br8tg5NM6NsRgQFhTBHFJugnCe6MptYJjUGvzdxODxqm0AFn0F5iiH7E1Sjepb0AN8vzy-avFVIbahpo1Zm2Flp084CQuZ2y4V2vyhJUviP9gJWSoRBQ2Kn63H194gHMHusJcp-TYj_tAAMi2Pt_KGzMpbfxT4UmP2ck8AuDGNab6BocLt5qVvd5Q5e-MPNAW24Y9q2JkgojByuPbD13OZV0XThH0z99z5KpOFBY9FOQu0Liq9wy3O_4GD_l0IKuv8GD&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLK29txXauxd7QL8dNsQWBZAEiT-u0Z67znD-vEdoWT1fPcMSpctMNN2xGJSUVUQwEIc9eB52LO2EemPbFlyUwm9br8tg5NM6NsRgQFhTBHFJugnCe6MptYJjUGvzdxODxqm0AFn0F5iiH7E1Sjepb0AN8vzy-avFVIbahpo1Zm2Flp084CQuZ2y4V2vyhJUviP9gJWSoRBQ2Kn63H194gHMHusJcp-TYj_tAAMi2Pt_KGzMpbfxT4UmP2ck8AuDGNab6BocLt5qVvd5Q5e-MPNAW24Y9q2JkgojByuPbD13OZV0XThH0z99z5KpOFBY9FOQu0Liq9wy3O_4GD_l0IKuv8GD"
+          }
+        ]
+      },
+      {
+        "name": "Date posted",
+        "options": [
+          {
+            "name": "Yesterday",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rvtcT-Eje2p9k8tYK5dum57LmhmtfzNVrQD3FaBvlE3sXSX5pnSAlO4xEY4ivq7H9SLhq32UQh1mMttnYY0AEGyGnCegjjzpEuxLbGYxVrbCCRV-kxilCr3OGMVFqVVXVGBFskvystP-VIiWFU5Osfc-urOh-uAMfrilVcqPVE2h1m8XFfEUk21d3oPhCaQdEfvUulf1KqJL7mit0uSQB_mJtrW14d0WX0kCNrNAAsRXKQbir9i00iIErDTcLoJDbgBijXG016x-Jv6HkiOQVQDi-QjwXnO3dJbc_8k_Ag1nzQwO9iTymTpu067xeWgLqdx1JBYIXHsN2n3kcL-nC_KMgiNqCZsNGcXGy5NnBZhDcq2r3",
+              "q": "data analysis intern since yesterday"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvtcT-Eje2p9k8tYK5dum57LmhmtfzNVrQD3FaBvlE3sXSX5pnSAlO4xEY4ivq7H9SLhq32UQh1mMttnYY0AEGyGnCegjjzpEuxLbGYxVrbCCRV-kxilCr3OGMVFqVVXVGBFskvystP-VIiWFU5Osfc-urOh-uAMfrilVcqPVE2h1m8XFfEUk21d3oPhCaQdEfvUulf1KqJL7mit0uSQB_mJtrW14d0WX0kCNrNAAsRXKQbir9i00iIErDTcLoJDbgBijXG016x-Jv6HkiOQVQDi-QjwXnO3dJbc_8k_Ag1nzQwO9iTymTpu067xeWgLqdx1JBYIXHsN2n3kcL-nC_KMgiNqCZsNGcXGy5NnBZhDcq2r3&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAC",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvtcT-Eje2p9k8tYK5dum57LmhmtfzNVrQD3FaBvlE3sXSX5pnSAlO4xEY4ivq7H9SLhq32UQh1mMttnYY0AEGyGnCegjjzpEuxLbGYxVrbCCRV-kxilCr3OGMVFqVVXVGBFskvystP-VIiWFU5Osfc-urOh-uAMfrilVcqPVE2h1m8XFfEUk21d3oPhCaQdEfvUulf1KqJL7mit0uSQB_mJtrW14d0WX0kCNrNAAsRXKQbir9i00iIErDTcLoJDbgBijXG016x-Jv6HkiOQVQDi-QjwXnO3dJbc_8k_Ag1nzQwO9iTymTpu067xeWgLqdx1JBYIXHsN2n3kcL-nC_KMgiNqCZsNGcXGy5NnBZhDcq2r3"
+          },
+          {
+            "name": "Last 3 days",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnP4Pog_kU7Q8ipSgB9uxqwtVzjuobHNMd08Mn2NBtsw3uRm2KRZwXKQ68GQOuwOTcGkOLcGc0QKsGU9iQfwLQPHScBwM1lGPe4gHYtl4DdIy5Qi37QSuY3z-8IS21iC3pwoV3FV_brAQZVFOGIKH1-hUOpPM-XPiyqOtL9DPlT3whfmgiKJEAA4EXT09nVcWOh71ZfdIoqJVmQhTjBEGmO9SU2VfQEjooe8s1P6_QRBdD6-ryB7MlBF5OdDsgd1IddoNpWQ9aijNsxkYBV0UeTmoj6bgz4xG9Sp1wr7wYGKrOT5Yf3XbX2vqyYj7yNW9xB7b-lSDwFpuZ9y-UeNX-0LZCDQx",
+              "q": "data analysis intern in the last 3 days"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnP4Pog_kU7Q8ipSgB9uxqwtVzjuobHNMd08Mn2NBtsw3uRm2KRZwXKQ68GQOuwOTcGkOLcGc0QKsGU9iQfwLQPHScBwM1lGPe4gHYtl4DdIy5Qi37QSuY3z-8IS21iC3pwoV3FV_brAQZVFOGIKH1-hUOpPM-XPiyqOtL9DPlT3whfmgiKJEAA4EXT09nVcWOh71ZfdIoqJVmQhTjBEGmO9SU2VfQEjooe8s1P6_QRBdD6-ryB7MlBF5OdDsgd1IddoNpWQ9aijNsxkYBV0UeTmoj6bgz4xG9Sp1wr7wYGKrOT5Yf3XbX2vqyYj7yNW9xB7b-lSDwFpuZ9y-UeNX-0LZCDQx&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAD",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnP4Pog_kU7Q8ipSgB9uxqwtVzjuobHNMd08Mn2NBtsw3uRm2KRZwXKQ68GQOuwOTcGkOLcGc0QKsGU9iQfwLQPHScBwM1lGPe4gHYtl4DdIy5Qi37QSuY3z-8IS21iC3pwoV3FV_brAQZVFOGIKH1-hUOpPM-XPiyqOtL9DPlT3whfmgiKJEAA4EXT09nVcWOh71ZfdIoqJVmQhTjBEGmO9SU2VfQEjooe8s1P6_QRBdD6-ryB7MlBF5OdDsgd1IddoNpWQ9aijNsxkYBV0UeTmoj6bgz4xG9Sp1wr7wYGKrOT5Yf3XbX2vqyYj7yNW9xB7b-lSDwFpuZ9y-UeNX-0LZCDQx"
+          },
+          {
+            "name": "Last week",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGuQnpiDH-ciifdylMHXLVSGte41mpULpy3VLwly5MXALf33iJHQK2Ymjb3w4nLdHSRzfXpAxzYRkcyBugGREonb5kjB8yAnD54W1Upquu31_IBE5CmrfC4KmrXxrhZuIKvBIpymvIHxjsPqVjSkAOTGR0UHiRAX7dan3SicEvcUU3QqTqaMVvdx-J9hV7hNdPPyn5mhKtjNBjF3y_7x3k4c2ofF2wa-xJa-d0lXnsd2upzAtHmQCcIqO9c9b_0F4MEciimv-httg1fayohd09ucNR2CYf6XdLjxwnhe0sIm36rfFcpm6D5crd3rOPQKyiuMDiI7qUZbUQGhEmlewCTcb6H-p",
+              "q": "data analysis intern in the last week"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGuQnpiDH-ciifdylMHXLVSGte41mpULpy3VLwly5MXALf33iJHQK2Ymjb3w4nLdHSRzfXpAxzYRkcyBugGREonb5kjB8yAnD54W1Upquu31_IBE5CmrfC4KmrXxrhZuIKvBIpymvIHxjsPqVjSkAOTGR0UHiRAX7dan3SicEvcUU3QqTqaMVvdx-J9hV7hNdPPyn5mhKtjNBjF3y_7x3k4c2ofF2wa-xJa-d0lXnsd2upzAtHmQCcIqO9c9b_0F4MEciimv-httg1fayohd09ucNR2CYf6XdLjxwnhe0sIm36rfFcpm6D5crd3rOPQKyiuMDiI7qUZbUQGhEmlewCTcb6H-p&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAE",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGuQnpiDH-ciifdylMHXLVSGte41mpULpy3VLwly5MXALf33iJHQK2Ymjb3w4nLdHSRzfXpAxzYRkcyBugGREonb5kjB8yAnD54W1Upquu31_IBE5CmrfC4KmrXxrhZuIKvBIpymvIHxjsPqVjSkAOTGR0UHiRAX7dan3SicEvcUU3QqTqaMVvdx-J9hV7hNdPPyn5mhKtjNBjF3y_7x3k4c2ofF2wa-xJa-d0lXnsd2upzAtHmQCcIqO9c9b_0F4MEciimv-httg1fayohd09ucNR2CYf6XdLjxwnhe0sIm36rfFcpm6D5crd3rOPQKyiuMDiI7qUZbUQGhEmlewCTcb6H-p"
+          },
+          {
+            "name": "Last month",
+            "parameters": {
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLK29txXauxd7QL8dNsQWBZAEiT-u0Z67znD-vEdoWT1fPcMSpctMNN2xGJSUVUQwEIc9eB52LO2EemPbFlyUwm9br8tg5NM6NsRgQFhTBHFJugnCe6MptYJjUGvzdxODxqm0AFn0F5iiH7E1Sjepb0AN8vzy-avFVIbahpo1Zm2Flp084CQuZ2y4V2vyhJUviP9gJWSoRBQ2Kn63H194gHMHusJcp-TYj_tAAMi2Pt_KGzMpbfxT4UmP2ck8AuDGNab6BocLt5qVvd5Q5e-MPNAW24Y9q2JkgojByuPbD13OZV0XThH0z99z5KpOFBY9FOQu0Liq9wy3O_4GD_l0IKuv8GD",
+              "q": "data analysis intern in the last month"
+            },
+            "link": "https://www.google.com/search?sca_esv=8d1b837b7db4d113&hl=en&gl=in&sxsrf=APpeQntuPqiJ_qmKkdaorPdz4q3VbVGqLg:1791602721478&q=data+analysis+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLK29txXauxd7QL8dNsQWBZAEiT-u0Z67znD-vEdoWT1fPcMSpctMNN2xGJSUVUQwEIc9eB52LO2EemPbFlyUwm9br8tg5NM6NsRgQFhTBHFJugnCe6MptYJjUGvzdxODxqm0AFn0F5iiH7E1Sjepb0AN8vzy-avFVIbahpo1Zm2Flp084CQuZ2y4V2vyhJUviP9gJWSoRBQ2Kn63H194gHMHusJcp-TYj_tAAMi2Pt_KGzMpbfxT4UmP2ck8AuDGNab6BocLt5qVvd5Q5e-MPNAW24Y9q2JkgojByuPbD13OZV0XThH0z99z5KpOFBY9FOQu0Liq9wy3O_4GD_l0IKuv8GD&chips=date_posted:week&udm=8&sa=X&ved=2ahUKEwji-KqewK6XAxU2GVkFHVziBuwQkbEKegQIJBAF",
+            "serpapi_link": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=data+analysis+intern+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLK29txXauxd7QL8dNsQWBZAEiT-u0Z67znD-vEdoWT1fPcMSpctMNN2xGJSUVUQwEIc9eB52LO2EemPbFlyUwm9br8tg5NM6NsRgQFhTBHFJugnCe6MptYJjUGvzdxODxqm0AFn0F5iiH7E1Sjepb0AN8vzy-avFVIbahpo1Zm2Flp084CQuZ2y4V2vyhJUviP9gJWSoRBQ2Kn63H194gHMHusJcp-TYj_tAAMi2Pt_KGzMpbfxT4UmP2ck8AuDGNab6BocLt5qVvd5Q5e-MPNAW24Y9q2JkgojByuPbD13OZV0XThH0z99z5KpOFBY9FOQu0Liq9wy3O_4GD_l0IKuv8GD"
+          }
+        ]
+      }
+    ],
+    "jobs_results": [
+      {
+        "title": "Data Analyst (Finance & Validation): Internship \u2192 Full-Time",
+        "company_name": "Affluense",
+        "location": "Bengaluru, Karnataka",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=pjwOg5gQK8QmnG0jAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWOMQrCQBAAsfUJVmsjKpqIYKOVIhGxlbRhEzfJ6WYv3F5AOysfoJ_xPXmJsZluhul_e_14jx5hK8gP9TCOjKBkBCOIkc0FvbEyWcNRPDnR0tTQvt4QNczzs6kI2ucHrjYFJXRZCVbgYG3BNNiU3te6DkNVDgr1XSkLMluFVii197CT9I9ES3RUM3pKlqvFPailmA63ec4NiRIYgR1Jgdy4ZgYndNL93vAHDHkFCbsAAAA&shmds=v1_ARwrE22YneRviT1OuBp13ooEUumqXMG0zjfUqm1G5VeS13KPKg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=pjwOg5gQK8QmnG0jAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b01ea9fcce25f299e453/images/YWOPusDqdlDMhiZMoDGNhDinl55jQcyv5WmWKP3CS7U.jpeg",
+        "extensions": [
+          "17 hours ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/data-analyst-finance-validation-internship-%E2%86%92-full-time-at-affluense-4475218080",
+        "job_title": "Data Analyst (Finance & Validation): Internship \u2192 Full-Time",
+        "description": "Affluense.ai \u00b7 Bengaluru (On-site) \u00b7 Internship with conversion to full-time\n\n\n\n\nAbout Affluense\n\nAffluense is an AI-powered wealth intelligence platform used by leading wealth managers, banks and BFSI firms across India. We track who\u2019s creating wealth, where money is moving and what\u2019s happening in the market, and we turn that into intelligence our customers act on every day.\n\nOur customers make real decisions based on what we deliver, so every number has to be right.\n\n\n\n\nThe Role\n\nYou\u2019ll be the analytical gatekeeper of our intelligence. Before anything reaches a customer, you make sure it\u2019s accurate, complete and makes sense. You\u2019ll work closely with the founders and the data team, reviewing financial information, deal activity and wealth signals, and catching what others miss.\n\nThis role suits someone who enjoys cross-checking a figure until it adds up, who notices when something looks slightly off, and who follows the markets out of genuine interest.\n\n\n\n\nWhat you\u2019ll do\n\nReview and verify financial data, company information and deal activity for accuracy and consistencyCross-reference information across multiple sources and resolve any discrepanciesSpot anomalies, gaps and patterns in large datasetsBuild Excel models and Python scripts that automate repetitive checks and make the team fasterTrack funding rounds, exits, M&A, IPOs and other money movements across India\u2019s marketHelp define and improve our data quality standards as we scale\n\n\nWhat we\u2019re looking for\n\nQuick and sharp with numbers. You enjoy working with them.Obsessive attention to detail. Small errors bother you.Strong hands-on Excel skills: lookups, pivots, formulas, data cleaningWorking knowledge of Python (pandas is a plus), especially for automating tasksA real interest in finance: startups, funding, markets, wealth creation and how money movesComfortable reading financial statements, deal announcements and business newsFinal-year students or recent graduates in Finance, Commerce, Economics, Engineering, Statistics or a related field\n\n\nBonus points\n\nYou follow deal news (Entrackr, Inc42, VCCircle, ET) for funCFA Level 1 or NISM certification, or currently pursuing oneYou\u2019ve built a tracker, model or automation on your own initiative\n\n\nWhy join us\n\nDirect exposure to founders and how a fast-growing, funded AI startup operatesA clear path from internship to a full-time role, based on performanceA front-row view of India\u2019s wealth and deal ecosystemReal ownership: your work goes straight to the customers",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/data-analyst-finance-validation-internship-%E2%86%92-full-time-at-affluense-4475218080?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIEFuYWx5c3QgKEZpbmFuY2UgXHUwMDI2IFZhbGlkYXRpb24pOiBJbnRlcm5zaGlwIOKGkiBGdWxsLVRpbWUiLCJjb21wYW55X25hbWUiOiJBZmZsdWVuc2UiLCJodGlkb2NpZCI6InBqd09nNWdRSzhRbW5HMGpBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEV0TVVVZG9UbE5STWpKT09FdFlXVXROZDB4cE5IaDNRbmhhT0c1a1Z5MUdibGQxTjBwVWFGbGFkbWhKWkdKSFEyczRZMWhSTm5oek1XbElTM05yYzI5SVVXdENMVGh5V1RsM2RYRnRUWEo0ZFcxU2RYVklTWHBGTjFwU1ZYTTBkMVJrU25GRk1ITTBjbEJoWjJvek1IbHlUbWR1YWtsdmVIVTVSakZMYmtkMmRWTmphRUlTRjBsaVJFcGhjVXhyU0V4aGVUVk9iMUF6VFZOaU5FRTBHaUpCUkhOeU9XWlJObW8xUTNOelluVk9WVzFKYWxaTVJVSm5NMHhPUmtOQlpXRm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJwandPZzVnUUs4UW1uRzBqQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Data Analytics - Internship (WFH)",
+        "company_name": "Unnati Enterprises",
+        "location": "Anywhere",
+        "via": "Internshala",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=rR4eMGtcOK9cnlSWAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXNPQ7CMAyGYbH2CEweC4IGIbHAhMTvwAZirNzKaoKCE8UeysYdOAI34ySky7c931t8R8V6h4qwZfQvda3AHM6slFisi1DeD6cJ_N4feIQGhDC1FgLDMYTO03hjVaOsjRHxVSeK-aFqw9MEpib0JiMZphaLiaJHpXq5WvRV5G5a3pgzgP2Qi8kJCTiGq0WmGVwwExSrCf-4MrMbpgAAAA&shmds=v1_ARwrE23pOoW9Hp0Chd4YZqSsFjgA1T_9MJlIed9YKTtOB0wQkA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=rR4eMGtcOK9cnlSWAAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "\u20b918K\u2013\u20b940K a month",
+          "Work from home",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-unnati-enterprises1791437820",
+        "job_title": "Data Analytics - Internship (WFH)",
+        "description": "About the internship:\n\nSelected intern's day-to-day responsibilities include: \n\n\n\n1.JD:\n\nAs a Data Analyst Intern  your key responsibilities will include:Data Cleaning & Querying: Preprocessing large datasets and writing SQL queries.\n\n\n\nDashboard Development: Building reports and data visualizations using Power BI/Tableau.Insight Generation: Conducting exploratory analysis to help solve real business problems\n\nWho can apply:\n\nOnly those candidates can apply who:\n\nare available for the work from home job/internshipcan start the work from home job/internship between 8th Oct'26 and 12th Nov'26are available for duration of 3 monthshave relevant skills and interests* Women wanting to start/restart their career can also apply.\n\nStipend:\n\nINR\u20b9 18,000 - 40,000 /month\n\nDeadline:\n\n2026-11-07 23:59:59\n\nOther perks:\n\nCertificate, Flexible work hours\n\nSkills required:\n\nPython, SQL, Data Analytics, MS-Excel, Data Science, Power BI and Tableau\n\nAbout Company:\n\nAfter 5 successful years in the apparel industry, we are embarking on an exciting new chapter with the launch of Chikku Pikku, a premium, fun, and comfortable kids' apparel brand. Our mission is to blend high-quality craftsmanship with playful designs that kids love and parents trust. As we expand our footprint into the digital and e-commerce space, we are looking for creative, energetic, and storytelling-driven individuals to help us build our online community from the ground up. At Chikku Pikku, you won't just be an intern; you'll be a core part of a brand launch team, gaining hands-on experience in how a fashion brand scales online.",
+        "apply_options": [
+          {
+            "title": "Internshala",
+            "link": "https://internshala.com/internship/detail/work-from-home-data-analytics-internship-at-unnati-enterprises1791437820?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIEFuYWx5dGljcyAtIEludGVybnNoaXAgKFdGSCkiLCJjb21wYW55X25hbWUiOiJVbm5hdGkgRW50ZXJwcmlzZXMiLCJodGlkb2NpZCI6InJSNGVNR3RjT0s5Y25sU1dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzFkNGVIZG1XRUV4U21adldsY3laRXN6UW1OQlpYb3RVelZuV2xKRE9XeGxWV05TU3pCM1REZ3dTVmhUZW5kcVFqaG9abTA1YTBVeGFXTTRNV1ZSWmtoblQwaG1SV0l4UkZWcVdsQk9jemh6VDNaYVVWRnFaMjgyY0RoNWNrazNiUzEwTFZabVozcHNjSHBEUVdGZlNEbE1Xa05HTm5kWE1saFlWR2MyTjNOVVNIaEVOelVTRjBsaVJFcGhjVXhyU0V4aGVUVk9iMUF6VFZOaU5FRTBHaUpCUkhOeU9XWlJWa1o0YkZsTVNrRjNOa3RUUmxZNFUwTnNPRjkyVEVOakxYaG4iLCJmY3YiOiIzIiwiZmNfaWQiOiJyUjRlTUd0Y09LOWNubFNXQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Intern Data Analyst",
+        "company_name": "Gehealthcare",
+        "location": "Bengaluru Urban, Karnataka",
+        "via": "BeBee",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=KcKvxzV1pmQxB03rAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWOMQrCQBAAsc0TrLYOISeCjVaKEMTaOmyO5S562Q23G4idf7Dwf77E2EwzDEzxWRXVhY0ywxkN4ciYnmrwfb3hLh0oYfYRhKERCYnWh2g26t451VQHNbTe114GJ0ydzG6J9I9WI2YaExq1291mrkcOZdlQJEwW_eKgZzgRB0xTnuCWO-QKrph5-XjgD92Hlq-aAAAA&shmds=v1_ARwrE21X3jRhl_vPWWltxowm7siOfYX-fD27HRl7LfP5x_zLPA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=KcKvxzV1pmQxB03rAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b01ea9fcce25f299e453/images/SVoW4c-t0RhxkwtYro8VU93tG3rPfl1yTHVgjBcoZo4.jpeg",
+        "extensions": [
+          "1 day ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://bebee.com/in/jobs/intern-data-analyst-gehealthcare-ind19-01-bengaluru-epip-122-phase-ii--t7xk-872064461",
+        "job_title": "Intern Data Analyst",
+        "description": "Job Description Summary\nAs a data analyst intern, you will be an integral part of an organisation\u2019s data team, responsible for analysing and interpreting various datasets to derive meaningful insights and support data-driven decision-making. The role provides a valuable opportunity to gain hands-on experience in data analysis, visualisation, and reporting, contributing to the success of the team.\n\n\nJob Description\nRole & Responsibilities:\n\n\n\n\n\nAssist in collecting and cleaning large datasets from various sources.\n\n\nSupport in the analysis and interpretation of data to identify trends and patterns.\n\n\nCreate visualizations and dashboards to present data insights.\n\n\nCollaborate with team members to define data needs and requirements.\n\n\nDocument data analysis processes and methodologies.\n\n\nParticipate in meetings and provide data-driven insights to stakeholders.\n\n\n\nDesired Characteristics Preferred Qualifications\n\n\n\n\n\nBe a good team player and uphold integrity.\n\n\nOpen to be mentored, seek feedback.\n\n\nStrong interpersonal skills, capable of working within a globally diverse team across different time zone.\n\n\n\nQualifications/Requirements\n\n\n\nBachelor's or Master's degree program in Data Science, Statistics, Computer Science, or a related field.\n\n\n70% or 7 CGPA aggregate in the current degree.\n\n\nNo active backlogs at the time of application.\n\n\nBasic knowledge of data analysis techniques and tools.\n\n\nStrong analytical and problem-solving skills.\n\n\nEffective communication and teamwork skills.\n\n\nAbility to manage time and prioritize tasks.\n\n\n\nSkills\n\nExcel\nSQL\nPython\n\n\nR\nTableau\nData Visualization\nStatistical Analysis\nAttention to Detail\nCritical Thinking\n\n\n\nAdditional Information\nRelocation Assistance Provided: No",
+        "apply_options": [
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/intern-data-analyst-gehealthcare-ind19-01-bengaluru-epip-122-phase-ii--t7xk-872064461?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJJbnRlcm4gRGF0YSBBbmFseXN0IiwiY29tcGFueV9uYW1lIjoiR2VoZWFsdGhjYXJlIiwiaHRpZG9jaWQiOiJLY0t2eHpWMXBtUXhCMDNyQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrSkdPVEZLWjFoVGVucHNOVmhSWjBzeGFrUnpkbFpaVWxWclFtUnlTVU5xZWtkeWNrWktSbEl4YjNGV2FqQlVOVzl2UlhGS1lXTTVlblZCZEhOWE1HaHpXSGswWlhkVFdFcG9SakpEWVMxRWRFTnhWVzlxZDA0d05qWkZObDlRWWw5c1VYTlBSbVZ5TkROT1gzRlpja2xSZUVZNFFUQk5ZMDkzVjNGRVNWOW1hRTFRV1U4U0YwbGlSRXBoY1V4clNFeGhlVFZPYjFBelRWTmlORUUwR2lKQlJITnlPV1pUYzA1QlFrbEdja1Y1U0RWUFIzWm5RV3RtVW05MVQyRnFlbmhuIiwiZmN2IjoiMyIsImZjX2lkIjoiS2NLdnh6VjFwbVF4QjAzckFBQUFBQT09In0="
+      },
+      {
+        "title": "Data Science & Machine Learning Intern",
+        "company_name": "Skiez Technologies India Pvt Ltd",
+        "location": "Tamil Nadu",
+        "via": "Indeed",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=jY7HwWndpE7Gvh-AAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWNMQrCQBAAsfUJVltZWOREsNHCRhBBRYh9WC_L3eplN-RWESv_4D98lC8xNlMMDDP8DIarNRpC6ZnEE4xhjz6yEOwIO2EJsBWjTuD7esNFz5B77yOowEY1JBoto1mbF87lnIqQDY194bVxKnTWh-uj_EeVI3bUJjSqZvPpo2glTIryyvSEE_komjQw5X5YM8LxbrCzGljghA0nOGB9-wEqcfnbsQAAAA&shmds=v1_ARwrE23ajtJBQiJNfNEZ_WkEM56k1vUoZN1g7tlj7n3whV27Vg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=jY7HwWndpE7Gvh-AAAAAAA%3D%3D",
+        "extensions": [
+          "16 hours ago",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://in.indeed.com/viewjob?jk=7c62426f84dda68e",
+        "job_title": "Data Science & Machine Learning Intern",
+        "description": "Job Title: Data Science & Machine Learning Intern\n\n\nCompany: Skiez AI Academy\n\n\nJob Type: Internship\n\n\nJob Description:\n\n\nSkiez AI Academy is inviting applications from students and freshers interested in Data Science and Machine Learning. This internship offers practical exposure to data analysis, visualization, machine learning fundamentals, and project development.\n\n\nResponsibilities:\n\n\n\n Learn data analysis and data preprocessing.\n Work with Python libraries such as Pandas and NumPy.\n Explore data visualization techniques.\n Understand machine learning algorithms.\n Build beginner-friendly machine learning projects.\n Analyze datasets and communicate project findings.\n\nRequired Skills:\n\n\n\n Basic computer knowledge.\n Interest in data analysis and machine learning.\n Basic mathematics and logical reasoning.\n Python knowledge is an advantage.\n\nEligibility: Students, freshers, and graduates interested in Data Science and AI.\n\n\nWhat You Will Gain:\n\n\n\n Hands-on data analysis experience.\n Practical machine learning projects.\n Technical mentorship.\n Internship completion certificate, subject to successful completion.\n\nLocation: Chengalpattu, Tamil Nadu\n\n  Phone: +91-XXXXXXXXXX\n\n\nCompany: Skiez AI Academy\n\n\nWork Location: In person",
+        "apply_options": [
+          {
+            "title": "Indeed",
+            "link": "https://in.indeed.com/viewjob?jk=7c62426f84dda68e&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIFNjaWVuY2UgXHUwMDI2IE1hY2hpbmUgTGVhcm5pbmcgSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiU2tpZXogVGVjaG5vbG9naWVzIEluZGlhIFB2dCBMdGQiLCJodGlkb2NpZCI6ImpZN0h3V25kcEU3R3ZoLUFBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2pKVmRYcDBXWGxPV0RObVMwTmFWMDl6YjFGblkyaHFYekpGUzAwMlZFRmtibk40VVVVMVRIQmlhVkZHWHpSeGMwVnRTR0ZCVVRsNFpEWlBUekY0U0dsV1N6UnZhSEF5ZEVOSGVVTmplWEJSWDFsQ1RYVlpORnB6ZFZoaFNtTjRNalUxV2pjNWNuSXROV3RQU2t0cGIwOWxVVVJrVWxscWJUVlFRV1V4Y25sRmIxY3pUMWdTRjBsaVJFcGhjVXhyU0V4aGVUVk9iMUF6VFZOaU5FRTBHaUpCUkhOeU9XWlJRVE5tUTFWRFZIWlZiMko2UjNOWFJFeEpSV0phY0dsZmFHTjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJqWTdId1duZHBFN0d2aC1BQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "GE Healthcare Hiring Data Analyst Intern (Bengaluru) | Apply Now",
+        "company_name": "GE Healthcare",
+        "location": "Bengaluru, Karnataka",
+        "via": "Talentd",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=hcFx6R_iGDYsfxKYAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_1WOMQrCMBRAce0RnP4iqEgjgotOFaUVwd2p_JaQRONPSH6xBQfv4IG8iyexLoLL2x7vJa9Bcsp3UEi0rGsMEgoTDCnYIiNkhLaLDHtiGQjGG0kKbROaCdwh8952cHQ3eD-ecHYVRImh1uAIcueUlcO1ZvZxJUSMNlWRkU2d1u4qHMnKtaKX4hdl1H3aW2RZLpbzNvWkpqP_L0Pwy8_ggIH6wwt-AAXFLyfCAAAA&shmds=v1_ARwrE22D9_hSiK4LgqATPdhQObeOtYLDJPCW7goXPwgxIj4tPQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=hcFx6R_iGDYsfxKYAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b01ea9fcce25f299e453/images/lguLTPkRZqPmY34UccP14OlMbcDZWf7TQf3FfyBXVws.jpeg",
+        "extensions": [
+          "3 days ago",
+          "\u20b93L\u2013\u20b95L a year",
+          "Full\u2013time and Internship"
+        ],
+        "source_link": "https://www.talentd.in/jobs/ge-healthcare-hiring-data-analyst-intern-bengaluru-apply-now",
+        "job_title": "GE Healthcare Hiring Data Analyst Intern (Bengaluru) | Apply Now",
+        "description": "Job Description SummaryAs a data analyst intern, you will be an integral part of the data team, responsible for analyzing and interpreting various dat[\u2026]",
+        "apply_options": [
+          {
+            "title": "Talentd",
+            "link": "https://www.talentd.in/jobs/ge-healthcare-hiring-data-analyst-intern-bengaluru-apply-now?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJHRSBIZWFsdGhjYXJlIEhpcmluZyBEYXRhIEFuYWx5c3QgSW50ZXJuIChCZW5nYWx1cnUpIHwgQXBwbHkgTm93IiwiY29tcGFueV9uYW1lIjoiR0UgSGVhbHRoY2FyZSIsImh0aWRvY2lkIjoiaGNGeDZSX2lHRFlzZnhLWUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTbmxaWW5kM1NWaDFMV0pEY0ZaZmQxZGtSVmxMZUhvMGRqaGhjbmM0YVRoaFFWVkdNMk5MYW1kbk0xWnVkR3MxWmtsamFqRlliM0ptUkV0cVNrRk5helpFTXpsZk9HcEtWR0pyWkd4akxYVjBSbUo1TUhkMFRFOUVMWEpUYjB3d2MzTkRkMWt4VWxrdGMzTkpVMFp3ZGxSRWRrczNRMVE1ZWpJd1lWbFhRbFEzZURnM1RuQVNGMGxpUkVwaGNVeHJTRXhoZVRWT2IxQXpUVk5pTkVFMEdpSkJSSE55T1daVVpXcFpZMU01UldkUFpYRnpOa2x3ZGxGMk1qTTFTazFYTmtWMyIsImZjdiI6IjMiLCJmY19pZCI6ImhjRng2Ul9pR0RZc2Z4S1lBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "Business Analyst: Internship",
+        "company_name": "Almightycs",
+        "location": "Ahmedabad, Gujarat",
+        "via": "LinkedIn",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=fQ513El4st26mRXZAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLsQrCMBAAUFz7CU43izQidKlTXYpfUa7pkaSkl5C7Qrv5D4If6Jeoy9te9T5UzX2VwCQCHWPcRVt4sFJh8SHD5_mCOY0ghMV6SAx9Si7S8eZVs7TGiMTaiaIGW9u0mMQ0ps38kvwZxGOhHFFpuDaXrc7sTtDFJTivuxUIDJ1faMIRpzP064wF9QujY5gSmQAAAA&shmds=v1_ARwrE23QbAHd7B9zMFZlaso-EAkM87IyrQtyMH_oYioXKn0oKQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=fQ513El4st26mRXZAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAfCAMAAACF8f6iAAAA1VBMVEX___8AAFMAAFaZpbgAF1vl6e0AYL_2-fv6_P2AkKmLma6wuskANWoALWieq70AEVvv8_ddc5RpfZsAPHLG0eiitdsqYrgASK6eueEATbF0mdMAVbwAW7kATLfb5vRomNY_gc7R4PIAXcRTkNWwyekvhNYAcM5WmNzH2vDl7vdGkNoZedGgxe1oqOWBs-hXp-lRoelyt_KMwPGv1fe83flbtfdywvoAe9yAyvw_uP2B0PsAiOdYwP3c8P2b2v8osv5lyf4YRndLaI7J0dwpUn8AI2AAAEubQVHSAAABsklEQVQ4jc3SbVebMBQH8H8glIbwEILTPTindXN2kyIroK3tJqTx-3-kpVXPwaM7BV7tvrlJTn7JPTcB_p84eDcQHh65g9z7ow8fhzjx6fj488kA-GVk4rS_O5uMTs9Hk6-94beL75fTHz8v-vbnKk1TYDZLZ_2cyK6zqcnXWdqvP3me_8LJAeZ5nvVxZ2Vm9p8fAmWZz3vAMq8KTCeTS6yrsuzu5lW5Aoqbmyvgtqpuuzp3sViugendXWEmy8Vq3RHeL3_v8urPLhXLVTe3vn--WTwNlkUnOO5Y2IsI67cYa_ZCm7z-m0rJZDfYxG8RxZjyhE3AQy65w5gDbpuTJCNMbrgMwf2NrTwF1-NtF1GfWo6BkupA64T6aBI0UU1ryEAHUSgDXzvBBvyhDaV2wKIdDMaCMHiRiGuXePCIMEsIYtSmVM9y4qRdqTkd_PHGBC6xEW4hdKOaCLLGVtWmR04kqf2inUSGPn0FGbUCDjNAYmAdCsRaizaEJCQmz9CyYVsGCuIpB9gWlzTg5MExzZB738b8BU0ji6rWCmeW-uf2VgjOee215r7p26AYi_179sVfTj8qHuj_KagAAAAASUVORK5CYII.png",
+        "extensions": [
+          "14 hours ago"
+        ],
+        "source_link": "https://in.linkedin.com/jobs/view/business-analyst-internship-at-almightycs-4476813022",
+        "job_title": "Business Analyst: Internship",
+        "description": "Business Analyst: Internship  Gandhinagar, GJ, India\n Apply Now! \n\nWhat do we look for?\n\nIf you are a curious and creative and are keen to take on challenges and responsibilities, we would love to have you with us!\n\nAccelerate your career as an Business Analyst by joining us, wherein we offer internship opportunities with great Open Source Projects where your work will count.\n\n\n\nWhat will you do?\n\nRequirements Gathering: Working with stakeholders to understand their needs and documenting requirements.\nProcess Improvement: Identifying areas for process improvement and suggesting solutions.Reporting: Creating reports and presentations to communicate findings and recommendations.Project Support: Assisting in project management tasks and ensuring projects are on track.Data Analysis: Collecting, processing, and performing statistical analyses on data.\n RESPONSIBILITIES\n\nProvide services to our customers\nAnalyze customer needs\nFollow and check the development part\nHelp with the configuration of the software\n MUST HAVE\n\n\nMBA Student either in the last semester or completed.\nGood knowledge of business processes\nFluent in English (written and spoken)\nCommunicator and negotiator NICE TO HAVE\n\n\nKnowledge in accountingAutonomous\nProactive\nDynamicTeam player\n Apply Now!",
+        "apply_options": [
+          {
+            "title": "LinkedIn",
+            "link": "https://in.linkedin.com/jobs/view/business-analyst-internship-at-almightycs-4476813022?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJCdXNpbmVzcyBBbmFseXN0OiBJbnRlcm5zaGlwIiwiY29tcGFueV9uYW1lIjoiQWxtaWdodHljcyIsImh0aWRvY2lkIjoiZlE1MTNFbDRzdDI2bVJYWkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVEZZUVhOd1dERmlSRGhYZEMxVWVsOWFUWGhzVVVkaGNXUTROVjh5YmxwVWEwaHhUV2x0VnpCTGJHaDVSMnhvU1ZSS09FeFBaVkJKYW01V09WZEVjME5xYkVKdWJIWXpZa2hXTWtGbE9UVlRNRFZNUlRabVpVYzBVRmhJTlVZMk1HbGZXbFF6VFdzeU9VMWpUMWRrVG1VNVlqVnpTRkk0Y0Vsa0xVSllja2RRZDNCTGF6WVNGMGxpUkVwaGNVeHJTRXhoZVRWT2IxQXpUVk5pTkVFMEdpSkJSSE55T1daU1pscFljbkpNYlY5M1FqaHFhVGx3Y1VoTkxXZ3hRMGg1T0hSMyIsImZjdiI6IjMiLCJmY19pZCI6ImZRNTEzRWw0c3QyNm1SWFpBQUFBQUE9PSJ9"
+      },
+      {
+        "title": "Data Analyst Intern",
+        "company_name": "SAI SILKS  KALAMANDIR  LIMITED",
+        "location": "Ameerpet, Telangana",
+        "via": "WorkIndia",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=1M3aYGPJYnDpxcrvAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLMQ6CMBQA0LhyBKc_G0KNCYtOTTCmARyEnXzIT8GU34b-ATfv4A08midRl7e95L1J0gIFQTO6RxQwLLQwfJ4vuPseIuEyjOAZLt5bR9vTKBLiUakYXWajoExDNvhZeaber-qX4p8ujrhQcCjUHfL9mgW2u7zRBhpTlQ1AqStd62thbgCVqU17LmBi0DPREkhSaMkhW2T8Atjkyt2lAAAA&shmds=v1_ARwrE20ooUlQavDPqK1P8VHAUWSqofNppLbVKyOQGSBTnVaSsQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=1M3aYGPJYnDpxcrvAAAAAA%3D%3D",
+        "thumbnail": "https://serpapi.com/searches/6ac9b01ea9fcce25f299e453/images/uzMOLa0W5QbGx48bq5Zy_X90CkJvIWa_AM-b3jpmi80.jpeg",
+        "extensions": [
+          "5 days ago",
+          "\u20b912K\u2013\u20b918K a month",
+          "Full\u2013time"
+        ],
+        "source_link": "https://www.workindia.in/jobs/data_analyst_intern-ameerpet-hyderabad-11429585/",
+        "job_title": "Data Analyst Intern",
+        "description": "Salary Range : Rs. 12000 - Rs. 18000 , based on skills, experience, and interview performance\n\nEducational Requirement : 12th Pass\n\nWork Arrangement : Work From Office\n\nGender Preference : Both male and female can apply\n\nSkills Requirement : No predefined skills necessary\n\nExperience Requirement : Fresher\n\nLocation : Ameerpet\n\nWorking Hours : 9:30 AM - 6:30 PM | Monday to Saturday\n\nAdditional Info : Background In Statistics, Mathematics, Commerce, Or Business Analytics To Support Sales Analysis, Mis Reporting, Forecasting, And Business Planning.Candidates Should Have Good Excel Skills, Analytical Thinking, And An Interest In Data-Driven Business Decisions. Knowledge Of Power Bi And Sql Will Be An Added Advantage.",
+        "apply_options": [
+          {
+            "title": "WorkIndia",
+            "link": "https://www.workindia.in/jobs/data_analyst_intern-ameerpet-hyderabad-11429585/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIEFuYWx5c3QgSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiU0FJIFNJTEtTICBLQUxBTUFORElSICBMSU1JVEVEIiwiaHRpZG9jaWQiOiIxTTNhWUdQSlluRHB4Y3J2QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNYWkxjV0YxVlVwQ2JEUm5PVmR2U2psTE5qQlplV05ZWmw5bE5tSlJZekJqUTJvdFEycHZNMU4zWTNoemJubElVM3BtZFUxbk9GZHFiMmh2UVV4NVptVktNREpWVkVSMlZYTkVTbXhCUW1JNVpWSkNWMHhGYjFCaU0xSldVbWhxVXpsSGRsVk1TMVEwUWw5emFHWnNWbGhvWWtsUlVYRlRVRXhWWnpZek5GOTVZVzF6ZWtrU0YwbGlSRXBoY1V4clNFeGhlVFZPYjFBelRWTmlORUUwR2lKQlJITnlPV1pTWVVSR05ERlBSV3RvYUhWcVkyVk5URFZoYkV0aGVETnZNV2xCIiwiZmN2IjoiMyIsImZjX2lkIjoiMU0zYVlHUEpZbkRweGNydkFBQUFBQT09In0="
+      },
+      {
+        "title": "Data Analyst Intern (Gopal Pura Mode)",
+        "company_name": "Creatik IT Solutions",
+        "location": "Bilhaur, Uttar Pradesh",
+        "via": "Jobrapido.com",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=t4uQm9AkLUwtPYwsAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLOwrCQBAAUGxzBKspVSQRwUZB8AMhhRBQ6zBJhuzquhN2JhA77-A5vJQnMTave9FnFG2PqAg7j-4pCplXCh4mKbfoIO8CwolrmsL39YYblyCEoTLAHlLmxtF4Y1RbWSeJiIsbUVRbxRU_EvZUcp8MSf4UYjBQ61CpWK4Wfdz6ZhYfAg3hDtkFzuw6tewFrIe9dQa7MIerKgbIA9Yk5gfW66HtsAAAAA&shmds=v1_ARwrE20kAqY_jktpo9Kq-YK9PQpTV3t-WRbE4C48ypBhx1o-ow&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=t4uQm9AkLUwtPYwsAAAAAA%3D%3D",
+        "extensions": [
+          "1 day ago",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.jobrapido.com/jobpreview/1454751737935036416",
+        "job_title": "Data Analyst Intern (Gopal Pura Mode)",
+        "description": "Data Analyst Intern\n\nAre you passionate about data, analytics, and solving real-world business problems? We are looking for a motivated Data Analyst Intern to join our team. This internship offers hands-on experience with live projects, business intelligence, AI-driven analytics, and data visualization while working alongside experienced professionals.\n\nKey Responsibilities\n\n- Collect, clean, validate, and organize data from multiple sources.\n- Analyze datasets to identify trends, patterns, and actionable business insights.\n- Create reports, dashboards, and data visualizations using Excel, Google Sheets, Power BI, or similar tools.\n- Prepare MIS reports and business performance reports.\n- Assist in data management and reporting.\n- Support AI, automation, and analytics projects with data preparation.\n- Ensure data accuracy, consistency, and quality.\n- Collaborate with different teams to deliver data-driven solutions.\n\nRequired Skills\n\n- Pursuing or completed B.Tech, BCA, MCA, B.Sc, M.Sc, MBA, B.Com, M.Com, or any related degree.\n- Good knowledge of Microsoft Excel and Google Sheets.\n- Basic understanding of SQL is preferred.\n- Knowledge of Power BI, Tableau, or Python is an added advantage.\n- Strong analytical, logical, and problem-solving skills.\n- Good communication skills and attention to detail.\n- Ability to work independently and in a team.\n- Freshers and final-year students are welcome to apply.\n\nWhat You'll Learn\n\n- Data Cleaning & Analysis\n- Business Intelligence & Dashboard Development\n- Data Visualization & Reporting\n- AI-Powered Analytics\n- Business Reporting (MIS)\n- Real-World Industry Projects\n\nBenefits\n\n- Work on live projects with experienced mentors.\n- Internship Certificate upon successful completion.\n- Letter of Recommendation based on performance.\n- Chance for a full-time role (PPO) based on performance.\n- Professional learning environment with career growth opportunities.\n\nIf you're eager to build your career in Data Analytics, Business Intelligence, AI, or Data Science, we'd love to have you on our team. Apply now and gain valuable industry experience!\n\nPay: \u20b95,000.00 - \u20b910,000.00 per month\n\nWork Location: In person",
+        "apply_options": [
+          {
+            "title": "Jobrapido.com",
+            "link": "https://in.jobrapido.com/jobpreview/1454751737935036416?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIEFuYWx5c3QgSW50ZXJuIChHb3BhbCBQdXJhIE1vZGUpIiwiY29tcGFueV9uYW1lIjoiQ3JlYXRpayBJVCBTb2x1dGlvbnMiLCJodGlkb2NpZCI6InQ0dVFtOUFrTFV3dFBZd3NBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU21KelVIUmhNMUZsY1dzd1VEVTRRM0Z1Vm01VlQyUmFUbmhEY1ZsU015MW5kMVV6VDJVMVoxRm5VMkpvU3pkamRHMVRYemRIYzBwTWNVRnZkVU5STmtKNlRVdHNjblZLUm1kbmRVWmtTMmRXVHpadFVrMXZZWGhPWXpGRFUyaGZRVGhuWTJ4bE5uRmxOVTUxZG1kRFZqQkJRVFpLYlV4NGNYVlNTRFJDU1c1a2IzbzVVSElTRjBsaVJFcGhjVXhyU0V4aGVUVk9iMUF6VFZOaU5FRTBHaUpCUkhOeU9XWlRhMWhXUmw5ZlFraEJUek5uWjI1RWEwRk9OMjVpTm1wVGJuWjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJ0NHVRbTlBa0xVd3RQWXdzQUFBQUFBPT0ifQ=="
+      },
+      {
+        "title": "Data Analyst Intern - IT",
+        "company_name": "Maxgen Technologies Private Limited",
+        "location": "Satara, Maharashtra",
+        "via": "Jooble",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=TPJRj546__VqcPOOAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xWOMQrCQBBFsc0RrKYWTVSwiZUgSMCAYHoZ47C7spkJO4PEzjt4DU_lSYzNr957_OwzyVZ7NIQdY3yqQcVGiWEBVQPf1xvucgUlTK0HYTiIuEjTrTfrtSwK1Zg7NbTQ5q10hTBdZShGSf9zUY-J-ohGl_VmOeQ9u1lZ4-CIoaHWs0RxgRROKTxGCo6hC0Y3CAzn8VbCOdQ4RlC9JfwBvXiUYK8AAAA&shmds=v1_ARwrE21V0l6WwGjsTg2wgNAkWOWmBrQb6DipUJVV8ciY0rF7HQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=TPJRj546__VqcPOOAAAAAA%3D%3D",
+        "extensions": [
+          "3 days ago",
+          "\u20b92.5L\u2013\u20b94.5L a year",
+          "Full\u2013time"
+        ],
+        "source_link": "https://in.jooble.org/rjdp/7812818312853520855",
+        "job_title": "Data Analyst Intern - IT",
+        "description": "Maxgen Technologies Pvt ltd is an it company based in Pune.Engineering and IT freshers will get data analyst internship with tableau Program .  What Services we are offering\nOnline or offline program.\nlive project in internship.\nhybrid mode internship.\ncollege project for interns.",
+        "apply_options": [
+          {
+            "title": "Jooble",
+            "link": "https://in.jooble.org/rjdp/7812818312853520855?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIEFuYWx5c3QgSW50ZXJuIC0gSVQiLCJjb21wYW55X25hbWUiOiJNYXhnZW4gVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImh0aWRvY2lkIjoiVFBKUmo1NDZfX1ZxY1BPT0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUR295U1V3eFZITkRUemRsUlU1WVkxOXdPRTlDUmpaME9YWjZkVFJUYWxCbVZXaFpUa2xFVFVkQ1FYQk1RMFZ1YTFVd1ZqaDFSR0UxY0doMlpUWlhNSEpTYXkxWlJtbzNhbVYxY0c5SVptTjFWVnBpVXpSVWJIWkVZVGd0UzFWYWFrUkNSRk5DTkU5c1YyTklNVXRUVTBSMFRGa3pjRlIzTUV4TE9Gb3lOemd4YmxkcU4wMFNGMGxpUkVwaGNVeHJTRXhoZVRWT2IxQXpUVk5pTkVFMEdpSkJSSE55T1daU1pVZFRjV2cyTlRaSmRHRmlZa0pCV0ZGNE1WWm9aRFZ3YlhGMyIsImZjdiI6IjMiLCJmY19pZCI6IlRQSlJqNTQ2X19WcWNQT09BQUFBQUE9PSJ9"
+      },
+      {
+        "title": "R&D and Data Intern",
+        "company_name": "Yasya Biosciences",
+        "location": "Faridabad, Haryana",
+        "via": "BeBee",
+        "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+analysis+intern&htidocid=Xsp2kM5D5n-RJo77AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpie&shndl=37&shmd=H4sIAAAAAAAA_xXLPQrCQBAGUGxzBKupFCRkRbDRToI_rZ1V-LIZkpU4E3a2SDrvoCf0JGrzupe9Z1l-XZQEaahEAl0kcRT6PF9015qMEX1HKnRSbXue77uUBts5Z9YXrSWk4AuvD6fCtY7ul-xPZR0iDz0SV5vteiwGaVfLG2wCHYKaDyyejYLQETE0qNHkdEacIPgCqu3q85cAAAA&shmds=v1_ARwrE22rLLBRs8ww1hLTAhH6FJpCrQ8ClUPM2Ml9oxICIAJ4Fw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=data+analysis+intern&htidocid=Xsp2kM5D5n-RJo77AAAAAA%3D%3D",
+        "extensions": [
+          "2 days ago",
+          "Internship"
+        ],
+        "source_link": "https://bebee.com/in/jobs/rd-and-data-intern-yasya-biosciences-faridabad--techmap_in_4475783518",
+        "job_title": "R&D and Data Intern",
+        "description": "Company Description Yasya Biosciences is an innovation-driven biotechnology company focused on creating meaningful, science-backed skincare and healing solutions. Founded by two biotechnologists, the company integrates rigorous laboratory research with clinical insights to develop high-impact products.\n\n\nYasya\nBiosciences is currently advancing a collagen and nanobiotechnology-based wound care line under prototype development. Interns get to join a growing venture where scientific curiosity, product innovation, and real-world impact are closely connected.\n\n\nRole Description The R&D and Data Intern role is an on-site internship based in Faridabad. The intern will support laboratory experiments, assist in data collection and analysis related to wound care and skincare formulations, and help maintain accurate research records. Daily tasks may include preparing samples, conducting basic tests under supervision, organizing experimental data, and contributing to internal reports and documentation.\n\n\nThe intern will collaborate with scientists and product development team members, participate in team discussions, and help translate research findings into actionable insights for product improvement. This role is designed to provide hands-on experience in biotechnology-focused R&D and exposure to data-driven decision-making within a growing startup environment.\n\n\nQualifications\n Strong foundation in Research and Development (R&D) and applied Research in Life Sciences/Biotechnology/Microbiology related fields. Analytical Skills for data interpretation, problem-solving, and drawing clear conclusions from experimental results. Communication skills for documenting findings, preparing summaries, and collaborating effectively with cross-functional teams. Laboratory Skills, including safe handling of materials, following protocols, and accurately recording observations. Currently pursuing or recently completed a degree in Biotechnology, Biology, Pharmacy, or a related discipline. Familiarity with basic data analysis tools (e.g., Excel, Google Sheets; exposure to statistical methods is an advantage). Attention to detail, ability to follow instructions, and willingness to learn new techniques and workflows. Interest in wound healing, biomaterials, or nanobiotechnology is highly beneficial. \nStipend- Can be discussed.",
+        "apply_options": [
+          {
+            "title": "BeBee",
+            "link": "https://bebee.com/in/jobs/rd-and-data-intern-yasya-biosciences-faridabad--techmap_in_4475783518?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+          }
+        ],
+        "job_id": "eyJqb2JfdGl0bGUiOiJSXHUwMDI2RCBhbmQgRGF0YSBJbnRlcm4iLCJjb21wYW55X25hbWUiOiJZYXN5YSBCaW9zY2llbmNlcyIsImh0aWRvY2lkIjoiWHNwMmtNNUQ1bi1SSm83N0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMUE1WlZaTlMwZFJOSEZaYjBwdmJFTXRhMHhaUzBjeUxVcENMVzAyVmxSa1NUZHljVkUwUzBWdVpWb3dTVEJvVnpkMVREVklhWEp3YmtGeE9WOXJNR1J4UzJWQlkwVXplRzFFYUZwa2FrOTJhR0pvUXpBNFVFZE9MVlZ2VEVscGNHZHdabk15Y0hKQ1MwZzRRMjh3U1RGTmFGcGlaMHBJYkdaT1pVNTBTMGsyYUVWbmVqTVNGMGxpUkVwaGNVeHJTRXhoZVRWT2IxQXpUVk5pTkVFMEdpSkJSSE55T1daU1JXMUtPV1pRUlhOR1VGQk9RVEZPYkZGelRWZEVaMU5GTlVaMyIsImZjdiI6IjMiLCJmY19pZCI6IlhzcDJrTTVENW4tUkpvNzdBQUFBQUE9PSJ9"
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "eyJmYyI6IkV1SURDcUlEUVVwcFZEUjBURk5aZW1WM1ZWcFhlVFJZZGxCVFZGTXdVV05uWlVsRU5YVXlia1ZaWlRsdVRGOVZRM2w0ZHpoVFUxZElObWRzUTIxR1ZVRXRRVWN3Vlc1c2JWSnJWV1pMVEdab2NUTnhUM3B0UmkwMlRWTlBlbDh3YTNOVlJGUTJURzVzWkZOcFgyUmZiVVpsUzJkbGF6RklXbFY2YW5aR2NuZFRZMUpEV1d4Uk1URXROVUZwWWtFMGRYcFlRblV5ZVMxZk0xcE9YM2d6Y2xsemJFWXdNSE5yUTNSd1NURmllRGR4WHpBeVdGcEVSMlJFTTFWUE1EVnhSVFJVUTBRM1NsWjNSMUpEYmxCdlRsSnNSVkpTVEZwUFJtTnZWMHBWVGsxTGJYcE9URzFLTTBoTVYyWXpXV3BHU1U1YVZGUllaSHBOVG5kQ2RsWlhibGROTFVVMU0ybGpjM1JUWjBkbVIzWmtTbkJsTkRaaE5XbHpWVEpmVFVoak5uSXpSRTlXTldGbFVEZ3RhVmRrYkZGZk5XMUdNa0o0WjNOVFFuRlFabDlPTm5sTGRsaGZOVmxHVGxCeFJETnRlSEJOTFRWSldrOVhVMVpHVWpjemVHSm1VQzFKWVdkVE5ISkpia3A0U0VkbE5qRjFPV0pyV0VoVkxXNVhjRE5CUmtzd05XdHpMWFZtTURsSlJua3hVa1Y2TkRoTVdHWmtjWGRFTVc5cmVrUlNUREV6Tkc0MlFSSVhTV0pFU21GeFRHdElUR0Y1TlU1dlVETk5VMkkwUVRRYUlrRkVjM0k1WmxSalNVOXBRWFZmUTJ0bE0wMVZTRzR6YWtwNU1sTldkRWhDZUhjIiwiZmN2IjoiMyJ9",
+      "next": "https://serpapi.com/search.json?chips=date_posted%3Aweek&engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkV1SURDcUlEUVVwcFZEUjBURk5aZW1WM1ZWcFhlVFJZZGxCVFZGTXdVV05uWlVsRU5YVXlia1ZaWlRsdVRGOVZRM2w0ZHpoVFUxZElObWRzUTIxR1ZVRXRRVWN3Vlc1c2JWSnJWV1pMVEdab2NUTnhUM3B0UmkwMlRWTlBlbDh3YTNOVlJGUTJURzVzWkZOcFgyUmZiVVpsUzJkbGF6RklXbFY2YW5aR2NuZFRZMUpEV1d4Uk1URXROVUZwWWtFMGRYcFlRblV5ZVMxZk0xcE9YM2d6Y2xsemJFWXdNSE5yUTNSd1NURmllRGR4WHpBeVdGcEVSMlJFTTFWUE1EVnhSVFJVUTBRM1NsWjNSMUpEYmxCdlRsSnNSVkpTVEZwUFJtTnZWMHBWVGsxTGJYcE9URzFLTTBoTVYyWXpXV3BHU1U1YVZGUllaSHBOVG5kQ2RsWlhibGROTFVVMU0ybGpjM1JUWjBkbVIzWmtTbkJsTkRaaE5XbHpWVEpmVFVoak5uSXpSRTlXTldGbFVEZ3RhVmRrYkZGZk5XMUdNa0o0WjNOVFFuRlFabDlPTm5sTGRsaGZOVmxHVGxCeFJETnRlSEJOTFRWSldrOVhVMVpHVWpjemVHSm1VQzFKWVdkVE5ISkpia3A0U0VkbE5qRjFPV0pyV0VoVkxXNVhjRE5CUmtzd05XdHpMWFZtTURsSlJua3hVa1Y2TkRoTVdHWmtjWGRFTVc5cmVrUlNUREV6Tkc0MlFSSVhTV0pFU21GeFRHdElUR0Y1TlU1dlVETk5VMkkwUVRRYUlrRkVjM0k1WmxSalNVOXBRWFZmUTJ0bE0wMVZTRzR6YWtwNU1sTldkRWhDZUhjIiwiZmN2IjoiMyJ9&q=data+analysis+intern"
+    }
+  }
+}

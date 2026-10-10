@@ -1,0 +1,155 @@
+{
+  "fetched_at": 1791602354.286845,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:devpost.com SQL query hackathon",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9aeafae39f38414b8c5a6",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/D9DciT6vItzMXOWK4swvCB7gGc6-lif1IhkVZNMSME8/6ac9aeafae39f38414b8c5a6.json",
+      "markdown_endpoint": "https://serpapi.com/searches/D9DciT6vItzMXOWK4swvCB7gGc6-lif1IhkVZNMSME8/6ac9aeafae39f38414b8c5a6.md",
+      "created_at": "2026-10-10 03:19:11 UTC",
+      "processed_at": "2026-10-10 03:19:11 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Adevpost.com+SQL+query+hackathon&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/D9DciT6vItzMXOWK4swvCB7gGc6-lif1IhkVZNMSME8/6ac9aeafae39f38414b8c5a6.html",
+      "prettify_html_file": "https://serpapi.com/searches/D9DciT6vItzMXOWK4swvCB7gGc6-lif1IhkVZNMSME8/6ac9aeafae39f38414b8c5a6.prettify",
+      "total_time_taken": 2.16
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:devpost.com SQL query hackathon",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Hack with SQL - Devpost",
+        "link": "https://devpost.com/software/sql_init",
+        "snippet": "What's next for Hack with SQL Hack with SQL will continue to evolve into a standalone application for tutorials and demonstration across workshops and hackathons.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devpost.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "SQL queries | Devpost",
+        "link": "https://devpost.com/software/sql-queries-xvq39o",
+        "snippet": "Inspiration from peers and other industry leaders Planning guides Best practices for planning online and in-person hackathons Webinars & events Upcoming events and on-demand recordings Help desk Common questions and support documentation Log in Sign up SQL queries Learning how to write sql queries Like Comment",
+        "favicon": "https://external-content.duckduckgo.com/ip3/devpost.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "Zero to Query: LingoQL Hackathon: Build the Future of Data, Deploy with ...",
+        "link": "https://ztq.devpost.com/",
+        "snippet": "Zero to Query is a virtual hackathon powered by LingoQL and Sub0, created to empower developers, founders, and builders to launch real-world products faster with modern cloud infrastructure and backend tooling. Participants will build innovative applications, APIs, automation systems, SaaS products, and scalable services using the LingoQL ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/ztq.devpost.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "ShellHacks 2026: Florida's Largest Hackathon is back for it's 10TH ...",
+        "link": "https://shellhacks-2026.devpost.com/",
+        "snippet": "Ready to kickstart your career in tech? Join us for ShellHacks, Florida's Largest Hackathon, for our 10th Anniversary! 1,500+ attendees from around the world will come together to learn the latest technologies, develop innovative solutions, network with top companies, and more! Explore the world of technology through our workshop tracks. Work together with fellow students and mentors to build exciting projects. Meet recruiters and land internships and job o. pportunities. Win amazing prizes ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/shellhacks-2026.devpost.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "sHacks 2: The SQL: The Silly Hackathon Intended To Help Academically ...",
+        "link": "https://shacks2.devpost.com/",
+        "snippet": "It's the Silly Hackathon Intended To Help Academically Challenge Kids and Students. Get ready for hacks that are gonna revolutionize whole industries, become the next big startup, solve real-world problems, and work entirely as described.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/shacks2.devpost.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "Zero to Query: LingoQL Hackathon: Build the Future of Data, Deploy with ...",
+        "link": "https://ztq.devpost.com/participants",
+        "snippet": "Build the Future of Data, Deploy with Zero Friction",
+        "favicon": "https://external-content.duckduckgo.com/ip3/ztq.devpost.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "HackWesTX VII: Welcome to HackWesTX 2026, we can't wait to see what you ...",
+        "link": "https://hackwestx-vii.devpost.com/",
+        "snippet": "Building high-performance apps under hackathon deadlines shouldn't mean spending half your weekend configuring complex databases or learning obscure query languages. Tiger Data extends PostgreSQL to give student developers an ultra-fast foundation for real-time data, time-series metrics, and complex analytics. Why build with Tiger Data this ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hackwestx-vii.devpost.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Hack Knight Fall 2026: Come together with fellow your fellow students ...",
+        "link": "https://hack-knight-fall-2026.devpost.com/",
+        "snippet": "Building high-performance apps under hackathon deadlines shouldn't mean spending half your weekend configuring complex databases or learning obscure query languages. Tiger Data extends PostgreSQL to give student developers an ultra-fast foundation for real-time data, time-series metrics, and complex analytics. Why build with Tiger Data this ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/hack-knight-fall-2026.devpost.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Databricks Hackathon @ Queens College 2026",
+        "link": "https://databricks-hackathon-2026.devpost.com/",
+        "snippet": "Exported notebook or SQL file with your queries A one-paragraph writeup answering: what did you find, what did you decide to exclude, and what's the biggest limitation of your analysis?",
+        "favicon": "https://external-content.duckduckgo.com/ip3/databricks-hackathon-2026.devpost.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "StormHacks 2026: Enter SFU Burnaby Campus from October 3rd to 4th for ...",
+        "link": "https://stormhacks2026.devpost.com/",
+        "snippet": "Building high-performance apps under hackathon deadlines shouldn't mean spending half your weekend configuring complex databases or learning obscure query languages. Tiger Data extends PostgreSQL to give student developers an ultra-fast foundation for real-time data, time-series metrics, and complex analytics. Why build with Tiger Data this ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/stormhacks2026.devpost.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "SteelHacks XIII: Pitt's Largest Hackathon! - Devpost",
+        "link": "https://steelhacksxiii.devpost.com/",
+        "snippet": "Building high-performance apps under hackathon deadlines shouldn't mean spending half your weekend configuring complex databases or learning obscure query languages. Tiger Data extends PostgreSQL to give student developers an ultra-fast foundation for real-time data, time-series metrics, and complex analytics. Why build with Tiger Data this ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/steelhacksxiii.devpost.com.ico"
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "hackerrank sql test practice free",
+        "link": "https://duckduckgo.com/?q=hackerrank%20sql%20test%20practice%20free&origin=related"
+      },
+      {
+        "query": "hackathon sql practice",
+        "link": "https://duckduckgo.com/?q=hackathon%20sql%20practice&origin=related"
+      },
+      {
+        "query": "hackerrank basic sql",
+        "link": "https://duckduckgo.com/?q=hackerrank%20basic%20sql&origin=related"
+      },
+      {
+        "query": "hacker rank sql test",
+        "link": "https://duckduckgo.com/?q=hacker%20rank%20sql%20test&origin=related"
+      },
+      {
+        "query": "hacker rank sql exam",
+        "link": "https://duckduckgo.com/?q=hacker%20rank%20sql%20exam&origin=related"
+      },
+      {
+        "query": "sql practice hackerrank",
+        "link": "https://duckduckgo.com/?q=sql%20practice%20hackerrank&origin=related"
+      },
+      {
+        "query": "sqlpad hackathon",
+        "link": "https://duckduckgo.com/?q=sqlpad%20hackathon&origin=related"
+      },
+      {
+        "query": "practice sql online",
+        "link": "https://duckduckgo.com/?q=practice%20sql%20online&origin=related"
+      },
+      {
+        "query": "sql preparation hackerrank",
+        "link": "https://duckduckgo.com/?q=sql%20preparation%20hackerrank&origin=related"
+      },
+      {
+        "query": "online sql compiler",
+        "link": "https://duckduckgo.com/?q=online%20sql%20compiler&origin=related"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Adevpost.com+SQL+query+hackathon&start=11"
+    }
+  }
+}

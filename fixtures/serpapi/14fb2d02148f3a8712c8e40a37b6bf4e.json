@@ -1,0 +1,43 @@
+{
+  "fetched_at": 1791602608.7314591,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:catchafire.org \"needs help with\" research design",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afafac176559d6356440",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/kp00pAhGoR7FOf4Ptbmi36-oEGJmbAFvM_NQs9Qq8RM/6ac9afafac176559d6356440.json",
+      "markdown_endpoint": "https://serpapi.com/searches/kp00pAhGoR7FOf4Ptbmi36-oEGJmbAFvM_NQs9Qq8RM/6ac9afafac176559d6356440.md",
+      "created_at": "2026-10-10 03:23:27 UTC",
+      "processed_at": "2026-10-10 03:23:27 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Acatchafire.org+%22needs+help+with%22+research+design&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/kp00pAhGoR7FOf4Ptbmi36-oEGJmbAFvM_NQs9Qq8RM/6ac9afafac176559d6356440.html",
+      "prettify_html_file": "https://serpapi.com/searches/kp00pAhGoR7FOf4Ptbmi36-oEGJmbAFvM_NQs9Qq8RM/6ac9afafac176559d6356440.prettify",
+      "total_time_taken": 1.47
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:catchafire.org \"needs help with\" research design",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Emerald Sea Protection Society needs help with a website audit project",
+        "link": "https://www.catchafire.org/volunteer/175298/emerald-sea-protection-society--website-audit/",
+        "snippet": "Help Emerald Sea Protection Society assess whether or not their current website is optimally supporting its mission and goals, and outline the scope for needed changes and improvements.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Acatchafire.org+%22needs+help+with%22+research+design&start=1"
+    }
+  }
+}

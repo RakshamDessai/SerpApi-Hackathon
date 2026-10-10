@@ -1,0 +1,121 @@
+{
+  "fetched_at": 1791602617.607954,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:unstop.com research design competition",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9afb55fa7b78fbb812b1e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/OzOm4qwiym2VGYmjFU8OpO8DJhh6xjjCkncsMhN7IDU/6ac9afb55fa7b78fbb812b1e.json",
+      "markdown_endpoint": "https://serpapi.com/searches/OzOm4qwiym2VGYmjFU8OpO8DJhh6xjjCkncsMhN7IDU/6ac9afb55fa7b78fbb812b1e.md",
+      "created_at": "2026-10-10 03:23:33 UTC",
+      "processed_at": "2026-10-10 03:23:33 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Aunstop.com+research+design+competition&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/OzOm4qwiym2VGYmjFU8OpO8DJhh6xjjCkncsMhN7IDU/6ac9afb55fa7b78fbb812b1e.html",
+      "prettify_html_file": "https://serpapi.com/searches/OzOm4qwiym2VGYmjFU8OpO8DJhh6xjjCkncsMhN7IDU/6ac9afb55fa7b78fbb812b1e.prettify",
+      "total_time_taken": 4.39
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:unstop.com research design competition",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "ResCon: TechConnect'26 - Research Poster Presentation Competition",
+        "link": "https://unstop.com/p/techconnect26-research-poster-presentation-competition-iit-bombay-1749312",
+        "date_raw": "2026-09-10T18:29:00.0000000",
+        "date": "Sep 10, 2026",
+        "snippet": "Submit an abstract showcasing your research, with emphasis on its progress, innovation, and industry relevance. Entries will be evaluated based on the clarity, originality, and technical depth of the work. Shortlisted teams will be invited to IIT Bombay during TechConnect 2026 to participate in the offline Poster Presentation and Final Presentation Rounds. The results of the Abstract Submission Round will be announced by the end of October 2026.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 2,
+        "title": "Design Research Poster Competition 2025 - unstop.com",
+        "link": "https://unstop.com/competitions/design-research-poster-competition-2025-quasar-2025-mit-institute-of-design-pune-1544397",
+        "date_raw": "2025-09-16T00:00:00.0000000",
+        "date": "Sep 16, 2025",
+        "snippet": "Find out the best Design Research Poster Competition 2025 that match your interests. Prove your mettle and win exciting prizes like job opportunities and ca...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 3,
+        "title": "CraftVerse 2.0 - 2026",
+        "link": "https://api.unstop.com/hackathons/craftverse-20-pimpri-chinchwad-college-of-engineering-research-pccoer-ravet-pimpri-chinchwad-pune-1719658",
+        "snippet": "About the Competition: Pimpri Chinchwad College Of Engineering and Research, Pune, Computer Department presents CraftVerse 2.0 - 2026, a National Level Hackathon that brings together students, developers, designers, and tech enthusiasts to ideate, innovate, and implement impactful solutions to real-world challenges. Participants will collaborate in teams to propose problem statements, design prototypes, and refine their ideas with mentorship and guidance from industry experts. The ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 4,
+        "title": "Research Fusion Paper Challenge - 2025 - api.unstop.com",
+        "link": "https://api.unstop.com/competitions/research-fusion-paper-challenge-sri-satya-sai-university-of-technology-and-medical-sciences-1476572",
+        "snippet": "The Research Fusion Paper Challenge is a prestigious multidisciplinary research paper writing competition designed to encourage innovative academic exploration and cross-disciplinary thinking. It provides a platform for students, scholars, and professionals to present their original research and gain recognition from a diverse panel of judges.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/api.unstop.com.ico"
+      },
+      {
+        "position": 5,
+        "title": "TechConnect'25 - Research Poster Presentation Competition",
+        "link": "https://unstop.com/conferences/techconnect25-research-poster-presentation-competition-iit-bombay-1538248",
+        "snippet": "Submit abstracts showcasing your research with emphasis on progress, innovation, and industry relevance. Entries will be judged on clarity, originality, and technical depth. Selected participants will be invited to IIT Bombay during TechConnect, where they qualify for the Poster Presentation and the Final Presentation Round. The results of this round will be released in the second week of October.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 6,
+        "title": "The Lam Research Challenge 2026 : E-Cell IIT Bombay X Lam Research X T ...",
+        "link": "https://unstop.com/competitions/the-lam-research-challenge-2026-e-cell-iit-bombay-x-lam-research-x-t-works-iit-bombay-1737137",
+        "snippet": "Want a shot at getting hired by Lam Research, a Fortune 500 company that makes the equipment used to build almost every advanced chip today? E-Cell IIT Bombay and T-Works (Government of Telangana) are running the Lam Research Challenge 2026, a systems engineering competition where top teams get direct internships and full-time offers.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 7,
+        "title": "i3 Competition - Beyond Research Science Conference - 2024 - Unstop",
+        "link": "https://unstop.com/competitions/i3-competition-beyond-research-science-conference-orah-nutrichem-pvt-ltd-1000981",
+        "snippet": "Find out the best i3 Competition - Beyond Research Science Conference that match your interests. Prove your mettle and win exciting prizes like job opportuni...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 8,
+        "title": "Research Colloquium 2025: A Research Paper Presentation Competition",
+        "link": "https://unstop.com/competitions/research-colloquium-2025-a-research-paper-presentation-competition-sri-guru-gobind-singh-college-of-commerc-1577793",
+        "date_raw": "2025-10-22T17:31:00.0000000",
+        "date": "Oct 22, 2025",
+        "snippet": "The Research Forum of Sri Guru Gobind Singh College of Commerce proudly presents Research Colloquium 2025, a Research Paper Presentation Competition aimed at fostering research aptitude, critical thinking, and academic excellence among students. This event provides a platform for undergraduate and postgraduate students to present their original research and analytical insights. Participants can prepare their research papers on any topic related to Commerce, Economics, Management, Finance ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 9,
+        "title": "Internships | Jobs | Competitions | Hackathons | Courses - Unstop",
+        "link": "https://unstop.com/",
+        "snippet": "Apply for jobs, internships, and hackathons. Compete in contests, build skills with career courses, and get hired by top employers. Your one stop career platform.",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 10,
+        "title": "Research Paper Competition - 2025 - unstop.com",
+        "link": "https://unstop.com/competitions/research-paper-competition-institute-of-management-studies-ims-ghaziabad-1461103",
+        "date_raw": "2025-04-09T18:29:00.0000000",
+        "date": "Apr 9, 2025",
+        "snippet": "Are you passionate about research and eager to explore new ideas? Its annual research paper competition! This is your opportunity to showcase your analytical skills and engage with a community of inquisitive minds. Why Participate: Present your original research and analytical insights. Engage in thought-provoking discussions with fellow scholars. Compete for prestigious recognition and prizes. Receive valuable feedback from distinguished academicians. If you're ready to embark on a ...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      },
+      {
+        "position": 11,
+        "title": "\u0936\u094b\u0927 Saga - A Research Paper Competition - 2025",
+        "link": "https://unstop.com/competitions/shathha-saga-a-research-paper-competition-atma-ram-sanatan-dharma-college-arsd-1359480",
+        "snippet": "Find out the best \u0936\u094b\u0927 Saga - A Research Paper Competition that match your interests. Prove your mettle and win exciting prizes like job opportunities a...",
+        "favicon": "https://external-content.duckduckgo.com/ip3/unstop.com.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Aunstop.com+research+design+competition&start=11"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "fetched_at": 1791602554.0219688,
+  "engine": "duckduckgo",
+  "params": {
+    "engine": "duckduckgo",
+    "q": "site:catchafire.org \"needs help with\" brand identity",
+    "kl": "in-en"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6ac9af78f0114a9463002643",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/SK7xVcJCoAOXubCW7vAosr_6qljNFcncUoDfR1Dt2eg/6ac9af78f0114a9463002643.json",
+      "markdown_endpoint": "https://serpapi.com/searches/SK7xVcJCoAOXubCW7vAosr_6qljNFcncUoDfR1Dt2eg/6ac9af78f0114a9463002643.md",
+      "created_at": "2026-10-10 03:22:32 UTC",
+      "processed_at": "2026-10-10 03:22:32 UTC",
+      "duckduckgo_url": "https://duckduckgo.com/?q=site%3Acatchafire.org+%22needs+help+with%22+brand+identity&kl=in-en",
+      "raw_html_file": "https://serpapi.com/searches/SK7xVcJCoAOXubCW7vAosr_6qljNFcncUoDfR1Dt2eg/6ac9af78f0114a9463002643.html",
+      "prettify_html_file": "https://serpapi.com/searches/SK7xVcJCoAOXubCW7vAosr_6qljNFcncUoDfR1Dt2eg/6ac9af78f0114a9463002643.prettify",
+      "total_time_taken": 1.56
+    },
+    "search_parameters": {
+      "engine": "duckduckgo",
+      "q": "site:catchafire.org \"needs help with\" brand identity",
+      "kl": "in-en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling"
+    },
+    "ads": [
+      {
+        "position": 1,
+        "title": "Brand Identity in Minutes - Build Your Brand Instantly",
+        "link": "https://duckduckgo.com/y.js?ad_domain=looka.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=h4cHL_fU4Cro7Uv67LmO6lbjegjTEN9AtoXuHnpwg5oK_a4rTIY9YFoYob3RcnxTSRc4NzG1PqqwiijTx8RM0gGw%2DIqIoWwyHJV_YgI3zOFVeLWiF2iNRkZ3O2W0_Gk%2DtHaT0ZLWZJ88JXZD2cOQPuhrnVcOKyHbnPUohAmYAto.P1BrlhxaAhyfQAwCI86lsg&eddgt=ALtISmHrRuk5qxFHcq%2D40A%3D%3D&rut=1a57dd8d318adbf8f9df1e16222c5cc8dd45b1592f01b0eef7ace94e5fd8cbaf&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8OtOHR3atWjMcertGCmxXvjVUCUwAInbNAaYIOei%2DFJsMgxdAZZteGDpa%2DXMuyt4oR14CjoyNFczskHbqndXX0pXYnjbBU7O%2DSIOTSXwsGOpY5pYNRMKFeW43O5CCOKxT0z7NtREIl6LHZ0PCN7zZPq%2DB4tKWxCOgA7All7Gz3D7uzcoL3W2rm5J68TzjA8KMS_OiyreFqJvHVmaxW52afvpOToI%26u%3DaHR0cHMlM2ElMmYlMmZsb29rYS5jb20lMmZsb2dvLW1ha2VyJTJmJTNmbXNjbGtpZCUzZDg5NmZmYmY5Y2IyMzE3NWYxNjg4OTEzMDY0NWFkNWFjJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkUGVyZm9ybWFuY2UlMjUyME1heCUyNTIwLSUyNTIwRW5nbGlzaCUyNTIwQ291bnRyaWVzJTI1MjAtJTI1MjBBcHJpbCUyNTIwMjAyNSUyNnV0bV90ZXJtJTNkbG9va2EuY29tJTI2dXRtX2NvbnRlbnQlM2RMb2dvJTI1MjBNYWtlcg%26rlid%3D896ffbf9cb23175f16889130645ad5ac&vqd=4-87816953298306527274640916362088174389&iurl=%7B1%7DIG%3D0A574C4E78AA4C01B80E9EC84FF2E49E%26CID%3D1D7818F271E565A608140F1C706E64B5%26ID%3DDevEx%2C5026.1",
+        "source": "looka.com",
+        "snippet": "With Looka, you can choose from hundreds of custom logo designs. Looka Logo Maker is an easy-to-use platform to design professional logos for businesses.",
+        "sitelinks": [
+          {
+            "title": "Free AI Logo Generator",
+            "link": "https://duckduckgo.com/y.js?ad_domain=looka.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=dYhxcl2j%2DQZY2o2HAFeCAuyTlRBhfiSVhh9lRWlBJYbmSHDCiJBZxHTc2zoRv4LasZh6ruqe5ePmVsMOS3Xd_OA4XUj%2DBW6s%2D3rdXL8rR05wj5dSU38fmEJwv4kjvcB_bQZU%2DSYS7Rr2Dl8vRdWnQCrQqwoqljpCwnTR8lAiHyY.Eo9v_JcogAfxhh_5XtrUbw&eddgt=ALtISmHrRuk5qxFHcq%2D40A%3D%3D&rut=e97c8a00e1d154de8fbfd620a7b14a1c75095a871bfb651defb0d5b41aa9a010&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8Qoy6jovKV8omYMhR1ycZYDVUCUxMtxX3Wq1wl_YO4xmFUy0StU8cLXbm%2DTgxhhftlunULI67MKCqtLQJ48jBORDb7386kqFS53NTAlGGV0HUDRJc_zkh2q7ZlNJTty3mVO1So%2DvWc6dKIfyzEdeGCq_A_0Z2W5zt4q4tp2E95FV0fIInLtLHLh4Dwl9_Hn_b98fWVHGn9jZqS29GVuddH9xeWMfN3PczbXNxqy35Hy1P1DkP%26u%3DaHR0cHMlM2ElMmYlMmZsb29rYS5jb20lMmZhaS1sb2dvLWdlbmVyYXRvciUyZiUzZm1zY2xraWQlM2Q3MzBiNTQyYjg4ZDMxNTdjZGI4ZTNlZTIyN2FhNWVjMCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFBlcmZvcm1hbmNlJTI1MjBNYXglMjUyMC0lMjUyMEVuZ2xpc2glMjUyMENvdW50cmllcyUyNTIwLSUyNTIwQXByaWwlMjUyMDIwMjUlMjZ1dG1fdGVybSUzZGxvb2thLmNvbSUyNnV0bV9jb250ZW50JTNkTG9nbyUyNTIwTWFrZXI%26rlid%3D730b542b88d3157cdb8e3ee227aa5ec0&vqd=4-194800577244929497302079615651223054825&iurl=%7B1%7DIG%3D0A574C4E78AA4C01B80E9EC84FF2E49E%26CID%3D1D7818F271E565A608140F1C706E64B5%26ID%3DDevEx%2C5035.1",
+            "snippet": "Design your own AI logo with Looka. Get started today for free!"
+          },
+          {
+            "title": "Design Logos For Free",
+            "link": "https://duckduckgo.com/y.js?ad_domain=looka.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=V82etTS4o%2Ds4sz3FUWJ9A_aaasQ5eOtbydDwdvq71dXx4Hw3vcJ%2Dh3duW6Y3Cgn8MJPBcngdTj6o8wQ1P01EutZt1LrQBa2fKN%2DtThHo8GlyVn0v0U8iAx3faEj%2DFc98i0c0IndkZ_%2DbRM8E%2DCNrmgZ8lWcLKLCGYH2gX6LWGwQ.Y0ROEuXLoxSPBRRnHcpghQ&eddgt=ALtISmHrRuk5qxFHcq%2D40A%3D%3D&rut=083efd69b0fabeb074b422d6db1657f814e2bb5ff403cf85b506d59c2d3872d4&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8YYhl%2DdH2LJrTZBHtlhbxYzVUCUzkMNdGNWecxmxFeZZYHxETSZ5MmNIOpIXGiabcq0Zci7H2UTThptnH8Nk2zEKs3ZR%2D8Yorr9v5m0EJHi3SDdEBxr3WufwY26W8eE_euAANYSvkgY_mdRsLocNqBgJrT8nPD223oSBEHtm6XsK5HkPw5wF1pQJs3SlIjl4wUu40YDuffhXEiTtqvAzXJ9ela3YM_NxmX%2D6avNuyrpZttt6y%26u%3DaHR0cHMlM2ElMmYlMmZsb29rYS5jb20lMmZvbmJvYXJkaW5nJTNmbXNjbGtpZCUzZDM4ODU1OGUzNTRhNTExYzZhZTM2MzIyYWZiZGMyMDViJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkUGVyZm9ybWFuY2UlMjUyME1heCUyNTIwLSUyNTIwRW5nbGlzaCUyNTIwQ291bnRyaWVzJTI1MjAtJTI1MjBBcHJpbCUyNTIwMjAyNSUyNnV0bV90ZXJtJTNkbG9va2EuY29tJTI2dXRtX2NvbnRlbnQlM2RMb2dvJTI1MjBNYWtlcg%26rlid%3D388558e354a511c6ae36322afbdc205b&vqd=4-232474870861878145527772717931110927858&iurl=%7B1%7DIG%3D0A574C4E78AA4C01B80E9EC84FF2E49E%26CID%3D1D7818F271E565A608140F1C706E64B5%26ID%3DDevEx%2C5037.1",
+            "snippet": "Instantly generate custom logos by using artificial intelligence."
+          },
+          {
+            "title": "Free Logo Maker",
+            "link": "https://duckduckgo.com/y.js?ad_domain=looka.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=xM2AzOtdrdm8oYt9JJsr6u1TxXB0u%2D%2D67KeP9dP_q_RcU3GwkI6zM5vMLlHvPtKCfjtHTxDg_FO7X6xYG2X7QII%2DAt2HxQZ6F85c_QBs8hiKLMS9HaTRmTGl4MyS_RPFCciDVD4PXvkDxql8CZBnVghK1e9f1wMjhK9hr4QrC44.njIP7EUkkuzPEjgESqRbRA&eddgt=ALtISmHrRuk5qxFHcq%2D40A%3D%3D&rut=24fd0aaa1b40842fae158a37e35c6342eba17b5411af0e4e1501238ed62a1c6c&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8KnsKfrl2FX2uDbs9zL8oYTVUCUx_80AEuBQkIo0XuKSiM2bhOYCyFYDMqfqJfo02PKcckH1x1jltwYcFnBfSfvZcm%2DcbNS9kovPXf0lpk%2DSjZU8PlaqQdy7ncTZsm0gpuGCCsnC%2DN9TPnYyWvXnSH44YKgLyJWtqUYapBe_arVcxzsnH4hTAl9uk7HyUmWMik518Y4I5PGgAsZz3ZIF6x8EVXX41d_zzgqMPUKZOtqFWQzwC%26u%3DaHR0cHMlM2ElMmYlMmZsb29rYS5jb20lMmZvbmJvYXJkaW5nJTNmbXNjbGtpZCUzZDFmZmVhY2NmODhmYTE1Nzk5OTNmYzYwNjI3ODNkNDcyJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkUGVyZm9ybWFuY2UlMjUyME1heCUyNTIwLSUyNTIwRW5nbGlzaCUyNTIwQ291bnRyaWVzJTI1MjAtJTI1MjBBcHJpbCUyNTIwMjAyNSUyNnV0bV90ZXJtJTNkbG9va2EuY29tJTI2dXRtX2NvbnRlbnQlM2RMb2dvJTI1MjBNYWtlcg%26rlid%3D1ffeaccf88fa1579993fc6062783d472&vqd=4-214941410236054051342272211953674644671&iurl=%7B1%7DIG%3D0A574C4E78AA4C01B80E9EC84FF2E49E%26CID%3D1D7818F271E565A608140F1C706E64B5%26ID%3DDevEx%2C5039.1",
+            "snippet": "Customize your logo in Minutes.-Make your own logo today."
+          },
+          {
+            "title": "Free YouTube Logo Maker",
+            "link": "https://duckduckgo.com/y.js?ad_domain=looka.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=pKEw_wgMDlDt_if%2Dd2upiMKZOmLF2R0IQtYWgiZANEtQ2Ztvhf4ttxvRiwUEVmzeCT4x0BZXrBI4W3ujsaCQr_o1qKTU6l9p%2DTAO4UcevT071hgvA_IDz1IY5G26T8BcPs%2Dtp36tMrKq8IYbKivIqfkfNNIs8Nnq0RIg4AA0xeo.3V9ZQMhXqQsqR775mtoOnw&eddgt=ALtISmHrRuk5qxFHcq%2D40A%3D%3D&rut=9bb64b03eaedbebb1d289f66342727b2ac972c3335e36b292e69225ecbe7ca44&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8sPKTmxpcwX2_AhOrLBkV_TVUCUwgmDk%2D__2yRkNx7qCMCvp31YtP4m%2DubCXWZrR9XcuDr0J70lqPhB0kqZBcWMaPZeaMGIQsZugNibu5snP5iZyG0eZsrPtwy9%2DcEJJXmk9Hq87sWWDVdEFYHJDUSAwRp_FHoM3cqjCTepNBkBukFHblsPHw49XCY6w71%2DWFyw3llMduuKY_ergfl8lUpTZRl_uo9V0BsMpD4DTVjEsIIweS%26u%3DaHR0cHMlM2ElMmYlMmZsb29rYS5jb20lMmZsb2dvLWlkZWFzJTJmeW91dHViZS1sb2dvLWRlc2lnbiUyZiUzZm1zY2xraWQlM2Q0NjdhYWEyNjRmZjUxMzdhZWRjYmMwZWZlMDhjNTYyNyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFBlcmZvcm1hbmNlJTI1MjBNYXglMjUyMC0lMjUyMEVuZ2xpc2glMjUyMENvdW50cmllcyUyNTIwLSUyNTIwQXByaWwlMjUyMDIwMjUlMjZ1dG1fdGVybSUzZGxvb2thLmNvbSUyNnV0bV9jb250ZW50JTNkTG9nbyUyNTIwTWFrZXI%26rlid%3D467aaa264ff5137aedcbc0efe08c5627&vqd=4-112011252446570049748822146702164070137&iurl=%7B1%7DIG%3D0A574C4E78AA4C01B80E9EC84FF2E49E%26CID%3D1D7818F271E565A608140F1C706E64B5%26ID%3DDevEx%2C5041.1",
+            "snippet": "Design a new logo for your channel. See 100s of logo designs instantly."
+          }
+        ]
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "The Opportunity Institute needs help with a video editing project",
+        "link": "https://www.catchafire.org/volunteer/94188/somo--logo-design---visual-brand-identity/",
+        "snippet": "Video Editing Call for The Opportunity Institute",
+        "favicon": "https://external-content.duckduckgo.com/ip3/www.catchafire.org.ico"
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=in-en&q=site%3Acatchafire.org+%22needs+help+with%22+brand+identity&start=1"
+    }
+  }
+}
