@@ -20,15 +20,12 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from urllib.parse import urlsplit
 
+from s2s.config import USER_AGENT
 from s2s.mesh import adapters as adapter_registry
 from s2s.models import RawResult, StatusApi, Verdict
 
 log = logging.getLogger(__name__)
 
-USER_AGENT = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 S2S-LinkVerifier/0.1"
-)
 
 #: Phrases that mean "closed" on almost any board, checked in addition to each
 #: adapter's own `gate_markers`.
@@ -46,6 +43,11 @@ GENERIC_DEAD_MARKERS = (
 #: issue state in an embedded JSON payload far past the first screenful. A
 #: 60 KB window silently missed it and reported closed issues as live.
 MAX_BODY_CHARS = 600_000
+
+#: Parallel link checks. Most probes wait on a slow host, not on CPU: with 8
+#: workers the slowest preset spent ~20 s waiting (measured 2026-10-11). The
+#: probes go to many different hosts, so 16 is still gentle on each one.
+PROBE_WORKERS = 16
 
 
 def tier0_url_shape(result: RawResult) -> bool:
@@ -88,47 +90,87 @@ def tier1_snippet(result: RawResult, now: datetime | None = None) -> Verdict | N
     return None
 
 
-def status_api_for(result: RawResult) -> StatusApi | None:
+#: Credentials the gate may send, by `StatusApi.auth` name:
+#: "kaggle" -> (username, key) for HTTP basic auth, "github" -> (token,).
+Credentials = dict[str, tuple[str, ...]]
+
+
+def _usable(api: StatusApi | None, credentials: Credentials | None) -> StatusApi | None:
+    if api is None:
+        return None
+    if api.auth_required and not (credentials or {}).get(api.auth or ""):
+        return None
+    return api
+
+
+def status_api_for(
+    result: RawResult, credentials: Credentials | None = None
+) -> StatusApi | None:
     """The status endpoint that can speak for this URL, if any.
 
     Usually the result's own adapter. A Google Jobs card links to the posting
     on its home board, so a job hosted on Unstop is checked with Unstop's API -
-    its page is the same empty shell as an Unstop competition.
+    its page is the same empty shell as an Unstop competition. An endpoint
+    that needs a credential the student has not given does not count.
     """
     adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
     if adapter is not None and adapter.status_api is not None:
-        return adapter.status_api
+        return _usable(adapter.status_api, credentials)
     host = urlsplit(result.url or "").netloc.lower()
     for other in adapter_registry.ADAPTERS.values():
         if other.status_api and other.site and (
             host == other.site or host.endswith("." + other.site)
         ):
-            return other.status_api
+            return _usable(other.status_api, credentials)
     return None
 
 
-def _fetch_status(api: StatusApi, ident: str, timeout: float):
+def _fetch_status(
+    api: StatusApi, ident: str, timeout: float, credentials: Credentials | None = None
+):
     import requests
 
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json", **api.headers}
-    return requests.get(api.url.format(id=ident), headers=headers, timeout=timeout)
+    auth = None
+    secret = (credentials or {}).get(api.auth or "")
+    if secret and len(secret) == 2:
+        auth = secret                                    # HTTP basic (Kaggle)
+    elif secret:
+        headers["Authorization"] = f"Bearer {secret[0]}"  # token (GitHub)
+    return requests.get(api.url.format(id=ident), headers=headers,
+                        timeout=timeout, auth=auth)
 
 
-def status_api_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
+def _pick(node, api: StatusApi, ident: str):
+    """From a search-list answer, the item for this listing, else None."""
+    if api.list_key is None:
+        return node
+    if not isinstance(node, list):
+        return None
+    for item in node:
+        value = str((item or {}).get(api.list_key, "")).rstrip("/")
+        if value == ident or value.endswith("/" + ident):
+            return item
+    return None
+
+
+def status_api_probe(
+    result: RawResult, timeout: float = 3.0, credentials: Credentials | None = None
+) -> Verdict:
     """Ask the platform's own status endpoint. Costs no SerpApi credit.
 
     Archived if the status is a dead value, the deadline has passed, or a
     required field fails. Live only if at least one signal was actually read;
     anything unreadable (rate limit, changed schema) fails soft to unverified.
     """
-    api = status_api_for(result)
+    api = status_api_for(result, credentials)
     if api is None:
         return "unverified"
     match = re.search(api.id_re, result.url or "")
     if not match:
         return "unverified"
     try:
-        response = _fetch_status(api, match.group(1), timeout)
+        response = _fetch_status(api, match.group(1), timeout, credentials)
         node = response.json()
     except Exception as exc:
         log.debug("status api failed for %s: %s", result.url, exc)
@@ -136,6 +178,11 @@ def status_api_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
 
     if response.status_code == 404:
         return "archived"
+    if response.status_code in (401, 403):
+        return "unverified"              # bad token or rate limit: say nothing
+    node = _pick(node, api, match.group(1))
+    if node is None:
+        return "unverified"
 
     read_something = False
     if api.path:
@@ -180,13 +227,15 @@ def _dig(node, path: tuple[str | int, ...]):
     return node
 
 
-def tier2_probe(result: RawResult, timeout: float = 3.0) -> Verdict:
+def tier2_probe(
+    result: RawResult, timeout: float = 3.0, credentials: Credentials | None = None
+) -> Verdict:
     """Fetch the page and decide. Costs no SerpApi credit."""
     adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
     if adapter is None:
         return "unverified"
-    if status_api_for(result) is not None:
-        return status_api_probe(result, timeout=timeout)
+    if status_api_for(result, credentials) is not None:
+        return status_api_probe(result, timeout=timeout, credentials=credentials)
     if adapter.liveness != "http_probe":
         # e.g. Kaggle: its page is a shell, so a 200 would be read as "live".
         return "unverified"
@@ -270,11 +319,13 @@ def verify(
     probe_top_n: int = 12,
     timeout: float = 3.0,
     enable_probe: bool = True,
+    credentials: Credentials | None = None,
 ) -> list[tuple[RawResult, Verdict, datetime | None]]:
     """Run the full gate. Returns (result, verdict, verified_at) per surviving item.
 
     Tier-0 failures are dropped entirely: they are not opportunities at all, so
-    there is nothing to label.
+    there is nothing to label. A result whose source already proved it open
+    (`RawResult.verdict`) keeps that verdict and is not probed again.
     """
     survivors = [r for r in results if tier0_url_shape(r)]
     dropped = len(results) - len(survivors)
@@ -289,9 +340,15 @@ def verify(
         if snippet_verdict == "archived":
             verdicts.append((result, "archived", None))
             continue
+        if result.verdict is not None:
+            verdicts.append((result, result.verdict, datetime.now()))
+            continue
         verdicts.append((result, "unverified", None))
         adapter = adapter_registry.ADAPTERS.get(result.adapter_key)
-        if enable_probe and adapter is not None and adapter.liveness == "http_probe":
+        if enable_probe and adapter is not None and (
+            adapter.liveness == "http_probe"
+            or status_api_for(result, credentials) is not None
+        ):
             to_probe.append(index)
 
     to_probe = to_probe[:probe_top_n]
@@ -299,9 +356,10 @@ def verify(
         return verdicts
 
     def _run(index: int) -> tuple[int, Verdict]:
-        return index, tier2_probe(verdicts[index][0], timeout=timeout)
+        return index, tier2_probe(verdicts[index][0], timeout=timeout,
+                                  credentials=credentials)
 
-    with ThreadPoolExecutor(max_workers=min(8, len(to_probe))) as pool:
+    with ThreadPoolExecutor(max_workers=min(PROBE_WORKERS, len(to_probe))) as pool:
         for index, verdict in pool.map(_run, to_probe):
             result, _, _ = verdicts[index]
             verdicts[index] = (result, verdict, datetime.now())

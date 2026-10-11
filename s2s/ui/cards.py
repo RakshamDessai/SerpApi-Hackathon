@@ -15,11 +15,12 @@ from s2s.mesh import adapters as adapter_registry
 from s2s.models import (
     COMPENSATION_LABEL,
     ECOSYSTEM_LABEL,
+    PROVENANCE_LABEL,
     Opportunity,
     RawResult,
 )
 from s2s.score import signals
-from s2s.ship import export, prepare
+from s2s.ship import export, faculty, outreach, prepare
 
 VERDICT_BADGE = {
     "live": ("✅", "Verified live"),
@@ -61,13 +62,15 @@ def _header(opportunity: Opportunity) -> None:
         bits.append(BAND_BADGE.get(opportunity.band, ""))
         if opportunity.est_hours:
             bits.append(f"`{opportunity.effort_label}`")
+        if opportunity.cross_subject:
+            bits.append("🔗 Uses two subjects")
         st.caption(" · ".join(b for b in bits if b))
     with score_col:
         st.metric("Match", f"{opportunity.score.total}%")
 
     line = f"{icon} {verdict_text}"
     if opportunity.provenance != "serpapi":
-        line += " · ⚠︎ harvested, not SerpApi"
+        line += f" · ⚠︎ {PROVENANCE_LABEL.get(opportunity.provenance, opportunity.provenance)}"
     if opportunity.verified_at:
         line += f" · checked {opportunity.verified_at:%H:%M}"
     if opportunity.organization:
@@ -123,6 +126,43 @@ def _ship_section(opportunity: Opportunity, api_key: str | None, syllabus_text: 
         key=f"dl-{abs(hash(opportunity.url))}",
     )
 
+    _outreach_section(opportunity)
+
+
+def _student() -> faculty.StudentDetails:
+    """The details the student typed on the main screen, if any."""
+    details = st.session_state.get("student")
+    return details if isinstance(details, faculty.StudentDetails) else faculty.StudentDetails()
+
+
+def _outreach_section(opportunity: Opportunity) -> None:
+    """Apply, ask for credit, and tell people - all from the same facts."""
+    student = _student()
+    key = abs(hash(opportunity.url))
+
+    st.markdown("#### Apply, get credit, share")
+    apply_tab, credit_tab, post_tab = st.tabs(
+        ["Application message", "Faculty credit report", "LinkedIn post"]
+    )
+    with apply_tab:
+        st.caption("Send this with your application. Check every line first.")
+        st.code(outreach.application_message(opportunity, student.name), language="text")
+    with credit_tab:
+        st.caption(
+            "A one-page PDF to ask your professor for internal practical marks. "
+            "Add your name and roll number under \"Your details\" first."
+        )
+        st.download_button(
+            "Download credit request (.pdf)",
+            data=faculty.report_pdf(opportunity, student),
+            file_name=faculty.filename_for(opportunity),
+            mime="application/pdf",
+            key=f"pdf-{key}",
+        )
+    with post_tab:
+        st.caption("Post this after you deliver the work, not before.")
+        st.code(outreach.linkedin_post(opportunity), language="text")
+
 
 def render(
     opportunity: Opportunity,
@@ -140,6 +180,10 @@ def render(
             st.markdown("**Your syllabus unit**")
             st.markdown(f"`{competency.source_unit}` — matched on **{competency.canonical}**")
             st.markdown(f"> _{' '.join(competency.source_span.split())}_")
+            also = opportunity.also_competency
+            if also is not None:
+                st.markdown(f"**It also uses a second subject:** `{also.source_unit}`")
+                st.markdown(f"> _{' '.join(also.source_span.split())}_")
 
             st.markdown("**Score breakdown**")
             _score_table(opportunity)

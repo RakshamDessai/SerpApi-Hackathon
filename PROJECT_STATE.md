@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — living status
 
-**Last updated:** 2026-10-10, after the first live SerpApi validation (Phase 5).
+**Last updated:** 2026-10-11, Phase 6 (improvements) on branch `harsh`.
 **Update rule:** rewrite sections 1, 2 and 6 at the end of every phase. A cold
 session must be able to resume from this file alone.
 
@@ -16,9 +16,37 @@ session must be able to resume from this file alone.
 | **Phase 3** | Bridge, Blueprint, STAR bullet, case study | ✅ done |
 | **Phase 4** | Syllabus Gap Report | ✅ done |
 | **Phase 5** | Demo hardening + live validation | ✅ **done** (2026-10-10) |
+| **Phase 6** | Live supply, more engines, outreach features | ✅ code done (2026-10-11); new searches **not yet recorded** |
 
-**Test suite: 370 passed, 4 skipped, ~2.2s.** Tests are isolated from `.env`
+**Test suite: 433 passed, 6 skipped, ~4.6s.** Tests are isolated from `.env`
 (autouse fixture in `tests/conftest.py`) and never make a network call.
+
+### Phase 6: improvements, 2026-10-11 (branch `harsh`)
+
+No SerpApi credit was spent: this machine has no key. Everything that adds or
+changes a search is **off by default**, so the default plan - and every
+recorded fixture - is unchanged (test: `test_default_plan_is_unchanged_by_the_new_options`).
+
+| Item | What changed | Status |
+|---|---|---|
+| Catchafire liveness | Pages are a 162 KB JS shell; all 12 recorded listings probed "live". Its own details API (`/volunteer/api/details/{id}/`) showed **9 of 12 closed**. New `StatusApi` requires `is_matching: true`. | **Measured**, on by default |
+| GitHub direct | `mesh/github_direct.py`: GitHub issue search, `state:open no:assignee`, quoted keyword. Free; results carry `verdict="live"` and provenance `platform-api`, and the gate does not re-probe them. Runs only when the plan chose GitHub. | On by default (`S2S_DIRECT_GITHUB`) |
+| Kaggle token | Optional `KAGGLE_USERNAME`/`KAGGLE_KEY`; the gate reads `deadline` from Kaggle's documented list API. `StatusApi.auth_required` keeps it unused without a token. | **Unverified shape** (from docs, never called) |
+| Year in query | `PlatformAdapter.year_in_query` on Unstop, Devpost, Devfolio, Kaggle, DrivenData. | Off (`S2S_FRESH_QUERIES`) - **effect not measured** |
+| Page 2 | `planner.follow_ups`: leftover credits go to platforms with ≥50% and ≥2 live on page 1. Offset read from `serpapi_pagination.next` (recorded DDG responses: `start=11` after a full page). | Off (`S2S_FOLLOW_UP_PAGES`) |
+| Google Events | `gevents` adapter, `engine=google_events`, added on top of the 5 affinity platforms. | Off (`S2S_EVENTS`) - no recorded response |
+| YouTube in Gap Report | `SerpApiClient.courses`, `engine=youtube` (`search_query`, not `q`). | Off (`S2S_GAP_COURSES=0`) - no recorded response |
+| City | `S2S_CITY` sets `location` for Google Jobs and Google Events. | Off (empty) |
+| Credits in UI | Sidebar button, free `account.json` endpoint. | Done |
+| Multi-subject (F08) | Multi-file upload, `loader.combine`, `=== Subject: ===` breaks, round-robin competency balance, "Uses two subjects" badge when two subjects each score ≥0.4 semantic. | Done |
+| Semester level (F06) | Already existed (`taxonomy.band_for`). No change. | - |
+| Application message (F32), LinkedIn post (F52) | `ship/outreach.py`, templates, verbatim syllabus quote. | Done |
+| Faculty credit report (F53) | `ship/faculty.py`, one-page PDF via `fpdf2`. | Done |
+| Daily alert (F54) | `analyze/alerts.py` (pure diff) + `scripts/daily_alert.py` (Telegram optional). | Done, not run with a key |
+| Demo timing | `scripts/time_demo.py`. 71.5 s → 62.6 s for 5 presets after `PROBE_WORKERS` 8 → 16; network-dependent. | Measured |
+
+**Next with a key:** record the new searches and measure whether the year
+keyword raises the live share (see section 6).
 
 ### Phase 5: the first real SerpApi run, 2026-10-10
 
@@ -104,7 +132,11 @@ It falls back to recorded SerpApi URLs for client-rendered listing pages.
 | `ship/blueprint.py` | 3-phase playbook per discipline + pitfalls. |
 | `ship/export.py` | STAR bullet, Markdown case study. |
 | `analyze/gaps.py` | Syllabus Gap Report. |
-| `ui/cards.py` | Card + score table + ship assets (only Streamlit importer). |
+| `ui/cards.py` | Card + score table + ship assets + outreach tabs (only Streamlit importer). |
+| `mesh/github_direct.py` | Free GitHub issue search (open issues only). |
+| `ship/outreach.py` | Application message, LinkedIn post. |
+| `ship/faculty.py` | Faculty credit report PDF. |
+| `analyze/alerts.py` | Daily-alert diff. |
 | `tests/test_ui.py` | Drives the real app via Streamlit `AppTest`. |
 
 ### Top level
@@ -114,9 +146,11 @@ It falls back to recorded SerpApi URLs for client-rendered listing pages.
 | `app.py` | Streamlit UI. Sidebar budget controls, 3 result tabs, dev tab. |
 | `scripts/record_fixtures.py` | Records real SerpApi responses. `--dry-run` prints cost first. Replaces harvested stand-ins. |
 | `check_serpapi.py` | Key + quota check via the free account endpoint (renamed from `test_serpapi.py`). |
+| `scripts/daily_alert.py` | New live listings once a day; Telegram optional. |
+| `scripts/time_demo.py` | Times the 5-preset demo (no credits). |
 | `fixtures/syllabi/` | 5 presets in real Indian university formats (Commerce, Design, CS, Sociology, Science). |
 | `fixtures/serpapi/` | **45 real SerpApi responses** (DuckDuckGo, Google Jobs, Scholar) for all 5 presets, recorded 2026-10-10. |
-| `tests/` | 370 tests. |
+| `tests/` | 433 tests. |
 
 ### Deleted
 
@@ -127,14 +161,15 @@ It falls back to recorded SerpApi URLs for client-rendered listing pages.
 ## 3. Environment
 
 ```bash
-cd "/Users/saisalelkar/Desktop/serp hack"
-.venv/bin/python -m pytest          # 370 passed, 4 skipped
+cd <repo root>
+.venv/bin/python -m pytest          # 433 passed, 6 skipped
 .venv/bin/streamlit run app.py
 ```
 
 - **venv: Python 3.12.12** at `.venv/`. System python3 is 3.14 — do not use it.
 - streamlit 1.65.0, anthropic 1.12.1, pypdf, python-docx, charset-normalizer,
-  requests, pytest, python-dotenv.
+  requests, pytest, python-dotenv, fpdf2 (faculty PDF).
+- No system Python 3.12? `uv venv --python 3.12 .venv` downloads one.
 - **No SerpApi SDK.** Calls go over plain HTTPS (`serpapi_client._search`), so it
   does not matter whether a machine has `google-search-results` or `serpapi`.
   (`google-search-results` may still be in old venvs; nothing imports it.)
@@ -238,13 +273,14 @@ Nothing blocks a demo. These are the known limits, in priority order.
 
 | # | Item | Owner | Notes |
 |---|---|---|---|
-| 1 | **Catchafire liveness is unverified wording.** Pages return 200 with no observed "closed" text; its `gate_markers` are still guesses. | dev | Find a closed Catchafire listing and record the real marker. |
-| 2 | **Kaggle can never be verified** without a Kaggle login (API) — and we will not bypass its CAPTCHA. | user | Optional: a Kaggle API token would allow an authenticated status check. |
+| 1 | ~~Catchafire liveness~~ **fixed 2026-10-11** with its details API. | — | |
+| 2 | **Kaggle needs the student's own API token** (now supported, response shape unverified). We will not bypass its CAPTCHA. | user | Test once with a real token. |
 | 3 | **Search engines index mostly past events.** 58/67 Unstop and every recorded DrivenData competition had finished. The gate archives them correctly, but live supply per run is thinner than the raw counts suggest. | — | Market reality. |
 | 4 | Many open events are not syllabus-specific (e.g. general hackathons for CS). | — | An Anthropic key would improve extraction phrasing. |
 | 5 | Indeed and Jooble job links block automated checks → unverified. | — | Honest as labelled. |
 | 6 | `scripts/harvest_demo_fixtures.py` is superseded by real fixtures. | dev | Keep for keyless forks, or delete. |
-| 7 | Time the 5-stream demo end to end (~15 s per run, mostly link checks). | user | |
+| 7 | ~~Time the demo~~ done: 62.6 s for 5 presets (`scripts/time_demo.py`). | — | |
+| 8 | **Phase 6 searches have no fixtures.** Year keyword, page 2, Google Events, YouTube. | user + key | `S2S_FRESH_QUERIES=true S2S_EVENTS=true ... record_fixtures.py`; measure the live share before turning the year keyword on by default. |
 
 Credit budget: recording all presets again costs ~45 credits. `check_serpapi.py`
 shows the remaining quota for free.
@@ -253,5 +289,9 @@ shows the remaining quota for free.
 
 ## 6. Next action
 
-Phase 5 is complete and pushed. The next most valuable step is item 1 above
-(observe a real closed Catchafire listing), then a timed dry run of the demo.
+Phase 6 code is on branch `harsh`, not merged. With a SerpApi key:
+
+1. `python check_serpapi.py` (free) to see the credits left.
+2. Record one preset with `S2S_FRESH_QUERIES=true` and compare its live share
+   with the 2026-10-10 recording. Turn it on by default only if it helps.
+3. Record Google Events and YouTube for the presets so demo mode shows them.

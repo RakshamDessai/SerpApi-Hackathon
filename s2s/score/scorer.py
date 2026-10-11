@@ -187,14 +187,17 @@ def build_opportunities(
             continue
 
         best: tuple[ScoreBreakdown, Competency] | None = None
+        scored: list[tuple[ScoreBreakdown, Competency]] = []
         for competency in competencies:
             breakdown = score_one(competency, result, verdict, now=now)
+            scored.append((breakdown, competency))
             if best is None or breakdown.total > best[0].total:
                 best = (breakdown, competency)
 
         if best is None:
             continue
         breakdown, competency = best
+        also = cross_subject_partner(best, scored)
 
         opportunities.append(
             Opportunity(
@@ -212,6 +215,7 @@ def build_opportunities(
                 est_hours=signals.estimate_hours(result),
                 scam_flag=scammy,
                 provenance=result.provenance,
+                also_competency=also,
             )
         )
 
@@ -219,6 +223,39 @@ def build_opportunities(
     order = {"live": 0, "unverified": 1, "archived": 2}
     opportunities.sort(key=lambda o: (order[o.verdict], -o.score.total))
     return diversify(opportunities)
+
+
+#: A second subject's unit counts as "also used" only when the listing
+#: matches it this well on its own (semantic term, 0-1). Below it, every
+#: listing would claim a weak second subject.
+CROSS_SUBJECT_MIN = 0.4
+
+
+def cross_subject_partner(
+    best: tuple[ScoreBreakdown, Competency],
+    scored: list[tuple[ScoreBreakdown, Competency]],
+) -> Competency | None:
+    """The strongest unit from ANOTHER subject that this listing also uses.
+
+    Feature 08: work that needs two subjects at once (a DBMS unit and a
+    statistics unit on one data brief) is the clearest proof that a semester
+    is one skill set, not five separate papers. Only for multi-subject
+    uploads - a competency with no `source_course` never pairs. Both units
+    must clear the bar: a strong match plus a weak one is not two subjects.
+    """
+    best_breakdown, best_competency = best
+    if not best_competency.source_course or best_breakdown.semantic < CROSS_SUBJECT_MIN:
+        return None
+    partner: tuple[float, Competency] | None = None
+    for breakdown, competency in scored:
+        if (not competency.source_course
+                or competency.source_course == best_competency.source_course):
+            continue
+        if breakdown.semantic < CROSS_SUBJECT_MIN:
+            continue
+        if partner is None or breakdown.semantic > partner[0]:
+            partner = (breakdown.semantic, competency)
+    return partner[1] if partner else None
 
 
 #: No platform may hold more than this many of the first `DIVERSITY_WINDOW`

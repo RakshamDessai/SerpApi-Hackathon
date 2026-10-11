@@ -15,7 +15,9 @@ from s2s.config import FIXTURE_DIR, Settings
 from s2s.ingest import loader
 from s2s.ingest.loader import IngestError
 from s2s.mesh import adapters as adapter_registry
+from s2s.mesh import serpapi_client
 from s2s.models import Discipline
+from s2s.ship.faculty import StudentDetails
 from s2s.ui import cards
 from s2s import pipeline
 
@@ -62,6 +64,7 @@ def render_sidebar() -> Settings:
 
         if settings.has_serpapi:
             st.success("SerpApi key loaded")
+            render_credit_check(settings.serpapi_key)
 
         st.caption(f"**Search:** {settings.search_mode}")
         st.caption(f"**Extraction:** {settings.extraction_mode}")
@@ -91,11 +94,67 @@ def render_sidebar() -> Settings:
         )
 
         st.divider()
+        st.subheader("Extra searches")
+        st.caption("Each of these spends extra SerpApi credits. The demo "
+                   "presets have no recorded data for them yet.")
+        settings.fresh_queries = st.toggle(
+            "Prefer this year's events",
+            value=settings.fresh_queries,
+            help="Adds the current year to hackathon and competition searches. "
+                 "Search engines index mostly finished events.",
+        )
+        settings.follow_up_pages = st.toggle(
+            "Page 2 for strong platforms",
+            value=settings.follow_up_pages,
+            help="Spends credits left under the cap on page 2 of the platforms "
+                 "whose page 1 links were mostly verified live.",
+        )
+        settings.events = st.toggle(
+            "Events near me (Google Events)",
+            value=settings.events,
+            help="Workshops, meetups and hackathons in your city.",
+        )
+        settings.gap_courses = st.slider(
+            "Free courses for syllabus gaps", 0, 3, settings.gap_courses,
+            help="One YouTube search per gap, for this many gaps.",
+        )
+        city = st.text_input(
+            "Your city", value=settings.city or "",
+            help="Places Google Jobs and Google Events searches. Empty = all India.",
+        )
+        settings.city = city.strip() or None
+
+        st.divider()
+        st.caption("**GitHub issue search:** "
+                   + ("on (free, no credit)" if settings.direct_github else "off"))
+        st.caption("**Kaggle status check:** "
+                   + ("on (your API token)" if settings.has_kaggle
+                      else "off - add KAGGLE_USERNAME and KAGGLE_KEY to .env"))
         active = adapter_registry.active(include_tier_c=settings.include_tier_c)
         st.caption(f"**Open-Mesh:** {len(active)} platforms active "
                    f"of {len(adapter_registry.ADAPTERS)} registered")
 
         return settings
+
+
+@st.cache_data(ttl=300, show_spinner=False)
+def _account(api_key: str) -> dict:
+    return serpapi_client.account(api_key)
+
+
+def render_credit_check(api_key: str) -> None:
+    """Searches left this month. The account endpoint costs no credit."""
+    if st.button("Check credits left", key="credits"):
+        st.session_state["account"] = _account(api_key)
+    account = st.session_state.get("account")
+    if not account:
+        return
+    if "error" in account:
+        st.caption(f"Credit check failed: {account['error']}")
+    else:
+        st.caption(f"**Credits left this month:** {account.get('plan_searches_left')} "
+                   f"of {account.get('searches_per_month')} "
+                   f"({account.get('plan_name')})")
 
 
 # ------------------------------------------------------------- screen 1 -----
@@ -110,7 +169,11 @@ def screen_ingest(settings: Settings) -> None:
             "Start from a preset", ["(upload or paste my own)"] + list(PRESETS)
         )
         uploaded = st.file_uploader(
-            "Or upload a syllabus", type=["pdf", "docx", "txt", "md"]
+            "Or upload your syllabi - one file per subject",
+            type=["pdf", "docx", "txt", "md"],
+            accept_multiple_files=True,
+            help="Upload every subject of your semester to find work that "
+                 "uses two subjects at once.",
         )
         pasted = st.text_area("Or paste the unit list", height=160)
 
@@ -129,14 +192,28 @@ def screen_ingest(settings: Settings) -> None:
             "Semester calibrates task difficulty: a first-year student is "
             "matched to foundational briefs, a final-year student to complex ones."
         )
+        with st.expander("Your details (for the faculty credit report)"):
+            previous = st.session_state.get("student") or StudentDetails()
+            st.session_state["student"] = StudentDetails(
+                name=st.text_input("Name", value=previous.name),
+                roll_number=st.text_input("Roll number", value=previous.roll_number),
+                institution=st.text_input("Institution", value=previous.institution),
+                course=st.text_input("Course", value=previous.course),
+                semester=semester,
+                work_summary=st.text_area("What you did (fill in after the work)",
+                                          value=previous.work_summary),
+                hours_spent=st.text_input("Hours spent", value=previous.hours_spent),
+            )
 
     if not st.button("Find me live work", type="primary", width="stretch"):
         return
 
     # -- load the syllabus -------------------------------------------------
     try:
-        if uploaded is not None:
-            syllabus = loader.from_bytes(uploaded.getvalue(), uploaded.name)
+        if uploaded:
+            syllabus = loader.combine(
+                [loader.from_bytes(f.getvalue(), f.name) for f in uploaded]
+            )
         elif pasted.strip():
             syllabus = loader.from_text(pasted)
         elif preset_name in PRESETS:
@@ -177,6 +254,11 @@ def screen_results() -> None:
     st.subheader("2. Live opportunities")
 
     naive, planned, saved = result.savings
+    if result.syllabus.subjects > 1:
+        cross = sum(1 for o in result.actionable if o.cross_subject)
+        st.caption(f"**{result.syllabus.subjects} subjects** read together · "
+                   f"{cross} listings use two subjects at once")
+
     a, b, c, d = st.columns(4)
     a.metric("Competencies", len(result.competencies))
     b.metric("Searches used", planned, delta=f"-{naive - planned} vs naive",
@@ -281,6 +363,12 @@ def render_gap_report(result: pipeline.PipelineResult) -> None:
                 st.markdown(
                     "**In demand instead:** " + ", ".join(f"`{s}`" for s in gap.suggestions)
                 )
+            if gap.courses:
+                st.markdown(f"**Learn `{gap.suggestions[0]}` free:**")
+                for course in gap.courses:
+                    extra = " · ".join(x for x in (course["channel"], course["length"]) if x)
+                    st.markdown(f"- [{course['title']}]({course['url']})"
+                                + (f" — {extra}" if extra else ""))
 
 
 # ----------------------------------------------------------------- main -----
@@ -358,7 +446,8 @@ def render_dev_tab(settings: Settings) -> None:
     st.caption("Probe SerpApi directly - useful when adding a new adapter.")
 
     engine = st.selectbox(
-        "Engine", ["duckduckgo", "google", "google_light", "google_jobs", "google_scholar"]
+        "Engine", ["duckduckgo", "google", "google_light", "google_jobs",
+                   "google_scholar", "google_events", "youtube"]
     )
     query = st.text_input("Query", value="site:kaggle.com competitions time series")
 

@@ -30,12 +30,23 @@ MAX_PHRASES_PER_DORK = 6
 PHRASES_PER_COMPETENCY = 2
 
 
+#: Engines whose `location` parameter places the search. SerpApi resolves a
+#: free-text location against its Locations API.
+LOCATED_ENGINES = ("google_jobs", "google_events")
+
+
 def choose_platforms(
     competencies: list[Competency],
     max_platforms: int,
     include_tier_c: bool = False,
+    extra: set[str] | None = None,
 ) -> list[tuple[PlatformAdapter, float]]:
-    """Rank eligible platforms by how much of this syllabus they serve."""
+    """Rank eligible platforms by how much of this syllabus they serve.
+
+    Opt-in adapters named in `extra` are added after the affinity choice and
+    do not take a slot from it. The student switched them on, so they always
+    run - and the five chosen platforms stay the same as without them.
+    """
     profile = affinity.discipline_profile(competencies)
 
     scored: list[tuple[PlatformAdapter, float]] = []
@@ -45,7 +56,22 @@ def choose_platforms(
             scored.append((adapter, value))
 
     scored.sort(key=lambda pair: (-pair[1], pair[0].trust, pair[0].key))
-    return scored[:max_platforms]
+    chosen = scored[:max_platforms]
+
+    taken = {adapter.key for adapter, _ in chosen}
+    for key in sorted(extra or ()):
+        adapter = adapter_registry.ADAPTERS.get(key)
+        if adapter is not None and key not in taken:
+            chosen.append((adapter, affinity.score(key, profile)))
+    return chosen
+
+
+def params_for(adapter: PlatformAdapter, city: str | None = None) -> dict:
+    """The adapter's fixed parameters, with the student's city when given."""
+    params = dict(adapter.extra_params)
+    if city and adapter.engine in LOCATED_ENGINES:
+        params["location"] = f"{city.strip()}, India"
+    return params
 
 
 def pack(competencies: list[Competency], per_group: int) -> list[list[Competency]]:
@@ -113,12 +139,19 @@ def plan(
     max_platforms: int = 5,
     terms_per_dork: int = 3,
     include_tier_c: bool = False,
+    extra: set[str] | None = None,
+    year: int | None = None,
+    city: str | None = None,
 ) -> list[Dork]:
-    """Build the run's search plan, never exceeding `credit_cap`."""
+    """Build the run's search plan, never exceeding `credit_cap`.
+
+    `year` goes into the dorks of dated-edition platforms (see
+    `adapters.render_query`). `city` places Google Jobs and Google Events.
+    """
     if not competencies:
         return []
 
-    platforms = choose_platforms(competencies, max_platforms, include_tier_c)
+    platforms = choose_platforms(competencies, max_platforms, include_tier_c, extra)
     groups = pack(competencies, terms_per_dork)
 
     dorks: list[Dork] = []
@@ -141,15 +174,61 @@ def plan(
             dorks.append(
                 Dork(
                     adapter_key=adapter.key,
-                    query=adapter_registry.render_query(adapter, terms),
+                    query=adapter_registry.render_query(adapter, terms, year=year),
                     covers=tuple(group),
                     engine=adapter.engine,
-                    params=dict(adapter.extra_params),
+                    params=params_for(adapter, city),
                     est_cost=1,
                 )
             )
             budget -= 1
     return dorks
+
+
+#: A platform earns its page 2 when at least this share of its page-1
+#: listings verified live, and at least `FOLLOW_UP_MIN_LIVE` of them did.
+FOLLOW_UP_MIN_SHARE = 0.5
+FOLLOW_UP_MIN_LIVE = 2
+
+
+def follow_ups(
+    dorks: list[Dork],
+    verdicts: dict[str, list[str]],
+    next_params: dict[tuple[str, str], dict],
+    budget: int,
+) -> list[Dork]:
+    """Page-2 searches for the platforms that are paying off, within `budget`.
+
+    Credits left under the cap are best spent where page 1 was mostly live:
+    a platform whose index is full of finished events will not improve on
+    page 2. `verdicts` maps adapter key to its page-1 verdicts. `next_params`
+    maps (adapter key, query) to the pagination parameters SerpApi itself
+    returned (`serpapi_pagination.next`), so no offset is guessed here.
+    """
+    def strength(key: str) -> tuple[float, int]:
+        found = verdicts.get(key, [])
+        live = sum(1 for v in found if v == "live")
+        return (live / len(found) if found else 0.0), live
+
+    candidates = []
+    for dork in dorks:
+        share, live = strength(dork.adapter_key)
+        nxt = next_params.get((dork.adapter_key, dork.query))
+        if nxt and share >= FOLLOW_UP_MIN_SHARE and live >= FOLLOW_UP_MIN_LIVE:
+            candidates.append((share, live, dork, nxt))
+
+    candidates.sort(key=lambda c: (-c[0], -c[1], c[2].adapter_key))
+    out: list[Dork] = []
+    for _, _, dork, nxt in candidates[:max(0, budget)]:
+        out.append(Dork(
+            adapter_key=dork.adapter_key,
+            query=dork.query,
+            covers=dork.covers,
+            engine=dork.engine,
+            params={**dork.params, **nxt},
+            est_cost=1,
+        ))
+    return out
 
 
 def naive_cost(competencies: list[Competency], include_tier_c: bool = False) -> int:

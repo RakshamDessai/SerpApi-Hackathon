@@ -22,6 +22,7 @@ from s2s.ground import dedupe, gate
 from s2s.ingest import structure
 from s2s.ingest.loader import RawSyllabus
 from s2s.mesh import cache as cache_module
+from s2s.mesh import github_direct
 from s2s.mesh import planner
 from s2s.mesh.ledger import BudgetLedger
 from s2s.mesh.serpapi_client import SerpApiClient
@@ -31,6 +32,31 @@ from s2s.score import scorer
 log = logging.getLogger(__name__)
 
 ProgressFn = Callable[[str, float], None]
+
+
+#: Most competencies one multi-subject run keeps, whatever the subject count.
+MAX_MULTI_SUBJECT_COMPETENCIES = 10
+
+#: Free GitHub issue searches per run (10 a minute without a token).
+GITHUB_KEYWORDS = 3
+
+
+def _balance_subjects(competencies: list[Competency], limit: int) -> list[Competency]:
+    """Round-robin across subjects, so one strong subject cannot fill the run.
+
+    The extractor ranks by Bloom level; with five subjects, the most practical
+    one would otherwise take every slot.
+    """
+    by_course: dict[str, list[Competency]] = {}
+    for competency in competencies:
+        by_course.setdefault(competency.source_course, []).append(competency)
+    queues = list(by_course.values())
+    out: list[Competency] = []
+    while len(out) < limit and any(queues):
+        for queue in queues:
+            if queue and len(out) < limit:
+                out.append(queue.pop(0))
+    return out
 
 
 def _with_primary_discipline(competency: Competency, stream: Discipline) -> Competency:
@@ -101,6 +127,24 @@ class PipelineResult:
         return naive, planned, 1.0 - planned / naive
 
 
+def plan_searches(competencies: list[Competency], settings: Settings) -> list[Dork]:
+    """Stage 2 with this run's settings.
+
+    Shared with scripts/record_fixtures.py: a fixture is only a cache hit if
+    it was recorded from exactly the plan the app will make.
+    """
+    return planner.plan(
+        competencies,
+        credit_cap=settings.credit_cap,
+        max_platforms=settings.max_platforms,
+        terms_per_dork=settings.terms_per_dork,
+        include_tier_c=settings.include_tier_c,
+        extra={"gevents"} if settings.events else set(),
+        year=datetime.now().year if settings.fresh_queries else None,
+        city=settings.city,
+    )
+
+
 def run(
     syllabus: RawSyllabus,
     settings: Settings,
@@ -128,16 +172,28 @@ def run(
 
     # -- stage 1: extract --------------------------------------------------
     step("Extracting market competencies...", 0.15)
+    subjects = structure.subject_count(tree)
+    limit = settings.max_competencies
+    if subjects > 1:
+        limit = min(MAX_MULTI_SUBJECT_COMPETENCIES, max(limit, 2 * subjects))
     extraction = extract_competencies(
         syllabus,
         tree,
         api_key=settings.anthropic_key,
         semester=semester,
-        limit=settings.max_competencies,
+        # Over-extract for several subjects, then balance below.
+        limit=limit * 3 if subjects > 1 else limit,
     )
     competencies = extraction.competencies
     if extraction.note:
         warnings.append(extraction.note)
+
+    if subjects > 1:
+        competencies = [
+            replace(c, source_course=structure.course_of(tree, c.span_offset))
+            for c in competencies
+        ]
+        competencies = _balance_subjects(competencies, limit)
 
     if stream is not None:
         competencies = [_with_primary_discipline(c, stream) for c in competencies]
@@ -158,13 +214,7 @@ def run(
 
     # -- stage 2: plan -----------------------------------------------------
     step(f"Planning searches for {len(competencies)} competencies...", 0.25)
-    dorks = planner.plan(
-        competencies,
-        credit_cap=settings.credit_cap,
-        max_platforms=settings.max_platforms,
-        terms_per_dork=settings.terms_per_dork,
-        include_tier_c=settings.include_tier_c,
-    )
+    dorks = plan_searches(competencies, settings)
     naive = planner.naive_cost(competencies, include_tier_c=settings.include_tier_c)
 
     platform_count = len({d.adapter_key for d in dorks})
@@ -187,6 +237,19 @@ def run(
         )
         raw.extend(client.run(dork))
 
+    # Free: GitHub's own search returns only issues that are open now. Run
+    # only when the plan chose GitHub, so a Design student never sees it.
+    github_dorks = [d for d in dorks if d.adapter_key == "github"]
+    if settings.direct_github and github_dorks:
+        step("Asking GitHub for open good-first-issues...", 0.66)
+        keywords: list[str] = []
+        for dork in github_dorks:
+            keyword = planner.keyword_for(list(dork.covers))
+            if keyword and keyword not in keywords:
+                keywords.append(keyword)
+        raw.extend(github_direct.search(keywords[:GITHUB_KEYWORDS],
+                                        token=settings.github_token))
+
     raw_count = len(raw)
     if raw_count == 0 and ledger.skipped:
         reasons = {e.note for e in ledger.entries if e.skipped}
@@ -197,15 +260,48 @@ def run(
     deduped = dedupe.dedupe(raw)
 
     step("Verifying links are live...", 0.78)
-    graded = gate.verify(
-        deduped,
-        probe_top_n=settings.probe_top_n,
-        timeout=settings.probe_timeout_s,
-        # Not tied to demo mode: in demo mode 58 of 67 recorded Unstop events
-        # had already finished, and without a probe they rank as if open.
-        enable_probe=settings.probe_top_n > 0,
-    )
+    credentials: dict[str, tuple[str, ...]] = {}
+    if settings.has_kaggle:
+        credentials["kaggle"] = (settings.kaggle_username, settings.kaggle_key)
+    if settings.github_token:
+        credentials["github"] = (settings.github_token,)
+
+    def grade(results: list[RawResult]):
+        return gate.verify(
+            results,
+            probe_top_n=settings.probe_top_n,
+            timeout=settings.probe_timeout_s,
+            # Not tied to demo mode: in demo mode 58 of 67 recorded Unstop
+            # events had already finished, and without a probe they rank as
+            # if open.
+            enable_probe=settings.probe_top_n > 0,
+            credentials=credentials,
+        )
+
+    graded = grade(deduped)
     tier0_dropped = len(deduped) - len(graded)
+
+    # -- stage 3b: page 2 where page 1 paid off ----------------------------
+    if settings.follow_up_pages and ledger.remaining > 0:
+        verdicts: dict[str, list[str]] = {}
+        for result, verdict, _ in graded:
+            if result.provenance == "serpapi":
+                verdicts.setdefault(result.adapter_key, []).append(verdict)
+        extra_dorks = planner.follow_ups(
+            dorks, verdicts, client.next_params, budget=ledger.remaining
+        )
+        if extra_dorks:
+            step(f"Fetching page 2 of {len(extra_dorks)} strong platforms...", 0.84)
+            seen = {dedupe.canonical_url(r.url) for r in deduped}
+            more: list[RawResult] = []
+            for dork in extra_dorks:
+                more.extend(client.run(dork))
+            raw_count += len(more)
+            fresh = [r for r in dedupe.dedupe(more) if dedupe.canonical_url(r.url) not in seen]
+            more_graded = grade(fresh)
+            tier0_dropped += len(fresh) - len(more_graded)
+            graded += more_graded
+            dorks = dorks + extra_dorks
 
     # -- stage 5: score ----------------------------------------------------
     step("Scoring and ranking...", 0.92)
@@ -221,6 +317,12 @@ def run(
     gap_report = gaps_module.build(
         tree, competencies, opportunities, searched=ledger_searched
     )
+
+    # One YouTube search per gap, for the first N gaps only. Each costs a
+    # credit and runs through the same cap and ledger as every other search.
+    if settings.gap_courses > 0 and ledger_searched:
+        for gap in [g for g in gap_report.gaps if g.suggestions][:settings.gap_courses]:
+            gap.courses = client.courses(gap.suggestions[0])
 
     return PipelineResult(
         syllabus=syllabus,

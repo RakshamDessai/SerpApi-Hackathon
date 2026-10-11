@@ -32,6 +32,11 @@ COURSE_RE = re.compile(
     re.IGNORECASE,
 )
 
+#: A hard subject break, written by `loader.combine` between the files of a
+#: multi-subject upload. Unlike "Paper: ...", it closes an open unit: inside
+#: a unit, a "Paper" line is usually body text.
+SUBJECT_RE = re.compile(r"^\s*=+\s*subject\s*:\s*(?P<title>.+?)\s*=*\s*$", re.IGNORECASE)
+
 NOISE_RE = re.compile(
     r"^\s*(?:references?|suggested readings?|text ?books?|reference books?|"
     r"examination|marks|credits?|total|note\s*:|outcomes?|objectives?)\b",
@@ -48,7 +53,7 @@ def _to_int(token: str) -> int | None:
 
 @dataclass
 class CurriculumNode:
-    kind: str                      # "root" | "course" | "semester" | "unit"
+    kind: str                      # "root" | "subject" | "course" | "semester" | "unit"
     label: str
     number: int | None = None
     start: int = 0
@@ -80,6 +85,9 @@ def parse(text: str) -> CurriculumNode:
     current_course: CurriculumNode | None = None
     current_semester: CurriculumNode | None = None
     current_unit: CurriculumNode | None = None
+    #: Set inside a multi-subject upload. Unit labels carry it, so two
+    #: subjects that both have "Unit 1: Introduction" stay distinct.
+    subject: str | None = None
 
     def close(node: CurriculumNode | None, end: int) -> None:
         if node is not None and node.end <= node.start:
@@ -90,6 +98,19 @@ def parse(text: str) -> CurriculumNode:
         if not stripped:
             continue
 
+        subject_match = SUBJECT_RE.match(stripped)
+        if subject_match:
+            for node in (current_unit, current_semester, current_course):
+                close(node, pos)
+            subject = subject_match.group("title").strip()
+            current_course = CurriculumNode(
+                kind="subject", label=subject, start=pos, end=0
+            )
+            current_semester = None
+            current_unit = None
+            root.children.append(current_course)
+            continue
+
         unit_match = UNIT_RE.match(stripped)
         if unit_match and not NOISE_RE.match(stripped):
             number = _to_int(unit_match.group("num"))
@@ -97,6 +118,8 @@ def parse(text: str) -> CurriculumNode:
             label = f"Unit {number}" if number else "Unit"
             if title:
                 label = f"{label}: {title}"
+            if subject:
+                label = f"{subject} · {label}"
 
             close(current_unit, pos)
             current_unit = CurriculumNode(
@@ -123,7 +146,9 @@ def parse(text: str) -> CurriculumNode:
             continue
 
         course_match = COURSE_RE.match(stripped)
-        if course_match and current_unit is None:
+        # Inside a multi-subject upload the subject IS the course; a "Paper:"
+        # line must not open a sibling that would split the subject in two.
+        if course_match and current_unit is None and subject is None:
             close(current_semester, pos)
             close(current_course, pos)
             current_course = CurriculumNode(
@@ -170,6 +195,24 @@ def _fill_ends(node: CurriculumNode, document_end: int) -> None:
         if child.end <= child.start:
             child.end = following
         _fill_ends(child, document_end)
+
+
+def course_of(tree: CurriculumNode, offset: int) -> str:
+    """Label of the subject whose text holds `offset`, or "" if none.
+
+    Only subjects from a multi-subject upload count: a single syllabus's own
+    "Paper: ..." heading is not a second subject.
+    """
+    if offset < 0:
+        return ""
+    for child in tree.children:
+        if child.kind == "subject" and child.start <= offset < child.end:
+            return child.label
+    return ""
+
+
+def subject_count(tree: CurriculumNode) -> int:
+    return sum(1 for child in tree.children if child.kind == "subject")
 
 
 def unit_spans(text: str, tree: CurriculumNode) -> list[tuple[str, str, int]]:

@@ -60,6 +60,10 @@ class Gap:
     detail: str
     best_score: int | None = None
     suggestions: list[str] = field(default_factory=list)
+    #: Free video courses for the first suggestion, from a YouTube search
+    #: the pipeline runs only when Settings.gap_courses allows it.
+    #: [{title, url, channel, length}]
+    courses: list[dict] = field(default_factory=list)
 
     @property
     def label(self) -> str:

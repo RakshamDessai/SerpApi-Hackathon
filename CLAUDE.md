@@ -65,13 +65,15 @@ stage boundaries.
 ## Running it
 
 ```bash
-cd "/Users/saisalelkar/Desktop/serp hack"
+cd <repo root>
 .venv/bin/python -m pytest -q          # tests
+.venv/bin/python scripts/time_demo.py  # time the 5-preset demo (no credits)
 .venv/bin/streamlit run app.py         # the app
 ```
 
 The venv is **Python 3.12** at `.venv/` (system Python is 3.14, which lacks wheels
-for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
+for some pins). Always invoke `.venv/bin/python`, never bare `python3`. Without a
+system 3.12, `uv venv --python 3.12 .venv` downloads one.
 
 ## Hard-won gotchas — do not re-learn these
 
@@ -113,6 +115,16 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
 - **Never get round a bot check.** The link checker identifies itself as
   `S2S-LinkVerifier` (`gate.USER_AGENT`) and scripts use the same identity. A site
   that answers with a CAPTCHA (Kaggle) is `liveness="snippet_only"`: unverified.
+- **Catchafire pages are a JS shell too** (162 KB, no listing data). Liveness
+  comes from `/volunteer/api/details/{id}/` → `is_matching`. All 12 recorded
+  listings probed "live" by page; 9 were closed.
+- **New searches must be opt-in** until recorded: a changed query or param is
+  a new cache key, so every demo fixture misses. Default plan must not change.
+- **Pagination offsets come from `serpapi_pagination.next`**, never computed.
+  DuckDuckGo uses `start=11` after a full page, less after a short one.
+- **`engine=youtube` takes `search_query`, not `q`** (`QUERY_PARAM`).
+- **fpdf2 `multi_cell` leaves the cursor on the right** by default; pass
+  `new_x="LMARGIN", new_y="NEXT"` or the page stacks into one column.
 - **Closed-listing markers:** plain English matches *visible* text only (BeBee
   ships every error string in a script bundle); `"json":tokens` match the raw
   page; `re:` markers are regexes. Prefer a `StatusApi` whenever one exists.
@@ -127,8 +139,10 @@ for some pins). Always invoke `.venv/bin/python`, never bare `python3`.
 
 ## Current status
 
-Phases 0–5 are complete: 370 tests passing, app serving, full pipeline wired,
-and **validated against real SerpApi results** on 2026-10-10. Real responses for
+Phases 0–5 are complete and **validated against real SerpApi results** on
+2026-10-10. Phase 6 (branch `harsh`, 2026-10-11) adds opt-in searches, free
+GitHub/Catchafire/Kaggle verification, multi-subject upload and outreach
+outputs: 433 tests passing. Real responses for
 all five presets are committed in `fixtures/serpapi/`, so demo mode spends no
 credits. The SerpApi key lives in `.env` (git-ignored).
 

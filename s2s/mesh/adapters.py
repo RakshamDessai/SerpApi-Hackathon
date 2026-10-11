@@ -107,6 +107,19 @@ _register(PlatformAdapter(
     query_style="keywords",
     canonical=(r"^https?://(?:www\.)?kaggle\.com/(?:competitions|c)/([\w\-]+).*$",
                r"https://www.kaggle.com/competitions/\1"),
+    year_in_query=True,
+    # Used ONLY with the student's own Kaggle API token (KAGGLE_USERNAME and
+    # KAGGLE_KEY), which is Kaggle's documented, authenticated route - not a
+    # way round the CAPTCHA. Without the token this entry is ignored.
+    # UNVERIFIED shape: from Kaggle's public API docs, not a recorded call.
+    status_api=StatusApi(
+        url="https://www.kaggle.com/api/v1/competitions/list?search={id}",
+        id_re=r"kaggle\.com/competitions/([\w\-]+)",
+        deadline=("deadline",),
+        list_key="ref",
+        auth="kaggle",
+        auth_required=True,
+    ),
 ))
 
 _register(PlatformAdapter(
@@ -136,6 +149,7 @@ _register(PlatformAdapter(
         # A listing can still say STARTED hours after registration shut.
         deadline=("data", "competition", "regnRequirements", "end_regn_dt"),
     ),
+    year_in_query=True,
 ))
 
 _register(PlatformAdapter(
@@ -154,6 +168,7 @@ _register(PlatformAdapter(
     liveness="http_probe",
     gate_markers=("this hackathon has ended", "submissions are closed"),
     query_style="keywords",
+    year_in_query=True,
 ))
 
 _register(PlatformAdapter(
@@ -171,6 +186,7 @@ _register(PlatformAdapter(
     liveness="http_probe",
     gate_markers=("applications closed", "hackathon ended"),
     query_style="keywords",
+    year_in_query=True,
 ))
 
 _register(PlatformAdapter(
@@ -195,6 +211,7 @@ _register(PlatformAdapter(
         id_re=r"github\.com/([\w.\-]+/[\w.\-]+/issues/\d+)",
         path=("state",),
         dead=("CLOSED",),
+        auth="github",                  # optional: 5,000/hour instead of 60
     ),
 ))
 
@@ -222,6 +239,7 @@ _register(PlatformAdapter(
     ),
     query_style="keywords",
     canonical=(r"^(https?://[\w.\-]*drivendata\.org/competitions/\d+/[\w\-]+/?).*$", r"\1"),
+    year_in_query=True,
 ))
 
 # ------------------------------------------------------------- tier B -------
@@ -242,6 +260,17 @@ _register(PlatformAdapter(
     liveness="http_probe",
     gate_markers=("sign in to view", "log in to view", "this project is no longer"),
     query_style="keywords",
+    # OBSERVED 2026-10-11: every listing page is the same ~162 KB JS shell
+    # with no listing data, so page markers never fire and all 12 recorded
+    # listings probed "live". The details API the page itself calls reports
+    # the real state: 9 of the 12 were closed (5 is_completed, 3 is_canceled,
+    # 1 is_matched). `is_matching` was true on exactly the 3 open ones, so it
+    # is the single required signal.
+    status_api=StatusApi(
+        url="https://www.catchafire.org/volunteer/api/details/{id}/",
+        id_re=r"catchafire\.org/volunteer/(\d+)",
+        require=(("is_matching",), True),
+    ),
 ))
 
 # Taproot Plus was REMOVED on 2026-10-10 after live verification, for the same
@@ -401,6 +430,29 @@ _register(PlatformAdapter(
 ))
 
 
+_register(PlatformAdapter(
+    key="gevents",
+    label="Google Events (near you)",
+    engine="google_events",
+    site=None,
+    # Event links go to the organiser's own page (Eventbrite, Meetup, a
+    # college site), so any host is legitimate.
+    url_pattern=r"^https?://",
+    dork="{terms} events",
+    ecosystem="event",
+    compensation="varies",
+    trust="B",
+    liveness="http_probe",
+    gate_markers=("this event has ended", "sales have ended", "event is over"),
+    # `location` is replaced with the student's city when one is given.
+    extra_params={"location": "India", "hl": "en", "gl": "in"},
+    query_style="keywords",
+    # Opt-in (Settings.events): it adds searches, and the five demo presets
+    # have no recorded Google Events responses yet.
+    enabled_by_default=False,
+))
+
+
 # ------------------------------------------------------------- helpers ------
 
 def all_adapters() -> list[PlatformAdapter]:
@@ -411,11 +463,21 @@ def get(key: str) -> PlatformAdapter:
     return ADAPTERS[key]
 
 
-def active(include_tier_c: bool = False, only: set[str] | None = None) -> list[PlatformAdapter]:
-    """Adapters eligible for this run."""
+def active(
+    include_tier_c: bool = False,
+    only: set[str] | None = None,
+    extra: set[str] | None = None,
+) -> list[PlatformAdapter]:
+    """Adapters eligible for this run.
+
+    `extra` switches on opt-in adapters by key (e.g. "gevents").
+    """
     out = []
     for adapter in ADAPTERS.values():
         if only is not None and adapter.key not in only:
+            continue
+        if extra and adapter.key in extra:
+            out.append(adapter)
             continue
         if adapter.trust == "C":
             if not include_tier_c:
@@ -426,12 +488,19 @@ def active(include_tier_c: bool = False, only: set[str] | None = None) -> list[P
     return out
 
 
-def render_query(adapter: PlatformAdapter, phrases: list[str]) -> str:
+def render_query(
+    adapter: PlatformAdapter, phrases: list[str], year: int | None = None
+) -> str:
     """Fill an adapter's dork template from the group's phrases, strongest first.
 
     `or_group` packs every phrase into one quoted OR-group. `keywords` uses
     only the strongest phrase, unquoted: that is the only shape DuckDuckGo
     kept inside a site: scope when measured (see the module docstring).
+
+    `year` is appended for adapters whose listings are dated editions. It is a
+    plain keyword, not a quoted phrase, so the dork keeps the measured shape.
+    Boards stamp the edition year into the title ("Budget Battle - 2026"), and
+    the search engines rank exact title words high.
     """
     phrases = [p.strip() for p in phrases if p.strip()]
     if adapter.query_style == "keywords":
@@ -439,4 +508,6 @@ def render_query(adapter: PlatformAdapter, phrases: list[str]) -> str:
     else:
         terms = " OR ".join(f'"{p}"' for p in phrases)
     query = adapter.dork.format(terms=terms, negatives=NEGATIVES)
+    if year is not None and adapter.year_in_query:
+        query = f"{query} {year}"
     return " ".join(query.split())

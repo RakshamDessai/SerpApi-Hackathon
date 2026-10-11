@@ -6,6 +6,12 @@ stage demo provably cannot spend a credit.
     .venv/bin/python scripts/record_fixtures.py              # all four presets
     .venv/bin/python scripts/record_fixtures.py --dry-run    # show the plan + cost
     .venv/bin/python scripts/record_fixtures.py --only vtu_cse_sem4_dbms
+    S2S_FRESH_QUERIES=true S2S_EVENTS=true .venv/bin/python scripts/record_fixtures.py
+
+The plan comes from `pipeline.plan_searches`, so the S2S_* settings in .env
+(fresh queries, events, city) shape what is recorded, exactly as in the app.
+Page-2 follow-ups and gap courses depend on page-1 results, so they are not
+recorded here: in demo mode they show as skipped searches.
 
 Cost is printed before anything is spent, and `--max-credits` is a hard stop.
 Fixtures are keyed by the same hash the live cache uses, so a recorded response
@@ -24,7 +30,7 @@ sys.path.insert(0, str(ROOT))
 from s2s.config import FIXTURE_DIR, Settings          # noqa: E402
 from s2s.extract import extract_competencies          # noqa: E402
 from s2s.ingest import loader, structure              # noqa: E402
-from s2s.mesh import planner                          # noqa: E402
+from s2s import pipeline                              # noqa: E402
 from s2s.mesh.cache import ResponseCache, cache_key   # noqa: E402
 from s2s.mesh.ledger import BudgetLedger              # noqa: E402
 from s2s.mesh.serpapi_client import SerpApiClient     # noqa: E402
@@ -76,13 +82,7 @@ def main() -> int:
             syllabus, tree, api_key=settings.anthropic_key,
             semester=semester, limit=settings.max_competencies,
         ).competencies
-        dorks = planner.plan(
-            competencies,
-            credit_cap=settings.credit_cap,
-            max_platforms=settings.max_platforms,
-            terms_per_dork=settings.terms_per_dork,
-            include_tier_c=settings.include_tier_c,
-        )
+        dorks = pipeline.plan_searches(competencies, settings)
         plans.append((stem, dorks))
         print(f"{stem}: {len(competencies)} competencies -> {len(dorks)} searches")
 

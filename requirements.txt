@@ -27,5 +27,8 @@ charset-normalizer>=3.3
 # --- SerpApi calls + liveness probe (Grounding Gate tier 2) ---
 requests>=2.32
 
+# --- faculty credit report (PDF, Feature 53). Pure Python, no system libs ---
+fpdf2>=2.7
+
 # --- dev ---
 pytest>=8.0

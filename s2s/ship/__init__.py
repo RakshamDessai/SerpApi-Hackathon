@@ -10,6 +10,8 @@ from s2s.models import Opportunity
 from s2s.ship import blueprint as blueprint_module
 from s2s.ship import bridge as bridge_module
 from s2s.ship import export as export_module
+from s2s.ship import faculty as faculty_module
+from s2s.ship import outreach as outreach_module
 
 
 def prepare(
@@ -37,4 +39,7 @@ def prepare(
     return opportunity
 
 
-__all__ = ["prepare", "bridge_module", "blueprint_module", "export_module"]
+__all__ = [
+    "prepare", "bridge_module", "blueprint_module", "export_module",
+    "faculty_module", "outreach_module",
+]

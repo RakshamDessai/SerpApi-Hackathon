@@ -19,6 +19,14 @@ ENV_PATH = ROOT_DIR / ".env"
 CACHE_DIR = ROOT_DIR / ".cache" / "serpapi"
 FIXTURE_DIR = ROOT_DIR / "fixtures"
 
+#: The one identity every S2S checker uses: the link checker, the GitHub
+#: search and the scripts. A script that posed as a browser could pass a check
+#: the product fails.
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 S2S-LinkVerifier/0.1"
+)
+
 PLACEHOLDERS = {
     "",
     "your_serpapi_api_key_here",
@@ -78,6 +86,35 @@ class Settings:
     # main source of dead links. See BUILD_PLAN.md section 6.
     include_tier_c: bool = False
 
+    # -- features that spend extra SerpApi credits: OFF by default --------
+    # Each one changes or adds searches, so it has no recorded demo fixture
+    # until scripts/record_fixtures.py runs again with it on.
+
+    #: Add the current year to site: keyword dorks, so search engines prefer
+    #: this year's editions over the 58-of-67 finished events they index.
+    fresh_queries: bool = False
+    #: Spend credits left under the cap on page 2 of the platforms whose page 1
+    #: verified mostly live.
+    follow_up_pages: bool = False
+    #: Search Google Events (engine=google_events) near `city`.
+    events: bool = False
+    #: How many Syllabus Gap Report entries get a YouTube course search (one
+    #: credit each).
+    gap_courses: int = 0
+    #: City for Google Jobs and Google Events, e.g. "Pune". None = all India.
+    city: str | None = None
+
+    # -- free sources (no SerpApi credit) ---------------------------------
+
+    #: Ask GitHub's issue search API for open good-first-issues. Free, and
+    #: every result is open at fetch time.
+    direct_github: bool = True
+    github_token: str | None = None
+    #: Kaggle's API needs the student's own token. Without one, Kaggle cards
+    #: stay unverified: we never get round its CAPTCHA.
+    kaggle_username: str | None = None
+    kaggle_key: str | None = None
+
     cache_dir: Path = field(default_factory=lambda: CACHE_DIR)
 
     @classmethod
@@ -98,6 +135,15 @@ class Settings:
             cache_ttl_hours=_env_int("S2S_CACHE_TTL_HOURS", 72),
             include_tier_c=_env_bool("S2S_INCLUDE_TIER_C", False),
             probe_top_n=_env_int("S2S_PROBE_TOP_N", 40),
+            fresh_queries=_env_bool("S2S_FRESH_QUERIES", False),
+            follow_up_pages=_env_bool("S2S_FOLLOW_UP_PAGES", False),
+            events=_env_bool("S2S_EVENTS", False),
+            gap_courses=_env_int("S2S_GAP_COURSES", 0),
+            city=_clean(os.getenv("S2S_CITY")),
+            direct_github=_env_bool("S2S_DIRECT_GITHUB", True),
+            github_token=_clean(os.getenv("GITHUB_TOKEN")),
+            kaggle_username=_clean(os.getenv("KAGGLE_USERNAME")),
+            kaggle_key=_clean(os.getenv("KAGGLE_KEY")),
         )
 
     # -- capability flags used by the UI ----------------------------------
@@ -109,6 +155,10 @@ class Settings:
     @property
     def has_llm(self) -> bool:
         return bool(self.anthropic_key)
+
+    @property
+    def has_kaggle(self) -> bool:
+        return bool(self.kaggle_username and self.kaggle_key)
 
     @property
     def extraction_mode(self) -> str:

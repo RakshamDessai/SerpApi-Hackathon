@@ -186,3 +186,23 @@ def test_no_serpapi_key_is_surfaced_not_hidden():
     at.run()
     errors = " ".join(e.value for e in at.error)
     assert "SerpApi" in errors
+
+
+# ------------------------------------------------- outreach and extras ---
+
+def test_card_offers_application_credit_report_and_post(seeded_cache):
+    at = _run_with_preset()
+    assert not at.exception, [e.value for e in at.exception]
+    body = " ".join(str(m.value) for m in at.markdown)
+    assert "Apply, get credit, share" in body
+    labels = [str(b.label) for b in at.get("download_button")]
+    assert any(".pdf" in label for label in labels), labels
+
+
+def test_extra_searches_are_off_by_default():
+    at = AppTest.from_file(APP, default_timeout=120)
+    at.run()
+    extras = {t.label: t.value for t in at.toggle
+              if t.label in ("Prefer this year's events", "Page 2 for strong platforms",
+                             "Events near me (Google Events)")}
+    assert len(extras) == 3 and not any(extras.values())

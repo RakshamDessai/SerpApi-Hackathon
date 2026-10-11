@@ -35,7 +35,12 @@ RESULT_FIELD = {
     "duckduckgo": "organic_results",
     "google_jobs": "jobs_results",
     "google_scholar": "organic_results",
+    "google_events": "events_results",
+    "youtube": "video_results",
 }
+
+#: Engines that take the query as `search_query`, not `q`.
+QUERY_PARAM = {"youtube": "search_query"}
 
 # "3 days ago", "2 weeks ago", "27 minutes ago"
 RELATIVE_RE = re.compile(
@@ -102,13 +107,19 @@ class SerpApiClient:
         self.ledger = ledger
         self.demo_mode = demo_mode
         self.results_per_search = results_per_search
+        #: (adapter key, query) -> the parameters of SerpApi's own "next page"
+        #: link, read from each response. planner.follow_ups uses it.
+        self.next_params: dict[tuple[str, str], dict] = {}
 
     # -- request building -------------------------------------------------
 
     def build_params(self, dork: Dork) -> dict:
-        if dork.engine == "duckduckgo":
+        if dork.engine in QUERY_PARAM:
+            params: dict = {"engine": dork.engine, QUERY_PARAM[dork.engine]: dork.query,
+                            "hl": "en", "gl": "in"}
+        elif dork.engine == "duckduckgo":
             # DuckDuckGo takes a combined region code and ignores hl/gl/num.
-            params: dict = {"engine": dork.engine, "q": dork.query, "kl": "in-en"}
+            params = {"engine": dork.engine, "q": dork.query, "kl": "in-en"}
         else:
             params = {"engine": dork.engine, "q": dork.query, "hl": "en"}
         if dork.engine in ("google", "google_light"):
@@ -119,36 +130,46 @@ class SerpApiClient:
     # -- execution --------------------------------------------------------
 
     def run(self, dork: Dork) -> list[RawResult]:
+        response = self.fetch(dork)
+        return self._parse(response, dork) if response else []
+
+    def fetch(self, dork: Dork) -> dict | None:
+        """The raw SerpApi response for one dork: cache first, then the API.
+
+        Returns None when nothing usable came back. Every outcome is in the
+        ledger, so a skipped search is never silent.
+        """
         params = self.build_params(dork)
 
         cached = self.cache.get(dork.engine, params)
         if cached is not None:
             self.ledger.record_cached(dork.adapter_key, dork.query)
-            return self._parse(cached, dork)
+            self._remember_next(dork, cached)
+            return cached
 
         if self.demo_mode:
             self.ledger.record_skipped(
                 dork.adapter_key, dork.query, "demo mode: no cached fixture"
             )
-            return []
+            return None
 
         if not self.api_key:
             self.ledger.record_skipped(dork.adapter_key, dork.query, "no SerpApi key")
-            return []
+            return None
 
         if not self.ledger.can_afford(dork.est_cost):
             self.ledger.record_skipped(
                 dork.adapter_key, dork.query, "budget cap reached"
             )
             log.warning("budget cap reached, skipping %s", dork.adapter_key)
-            return []
+            return None
 
         try:
             response = _search({**params, "api_key": self.api_key})
         except Exception as exc:
             self.ledger.record_skipped(dork.adapter_key, dork.query, f"error: {exc}")
             log.warning("SerpApi call failed for %s: %s", dork.adapter_key, exc)
-            return []
+            return None
 
         if "error" in response and EMPTY_RESULT_MARKER in str(response["error"]):
             # A legitimate "nothing matched" answer. SerpApi bills it (observed
@@ -156,18 +177,35 @@ class SerpApiClient:
             # pays again for the same empty query.
             self.ledger.record_live(dork.adapter_key, dork.query, dork.est_cost)
             self.cache.put(dork.engine, params, response)
-            return []
+            return None
 
         if "error" in response:
             self.ledger.record_skipped(
                 dork.adapter_key, dork.query, f"serpapi: {response['error']}"
             )
             log.warning("SerpApi error for %s: %s", dork.adapter_key, response["error"])
-            return []
+            return None
 
         self.ledger.record_live(dork.adapter_key, dork.query, dork.est_cost)
         self.cache.put(dork.engine, params, response)
-        return self._parse(response, dork)
+        self._remember_next(dork, response)
+        return response
+
+    def _remember_next(self, dork: Dork, response: dict) -> None:
+        """Keep the pagination parameters SerpApi itself offers for page 2.
+
+        Read from `serpapi_pagination.next` rather than computed. The offset
+        depends on how many results page 1 held: the recorded DuckDuckGo
+        responses ask for start=11 after a full page, and start=1 to 9 after
+        a short one. Google Jobs pages with a token instead of an offset.
+        """
+        link = (response.get("serpapi_pagination") or {}).get("next")
+        if not link:
+            return
+        query = dict(parse_qsl(urlsplit(link).query))
+        wanted = {k: query[k] for k in ("start", "next_page_token") if k in query}
+        if wanted:
+            self.next_params[(dork.adapter_key, dork.query)] = wanted
 
     # -- parsing ----------------------------------------------------------
 
@@ -182,6 +220,8 @@ class SerpApiClient:
         for item in items:
             if dork.engine == "google_jobs":
                 parsed = self._parse_job(item, dork)
+            elif dork.engine == "google_events":
+                parsed = self._parse_event(item, dork)
             else:
                 parsed = self._parse_organic(item, dork)
             if parsed is not None:
@@ -234,6 +274,87 @@ class SerpApiClient:
             posted_at=parse_posted_at(posted),
             raw=item,
         )
+
+
+    def _parse_event(self, item: dict, dork: Dork) -> RawResult | None:
+        title = item.get("title")
+        url = event_link(item)
+        if not title or not url:
+            return None
+        date = item.get("date") or {}
+        when = date.get("when") or date.get("start_date") or ""
+        venue = (item.get("venue") or {}).get("name")
+        place = venue or ", ".join(item.get("address") or [])
+        # The date and place lead the snippet: they are what a student needs
+        # first, and the card shows the snippet as the brief.
+        parts = [p for p in (when, place, item.get("description") or "") if p]
+        return RawResult(
+            title=title,
+            url=url,
+            snippet=" · ".join(parts)[:600],
+            adapter_key=dork.adapter_key,
+            organization=venue,
+            # An event's date is when it happens, not when it was posted, so
+            # it does not feed freshness scoring.
+            posted_at=None,
+            raw=item,
+        )
+
+    # -- free-course search for the Syllabus Gap Report ---------------------
+
+    def courses(self, skill: str, limit: int = 3) -> list[dict]:
+        """Free video courses for a skill the syllabus does not teach.
+
+        One `youtube` search, cache-first and in the ledger like any other.
+        Returns [{title, url, channel, length}].
+        """
+        dork = Dork(adapter_key="youtube", query=f"{skill} full course",
+                    covers=(), engine="youtube")
+        response = self.fetch(dork) or {}
+        out: list[dict] = []
+        for item in response.get("video_results") or []:
+            link = item.get("link")
+            title = item.get("title")
+            if not link or not title:
+                continue
+            out.append({
+                "title": title,
+                "url": link,
+                "channel": (item.get("channel") or {}).get("name") or "",
+                "length": item.get("length") or "",
+            })
+            if len(out) >= limit:
+                break
+        return out
+
+
+def event_link(item: dict) -> str | None:
+    """The organiser's page for an event, not a Google search URL.
+
+    `link` is usually the organiser's page. When it is a Google URL, the first
+    ticket link that is not Google is used instead.
+    """
+    candidates = [item.get("link")]
+    candidates += [t.get("link") for t in item.get("ticket_info") or []]
+    for candidate in candidates:
+        if candidate and "google." not in urlsplit(candidate).netloc:
+            return _strip_tracking(candidate)
+    return None
+
+
+def account(api_key: str, timeout: float = 20.0) -> dict:
+    """The key's plan and searches left. SerpApi does not bill this call."""
+    import requests
+
+    try:
+        response = requests.get(
+            "https://serpapi.com/account.json",
+            params={"api_key": api_key},
+            timeout=timeout,
+        )
+        return response.json()
+    except Exception as exc:
+        return {"error": str(exc)}
 
 
 def canonical_url(adapter_key: str, url: str) -> str:

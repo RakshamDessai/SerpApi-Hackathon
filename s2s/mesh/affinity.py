@@ -94,6 +94,13 @@ AFFINITY: dict[str, dict[Discipline, float]] = {
         D.DATA_QUANT: 0.6, D.CS_SOFTWARE: 0.4, D.COMMERCE_FINANCE: 0.3,
         D.ENG_MECHANICAL: 0.4, D.MEDIA_COMM: 0.3, D.DESIGN_VISUAL: 0.1,
     },
+    # Workshops, meetups and city hackathons exist for every stream; the
+    # student's city matters more than the discipline.
+    "gevents": {
+        D.CS_SOFTWARE: 0.7, D.DESIGN_VISUAL: 0.6, D.MEDIA_COMM: 0.6,
+        D.COMMERCE_FINANCE: 0.6, D.DATA_QUANT: 0.6, D.ENG_MECHANICAL: 0.6,
+        D.ARTS_HUMANITIES: 0.5, D.LAW_POLICY: 0.5, D.LIFE_SCIENCES: 0.5,
+    },
 }
 
 #: Below this, a platform is not worth a credit for this student.

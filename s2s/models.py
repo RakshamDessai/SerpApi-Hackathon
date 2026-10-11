@@ -68,6 +68,8 @@ class Competency:
     source_unit: str
     source_span: str
     span_offset: int = -1      # char offset into the raw text, -1 if unknown
+    #: The subject (paper) the unit belongs to, when one upload holds several.
+    source_course: str = ""
 
     @property
     def search_phrases(self) -> list[str]:
@@ -90,14 +92,19 @@ class Competency:
 
 # ---------------------------------------------------------------- adapter ---
 
-Engine = Literal["google", "google_light", "duckduckgo", "google_jobs", "google_scholar"]
+Engine = Literal[
+    "google", "google_light", "duckduckgo", "google_jobs", "google_scholar",
+    "google_events", "youtube",
+]
 #: How `{terms}` is filled. See `mesh.adapters.render_query`.
 QueryStyle = Literal["or_group", "keywords"]
 Ecosystem = Literal[
     "ngo_impact", "freelance", "data_challenge",
-    "hackathon", "open_source", "internship", "research",
+    "hackathon", "open_source", "internship", "research", "event",
 ]
-Compensation = Literal["paid", "stipend", "bounty", "volunteer", "prize", "credit_only"]
+Compensation = Literal[
+    "paid", "stipend", "bounty", "volunteer", "prize", "credit_only", "varies",
+]
 TrustTier = Literal["A", "B", "C"]
 LivenessCheck = Literal["url_shape", "http_probe", "snippet_only"]
 
@@ -109,6 +116,7 @@ ECOSYSTEM_LABEL: dict[str, str] = {
     "open_source": "Open Source",
     "internship": "Internship",
     "research": "Research",
+    "event": "Event",
 }
 
 COMPENSATION_LABEL: dict[str, str] = {
@@ -118,6 +126,7 @@ COMPENSATION_LABEL: dict[str, str] = {
     "volunteer": "Volunteer",
     "prize": "Prize",
     "credit_only": "Credit only",
+    "varies": "Varies",
 }
 
 
@@ -139,6 +148,14 @@ class StatusApi:
     #: that were never launched to the public.
     require: tuple[tuple[str | int, ...], object] | None = None
     headers: dict = field(default_factory=dict)
+    #: Name of a credential the gate is given ("kaggle", "github"). With
+    #: `auth_required`, the API is not used at all when the credential is
+    #: missing; otherwise it is sent when present, for a higher rate limit.
+    auth: str | None = None
+    auth_required: bool = False
+    #: When the endpoint answers with a search LIST, the item whose value at
+    #: this key ends with the listing id is the one to read.
+    list_key: str | None = None
 
 
 @dataclass(frozen=True)
@@ -167,6 +184,9 @@ class PlatformAdapter:
     #: (regex, replacement) mapping a listing's subpages onto its main page, so
     #: /competitions/titanic/data and /c/titanic dedupe to one card.
     canonical: tuple[str, str] | None = None
+    #: Listings are dated editions (hackathons, competitions). With
+    #: Settings.fresh_queries, the current year goes into the dork.
+    year_in_query: bool = False
 
 
 # ------------------------------------------------------------------ dork ----
@@ -197,11 +217,14 @@ VERDICT_LABEL: dict[str, str] = {
 #: Where a result's underlying data came from. "serpapi" is the real thing;
 #: "public-api-harvest" means it was fetched directly from the platform so the
 #: demo has something real to show without a key. Never conflate the two.
-Provenance = Literal["serpapi", "public-api-harvest"]
+#: "platform-api" is a free, live query to a platform's own public API at run
+#: time (GitHub issue search) - current by construction, but still not SerpApi.
+Provenance = Literal["serpapi", "public-api-harvest", "platform-api"]
 
 PROVENANCE_LABEL: dict[str, str] = {
     "serpapi": "SerpApi",
     "public-api-harvest": "Harvested directly (not SerpApi)",
+    "platform-api": "Platform API (direct, not SerpApi)",
 }
 
 
@@ -217,6 +240,10 @@ class RawResult:
     posted_at: datetime | None = None
     raw: dict = field(default_factory=dict)
     provenance: Provenance = "serpapi"
+    #: Set when the source itself already proved the listing open at fetch
+    #: time (GitHub's search API with state:open). The gate keeps it rather
+    #: than spending a rate-limited status call to learn the same thing.
+    verdict: Verdict | None = None
 
 
 @dataclass
@@ -283,6 +310,13 @@ class Opportunity:
     bridge: str | None = None
     blueprint: ShipBlueprint | None = None
     star_bullet: str | None = None
+    #: A second unit, from a DIFFERENT subject, that this listing also uses.
+    #: Only set for multi-subject uploads - see score.scorer.CROSS_SUBJECT_MIN.
+    also_competency: Competency | None = None
+
+    @property
+    def cross_subject(self) -> bool:
+        return self.also_competency is not None
 
     @property
     def effort_label(self) -> str:

@@ -29,6 +29,9 @@ ENV_VARS = (
     "SERPAPI_API_KEY", "ANTHROPIC_API_KEY", "S2S_DEMO_MODE", "S2S_CREDIT_CAP",
     "S2S_MAX_PLATFORMS", "S2S_TERMS_PER_DORK", "S2S_MAX_COMPETENCIES",
     "S2S_CACHE_TTL_HOURS", "S2S_INCLUDE_TIER_C", "S2S_PROBE_TOP_N",
+    "S2S_FRESH_QUERIES", "S2S_FOLLOW_UP_PAGES", "S2S_EVENTS", "S2S_GAP_COURSES",
+    "S2S_CITY", "S2S_DIRECT_GITHUB", "GITHUB_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY",
+    "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID",
 )
 
 
@@ -46,6 +49,8 @@ def isolated_env(monkeypatch):
         monkeypatch.delenv(name, raising=False)
     # Link probes are real HTTP; tests that need one call the gate directly.
     monkeypatch.setenv("S2S_PROBE_TOP_N", "0")
+    # The GitHub issue search is real HTTP too.
+    monkeypatch.setenv("S2S_DIRECT_GITHUB", "0")
 
 
 @pytest.fixture

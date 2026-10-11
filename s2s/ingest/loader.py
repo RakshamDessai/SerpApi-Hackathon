@@ -24,6 +24,7 @@ class RawSyllabus:
     text: str
     source: str
     tree: "CurriculumNode | None" = field(default=None)
+    subjects: int = 1
 
     @property
     def char_count(self) -> int:
@@ -117,6 +118,26 @@ def _decode(data: bytes) -> str:
         except UnicodeDecodeError:
             continue
     return data.decode("utf-8", errors="replace")
+
+
+def combine(parts: list[RawSyllabus]) -> RawSyllabus:
+    """One syllabus from several subjects' syllabi (Feature 08).
+
+    Each part is put under a "=== Subject: <name> ===" line, which the
+    structure parser reads as a hard subject break. A single part is returned
+    unchanged, so a one-file upload behaves exactly as before.
+    """
+    if len(parts) == 1:
+        return parts[0]
+    if not parts:
+        raise IngestError("No syllabus files to combine.")
+    blocks = []
+    for part in parts:
+        name = Path(part.source).stem.replace("_", " ").strip() or "Subject"
+        blocks.append(f"=== Subject: {name} ===\n{part.text}")
+    text = "\n\n".join(blocks)
+    return RawSyllabus(text=text, source=" + ".join(p.source for p in parts),
+                       subjects=len(parts))
 
 
 def from_fixture(path: Path) -> RawSyllabus:

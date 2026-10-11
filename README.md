@@ -92,6 +92,9 @@ Open <http://localhost:8501>, pick a preset syllabus, and press
 |---|---|---|
 | `SERPAPI_API_KEY` | Yes, for live search | Run in demo mode against recorded fixtures |
 | `ANTHROPIC_API_KEY` | No | Extraction and the bridge fall back to the heuristic/template path |
+| `GITHUB_TOKEN` | No | GitHub issue search and status checks use the lower anonymous limits |
+| `KAGGLE_USERNAME`, `KAGGLE_KEY` | No | Kaggle cards stay **Unverified** |
+| `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | No | `scripts/daily_alert.py` prints instead of sending |
 
 The heuristic path is **first class, not a stub**. A demo that hard-depends on
 two external APIs has two single points of failure.
@@ -115,7 +118,27 @@ With the conference wifi down it fails soft to **Unverified**.
 
 # Verify url_pattern and the liveness check against live pages (no credits):
 .venv/bin/python scripts/verify_adapters.py
+
+# Time the five-preset demo, link checks included (no credits):
+.venv/bin/python scripts/time_demo.py
 ```
+
+Measured 2026-10-11 on a home connection: 62.6 s for all five presets
+(10 s to 17 s each). Most of it is link checks waiting on slow hosts.
+
+### Extra searches (each spends extra credits, off by default)
+
+| Setting | Sidebar | What it does |
+|---|---|---|
+| `S2S_FRESH_QUERIES` | Prefer this year's events | Adds the current year to hackathon and competition searches, so the engines prefer this year's editions. |
+| `S2S_FOLLOW_UP_PAGES` | Page 2 for strong platforms | Spends credits left under the cap on page 2 of the platforms whose page 1 verified mostly live. The offset comes from SerpApi's own `serpapi_pagination.next` link. |
+| `S2S_EVENTS` | Events near me | `engine=google_events`: workshops, meetups and hackathons in your city. |
+| `S2S_GAP_COURSES` | Free courses for syllabus gaps | `engine=youtube`: one free-course search per Gap Report entry. |
+| `S2S_CITY` | Your city | Places Google Jobs and Google Events. |
+
+None of these has recorded demo data yet, so in demo mode their searches show
+as skipped. To record them, set them in `.env` and run
+`scripts/record_fixtures.py` (it plans with the same settings as the app).
 
 ---
 
@@ -130,7 +153,7 @@ end up demoing 404s.
 | **A** | Kaggle, Unstop, Devpost, Devfolio, GitHub, DrivenData | Stable URLs, public detail pages. Build on these. |
 | **B** | Catchafire, Idealist, Zooniverse | Indexed but partly gated. Included, labelled honestly. |
 | **C** | Upwork, Freelancer, Contra | Login-gated and routinely stale. **Opt-in only.** |
-| **D** | Google Jobs (India), Google Scholar | A different SerpApi engine, not a `site:` query. |
+| **D** | Google Jobs (India), Google Scholar, Google Events (opt-in) | A different SerpApi engine, not a `site:` query. |
 
 Google Jobs cards link to the posting on its own board (Unstop, Internshala,
 LinkedIn…), taken from `apply_options` and preferring the original board over
@@ -143,8 +166,14 @@ Removed after live checks: **VolunteerMatch** and **Taproot Plus** — both now
 redirect to another site, so every result would be archived.
 
 SerpApi engines used: `duckduckgo` for every `site:` platform (see below),
-`google_jobs` with India-scoped `chips=date_posted:week`, and `google_scholar`
-with a publication-year floor.
+`google_jobs` with India-scoped `chips=date_posted:week`, `google_scholar`
+with a publication-year floor, and, when switched on, `google_events` near the
+student's city and `youtube` for free courses in the Gap Report.
+
+**GitHub, free and direct.** For a CS syllabus, S2S also asks GitHub's own issue
+search for `"<skill>" label:"good first issue","help wanted" state:open
+no:assignee`. That costs no SerpApi credit, and every result is open when it is
+fetched. These cards say **Platform API (direct, not SerpApi)**.
 
 ### What the first real SerpApi run taught us
 
@@ -192,9 +221,10 @@ endpoint reports `reg_status: FINISHED`, so the gate asks it instead.
 |---|---|---|
 | Unstop | public status API (`reg_status`, `end_regn_dt`) | Every page is the same JS shell |
 | GitHub | REST API (`state`) | The page embeds linked PRs' states: an open issue with closed PRs read as closed |
+| Catchafire | the details API its own page calls (`is_matching`) | Every page is the same 162 KB JS shell. All 12 recorded listings probed "live"; the API showed **9 of 12 were closed** (5 completed, 3 cancelled, 1 matched). |
 | Zooniverse | public API (`state`, `launch_approved`) | Paused and never-launched projects look normal on the page |
 | DrivenData | page text "Completed Sep 2026" | Precise once month and year are attached |
-| Kaggle | **not probed** — snippet wording and title year only | Page is a JS shell; the API needs a login and answers our checker with a CAPTCHA. We do not get round bot checks, so Kaggle cards show **Unverified**. |
+| Kaggle | **not probed** — snippet wording and title year only. With the student's own `KAGGLE_USERNAME` / `KAGGLE_KEY`, Kaggle's documented API gives the deadline. | Page is a JS shell; the web endpoint answers our checker with a CAPTCHA. We do not get round bot checks, so without a token Kaggle cards show **Unverified**. |
 
 Plain-English "closed" phrases are matched against **visible text only**. BeBee
 ships every error string in a script bundle on every job page, so a raw-page
@@ -246,6 +276,42 @@ from a matcher into evidence that a curriculum has drifted from the market.
 
 If no search actually ran, the report says so rather than blaming the curriculum.
 
+With `S2S_GAP_COURSES` on, each gap also lists free YouTube courses for the
+skill that is in demand instead.
+
+---
+
+## Several subjects at once
+
+Upload one file per subject. S2S reads them as one semester, keeps each unit
+labelled with its subject, and shares the competency slots between subjects.
+A listing that clearly uses units from **two different subjects** gets a
+**Uses two subjects** badge and quotes both units. Both units must match the
+listing well on their own; a strong match plus a weak one is not claimed.
+
+---
+
+## Apply, get credit, share
+
+Every card has three more outputs. All are templates filled from data S2S
+already holds, and all quote the same verbatim syllabus text as the bridge.
+
+| Output | For | Notes |
+|---|---|---|
+| Application message | The organisation | Names the listing, the unit, one verbatim syllabus line, the tools and a first step. |
+| Faculty credit report (PDF) | Your professor | One page to ask for internal practical marks: the work, the unit text, how the listing was checked, and a signature block. Fields only the student knows are marked as written by the student. |
+| LinkedIn post | Your network | Past tense, for after the work is delivered. |
+
+### Daily alert
+
+```bash
+.venv/bin/python scripts/daily_alert.py my_syllabus.pdf --semester 4 --dry-run
+```
+
+Runs the pipeline and sends only **new live** listings, to Telegram when
+`TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are set. One run costs what one
+click costs (8 to 10 searches). On the free plan, use `--every 2` or more.
+
 ---
 
 ## Project layout
@@ -260,8 +326,9 @@ s2s/
 ├── mesh/              # adapters, affinity, planner, cache, ledger, SerpApi
 ├── ground/            # liveness gate, dedupe
 ├── score/             # the four weighted terms, derived signals
-├── ship/              # bridge, blueprint, STAR bullet, case study
-├── analyze/           # gap report
+├── ship/              # bridge, blueprint, STAR bullet, case study,
+│                      # application message, LinkedIn post, faculty PDF
+├── analyze/           # gap report, daily-alert diff
 └── ui/                # card rendering (the only Streamlit importer)
 ```
 
@@ -273,7 +340,7 @@ an API without change.
 ## Tests
 
 ```bash
-.venv/bin/python -m pytest        # 370 passed, 4 skipped
+.venv/bin/python -m pytest        # 433 passed, 6 skipped
 ```
 
 Covering registry integrity, the budget cap as a safety property, every scoring
